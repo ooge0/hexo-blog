@@ -113,7 +113,7 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <ol>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
 <li>Headers<br>Markdown supports six levels of headers, which are defined using the # symbol.</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Header 1</span><br><span class="line">## Header 2</span><br><span class="line">### Header 3</span><br><span class="line">#### Header 4</span><br><span class="line">##### Header 5</span><br><span class="line">###### Header 6</span><br></pre></td></tr></table></figure>
@@ -212,14 +212,13 @@
 <ol start="11">
 <li>Footnotes<br>Create footnotes for additional information.</li>
 </ol>
-<p>Here is a sentence with a footnote.[^1]</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[^1]: This is the footnote.</span><br></pre></td></tr></table></figure>
-<p>[^1]: This is the footnote.</p>
-<ol start="12">
-<li>Colored Text (HTML)</li>
-</ol>
-<p>Markdown doesn’t support colored text natively, but you can use HTML for that.</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;span style=&quot;color: red;&quot;&gt;This text is red.&lt;/span&gt;</span><br></pre></td></tr></table></figure>
+<p>Here is a sentence with a footnote.<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="This is the footnote.">[1]</span></a></sup></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">
+
+12.    Colored Text (HTML)
+Markdown doesn't support colored text natively, but you can use HTML for that.
+
+<hexoPostRenderCodeBlock><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;span style=&quot;color: red;&quot;&gt;This text is red.&lt;/span&gt;</span><br></pre></td></tr></table></figure>
 <p><span style="color: red;">This text is red.</span></p>
 <ol start="13">
 <li>Comments (HTML)<br>You can add comments that won’t appear in the rendered document.</li>
@@ -252,12 +251,12 @@
 <li>Escaping Characters<br>If you need to display a character that Markdown uses for formatting, you can escape it with a backslash.</li>
 </ol>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\*This text will not be italicized\*</span><br></pre></td></tr></table></figure>
-<p>*This text will not be italicized*</p>
+<p>*This text will not be italicized*<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">This is the footnote.</span><br></pre></td></tr></table></figure></hexoPostRenderCodeBlock><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">This is the footnote.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/2024/10/21/tutorials/markdown_tutorial_1/" data-id="cm2tp7k66001cfckk2wmi5vw8" data-title="MarkDowm tutorial" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/10/21/tutorials/markdown_tutorial_1/" data-id="cm2vpxyve001f4okkajp9gt9l" data-title="MarkDowm tutorial" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -279,9 +278,9 @@
     </a>
   
   
-    <a href="/hexo-blog/about-me/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/hexo-blog/2024/10/21/tutorials/markdown_tutorial_2/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">About me</div>
+      <div class="article-nav-title">MarkDowm tutorial-2</div>
     </a>
   
 </nav>
@@ -318,7 +317,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/hexo-blog/tags/HEXO-IO/" style="font-size: 15px;">HEXO.IO</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 12.5px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/all-tags/" style="font-size: 10px;">all_tags</a> <a href="/hexo-blog/tags/blog/" style="font-size: 17.5px;">blog</a> <a href="/hexo-blog/tags/blogs/" style="font-size: 12.5px;">blogs</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 10px;">hexo_io</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 12.5px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.5px;">md_format</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 12.5px;">my_contribution</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.5px;">note</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a>
+      <a href="/hexo-blog/tags/HEXO-IO/" style="font-size: 17.5px;">HEXO.IO</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 12.5px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/all-tags/" style="font-size: 10px;">all_tags</a> <a href="/hexo-blog/tags/blog/" style="font-size: 17.5px;">blog</a> <a href="/hexo-blog/tags/blogs/" style="font-size: 12.5px;">blogs</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 10px;">hexo_io</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 12.5px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.5px;">md_format</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 15px;">my_contribution</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.5px;">note</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a>
     </div>
   </div>
 
@@ -327,7 +326,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
     </div>
   </div>
 
@@ -340,7 +339,11 @@
       <ul>
         
           <li>
-            <a href="/hexo-blog/2024/10/28/tutorials/HEXO.IO_layout_changes/">HEXIO.IO layout improvements</a>
+            <a href="/hexo-blog/2024/10/29/notes/favorite_books/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/hexo-layout-improvements/">HEXIO.IO layout improvements</a>
           </li>
         
           <li>
@@ -353,10 +356,6 @@
         
           <li>
             <a href="/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/">Cheatsheet list</a>
-          </li>
-        
-          <li>
-            <a href="/hexo-blog/2024/10/21/maintanance/blog_statistics/">stats</a>
           </li>
         
       </ul>
