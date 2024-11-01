@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>Tag: note | &#39;⌐(ಠ۾ಠ)¬&#39;</title>
+  <title>Sitemap | &#39;⌐(ಠ۾ಠ)¬&#39;</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="description" content="Personal blog where you can find a lot of information about me and my projects">
+  <meta name="description" content="Sitemap Posts                                 Categories">
 <meta property="og:type" content="website">
-<meta property="og:title" content="&#39;⌐(ಠ۾ಠ)¬&#39;">
-<meta property="og:url" content="https://ooge0.github.io/hexo-blog/tags/note/index.html">
+<meta property="og:title" content="Sitemap">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/sitemap/index.html">
 <meta property="og:site_name" content="&#39;⌐(ಠ۾ಠ)¬&#39;">
-<meta property="og:description" content="Personal blog where you can find a lot of information about me and my projects">
+<meta property="og:description" content="Sitemap Posts                                 Categories">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-11-01T10:00:00.000Z">
+<meta property="article:modified_time" content="2024-11-01T09:31:07.263Z">
 <meta property="article:author" content="si0n4ra">
 <meta name="twitter:card" content="summary">
   
@@ -81,58 +83,67 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/hexo-blog/archives/2024" class="archive-year">2024</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-10-20T21:00:00.000Z" itemprop="datePublished">Oct 21</time>
+        <section id="main"><article id="sitemap-" class="h-entry article article-type-sitemap" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/sitemap/index.html" class="article-date">
+  <time class="dt-published" datetime="2024-11-01T10:00:00.000Z" itemprop="datePublished">2024-11-01</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/">HEXO blog design</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Sitemap
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-10-20T21:00:00.000Z" itemprop="datePublished">Oct 21</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/">Moving from old blog site</a>
-    </h1>
-  
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1>Sitemap</h1>
+<h2>Posts</h2>
+<ul>
+    <% page.posts.each(function(post){ %>
+    <li>
+        <a href="<%= post.permalink %>"><%= post.title %></a>
+    </li>
+    <% }); %>
+</ul>
 
-    </header>
+<h2>Categories</h2>
+<ul>
+    <% page.categories.each(function(category){ %>
+    <li>
+        <a href="<%= category.permalink %>"><%= category.name %></a>
+        <ul>
+        <% category.posts.each(function(post){ %>
+            <li>
+                <a href="<%= post.permalink %>"><%= post.title %></a>
+            </li>
+        <% }); %>
+        </ul>
+    </li>
+    <% }); %>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/sitemap/index.html" data-id="cm2ymw0vl0000y4kkcsm3cncf" data-title="Sitemap" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
   </div>
+  
+    
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>

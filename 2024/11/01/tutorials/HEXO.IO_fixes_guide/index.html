@@ -8,15 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="description" content="For making changes in blog design default configuration of HEXO.IO and installed themed require additional configuration.  Below  is a list of changes and improvements.  Moving side panel to the left">
+  <meta name="description" content="For making changes in blog design:  default configuration of HEXO.IO  installed themed require additional configuration.   Below  is a list of changes and improvements.  Moving side panel to the left">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HEXIO.IO fixes guide">
 <meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/index.html">
 <meta property="og:site_name" content="&#39;⌐(ಠ۾ಠ)¬&#39;">
-<meta property="og:description" content="For making changes in blog design default configuration of HEXO.IO and installed themed require additional configuration.  Below  is a list of changes and improvements.  Moving side panel to the left">
+<meta property="og:description" content="For making changes in blog design:  default configuration of HEXO.IO  installed themed require additional configuration.   Below  is a list of changes and improvements.  Moving side panel to the left">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-11-01T07:22:44.472Z">
-<meta property="article:modified_time" content="2024-11-01T07:45:31.063Z">
+<meta property="article:modified_time" content="2024-11-01T09:37:06.229Z">
 <meta property="article:author" content="si0n4ra">
 <meta property="article:tag" content="tutorial">
 <meta property="article:tag" content="hexo_io">
@@ -112,26 +112,61 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design default configuration of HEXO.IO and installed themed require additional configuration. </p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design:</p>
+<ul>
+<li>default configuration of HEXO.IO </li>
+<li>installed themed require additional configuration.</li>
+</ul>
+<hr>
 <p>Below  is a list of changes and improvements.</p>
 <ol>
-<li><p>Moving side panel to the left side.</p>
+<li><p><strong>Moving side panel to the left side.</strong></p>
 <p>Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
 </li>
-<li><p>Removing(hide) <code>Search</code> form on the header<br>Edite <code>\themes\landscape\layout\_partial\header.ejs</code> and comment </p>
+<li><p><strong>Removing(hide) <code>Search</code> form on the header</strong><br>Edite <code>\themes\landscape\layout\_partial\header.ejs</code> and comment </p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure>
 <p>and </p>
  <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></li>
-<li><p>Changes project structure. Adding separate folders for posts.</p>
+<li><p><strong>Changes project structure. If blog published not iun the root of GitHub</strong></p>
 </li>
 </ol>
+<p> If HEXO.IO project will be publoished not in teh root of GitHub , the _comfig.yaml should be updated. </p>
 <p> Aftrer changes the project structure and making different folders inside the <code>_post</code> folder the blog navigation may not work.<br> Issue is related to at least to sides:<br>    1. When post item has dedicated <code>permalink</code>, project ingine for some reason (if post published no wtih <code>root</code>) conflict of </p>
-<p>1. </p>
+<ol start="4">
+<li><strong>Sitemap for the blog.</strong><ul>
+<li><p><strong>Install the Sitemap Plugin</strong></p>
+<p>   In your Hexo project directory, run the following command to install hexo-generator-sitemap:</p>
+   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<p>   This will add the sitemap generator plugin to your project, which automatically generates a sitemap.xml file each time you build your site.</p>
+</li>
+<li><p><strong>Configure _config.yml</strong></p>
+<p>   Open your Hexo <code>_config.yml</code> file (this is the main configuration file in the root directory, not in the theme folder), and add the following configuration under the sitemap settings:</p>
+   <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
+<p>   By default, this will create a sitemap.xml file in the root of your site’s output (public&#x2F;) directory.</p>
+</li>
+<li><p><strong>(Optional) Add the Sitemap URL to robots.txt</strong></p>
+<p>   To help search engines find your sitemap, add its URL to a robots.txt file if you haven’t done so already. Here’s how:</p>
+<p>   If you already have a robots.txt file configured, just add this line to it:</p>
+   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sitemap: https://your-hexo-site.com/sitemap.xml</span><br></pre></td></tr></table></figure>
+<p>   If you don’t have a robots.txt file, you can create one in source&#x2F;robots.txt, and then add the line above with your site URL.</p>
+</li>
+<li><p><strong>Generate and Deploy</strong></p>
+<p>   Run the following commands to generate your site and deploy it:</p>
+   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bash</span><br><span class="line">hexo clean ; hexo generate ;hexo deploy</span><br></pre></td></tr></table></figure>
+<p>   After deploying, your sitemap should be accessible at <a target="_blank" rel="noopener" href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a>.</p>
+</li>
+<li><p><strong>Verifying the Sitemap</strong></p>
+<p>   Visit <a target="_blank" rel="noopener" href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a> in your browser to confirm the sitemap is generated and accessible.<br>   Submit your sitemap to Google Search Console or other search engine webmaster tools for better indexing.</p>
+</li>
+</ul>
+</li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/" data-id="cm2yig3b40013eskkc7qzh2cs" data-title="HEXIO.IO fixes guide" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/" data-id="cm2ymw0wb001iy4kk80v5e42o" data-title="HEXIO.IO fixes guide" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -142,6 +177,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/11/01/maintanance/sitemap/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Sitemap
+        
+      </div>
+    </a>
   
   
     <a href="/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/" id="article-nav-older" class="article-nav-link-wrap">
@@ -163,7 +207,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Site-statistics/">Site statistics</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a></li></ul>
     </div>
   </div>
 
@@ -173,7 +217,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/about-me/" rel="tag">about_me</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/acsii/" rel="tag">acsii</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/blog/" rel="tag">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/books/" rel="tag">books</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/cheatsheets/" rel="tag">cheatsheets</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/cmd/" rel="tag">cmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/examples/" rel="tag">examples</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/hexo-io/" rel="tag">hexo_io</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/info/" rel="tag">info</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/markdown/" rel="tag">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/md-format/" rel="tag">md_format</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-contribution/" rel="tag">my_contribution</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-linkedin-post/" rel="tag">my_linkedin_post</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-medium-post/" rel="tag">my_medium_post</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-porjects/" rel="tag">my_porjects</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/note/" rel="tag">note</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/statistics/" rel="tag">statistics</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/tutorial/" rel="tag">tutorial</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/usb/" rel="tag">usb</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/about-me/" rel="tag">about_me</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/acsii/" rel="tag">acsii</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/blog/" rel="tag">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/books/" rel="tag">books</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/cheatsheets/" rel="tag">cheatsheets</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/cmd/" rel="tag">cmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/examples/" rel="tag">examples</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/hexo-io/" rel="tag">hexo_io</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/info/" rel="tag">info</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/markdown/" rel="tag">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/md-format/" rel="tag">md_format</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-contribution/" rel="tag">my_contribution</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-linkedin-post/" rel="tag">my_linkedin_post</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-medium-post/" rel="tag">my_medium_post</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/my-porjects/" rel="tag">my_porjects</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/note/" rel="tag">note</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/statistics/" rel="tag">statistics</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/tags/" rel="tag">tags</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/tutorial/" rel="tag">tutorial</a></li><li class="tag-list-item"><a class="tag-list-link" href="/hexo-blog/tags/usb/" rel="tag">usb</a></li></ul>
     </div>
   </div>
 
@@ -183,7 +227,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/blog/" style="font-size: 17.5px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 17.5px;">hexo_io</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.5px;">md_format</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 15px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.5px;">note</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a>
+      <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/blog/" style="font-size: 17.5px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 17.5px;">hexo_io</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.5px;">md_format</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 15px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.5px;">note</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a>
     </div>
   </div>
 
@@ -205,6 +249,10 @@
       <ul>
         
           <li>
+            <a href="/hexo-blog/2024/11/01/maintanance/sitemap/">Sitemap</a>
+          </li>
+        
+          <li>
             <a href="/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/">HEXIO.IO fixes guide</a>
           </li>
         
@@ -218,10 +266,6 @@
         
           <li>
             <a href="/hexo-blog/2024/10/28/posts/acsii_graphics/">ASCII art</a>
-          </li>
-        
-          <li>
-            <a href="/hexo-blog/2024/10/22/tutorials/HEXO.IO_installation_guide/">HEXIO.IO instalation guide</a>
           </li>
         
       </ul>
