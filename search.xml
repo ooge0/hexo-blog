@@ -76,12 +76,12 @@
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
 <ul>
-<li><a href="/categories/Personal-information/">Personal information</a></li>
-<li><a href="/categories/My-contribution/">My contribution</a></li>
-<li><a href="/categories/Posts/">Posts</a></li>
-<li><a href="/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/categories/Notes/">Notes</a></li>
-<li><a href="/categories/site-statistics/">Site statistics</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/site-statistics/">Site statistics</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -135,6 +135,227 @@
     <title>tags</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO blog design</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site</p>
+<p>Header</p>
+<ul>
+<li>Navigation menu:<ul>
+<li>Menu items:<ul>
+<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
+<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Main body</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
+<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
+</ul>
+<p>Side panel</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
+<li><input checked="" disabled="" type="checkbox"> Categories</li>
+<li><input checked="" disabled="" type="checkbox"> Tags</li>
+<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
+<li><input checked="" disabled="" type="checkbox"> Archives</li>
+<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
+</ul>
+<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type “list disk” and press <code>↵ Enter</code>.</li>
+<li>Type “select disk [Your disk]” and press <code>↵ Enter</code>. </li>
+<li>Type “clean” and press <code>↵ Enter</code>. </li>
+<li>Type “create partition primary” and press <code>↵ Enter</code>.</li>
+<li>Type “format fs&#x3D;ntfs” and press <code>↵ Enter</code>.</li>
+<li>Type “assign letter&#x3D;[letter]” and press <code>↵ Enter</code>. </li>
+<li>Type “exit” and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Info data</title>
+    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
+<div class="sitemap_content">
+    <ul>
+        <li>
+            <iframe
+                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                frameborder="0" width="216" height="60"></iframe>
+        </li>
+        <li>
+        <li>
+            <hr>
+            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
+            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
+        </li>
+        <li>
+            <hr>
+            <h2>Satellite observations</h2>
+            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
+            <hr>
+        </li>
+        <li>
+            <h3>Solar Flares and Storms Warnings for Today</h3>
+            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
+                height="300px"></iframe>
+        </li>
+        <hr>
+        <h3>Forecast platforms</h3>
+        </li>
+        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
+                FORECAST</a>
+        </li>
+        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
+        </li>
+        <li>foreca.com
+            <ul>
+                <li>
+                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
+                        Ukraine,
+                        Sumy</a>
+                </li>
+                <li>
+                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
+                        Kyiv</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
+                Network / European space agency.</a></li>
+        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
+    </ul>
+</div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite movies</title>
+    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
+<p><a href="#Takedown">Takedown</a></p>
+<p><a href="#footnotes">footnotes</a></p>
+<hr>
+<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
+<li>Initial reliese: 2000</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
+<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
+<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
+">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
+">[2]</span></a></sup></li>
+</ul>
+<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+      </tags>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -429,227 +650,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO blog design</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site</p>
-<p>Header</p>
-<ul>
-<li>Navigation menu:<ul>
-<li>Menu items:<ul>
-<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
-<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Main body</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
-<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
-</ul>
-<p>Side panel</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
-<li><input checked="" disabled="" type="checkbox"> Categories</li>
-<li><input checked="" disabled="" type="checkbox"> Tags</li>
-<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
-<li><input checked="" disabled="" type="checkbox"> Archives</li>
-<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
-</ul>
-<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Info data</title>
-    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
-<div class="sitemap_content">
-    <ul>
-        <li>
-            <iframe
-                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                frameborder="0" width="216" height="60"></iframe>
-        </li>
-        <li>
-        <li>
-            <hr>
-            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
-            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
-        </li>
-        <li>
-            <hr>
-            <h2>Satellite observations</h2>
-            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
-            <hr>
-        </li>
-        <li>
-            <h3>Solar Flares and Storms Warnings for Today</h3>
-            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
-                height="300px"></iframe>
-        </li>
-        <hr>
-        <h3>Forecast platforms</h3>
-        </li>
-        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
-                FORECAST</a>
-        </li>
-        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
-        </li>
-        <li>foreca.com
-            <ul>
-                <li>
-                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
-                        Ukraine,
-                        Sumy</a>
-                </li>
-                <li>
-                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
-                        Kyiv</a>
-                </li>
-            </ul>
-        </li>
-        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
-                Network / European space agency.</a></li>
-        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
-    </ul>
-</div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type “list disk” and press <code>↵ Enter</code>.</li>
-<li>Type “select disk [Your disk]” and press <code>↵ Enter</code>. </li>
-<li>Type “clean” and press <code>↵ Enter</code>. </li>
-<li>Type “create partition primary” and press <code>↵ Enter</code>.</li>
-<li>Type “format fs&#x3D;ntfs” and press <code>↵ Enter</code>.</li>
-<li>Type “assign letter&#x3D;[letter]” and press <code>↵ Enter</code>. </li>
-<li>Type “exit” and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite movies</title>
-    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
-<p><a href="#Takedown">Takedown</a></p>
-<p><a href="#footnotes">footnotes</a></p>
-<hr>
-<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
-<li>Initial reliese: 2000</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
-<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
-<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
-">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
-">[2]</span></a></sup></li>
-</ul>
-<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ASCII art</title>
     <url>/hexo-blog/2024/10/28/posts/acsii_graphics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -847,6 +847,23 @@
       </tags>
   </entry>
   <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXIO.IO layout improvements</title>
     <url>/hexo-blog//hexo-layout-improvements/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong><br><a href="#Decreasing-size-of-main-body-area">Decreasing size of main body area</a></p>
@@ -910,23 +927,6 @@
         <tag>tutorial</tag>
         <tag>hexo_io</tag>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
       </tags>
   </entry>
   <entry>
