@@ -43,7 +43,7 @@
 <ul>
 <li>ISTQB® Certified Tester - Foundation Level</li>
 <li>Extensive experience in manual and automated testing utilizing different methodologies.</li>
-<li>Proficient in various tools and technologies (JIRA, Azure DevOps, Postman, Selenium, etc.) Full list of tools that I’m using in my daily works is <a href="my_contribution/my-tools/">here</a></li>
+<li>Proficient in various tools and technologies (JIRA, Azure DevOps, Postman, Selenium, etc.) Full list of tools that I’m using in my daily works is <a href="hexo-blog/my_contribution/my-tools/">here</a></li>
 <li>Experience in building and maintaining test automation frameworks</li>
 <li>Strong communication and collaboration skills</li>
 <li>Passionate about learning new technologies (e.g., AI)</li>
@@ -174,6 +174,63 @@
       </categories>
   </entry>
   <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong></p>
+<ul>
+<li><a href="#ooge0githubio">ooge0.github.io</a></li>
+<li><a href="#python_ta_web_api_framework">python_TA_web_api_framework</a></li>
+<li><a href="#api-tests-for-petstoreswaggerio">API tests for petstore.swagger.io</a></li>
+<li><a href="#test-automation-framework-based-on-restassured-test-framework">Test automation framework based on RestAssured test framework.</a></li>
+<li><a href="#kafka-app-demo">kafka-app-demo</a></li>
+<li><a href="#appium-frameworkextended">Appium FrameworkExtended</a></li>
+<li><a href="#appium-framework-pet-project">Appium framework (pet project)</a></li>
+<li><a href="#sslv_gherkin_java">ssLv_Gherkin_JAVA</a></li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files. Contains a template for a hybrid test automation framework for UI and API testing.</em> Thus project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -244,7 +301,7 @@
   </entry>
   <entry>
     <title>My tools</title>
-    <url>/hexo-blog//hexo-blog/my_contribution/my-tools/</url>
+    <url>/hexo-blog//my_contribution/my-tools/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong><br>  <a href="#daily-apps">Daily apps</a><br>  <a href="#messangers">Messangers</a><br>  <a href="#api-tools">API tools</a><br>  <a href="#db-manager">DB manager</a><br>  <a href="#proxy-tools">Proxy tools</a><br>  <a href="#message-broker">Message broker</a><br>  <a href="#project-management-tools">Project management tools </a><br>  <a href="#cloud-virtual-machines">Cloud virtual machines </a><br>  <a href="#virtual-box">Virtual Box </a><br>  <a href="#monitoring-tools">Monitoring tools </a><br>  <a href="#ocr-services">OCR services </a><br>  <a href="#temporary-email-services">Temporary Email Services </a></p>
 <hr>
 <h1 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h1><h2 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h2><ul>
@@ -409,63 +466,6 @@
       </tags>
   </entry>
   <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong></p>
-<ul>
-<li><a href="#ooge0githubio">ooge0.github.io</a></li>
-<li><a href="#python_ta_web_api_framework">python_TA_web_api_framework</a></li>
-<li><a href="#api-tests-for-petstoreswaggerio">API tests for petstore.swagger.io</a></li>
-<li><a href="#test-automation-framework-based-on-restassured-test-framework">Test automation framework based on RestAssured test framework.</a></li>
-<li><a href="#kafka-app-demo">kafka-app-demo</a></li>
-<li><a href="#appium-frameworkextended">Appium FrameworkExtended</a></li>
-<li><a href="#appium-framework-pet-project">Appium framework (pet project)</a></li>
-<li><a href="#sslv_gherkin_java">ssLv_Gherkin_JAVA</a></li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files. Contains a template for a hybrid test automation framework for UI and API testing.</em> Thus project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -527,37 +527,6 @@
         <tag>note</tag>
         <tag>blog</tag>
         <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type “list disk” and press <code>↵ Enter</code>.</li>
-<li>Type “select disk [Your disk]” and press <code>↵ Enter</code>. </li>
-<li>Type “clean” and press <code>↵ Enter</code>. </li>
-<li>Type “create partition primary” and press <code>↵ Enter</code>.</li>
-<li>Type “format fs&#x3D;ntfs” and press <code>↵ Enter</code>.</li>
-<li>Type “assign letter&#x3D;[letter]” and press <code>↵ Enter</code>. </li>
-<li>Type “exit” and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
@@ -640,6 +609,37 @@
       </categories>
       <tags>
         <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type “list disk” and press <code>↵ Enter</code>.</li>
+<li>Type “select disk [Your disk]” and press <code>↵ Enter</code>. </li>
+<li>Type “clean” and press <code>↵ Enter</code>. </li>
+<li>Type “create partition primary” and press <code>↵ Enter</code>.</li>
+<li>Type “format fs&#x3D;ntfs” and press <code>↵ Enter</code>.</li>
+<li>Type “assign letter&#x3D;[letter]” and press <code>↵ Enter</code>. </li>
+<li>Type “exit” and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
@@ -756,69 +756,6 @@
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXIO.IO fixes guide</title>
-    <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design:</p>
-<ul>
-<li>default configuration of HEXO.IO </li>
-<li>installed themed require additional configuration.</li>
-</ul>
-<hr>
-<p>Below  is a list of changes and improvements.</p>
-<ol>
-<li><p><strong>Moving side panel to the left side.</strong></p>
-<p>Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
-</li>
-<li><p><strong>Removing(hide) <code>Search</code> form on the header</strong><br>Edite <code>\themes\landscape\layout\_partial\header.ejs</code> and comment </p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure>
-<p>and </p>
- <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></li>
-<li><p><strong>Changes project structure. If blog published not iun the root of GitHub</strong></p>
-</li>
-</ol>
-<p> If HEXO.IO project will be publoished not in teh root of GitHub , the _comfig.yaml should be updated. </p>
-<p> Aftrer changes the project structure and making different folders inside the <code>_post</code> folder the blog navigation may not work.<br> Issue is related to at least to sides:<br>    1. When post item has dedicated <code>permalink</code>, project ingine for some reason (if post published no wtih <code>root</code>) conflict of </p>
-<ol start="4">
-<li><strong>Sitemap for the blog.</strong><ul>
-<li><p><strong>Install the Sitemap Plugin</strong></p>
-<p>   In your Hexo project directory, run the following command to install hexo-generator-sitemap:</p>
-   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-
-<p>   This will add the sitemap generator plugin to your project, which automatically generates a sitemap.xml file each time you build your site.</p>
-</li>
-<li><p><strong>Configure _config.yml</strong></p>
-<p>   Open your Hexo <code>_config.yml</code> file (this is the main configuration file in the root directory, not in the theme folder), and add the following configuration under the sitemap settings:</p>
-   <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
-<p>   By default, this will create a sitemap.xml file in the root of your site’s output (public&#x2F;) directory.</p>
-</li>
-<li><p><strong>(Optional) Add the Sitemap URL to robots.txt</strong></p>
-<p>   To help search engines find your sitemap, add its URL to a robots.txt file if you haven’t done so already. Here’s how:</p>
-<p>   If you already have a robots.txt file configured, just add this line to it:</p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Sitemap: https://your-hexo-site.com/sitemap.xml</span><br></pre></td></tr></table></figure>
-<p>   If you don’t have a robots.txt file, you can create one in source&#x2F;robots.txt, and then add the line above with your site URL.</p>
-</li>
-<li><p><strong>Generate and Deploy</strong></p>
-<p>   Run the following commands to generate your site and deploy it:</p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash</span><br><span class="line">hexo clean ; hexo generate ;hexo deploy</span><br></pre></td></tr></table></figure>
-<p>   After deploying, your sitemap should be accessible at <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a>.</p>
-</li>
-<li><p><strong>Verifying the Sitemap</strong></p>
-<p>   Visit <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a> in your browser to confirm the sitemap is generated and accessible.<br>   Submit your sitemap to Google Search Console or other search engine webmaster tools for better indexing.</p>
-</li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
         <tag>blog</tag>
       </tags>
   </entry>
@@ -952,6 +889,69 @@
 </tbody></table>
 <h2 id="import-existing-Markdown-md-and-HTML-files-into-Hexo"><a href="#import-existing-Markdown-md-and-HTML-files-into-Hexo" class="headerlink" title="import existing Markdown (.md) and HTML files into Hexo"></a>import existing Markdown (.md) and HTML files into Hexo</h2><h2 id="HEXO-IO-commands"><a href="#HEXO-IO-commands" class="headerlink" title="HEXO.IO commands"></a>HEXO.IO commands</h2><p>hexo clean + generate + hexo</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXIO.IO fixes guide</title>
+    <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design:</p>
+<ul>
+<li>default configuration of HEXO.IO </li>
+<li>installed themed require additional configuration.</li>
+</ul>
+<hr>
+<p>Below  is a list of changes and improvements.</p>
+<ol>
+<li><p><strong>Moving side panel to the left side.</strong></p>
+<p>Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
+</li>
+<li><p><strong>Removing(hide) <code>Search</code> form on the header</strong><br>Edite <code>\themes\landscape\layout\_partial\header.ejs</code> and comment </p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>and </p>
+ <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></li>
+<li><p><strong>Changes project structure. If blog published not iun the root of GitHub</strong></p>
+</li>
+</ol>
+<p> If HEXO.IO project will be publoished not in teh root of GitHub , the _comfig.yaml should be updated. </p>
+<p> Aftrer changes the project structure and making different folders inside the <code>_post</code> folder the blog navigation may not work.<br> Issue is related to at least to sides:<br>    1. When post item has dedicated <code>permalink</code>, project ingine for some reason (if post published no wtih <code>root</code>) conflict of </p>
+<ol start="4">
+<li><strong>Sitemap for the blog.</strong><ul>
+<li><p><strong>Install the Sitemap Plugin</strong></p>
+<p>   In your Hexo project directory, run the following command to install hexo-generator-sitemap:</p>
+   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<p>   This will add the sitemap generator plugin to your project, which automatically generates a sitemap.xml file each time you build your site.</p>
+</li>
+<li><p><strong>Configure _config.yml</strong></p>
+<p>   Open your Hexo <code>_config.yml</code> file (this is the main configuration file in the root directory, not in the theme folder), and add the following configuration under the sitemap settings:</p>
+   <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
+<p>   By default, this will create a sitemap.xml file in the root of your site’s output (public&#x2F;) directory.</p>
+</li>
+<li><p><strong>(Optional) Add the Sitemap URL to robots.txt</strong></p>
+<p>   To help search engines find your sitemap, add its URL to a robots.txt file if you haven’t done so already. Here’s how:</p>
+<p>   If you already have a robots.txt file configured, just add this line to it:</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Sitemap: https://your-hexo-site.com/sitemap.xml</span><br></pre></td></tr></table></figure>
+<p>   If you don’t have a robots.txt file, you can create one in source&#x2F;robots.txt, and then add the line above with your site URL.</p>
+</li>
+<li><p><strong>Generate and Deploy</strong></p>
+<p>   Run the following commands to generate your site and deploy it:</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash</span><br><span class="line">hexo clean ; hexo generate ;hexo deploy</span><br></pre></td></tr></table></figure>
+<p>   After deploying, your sitemap should be accessible at <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a>.</p>
+</li>
+<li><p><strong>Verifying the Sitemap</strong></p>
+<p>   Visit <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a> in your browser to confirm the sitemap is generated and accessible.<br>   Submit your sitemap to Google Search Console or other search engine webmaster tools for better indexing.</p>
+</li>
+</ul>
+</li>
+</ol>
+]]></content>
       <categories>
         <category>Tutorials</category>
       </categories>
