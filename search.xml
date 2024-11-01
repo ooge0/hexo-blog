@@ -21,12 +21,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Home page</title>
-    <url>/hexo-blog/2024/10/21/index/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This is a home page of my blog.<br>D:\projects\blog\test_blog\source_posts\index.md</p>
-]]></content>
-  </entry>
-  <entry>
     <title>About me</title>
     <url>/hexo-blog//about-me/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>I’m excited to share insights, tips, and resources from nearly 10 years as a QA Software Test Engineer.<br>My first step into the qulity assurance area was in <a href="https://spectrometr.com/index_eng.html">LLC”NVK”Spectr” company</a> where I was a part of the development team.<br>There I was working on the documentation and tested <a href="https://spectrometr.com/ashmeter_eng.html">IZR-051 Radiation ashmeter device</a>.<br>Later I continued as field service engineer (Engineer-radiologist) in <a href="https://feofaniya.org/en/departments/vseukrainskiy-centr-radio-hirurgii/">All-Ukrainian Radiosurgery Center &#x2F; Clinical Hospital “Feofaniya”</a>. There main focus was on maintaing and servicing medical equilpment (<a href="https://en.vitalmedical.com.ua/radiation-therapy-devices/varian-clinac-ix/">Clinac iX</a>, Novalix TX, <a href="https://www.brainlab.com/radiosurgery-products/exactrac/">BrinaLab&#x2F;ExacTrack</a>) and medical software <a href="https://www.varian.com/products/software/digital-oncology/oncology-management-systems/aria-oncology-information-system">Aria</a>. After all challenges I was focusing on software industry and switched into software QA&#x2F;QC completely.</p>
@@ -72,6 +66,12 @@
       </tags>
   </entry>
   <entry>
+    <title>Home page</title>
+    <url>/hexo-blog/2024/10/21/index/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This is a home page of my blog.<br>D:\projects\blog\test_blog\source_posts\index.md</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Cheatsheet list</title>
     <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -103,11 +103,6 @@
       </categories>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
     <title>My Statistics page</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_statistics_page/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
@@ -129,6 +124,23 @@
       </categories>
       <tags>
         <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
       </tags>
   </entry>
   <entry>
@@ -160,18 +172,6 @@
       <categories>
         <category>Maintanance</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -301,7 +301,7 @@
   </entry>
   <entry>
     <title>My tools</title>
-    <url>/hexo-blog//my_contribution/my-tools/</url>
+    <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong><br>  <a href="#daily-apps">Daily apps</a><br>  <a href="#messangers">Messangers</a><br>  <a href="#api-tools">API tools</a><br>  <a href="#db-manager">DB manager</a><br>  <a href="#proxy-tools">Proxy tools</a><br>  <a href="#message-broker">Message broker</a><br>  <a href="#project-management-tools">Project management tools </a><br>  <a href="#cloud-virtual-machines">Cloud virtual machines </a><br>  <a href="#virtual-box">Virtual Box </a><br>  <a href="#monitoring-tools">Monitoring tools </a><br>  <a href="#ocr-services">OCR services </a><br>  <a href="#temporary-email-services">Temporary Email Services </a></p>
 <hr>
 <h1 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h1><h2 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h2><ul>
@@ -548,37 +548,6 @@
       </tags>
   </entry>
   <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type “list disk” and press <code>↵ Enter</code>.</li>
-<li>Type “select disk [Your disk]” and press <code>↵ Enter</code>. </li>
-<li>Type “clean” and press <code>↵ Enter</code>. </li>
-<li>Type “create partition primary” and press <code>↵ Enter</code>.</li>
-<li>Type “format fs&#x3D;ntfs” and press <code>↵ Enter</code>.</li>
-<li>Type “assign letter&#x3D;[letter]” and press <code>↵ Enter</code>. </li>
-<li>Type “exit” and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -640,6 +609,37 @@
       </categories>
       <tags>
         <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type “list disk” and press <code>↵ Enter</code>.</li>
+<li>Type “select disk [Your disk]” and press <code>↵ Enter</code>. </li>
+<li>Type “clean” and press <code>↵ Enter</code>. </li>
+<li>Type “create partition primary” and press <code>↵ Enter</code>.</li>
+<li>Type “format fs&#x3D;ntfs” and press <code>↵ Enter</code>.</li>
+<li>Type “assign letter&#x3D;[letter]” and press <code>↵ Enter</code>. </li>
+<li>Type “exit” and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
