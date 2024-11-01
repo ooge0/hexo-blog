@@ -76,12 +76,12 @@
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
 <ul>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
 <li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
 <li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
 <li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
 <li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
 <li><a href="/hexo-blog/categories/site-statistics/">Site statistics</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -108,8 +108,13 @@
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
   </entry>
   <entry>
+    <title>tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
     <title>My Statistics page</title>
-    <url>/hexo-blog//categories/site-statistics/</url>
+    <url>/hexo-blog/2024/10/21/maintanance/my_statistics_page/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
 <ul>
 <li>last hour</li>
@@ -132,9 +137,18 @@
       </tags>
   </entry>
   <entry>
-    <title>tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+    <title>ASCII art</title>
+    <url>/hexo-blog/2024/10/28/posts/acsii_graphics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>acsii</tag>
+      </tags>
   </entry>
   <entry>
     <title>HEXO.IO blog references</title>
@@ -152,6 +166,22 @@
       <tags>
         <tag>tutorial</tag>
         <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Site for blogging</title>
+    <url>/hexo-blog/2024/04/28/posts/site_for_blogging/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
+<hr>
+<h2 id="blogger-com"><a href="#blogger-com" class="headerlink" title="blogger.com"></a>blogger.com</h2><p><a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
+<h2 id="indieblog-page"><a href="#indieblog-page" class="headerlink" title="indieblog.page"></a>indieblog.page</h2><p><a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
+<h2 id="ghost-org"><a href="#ghost-org" class="headerlink" title="ghost.org"></a>ghost.org</h2><p><a href="https://ghost.org/">https://ghost.org/</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -195,8 +225,8 @@
       </categories>
       <tags>
         <tag>hexo_io</tag>
-        <tag>note</tag>
         <tag>blog</tag>
+        <tag>note</tag>
         <tag>md_format</tag>
       </tags>
   </entry>
@@ -327,8 +357,8 @@
         <category>Notes</category>
       </categories>
       <tags>
-        <tag>note</tag>
         <tag>blog</tag>
+        <tag>note</tag>
         <tag>md_format</tag>
       </tags>
   </entry>
@@ -355,328 +385,6 @@
       <tags>
         <tag>tutorial</tag>
         <tag>my_contribution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite post categories</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
-<ul>
-<li><a href="#post-details">Post Details</a><ul>
-<li><a href="#linkedin">LinkedIn</a></li>
-<li><a href="#medium">Medium</a></li>
-<li><a href="#other-resources">Other Resources</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
-<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
-</ul>
-<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
-<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
-</ul>
-<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
-<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
-<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
-<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
-<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
-<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
-<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
-<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
-<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
-<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
-<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
-<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
-<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
-<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
-<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
-<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
-<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
-<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
-<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
-<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
-<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
-<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
-<li>Author: Piotr Gaczkowski</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_medium_post</tag>
-        <tag>my_linkedin_post</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong></p>
-<ul>
-<li><a href="#ooge0githubio">ooge0.github.io</a></li>
-<li><a href="#python_ta_web_api_framework">python_TA_web_api_framework</a></li>
-<li><a href="#api-tests-for-petstoreswaggerio">API tests for petstore.swagger.io</a></li>
-<li><a href="#test-automation-framework-based-on-restassured-test-framework">Test automation framework based on RestAssured test framework.</a></li>
-<li><a href="#kafka-app-demo">kafka-app-demo</a></li>
-<li><a href="#appium-frameworkextended">Appium FrameworkExtended</a></li>
-<li><a href="#appium-framework-pet-project">Appium framework (pet project)</a></li>
-<li><a href="#sslv_gherkin_java">ssLv_Gherkin_JAVA</a></li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files. Contains a template for a hybrid test automation framework for UI and API testing.</em> Thus project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My tools</title>
-    <url>/hexo-blog//hexo-blog/my_contribution/my-tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong><br>  <a href="#daily-apps">Daily apps</a><br>  <a href="#messangers">Messangers</a><br>  <a href="#api-tools">API tools</a><br>  <a href="#db-manager">DB manager</a><br>  <a href="#proxy-tools">Proxy tools</a><br>  <a href="#message-broker">Message broker</a><br>  <a href="#project-management-tools">Project management tools </a><br>  <a href="#cloud-virtual-machines">Cloud virtual machines </a><br>  <a href="#virtual-box">Virtual Box </a><br>  <a href="#monitoring-tools">Monitoring tools </a><br>  <a href="#ocr-services">OCR services </a><br>  <a href="#temporary-email-services">Temporary Email Services </a></p>
-<hr>
-<h1 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h1><h2 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h2><ul>
-<li>Slack</li>
-<li>Zoom<ul>
-<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h2 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h2><ul>
-<li>Postman</li>
-<li>Insomnia</li>
-</ul>
-<h2 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h2><ul>
-<li>SSMS</li>
-<li>Dbviewer</li>
-</ul>
-<h2 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h2><ul>
-<li>Fiddler</li>
-<li>Charles</li>
-<li>Local proxy</li>
-</ul>
-<h2 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h2><ul>
-<li>Kafka</li>
-</ul>
-<h2 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h2><ul>
-<li>Jira </li>
-<li>TestRail</li>
-</ul>
-<p> </p>
-<h2 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h2><ul>
-<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
-<li>Amazon Virtual machines<ul>
-<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
-<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h2 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h2><ul>
-<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
-<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-</ul>
-<h2 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h2><ul>
-<li>Kibana </li>
-<li>Grafana </li>
-<li>Azure Application Insights</li>
-</ul>
-<p> </p>
-<h2 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h2><ol>
-<li><a href="https://ocr.space/">https://ocr.space/</a></li>
-</ol>
-<p> </p>
-<h2 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h2><table>
-<thead>
-<tr>
-<th>No.</th>
-<th>Temporary Email Service</th>
-<th>URL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>10 Minute Mail</td>
-<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
-</tr>
-<tr>
-<td>2</td>
-<td>EmailOnDeck</td>
-<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Fake Mail Generator</td>
-<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
-</tr>
-<tr>
-<td>4</td>
-<td>FakeMail  &#x2F; TempMailAddress</td>
-<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
-</tr>
-<tr>
-<td>5</td>
-<td>GetNada</td>
-<td><a href="https://getnada.com/">https://getnada.com/</a></td>
-</tr>
-<tr>
-<td>6</td>
-<td>Guerrilla Mail</td>
-<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
-</tr>
-<tr>
-<td>7</td>
-<td>MailCatch</td>
-<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
-</tr>
-<tr>
-<td>8</td>
-<td>MailDrop</td>
-<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
-</tr>
-<tr>
-<td>9</td>
-<td>Mailinator</td>
-<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
-</tr>
-<tr>
-<td>10</td>
-<td>Mailnesia</td>
-<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
-</tr>
-<tr>
-<td>11</td>
-<td>Moakt</td>
-<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
-</tr>
-<tr>
-<td>12</td>
-<td>MyTemp.email</td>
-<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
-</tr>
-<tr>
-<td>13</td>
-<td>Proton mail</td>
-<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
-</tr>
-<tr>
-<td>14</td>
-<td>Temp Mail</td>
-<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
-</tr>
-<tr>
-<td>15</td>
-<td>Tempail</td>
-<td><a href="https://tempail.com/">https://tempail.com/</a></td>
-</tr>
-<tr>
-<td>16</td>
-<td>Temp-Mail.io</td>
-<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
-</tr>
-<tr>
-<td>17</td>
-<td>Throwawaymail</td>
-<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
-</tr>
-<tr>
-<td>18</td>
-<td>YOPmail</td>
-<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ASCII art</title>
-    <url>/hexo-blog/2024/10/28/posts/acsii_graphics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Site for blogging</title>
-    <url>/hexo-blog/2024/04/28/posts/site_for_blogging/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
-<hr>
-<h2 id="blogger-com"><a href="#blogger-com" class="headerlink" title="blogger.com"></a>blogger.com</h2><p><a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
-<h2 id="indieblog-page"><a href="#indieblog-page" class="headerlink" title="indieblog.page"></a>indieblog.page</h2><p><a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
-<h2 id="ghost-org"><a href="#ghost-org" class="headerlink" title="ghost.org"></a>ghost.org</h2><p><a href="https://ghost.org/">https://ghost.org/</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -1090,6 +798,298 @@
       <tags>
         <tag>tutorial</tag>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite post categories</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#post-details">Post Details</a><ul>
+<li><a href="#linkedin">LinkedIn</a></li>
+<li><a href="#medium">Medium</a></li>
+<li><a href="#other-resources">Other Resources</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
+<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
+</ul>
+<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
+<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
+</ul>
+<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
+<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
+<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
+<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
+<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
+<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
+<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
+<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
+<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
+<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
+<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
+<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
+<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
+<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
+<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
+<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
+<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
+<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
+<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
+<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
+<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
+<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
+<li>Author: Piotr Gaczkowski</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_medium_post</tag>
+        <tag>my_linkedin_post</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong></p>
+<ul>
+<li><a href="#ooge0githubio">ooge0.github.io</a></li>
+<li><a href="#python_ta_web_api_framework">python_TA_web_api_framework</a></li>
+<li><a href="#api-tests-for-petstoreswaggerio">API tests for petstore.swagger.io</a></li>
+<li><a href="#test-automation-framework-based-on-restassured-test-framework">Test automation framework based on RestAssured test framework.</a></li>
+<li><a href="#kafka-app-demo">kafka-app-demo</a></li>
+<li><a href="#appium-frameworkextended">Appium FrameworkExtended</a></li>
+<li><a href="#appium-framework-pet-project">Appium framework (pet project)</a></li>
+<li><a href="#sslv_gherkin_java">ssLv_Gherkin_JAVA</a></li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files. Contains a template for a hybrid test automation framework for UI and API testing.</em> Thus project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My tools</title>
+    <url>/hexo-blog//hexo-blog/my_contribution/my-tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong><br>  <a href="#daily-apps">Daily apps</a><br>  <a href="#messangers">Messangers</a><br>  <a href="#api-tools">API tools</a><br>  <a href="#db-manager">DB manager</a><br>  <a href="#proxy-tools">Proxy tools</a><br>  <a href="#message-broker">Message broker</a><br>  <a href="#project-management-tools">Project management tools </a><br>  <a href="#cloud-virtual-machines">Cloud virtual machines </a><br>  <a href="#virtual-box">Virtual Box </a><br>  <a href="#monitoring-tools">Monitoring tools </a><br>  <a href="#ocr-services">OCR services </a><br>  <a href="#temporary-email-services">Temporary Email Services </a></p>
+<hr>
+<h1 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h1><h2 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h2><ul>
+<li>Slack</li>
+<li>Zoom<ul>
+<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h2><ul>
+<li>Postman</li>
+<li>Insomnia</li>
+</ul>
+<h2 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h2><ul>
+<li>SSMS</li>
+<li>Dbviewer</li>
+</ul>
+<h2 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h2><ul>
+<li>Fiddler</li>
+<li>Charles</li>
+<li>Local proxy</li>
+</ul>
+<h2 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h2><ul>
+<li>Kafka</li>
+</ul>
+<h2 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h2><ul>
+<li>Jira </li>
+<li>TestRail</li>
+</ul>
+<p> </p>
+<h2 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h2><ul>
+<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
+<li>Amazon Virtual machines<ul>
+<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h2><ul>
+<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
+<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+</ul>
+<h2 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h2><ul>
+<li>Kibana </li>
+<li>Grafana </li>
+<li>Azure Application Insights</li>
+</ul>
+<p> </p>
+<h2 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h2><ol>
+<li><a href="https://ocr.space/">https://ocr.space/</a></li>
+</ol>
+<p> </p>
+<h2 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h2><table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Temporary Email Service</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>10 Minute Mail</td>
+<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>EmailOnDeck</td>
+<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Fake Mail Generator</td>
+<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>FakeMail  &#x2F; TempMailAddress</td>
+<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>GetNada</td>
+<td><a href="https://getnada.com/">https://getnada.com/</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Guerrilla Mail</td>
+<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>MailCatch</td>
+<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>MailDrop</td>
+<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Mailinator</td>
+<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Mailnesia</td>
+<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Moakt</td>
+<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>MyTemp.email</td>
+<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Proton mail</td>
+<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Temp Mail</td>
+<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Tempail</td>
+<td><a href="https://tempail.com/">https://tempail.com/</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Temp-Mail.io</td>
+<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Throwawaymail</td>
+<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td>YOPmail</td>
+<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
       </tags>
   </entry>
 </search>
