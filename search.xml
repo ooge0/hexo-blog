@@ -103,77 +103,6 @@
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Posts"><a href="#Posts" class="headerlink" title="Posts"></a>Posts</h2><ul>
-    <% page.posts.each(function(post){ %>
-    <li>
-        <a href="<%= post.permalink %>"><%= post.title %></a>
-    </li>
-    <% }); %>
-</ul>
-
-<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><ul>
-    <% page.categories.each(function(category){ %>
-    <li>
-        <a href="<%= category.permalink %>"><%= category.name %></a>
-        <ul>
-        <% category.posts.each(function(post){ %>
-            <li>
-            <a href="<%= post.permalink %>"><%= post.title %></a>
-            </li>
-        <% }); %>
-        </ul>
-    </li>
-    <% }); %>
-</ul>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -464,6 +393,77 @@
         <tag>tutorial</tag>
         <tag>my_contribution</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Posts"><a href="#Posts" class="headerlink" title="Posts"></a>Posts</h2><ul>
+    <% page.posts.each(function(post){ %>
+    <li>
+        <a href="<%= post.permalink %>"><%= post.title %></a>
+    </li>
+    <% }); %>
+</ul>
+
+<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><ul>
+    <% page.categories.each(function(category){ %>
+    <li>
+        <a href="<%= category.permalink %>"><%= category.name %></a>
+        <ul>
+        <% category.posts.each(function(post){ %>
+            <li>
+            <a href="<%= post.permalink %>"><%= post.title %></a>
+            </li>
+        <% }); %>
+        </ul>
+    </li>
+    <% }); %>
+</ul>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
   </entry>
   <entry>
     <title>HEXO.IO blog references</title>
