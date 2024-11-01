@@ -21,12 +21,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Home page</title>
-    <url>/hexo-blog/2024/10/21/index/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This is a home page of my blog.<br>D:\projects\blog\test_blog\source_posts\index.md</p>
-]]></content>
-  </entry>
-  <entry>
     <title>About me</title>
     <url>/hexo-blog//about-me/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>I’m excited to share insights, tips, and resources from nearly 10 years as a QA Software Test Engineer.<br>My first step into the qulity assurance area was in <a href="https://spectrometr.com/index_eng.html">LLC”NVK”Spectr” company</a> where I was a part of the development team.<br>There I was working on the documentation and tested <a href="https://spectrometr.com/ashmeter_eng.html">IZR-051 Radiation ashmeter device</a>.<br>Later I continued as field service engineer (Engineer-radiologist) in <a href="https://feofaniya.org/en/departments/vseukrainskiy-centr-radio-hirurgii/">All-Ukrainian Radiosurgery Center &#x2F; Clinical Hospital “Feofaniya”</a>. There main focus was on maintaing and servicing medical equilpment (<a href="https://en.vitalmedical.com.ua/radiation-therapy-devices/varian-clinac-ix/">Clinac iX</a>, Novalix TX, <a href="https://www.brainlab.com/radiosurgery-products/exactrac/">BrinaLab&#x2F;ExacTrack</a>) and medical software <a href="https://www.varian.com/products/software/digital-oncology/oncology-management-systems/aria-oncology-information-system">Aria</a>. After all challenges I was focusing on software industry and switched into software QA&#x2F;QC completely.</p>
@@ -43,7 +37,7 @@
 <ul>
 <li>ISTQB® Certified Tester - Foundation Level</li>
 <li>Extensive experience in manual and automated testing utilizing different methodologies.</li>
-<li>Proficient in various tools and technologies (JIRA, Azure DevOps, Postman, Selenium, etc.) Full list of tools that I’m using in my daily works is <a href="my_contribution/my-tools/">here</a></li>
+<li>Proficient in various tools and technologies (JIRA, Azure DevOps, Postman, Selenium, etc.) Full list of tools that I’m using in my daily works is <a href="/my_contribution/my-tools/">here</a></li>
 <li>Experience in building and maintaining test automation frameworks</li>
 <li>Strong communication and collaboration skills</li>
 <li>Passionate about learning new technologies (e.g., AI)</li>
@@ -101,6 +95,77 @@
         <tag>cheatsheets</tag>
         <tag>tutorial</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Posts"><a href="#Posts" class="headerlink" title="Posts"></a>Posts</h2><ul>
+    <% page.posts.each(function(post){ %>
+    <li>
+        <a href="<%= post.permalink %>"><%= post.title %></a>
+    </li>
+    <% }); %>
+</ul>
+
+<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><ul>
+    <% page.categories.each(function(category){ %>
+    <li>
+        <a href="<%= category.permalink %>"><%= category.name %></a>
+        <ul>
+        <% category.posts.each(function(post){ %>
+            <li>
+            <a href="<%= post.permalink %>"><%= post.title %></a>
+            </li>
+        <% }); %>
+        </ul>
+    </li>
+    <% }); %>
+</ul>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -231,9 +296,7 @@
   <entry>
     <title>My tools</title>
     <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong><br>  <a href="#daily-apps">Daily apps</a><br>  <a href="#messangers">Messangers</a><br>  <a href="#api-tools">API tools</a><br>  <a href="#db-manager">DB manager</a><br>  <a href="#proxy-tools">Proxy tools</a><br>  <a href="#message-broker">Message broker</a><br>  <a href="#project-management-tools">Project management tools </a><br>  <a href="#cloud-virtual-machines">Cloud virtual machines </a><br>  <a href="#virtual-box">Virtual Box </a><br>  <a href="#monitoring-tools">Monitoring tools </a><br>  <a href="#ocr-services">OCR services </a><br>  <a href="#temporary-email-services">Temporary Email Services </a></p>
-<hr>
-<h1 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h1><h2 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h2><ul>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h1><h2 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h2><ul>
 <li>Slack</li>
 <li>Zoom<ul>
 <li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
@@ -395,77 +458,6 @@
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Posts"><a href="#Posts" class="headerlink" title="Posts"></a>Posts</h2><ul>
-    <% page.posts.each(function(post){ %>
-    <li>
-        <a href="<%= post.permalink %>"><%= post.title %></a>
-    </li>
-    <% }); %>
-</ul>
-
-<h2 id="Categories"><a href="#Categories" class="headerlink" title="Categories"></a>Categories</h2><ul>
-    <% page.categories.each(function(category){ %>
-    <li>
-        <a href="<%= category.permalink %>"><%= category.name %></a>
-        <ul>
-        <% category.posts.each(function(post){ %>
-            <li>
-            <a href="<%= post.permalink %>"><%= post.title %></a>
-            </li>
-        <% }); %>
-        </ul>
-    </li>
-    <% }); %>
-</ul>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -530,6 +522,78 @@
       </tags>
   </entry>
   <entry>
+    <title>Add more beautiful HEXO blog pages</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
+<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
+<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
+<p>result below</p>
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
+    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
+  </div> 
+
+<hr>
+<p><strong>2. Highlighted Section with Border and Background</strong></p>
+<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
+  <h3 style="color: #3c763d;">Important Notice</h3>
+  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
+  </div>
+  
+<hr>
+<p>  <strong>3. Colored Quote Block</strong></p>
+<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
+  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
+</blockquote>
+
+<hr>
+<p><strong>4. Centered Text with Decorative Style</strong></p>
+<p>  Center text with a larger font size, bold style, and color.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
+  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
+  </div>
+
+<hr>
+<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
+<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <h3 style="color: #b03a2e;">Tip of the Day</h3>
+  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
+  </div>
+
+<hr>
+<p><strong>6. Badge or Label for Text</strong></p>
+<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
+
+<hr>
+<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
+<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
+</div>
+  
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Favorite books</title>
     <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
@@ -560,13 +624,13 @@
 </ul>
 </li>
 <li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type “list disk” and press <code>↵ Enter</code>.</li>
-<li>Type “select disk [Your disk]” and press <code>↵ Enter</code>. </li>
-<li>Type “clean” and press <code>↵ Enter</code>. </li>
-<li>Type “create partition primary” and press <code>↵ Enter</code>.</li>
-<li>Type “format fs&#x3D;ntfs” and press <code>↵ Enter</code>.</li>
-<li>Type “assign letter&#x3D;[letter]” and press <code>↵ Enter</code>. </li>
-<li>Type “exit” and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
 </ol>
 <p><em><strong>Referencse:</strong></em></p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
@@ -659,6 +723,123 @@
         <tag>note</tag>
         <tag>blog</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Symbol encoding (Unicode and family)</title>
+    <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
+<p>Key Symbol Encoding Systems and Categories</p>
+<ol>
+<li><p>Unicode</p>
+<ul>
+<li>Usage: The universal encoding standard supporting characters from virtually all languages, as well as emoji, symbols, and icons.</li>
+<li>Categories: Includes letters, numbers, emoji, mathematical symbols, box-drawing characters, and more.</li>
+<li>Examples: Alphabet (A, B), numbers (1, 2), emoji (😊), math symbols (√, ∑), and other unique characters like ↵.</li>
+</ul>
+</li>
+<li><p>ASCII (American Standard Code for Information Interchange)</p>
+<ul>
+<li>Usage: Basic Latin letters, numbers, punctuation, and control characters for simple text encoding.</li>
+<li>Limitations: Limited to 128 characters, excluding many languages and special symbols.</li>
+<li>Examples: Basic Latin alphabet (A-Z), numbers (0-9), punctuation marks like . and ,.</li>
+</ul>
+</li>
+<li><p>ISO&#x2F;IEC 8859 (ISO Latin)</p>
+<ul>
+<li>Usage: Supports European languages with additional Latin characters, like accented letters.</li>
+<li>Categories: Variants (ISO 8859-1, ISO 8859-5) cover Western European, Eastern European, and Cyrillic scripts.</li>
+<li>Limitations: Restricted to 256 characters per set.</li>
+</ul>
+</li>
+<li><p>ANSI (Windows-1252)</p>
+<ul>
+<li>Usage: Commonly used on Windows; extends ASCII with additional characters for Western European languages.</li>
+<li>Limitations: Non-standard on non-Windows systems.</li>
+<li>Examples: Includes symbols like €, accented letters, and punctuation.</li>
+</ul>
+</li>
+<li><p>Emoji (Unicode Extended Pictographic Symbols)</p>
+<ul>
+<li>Usage:  Unicode provides a broad range of emoji for digital communication, sorted into categories.</li>
+<li>Categories: Smileys, People, Animals, Food, Travel, and more.</li>
+<li>Notes: Rendered differently across platforms (Apple, Google, Microsoft, etc.).</li>
+</ul>
+</li>
+<li><p>HTML Entities</p>
+<ul>
+<li>Usage: Encodes special symbols in HTML with named (&amp;) or numeric (&#169;) entities.</li>
+<li>Notes: Often Unicode-based, written as character references in HTML documents for web use.</li>
+</ul>
+</li>
+<li><p>LaTeX Symbols</p>
+<ul>
+<li>Usage:  Essential in academic and scientific fields, especially for mathematical notation.</li>
+<li>Categories: Greek letters, math operators, functions (\alpha, \sum, \infty).</li>
+<li>Notes: Not an encoding system but a method to render symbols in scientific documents.</li>
+</ul>
+</li>
+<li><p>Dingbats</p>
+<ul>
+<li><p>Usage: Decorative symbols, often used for visual enhancement.</p>
+</li>
+<li><p>Examples: Check marks, arrows, stars.</p>
+</li>
+<li><p>Notes: Originated in typefaces like Zapf Dingbats; Unicode includes a Dingbats block.</p>
+</li>
+</ul>
+</li>
+<li><p>Box Drawing Characters</p>
+<ul>
+<li>Usage: Used for simple graphics and box drawing in text files or terminal interfaces.</li>
+<li>Examples: ┌, ─, ┐, │, ┘.</li>
+<li>Notes: Useful for ASCII art and table layouts.</li>
+</ul>
+</li>
+<li><p>Control Characters</p>
+<ul>
+<li>Usage: Non-printing characters to control text display, such as line breaks and tabs.</li>
+<li>Categories: Includes Line Feed (LF), Carriage Return (CR), and others.</li>
+</ul>
+</li>
+<li><p>Private Use Area (PUA)</p>
+<ul>
+<li><p>Usage:  Allows companies or individuals to define custom symbols not in Unicode.</p>
+</li>
+<li><p>Examples: Proprietary symbols, company logos.</p>
+</li>
+<li><p>Notes: Non-standard and specific to certain systems or applications.</p>
+<p>Each of these systems provides unique ways to display and interact with symbols. While Unicode has largely unified global encoding, non-Unicode systems still fulfill niche needs, especially in older systems or specialized fields.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Here are a few sources for locating and copying symbols:</p>
+<ol>
+<li><p>Unicode Tables</p>
+<p> <a href="https://home.unicode.org/">home.unicode.org</a> provides official charts for different Unicode blocks. Each chart lists symbols for a specific category, like arrows, geometric shapes, mathematical symbols, etc.<br> You can search by character name or code point to find the exact symbol you need.</p>
+<ul>
+<li>Example: <code>Unicde = &amp;U+1F47D</code> &#x3D; <code>hexadecimal format = &amp;#x1F47D;</code> result &#x3D; &#x1F47D;</li>
+</ul>
+</li>
+<li><p>Character Map Utility (Windows)</p>
+<p> Windows includes a built-in tool called “Character Map” (charmap.exe) where you can browse and copy symbols from various fonts that support Unicode.<br> Open it by typing “Character Map” in the Start menu search bar, then find and copy symbols to paste them into your project.</p>
+</li>
+<li><p>Emoji and Symbol Libraries </p>
+<p> <a href="https://symbl.cc/en/unicode-table/">Online Websites like Unicode Table</a> and <a href="https://coolsymbol.com/">Coolsymbol</a> provide searchable libraries of Unicode symbols, emojis, and text decorations.<br> You can copy the symbol you want directly from these sites.</p>
+</li>
+<li><p>HTML Entity Reference</p>
+<p> Some symbols have HTML entity codes (e.g., &larr; for ←). Sites like DevDocs or W3Schools list HTML entities if you want to embed symbols in web pages.</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>unicode</tag>
+        <tag>ASCII</tag>
+        <tag>LaTeX</tag>
       </tags>
   </entry>
   <entry>
