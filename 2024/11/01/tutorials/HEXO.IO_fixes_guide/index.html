@@ -4,20 +4,23 @@
   <meta charset="utf-8">
   
   
-  <title>Home page | &#39;⌐(ಠ۾ಠ)¬&#39;</title>
+  <title>HEXIO.IO fixes guide | &#39;⌐(ಠ۾ಠ)¬&#39;</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="description" content="This is a home page of my blog.D:\projects\blog\test_blog\source_posts\index.md">
+  <meta name="description" content="For making changes in blog design default configuration of HEXO.IO and installed themed require additional configuration.  Below  is a list of changes and improvements.  Moving side panel to the left">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Home page">
-<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/10/21/index/index.html">
+<meta property="og:title" content="HEXIO.IO fixes guide">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/index.html">
 <meta property="og:site_name" content="&#39;⌐(ಠ۾ಠ)¬&#39;">
-<meta property="og:description" content="This is a home page of my blog.D:\projects\blog\test_blog\source_posts\index.md">
+<meta property="og:description" content="For making changes in blog design default configuration of HEXO.IO and installed themed require additional configuration.  Below  is a list of changes and improvements.  Moving side panel to the left">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-10-21T19:47:57.000Z">
-<meta property="article:modified_time" content="2024-10-28T11:37:17.723Z">
+<meta property="article:published_time" content="2024-11-01T07:22:44.472Z">
+<meta property="article:modified_time" content="2024-11-01T07:45:31.063Z">
 <meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="tutorial">
+<meta property="article:tag" content="hexo_io">
+<meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary">
   
   
@@ -83,12 +86,16 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="page-index" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-tutorials/HEXO.IO_fixes_guide" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2024/10/21/index/" class="article-date">
-  <time class="dt-published" datetime="2024-10-21T19:47:57.000Z" itemprop="datePublished">2024-10-21</time>
+    <a href="/2024/11/01/tutorials/HEXO.IO_fixes_guide/" class="article-date">
+  <time class="dt-published" datetime="2024-11-01T07:22:44.472Z" itemprop="datePublished">2024-11-01</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Tutorials/">Tutorials</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -97,7 +104,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      Home page
+      HEXIO.IO fixes guide
     </h1>
   
 
@@ -105,34 +112,41 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This is a home page of my blog.<br>D:\projects\blog\test_blog\source_posts\index.md</p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design default configuration of HEXO.IO and installed themed require additional configuration. </p>
+<p>Below  is a list of changes and improvements.</p>
+<ol>
+<li><p>Moving side panel to the left side.</p>
+<p>Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
+</li>
+<li><p>Removing(hide) <code>Search</code> form on the header<br>Edite <code>\themes\landscape\layout\_partial\header.ejs</code> and comment </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>and </p>
+ <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></li>
+<li><p>Changes project structure. Adding separate folders for posts.</p>
+</li>
+</ol>
+<p> Aftrer changes the project structure and making different folders inside the <code>_post</code> folder the blog navigation may not work.<br> Issue is related to at least to sides:<br>    1. When post item has dedicated <code>permalink</code>, project ingine for some reason (if post published no wtih <code>root</code>) conflict of </p>
+<p>1. </p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/2024/10/21/index/" data-id="cm2ygslbe00027kkkccuyaf6c" data-title="Home page" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/" data-id="cm2ygslc2001d7kkkcqex241k" data-title="HEXIO.IO fixes guide" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/" rel="tag">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo-io/" rel="tag">hexo_io</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tutorial/" rel="tag">tutorial</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2024/10/21/maintanance/blog_statistics/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          stats
-        
-      </div>
-    </a>
   
-  
-    <a href="/categories/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2024/10/31/notes/format-a-usb-using-cmd/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Blog&#39;s categories</div>
+      <div class="article-nav-title">How to Format a USB Using CMD (Command Prompt)</div>
     </a>
   
 </nav>
