@@ -66,6 +66,20 @@
       </tags>
   </entry>
   <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>cheatsheets</tag>
+        <tag>tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog&#39;s categories</title>
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
@@ -81,20 +95,6 @@
       <categories>
         <category>Categories</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>cheatsheets</tag>
-        <tag>tutorial</tag>
-      </tags>
   </entry>
   <entry>
     <title>stats</title>
@@ -126,18 +126,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Sitemap</title>
     <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
@@ -147,478 +135,15 @@
       </categories>
   </entry>
   <entry>
-    <title>HEXO blog design</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
-<p>Header</p>
-<ul>
-<li>Navigation menu:<ul>
-<li>Menu items:<ul>
-<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
-<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Main body</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
-<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
-</ul>
-<p>Side panel</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
-<li><input checked="" disabled="" type="checkbox"> Categories</li>
-<li><input checked="" disabled="" type="checkbox"> Tags</li>
-<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
-<li><input checked="" disabled="" type="checkbox"> Archives</li>
-<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
-</ul>
-<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
 ]]></content>
       <categories>
-        <category>Notes</category>
+        <category>Maintanance</category>
       </categories>
       <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Add more beautiful HEXO blog pages</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
-<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
-<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
-<p>result below</p>
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
-    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
-  </div> 
-
-<hr>
-<p><strong>2. Highlighted Section with Border and Background</strong></p>
-<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #3c763d;">Important Notice</h3>
-  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
-  </div>
-  
-<hr>
-<p>  <strong>3. Colored Quote Block</strong></p>
-<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
-  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
-</blockquote>
-
-<hr>
-<p><strong>4. Centered Text with Decorative Style</strong></p>
-<p>  Center text with a larger font size, bold style, and color.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
-  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
-  </div>
-
-<hr>
-<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
-<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  <h3 style="color: #b03a2e;">Tip of the Day</h3>
-  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
-  </div>
-
-<hr>
-<p><strong>6. Badge or Label for Text</strong></p>
-<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
-
-<hr>
-<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
-<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
-  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
-</div>
-  
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Info data</title>
-    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
-<div class="sitemap_content">
-    <ul>
-        <li>
-            <iframe
-                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                frameborder="0" width="216" height="60"></iframe>
-        </li>
-        <li>
-        <li>
-            <hr>
-            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
-            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
-        </li>
-        <li>
-            <hr>
-            <h2>Satellite observations</h2>
-            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
-            <hr>
-        </li>
-        <li>
-            <h3>Solar Flares and Storms Warnings for Today</h3>
-            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
-                height="300px"></iframe>
-        </li>
-        <hr>
-        <h3>Forecast platforms</h3>
-        </li>
-        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
-                FORECAST</a>
-        </li>
-        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
-        </li>
-        <li>foreca.com
-            <ul>
-                <li>
-                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
-                        Ukraine,
-                        Sumy</a>
-                </li>
-                <li>
-                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
-                        Kyiv</a>
-                </li>
-            </ul>
-        </li>
-        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
-                Network / European space agency.</a></li>
-        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
-    </ul>
-</div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Symbol encoding (Unicode and family)</title>
-    <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
-<p>Key Symbol Encoding Systems and Categories</p>
-<ol>
-<li><p>Unicode</p>
-<ul>
-<li>Usage: The universal encoding standard supporting characters from virtually all languages, as well as emoji, symbols, and icons.</li>
-<li>Categories: Includes letters, numbers, emoji, mathematical symbols, box-drawing characters, and more.</li>
-<li>Examples: Alphabet (A, B), numbers (1, 2), emoji (😊), math symbols (√, ∑), and other unique characters like ↵.</li>
-</ul>
-</li>
-<li><p>ASCII (American Standard Code for Information Interchange)</p>
-<ul>
-<li>Usage: Basic Latin letters, numbers, punctuation, and control characters for simple text encoding.</li>
-<li>Limitations: Limited to 128 characters, excluding many languages and special symbols.</li>
-<li>Examples: Basic Latin alphabet (A-Z), numbers (0-9), punctuation marks like . and ,.</li>
-</ul>
-</li>
-<li><p>ISO&#x2F;IEC 8859 (ISO Latin)</p>
-<ul>
-<li>Usage: Supports European languages with additional Latin characters, like accented letters.</li>
-<li>Categories: Variants (ISO 8859-1, ISO 8859-5) cover Western European, Eastern European, and Cyrillic scripts.</li>
-<li>Limitations: Restricted to 256 characters per set.</li>
-</ul>
-</li>
-<li><p>ANSI (Windows-1252)</p>
-<ul>
-<li>Usage: Commonly used on Windows; extends ASCII with additional characters for Western European languages.</li>
-<li>Limitations: Non-standard on non-Windows systems.</li>
-<li>Examples: Includes symbols like €, accented letters, and punctuation.</li>
-</ul>
-</li>
-<li><p>Emoji (Unicode Extended Pictographic Symbols)</p>
-<ul>
-<li>Usage:  Unicode provides a broad range of emoji for digital communication, sorted into categories.</li>
-<li>Categories: Smileys, People, Animals, Food, Travel, and more.</li>
-<li>Notes: Rendered differently across platforms (Apple, Google, Microsoft, etc.).</li>
-</ul>
-</li>
-<li><p>HTML Entities</p>
-<ul>
-<li>Usage: Encodes special symbols in HTML with named (&amp;) or numeric (&#169;) entities.</li>
-<li>Notes: Often Unicode-based, written as character references in HTML documents for web use.</li>
-</ul>
-</li>
-<li><p>LaTeX Symbols</p>
-<ul>
-<li>Usage:  Essential in academic and scientific fields, especially for mathematical notation.</li>
-<li>Categories: Greek letters, math operators, functions (\alpha, \sum, \infty).</li>
-<li>Notes: Not an encoding system but a method to render symbols in scientific documents.</li>
-</ul>
-</li>
-<li><p>Dingbats</p>
-<ul>
-<li><p>Usage: Decorative symbols, often used for visual enhancement.</p>
-</li>
-<li><p>Examples: Check marks, arrows, stars.</p>
-</li>
-<li><p>Notes: Originated in typefaces like Zapf Dingbats; Unicode includes a Dingbats block.</p>
-</li>
-</ul>
-</li>
-<li><p>Box Drawing Characters</p>
-<ul>
-<li>Usage: Used for simple graphics and box drawing in text files or terminal interfaces.</li>
-<li>Examples: ┌, ─, ┐, │, ┘.</li>
-<li>Notes: Useful for ASCII art and table layouts.</li>
-</ul>
-</li>
-<li><p>Control Characters</p>
-<ul>
-<li>Usage: Non-printing characters to control text display, such as line breaks and tabs.</li>
-<li>Categories: Includes Line Feed (LF), Carriage Return (CR), and others.</li>
-</ul>
-</li>
-<li><p>Private Use Area (PUA)</p>
-<ul>
-<li><p>Usage:  Allows companies or individuals to define custom symbols not in Unicode.</p>
-</li>
-<li><p>Examples: Proprietary symbols, company logos.</p>
-</li>
-<li><p>Notes: Non-standard and specific to certain systems or applications.</p>
-<p>Each of these systems provides unique ways to display and interact with symbols. While Unicode has largely unified global encoding, non-Unicode systems still fulfill niche needs, especially in older systems or specialized fields.</p>
-</li>
-</ul>
-</li>
-</ol>
-<p>Here are a few sources for locating and copying symbols:</p>
-<ol>
-<li><p>Unicode Tables</p>
-<p> <a href="https://home.unicode.org/">home.unicode.org</a> provides official charts for different Unicode blocks. Each chart lists symbols for a specific category, like arrows, geometric shapes, mathematical symbols, etc.<br> You can search by character name or code point to find the exact symbol you need.</p>
-<ul>
-<li>Example: <code>Unicde = &amp;U+1F47D</code> &#x3D; <code>hexadecimal format = &amp;#x1F47D;</code> result &#x3D; &#x1F47D;</li>
-</ul>
-</li>
-<li><p>Character Map Utility (Windows)</p>
-<p> Windows includes a built-in tool called “Character Map” (charmap.exe) where you can browse and copy symbols from various fonts that support Unicode.<br> Open it by typing “Character Map” in the Start menu search bar, then find and copy symbols to paste them into your project.</p>
-</li>
-<li><p>Emoji and Symbol Libraries </p>
-<p> <a href="https://symbl.cc/en/unicode-table/">Online Websites like Unicode Table</a> and <a href="https://coolsymbol.com/">Coolsymbol</a> provide searchable libraries of Unicode symbols, emojis, and text decorations.<br> You can copy the symbol you want directly from these sites.</p>
-</li>
-<li><p>HTML Entity Reference</p>
-<p> Some symbols have HTML entity codes (e.g., &larr; for ←). Sites like DevDocs or W3Schools list HTML entities if you want to embed symbols in web pages.</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>unicode</tag>
-        <tag>ASCII</tag>
-        <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite movies</title>
-    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
-<p><a href="#Takedown">Takedown</a></p>
-<p><a href="#footnotes">footnotes</a></p>
-<hr>
-<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
-<li>Initial reliese: 2000</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
-<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
-<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
-">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
-">[2]</span></a></sup></li>
-</ul>
-<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
-<li>Initial release: 1983</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
-<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
-<li>Starring: Matthew Broderick, Ally Sheedy</li>
-<li>Director: John Badham</li>
-</ul>
-<hr>
-<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
-<li>Initial release: 1982</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
-<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
-<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
-<li>Director: Steven Lisberger</li>
-</ul>
-<hr>
-<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
-<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
-<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
-<li>Director: Iain Softley</li>
-</ul>
-<hr>
-<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
-<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
-<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
-<li>Director: Phil Alden Robinson</li>
-</ul>
-<hr>
-<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
-<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
-<li>Starring: Sandra Bullock</li>
-<li>Director: Irwin Winkler</li>
-</ul>
-<hr>
-<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
-<li>Initial release: 1984</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
-<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
-<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
-<li>Director: Steve Barron</li>
-</ul>
-<hr>
-<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
-<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
-<li>Starring: Jeff Fahey, Pierce Brosnan</li>
-<li>Director: Brett Leonard</li>
-</ul>
-<hr>
-<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
-<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
-<li>Director: Mamoru Oshii</li>
-</ul>
-<hr>
-<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
-<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>movie</tag>
+        <tag>tags</tag>
       </tags>
   </entry>
   <entry>
@@ -955,6 +480,481 @@
       </tags>
   </entry>
   <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO blog design</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
+<p>Header</p>
+<ul>
+<li>Navigation menu:<ul>
+<li>Menu items:<ul>
+<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
+<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Main body</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
+<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
+</ul>
+<p>Side panel</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
+<li><input checked="" disabled="" type="checkbox"> Categories</li>
+<li><input checked="" disabled="" type="checkbox"> Tags</li>
+<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
+<li><input checked="" disabled="" type="checkbox"> Archives</li>
+<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
+</ul>
+<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Add more beautiful HEXO blog pages</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
+<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
+<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
+<p>result below</p>
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
+    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
+  </div> 
+
+<hr>
+<p><strong>2. Highlighted Section with Border and Background</strong></p>
+<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
+  <h3 style="color: #3c763d;">Important Notice</h3>
+  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
+  </div>
+  
+<hr>
+<p>  <strong>3. Colored Quote Block</strong></p>
+<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
+  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
+</blockquote>
+
+<hr>
+<p><strong>4. Centered Text with Decorative Style</strong></p>
+<p>  Center text with a larger font size, bold style, and color.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
+  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
+  </div>
+
+<hr>
+<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
+<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <h3 style="color: #b03a2e;">Tip of the Day</h3>
+  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
+  </div>
+
+<hr>
+<p><strong>6. Badge or Label for Text</strong></p>
+<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
+
+<hr>
+<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
+<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
+</div>
+  
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Info data</title>
+    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
+<div class="sitemap_content">
+    <ul>
+        <li>
+            <iframe
+                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                frameborder="0" width="216" height="60"></iframe>
+        </li>
+        <li>
+        <li>
+            <hr>
+            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
+            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
+        </li>
+        <li>
+            <hr>
+            <h2>Satellite observations</h2>
+            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
+            <hr>
+        </li>
+        <li>
+            <h3>Solar Flares and Storms Warnings for Today</h3>
+            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
+                height="300px"></iframe>
+        </li>
+        <hr>
+        <h3>Forecast platforms</h3>
+        </li>
+        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
+                FORECAST</a>
+        </li>
+        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
+        </li>
+        <li>foreca.com
+            <ul>
+                <li>
+                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
+                        Ukraine,
+                        Sumy</a>
+                </li>
+                <li>
+                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
+                        Kyiv</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
+                Network / European space agency.</a></li>
+        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
+    </ul>
+</div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Symbol encoding (Unicode and family)</title>
+    <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
+<p>Key Symbol Encoding Systems and Categories</p>
+<ol>
+<li><p>Unicode</p>
+<ul>
+<li>Usage: The universal encoding standard supporting characters from virtually all languages, as well as emoji, symbols, and icons.</li>
+<li>Categories: Includes letters, numbers, emoji, mathematical symbols, box-drawing characters, and more.</li>
+<li>Examples: Alphabet (A, B), numbers (1, 2), emoji (😊), math symbols (√, ∑), and other unique characters like ↵.</li>
+</ul>
+</li>
+<li><p>ASCII (American Standard Code for Information Interchange)</p>
+<ul>
+<li>Usage: Basic Latin letters, numbers, punctuation, and control characters for simple text encoding.</li>
+<li>Limitations: Limited to 128 characters, excluding many languages and special symbols.</li>
+<li>Examples: Basic Latin alphabet (A-Z), numbers (0-9), punctuation marks like . and ,.</li>
+</ul>
+</li>
+<li><p>ISO&#x2F;IEC 8859 (ISO Latin)</p>
+<ul>
+<li>Usage: Supports European languages with additional Latin characters, like accented letters.</li>
+<li>Categories: Variants (ISO 8859-1, ISO 8859-5) cover Western European, Eastern European, and Cyrillic scripts.</li>
+<li>Limitations: Restricted to 256 characters per set.</li>
+</ul>
+</li>
+<li><p>ANSI (Windows-1252)</p>
+<ul>
+<li>Usage: Commonly used on Windows; extends ASCII with additional characters for Western European languages.</li>
+<li>Limitations: Non-standard on non-Windows systems.</li>
+<li>Examples: Includes symbols like €, accented letters, and punctuation.</li>
+</ul>
+</li>
+<li><p>Emoji (Unicode Extended Pictographic Symbols)</p>
+<ul>
+<li>Usage:  Unicode provides a broad range of emoji for digital communication, sorted into categories.</li>
+<li>Categories: Smileys, People, Animals, Food, Travel, and more.</li>
+<li>Notes: Rendered differently across platforms (Apple, Google, Microsoft, etc.).</li>
+</ul>
+</li>
+<li><p>HTML Entities</p>
+<ul>
+<li>Usage: Encodes special symbols in HTML with named (&amp;) or numeric (&#169;) entities.</li>
+<li>Notes: Often Unicode-based, written as character references in HTML documents for web use.</li>
+</ul>
+</li>
+<li><p>LaTeX Symbols</p>
+<ul>
+<li>Usage:  Essential in academic and scientific fields, especially for mathematical notation.</li>
+<li>Categories: Greek letters, math operators, functions (\alpha, \sum, \infty).</li>
+<li>Notes: Not an encoding system but a method to render symbols in scientific documents.</li>
+</ul>
+</li>
+<li><p>Dingbats</p>
+<ul>
+<li><p>Usage: Decorative symbols, often used for visual enhancement.</p>
+</li>
+<li><p>Examples: Check marks, arrows, stars.</p>
+</li>
+<li><p>Notes: Originated in typefaces like Zapf Dingbats; Unicode includes a Dingbats block.</p>
+</li>
+</ul>
+</li>
+<li><p>Box Drawing Characters</p>
+<ul>
+<li>Usage: Used for simple graphics and box drawing in text files or terminal interfaces.</li>
+<li>Examples: ┌, ─, ┐, │, ┘.</li>
+<li>Notes: Useful for ASCII art and table layouts.</li>
+</ul>
+</li>
+<li><p>Control Characters</p>
+<ul>
+<li>Usage: Non-printing characters to control text display, such as line breaks and tabs.</li>
+<li>Categories: Includes Line Feed (LF), Carriage Return (CR), and others.</li>
+</ul>
+</li>
+<li><p>Private Use Area (PUA)</p>
+<ul>
+<li><p>Usage:  Allows companies or individuals to define custom symbols not in Unicode.</p>
+</li>
+<li><p>Examples: Proprietary symbols, company logos.</p>
+</li>
+<li><p>Notes: Non-standard and specific to certain systems or applications.</p>
+<p>Each of these systems provides unique ways to display and interact with symbols. While Unicode has largely unified global encoding, non-Unicode systems still fulfill niche needs, especially in older systems or specialized fields.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Here are a few sources for locating and copying symbols:</p>
+<ol>
+<li><p>Unicode Tables</p>
+<p> <a href="https://home.unicode.org/">home.unicode.org</a> provides official charts for different Unicode blocks. Each chart lists symbols for a specific category, like arrows, geometric shapes, mathematical symbols, etc.<br> You can search by character name or code point to find the exact symbol you need.</p>
+<ul>
+<li>Example: <code>Unicde = &amp;U+1F47D</code> &#x3D; <code>hexadecimal format = &amp;#x1F47D;</code> result &#x3D; &#x1F47D;</li>
+</ul>
+</li>
+<li><p>Character Map Utility (Windows)</p>
+<p> Windows includes a built-in tool called “Character Map” (charmap.exe) where you can browse and copy symbols from various fonts that support Unicode.<br> Open it by typing “Character Map” in the Start menu search bar, then find and copy symbols to paste them into your project.</p>
+</li>
+<li><p>Emoji and Symbol Libraries </p>
+<p> <a href="https://symbl.cc/en/unicode-table/">Online Websites like Unicode Table</a> and <a href="https://coolsymbol.com/">Coolsymbol</a> provide searchable libraries of Unicode symbols, emojis, and text decorations.<br> You can copy the symbol you want directly from these sites.</p>
+</li>
+<li><p>HTML Entity Reference</p>
+<p> Some symbols have HTML entity codes (e.g., &larr; for ←). Sites like DevDocs or W3Schools list HTML entities if you want to embed symbols in web pages.</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>unicode</tag>
+        <tag>ASCII</tag>
+        <tag>LaTeX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite movies</title>
+    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
+<p><a href="#Takedown">Takedown</a></p>
+<p><a href="#footnotes">footnotes</a></p>
+<hr>
+<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
+<li>Initial reliese: 2000</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
+<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
+<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
+">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
+">[2]</span></a></sup></li>
+</ul>
+<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
+<li>Initial release: 1983</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
+<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
+<li>Starring: Matthew Broderick, Ally Sheedy</li>
+<li>Director: John Badham</li>
+</ul>
+<hr>
+<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
+<li>Initial release: 1982</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
+<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
+<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
+<li>Director: Steven Lisberger</li>
+</ul>
+<hr>
+<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
+<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
+<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
+<li>Director: Iain Softley</li>
+</ul>
+<hr>
+<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
+<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
+<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
+<li>Director: Phil Alden Robinson</li>
+</ul>
+<hr>
+<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
+<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
+<li>Starring: Sandra Bullock</li>
+<li>Director: Irwin Winkler</li>
+</ul>
+<hr>
+<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
+<li>Initial release: 1984</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
+<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
+<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
+<li>Director: Steve Barron</li>
+</ul>
+<hr>
+<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
+<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
+<li>Starring: Jeff Fahey, Pierce Brosnan</li>
+<li>Director: Brett Leonard</li>
+</ul>
+<hr>
+<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
+<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
+<li>Director: Mamoru Oshii</li>
+</ul>
+<hr>
+<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
+<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>movie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ASCII art</title>
     <url>/hexo-blog/2024/10/28/posts/acsii_graphics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -966,6 +966,135 @@
       </categories>
       <tags>
         <tag>acsii</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Postman tests examples</title>
+    <url>/hexo-blog/2023/05/11/posts/dev_side__postman_tests_examples/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
+<p><strong>Table of content</strong><br><a href="#1-Validate-that-the-response-body-contains-a-specific-email">#1 Validate that the response body contains a specific</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#2 Check if the response status is 200</a><br><a href="#3-Ensure-the-response-time-is-less-than-500ms">#3 Ensure the response time is less than 500ms</a><br><a href="#4-Verify-the-users-first-name-in-the-json-response">#4 Verify the user’s first name in the JSON response</a><br><a href="#5-Validate-that-the-Content-Type-header-is-application-Json">#5 Validate that the Content-Type header is application&#x2F;json</a><br><a href="#6-Ensure-that-the-JSON-array-is-not-empty">#6 Ensure that the JSON array is not empty</a><br><a href="#7-Verify-that-a-specific-key-exists-in-the-response-body">#7 Verify that a specific key exists in the response body</a><br><a href="#8-Validate-the-response-body-includes-the-string-%E2%80%98success%E2%80%99">#8 Validate the response body includes the string ‘success’</a><br><a href="#9-Check-if-a-specific-field-is-of-a-certain-data-type">#9 Check if a specific field is of a certain data type</a><br><a href="#10-Validate-that-a-specific-field-has-a-value-greater-than-zero">#10. Validate that a specific field has a value greater than zero</a><br><a href="#11-Ensure-that-a-specific-header-exists-x-request-id">#11. Ensure that a specific header exists (X-Request-ID)</a><br><a href="#12-Verify-that-the-response-body-does-not-contain-a-specific-string">#12. Verify that the response body does not contain a specific string</a><br><a href="#13-Check-if-the-response-body-contains-a-specific-key-value-pair">#13. Check if the response body contains a specific key-value pair()(email)</a><br><a href="#14-Ensure-the-response-contains-multiple-keys">#14. Ensure the response contains multiple keys</a><br><a href="#15-Verify-that-a-fields-value-is-within-a-specific-range">#15. Verify that a field’s value is within a specific range</a><br><a href="#16-Validate-that-the-response-body-contains-a-specific-substring">#16. Validate that the response body contains a specific substring</a><br><a href="#17-Check-if-a-numeric-field-in-the-response-body-is-even">#17. Check if a numeric field in the response body is even</a><br><a href="#18-Ensure-that-the-response-body-has-a-non-empty-string-field">#18. Ensure that the response body has a non-empty string field</a><br><a href="#19-Verify-that-a-boolean-field-in-the-response-body-is-true">#19. Verify that a boolean field in the response body is true</a><br><a href="#20-Validate-that-an-array-field-has-a-specific-length">#20. Validate that an array field has a specific length</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#21. Check if a date field in the response body is in the past</a><br><a href="#22-Ensure-that-a-response-header-does-not-exist">#22. Ensure that a response header does not exist</a><br><a href="#23-Verify-that-a-specific-field-contains-a-valid-email-address">#23. Verify that a specific field contains a valid email address</a><br><a href="#24-Validate-that-a-fields-value-matches-a-specific-pattern">#24. Validate that a field’s value matches a specific pattern</a><br><a href="#25-Check-if-the-response-body-has-no-null-values-in-an-array">#25. Check if the response body has no null values in an array</a><br><a href="#26-Ensure-the-response-includes-a-specific-nested-object">#26. Ensure the response includes a specific nested object</a><br><a href="#27-Verify-that-a-list-of-ids-in-the-response-body-is-unique">#27. Verify that a list of IDs in the response body is unique</a><br><a href="#28-Validate-that-a-numeric-field-falls-within-a-certain-percentile">#28. Validate that a numeric field falls within a certain percentile </a><br><a href="#29-Check-if-a-timestamp-in-the-response-body-is-in-iso-8601-format">#29. Check if a timestamp in the response body is in ISO 8601 format</a><br><a href="#30-Ensure-that-a-specific-fields-value-does-not-contain-special-characters">#31. Verify that a specific URL in the response body is reachable</a><br><a href="#32-Validate-that-a-keys-value-is-within-a-specific-set-of-allowed-values">#32. Validate that a key’s value is within a specific set of allowed()values</a><br><a href="#33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object">#33. Check if the response contains a nested array with at least one()object</a><br><a href="#34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value">#34. Ensure that the sum of a numeric array field equals a specific()value</a><br><a href="#35-Verify-that-the-response-body-does-not-contain-any-undefined-fields">#35. Verify that the response body does not contain any undefined()fields</a><br><a href="#36-Validate-that-all-objects-in-an-array-have-a-specific-key">#36. Validate that all objects in an array have a specific key</a><br><a href="#37-Check-if-a-fields-value-is-a-valid-json-object">#37. Check if a field’s value is a valid JSON object</a><br><a href="#38-Ensure-the-response-body-does-not-exceed-a-certain-length">#38. Ensure the response body does not exceed a certain length</a><br><a href="#39-Verify-that-the-response-body-does-not-contain-a-specific-key">#39. Verify that the response body does not contain a specific key</a><br><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted">#40. Validate that an array field in the response body is sorted</a></p>
+<hr>
+<h1 id="1-Validate-that-the-response-body-contains-a-specific-email"><a href="#1-Validate-that-the-response-body-contains-a-specific-email" class="headerlink" title="1. Validate that the response body contains a specific email"></a>1. Validate that the response body contains a specific email</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating responsebody contains specific email&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;george.bluth@magic.com&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-Check-if-the-response-status-is-200"><a href="#2-Check-if-the-response-status-is-200" class="headerlink" title="2. Check if the response status is 200"></a>2. Check if the response status is 200</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response status is 200&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="property">response</span>.<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">status</span>(<span class="number">200</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-Ensure-the-response-time-is-less-than-500ms"><a href="#3-Ensure-the-response-time-is-less-than-500ms" class="headerlink" title="3. Ensure the response time is less than 500ms"></a>3. Ensure the response time is less than 500ms</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response time is less than 500ms&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">responseTime</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">below</span>(<span class="number">500</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="4-Verify-the-user’s-first-name-in-the-JSON-response"><a href="#4-Verify-the-user’s-first-name-in-the-JSON-response" class="headerlink" title="4. Verify the user’s first name in the JSON response"></a>4. Verify the user’s first name in the JSON response</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating user&#x27;s first name in JSON response&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">first_name</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;George&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="5-Validate-that-the-Content-Type-header-is-application-Json"><a href="#5-Validate-that-the-Content-Type-header-is-application-Json" class="headerlink" title="5. Validate that the Content-Type header is application&#x2F;Json"></a>5. Validate that the Content-Type header is application&#x2F;Json</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating content-type header is application/json&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">get</span>(<span class="string">&quot;Content-Type&quot;</span>)).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;application/json&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="6-Ensure-that-the-JSON-array-is-not-empty"><a href="#6-Ensure-that-the-JSON-array-is-not-empty" class="headerlink" title="6. Ensure that the JSON array is not empty"></a>6. Ensure that the JSON array is not empty</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating JSON array is not empty&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">an</span>(<span class="string">&#x27;array&#x27;</span>).<span class="property">that</span>.<span class="property">is</span>.<span class="property">not</span>.<span class="property">empty</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="7-Verify-that-a-specific-key-exists-in-the-response-body"><a href="#7-Verify-that-a-specific-key-exists-in-the-response-body" class="headerlink" title="7. Verify that a specific key exists in the response body"></a>7. Verify that a specific key exists in the response body</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key existence in response body&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;data&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="8-Validate-the-response-body-includes-the-string-‘success’"><a href="#8-Validate-the-response-body-includes-the-string-‘success’" class="headerlink" title="8.Validate the response body includes the string ‘success’"></a>8.Validate the response body includes the string ‘success’</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body includes the string &#x27;success&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;success&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="9-Check-if-a-specific-field-is-of-a-certain-data-type"><a href="#9-Check-if-a-specific-field-is-of-a-certain-data-type" class="headerlink" title="9. Check if a specific field is of a certain data type"></a>9. Check if a specific field is of a certain data type</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field data type&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">id</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">a</span>(<span class="string">&#x27;number&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="10-Validate-that-a-specific-field-has-a-value-greater-than-zero"><a href="#10-Validate-that-a-specific-field-has-a-value-greater-than-zero" class="headerlink" title="10. Validate that a specific field has a value greater than zero"></a>10. Validate that a specific field has a value greater than zero</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field value is greater than zero&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">age</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="11-Ensure-that-a-specific-header-exists-X-Request-ID"><a href="#11-Ensure-that-a-specific-header-exists-X-Request-ID" class="headerlink" title="11. Ensure that a specific header exists (X-Request-ID)"></a>11. Ensure that a specific header exists (X-Request-ID)</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating header existence X-Request-ID&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">has</span>(<span class="string">&quot;X-Request-ID&quot;</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="property">true</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="12-Verify-that-the-response-body-does-not-contain-a-specific-string"><a href="#12-Verify-that-the-response-body-does-not-contain-a-specific-string" class="headerlink" title="12. Verify that the response body does not contain a specific string"></a>12. Verify that the response body does not contain a specific string</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating absence of string &#x27;error&#x27; in response body&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="property">not</span>.<span class="title function_">include</span>(<span class="string">&quot;error&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="13-Check-if-the-response-body-contains-a-specific-key-value-pair"><a href="#13-Check-if-the-response-body-contains-a-specific-key-value-pair" class="headerlink" title="13. Check if the response body contains a specific key-value pair"></a>13. Check if the response body contains a specific key-value pair</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key-value pair (email)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">email</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;george.bluth@magic.com&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="14-Ensure-the-response-contains-multiple-keys"><a href="#14-Ensure-the-response-contains-multiple-keys" class="headerlink" title="14. Ensure the response contains multiple keys"></a>14. Ensure the response contains multiple keys</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating multiple keys existence (data, support)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">keys</span>([<span class="string">&quot;data&quot;</span>, <span class="string">&quot;support&quot;</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="15-Verify-that-a-field’s-value-is-within-a-specific-range"><a href="#15-Verify-that-a-field’s-value-is-within-a-specific-range" class="headerlink" title="15. Verify that a field’s value is within a specific range"></a>15. Verify that a field’s value is within a specific range</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field value is within range 1-10&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">page</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">within</span>(<span class="number">1</span>, <span class="number">10</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="16-Validate-that-the-response-body-contains-a-specific-substring"><a href="#16-Validate-that-the-response-body-contains-a-specific-substring" class="headerlink" title="16. Validate that the response body contains a specific substring"></a>16. Validate that the response body contains a specific substring</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body contains substring &#x27;welcome&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;welcome&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="17-Check-if-a-numeric-field-in-the-response-body-is-even"><a href="#17-Check-if-a-numeric-field-in-the-response-body-is-even" class="headerlink" title="17. Check if a numeric field in the response body is even"></a>17. Check if a numeric field in the response body is even</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating numeric field is even&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">id</span> % <span class="number">2</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="18-Ensure-that-the-response-body-has-a-non-empty-string-field"><a href="#18-Ensure-that-the-response-body-has-a-non-empty-string-field" class="headerlink" title="18. Ensure that the response body has a non-empty string field"></a>18. Ensure that the response body has a non-empty string field</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating non-empty string field&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">name</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="property">length</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="19-Verify-that-a-boolean-field-in-the-response-body-is-true"><a href="#19-Verify-that-a-boolean-field-in-the-response-body-is-true" class="headerlink" title="19. Verify that a boolean field in the response body is true"></a>19. Verify that a boolean field in the response body is true</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating boolean field is true&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">isActive</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="property">true</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="20-Validate-that-an-array-field-has-a-specific-length"><a href="#20-Validate-that-an-array-field-has-a-specific-length" class="headerlink" title="20. Validate that an array field has a specific length"></a>20. Validate that an array field has a specific length</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating array length is 5&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">items</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">lengthOf</span>(<span class="number">5</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="21-Check-if-a-date-field-in-the-response-body-is-in-the-past"><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past" class="headerlink" title="21. Check if a date field in the response body is in the past"></a>21. Check if a date field in the response body is in the past</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating date field is in the past&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(<span class="keyword">new</span> <span class="title class_">Date</span>(jsonData.<span class="property">data</span>.<span class="property">date</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">below</span>(<span class="keyword">new</span> <span class="title class_">Date</span>());</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="22-Ensure-that-a-response-header-does-not-exist"><a href="#22-Ensure-that-a-response-header-does-not-exist" class="headerlink" title="22. Ensure that a response header does not exist"></a>22. Ensure that a response header does not exist</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating header does not exist X-Deprecated&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">has</span>(<span class="string">&quot;X-Deprecated&quot;</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="property">false</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="23-Verify-that-a-specific-field-contains-a-valid-email-address"><a href="#23-Verify-that-a-specific-field-contains-a-valid-email-address" class="headerlink" title="23. Verify that a specific field contains a valid email address"></a>23. Verify that a specific field contains a valid email address</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating valid email address&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">email</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/\S+@\S+\.\S+/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="24-Validate-that-a-field’s-value-matches-a-specific-pattern"><a href="#24-Validate-that-a-field’s-value-matches-a-specific-pattern" class="headerlink" title="24. Validate that a field’s value matches a specific pattern"></a>24. Validate that a field’s value matches a specific pattern</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field matches phone number pattern&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">phone</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/^\d&#123;3&#125;-\d&#123;3&#125;-\d&#123;4&#125;$/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="25-Check-if-the-response-body-has-no-null-values-in-an-array"><a href="#25-Check-if-the-response-body-has-no-null-values-in-an-array" class="headerlink" title="25. Check if the response body has no null values in an array"></a>25. Check if the response body has no null values in an array</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no null values in array&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="property">not</span>.<span class="property">deep</span>.<span class="property">include</span>.<span class="title function_">members</span>([<span class="literal">null</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="26-Ensure-the-response-includes-a-specific-nested-object"><a href="#26-Ensure-the-response-includes-a-specific-nested-object" class="headerlink" title="26. Ensure the response includes a specific nested object"></a>26. Ensure the response includes a specific nested object</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating nested object existence (address)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">address</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;city&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="27-Verify-that-a-list-of-IDs-in-the-response-body-is-unique"><a href="#27-Verify-that-a-list-of-IDs-in-the-response-body-is-unique" class="headerlink" title="27. Verify that a list of IDs in the response body is unique"></a>27. Verify that a list of IDs in the response body is unique</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating unique IDs in list&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> ids = jsonData.<span class="property">data</span>.<span class="title function_">map</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="property">id</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(<span class="keyword">new</span> <span class="title class_">Set</span>(ids).<span class="property">size</span>).<span class="property">to</span>.<span class="title function_">eql</span>(ids.<span class="property">length</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="28-Validate-that-a-numeric-field-falls-within-a-certain-percentile"><a href="#28-Validate-that-a-numeric-field-falls-within-a-certain-percentile" class="headerlink" title="28. Validate that a numeric field falls within a certain percentile"></a>28. Validate that a numeric field falls within a certain percentile</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field is in top 10 percentile&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">score</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">above</span>(<span class="number">90</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="29-Check-if-a-timestamp-in-the-response-body-is-in-ISO-8601-format"><a href="#29-Check-if-a-timestamp-in-the-response-body-is-in-ISO-8601-format" class="headerlink" title="29. Check if a timestamp in the response body is in ISO 8601 format:"></a>29. Check if a timestamp in the response body is in ISO 8601 format:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating timestamp format is ISO 8601&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">timestamp</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/\d&#123;4&#125;-\d&#123;2&#125;-\d&#123;2&#125;T\d&#123;2&#125;:\d&#123;2&#125;:\d&#123;2&#125;.\d&#123;3&#125;Z/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="30-Ensure-that-a-specific-field’s-value-does-not-contain-special-characters"><a href="#30-Ensure-that-a-specific-field’s-value-does-not-contain-special-characters" class="headerlink" title="30. Ensure that a specific field’s value does not contain special characters:"></a>30. Ensure that a specific field’s value does not contain special characters:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no special characters in field&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">username</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/^[a-zA-Z0-9]+$/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="31-Verify-that-a-specific-URL-in-the-response-body-is-reachable"><a href="#31-Verify-that-a-specific-URL-in-the-response-body-is-reachable" class="headerlink" title="31. Verify that a specific URL in the response body is reachable:"></a>31. Verify that a specific URL in the response body is reachable:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating URL reachability&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/(http|https):\/\/\S+/g</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="32-Validate-that-a-key’s-value-is-within-a-specific-set-of-allowed-values"><a href="#32-Validate-that-a-key’s-value-is-within-a-specific-set-of-allowed-values" class="headerlink" title="32. Validate that a key’s value is within a specific set of allowed values:"></a>32. Validate that a key’s value is within a specific set of allowed values:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key value in allowed set&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">status</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">oneOf</span>([<span class="string">&quot;Pending&quot;</span>, <span class="string">&quot;Completed&quot;</span>, <span class="string">&quot;Canceled&quot;</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object"><a href="#33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object" class="headerlink" title="33. Check if the response contains a nested array with at least one object:"></a>33. Check if the response contains a nested array with at least one object:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating nested array contains at least one object&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">orders</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="property">length</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value"><a href="#34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value" class="headerlink" title="34. Ensure that the sum of a numeric array field equals a specific value:"></a>34. Ensure that the sum of a numeric array field equals a specific value:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating sum of array values equals 100&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> sum = jsonData.<span class="property">data</span>.<span class="property">prices</span>.<span class="title function_">reduce</span>(<span class="function">(<span class="params">acc, price</span>) =&gt;</span> acc + price, <span class="number">0</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(sum).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="number">100</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="35-Verify-that-the-response-body-does-not-contain-any-undefined-fields"><a href="#35-Verify-that-the-response-body-does-not-contain-any-undefined-fields" class="headerlink" title="35. Verify that the response body does not contain any undefined fields:"></a>35. Verify that the response body does not contain any undefined fields:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no undefined fields&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> hasUndefined = <span class="title class_">Object</span>.<span class="title function_">values</span>(jsonData.<span class="property">data</span>).<span class="title function_">includes</span>(<span class="literal">undefined</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(hasUndefined).<span class="property">to</span>.<span class="property">be</span>.<span class="property">false</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="36-Validate-that-all-objects-in-an-array-have-a-specific-key"><a href="#36-Validate-that-all-objects-in-an-array-have-a-specific-key" class="headerlink" title="36. Validate that all objects in an array have a specific key:"></a>36. Validate that all objects in an array have a specific key:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key &#x27;id&#x27; in all array objects&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="title function_">satisfy</span>(<span class="function"><span class="params">items</span> =&gt;</span> items.<span class="title function_">every</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="title function_">hasOwnProperty</span>(<span class="string">&quot;id&quot;</span>)));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="37-Check-if-a-field’s-value-is-a-valid-JSON-object"><a href="#37-Check-if-a-field’s-value-is-a-valid-JSON-object" class="headerlink" title="37. Check if a field’s value is a valid JSON object:"></a>37. Check if a field’s value is a valid JSON object:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field is a valid JSON object&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">config</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">an</span>(<span class="string">&#x27;object&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="38-Ensure-the-response-body-does-not-exceed-a-certain-length"><a href="#38-Ensure-the-response-body-does-not-exceed-a-certain-length" class="headerlink" title="38. Ensure the response body does not exceed a certain length:"></a>38. Ensure the response body does not exceed a certain length:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body length is at most 500&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>().<span class="property">length</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="property">at</span>.<span class="title function_">most</span>(<span class="number">500</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="39-Verify-that-the-response-body-does-not-contain-a-specific-key"><a href="#39-Verify-that-the-response-body-does-not-contain-a-specific-key" class="headerlink" title="39. Verify that the response body does not contain a specific key:"></a>39. Verify that the response body does not contain a specific key:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating absence of key &#x27;password&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">not</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;password&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="40-Validate-that-an-array-field-in-the-response-body-is-sorted"><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted" class="headerlink" title="40. Validate that an array field in the response body is sorted:"></a>40. Validate that an array field in the response body is sorted:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating array is sorted&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> sortedArray = [...jsonData.<span class="property">data</span>].<span class="title function_">sort</span>(<span class="function">(<span class="params">a, b</span>) =&gt;</span> a - b);</span><br><span class="line">    pm.<span class="title function_">expect</span>(sortedArray).<span class="property">to</span>.<span class="title function_">eql</span>(jsonData.<span class="property">data</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>postman</tag>
+        <tag>api_testing</tag>
       </tags>
   </entry>
   <entry>
@@ -1065,29 +1194,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Resources.Global platforms and people</title>
-    <url>/hexo-blog/2024/10/28/posts/resources__global_platforms/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
-<ol>
-<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
-</li>
-<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
-</li>
-</ol>
-<p><strong>List of people</strong></p>
-<ol>
-<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>global_knowledge</tag>
-        <tag>resources</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Site for blogging</title>
     <url>/hexo-blog/2024/04/28/posts/site_for_blogging/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
@@ -1144,6 +1250,29 @@
       </categories>
       <tags>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Resources.Global platforms and people</title>
+    <url>/hexo-blog/2024/10/28/posts/resources__global_platforms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+<ol>
+<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
+</li>
+<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
+</li>
+</ol>
+<p><strong>List of people</strong></p>
+<ol>
+<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>global_knowledge</tag>
+        <tag>resources</tag>
       </tags>
   </entry>
   <entry>
