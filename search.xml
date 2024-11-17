@@ -77,6 +77,20 @@
       </tags>
   </entry>
   <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>cheatsheets</tag>
+        <tag>tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog&#39;s categories</title>
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
@@ -92,20 +106,6 @@
       <categories>
         <category>Categories</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>cheatsheets</tag>
-        <tag>tutorial</tag>
-      </tags>
   </entry>
   <entry>
     <title>stats</title>
@@ -165,29 +165,6 @@
       <categories>
         <category>Maintanance</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -256,6 +233,29 @@
         <tag>my_contribution</tag>
         <tag>my_medium_post</tag>
         <tag>my_linkedin_post</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -553,24 +553,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXO blog design</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
@@ -689,6 +671,55 @@
       </tags>
   </entry>
   <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -750,75 +781,6 @@
       </categories>
       <tags>
         <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li>Введение в неклассическую философию. Гаспарян Д.Э.<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> </li>
-<li>Введение в политическую философию. Гаджиев К.С.  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -959,6 +921,44 @@
         <tag>unicode</tag>
         <tag>ASCII</tag>
         <tag>LaTeX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li>Введение в неклассическую философию. Гаспарян Д.Э.<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> </li>
+<li>Введение в политическую философию. Гаджиев К.С.  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -1151,6 +1151,137 @@
       </tags>
   </entry>
   <entry>
+    <title>Comparing Efficiency of NLP Models. Methods and Metrics</title>
+    <url>/hexo-blog/2024/11/17/posts/ai_comparing_nlp_models_methods_metrix/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
+<hr>
+<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
+<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
+<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems. 
+">[1]</span></a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE. 
+">[2]</span></a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
+">[3]</span></a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.">[4]</span></a></sup> for standardized comparisons.</li>
+<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
+<li><strong>Scalability and Efficiency Testing</strong>:<ul>
+<li>Test for performance across different dataset sizes.</li>
+<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
+</ul>
+</li>
+<li><strong>Generalization and Robustness</strong>:<ul>
+<li>Test on out-of-distribution data or adversarial examples.</li>
+<li>Use cross-lingual or domain-specific datasets.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
+<li><strong>Classification Tasks</strong>:<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall </li>
+<li>F1-Score</li>
+<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
+</ul>
+</li>
+<li><strong>Text Generation Tasks</strong>:<ul>
+<li>BLEU (Bilingual Evaluation Understudy)</li>
+<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
+<li>METEOR (Metric for Evaluation of Translation with Explicit ORdering)</li>
+</ul>
+</li>
+<li><strong>Question Answering</strong>:<ul>
+<li>Exact Match (EM)</li>
+<li>F1-Score</li>
+</ul>
+</li>
+<li><strong>Language Modeling</strong>:<ul>
+<li>Perplexity</li>
+<li>Bits-per-character (BPC)</li>
+</ul>
+</li>
+<li><strong>Named Entity Recognition (NER)</strong>:<ul>
+<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
+</ul>
+</li>
+<li><strong>Text Summarization</strong>:<ul>
+<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
+</ul>
+</li>
+</ol>
+<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
+<li><strong>Computational Efficiency</strong>:<ul>
+<li>FLOPs (Floating Point Operations per Second)</li>
+<li>Latency (time per inference)</li>
+<li>Training Time</li>
+</ul>
+</li>
+<li><strong>Memory Usage</strong>:<ul>
+<li>GPU&#x2F;CPU memory requirements</li>
+<li>Model size (in MB or parameters)</li>
+</ul>
+</li>
+<li><strong>Energy Consumption</strong>:<ul>
+<li>Energy usage during training&#x2F;inference</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
+<li><strong>Model Parameters</strong>:<ul>
+<li>Number of layers</li>
+<li>Hidden size</li>
+<li>Attention heads</li>
+</ul>
+</li>
+<li><strong>Dataset Characteristics</strong>:<ul>
+<li>Dataset size</li>
+<li>Distribution (balanced vs. imbalanced classes)</li>
+<li>Language&#x2F;domain</li>
+</ul>
+</li>
+<li><strong>Hyperparameters</strong>:<ul>
+<li>Learning rate</li>
+<li>Batch size</li>
+<li>Dropout rate</li>
+<li>Optimization algorithm (e.g., AdamW, SGD)</li>
+</ul>
+</li>
+<li><strong>Infrastructure</strong>:<ul>
+<li>Hardware (e.g., GPU, TPU, or CPU)</li>
+<li>Software (e.g., TensorFlow, PyTorch)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
+<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
+<li><strong>Parameterization</strong>:<ul>
+<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>:<ul>
+<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
+<li>Fix random seeds for deterministic results.</li>
+</ul>
+</li>
+<li><strong>Automated Testing</strong>:<ul>
+<li>Implement pipelines to rerun experiments with new variables.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Machine Learning Techniques - Overview</title>
     <url>/hexo-blog/2024/09/28/posts/ai_ml_techniques_overview_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this guide, we will review popular machine learning techniques with a brief overview of their applications, complexity levels, and some historical context. This list provides a starting point for understanding core machine learning methods and their practical uses.</p>
@@ -1285,6 +1416,173 @@
       </tags>
   </entry>
   <entry>
+    <title>NLP tasks</title>
+    <url>/hexo-blog/2024/11/17/posts/ai_nlp_tasksintro_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Natural Language Processing (NLP) encompasses a variety of tasks that enable machines to understand, interpret, and generate human language. Below is an overview of some of the most important NLP tasks and their applications.</p>
+<hr>
+<h2 id="1-Sentiment-Analysis"><a href="#1-Sentiment-Analysis" class="headerlink" title="1. Sentiment Analysis"></a>1. Sentiment Analysis</h2><p><strong>Description</strong>: Determines the sentiment or emotion expressed in text (positive, negative, neutral).<br><strong>Applications</strong>: Social media monitoring, product reviews, customer feedback.<br><strong>Datasets</strong>: IMDB Reviews, Sentiment140.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.  
+">[1]</span></a></sup>  </li>
+<li><a href="https://ai.stanford.edu/~amaas/data/sentiment/">IMDB Dataset</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="IMDB Dataset - Large Movie Review Dataset for Sentiment Analysis by Stanford.  
+">[2]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="2-Named-Entity-Recognition-NER"><a href="#2-Named-Entity-Recognition-NER" class="headerlink" title="2. Named Entity Recognition (NER)"></a>2. Named Entity Recognition (NER)</h2><p><strong>Description</strong>: Identifies entities in text such as names of people, organizations, locations, etc.<br><strong>Applications</strong>: Information extraction, legal document analysis, bioinformatics.<br><strong>Datasets</strong>: CoNLL-2003, OntoNotes.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/conll2003">CoNLL-2003</a><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CoNLL-2003 - Dataset for Named Entity Recognition and other sequence modeling tasks.  
+">[3]</span></a></sup>  </li>
+<li><a href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OntoNotes - Annotated dataset covering various linguistic phenomena.  
+">[4]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="3-Machine-Translation"><a href="#3-Machine-Translation" class="headerlink" title="3. Machine Translation"></a>3. Machine Translation</h2><p><strong>Description</strong>: Automatically translates text from one language to another.<br><strong>Applications</strong>: Cross-lingual communication, global business, localization.<br><strong>Datasets</strong>: WMT, OpenSubtitles.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://www.statmt.org/wmt20/translation-task.html">WMT Dataset</a><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WMT - Workshop on Machine Translation datasets for translation tasks.  
+">[5]</span></a></sup>  </li>
+<li><a href="https://opus.nlpl.eu/legacy/OpenSubtitles-v2018.php">OpenSubtitles</a><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OpenSubtitles - Large corpus of subtitles for multilingual tasks.  
+">[6]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="4-Text-Summarization"><a href="#4-Text-Summarization" class="headerlink" title="4. Text Summarization"></a>4. Text Summarization</h2><p><strong>Description</strong>: Produces a concise summary of a longer text while retaining essential information.<br><strong>Applications</strong>: News summarization, legal briefings, academic research.<br><strong>Datasets</strong>: CNN&#x2F;DailyMail, XSum.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/cnn_dailymail">CNN&#x2F;DailyMail</a><sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CNN/DailyMail - Dataset for abstractive summarization tasks.  
+">[7]</span></a></sup>  </li>
+<li><a href="https://huggingface.co/datasets/xsum">XSum</a><sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="XSum - Dataset for extreme summarization of news articles.  
+">[8]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="5-Text-Classification"><a href="#5-Text-Classification" class="headerlink" title="5. Text Classification"></a>5. Text Classification</h2><p><strong>Description</strong>: Categorizes text into predefined classes (e.g., spam detection, topic classification).<br><strong>Applications</strong>: Email filtering, topic modeling, document organization.<br><strong>Datasets</strong>: AG News, Reuters-21578.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/ag_news">AG News</a><sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="AG News - News topic classification dataset.  
+">[9]</span></a></sup>  </li>
+<li><a href="https://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html">Reuters-21578</a><sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Reuters-21578 - Text categorization benchmark dataset.  
+">[10]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="6-Question-Answering-QA"><a href="#6-Question-Answering-QA" class="headerlink" title="6. Question Answering (QA)"></a>6. Question Answering (QA)</h2><p><strong>Description</strong>: Answers questions based on a given text passage or context.<br><strong>Applications</strong>: Chatbots, search engines, educational tools.<br><strong>Datasets</strong>: SQuAD, TriviaQA.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SQuAD - Stanford Question Answering Dataset for reading comprehension tasks.  
+">[11]</span></a></sup>  </li>
+<li><a href="https://huggingface.co/datasets/trivia_qa">TriviaQA</a><sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="TriviaQA - Dataset containing trivia questions and evidence passages.  
+">[12]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="7-Language-Modeling"><a href="#7-Language-Modeling" class="headerlink" title="7. Language Modeling"></a>7. Language Modeling</h2><p><strong>Description</strong>: Predicts the next word or sequence of words in a text.<br><strong>Applications</strong>: Autocomplete, text generation, conversational AI.<br><strong>Datasets</strong>: WikiText, Penn Treebank.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/wikitext">WikiText</a><sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WikiText - Dataset for language modeling based on Wikipedia articles.  
+">[13]</span></a></sup>  </li>
+<li><a href="https://catalog.ldc.upenn.edu/LDC99T42">Penn Treebank</a><sup id="fnref:14"><a href="#fn:14" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Penn Treebank - Corpus for linguistic annotation and modeling.  
+">[14]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="8-Part-of-Speech-POS-Tagging"><a href="#8-Part-of-Speech-POS-Tagging" class="headerlink" title="8. Part-of-Speech (POS) Tagging"></a>8. Part-of-Speech (POS) Tagging</h2><p><strong>Description</strong>: Assigns grammatical categories (e.g., noun, verb, adjective) to words in a sentence.<br><strong>Applications</strong>: Grammar correction, syntactic analysis, linguistic research.<br><strong>Datasets</strong>: Universal Dependencies, WSJ Corpus.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://universaldependencies.org/">Universal Dependencies</a><sup id="fnref:15"><a href="#fn:15" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Universal Dependencies - Framework for consistent grammatical annotation across languages.  
+">[15]</span></a></sup>  </li>
+<li><a href="https://catalog.ldc.upenn.edu/LDC99T42">WSJ Corpus</a><sup id="fnref:16"><a href="#fn:16" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WSJ Corpus - Dataset from Wall Street Journal articles for POS tagging.  
+">[16]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="9-Coreference-Resolution"><a href="#9-Coreference-Resolution" class="headerlink" title="9. Coreference Resolution"></a>9. Coreference Resolution</h2><p><strong>Description</strong>: Identifies and links all expressions in a text that refer to the same entity.<br><strong>Applications</strong>: Dialogue systems, summarization, information extraction.<br><strong>Datasets</strong>: OntoNotes, CoNLL-2012.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OntoNotes - Annotated dataset covering various linguistic phenomena.  
+">[4]</span></a></sup>  </li>
+<li><a href="https://conll.cemantix.org/2012/">CoNLL-2012</a><sup id="fnref:17"><a href="#fn:17" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CoNLL-2012 - Shared task on coreference resolution and other NLP challenges.  ">[17]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a>Footnotes</h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">IMDB Dataset - Large Movie Review Dataset for Sentiment Analysis by Stanford.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2003 - Dataset for Named Entity Recognition and other sequence modeling tasks.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OntoNotes - Annotated dataset covering various linguistic phenomena.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT - Workshop on Machine Translation datasets for translation tasks.<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OpenSubtitles - Large corpus of subtitles for multilingual tasks.<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CNN/DailyMail - Dataset for abstractive summarization tasks.<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">XSum - Dataset for extreme summarization of news articles.<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">AG News - News topic classification dataset.<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Reuters-21578 - Text categorization benchmark dataset.<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset for reading comprehension tasks.<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">TriviaQA - Dataset containing trivia questions and evidence passages.<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WikiText - Dataset for language modeling based on Wikipedia articles.<a href="#fnref:13" rev="footnote"> ↩</a></span></li><li id="fn:14"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">14.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Penn Treebank - Corpus for linguistic annotation and modeling.<a href="#fnref:14" rev="footnote"> ↩</a></span></li><li id="fn:15"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">15.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Universal Dependencies - Framework for consistent grammatical annotation across languages.<a href="#fnref:15" rev="footnote"> ↩</a></span></li><li id="fn:16"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">16.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WSJ Corpus - Dataset from Wall Street Journal articles for POS tagging.<a href="#fnref:16" rev="footnote"> ↩</a></span></li><li id="fn:17"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">17.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2012 - Shared task on coreference resolution and other NLP challenges.<a href="#fnref:17" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Старт - промт-инжиниринг.</title>
+    <url>/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>references:</em></p>
+<ul>
+<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">https://www.youtube.com/@umarjamilai</a> &#x2F; <a href="https://umarjamil.org/">https://umarjamil.org/</a></li>
+<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">https://www.youtube.com/@YannicKilcher</a>   </li>
+<li><a href="https://pieces.app/blog/10-prompt-engineering-best-practices">10 Prompt Engineering Best Practices</a></li>
+<li><a href="https://www.researchgate.net/publication/382640448_Worked_Examples_to_Facilitate_the_Development_of_Prompt_Engineering_Skills">Worked Examples to Facilitate the Development of Prompt Engineering Skills</a></li>
+</ul>
+<h2 id="Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты"><a href="#Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты" class="headerlink" title="Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты"></a>Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты</h2><p><em>В последние годы промт-инжиниринг (prompt engineering) набирает популярность как новая профессия, сосредоточенная на создании, оптимизации и оценке запросов для взаимодействия с моделями искусственного интеллекта. Для специалистов из смежных областей, таких как тестирование программного обеспечения, переход в эту сферу может быть достаточно органичным. Рассмотрим, какие навыки, знания и инструменты понадобятся для успешной работы в этой новой роли.</em></p>
+<ol>
+<li><p><strong>Базовые знания искусственного интеллекта и машинного обучения</strong><br>Чтобы эффективно проектировать промпты, необходимо понимать, как работает генеративный ИИ. Некоторые ключевые моменты включают:</p>
+<ul>
+<li>Основы NLP (Natural Language Processing) — понимание, как ИИ обрабатывает текст, помогает создать такие промпты, которые максимально точно интерпретируются моделью.</li>
+<li>Архитектуры языковых моделей — GPT, BERT, T5 и другие модели работают по разным принципам, что отражается на подходе к генерации промптов.</li>
+<li>Обучение и дообучение моделей — знание процесса обучения поможет понять, как модель «учится» и реагирует на разные типы запросов.</li>
+</ul>
+</li>
+<li><p><strong>Навыки работы с данными</strong><br>Важной частью промт-инжиниринга является работа с большими массивами данных для анализа и оптимизации промптов:</p>
+<ul>
+<li>Обработка данных — навыки предобработки текстовых данных (удаление шума, токенизация, нормализация).</li>
+<li>Анализ данных — понимание статистических методов и основ анализа данных (например, для выявления закономерностей в ответах модели на разные промпты).</li>
+<li>Использование Python и библиотек для обработки данных — библиотеками Pandas и NumPy часто пользуются для быстрой обработки и анализа данных.</li>
+</ul>
+</li>
+<li><p><strong>Разработка и оптимизация промптов</strong><br>Работа с промптами требует знаний и опыта в создании запросов, которые дают максимально релевантные ответы. Важно владеть следующими навыками:</p>
+<ul>
+<li>Создание структурированных запросов — понимать, как структурировать промпт для достижения нужного результата (например, задавая четкий формат вывода, делая уточняющие инструкции).</li>
+<li>Оптимизация промптов — умение варьировать фразы, ключевые слова и структуру запроса, чтобы улучшить ответы модели.</li>
+<li>Работа с контекстом — навык передачи контекста и уточняющей информации в промптах, чтобы улучшить понимание ИИ.</li>
+</ul>
+</li>
+<li><p><strong>Метрики оценки качества ответов</strong><br>Специалист по промт-инжинирингу должен уметь оценивать, насколько успешно модель справляется с задачей, и измерять качество ответов. Метрики, которые здесь будут полезны:</p>
+<ul>
+<li>Релевантность — насколько ответ соответствует запросу по смыслу.</li>
+<li>Точность и полнота — охватывает ли ответ все аспекты, обозначенные в запросе.</li>
+<li>Когерентность и читабельность — как логично и понятно сформулирован ответ.</li>
+<li>Использование автоматизированных метрик — если модель генерирует длинные ответы, можно использовать такие метрики, как BLEU, ROUGE или METEOR, чтобы сравнить ответы с эталонными.</li>
+</ul>
+</li>
+<li><p><strong>Тестирование и автоматизация промптов</strong><br>Опыт в тестировании программного обеспечения может стать преимуществом:</p>
+<ul>
+<li>Создание тестовых наборов для промптов — умение разрабатывать тестовые наборы, включающие разнообразные примеры запросов и эталонные ответы.</li>
+<li>A&#x2F;B-тестирование промптов — навык сравнения разных форматов промптов для выявления наиболее эффективного.</li>
+<li>Автоматизация тестирования — навыки программирования для создания автоматизированных тестов (например, с использованием pytest, unittest) и использования CI&#x2F;CD для поддержки непрерывного тестирования промптов.</li>
+</ul>
+</li>
+<li><p><strong>Инструменты для работы с языковыми моделями и анализа промптов</strong><br>Для работы с промптами могут потребоваться следующие инструменты:</p>
+<ul>
+<li>API для работы с моделями — OpenAI, Hugging Face, Google AI и другие предлагают API для взаимодействия с языковыми моделями. Умение работать с ними позволяет внедрять модели в скрипты и приложения.</li>
+<li>Jupyter Notebook и Google Colab — используются для тестирования и анализа промптов в интерактивном режиме.</li>
+<li>Инструменты для визуализации данных — Matplotlib, Seaborn, Plotly для представления результатов тестирования и анализа промптов.</li>
+</ul>
+</li>
+<li><p><strong>Основы разработки</strong><br>Опыт в программировании и разработке поможет эффективно интегрировать промпты в различные приложения:</p>
+<ul>
+<li>Знание Python — Python остается основным языком для работы с ИИ, а также для автоматизации, создания тестов и написания аналитических скриптов.</li>
+<li>Знание REST API — поможет интегрировать запросы к ИИ с другими сервисами и приложениями.</li>
+<li>Навыки работы с версиями кода (Git) — позволяет управлять изменениями в промптах и отслеживать их историю.</li>
+</ul>
+</li>
+<li><p><strong>Понимание этики и ограничений ИИ</strong><br>Особое внимание уделяется ответственности при разработке промптов:</p>
+<ul>
+<li>Этические нормы — понимание, как избежать предвзятости в запросах и снизить вероятность получения неприемлемых ответов.</li>
+<li>Приватность данных — работа с текстовыми данными должна учитывать безопасность и соблюдение конфиденциальности.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Заключение</strong><br>Промт-инжиниринг — перспективное направление для специалистов, заинтересованных в создании и оптимизации взаимодействия с ИИ. Входя в эту профессию, важно иметь базовые знания об искусственном интеллекте и навыки анализа данных, понимать, как тестировать и оценивать качество промптов, а также уметь использовать инструменты для работы с языковыми моделями. Тестировщик программного обеспечения с опытом в автоматизации и анализе данных может применить свои знания в промт-инжиниринге, делая переход к новой профессии более плавным.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Postman tests examples</title>
     <url>/hexo-blog/2023/05/11/posts/dev_side__postman_tests_examples/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
@@ -1414,87 +1712,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Старт - промт-инжиниринг.</title>
-    <url>/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>references:</em></p>
-<ul>
-<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">https://www.youtube.com/@umarjamilai</a> &#x2F; <a href="https://umarjamil.org/">https://umarjamil.org/</a></li>
-<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">https://www.youtube.com/@YannicKilcher</a>   </li>
-<li><a href="https://pieces.app/blog/10-prompt-engineering-best-practices">10 Prompt Engineering Best Practices</a></li>
-<li><a href="https://www.researchgate.net/publication/382640448_Worked_Examples_to_Facilitate_the_Development_of_Prompt_Engineering_Skills">Worked Examples to Facilitate the Development of Prompt Engineering Skills</a></li>
-</ul>
-<h2 id="Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты"><a href="#Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты" class="headerlink" title="Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты"></a>Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты</h2><p><em>В последние годы промт-инжиниринг (prompt engineering) набирает популярность как новая профессия, сосредоточенная на создании, оптимизации и оценке запросов для взаимодействия с моделями искусственного интеллекта. Для специалистов из смежных областей, таких как тестирование программного обеспечения, переход в эту сферу может быть достаточно органичным. Рассмотрим, какие навыки, знания и инструменты понадобятся для успешной работы в этой новой роли.</em></p>
-<ol>
-<li><p><strong>Базовые знания искусственного интеллекта и машинного обучения</strong><br>Чтобы эффективно проектировать промпты, необходимо понимать, как работает генеративный ИИ. Некоторые ключевые моменты включают:</p>
-<ul>
-<li>Основы NLP (Natural Language Processing) — понимание, как ИИ обрабатывает текст, помогает создать такие промпты, которые максимально точно интерпретируются моделью.</li>
-<li>Архитектуры языковых моделей — GPT, BERT, T5 и другие модели работают по разным принципам, что отражается на подходе к генерации промптов.</li>
-<li>Обучение и дообучение моделей — знание процесса обучения поможет понять, как модель «учится» и реагирует на разные типы запросов.</li>
-</ul>
-</li>
-<li><p><strong>Навыки работы с данными</strong><br>Важной частью промт-инжиниринга является работа с большими массивами данных для анализа и оптимизации промптов:</p>
-<ul>
-<li>Обработка данных — навыки предобработки текстовых данных (удаление шума, токенизация, нормализация).</li>
-<li>Анализ данных — понимание статистических методов и основ анализа данных (например, для выявления закономерностей в ответах модели на разные промпты).</li>
-<li>Использование Python и библиотек для обработки данных — библиотеками Pandas и NumPy часто пользуются для быстрой обработки и анализа данных.</li>
-</ul>
-</li>
-<li><p><strong>Разработка и оптимизация промптов</strong><br>Работа с промптами требует знаний и опыта в создании запросов, которые дают максимально релевантные ответы. Важно владеть следующими навыками:</p>
-<ul>
-<li>Создание структурированных запросов — понимать, как структурировать промпт для достижения нужного результата (например, задавая четкий формат вывода, делая уточняющие инструкции).</li>
-<li>Оптимизация промптов — умение варьировать фразы, ключевые слова и структуру запроса, чтобы улучшить ответы модели.</li>
-<li>Работа с контекстом — навык передачи контекста и уточняющей информации в промптах, чтобы улучшить понимание ИИ.</li>
-</ul>
-</li>
-<li><p><strong>Метрики оценки качества ответов</strong><br>Специалист по промт-инжинирингу должен уметь оценивать, насколько успешно модель справляется с задачей, и измерять качество ответов. Метрики, которые здесь будут полезны:</p>
-<ul>
-<li>Релевантность — насколько ответ соответствует запросу по смыслу.</li>
-<li>Точность и полнота — охватывает ли ответ все аспекты, обозначенные в запросе.</li>
-<li>Когерентность и читабельность — как логично и понятно сформулирован ответ.</li>
-<li>Использование автоматизированных метрик — если модель генерирует длинные ответы, можно использовать такие метрики, как BLEU, ROUGE или METEOR, чтобы сравнить ответы с эталонными.</li>
-</ul>
-</li>
-<li><p><strong>Тестирование и автоматизация промптов</strong><br>Опыт в тестировании программного обеспечения может стать преимуществом:</p>
-<ul>
-<li>Создание тестовых наборов для промптов — умение разрабатывать тестовые наборы, включающие разнообразные примеры запросов и эталонные ответы.</li>
-<li>A&#x2F;B-тестирование промптов — навык сравнения разных форматов промптов для выявления наиболее эффективного.</li>
-<li>Автоматизация тестирования — навыки программирования для создания автоматизированных тестов (например, с использованием pytest, unittest) и использования CI&#x2F;CD для поддержки непрерывного тестирования промптов.</li>
-</ul>
-</li>
-<li><p><strong>Инструменты для работы с языковыми моделями и анализа промптов</strong><br>Для работы с промптами могут потребоваться следующие инструменты:</p>
-<ul>
-<li>API для работы с моделями — OpenAI, Hugging Face, Google AI и другие предлагают API для взаимодействия с языковыми моделями. Умение работать с ними позволяет внедрять модели в скрипты и приложения.</li>
-<li>Jupyter Notebook и Google Colab — используются для тестирования и анализа промптов в интерактивном режиме.</li>
-<li>Инструменты для визуализации данных — Matplotlib, Seaborn, Plotly для представления результатов тестирования и анализа промптов.</li>
-</ul>
-</li>
-<li><p><strong>Основы разработки</strong><br>Опыт в программировании и разработке поможет эффективно интегрировать промпты в различные приложения:</p>
-<ul>
-<li>Знание Python — Python остается основным языком для работы с ИИ, а также для автоматизации, создания тестов и написания аналитических скриптов.</li>
-<li>Знание REST API — поможет интегрировать запросы к ИИ с другими сервисами и приложениями.</li>
-<li>Навыки работы с версиями кода (Git) — позволяет управлять изменениями в промптах и отслеживать их историю.</li>
-</ul>
-</li>
-<li><p><strong>Понимание этики и ограничений ИИ</strong><br>Особое внимание уделяется ответственности при разработке промптов:</p>
-<ul>
-<li>Этические нормы — понимание, как избежать предвзятости в запросах и снизить вероятность получения неприемлемых ответов.</li>
-<li>Приватность данных — работа с текстовыми данными должна учитывать безопасность и соблюдение конфиденциальности.</li>
-</ul>
-</li>
-</ol>
-<p><strong>Заключение</strong><br>Промт-инжиниринг — перспективное направление для специалистов, заинтересованных в создании и оптимизации взаимодействия с ИИ. Входя в эту профессию, важно иметь базовые знания об искусственном интеллекте и навыки анализа данных, понимать, как тестировать и оценивать качество промптов, а также уметь использовать инструменты для работы с языковыми моделями. Тестировщик программного обеспечения с опытом в автоматизации и анализе данных может применить свои знания в промт-инжиниринге, делая переход к новой профессии более плавным.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>prompt_engineering</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ML - colorizing plain text dynamically in HTML</title>
     <url>/hexo-blog/2024/11/14/posts/ml_colorizing_plain_text_dynamically_in_html/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
@@ -1542,49 +1759,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Types of protocols for interaction on client-server architecture level.</title>
-    <url>/hexo-blog/2024/04/09/posts/network_protocols/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-<p><strong>Below is a list of most popular types of protocols for interaction on client-server architecture level.</strong></p>
-<ol>
-<li><strong>Hypertext Transfer Protocol (HTTP):</strong> The foundation of the web, HTTP defines how clients (web browsers) request and receive resources (web pages, images, etc.) from servers. It’s a request-response protocol where clients send GET or POST requests and servers respond with data and status codes.</li>
-<li><strong>File Transfer Protocol (FTP)</strong>:  This protocol allows for the transfer of files between clients and servers. It offers functionalities like uploading, downloading, directory listing, and file management.</li>
-<li><strong>SSH File Transfer Protocol (SFTP)</strong>: SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.</li>
-<li><strong>Simple Mail Transfer Protocol (SMTP)</strong>:  Used for sending emails, SMTP defines how email clients connect to email servers and transmit emails. It focuses on message delivery without concern for content or user interface.</li>
-<li><strong>Post Office Protocol (POP3)</strong> and Internet Message Access Protocol (IMAP): These protocols are used for retrieving emails from a server. POP3 downloads emails to the client, while IMAP allows users to access and manage emails on the server itself.</li>
-<li><strong>Domain Name System (DNS)</strong>:   This protocol doesn’t directly interact between clients and servers, but it’s crucial for client-server communication. DNS translates human-readable domain names (like [invalid URL removed]) into numerical IP addresses that computers can understand.</li>
-<li><strong>Remote Procedure Call (RPC)</strong>:  This protocol allows a client to execute a procedure on a server as if it were running locally. It provides a transparent way for clients to access functionalities offered by servers. In advance exists gRPC protocol (gRPC Remote Procedure Calls) is a cross-platform high-performance remote procedure call (RPC) framework. gRPC was initially created by Google, but is open source and is used in many organizations. </li>
-<li><strong>Secure Sockets Layer (SSL)&#x2F;Transport Layer Security (TLS)</strong>:  These protocols secure communication between clients and servers by encrypting data transmission. They are essential for protecting sensitive information like passwords and credit card data.</li>
-<li><strong>Message Queueing Protocols</strong>:  Protocols like <a href="https://www.rabbitmq.com/tutorials/amqp-concepts">AMQP</a> and <a href="https://www.rabbitmq.com/">RabbitMQ</a> enable asynchronous communication between clients and servers. Messages are placed in a queue and processed by the server at its own pace, decoupling clients from server availability.</li>
-</ol>
-<p><em>References:</em></p>
-<ul>
-<li><a href="https://www.theknowledgeacademy.com/blog/client-server-architecture/#:~:text=Client%2DServer%20Architecture%20handles%20network,which%20processes%20and%20responds%20accordingly.">What is Client-Server Architecture? Explained in Detail</a></li>
-<li><a href="https://medium.com/@pavlokolodka/efficient-client-server-communication-an-overview-of-protocols-and-techniques-f73c1c1016d">Efficient Client-Server Communication: An Overview of Protocols and Techniques</a></li>
-<li><a href="https://hpbn.co/">High Performance Browser Networking</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">An overview of HTTP(by MDN Web Docs)</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc2616">Hypertext Transfer Protocol (HTTP) &#x2F; rfc2616</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc114">File Transfer Protocol (FTP) &#x2F; rfc114</a></li>
-<li><a href="https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol">SSH File Transfer Protocol (SFTP): Get SFTP client &amp; server</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc5321">Simple Mail Transfer Protocol (SMTP) &#x2F; rfc5321</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc1035">Domain Name System (DNS) &#x2F; rfc1035</a></li>
-<li><a href="https://www.geeksforgeeks.org/remote-procedure-call-rpc-in-operating-system/">Remote Procedure Call (RPC) in Operating System</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc5531">Remote Procedure Call (RPC) &#x2F;rfc5531</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc6101">Secure Sockets Layer (SSL) &#x2F; rfc6101</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc5246">Transport Layer Security (TLS) &#x2F; rfc5246</a></li>
-<li><a href="https://kisztof.medium.com/rabbitmq-an-introduction-to-message-queuing-protocols-and-policies-cb6073c7a3d6">RabbitMQ: An Introduction to Message Queuing, Protocols, and Policies</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>network_protocols</tag>
-        <tag>protocols</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My glossaries</title>
     <url>/hexo-blog//knowledge/my-glossaries/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
@@ -1628,6 +1802,49 @@
         <tag>science</tag>
         <tag>knowledge</tag>
         <tag>vocabularies</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Types of protocols for interaction on client-server architecture level.</title>
+    <url>/hexo-blog/2024/04/09/posts/network_protocols/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+<p><strong>Below is a list of most popular types of protocols for interaction on client-server architecture level.</strong></p>
+<ol>
+<li><strong>Hypertext Transfer Protocol (HTTP):</strong> The foundation of the web, HTTP defines how clients (web browsers) request and receive resources (web pages, images, etc.) from servers. It’s a request-response protocol where clients send GET or POST requests and servers respond with data and status codes.</li>
+<li><strong>File Transfer Protocol (FTP)</strong>:  This protocol allows for the transfer of files between clients and servers. It offers functionalities like uploading, downloading, directory listing, and file management.</li>
+<li><strong>SSH File Transfer Protocol (SFTP)</strong>: SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.</li>
+<li><strong>Simple Mail Transfer Protocol (SMTP)</strong>:  Used for sending emails, SMTP defines how email clients connect to email servers and transmit emails. It focuses on message delivery without concern for content or user interface.</li>
+<li><strong>Post Office Protocol (POP3)</strong> and Internet Message Access Protocol (IMAP): These protocols are used for retrieving emails from a server. POP3 downloads emails to the client, while IMAP allows users to access and manage emails on the server itself.</li>
+<li><strong>Domain Name System (DNS)</strong>:   This protocol doesn’t directly interact between clients and servers, but it’s crucial for client-server communication. DNS translates human-readable domain names (like [invalid URL removed]) into numerical IP addresses that computers can understand.</li>
+<li><strong>Remote Procedure Call (RPC)</strong>:  This protocol allows a client to execute a procedure on a server as if it were running locally. It provides a transparent way for clients to access functionalities offered by servers. In advance exists gRPC protocol (gRPC Remote Procedure Calls) is a cross-platform high-performance remote procedure call (RPC) framework. gRPC was initially created by Google, but is open source and is used in many organizations. </li>
+<li><strong>Secure Sockets Layer (SSL)&#x2F;Transport Layer Security (TLS)</strong>:  These protocols secure communication between clients and servers by encrypting data transmission. They are essential for protecting sensitive information like passwords and credit card data.</li>
+<li><strong>Message Queueing Protocols</strong>:  Protocols like <a href="https://www.rabbitmq.com/tutorials/amqp-concepts">AMQP</a> and <a href="https://www.rabbitmq.com/">RabbitMQ</a> enable asynchronous communication between clients and servers. Messages are placed in a queue and processed by the server at its own pace, decoupling clients from server availability.</li>
+</ol>
+<p><em>References:</em></p>
+<ul>
+<li><a href="https://www.theknowledgeacademy.com/blog/client-server-architecture/#:~:text=Client%2DServer%20Architecture%20handles%20network,which%20processes%20and%20responds%20accordingly.">What is Client-Server Architecture? Explained in Detail</a></li>
+<li><a href="https://medium.com/@pavlokolodka/efficient-client-server-communication-an-overview-of-protocols-and-techniques-f73c1c1016d">Efficient Client-Server Communication: An Overview of Protocols and Techniques</a></li>
+<li><a href="https://hpbn.co/">High Performance Browser Networking</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">An overview of HTTP(by MDN Web Docs)</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc2616">Hypertext Transfer Protocol (HTTP) &#x2F; rfc2616</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc114">File Transfer Protocol (FTP) &#x2F; rfc114</a></li>
+<li><a href="https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol">SSH File Transfer Protocol (SFTP): Get SFTP client &amp; server</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc5321">Simple Mail Transfer Protocol (SMTP) &#x2F; rfc5321</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc1035">Domain Name System (DNS) &#x2F; rfc1035</a></li>
+<li><a href="https://www.geeksforgeeks.org/remote-procedure-call-rpc-in-operating-system/">Remote Procedure Call (RPC) in Operating System</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc5531">Remote Procedure Call (RPC) &#x2F;rfc5531</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc6101">Secure Sockets Layer (SSL) &#x2F; rfc6101</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc5246">Transport Layer Security (TLS) &#x2F; rfc5246</a></li>
+<li><a href="https://kisztof.medium.com/rabbitmq-an-introduction-to-message-queuing-protocols-and-policies-cb6073c7a3d6">RabbitMQ: An Introduction to Message Queuing, Protocols, and Policies</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>network_protocols</tag>
+        <tag>protocols</tag>
       </tags>
   </entry>
   <entry>
@@ -1975,98 +2192,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXIO.IO layout improvements</title>
-    <url>/hexo-blog//hexo-layout-improvements/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
-<ul>
-<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
-<li><a href="#changes-1">changes-1</a></li>
-<li><a href="#changes-2">changes-2</a></li>
-</ul>
-</li>
-<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
-<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
-<li><a href="#adding-footnotes">Adding footnotes</a><ul>
-<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
-<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<p>Before changes #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before changes $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Links on the nav bar are not possible to click</p>
-<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>and </p>
-<p>After changes-2 $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>nav-bar fixed and works fine for desktop and mobile view.</p>
-<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
-<p>Before changes-1 header.styl </p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
-
-<p>after changes-1</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
-<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing &#96;&#96;</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
-<p>Run this command to install it:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
-
-<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
-<p>Add this to your <code>_config.yml</code> file:</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
-<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
-
-<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<p>or </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
-
-<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
-<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
-  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and </p>
-<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
-
-<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXIO.IO instalation guide</title>
     <url>/hexo-blog/2024/10/22/tutorials/HEXO.IO_installation_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Make-HEXO-IO-blog"><a href="#Make-HEXO-IO-blog" class="headerlink" title="Make HEXO.IO blog"></a>Make HEXO.IO blog</h2><ul>
@@ -2196,6 +2321,98 @@
 </tbody></table>
 <h2 id="import-existing-Markdown-md-and-HTML-files-into-Hexo"><a href="#import-existing-Markdown-md-and-HTML-files-into-Hexo" class="headerlink" title="import existing Markdown (.md) and HTML files into Hexo"></a>import existing Markdown (.md) and HTML files into Hexo</h2><h2 id="HEXO-IO-commands"><a href="#HEXO-IO-commands" class="headerlink" title="HEXO.IO commands"></a>HEXO.IO commands</h2><p>hexo clean + generate + hexo</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXIO.IO layout improvements</title>
+    <url>/hexo-blog//hexo-layout-improvements/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
+<ul>
+<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
+<li><a href="#changes-1">changes-1</a></li>
+<li><a href="#changes-2">changes-2</a></li>
+</ul>
+</li>
+<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
+<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
+<li><a href="#adding-footnotes">Adding footnotes</a><ul>
+<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
+<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<p>Before changes #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before changes $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Links on the nav bar are not possible to click</p>
+<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>and </p>
+<p>After changes-2 $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>nav-bar fixed and works fine for desktop and mobile view.</p>
+<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
+<p>Before changes-1 header.styl </p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
+
+<p>after changes-1</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
+<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing &#96;&#96;</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
+<p>Run this command to install it:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
+
+<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
+<p>Add this to your <code>_config.yml</code> file:</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
+<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
+
+<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>or </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
+
+<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
+<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
+  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and </p>
+<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
+
+<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>Tutorials</category>
       </categories>
