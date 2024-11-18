@@ -94,11 +94,6 @@
       </categories>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
     <title>Cheatsheet list</title>
     <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -111,6 +106,11 @@
         <tag>cheatsheets</tag>
         <tag>tutorial</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
   </entry>
   <entry>
     <title>blog deploy actions</title>
@@ -328,24 +328,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My tools</title>
     <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h2><h3 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h3><ul>
@@ -550,653 +532,6 @@
       <tags>
         <tag>tutorial</tag>
         <tag>my_contribution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO blog design</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
-<p>Header</p>
-<ul>
-<li>Navigation menu:<ul>
-<li>Menu items:<ul>
-<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
-<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Main body</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
-<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
-</ul>
-<p>Side panel</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
-<li><input checked="" disabled="" type="checkbox"> Categories</li>
-<li><input checked="" disabled="" type="checkbox"> Tags</li>
-<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
-<li><input checked="" disabled="" type="checkbox"> Archives</li>
-<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
-</ul>
-<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Add more beautiful HEXO blog pages</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
-<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
-<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
-<p>result below</p>
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
-    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
-  </div> 
-
-<hr>
-<p><strong>2. Highlighted Section with Border and Background</strong></p>
-<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #3c763d;">Important Notice</h3>
-  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
-  </div>
-  
-<hr>
-<p>  <strong>3. Colored Quote Block</strong></p>
-<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
-  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
-</blockquote>
-
-<hr>
-<p><strong>4. Centered Text with Decorative Style</strong></p>
-<p>  Center text with a larger font size, bold style, and color.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
-  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
-  </div>
-
-<hr>
-<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
-<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  <h3 style="color: #b03a2e;">Tip of the Day</h3>
-  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
-  </div>
-
-<hr>
-<p><strong>6. Badge or Label for Text</strong></p>
-<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
-
-<hr>
-<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
-<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
-  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
-</div>
-  
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Info data</title>
-    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
-<div class="sitemap_content">
-    <ul>
-        <li>
-            <iframe
-                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                frameborder="0" width="216" height="60"></iframe>
-        </li>
-        <li>
-        <li>
-            <hr>
-            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
-            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
-        </li>
-        <li>
-            <hr>
-            <h2>Satellite observations</h2>
-            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
-            <hr>
-        </li>
-        <li>
-            <h3>Solar Flares and Storms Warnings for Today</h3>
-            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
-                height="300px"></iframe>
-        </li>
-        <hr>
-        <h3>Forecast platforms</h3>
-        </li>
-        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
-                FORECAST</a>
-        </li>
-        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
-        </li>
-        <li>foreca.com
-            <ul>
-                <li>
-                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
-                        Ukraine,
-                        Sumy</a>
-                </li>
-                <li>
-                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
-                        Kyiv</a>
-                </li>
-            </ul>
-        </li>
-        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
-                Network / European space agency.</a></li>
-        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
-    </ul>
-</div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Довідник для Лікаря Сімейної Медицини</title>
-    <url>/hexo-blog//nastusja/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
-<hr>
-<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
-<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
-<li>Новини, нормативна база, протоколи лікування.</li>
-</ul>
-</li>
-<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
-<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
-</ul>
-</li>
-<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
-<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
-<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
-<li>Інформація про ліки, інструкції, дозування.</li>
-</ul>
-</li>
-<li><p><strong>Реєстр Ліків України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
-<li>Офіційний перелік зареєстрованих ліків.</li>
-</ul>
-</li>
-<li><p><strong>Клінічні протоколи лікування</strong>  </p>
-<ul>
-<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
-<li><p><strong>Медичний Глосарій</strong>  </p>
-<ul>
-<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
-<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
-<ul>
-<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
-<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
-<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
-<li><p><strong>Сінево Україна</strong>  </p>
-<ul>
-<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Діла Лабораторія</strong>  </p>
-<ul>
-<li><a href="https://dila.ua/">dila.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Меділаб</strong>  </p>
-<ul>
-<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
-<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
-<li>Міжнародні рекомендації та дослідження.</li>
-</ul>
-</li>
-<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
-<li>Наукові статті з медицини.</li>
-</ul>
-</li>
-<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
-<li>Профілактика, контроль хвороб.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
-<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
-</li>
-<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
-</li>
-<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>nst</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Online tools</title>
-    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
-<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
-</ol>
-<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>tools</tag>
-        <tag>online_tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite movies</title>
-    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
-<p><a href="#Takedown">Takedown</a></p>
-<p><a href="#footnotes">footnotes</a></p>
-<hr>
-<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
-<li>Initial reliese: 2000</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
-<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
-<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
-">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
-">[2]</span></a></sup></li>
-</ul>
-<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
-<li>Initial release: 1983</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
-<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
-<li>Starring: Matthew Broderick, Ally Sheedy</li>
-<li>Director: John Badham</li>
-</ul>
-<hr>
-<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
-<li>Initial release: 1982</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
-<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
-<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
-<li>Director: Steven Lisberger</li>
-</ul>
-<hr>
-<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
-<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
-<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
-<li>Director: Iain Softley</li>
-</ul>
-<hr>
-<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
-<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
-<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
-<li>Director: Phil Alden Robinson</li>
-</ul>
-<hr>
-<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
-<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
-<li>Starring: Sandra Bullock</li>
-<li>Director: Irwin Winkler</li>
-</ul>
-<hr>
-<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
-<li>Initial release: 1984</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
-<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
-<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
-<li>Director: Steve Barron</li>
-</ul>
-<hr>
-<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
-<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
-<li>Starring: Jeff Fahey, Pierce Brosnan</li>
-<li>Director: Brett Leonard</li>
-</ul>
-<hr>
-<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
-<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
-<li>Director: Mamoru Oshii</li>
-</ul>
-<hr>
-<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
-<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>movie</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Symbol encoding (Unicode and family)</title>
-    <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
-<p>Key Symbol Encoding Systems and Categories</p>
-<ol>
-<li><p>Unicode</p>
-<ul>
-<li>Usage: The universal encoding standard supporting characters from virtually all languages, as well as emoji, symbols, and icons.</li>
-<li>Categories: Includes letters, numbers, emoji, mathematical symbols, box-drawing characters, and more.</li>
-<li>Examples: Alphabet (A, B), numbers (1, 2), emoji (😊), math symbols (√, ∑), and other unique characters like ↵.</li>
-<li>Resources: <ul>
-<li><a href="https://emojidb.org/">https://emojidb.org/</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>ASCII (American Standard Code for Information Interchange)</p>
-<ul>
-<li>Usage: Basic Latin letters, numbers, punctuation, and control characters for simple text encoding.</li>
-<li>Limitations: Limited to 128 characters, excluding many languages and special symbols.</li>
-<li>Examples: Basic Latin alphabet (A-Z), numbers (0-9), punctuation marks like . and ,.</li>
-</ul>
-</li>
-<li><p>ISO&#x2F;IEC 8859 (ISO Latin)</p>
-<ul>
-<li>Usage: Supports European languages with additional Latin characters, like accented letters.</li>
-<li>Categories: Variants (ISO 8859-1, ISO 8859-5) cover Western European, Eastern European, and Cyrillic scripts.</li>
-<li>Limitations: Restricted to 256 characters per set.</li>
-</ul>
-</li>
-<li><p>ANSI (Windows-1252)</p>
-<ul>
-<li>Usage: Commonly used on Windows; extends ASCII with additional characters for Western European languages.</li>
-<li>Limitations: Non-standard on non-Windows systems.</li>
-<li>Examples: Includes symbols like €, accented letters, and punctuation.</li>
-</ul>
-</li>
-<li><p>Emoji (Unicode Extended Pictographic Symbols)</p>
-<ul>
-<li>Usage:  Unicode provides a broad range of emoji for digital communication, sorted into categories.</li>
-<li>Categories: Smileys, People, Animals, Food, Travel, and more.</li>
-<li>Notes: Rendered differently across platforms (Apple, Google, Microsoft, etc.).</li>
-</ul>
-</li>
-<li><p>HTML Entities</p>
-<ul>
-<li>Usage: Encodes special symbols in HTML with named (&amp;) or numeric (&#169;) entities.</li>
-<li>Notes: Often Unicode-based, written as character references in HTML documents for web use.</li>
-</ul>
-</li>
-<li><p>LaTeX Symbols</p>
-<ul>
-<li>Usage:  Essential in academic and scientific fields, especially for mathematical notation.</li>
-<li>Categories: Greek letters, math operators, functions (\alpha, \sum, \infty).</li>
-<li>Notes: Not an encoding system but a method to render symbols in scientific documents.</li>
-</ul>
-</li>
-<li><p>Dingbats</p>
-<ul>
-<li><p>Usage: Decorative symbols, often used for visual enhancement.</p>
-</li>
-<li><p>Examples: Check marks, arrows, stars.</p>
-</li>
-<li><p>Notes: Originated in typefaces like Zapf Dingbats; Unicode includes a Dingbats block.</p>
-</li>
-</ul>
-</li>
-<li><p>Box Drawing Characters</p>
-<ul>
-<li>Usage: Used for simple graphics and box drawing in text files or terminal interfaces.</li>
-<li>Examples: ┌, ─, ┐, │, ┘.</li>
-<li>Notes: Useful for ASCII art and table layouts.</li>
-</ul>
-</li>
-<li><p>Control Characters</p>
-<ul>
-<li>Usage: Non-printing characters to control text display, such as line breaks and tabs.</li>
-<li>Categories: Includes Line Feed (LF), Carriage Return (CR), and others.</li>
-</ul>
-</li>
-<li><p>Private Use Area (PUA)</p>
-<ul>
-<li><p>Usage:  Allows companies or individuals to define custom symbols not in Unicode.</p>
-</li>
-<li><p>Examples: Proprietary symbols, company logos.</p>
-</li>
-<li><p>Notes: Non-standard and specific to certain systems or applications.</p>
-<p>Each of these systems provides unique ways to display and interact with symbols. While Unicode has largely unified global encoding, non-Unicode systems still fulfill niche needs, especially in older systems or specialized fields.</p>
-</li>
-</ul>
-</li>
-</ol>
-<p>Here are a few sources for locating and copying symbols:</p>
-<ol>
-<li><p>Unicode Tables</p>
-<p> <a href="https://home.unicode.org/">home.unicode.org</a> provides official charts for different Unicode blocks. Each chart lists symbols for a specific category, like arrows, geometric shapes, mathematical symbols, etc.<br> You can search by character name or code point to find the exact symbol you need.</p>
-<ul>
-<li>Example: <code>Unicde = &amp;U+1F47D</code> &#x3D; <code>hexadecimal format = &amp;#x1F47D;</code> result &#x3D; &#x1F47D;</li>
-</ul>
-</li>
-<li><p>Character Map Utility (Windows)</p>
-<p> Windows includes a built-in tool called “Character Map” (charmap.exe) where you can browse and copy symbols from various fonts that support Unicode.<br> Open it by typing “Character Map” in the Start menu search bar, then find and copy symbols to paste them into your project.</p>
-</li>
-<li><p>Emoji and Symbol Libraries </p>
-<p> <a href="https://symbl.cc/en/unicode-table/">Online Websites like Unicode Table</a> and <a href="https://coolsymbol.com/">Coolsymbol</a> provide searchable libraries of Unicode symbols, emojis, and text decorations.<br> You can copy the symbol you want directly from these sites.</p>
-</li>
-<li><p>HTML Entity Reference</p>
-<p> Some symbols have HTML entity codes (e.g., &larr; for ←). Sites like DevDocs or W3Schools list HTML entities if you want to embed symbols in web pages.</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>unicode</tag>
-        <tag>ASCII</tag>
-        <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
@@ -1430,92 +765,6 @@
       </tags>
   </entry>
   <entry>
-    <title>NLP tasks</title>
-    <url>/hexo-blog/2024/11/17/posts/ai_nlp_tasksintro_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Natural Language Processing (NLP) encompasses a variety of tasks that enable machines to understand, interpret, and generate human language. Below is an overview of some of the most important NLP tasks and their applications.</p>
-<hr>
-<h2 id="1-Sentiment-Analysis"><a href="#1-Sentiment-Analysis" class="headerlink" title="1. Sentiment Analysis"></a>1. Sentiment Analysis</h2><p><strong>Description</strong>: Determines the sentiment or emotion expressed in text (positive, negative, neutral).<br><strong>Applications</strong>: Social media monitoring, product reviews, customer feedback.<br><strong>Datasets</strong>: IMDB Reviews, Sentiment140.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.  
-">[1]</span></a></sup>  </li>
-<li><a href="https://ai.stanford.edu/~amaas/data/sentiment/">IMDB Dataset</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="IMDB Dataset - Large Movie Review Dataset for Sentiment Analysis by Stanford.  
-">[2]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="2-Named-Entity-Recognition-NER"><a href="#2-Named-Entity-Recognition-NER" class="headerlink" title="2. Named Entity Recognition (NER)"></a>2. Named Entity Recognition (NER)</h2><p><strong>Description</strong>: Identifies entities in text such as names of people, organizations, locations, etc.<br><strong>Applications</strong>: Information extraction, legal document analysis, bioinformatics.<br><strong>Datasets</strong>: CoNLL-2003, OntoNotes.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://huggingface.co/datasets/conll2003">CoNLL-2003</a><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CoNLL-2003 - Dataset for Named Entity Recognition and other sequence modeling tasks.  
-">[3]</span></a></sup>  </li>
-<li><a href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OntoNotes - Annotated dataset covering various linguistic phenomena.  
-">[4]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="3-Machine-Translation"><a href="#3-Machine-Translation" class="headerlink" title="3. Machine Translation"></a>3. Machine Translation</h2><p><strong>Description</strong>: Automatically translates text from one language to another.<br><strong>Applications</strong>: Cross-lingual communication, global business, localization.<br><strong>Datasets</strong>: WMT, OpenSubtitles.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://www.statmt.org/wmt20/translation-task.html">WMT Dataset</a><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WMT - Workshop on Machine Translation datasets for translation tasks.  
-">[5]</span></a></sup>  </li>
-<li><a href="https://opus.nlpl.eu/legacy/OpenSubtitles-v2018.php">OpenSubtitles</a><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OpenSubtitles - Large corpus of subtitles for multilingual tasks.  
-">[6]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="4-Text-Summarization"><a href="#4-Text-Summarization" class="headerlink" title="4. Text Summarization"></a>4. Text Summarization</h2><p><strong>Description</strong>: Produces a concise summary of a longer text while retaining essential information.<br><strong>Applications</strong>: News summarization, legal briefings, academic research.<br><strong>Datasets</strong>: CNN&#x2F;DailyMail, XSum.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://huggingface.co/datasets/cnn_dailymail">CNN&#x2F;DailyMail</a><sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CNN/DailyMail - Dataset for abstractive summarization tasks.  
-">[7]</span></a></sup>  </li>
-<li><a href="https://huggingface.co/datasets/xsum">XSum</a><sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="XSum - Dataset for extreme summarization of news articles.  
-">[8]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="5-Text-Classification"><a href="#5-Text-Classification" class="headerlink" title="5. Text Classification"></a>5. Text Classification</h2><p><strong>Description</strong>: Categorizes text into predefined classes (e.g., spam detection, topic classification).<br><strong>Applications</strong>: Email filtering, topic modeling, document organization.<br><strong>Datasets</strong>: AG News, Reuters-21578.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://huggingface.co/datasets/ag_news">AG News</a><sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="AG News - News topic classification dataset.  
-">[9]</span></a></sup>  </li>
-<li><a href="https://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html">Reuters-21578</a><sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Reuters-21578 - Text categorization benchmark dataset.  
-">[10]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="6-Question-Answering-QA"><a href="#6-Question-Answering-QA" class="headerlink" title="6. Question Answering (QA)"></a>6. Question Answering (QA)</h2><p><strong>Description</strong>: Answers questions based on a given text passage or context.<br><strong>Applications</strong>: Chatbots, search engines, educational tools.<br><strong>Datasets</strong>: SQuAD, TriviaQA.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SQuAD - Stanford Question Answering Dataset for reading comprehension tasks.  
-">[11]</span></a></sup>  </li>
-<li><a href="https://huggingface.co/datasets/trivia_qa">TriviaQA</a><sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="TriviaQA - Dataset containing trivia questions and evidence passages.  
-">[12]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="7-Language-Modeling"><a href="#7-Language-Modeling" class="headerlink" title="7. Language Modeling"></a>7. Language Modeling</h2><p><strong>Description</strong>: Predicts the next word or sequence of words in a text.<br><strong>Applications</strong>: Autocomplete, text generation, conversational AI.<br><strong>Datasets</strong>: WikiText, Penn Treebank.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://huggingface.co/datasets/wikitext">WikiText</a><sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WikiText - Dataset for language modeling based on Wikipedia articles.  
-">[13]</span></a></sup>  </li>
-<li><a href="https://catalog.ldc.upenn.edu/LDC99T42">Penn Treebank</a><sup id="fnref:14"><a href="#fn:14" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Penn Treebank - Corpus for linguistic annotation and modeling.  
-">[14]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="8-Part-of-Speech-POS-Tagging"><a href="#8-Part-of-Speech-POS-Tagging" class="headerlink" title="8. Part-of-Speech (POS) Tagging"></a>8. Part-of-Speech (POS) Tagging</h2><p><strong>Description</strong>: Assigns grammatical categories (e.g., noun, verb, adjective) to words in a sentence.<br><strong>Applications</strong>: Grammar correction, syntactic analysis, linguistic research.<br><strong>Datasets</strong>: Universal Dependencies, WSJ Corpus.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://universaldependencies.org/">Universal Dependencies</a><sup id="fnref:15"><a href="#fn:15" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Universal Dependencies - Framework for consistent grammatical annotation across languages.  
-">[15]</span></a></sup>  </li>
-<li><a href="https://catalog.ldc.upenn.edu/LDC99T42">WSJ Corpus</a><sup id="fnref:16"><a href="#fn:16" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WSJ Corpus - Dataset from Wall Street Journal articles for POS tagging.  
-">[16]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="9-Coreference-Resolution"><a href="#9-Coreference-Resolution" class="headerlink" title="9. Coreference Resolution"></a>9. Coreference Resolution</h2><p><strong>Description</strong>: Identifies and links all expressions in a text that refer to the same entity.<br><strong>Applications</strong>: Dialogue systems, summarization, information extraction.<br><strong>Datasets</strong>: OntoNotes, CoNLL-2012.<br><strong>References</strong>:  </p>
-<ul>
-<li><a href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OntoNotes - Annotated dataset covering various linguistic phenomena.  
-">[4]</span></a></sup>  </li>
-<li><a href="https://conll.cemantix.org/2012/">CoNLL-2012</a><sup id="fnref:17"><a href="#fn:17" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CoNLL-2012 - Shared task on coreference resolution and other NLP challenges.  ">[17]</span></a></sup></li>
-</ul>
-<hr>
-<h2 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a>Footnotes</h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">IMDB Dataset - Large Movie Review Dataset for Sentiment Analysis by Stanford.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2003 - Dataset for Named Entity Recognition and other sequence modeling tasks.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OntoNotes - Annotated dataset covering various linguistic phenomena.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT - Workshop on Machine Translation datasets for translation tasks.<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OpenSubtitles - Large corpus of subtitles for multilingual tasks.<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CNN/DailyMail - Dataset for abstractive summarization tasks.<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">XSum - Dataset for extreme summarization of news articles.<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">AG News - News topic classification dataset.<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Reuters-21578 - Text categorization benchmark dataset.<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset for reading comprehension tasks.<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">TriviaQA - Dataset containing trivia questions and evidence passages.<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WikiText - Dataset for language modeling based on Wikipedia articles.<a href="#fnref:13" rev="footnote"> ↩</a></span></li><li id="fn:14"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">14.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Penn Treebank - Corpus for linguistic annotation and modeling.<a href="#fnref:14" rev="footnote"> ↩</a></span></li><li id="fn:15"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">15.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Universal Dependencies - Framework for consistent grammatical annotation across languages.<a href="#fnref:15" rev="footnote"> ↩</a></span></li><li id="fn:16"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">16.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WSJ Corpus - Dataset from Wall Street Journal articles for POS tagging.<a href="#fnref:16" rev="footnote"> ↩</a></span></li><li id="fn:17"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">17.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2012 - Shared task on coreference resolution and other NLP challenges.<a href="#fnref:17" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Machine Learning Techniques - Overview</title>
     <url>/hexo-blog/2024/09/28/posts/ai_ml_techniques_overview_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this guide, we will review popular machine learning techniques with a brief overview of their applications, complexity levels, and some historical context. This list provides a starting point for understanding core machine learning methods and their practical uses.</p>
@@ -1650,6 +899,173 @@
       </tags>
   </entry>
   <entry>
+    <title>NLP tasks</title>
+    <url>/hexo-blog/2024/11/17/posts/ai_nlp_tasksintro_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Natural Language Processing (NLP) encompasses a variety of tasks that enable machines to understand, interpret, and generate human language. Below is an overview of some of the most important NLP tasks and their applications.</p>
+<hr>
+<h2 id="1-Sentiment-Analysis"><a href="#1-Sentiment-Analysis" class="headerlink" title="1. Sentiment Analysis"></a>1. Sentiment Analysis</h2><p><strong>Description</strong>: Determines the sentiment or emotion expressed in text (positive, negative, neutral).<br><strong>Applications</strong>: Social media monitoring, product reviews, customer feedback.<br><strong>Datasets</strong>: IMDB Reviews, Sentiment140.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.  
+">[1]</span></a></sup>  </li>
+<li><a href="https://ai.stanford.edu/~amaas/data/sentiment/">IMDB Dataset</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="IMDB Dataset - Large Movie Review Dataset for Sentiment Analysis by Stanford.  
+">[2]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="2-Named-Entity-Recognition-NER"><a href="#2-Named-Entity-Recognition-NER" class="headerlink" title="2. Named Entity Recognition (NER)"></a>2. Named Entity Recognition (NER)</h2><p><strong>Description</strong>: Identifies entities in text such as names of people, organizations, locations, etc.<br><strong>Applications</strong>: Information extraction, legal document analysis, bioinformatics.<br><strong>Datasets</strong>: CoNLL-2003, OntoNotes.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/conll2003">CoNLL-2003</a><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CoNLL-2003 - Dataset for Named Entity Recognition and other sequence modeling tasks.  
+">[3]</span></a></sup>  </li>
+<li><a href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OntoNotes - Annotated dataset covering various linguistic phenomena.  
+">[4]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="3-Machine-Translation"><a href="#3-Machine-Translation" class="headerlink" title="3. Machine Translation"></a>3. Machine Translation</h2><p><strong>Description</strong>: Automatically translates text from one language to another.<br><strong>Applications</strong>: Cross-lingual communication, global business, localization.<br><strong>Datasets</strong>: WMT, OpenSubtitles.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://www.statmt.org/wmt20/translation-task.html">WMT Dataset</a><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WMT - Workshop on Machine Translation datasets for translation tasks.  
+">[5]</span></a></sup>  </li>
+<li><a href="https://opus.nlpl.eu/legacy/OpenSubtitles-v2018.php">OpenSubtitles</a><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OpenSubtitles - Large corpus of subtitles for multilingual tasks.  
+">[6]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="4-Text-Summarization"><a href="#4-Text-Summarization" class="headerlink" title="4. Text Summarization"></a>4. Text Summarization</h2><p><strong>Description</strong>: Produces a concise summary of a longer text while retaining essential information.<br><strong>Applications</strong>: News summarization, legal briefings, academic research.<br><strong>Datasets</strong>: CNN&#x2F;DailyMail, XSum.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/cnn_dailymail">CNN&#x2F;DailyMail</a><sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CNN/DailyMail - Dataset for abstractive summarization tasks.  
+">[7]</span></a></sup>  </li>
+<li><a href="https://huggingface.co/datasets/xsum">XSum</a><sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="XSum - Dataset for extreme summarization of news articles.  
+">[8]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="5-Text-Classification"><a href="#5-Text-Classification" class="headerlink" title="5. Text Classification"></a>5. Text Classification</h2><p><strong>Description</strong>: Categorizes text into predefined classes (e.g., spam detection, topic classification).<br><strong>Applications</strong>: Email filtering, topic modeling, document organization.<br><strong>Datasets</strong>: AG News, Reuters-21578.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/ag_news">AG News</a><sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="AG News - News topic classification dataset.  
+">[9]</span></a></sup>  </li>
+<li><a href="https://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html">Reuters-21578</a><sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Reuters-21578 - Text categorization benchmark dataset.  
+">[10]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="6-Question-Answering-QA"><a href="#6-Question-Answering-QA" class="headerlink" title="6. Question Answering (QA)"></a>6. Question Answering (QA)</h2><p><strong>Description</strong>: Answers questions based on a given text passage or context.<br><strong>Applications</strong>: Chatbots, search engines, educational tools.<br><strong>Datasets</strong>: SQuAD, TriviaQA.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SQuAD - Stanford Question Answering Dataset for reading comprehension tasks.  
+">[11]</span></a></sup>  </li>
+<li><a href="https://huggingface.co/datasets/trivia_qa">TriviaQA</a><sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="TriviaQA - Dataset containing trivia questions and evidence passages.  
+">[12]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="7-Language-Modeling"><a href="#7-Language-Modeling" class="headerlink" title="7. Language Modeling"></a>7. Language Modeling</h2><p><strong>Description</strong>: Predicts the next word or sequence of words in a text.<br><strong>Applications</strong>: Autocomplete, text generation, conversational AI.<br><strong>Datasets</strong>: WikiText, Penn Treebank.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://huggingface.co/datasets/wikitext">WikiText</a><sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WikiText - Dataset for language modeling based on Wikipedia articles.  
+">[13]</span></a></sup>  </li>
+<li><a href="https://catalog.ldc.upenn.edu/LDC99T42">Penn Treebank</a><sup id="fnref:14"><a href="#fn:14" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Penn Treebank - Corpus for linguistic annotation and modeling.  
+">[14]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="8-Part-of-Speech-POS-Tagging"><a href="#8-Part-of-Speech-POS-Tagging" class="headerlink" title="8. Part-of-Speech (POS) Tagging"></a>8. Part-of-Speech (POS) Tagging</h2><p><strong>Description</strong>: Assigns grammatical categories (e.g., noun, verb, adjective) to words in a sentence.<br><strong>Applications</strong>: Grammar correction, syntactic analysis, linguistic research.<br><strong>Datasets</strong>: Universal Dependencies, WSJ Corpus.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://universaldependencies.org/">Universal Dependencies</a><sup id="fnref:15"><a href="#fn:15" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Universal Dependencies - Framework for consistent grammatical annotation across languages.  
+">[15]</span></a></sup>  </li>
+<li><a href="https://catalog.ldc.upenn.edu/LDC99T42">WSJ Corpus</a><sup id="fnref:16"><a href="#fn:16" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WSJ Corpus - Dataset from Wall Street Journal articles for POS tagging.  
+">[16]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="9-Coreference-Resolution"><a href="#9-Coreference-Resolution" class="headerlink" title="9. Coreference Resolution"></a>9. Coreference Resolution</h2><p><strong>Description</strong>: Identifies and links all expressions in a text that refer to the same entity.<br><strong>Applications</strong>: Dialogue systems, summarization, information extraction.<br><strong>Datasets</strong>: OntoNotes, CoNLL-2012.<br><strong>References</strong>:  </p>
+<ul>
+<li><a href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OntoNotes - Annotated dataset covering various linguistic phenomena.  
+">[4]</span></a></sup>  </li>
+<li><a href="https://conll.cemantix.org/2012/">CoNLL-2012</a><sup id="fnref:17"><a href="#fn:17" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="CoNLL-2012 - Shared task on coreference resolution and other NLP challenges.  ">[17]</span></a></sup></li>
+</ul>
+<hr>
+<h2 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a>Footnotes</h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">IMDB Dataset - Large Movie Review Dataset for Sentiment Analysis by Stanford.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2003 - Dataset for Named Entity Recognition and other sequence modeling tasks.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OntoNotes - Annotated dataset covering various linguistic phenomena.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT - Workshop on Machine Translation datasets for translation tasks.<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OpenSubtitles - Large corpus of subtitles for multilingual tasks.<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CNN/DailyMail - Dataset for abstractive summarization tasks.<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">XSum - Dataset for extreme summarization of news articles.<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">AG News - News topic classification dataset.<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Reuters-21578 - Text categorization benchmark dataset.<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset for reading comprehension tasks.<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">TriviaQA - Dataset containing trivia questions and evidence passages.<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WikiText - Dataset for language modeling based on Wikipedia articles.<a href="#fnref:13" rev="footnote"> ↩</a></span></li><li id="fn:14"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">14.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Penn Treebank - Corpus for linguistic annotation and modeling.<a href="#fnref:14" rev="footnote"> ↩</a></span></li><li id="fn:15"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">15.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Universal Dependencies - Framework for consistent grammatical annotation across languages.<a href="#fnref:15" rev="footnote"> ↩</a></span></li><li id="fn:16"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">16.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WSJ Corpus - Dataset from Wall Street Journal articles for POS tagging.<a href="#fnref:16" rev="footnote"> ↩</a></span></li><li id="fn:17"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">17.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2012 - Shared task on coreference resolution and other NLP challenges.<a href="#fnref:17" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Старт - промт-инжиниринг.</title>
+    <url>/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>references:</em></p>
+<ul>
+<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">https://www.youtube.com/@umarjamilai</a> &#x2F; <a href="https://umarjamil.org/">https://umarjamil.org/</a></li>
+<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">https://www.youtube.com/@YannicKilcher</a>   </li>
+<li><a href="https://pieces.app/blog/10-prompt-engineering-best-practices">10 Prompt Engineering Best Practices</a></li>
+<li><a href="https://www.researchgate.net/publication/382640448_Worked_Examples_to_Facilitate_the_Development_of_Prompt_Engineering_Skills">Worked Examples to Facilitate the Development of Prompt Engineering Skills</a></li>
+</ul>
+<h2 id="Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты"><a href="#Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты" class="headerlink" title="Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты"></a>Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты</h2><p><em>В последние годы промт-инжиниринг (prompt engineering) набирает популярность как новая профессия, сосредоточенная на создании, оптимизации и оценке запросов для взаимодействия с моделями искусственного интеллекта. Для специалистов из смежных областей, таких как тестирование программного обеспечения, переход в эту сферу может быть достаточно органичным. Рассмотрим, какие навыки, знания и инструменты понадобятся для успешной работы в этой новой роли.</em></p>
+<ol>
+<li><p><strong>Базовые знания искусственного интеллекта и машинного обучения</strong><br>Чтобы эффективно проектировать промпты, необходимо понимать, как работает генеративный ИИ. Некоторые ключевые моменты включают:</p>
+<ul>
+<li>Основы NLP (Natural Language Processing) — понимание, как ИИ обрабатывает текст, помогает создать такие промпты, которые максимально точно интерпретируются моделью.</li>
+<li>Архитектуры языковых моделей — GPT, BERT, T5 и другие модели работают по разным принципам, что отражается на подходе к генерации промптов.</li>
+<li>Обучение и дообучение моделей — знание процесса обучения поможет понять, как модель «учится» и реагирует на разные типы запросов.</li>
+</ul>
+</li>
+<li><p><strong>Навыки работы с данными</strong><br>Важной частью промт-инжиниринга является работа с большими массивами данных для анализа и оптимизации промптов:</p>
+<ul>
+<li>Обработка данных — навыки предобработки текстовых данных (удаление шума, токенизация, нормализация).</li>
+<li>Анализ данных — понимание статистических методов и основ анализа данных (например, для выявления закономерностей в ответах модели на разные промпты).</li>
+<li>Использование Python и библиотек для обработки данных — библиотеками Pandas и NumPy часто пользуются для быстрой обработки и анализа данных.</li>
+</ul>
+</li>
+<li><p><strong>Разработка и оптимизация промптов</strong><br>Работа с промптами требует знаний и опыта в создании запросов, которые дают максимально релевантные ответы. Важно владеть следующими навыками:</p>
+<ul>
+<li>Создание структурированных запросов — понимать, как структурировать промпт для достижения нужного результата (например, задавая четкий формат вывода, делая уточняющие инструкции).</li>
+<li>Оптимизация промптов — умение варьировать фразы, ключевые слова и структуру запроса, чтобы улучшить ответы модели.</li>
+<li>Работа с контекстом — навык передачи контекста и уточняющей информации в промптах, чтобы улучшить понимание ИИ.</li>
+</ul>
+</li>
+<li><p><strong>Метрики оценки качества ответов</strong><br>Специалист по промт-инжинирингу должен уметь оценивать, насколько успешно модель справляется с задачей, и измерять качество ответов. Метрики, которые здесь будут полезны:</p>
+<ul>
+<li>Релевантность — насколько ответ соответствует запросу по смыслу.</li>
+<li>Точность и полнота — охватывает ли ответ все аспекты, обозначенные в запросе.</li>
+<li>Когерентность и читабельность — как логично и понятно сформулирован ответ.</li>
+<li>Использование автоматизированных метрик — если модель генерирует длинные ответы, можно использовать такие метрики, как BLEU, ROUGE или METEOR, чтобы сравнить ответы с эталонными.</li>
+</ul>
+</li>
+<li><p><strong>Тестирование и автоматизация промптов</strong><br>Опыт в тестировании программного обеспечения может стать преимуществом:</p>
+<ul>
+<li>Создание тестовых наборов для промптов — умение разрабатывать тестовые наборы, включающие разнообразные примеры запросов и эталонные ответы.</li>
+<li>A&#x2F;B-тестирование промптов — навык сравнения разных форматов промптов для выявления наиболее эффективного.</li>
+<li>Автоматизация тестирования — навыки программирования для создания автоматизированных тестов (например, с использованием pytest, unittest) и использования CI&#x2F;CD для поддержки непрерывного тестирования промптов.</li>
+</ul>
+</li>
+<li><p><strong>Инструменты для работы с языковыми моделями и анализа промптов</strong><br>Для работы с промптами могут потребоваться следующие инструменты:</p>
+<ul>
+<li>API для работы с моделями — OpenAI, Hugging Face, Google AI и другие предлагают API для взаимодействия с языковыми моделями. Умение работать с ними позволяет внедрять модели в скрипты и приложения.</li>
+<li>Jupyter Notebook и Google Colab — используются для тестирования и анализа промптов в интерактивном режиме.</li>
+<li>Инструменты для визуализации данных — Matplotlib, Seaborn, Plotly для представления результатов тестирования и анализа промптов.</li>
+</ul>
+</li>
+<li><p><strong>Основы разработки</strong><br>Опыт в программировании и разработке поможет эффективно интегрировать промпты в различные приложения:</p>
+<ul>
+<li>Знание Python — Python остается основным языком для работы с ИИ, а также для автоматизации, создания тестов и написания аналитических скриптов.</li>
+<li>Знание REST API — поможет интегрировать запросы к ИИ с другими сервисами и приложениями.</li>
+<li>Навыки работы с версиями кода (Git) — позволяет управлять изменениями в промптах и отслеживать их историю.</li>
+</ul>
+</li>
+<li><p><strong>Понимание этики и ограничений ИИ</strong><br>Особое внимание уделяется ответственности при разработке промптов:</p>
+<ul>
+<li>Этические нормы — понимание, как избежать предвзятости в запросах и снизить вероятность получения неприемлемых ответов.</li>
+<li>Приватность данных — работа с текстовыми данными должна учитывать безопасность и соблюдение конфиденциальности.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Заключение</strong><br>Промт-инжиниринг — перспективное направление для специалистов, заинтересованных в создании и оптимизации взаимодействия с ИИ. Входя в эту профессию, важно иметь базовые знания об искусственном интеллекте и навыки анализа данных, понимать, как тестировать и оценивать качество промптов, а также уметь использовать инструменты для работы с языковыми моделями. Тестировщик программного обеспечения с опытом в автоматизации и анализе данных может применить свои знания в промт-инжиниринге, делая переход к новой профессии более плавным.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Postman tests examples</title>
     <url>/hexo-blog/2023/05/11/posts/dev_side__postman_tests_examples/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
@@ -1776,87 +1192,6 @@
         <tag>dev_side</tag>
         <tag>postman</tag>
         <tag>api_testing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Старт - промт-инжиниринг.</title>
-    <url>/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>references:</em></p>
-<ul>
-<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">https://www.youtube.com/@umarjamilai</a> &#x2F; <a href="https://umarjamil.org/">https://umarjamil.org/</a></li>
-<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">https://www.youtube.com/@YannicKilcher</a>   </li>
-<li><a href="https://pieces.app/blog/10-prompt-engineering-best-practices">10 Prompt Engineering Best Practices</a></li>
-<li><a href="https://www.researchgate.net/publication/382640448_Worked_Examples_to_Facilitate_the_Development_of_Prompt_Engineering_Skills">Worked Examples to Facilitate the Development of Prompt Engineering Skills</a></li>
-</ul>
-<h2 id="Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты"><a href="#Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты" class="headerlink" title="Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты"></a>Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты</h2><p><em>В последние годы промт-инжиниринг (prompt engineering) набирает популярность как новая профессия, сосредоточенная на создании, оптимизации и оценке запросов для взаимодействия с моделями искусственного интеллекта. Для специалистов из смежных областей, таких как тестирование программного обеспечения, переход в эту сферу может быть достаточно органичным. Рассмотрим, какие навыки, знания и инструменты понадобятся для успешной работы в этой новой роли.</em></p>
-<ol>
-<li><p><strong>Базовые знания искусственного интеллекта и машинного обучения</strong><br>Чтобы эффективно проектировать промпты, необходимо понимать, как работает генеративный ИИ. Некоторые ключевые моменты включают:</p>
-<ul>
-<li>Основы NLP (Natural Language Processing) — понимание, как ИИ обрабатывает текст, помогает создать такие промпты, которые максимально точно интерпретируются моделью.</li>
-<li>Архитектуры языковых моделей — GPT, BERT, T5 и другие модели работают по разным принципам, что отражается на подходе к генерации промптов.</li>
-<li>Обучение и дообучение моделей — знание процесса обучения поможет понять, как модель «учится» и реагирует на разные типы запросов.</li>
-</ul>
-</li>
-<li><p><strong>Навыки работы с данными</strong><br>Важной частью промт-инжиниринга является работа с большими массивами данных для анализа и оптимизации промптов:</p>
-<ul>
-<li>Обработка данных — навыки предобработки текстовых данных (удаление шума, токенизация, нормализация).</li>
-<li>Анализ данных — понимание статистических методов и основ анализа данных (например, для выявления закономерностей в ответах модели на разные промпты).</li>
-<li>Использование Python и библиотек для обработки данных — библиотеками Pandas и NumPy часто пользуются для быстрой обработки и анализа данных.</li>
-</ul>
-</li>
-<li><p><strong>Разработка и оптимизация промптов</strong><br>Работа с промптами требует знаний и опыта в создании запросов, которые дают максимально релевантные ответы. Важно владеть следующими навыками:</p>
-<ul>
-<li>Создание структурированных запросов — понимать, как структурировать промпт для достижения нужного результата (например, задавая четкий формат вывода, делая уточняющие инструкции).</li>
-<li>Оптимизация промптов — умение варьировать фразы, ключевые слова и структуру запроса, чтобы улучшить ответы модели.</li>
-<li>Работа с контекстом — навык передачи контекста и уточняющей информации в промптах, чтобы улучшить понимание ИИ.</li>
-</ul>
-</li>
-<li><p><strong>Метрики оценки качества ответов</strong><br>Специалист по промт-инжинирингу должен уметь оценивать, насколько успешно модель справляется с задачей, и измерять качество ответов. Метрики, которые здесь будут полезны:</p>
-<ul>
-<li>Релевантность — насколько ответ соответствует запросу по смыслу.</li>
-<li>Точность и полнота — охватывает ли ответ все аспекты, обозначенные в запросе.</li>
-<li>Когерентность и читабельность — как логично и понятно сформулирован ответ.</li>
-<li>Использование автоматизированных метрик — если модель генерирует длинные ответы, можно использовать такие метрики, как BLEU, ROUGE или METEOR, чтобы сравнить ответы с эталонными.</li>
-</ul>
-</li>
-<li><p><strong>Тестирование и автоматизация промптов</strong><br>Опыт в тестировании программного обеспечения может стать преимуществом:</p>
-<ul>
-<li>Создание тестовых наборов для промптов — умение разрабатывать тестовые наборы, включающие разнообразные примеры запросов и эталонные ответы.</li>
-<li>A&#x2F;B-тестирование промптов — навык сравнения разных форматов промптов для выявления наиболее эффективного.</li>
-<li>Автоматизация тестирования — навыки программирования для создания автоматизированных тестов (например, с использованием pytest, unittest) и использования CI&#x2F;CD для поддержки непрерывного тестирования промптов.</li>
-</ul>
-</li>
-<li><p><strong>Инструменты для работы с языковыми моделями и анализа промптов</strong><br>Для работы с промптами могут потребоваться следующие инструменты:</p>
-<ul>
-<li>API для работы с моделями — OpenAI, Hugging Face, Google AI и другие предлагают API для взаимодействия с языковыми моделями. Умение работать с ними позволяет внедрять модели в скрипты и приложения.</li>
-<li>Jupyter Notebook и Google Colab — используются для тестирования и анализа промптов в интерактивном режиме.</li>
-<li>Инструменты для визуализации данных — Matplotlib, Seaborn, Plotly для представления результатов тестирования и анализа промптов.</li>
-</ul>
-</li>
-<li><p><strong>Основы разработки</strong><br>Опыт в программировании и разработке поможет эффективно интегрировать промпты в различные приложения:</p>
-<ul>
-<li>Знание Python — Python остается основным языком для работы с ИИ, а также для автоматизации, создания тестов и написания аналитических скриптов.</li>
-<li>Знание REST API — поможет интегрировать запросы к ИИ с другими сервисами и приложениями.</li>
-<li>Навыки работы с версиями кода (Git) — позволяет управлять изменениями в промптах и отслеживать их историю.</li>
-</ul>
-</li>
-<li><p><strong>Понимание этики и ограничений ИИ</strong><br>Особое внимание уделяется ответственности при разработке промптов:</p>
-<ul>
-<li>Этические нормы — понимание, как избежать предвзятости в запросах и снизить вероятность получения неприемлемых ответов.</li>
-<li>Приватность данных — работа с текстовыми данными должна учитывать безопасность и соблюдение конфиденциальности.</li>
-</ul>
-</li>
-</ol>
-<p><strong>Заключение</strong><br>Промт-инжиниринг — перспективное направление для специалистов, заинтересованных в создании и оптимизации взаимодействия с ИИ. Входя в эту профессию, важно иметь базовые знания об искусственном интеллекте и навыки анализа данных, понимать, как тестировать и оценивать качество промптов, а также уметь использовать инструменты для работы с языковыми моделями. Тестировщик программного обеспечения с опытом в автоматизации и анализе данных может применить свои знания в промт-инжиниринге, делая переход к новой профессии более плавным.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>prompt_engineering</tag>
       </tags>
   </entry>
   <entry>
@@ -2277,6 +1612,673 @@
       </tags>
   </entry>
   <entry>
+    <title>HEXO blog design</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
+<p>Header</p>
+<ul>
+<li>Navigation menu:<ul>
+<li>Menu items:<ul>
+<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
+<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Main body</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
+<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
+</ul>
+<p>Side panel</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
+<li><input checked="" disabled="" type="checkbox"> Categories</li>
+<li><input checked="" disabled="" type="checkbox"> Tags</li>
+<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
+<li><input checked="" disabled="" type="checkbox"> Archives</li>
+<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
+</ul>
+<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Add more beautiful HEXO blog pages</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
+<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
+<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
+<p>result below</p>
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
+    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
+  </div> 
+
+<hr>
+<p><strong>2. Highlighted Section with Border and Background</strong></p>
+<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
+  <h3 style="color: #3c763d;">Important Notice</h3>
+  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
+  </div>
+  
+<hr>
+<p>  <strong>3. Colored Quote Block</strong></p>
+<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
+  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
+</blockquote>
+
+<hr>
+<p><strong>4. Centered Text with Decorative Style</strong></p>
+<p>  Center text with a larger font size, bold style, and color.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
+  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
+  </div>
+
+<hr>
+<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
+<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <h3 style="color: #b03a2e;">Tip of the Day</h3>
+  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
+  </div>
+
+<hr>
+<p><strong>6. Badge or Label for Text</strong></p>
+<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
+
+<hr>
+<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
+<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
+</div>
+  
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Info data</title>
+    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
+<div class="sitemap_content">
+    <ul>
+        <li>
+            <iframe
+                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                frameborder="0" width="216" height="60"></iframe>
+        </li>
+        <li>
+        <li>
+            <hr>
+            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
+            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
+        </li>
+        <li>
+            <hr>
+            <h2>Satellite observations</h2>
+            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
+            <hr>
+        </li>
+        <li>
+            <h3>Solar Flares and Storms Warnings for Today</h3>
+            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
+                height="300px"></iframe>
+        </li>
+        <hr>
+        <h3>Forecast platforms</h3>
+        </li>
+        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
+                FORECAST</a>
+        </li>
+        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
+        </li>
+        <li>foreca.com
+            <ul>
+                <li>
+                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
+                        Ukraine,
+                        Sumy</a>
+                </li>
+                <li>
+                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
+                        Kyiv</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
+                Network / European space agency.</a></li>
+        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
+    </ul>
+</div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Довідник для Лікаря Сімейної Медицини</title>
+    <url>/hexo-blog//nastusja/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
+<hr>
+<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
+<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
+<li>Новини, нормативна база, протоколи лікування.</li>
+</ul>
+</li>
+<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
+<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
+</ul>
+</li>
+<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
+<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
+<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
+<li>Інформація про ліки, інструкції, дозування.</li>
+</ul>
+</li>
+<li><p><strong>Реєстр Ліків України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
+<li>Офіційний перелік зареєстрованих ліків.</li>
+</ul>
+</li>
+<li><p><strong>Клінічні протоколи лікування</strong>  </p>
+<ul>
+<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
+<li><p><strong>Медичний Глосарій</strong>  </p>
+<ul>
+<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
+<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
+<ul>
+<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
+<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
+<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
+<li><p><strong>Сінево Україна</strong>  </p>
+<ul>
+<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Діла Лабораторія</strong>  </p>
+<ul>
+<li><a href="https://dila.ua/">dila.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Меділаб</strong>  </p>
+<ul>
+<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
+<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
+<li>Міжнародні рекомендації та дослідження.</li>
+</ul>
+</li>
+<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
+<li>Наукові статті з медицини.</li>
+</ul>
+</li>
+<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
+<li>Профілактика, контроль хвороб.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
+<li><p><strong>Клінічні калькулятори</strong>: <a href="https://www.msdmanuals.com/uk/professional/pages-with-widgets/clinical-calculators?mode=list">msdmanuals.com</a>  </p>
+</li>
+<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
+</li>
+<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
+</li>
+<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>nst</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Online tools</title>
+    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
+<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
+</ol>
+<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>tools</tag>
+        <tag>online_tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Symbol encoding (Unicode and family)</title>
+    <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
+<p>Key Symbol Encoding Systems and Categories</p>
+<ol>
+<li><p>Unicode</p>
+<ul>
+<li>Usage: The universal encoding standard supporting characters from virtually all languages, as well as emoji, symbols, and icons.</li>
+<li>Categories: Includes letters, numbers, emoji, mathematical symbols, box-drawing characters, and more.</li>
+<li>Examples: Alphabet (A, B), numbers (1, 2), emoji (😊), math symbols (√, ∑), and other unique characters like ↵.</li>
+<li>Resources: <ul>
+<li><a href="https://emojidb.org/">https://emojidb.org/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>ASCII (American Standard Code for Information Interchange)</p>
+<ul>
+<li>Usage: Basic Latin letters, numbers, punctuation, and control characters for simple text encoding.</li>
+<li>Limitations: Limited to 128 characters, excluding many languages and special symbols.</li>
+<li>Examples: Basic Latin alphabet (A-Z), numbers (0-9), punctuation marks like . and ,.</li>
+</ul>
+</li>
+<li><p>ISO&#x2F;IEC 8859 (ISO Latin)</p>
+<ul>
+<li>Usage: Supports European languages with additional Latin characters, like accented letters.</li>
+<li>Categories: Variants (ISO 8859-1, ISO 8859-5) cover Western European, Eastern European, and Cyrillic scripts.</li>
+<li>Limitations: Restricted to 256 characters per set.</li>
+</ul>
+</li>
+<li><p>ANSI (Windows-1252)</p>
+<ul>
+<li>Usage: Commonly used on Windows; extends ASCII with additional characters for Western European languages.</li>
+<li>Limitations: Non-standard on non-Windows systems.</li>
+<li>Examples: Includes symbols like €, accented letters, and punctuation.</li>
+</ul>
+</li>
+<li><p>Emoji (Unicode Extended Pictographic Symbols)</p>
+<ul>
+<li>Usage:  Unicode provides a broad range of emoji for digital communication, sorted into categories.</li>
+<li>Categories: Smileys, People, Animals, Food, Travel, and more.</li>
+<li>Notes: Rendered differently across platforms (Apple, Google, Microsoft, etc.).</li>
+</ul>
+</li>
+<li><p>HTML Entities</p>
+<ul>
+<li>Usage: Encodes special symbols in HTML with named (&amp;) or numeric (&#169;) entities.</li>
+<li>Notes: Often Unicode-based, written as character references in HTML documents for web use.</li>
+</ul>
+</li>
+<li><p>LaTeX Symbols</p>
+<ul>
+<li>Usage:  Essential in academic and scientific fields, especially for mathematical notation.</li>
+<li>Categories: Greek letters, math operators, functions (\alpha, \sum, \infty).</li>
+<li>Notes: Not an encoding system but a method to render symbols in scientific documents.</li>
+</ul>
+</li>
+<li><p>Dingbats</p>
+<ul>
+<li><p>Usage: Decorative symbols, often used for visual enhancement.</p>
+</li>
+<li><p>Examples: Check marks, arrows, stars.</p>
+</li>
+<li><p>Notes: Originated in typefaces like Zapf Dingbats; Unicode includes a Dingbats block.</p>
+</li>
+</ul>
+</li>
+<li><p>Box Drawing Characters</p>
+<ul>
+<li>Usage: Used for simple graphics and box drawing in text files or terminal interfaces.</li>
+<li>Examples: ┌, ─, ┐, │, ┘.</li>
+<li>Notes: Useful for ASCII art and table layouts.</li>
+</ul>
+</li>
+<li><p>Control Characters</p>
+<ul>
+<li>Usage: Non-printing characters to control text display, such as line breaks and tabs.</li>
+<li>Categories: Includes Line Feed (LF), Carriage Return (CR), and others.</li>
+</ul>
+</li>
+<li><p>Private Use Area (PUA)</p>
+<ul>
+<li><p>Usage:  Allows companies or individuals to define custom symbols not in Unicode.</p>
+</li>
+<li><p>Examples: Proprietary symbols, company logos.</p>
+</li>
+<li><p>Notes: Non-standard and specific to certain systems or applications.</p>
+<p>Each of these systems provides unique ways to display and interact with symbols. While Unicode has largely unified global encoding, non-Unicode systems still fulfill niche needs, especially in older systems or specialized fields.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Here are a few sources for locating and copying symbols:</p>
+<ol>
+<li><p>Unicode Tables</p>
+<p> <a href="https://home.unicode.org/">home.unicode.org</a> provides official charts for different Unicode blocks. Each chart lists symbols for a specific category, like arrows, geometric shapes, mathematical symbols, etc.<br> You can search by character name or code point to find the exact symbol you need.</p>
+<ul>
+<li>Example: <code>Unicde = &amp;U+1F47D</code> &#x3D; <code>hexadecimal format = &amp;#x1F47D;</code> result &#x3D; &#x1F47D;</li>
+</ul>
+</li>
+<li><p>Character Map Utility (Windows)</p>
+<p> Windows includes a built-in tool called “Character Map” (charmap.exe) where you can browse and copy symbols from various fonts that support Unicode.<br> Open it by typing “Character Map” in the Start menu search bar, then find and copy symbols to paste them into your project.</p>
+</li>
+<li><p>Emoji and Symbol Libraries </p>
+<p> <a href="https://symbl.cc/en/unicode-table/">Online Websites like Unicode Table</a> and <a href="https://coolsymbol.com/">Coolsymbol</a> provide searchable libraries of Unicode symbols, emojis, and text decorations.<br> You can copy the symbol you want directly from these sites.</p>
+</li>
+<li><p>HTML Entity Reference</p>
+<p> Some symbols have HTML entity codes (e.g., &larr; for ←). Sites like DevDocs or W3Schools list HTML entities if you want to embed symbols in web pages.</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>unicode</tag>
+        <tag>ASCII</tag>
+        <tag>LaTeX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite movies</title>
+    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
+<p><a href="#Takedown">Takedown</a></p>
+<p><a href="#footnotes">footnotes</a></p>
+<hr>
+<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
+<li>Initial reliese: 2000</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
+<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
+<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
+">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
+">[2]</span></a></sup></li>
+</ul>
+<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
+<li>Initial release: 1983</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
+<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
+<li>Starring: Matthew Broderick, Ally Sheedy</li>
+<li>Director: John Badham</li>
+</ul>
+<hr>
+<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
+<li>Initial release: 1982</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
+<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
+<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
+<li>Director: Steven Lisberger</li>
+</ul>
+<hr>
+<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
+<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
+<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
+<li>Director: Iain Softley</li>
+</ul>
+<hr>
+<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
+<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
+<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
+<li>Director: Phil Alden Robinson</li>
+</ul>
+<hr>
+<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
+<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
+<li>Starring: Sandra Bullock</li>
+<li>Director: Irwin Winkler</li>
+</ul>
+<hr>
+<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
+<li>Initial release: 1984</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
+<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
+<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
+<li>Director: Steve Barron</li>
+</ul>
+<hr>
+<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
+<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
+<li>Starring: Jeff Fahey, Pierce Brosnan</li>
+<li>Director: Brett Leonard</li>
+</ul>
+<hr>
+<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
+<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
+<li>Director: Mamoru Oshii</li>
+</ul>
+<hr>
+<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
+<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>movie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXIO.IO fixes guide</title>
     <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design:</p>
@@ -2335,8 +2337,8 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>hexo_io</tag>
         <tag>blog</tag>
+        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -2474,8 +2476,25 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>hexo_io</tag>
         <tag>blog</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>
@@ -2566,74 +2585,8 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>hexo_io</tag>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
         <tag>hexo_io</tag>
-        <tag>examples</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>UX UI tools</title>
-    <url>/hexo-blog/2024/09/28/tutorials/ux_ui_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- Main Title and Introduction -->
-<h2 style="margin-bottom: 15px; font-weight: italic; background-color: #f4f4f4; padding: 10px; border-radius: 5px; color: #2C3E50;">
-  This post contains a list of discovered UX/UI web tools and additional information to help understand their features.
-</h2>
-
-<hr>
-<p><strong>List of tools</strong></p>
-<ol>
-<li><a href="#cssgradient_io">cssgradient.io</a></li>
-</ol>
-<hr>
-<!-- Header 2 Section with Tool Name -->
-<h2 style="margin-top: 25px;  color: #b03a2e;" id = cssgradient_io>cssgradient.io</h2>
-
-<!-- Tool Home Page Link and Preview Image -->
-<h3 style="margin: 15px 0;">Home Page</h3>
-<a href="https://cssgradient.io/" target="_blank" style="text-decoration: none; color: #3498db;">https://cssgradient.io/</a>
-<div style="margin-top: 10px;">
-    <img src="/hexo-blog/images/cssgradient_site_preview.png" alt="CSS Gradient Home Page" title="CSS Gradient Home Page" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div>
-
-<!-- Header 4 Section with Additional Resources -->
-<h4 style="margin-top: 25px;">See Also:</h4>
-<ol>
-    <li>
-        <a href="https://cssgradient.io/color-shades/" target="_blank" style="text-decoration: none; color: #3498db;">Color Shades</a>
-        <div style="margin-top: 8px;">
-            <img src="/hexo-blog/images/cssgradient.io-color-shades.png" alt="CSS Gradient Color Shades" title="CSS Gradient Color Shades" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-        </div>
-    </li>
-    <li style="margin-top: 15px;">
-        <a href="https://cssgradient.io/gradient-backgrounds/" target="_blank" style="text-decoration: none; color: #3498db;">Gradient Backgrounds</a>
-        <div style="margin-top: 8px;">
-            <img src="/hexo-blog/images/cssgradient.io-gradient-backgrounds.png" alt="CSS Gradient Backgrounds" title="CSS Gradient Backgrounds" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-        </div>
-    </li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>ux_ui</tag>
       </tags>
   </entry>
   <entry>
@@ -2797,6 +2750,55 @@
       <tags>
         <tag>tutorial</tag>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UX UI tools</title>
+    <url>/hexo-blog/2024/09/28/tutorials/ux_ui_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- Main Title and Introduction -->
+<h2 style="margin-bottom: 15px; font-weight: italic; background-color: #f4f4f4; padding: 10px; border-radius: 5px; color: #2C3E50;">
+  This post contains a list of discovered UX/UI web tools and additional information to help understand their features.
+</h2>
+
+<hr>
+<p><strong>List of tools</strong></p>
+<ol>
+<li><a href="#cssgradient_io">cssgradient.io</a></li>
+</ol>
+<hr>
+<!-- Header 2 Section with Tool Name -->
+<h2 style="margin-top: 25px;  color: #b03a2e;" id = cssgradient_io>cssgradient.io</h2>
+
+<!-- Tool Home Page Link and Preview Image -->
+<h3 style="margin: 15px 0;">Home Page</h3>
+<a href="https://cssgradient.io/" target="_blank" style="text-decoration: none; color: #3498db;">https://cssgradient.io/</a>
+<div style="margin-top: 10px;">
+    <img src="/hexo-blog/images/cssgradient_site_preview.png" alt="CSS Gradient Home Page" title="CSS Gradient Home Page" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div>
+
+<!-- Header 4 Section with Additional Resources -->
+<h4 style="margin-top: 25px;">See Also:</h4>
+<ol>
+    <li>
+        <a href="https://cssgradient.io/color-shades/" target="_blank" style="text-decoration: none; color: #3498db;">Color Shades</a>
+        <div style="margin-top: 8px;">
+            <img src="/hexo-blog/images/cssgradient.io-color-shades.png" alt="CSS Gradient Color Shades" title="CSS Gradient Color Shades" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+        </div>
+    </li>
+    <li style="margin-top: 15px;">
+        <a href="https://cssgradient.io/gradient-backgrounds/" target="_blank" style="text-decoration: none; color: #3498db;">Gradient Backgrounds</a>
+        <div style="margin-top: 8px;">
+            <img src="/hexo-blog/images/cssgradient.io-gradient-backgrounds.png" alt="CSS Gradient Backgrounds" title="CSS Gradient Backgrounds" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+        </div>
+    </li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>ux_ui</tag>
       </tags>
   </entry>
 </search>
