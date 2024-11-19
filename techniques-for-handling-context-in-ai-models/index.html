@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Techniques for Handling Context in AI Models |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and t">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Techniques for Handling Context in AI Models">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/techniques-for-handling-context-in-ai-models/index.html">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and t">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-10-28T14:08:12.000Z">
+<meta property="article:modified_time" content="2024-11-19T11:04:43.526Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="science">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="ML">
+<meta property="article:tag" content="prompt_engineering">
+<meta property="article:tag" content="LLM">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-posts/techniques_for_handling_context_in_ai_models" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/techniques-for-handling-context-in-ai-models/" class="article-date">
+  <time class="dt-published" datetime="2024-10-28T14:08:12.000Z" itemprop="datePublished">2024-10-28</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Techniques for Handling Context in AI Models
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and tools to enhance context management. Below is a detailed list of techniques and associated tools.</p>
+<p><strong>DOI not checked !!!!</strong></p>
+<h2 id="Techniques"><a href="#Techniques" class="headerlink" title="Techniques"></a>Techniques</h2><h3 id="1-Windowing-Sliding-Window-Technique"><a href="#1-Windowing-Sliding-Window-Technique" class="headerlink" title="1. Windowing (Sliding Window Technique)"></a>1. Windowing (Sliding Window Technique)</h3><ul>
+<li><strong>Title</strong>: Sliding Windows for Sequence Labeling: Applications in Named Entity Recognition  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1906.02691">10.48550&#x2F;arXiv.1906.02691</a></li>
+</ul>
+<hr>
+<h3 id="2-Chunking-and-Overlapping-Contexts"><a href="#2-Chunking-and-Overlapping-Contexts" class="headerlink" title="2. Chunking and Overlapping Contexts"></a>2. Chunking and Overlapping Contexts</h3><ul>
+<li><strong>Title</strong>: Hierarchical Attention Networks for Document Classification  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a></li>
+</ul>
+<hr>
+<h3 id="3-Hierarchical-Context-Representations"><a href="#3-Hierarchical-Context-Representations" class="headerlink" title="3. Hierarchical Context Representations"></a>3. Hierarchical Context Representations</h3><ul>
+<li><strong>Title</strong>: Hierarchical Attention for Sequence Learning  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1911.03688">10.48550&#x2F;arXiv.1911.03688</a></li>
+</ul>
+<hr>
+<h3 id="4-Memory-Augmented-Neural-Networks-MANNs"><a href="#4-Memory-Augmented-Neural-Networks-MANNs" class="headerlink" title="4. Memory-Augmented Neural Networks (MANNs)"></a>4. Memory-Augmented Neural Networks (MANNs)</h3><ul>
+<li><strong>Title</strong>: Meta-Learning with Memory-Augmented Neural Networks  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1605.06065">10.48550&#x2F;arXiv.1605.06065</a></li>
+</ul>
+<hr>
+<h3 id="5-Transformer-Variants-for-Long-Contexts"><a href="#5-Transformer-Variants-for-Long-Contexts" class="headerlink" title="5. Transformer Variants for Long Contexts"></a>5. Transformer Variants for Long Contexts</h3><h4 id="Longformer"><a href="#Longformer" class="headerlink" title="Longformer"></a>Longformer</h4><ul>
+<li><strong>Title</strong>: Longformer: The Long-Document Transformer  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2004.05150">10.48550&#x2F;arXiv.2004.05150</a></li>
+</ul>
+<h4 id="Reformer"><a href="#Reformer" class="headerlink" title="Reformer"></a>Reformer</h4><ul>
+<li><strong>Title</strong>: Reformer: The Efficient Transformer  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2001.04451">10.48550&#x2F;arXiv.2001.04451</a></li>
+</ul>
+<hr>
+<h3 id="6-Compression-Based-Context-Management-Summarization"><a href="#6-Compression-Based-Context-Management-Summarization" class="headerlink" title="6. Compression-Based Context Management (Summarization)"></a>6. Compression-Based Context Management (Summarization)</h3><ul>
+<li><strong>Title</strong>: Pretrained Transformers for Text Summarization  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2110.02096">10.48550&#x2F;arXiv.2110.02096</a></li>
+</ul>
+<hr>
+<h3 id="7-Causal-Attention-Mechanisms"><a href="#7-Causal-Attention-Mechanisms" class="headerlink" title="7. Causal Attention Mechanisms"></a>7. Causal Attention Mechanisms</h3><ul>
+<li><strong>Title</strong>: Attention Is All You Need  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1906.01548">10.48550&#x2F;arXiv.1906.01548</a></li>
+</ul>
+<hr>
+<h3 id="8-Vector-Based-Semantic-Search-Dense-Vector-Representations"><a href="#8-Vector-Based-Semantic-Search-Dense-Vector-Representations" class="headerlink" title="8. Vector-Based Semantic Search (Dense Vector Representations)"></a>8. Vector-Based Semantic Search (Dense Vector Representations)</h3><ul>
+<li><strong>Title</strong>: Sentence-BERT: Sentence Embeddings Using Siamese Networks  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2004.00995">10.48550&#x2F;arXiv.2004.00995</a></li>
+</ul>
+<hr>
+<h3 id="9-Retrieval-Augmented-Generation-RAG"><a href="#9-Retrieval-Augmented-Generation-RAG" class="headerlink" title="9. Retrieval-Augmented Generation (RAG)"></a>9. Retrieval-Augmented Generation (RAG)</h3><ul>
+<li><strong>Title</strong>: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2005.11401">10.48550&#x2F;arXiv.2005.11401</a></li>
+</ul>
+<hr>
+<h3 id="10-Cache-Augmented-Models-for-Recurrent-Usage"><a href="#10-Cache-Augmented-Models-for-Recurrent-Usage" class="headerlink" title="10. Cache Augmented Models for Recurrent Usage"></a>10. Cache Augmented Models for Recurrent Usage</h3><ul>
+<li><strong>Title</strong>: Cache-Augmented Models for Dialogue Generation  </li>
+<li><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1905.12777">10.48550&#x2F;arXiv.1905.12777</a></li>
+</ul>
+<hr>
+<h2 id="Tools-and-Frameworks"><a href="#Tools-and-Frameworks" class="headerlink" title="Tools and Frameworks"></a>Tools and Frameworks</h2><h3 id="1-Pinecone"><a href="#1-Pinecone" class="headerlink" title="1. Pinecone"></a>1. <a target="_blank" rel="noopener" href="https://www.pinecone.io/">Pinecone</a></h3><ul>
+<li>Provides vector-based memory and semantic search capabilities.</li>
+</ul>
+<h3 id="2-LangChain"><a href="#2-LangChain" class="headerlink" title="2. LangChain"></a>2. <a target="_blank" rel="noopener" href="https://www.langchain.com/">LangChain</a></h3><ul>
+<li>Handles chunking, memory management, and retrieval tasks for LLMs.</li>
+</ul>
+<h3 id="3-FAISS-Facebook-AI-Similarity-Search"><a href="#3-FAISS-Facebook-AI-Similarity-Search" class="headerlink" title="3. FAISS (Facebook AI Similarity Search)"></a>3. <a target="_blank" rel="noopener" href="https://faiss.ai/">FAISS (Facebook AI Similarity Search)</a></h3><ul>
+<li>Optimized for efficient similarity search on dense vectors.</li>
+</ul>
+<h3 id="4-Weaviate"><a href="#4-Weaviate" class="headerlink" title="4. Weaviate"></a>4. <a target="_blank" rel="noopener" href="https://weaviate.io/">Weaviate</a></h3><ul>
+<li>Offers scalable vector search and knowledge graph integrations.</li>
+</ul>
+<h3 id="5-Hugging-Face’s-Transformers"><a href="#5-Hugging-Face’s-Transformers" class="headerlink" title="5. Hugging Face’s Transformers"></a>5. <a target="_blank" rel="noopener" href="https://huggingface.co/transformers/">Hugging Face’s Transformers</a></h3><ul>
+<li>Implements state-of-the-art transformer models like Longformer and Reformer.</li>
+</ul>
+<h3 id="6-OpenAI-Embeddings"><a href="#6-OpenAI-Embeddings" class="headerlink" title="6. OpenAI Embeddings"></a>6. <a target="_blank" rel="noopener" href="https://platform.openai.com/docs/guides/embeddings/">OpenAI Embeddings</a></h3><ul>
+<li>Provides embeddings for vector search and semantic tasks.</li>
+</ul>
+<h3 id="7-Redis-Vector-Store"><a href="#7-Redis-Vector-Store" class="headerlink" title="7. Redis Vector Store"></a>7. <a target="_blank" rel="noopener" href="https://redis.io/docs/stack/search/">Redis Vector Store</a></h3><ul>
+<li>Lightweight memory storage for vectorized data.</li>
+</ul>
+<h3 id="8-GPT-Index-LlamaIndex"><a href="#8-GPT-Index-LlamaIndex" class="headerlink" title="8. GPT Index (LlamaIndex)"></a>8. <a target="_blank" rel="noopener" href="https://gpt-index.readthedocs.io/">GPT Index (LlamaIndex)</a></h3><ul>
+<li>Automates document splitting, chunking, and embedding management for LLMs.</li>
+</ul>
+<h3 id="9-Haystack"><a href="#9-Haystack" class="headerlink" title="9. Haystack"></a>9. <a target="_blank" rel="noopener" href="https://haystack.deepset.ai/">Haystack</a></h3><ul>
+<li>An open-source framework for retrieval-augmented generation (RAG).</li>
+</ul>
+<h3 id="10-MemGPT"><a href="#10-MemGPT" class="headerlink" title="10. MemGPT"></a>10. <a target="_blank" rel="noopener" href="https://github.com/shroominic/memgpt">MemGPT</a></h3><ul>
+<li>Enhances memory for multi-session GPT-based interactions.</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/techniques-for-handling-context-in-ai-models/" data-id="cm3ocldwi00391ckk4ut8ae9x" data-title="Techniques for Handling Context in AI Models" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/LLM/" rel="tag">LLM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/ML/" rel="tag">ML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/prompt-engineering/" rel="tag">prompt_engineering</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/science/" rel="tag">science</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/10/28/posts/resources__global_platforms/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Resources.Global platforms and people
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hexo-blog/maintanance/my_statistics_page/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">My Statistics page</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 18.57px;">AI</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 10px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/ML/" style="font-size: 18.57px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 12.86px;">NLP</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15.71px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chat-bpt/" style="font-size: 10px;">chat_bpt</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 10px;">dev_side</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 10px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15.71px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.43px;">knowledge</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.86px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 17.14px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.86px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 10px;">papers</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 11.43px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 14.29px;">science</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/vocabularies/" style="font-size: 10px;">vocabularies</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/19/posts/ai_nlp_text_classification_intro_1/">Text Classification. Historical overview, tools, and techniques.</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/nastusja/">Довідник для Лікаря Сімейної Медицини</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/18/notes/online_tools/">Online tools</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/glossary-of-machine-learning-and-ai-terms/">Glossary of Machine Learning and AI Terms</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/17/posts/ai_comparing_nlp_models_methods_metrix/">Comparing Efficiency of NLP Models. Methods and Metrics</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 si0n4ra<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

@@ -21,18 +21,21 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+    <title>Blog&#39;s categories</title>
+    <url>/hexo-blog//categories/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
+<ul>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
 </ul>
 ]]></content>
-      <tags>
-        <tag>cheatsheets</tag>
-        <tag>tutorial</tag>
-      </tags>
+      <categories>
+        <category>Categories</category>
+      </categories>
   </entry>
   <entry>
     <title>About me</title>
@@ -91,20 +94,76 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog&#39;s categories</title>
-    <url>/hexo-blog//categories/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
-<ul>
-<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
-<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
-<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
-<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
 </ul>
 ]]></content>
+      <tags>
+        <tag>cheatsheets</tag>
+        <tag>tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
       <categories>
-        <category>Categories</category>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
       </categories>
   </entry>
   <entry>
@@ -177,6 +236,29 @@
       </tags>
   </entry>
   <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>My GitHub projects</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
@@ -243,47 +325,6 @@
       <tags>
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -494,6 +535,24 @@
       </tags>
   </entry>
   <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO blog design</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
@@ -612,6 +671,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>How to Format a USB Using CMD (Command Prompt)</title>
     <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
@@ -640,88 +717,6 @@
       <tags>
         <tag>usb</tag>
         <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Info data</title>
-    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
-<div class="sitemap_content">
-    <ul>
-        <li>
-            <iframe
-                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                frameborder="0" width="216" height="60"></iframe>
-        </li>
-        <li>
-        <li>
-            <hr>
-            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
-            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
-        </li>
-        <li>
-            <hr>
-            <h2>Satellite observations</h2>
-            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
-            <hr>
-        </li>
-        <li>
-            <h3>Solar Flares and Storms Warnings for Today</h3>
-            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
-                height="300px"></iframe>
-        </li>
-        <hr>
-        <h3>Forecast platforms</h3>
-        </li>
-        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
-                FORECAST</a>
-        </li>
-        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
-        </li>
-        <li>foreca.com
-            <ul>
-                <li>
-                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
-                        Ukraine,
-                        Sumy</a>
-                </li>
-                <li>
-                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
-                        Kyiv</a>
-                </li>
-            </ul>
-        </li>
-        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
-                Network / European space agency.</a></li>
-        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
-    </ul>
-</div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>info</tag>
       </tags>
   </entry>
   <entry>
@@ -872,6 +867,133 @@
       </tags>
   </entry>
   <entry>
+    <title>Info data</title>
+    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
+<div class="sitemap_content">
+    <ul>
+        <li>
+            <iframe
+                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                frameborder="0" width="216" height="60"></iframe>
+        </li>
+        <li>
+        <li>
+            <hr>
+            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
+            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
+        </li>
+        <li>
+            <hr>
+            <h2>Satellite observations</h2>
+            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
+            <hr>
+        </li>
+        <li>
+            <h3>Solar Flares and Storms Warnings for Today</h3>
+            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
+                height="300px"></iframe>
+        </li>
+        <hr>
+        <h3>Forecast platforms</h3>
+        </li>
+        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
+                FORECAST</a>
+        </li>
+        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
+        </li>
+        <li>foreca.com
+            <ul>
+                <li>
+                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
+                        Ukraine,
+                        Sumy</a>
+                </li>
+                <li>
+                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
+                        Kyiv</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
+                Network / European space agency.</a></li>
+        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
+    </ul>
+</div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Online tools</title>
+    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
+<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
+</ol>
+<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+</ol>
+<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
+<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>tools</tag>
+        <tag>online_tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Symbol encoding (Unicode and family)</title>
     <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
@@ -993,69 +1115,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Online tools</title>
-    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
-<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
-</ol>
-<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-</ol>
-<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
-<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>tools</tag>
-        <tag>online_tools</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Favorite movies</title>
     <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
@@ -1144,65 +1203,6 @@
         <tag>my_contribution</tag>
         <tag>movie</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>ASCII art</title>
@@ -1301,6 +1301,52 @@
         <tag>science</tag>
         <tag>AI</tag>
         <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI glossaries list</title>
+    <url>/hexo-blog/2024/11/01/posts/ai_glossary_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
+<ul>
+<li>Glossary-of-Artificial-Intelligence<ul>
+<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
+<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
+<li>Text + pictures + some python code snippets</li>
+<li>It covers just ‘A’ letter.</li>
+</ul>
+</li>
+<li>Artificial Intelligence and Data Science<ul>
+<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
+<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
+<li>Basic terms for artificial intelligence and data science. Just few terms</li>
+</ul>
+</li>
+<li>AI-Glossary<ul>
+<li>A glossary of terms in AI and their corresponding papers.</li>
+<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
+<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
+</ul>
+</li>
+<li>Generative AI Terminology<ul>
+<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
+</ul>
+</li>
+<li>AI Dictionary<ul>
+<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
+</ul>
+</li>
+<li>Online glossary of machine learning terms<ul>
+<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
+<li>Well srtuctured and informative resource</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1435,54 +1481,142 @@
       </tags>
   </entry>
   <entry>
-    <title>AI glossaries list</title>
-    <url>/hexo-blog/2024/11/01/posts/ai_glossary_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
-<ul>
-<li>Glossary-of-Artificial-Intelligence<ul>
-<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
-<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
-<li>Text + pictures + some python code snippets</li>
-<li>It covers just ‘A’ letter.</li>
-</ul>
-</li>
-<li>Artificial Intelligence and Data Science<ul>
-<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
-<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
-<li>Basic terms for artificial intelligence and data science. Just few terms</li>
-</ul>
-</li>
-<li>AI-Glossary<ul>
-<li>A glossary of terms in AI and their corresponding papers.</li>
-<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
-<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
-</ul>
-</li>
-<li>Generative AI Terminology<ul>
-<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
-</ul>
-</li>
-<li>AI Dictionary<ul>
-<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
-</ul>
-</li>
-<li>Online glossary of machine learning terms<ul>
-<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
-<li>Well srtuctured and informative resource</li>
+    <title>Machine Learning Techniques - Overview</title>
+    <url>/hexo-blog/2024/09/28/posts/ai_ml_techniques_overview_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this guide, we will review popular machine learning techniques with a brief overview of their applications, complexity levels, and some historical context. This list provides a starting point for understanding core machine learning methods and their practical uses.</p>
+<hr>
+<p><a href="" target="_blank"></a></p>
+<h2 id="1-Linear-Regression"><a href="#1-Linear-Regression" class="headerlink" title="1. Linear Regression"></a>1. <strong>Linear Regression</strong></h2><ul>
+<li><strong>Overview</strong>: A fundamental statistical method used to predict a dependent variable based on an independent variable. Commonly applied in forecasting and trend analysis.</li>
+<li><strong>Complexity</strong>: ⭐</li>
+<li><strong>Inventor</strong>: Sir Francis Galton (DOB: 1822-1911) and Karl Pearson (DOB: 1857-1936)</li>
+<li><strong>Key Publication</strong>: <ul>
+<li>Book:<a href="https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.1896.0007" target="_blank">Pearson, K. (1896). “Mathematical Contributions to the Theory of Evolution</a><a href="../../../../../docs/other/pearson-henrici-1997-vii-mathematical-contributions-to-the-theory-of-evolution-iii-regression-heredity-and-panmixia.pdf">“</a></li>
 </ul>
 </li>
 </ul>
+<h2 id="2-Logistic-Regression"><a href="#2-Logistic-Regression" class="headerlink" title="2. Logistic Regression"></a>2. <strong>Logistic Regression</strong></h2><ul>
+<li><strong>Overview</strong>: Primarily used for binary classification, logistic regression estimates the probability of an outcome and is used widely in classification tasks like spam detection.</li>
+<li><strong>Complexity</strong>: ⭐⭐</li>
+<li><strong>Inventor</strong>: David Cox (DOB: 1924-2022)</li>
+<li><strong>Key Publication</strong>: <a href="https://sci-hub.se/10.1037/h0042519" target="_blank">Cox, D.R. (1958). “The Regression Analysis of Binary Sequences.”</a></li>
+</ul>
+<h2 id="3-Decision-Trees"><a href="#3-Decision-Trees" class="headerlink" title="3. Decision Trees"></a>3. <strong>Decision Trees</strong></h2><ul>
+<li><strong>Overview</strong>: A tree-like structure for decision-making and predictive modeling. Suitable for classification and regression problems.</li>
+<li><strong>Complexity</strong>: ⭐⭐</li>
+<li><strong>Inventor</strong>: Ross Quinlan (DOB: 1944)</li>
+<li><strong>Key Publication</strong>: <a href="../../../../../docs/other/quinlan_j.r._1986_induction_of_decision_trees.pdf" target="_blank">Quinlan, J.R. (1986). “Induction of Decision Trees.”</a></li>
+</ul>
+<h2 id="4-Random-Forests"><a href="#4-Random-Forests" class="headerlink" title="4. Random Forests"></a>4. <strong>Random Forests</strong></h2><ul>
+<li><strong>Overview</strong>: An ensemble method that builds multiple decision trees and combines them to improve accuracy. Known for its robustness and ease of use.</li>
+<li><strong>Complexity</strong>: ⭐⭐⭐</li>
+<li><strong>Inventor</strong>: Leo Breiman (DOB: 1928-2005)</li>
+<li><strong>Key Publication</strong>: <a href="https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf" target="_blank">Breiman, L. (2001). “Random Forests.”</a></li>
+</ul>
+<h2 id="5-Support-Vector-Machines-SVM"><a href="#5-Support-Vector-Machines-SVM" class="headerlink" title="5. Support Vector Machines (SVM)"></a>5. <strong>Support Vector Machines (SVM)</strong></h2><ul>
+<li><strong>Overview</strong>: An effective classification technique that finds the hyperplane maximizing the margin between data classes. Widely used in image and text classification.</li>
+<li><strong>Complexity</strong>: ⭐⭐⭐</li>
+<li><strong>Inventor</strong>: Vladimir Vapnik (DOB: 1936)</li>
+<li><strong>Key Publication</strong>: Book: <a href="../../../../../docs/other/vladimir-vapnik-the-nature-of-statistical-learning-springer-2010.pdf" target="_blank">Vapnik, V. (1995). “The Nature of Statistical Learning Theory.”</a></li>
+</ul>
+<h2 id="6-K-Nearest-Neighbors-KNN"><a href="#6-K-Nearest-Neighbors-KNN" class="headerlink" title="6. K-Nearest Neighbors (KNN)"></a>6. <strong>K-Nearest Neighbors (KNN)</strong></h2><ul>
+<li><strong>Overview</strong>: A simple, non-parametric method used for classification and regression. It predicts outcomes based on the ‘k’ nearest data points.</li>
+<li><strong>Complexity</strong>: ⭐⭐</li>
+<li><strong>Inventor</strong>: Evelyn Fix (DOB: 1904-1987) and Joseph Hodges (DOB: 1922-2000)</li>
+<li><strong>Key Publication</strong>: <ul>
+<li>Paper: <ul>
+<li>DOI: 10.2307&#x2F;1403797</li>
+<li><a href="https://sci-hub.se/10.2307/1403797" target="_blank">Fix, E., &amp; Hodges, J.L. (1951). “Discriminatory Analysis.”</a></li>
+</ul>
+</li>
+<li>Book: <a href="https://books.google.com.ua/books?hl=en&lr=&id=s85PAQAAMAAJ&oi=fnd&pg=PP1&dq=DOI+Fix,+E.,+%26+Hodges,+J.L.+(1951).+%E2%80%9CDiscriminatory+Analysis.%E2%80%9D&ots=MKP8x31F3a&sig=YAfjZLsq1f02Wby3vzoQAI00WkM&redir_esc=y#v=onepage&q&f=false" target="_blank">Fix, E., &amp; Hodges, J.L. (1951). “Discriminatory Analysis.”</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="7-Naive-Bayes"><a href="#7-Naive-Bayes" class="headerlink" title="7. Naive Bayes"></a>7. <strong>Naive Bayes</strong></h2><ul>
+<li><strong>Overview</strong>: Based on Bayes’ theorem, this technique is widely used for text classification due to its simplicity and effectiveness with large datasets.</li>
+<li><strong>Complexity</strong>: ⭐</li>
+<li><strong>Inventor</strong>: Thomas Bayes (DOB: 1701-1761)</li>
+<li><strong>Key Publication</strong>: <ul>
+<li>Paper: <a href="../../../../../docs/other/Bayes_T_1763_An_Essay_towards_solving_a_Problem_in_the_Doctrine_of_Chances.pdf" target="_blank">Bayes, T. (1763). “An Essay towards solving a Problem in the Doctrine of Chances.”</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="8-Gradient-Boosting"><a href="#8-Gradient-Boosting" class="headerlink" title="8. Gradient Boosting"></a>8. <strong>Gradient Boosting</strong></h2><ul>
+<li><strong>Overview</strong>: An ensemble technique that combines weak learners to minimize errors iteratively. Known for its high accuracy in structured data tasks.</li>
+<li><strong>Complexity</strong>: ⭐⭐⭐⭐</li>
+<li><strong>Inventor</strong>: Jerome Friedman (DOB: 1939)</li>
+<li><strong>Key Publication</strong>: <ul>
+<li>DOI: 10.2307&#x2F;2699986 </li>
+<li>Paper: <a href="https://sci-hub.se/10.2307/2699986" target="_blank">Friedman, J.H. (2001). “Greedy Function Approximation: A Gradient Boosting Machine.”</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="9-Neural-Networks"><a href="#9-Neural-Networks" class="headerlink" title="9. Neural Networks"></a>9. <strong>Neural Networks</strong></h2><ul>
+<li><strong>Overview</strong>: Inspired by biological neural networks, these algorithms are used in complex tasks like image recognition and language processing.</li>
+<li><strong>Complexity</strong>: ⭐⭐⭐⭐⭐</li>
+<li><strong>Inventor</strong>: Frank Rosenblatt (DOB: 1928-1971)</li>
+<li><strong>Key Publication</strong>:<ul>
+<li>Paper: <a href="https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf" target="_blank">Rosenblatt, F. (1958). “The Perceptron: A Probabilistic Model for Information Storage and Organization.”</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="10-K-Means-Clustering"><a href="#10-K-Means-Clustering" class="headerlink" title="10. K-Means Clustering"></a>10. <strong>K-Means Clustering</strong></h2><ul>
+<li><strong>Overview</strong>: An unsupervised algorithm that partitions data into ‘k’ clusters based on similarity. Commonly used for market segmentation and image compression.</li>
+<li><strong>Complexity</strong>: ⭐⭐</li>
+<li><strong>Inventor</strong>: Stuart Lloyd (DOB: 1933-2006)</li>
+<li><strong>Key Publication</strong>: <ul>
+<li>Paper: <ul>
+<li>DOI:10.1109&#x2F;TIT.1982.1056489</li>
+<li><a href="https://sci-hub.se/10.1109/TIT.1982.1056489" target="_blank">Lloyd, S.P. (1982). “Least Squares Quantization in PCM.”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="11-Principal-Component-Analysis-PCA"><a href="#11-Principal-Component-Analysis-PCA" class="headerlink" title="11. Principal Component Analysis (PCA)"></a>11. <strong>Principal Component Analysis (PCA)</strong></h2><ul>
+<li><strong>Overview</strong>: A dimensionality reduction technique that transforms data into a set of orthogonal components, enhancing interpretability without sacrificing information.</li>
+<li><strong>Complexity</strong>: ⭐⭐</li>
+<li><strong>Inventor</strong>: Karl Pearson (DOB: 1857-1936)</li>
+<li><strong>Key Publication</strong>: <ul>
+<li>Paper: <ul>
+<li>DOI:10.1080&#x2F;14786440109462720</li>
+<li><a href="https://sci-hub.se/10.1080/14786440109462720" target="_blank">Pearson, K. (1901). “On Lines and Planes of Closest Fit to Systems of Points.”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="12-Reinforcement-Learning-RL"><a href="#12-Reinforcement-Learning-RL" class="headerlink" title="12. Reinforcement Learning (RL)"></a>12. <strong>Reinforcement Learning (RL)</strong></h2><ul>
+<li><strong>Overview</strong>: An area focused on training models to make sequences of decisions, particularly for game playing and robotics.</li>
+<li><strong>Complexity</strong>: ⭐⭐⭐⭐⭐</li>
+<li><strong>Inventor</strong>: Richard Sutton (DOB: 1952)</li>
+<li><strong>Key Publication</strong>: <ul>
+<li>Books in Brief:<ul>
+<li>DOI:10.1109&#x2F;TNN.1998.712192</li>
+<li><a href="https://sci-hub.se/10.1109/TNN.1998.712192" target="_blank">Sutton, R., &amp; Barto, A. (1998). “Reinforcement Learning: An Introduction.”</a></li>
+</ul>
+</li>
+<li><a href="https://www.semanticscholar.org/paper/Reinforcement-Learning%3A-An-Introduction-Sutton-Barto/97efafdb4a3942ab3efba53ded7413199f79c054" target="_blank">semanticscholar link</a></li>
+<li><a href="http://incompleteideas.net/book/RLbook2020.pdf" target="_blank">Book: Sutton, R., &amp; Barto, A. (1998). “Reinforcement Learning: An Introduction.” - online_1</a></li>
+<li><a href="../../../../../docs/other/sutton_r_and_barto_a_1998_reinforcement_learning_an_introduction.pdf" target="_blank">Book: Sutton, R., &amp; Barto, A. (1998). “Reinforcement Learning: An Introduction.” - online_2</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>These techniques represent a wide spectrum of machine learning methods used across industries. Whether for predictive modeling, classification, clustering, or decision-making, understanding these core methods is foundational to exploring more advanced machine learning concepts.</p>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
         <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
     <title>Text Classification. Historical overview, tools, and techniques.</title>
-    <url>/hexo-blog/2024/11/01/posts/ai_nlp_text_classification_intro_1/</url>
+    <url>/hexo-blog/2024/11/19/posts/ai_nlp_text_classification_intro_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text classification is a fundamental task in Natural Language Processing (NLP) that involves categorizing text into predefined categories. Its applications range from sentiment analysis to spam detection, and news categorization to intent recognition in conversational AI. This document provides a historical overview, a comparative analysis of tools, and details about modern approaches like Word2Vec, FastText, GloVe, and deep learning.</p>
 <ol>
 <li><p>Historical Overview of Text Classification</p>
@@ -1695,8 +1829,28 @@
   </entry>
   <entry>
     <title>Glossary of Machine Learning and AI Terms</title>
-    <url>/hexo-blog/2024/11/18/posts/ai_nn_glossary/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Artificial-Neural-Networks-ANNs"><a href="#Artificial-Neural-Networks-ANNs" class="headerlink" title="Artificial Neural Networks (ANNs)"></a>Artificial Neural Networks (ANNs)</h2><p>Artificial Neural Networks (ANNs) are computational processing systems inspired by biological nervous systems (e.g., the human brain).</p>
+    <url>/hexo-blog//glossary-of-machine-learning-and-ai-terms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Autoencoders"><a href="#Autoencoders" class="headerlink" title="Autoencoders"></a>Autoencoders</h2><p>Autoencoders are neural network architectures used for unsupervised learning. They are designed to compress input data into a lower-dimensional latent space (encoding) and then reconstruct the original data from this compressed representation (decoding). The primary objective is to minimize the reconstruction error, typically measured as the difference between input and output. </p>
+<p><strong>Applications:</strong></p>
+<ol>
+<li><strong>Dimensionality Reduction</strong>: Acts as a non-linear alternative to Principal Component Analysis (PCA).</li>
+<li><strong>Feature Learning</strong>: Learns compact and meaningful representations of data.</li>
+<li><strong>Denoising</strong>: Removes noise from corrupted data by training on clean samples.</li>
+<li><strong>Anomaly Detection</strong>: Identifies unusual patterns by observing high reconstruction errors.</li>
+</ol>
+<p><strong>Variants:</strong></p>
+<ul>
+<li><strong>Sparse Autoencoders</strong>: Encourage sparsity in the hidden units to create compressed and interpretable features.</li>
+<li><strong>Denoising Autoencoders</strong>: Add noise to inputs during training, forcing the network to learn robust features.</li>
+<li><strong>Convolutional Autoencoders</strong>: Specialize in image data, leveraging convolutional layers for spatial feature learning.</li>
+</ul>
+<p><strong>Key References:</strong></p>
+<ul>
+<li><strong>Title</strong>: Efficient Learning of Sparse Representations with an Energy-Based Model, 2006.<br><strong>Read on</strong>: <a href="https://cs.nyu.edu/~sumit/publications/assets/nips06.pdf">cs.nyu.edu</a></li>
+<li><strong>Title</strong>: Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion, 2010.<br><strong>Read on</strong>: <a href="https://www.cse.fau.edu/~xqzhu/courses/cap5615/reading/autoencoder.pdf">www.cse.fau.edu</a></li>
+</ul>
+<hr>
+<h2 id="Artificial-Neural-Networks-ANNs"><a href="#Artificial-Neural-Networks-ANNs" class="headerlink" title="Artificial Neural Networks (ANNs)"></a>Artificial Neural Networks (ANNs)</h2><p>Artificial Neural Networks (ANNs) are computational processing systems inspired by biological nervous systems (e.g., the human brain).</p>
 <hr>
 <h2 id="Base-model"><a href="#Base-model" class="headerlink" title="Base model"></a>Base model</h2><p>The original, foundational version of a large language model, which has not been fine-tuned.</p>
 <hr>
@@ -1730,6 +1884,11 @@
 <hr>
 <h2 id="MLOps"><a href="#MLOps" class="headerlink" title="MLOps"></a>MLOps</h2><p>Short for Machine Learning Operations.</p>
 <hr>
+<h2 id="Named-Entity-Recognition"><a href="#Named-Entity-Recognition" class="headerlink" title="Named Entity Recognition"></a>Named Entity Recognition</h2><ul>
+<li>Named Entity Recognition seeks to extract substrings within a text that name real-world objects and to determine their type (for example, whether they refer to persons or organizations).<br>Paper: A survey on recent advances in Named Entity Recognition, 2024.<br>Read on <a href="https://arxiv.org/html/2401.10825v1">arxiv.org</a></li>
+<li>Named Entity Recognition (NER) is a sub-task of information extraction in Natural Language Processing (NLP) that classifies named entities into predefined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, and more.</li>
+</ul>
+<hr>
 <h2 id="Perplexity"><a href="#Perplexity" class="headerlink" title="Perplexity"></a>Perplexity</h2><p>A measure of how well a language model predicts a sample of text, with lower scores indicating better performance.</p>
 <hr>
 <h2 id="Pooling-layers"><a href="#Pooling-layers" class="headerlink" title="Pooling layers"></a>Pooling layers</h2><p>Layers in CNNs designed to reduce the dimensionality of feature maps, lowering computational complexity.</p>
@@ -1758,222 +1917,231 @@
 <hr>
 <h2 id="Unsupervised-learning"><a href="#Unsupervised-learning" class="headerlink" title="Unsupervised learning"></a>Unsupervised learning</h2><p>Learning from data without labeled outputs, often for tasks like clustering or dimensionality reduction.</p>
 <hr>
+<h2 id="Variational-Autoencoders-VAEs"><a href="#Variational-Autoencoders-VAEs" class="headerlink" title="Variational Autoencoders (VAEs)"></a>Variational Autoencoders (VAEs)</h2><p>Variational Autoencoders (VAEs) are a probabilistic extension of autoencoders that learn not only to compress data but also to generate new samples by modeling data distributions. VAEs use a latent space with a probabilistic structure, enabling meaningful interpolation between points in the latent space.<br><strong>Features:</strong></p>
+<ol>
+<li><strong>Latent Space Regularization</strong>: Ensures the latent space follows a predefined probability distribution, commonly Gaussian.</li>
+<li><strong>Reconstruction and Generation</strong>: Balances reconstruction accuracy with the regularization term using a loss function derived from the evidence lower bound (ELBO).</li>
+<li><strong>Bayesian Interpretation</strong>: The encoding process approximates posterior distributions via variational inference.</li>
+</ol>
+<p><strong>Applications:</strong></p>
+<ul>
+<li><strong>Data Generation</strong>: Generate novel and coherent samples (e.g., synthetic images, text).</li>
+<li><strong>Anomaly Detection</strong>: Identifies data points that deviate from the learned distribution.</li>
+<li><strong>Latent Space Manipulation</strong>: Enables interpolation and arithmetic operations in the latent space.</li>
+</ul>
+<p><strong>Key References:</strong></p>
+<ul>
+<li><strong>Title</strong>: “Auto-Encoding Variational Bayes”<br><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1312.6114">10.48550&#x2F;arXiv.1312.6114</a></li>
+<li><strong>Title</strong>: “Variational Inference with Normalizing Flows”<br><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1505.05770">10.48550&#x2F;arXiv.1505.05770</a></li>
+</ul>
+<hr>
 <h2 id="Zero-padding-CNN"><a href="#Zero-padding-CNN" class="headerlink" title="Zero-padding (CNN)"></a>Zero-padding (CNN)</h2><p>A technique in CNNs that pads the borders of input data with zeros, controlling output dimensionality.</p>
 <hr>
 <h2 id="Zero-shot"><a href="#Zero-shot" class="headerlink" title="Zero-shot"></a>Zero-shot</h2><p>A model’s ability to perform tasks it was not explicitly trained for by leveraging general knowledge.</p>
 <hr>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">https://nhsx.github.io/ai-dictionary<a href="#fnref:3" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       <categories>
-        <category>Test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Machine Learning Techniques - Overview</title>
-    <url>/hexo-blog/2024/09/28/posts/ai_ml_techniques_overview_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this guide, we will review popular machine learning techniques with a brief overview of their applications, complexity levels, and some historical context. This list provides a starting point for understanding core machine learning methods and their practical uses.</p>
-<hr>
-<p><a href="" target="_blank"></a></p>
-<h2 id="1-Linear-Regression"><a href="#1-Linear-Regression" class="headerlink" title="1. Linear Regression"></a>1. <strong>Linear Regression</strong></h2><ul>
-<li><strong>Overview</strong>: A fundamental statistical method used to predict a dependent variable based on an independent variable. Commonly applied in forecasting and trend analysis.</li>
-<li><strong>Complexity</strong>: ⭐</li>
-<li><strong>Inventor</strong>: Sir Francis Galton (DOB: 1822-1911) and Karl Pearson (DOB: 1857-1936)</li>
-<li><strong>Key Publication</strong>: <ul>
-<li>Book:<a href="https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.1896.0007" target="_blank">Pearson, K. (1896). “Mathematical Contributions to the Theory of Evolution</a><a href="../../../../../docs/other/pearson-henrici-1997-vii-mathematical-contributions-to-the-theory-of-evolution-iii-regression-heredity-and-panmixia.pdf">“</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="2-Logistic-Regression"><a href="#2-Logistic-Regression" class="headerlink" title="2. Logistic Regression"></a>2. <strong>Logistic Regression</strong></h2><ul>
-<li><strong>Overview</strong>: Primarily used for binary classification, logistic regression estimates the probability of an outcome and is used widely in classification tasks like spam detection.</li>
-<li><strong>Complexity</strong>: ⭐⭐</li>
-<li><strong>Inventor</strong>: David Cox (DOB: 1924-2022)</li>
-<li><strong>Key Publication</strong>: <a href="https://sci-hub.se/10.1037/h0042519" target="_blank">Cox, D.R. (1958). “The Regression Analysis of Binary Sequences.”</a></li>
-</ul>
-<h2 id="3-Decision-Trees"><a href="#3-Decision-Trees" class="headerlink" title="3. Decision Trees"></a>3. <strong>Decision Trees</strong></h2><ul>
-<li><strong>Overview</strong>: A tree-like structure for decision-making and predictive modeling. Suitable for classification and regression problems.</li>
-<li><strong>Complexity</strong>: ⭐⭐</li>
-<li><strong>Inventor</strong>: Ross Quinlan (DOB: 1944)</li>
-<li><strong>Key Publication</strong>: <a href="../../../../../docs/other/quinlan_j.r._1986_induction_of_decision_trees.pdf" target="_blank">Quinlan, J.R. (1986). “Induction of Decision Trees.”</a></li>
-</ul>
-<h2 id="4-Random-Forests"><a href="#4-Random-Forests" class="headerlink" title="4. Random Forests"></a>4. <strong>Random Forests</strong></h2><ul>
-<li><strong>Overview</strong>: An ensemble method that builds multiple decision trees and combines them to improve accuracy. Known for its robustness and ease of use.</li>
-<li><strong>Complexity</strong>: ⭐⭐⭐</li>
-<li><strong>Inventor</strong>: Leo Breiman (DOB: 1928-2005)</li>
-<li><strong>Key Publication</strong>: <a href="https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf" target="_blank">Breiman, L. (2001). “Random Forests.”</a></li>
-</ul>
-<h2 id="5-Support-Vector-Machines-SVM"><a href="#5-Support-Vector-Machines-SVM" class="headerlink" title="5. Support Vector Machines (SVM)"></a>5. <strong>Support Vector Machines (SVM)</strong></h2><ul>
-<li><strong>Overview</strong>: An effective classification technique that finds the hyperplane maximizing the margin between data classes. Widely used in image and text classification.</li>
-<li><strong>Complexity</strong>: ⭐⭐⭐</li>
-<li><strong>Inventor</strong>: Vladimir Vapnik (DOB: 1936)</li>
-<li><strong>Key Publication</strong>: Book: <a href="../../../../../docs/other/vladimir-vapnik-the-nature-of-statistical-learning-springer-2010.pdf" target="_blank">Vapnik, V. (1995). “The Nature of Statistical Learning Theory.”</a></li>
-</ul>
-<h2 id="6-K-Nearest-Neighbors-KNN"><a href="#6-K-Nearest-Neighbors-KNN" class="headerlink" title="6. K-Nearest Neighbors (KNN)"></a>6. <strong>K-Nearest Neighbors (KNN)</strong></h2><ul>
-<li><strong>Overview</strong>: A simple, non-parametric method used for classification and regression. It predicts outcomes based on the ‘k’ nearest data points.</li>
-<li><strong>Complexity</strong>: ⭐⭐</li>
-<li><strong>Inventor</strong>: Evelyn Fix (DOB: 1904-1987) and Joseph Hodges (DOB: 1922-2000)</li>
-<li><strong>Key Publication</strong>: <ul>
-<li>Paper: <ul>
-<li>DOI: 10.2307&#x2F;1403797</li>
-<li><a href="https://sci-hub.se/10.2307/1403797" target="_blank">Fix, E., &amp; Hodges, J.L. (1951). “Discriminatory Analysis.”</a></li>
-</ul>
-</li>
-<li>Book: <a href="https://books.google.com.ua/books?hl=en&lr=&id=s85PAQAAMAAJ&oi=fnd&pg=PP1&dq=DOI+Fix,+E.,+%26+Hodges,+J.L.+(1951).+%E2%80%9CDiscriminatory+Analysis.%E2%80%9D&ots=MKP8x31F3a&sig=YAfjZLsq1f02Wby3vzoQAI00WkM&redir_esc=y#v=onepage&q&f=false" target="_blank">Fix, E., &amp; Hodges, J.L. (1951). “Discriminatory Analysis.”</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="7-Naive-Bayes"><a href="#7-Naive-Bayes" class="headerlink" title="7. Naive Bayes"></a>7. <strong>Naive Bayes</strong></h2><ul>
-<li><strong>Overview</strong>: Based on Bayes’ theorem, this technique is widely used for text classification due to its simplicity and effectiveness with large datasets.</li>
-<li><strong>Complexity</strong>: ⭐</li>
-<li><strong>Inventor</strong>: Thomas Bayes (DOB: 1701-1761)</li>
-<li><strong>Key Publication</strong>: <ul>
-<li>Paper: <a href="../../../../../docs/other/Bayes_T_1763_An_Essay_towards_solving_a_Problem_in_the_Doctrine_of_Chances.pdf" target="_blank">Bayes, T. (1763). “An Essay towards solving a Problem in the Doctrine of Chances.”</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="8-Gradient-Boosting"><a href="#8-Gradient-Boosting" class="headerlink" title="8. Gradient Boosting"></a>8. <strong>Gradient Boosting</strong></h2><ul>
-<li><strong>Overview</strong>: An ensemble technique that combines weak learners to minimize errors iteratively. Known for its high accuracy in structured data tasks.</li>
-<li><strong>Complexity</strong>: ⭐⭐⭐⭐</li>
-<li><strong>Inventor</strong>: Jerome Friedman (DOB: 1939)</li>
-<li><strong>Key Publication</strong>: <ul>
-<li>DOI: 10.2307&#x2F;2699986 </li>
-<li>Paper: <a href="https://sci-hub.se/10.2307/2699986" target="_blank">Friedman, J.H. (2001). “Greedy Function Approximation: A Gradient Boosting Machine.”</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="9-Neural-Networks"><a href="#9-Neural-Networks" class="headerlink" title="9. Neural Networks"></a>9. <strong>Neural Networks</strong></h2><ul>
-<li><strong>Overview</strong>: Inspired by biological neural networks, these algorithms are used in complex tasks like image recognition and language processing.</li>
-<li><strong>Complexity</strong>: ⭐⭐⭐⭐⭐</li>
-<li><strong>Inventor</strong>: Frank Rosenblatt (DOB: 1928-1971)</li>
-<li><strong>Key Publication</strong>:<ul>
-<li>Paper: <a href="https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf" target="_blank">Rosenblatt, F. (1958). “The Perceptron: A Probabilistic Model for Information Storage and Organization.”</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="10-K-Means-Clustering"><a href="#10-K-Means-Clustering" class="headerlink" title="10. K-Means Clustering"></a>10. <strong>K-Means Clustering</strong></h2><ul>
-<li><strong>Overview</strong>: An unsupervised algorithm that partitions data into ‘k’ clusters based on similarity. Commonly used for market segmentation and image compression.</li>
-<li><strong>Complexity</strong>: ⭐⭐</li>
-<li><strong>Inventor</strong>: Stuart Lloyd (DOB: 1933-2006)</li>
-<li><strong>Key Publication</strong>: <ul>
-<li>Paper: <ul>
-<li>DOI:10.1109&#x2F;TIT.1982.1056489</li>
-<li><a href="https://sci-hub.se/10.1109/TIT.1982.1056489" target="_blank">Lloyd, S.P. (1982). “Least Squares Quantization in PCM.”</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="11-Principal-Component-Analysis-PCA"><a href="#11-Principal-Component-Analysis-PCA" class="headerlink" title="11. Principal Component Analysis (PCA)"></a>11. <strong>Principal Component Analysis (PCA)</strong></h2><ul>
-<li><strong>Overview</strong>: A dimensionality reduction technique that transforms data into a set of orthogonal components, enhancing interpretability without sacrificing information.</li>
-<li><strong>Complexity</strong>: ⭐⭐</li>
-<li><strong>Inventor</strong>: Karl Pearson (DOB: 1857-1936)</li>
-<li><strong>Key Publication</strong>: <ul>
-<li>Paper: <ul>
-<li>DOI:10.1080&#x2F;14786440109462720</li>
-<li><a href="https://sci-hub.se/10.1080/14786440109462720" target="_blank">Pearson, K. (1901). “On Lines and Planes of Closest Fit to Systems of Points.”</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="12-Reinforcement-Learning-RL"><a href="#12-Reinforcement-Learning-RL" class="headerlink" title="12. Reinforcement Learning (RL)"></a>12. <strong>Reinforcement Learning (RL)</strong></h2><ul>
-<li><strong>Overview</strong>: An area focused on training models to make sequences of decisions, particularly for game playing and robotics.</li>
-<li><strong>Complexity</strong>: ⭐⭐⭐⭐⭐</li>
-<li><strong>Inventor</strong>: Richard Sutton (DOB: 1952)</li>
-<li><strong>Key Publication</strong>: <ul>
-<li>Books in Brief:<ul>
-<li>DOI:10.1109&#x2F;TNN.1998.712192</li>
-<li><a href="https://sci-hub.se/10.1109/TNN.1998.712192" target="_blank">Sutton, R., &amp; Barto, A. (1998). “Reinforcement Learning: An Introduction.”</a></li>
-</ul>
-</li>
-<li><a href="https://www.semanticscholar.org/paper/Reinforcement-Learning%3A-An-Introduction-Sutton-Barto/97efafdb4a3942ab3efba53ded7413199f79c054" target="_blank">semanticscholar link</a></li>
-<li><a href="http://incompleteideas.net/book/RLbook2020.pdf" target="_blank">Book: Sutton, R., &amp; Barto, A. (1998). “Reinforcement Learning: An Introduction.” - online_1</a></li>
-<li><a href="../../../../../docs/other/sutton_r_and_barto_a_1998_reinforcement_learning_an_introduction.pdf" target="_blank">Book: Sutton, R., &amp; Barto, A. (1998). “Reinforcement Learning: An Introduction.” - online_2</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<p>These techniques represent a wide spectrum of machine learning methods used across industries. Whether for predictive modeling, classification, clustering, or decision-making, understanding these core methods is foundational to exploring more advanced machine learning concepts.</p>
-]]></content>
-      <categories>
         <category>Posts</category>
       </categories>
       <tags>
         <tag>AI</tag>
         <tag>ML</tag>
+        <tag>glossary</tag>
       </tags>
   </entry>
   <entry>
-    <title>Старт - промт-инжиниринг.</title>
+    <title>Prompt Engineering - start.</title>
     <url>/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>references:</em></p>
-<ul>
-<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">https://www.youtube.com/@umarjamilai</a> &#x2F; <a href="https://umarjamil.org/">https://umarjamil.org/</a></li>
-<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">https://www.youtube.com/@YannicKilcher</a>   </li>
-<li><a href="https://pieces.app/blog/10-prompt-engineering-best-practices">10 Prompt Engineering Best Practices</a></li>
-<li><a href="https://www.researchgate.net/publication/382640448_Worked_Examples_to_Facilitate_the_Development_of_Prompt_Engineering_Skills">Worked Examples to Facilitate the Development of Prompt Engineering Skills</a></li>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
+<hr>
+<h2 id="1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning"><a href="#1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning" class="headerlink" title="1. Core Knowledge in Artificial Intelligence and Machine Learning"></a>1. Core Knowledge in Artificial Intelligence and Machine Learning</h2><p>Understanding generative AI and large language models (LLMs) is foundational to prompt engineering.</p>
+<h3 id="Key-Topics"><a href="#Key-Topics" class="headerlink" title="Key Topics:"></a>Key Topics:</h3><ul>
+<li><strong>Natural Language Processing (NLP):</strong> <ul>
+<li>Learn about tokenization, embedding, and attention mechanisms.</li>
+<li>Familiar tools: <a href="https://spacy.io/">spaCy</a> (2020+), <a href="https://huggingface.co/transformers">Transformers by Hugging Face</a>.</li>
 </ul>
-<h2 id="Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты"><a href="#Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты" class="headerlink" title="Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты"></a>Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты</h2><p><em>В последние годы промт-инжиниринг (prompt engineering) набирает популярность как новая профессия, сосредоточенная на создании, оптимизации и оценке запросов для взаимодействия с моделями искусственного интеллекта. Для специалистов из смежных областей, таких как тестирование программного обеспечения, переход в эту сферу может быть достаточно органичным. Рассмотрим, какие навыки, знания и инструменты понадобятся для успешной работы в этой новой роли.</em></p>
+</li>
+<li><strong>Language Models:</strong><ul>
+<li>Explore architectures like GPT (OpenAI), BERT, and T5.</li>
+<li>Key tools: <a href="https://platform.openai.com/docs">OpenAI API</a>, <a href="https://www.tensorflow.org/">Google’s TensorFlow</a>, and Hugging Face’s datasets.</li>
+</ul>
+</li>
+<li><strong>Fine-Tuning Techniques:</strong><ul>
+<li>Study transfer learning for customizing LLMs with domain-specific data.</li>
+<li>Libraries: <a href="https://huggingface.co/docs/diffusers/v0.16.0/en/training/lora">LoRA</a> (Low-Rank Adaptation for fine-tuning large models).<ul>
+<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models &#x2F; DOI <a href="https://arxiv.org/abs/2106.09685">arxiv.org&#x2F;abs&#x2F;2106.09685</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><ul>
+<li>Vaswani et al., 2017, “Attention is All You Need” - DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li><em>Efficient Fine-Tuning Techniques for LLMs</em> (Hugging Face PEFT).</li>
+</ul>
+<hr>
+<h2 id="2-Data-Handling-Skills"><a href="#2-Data-Handling-Skills" class="headerlink" title="2. Data Handling Skills"></a>2. Data Handling Skills</h2><p>Prompt engineering often involves working with large datasets to understand and refine AI responses.</p>
+<h3 id="Tools-and-Techniques"><a href="#Tools-and-Techniques" class="headerlink" title="Tools and Techniques:"></a>Tools and Techniques:</h3><ul>
+<li><strong>Data Preprocessing:</strong><ul>
+<li>Techniques: Noise reduction, stemming, and lemmatization.</li>
+<li>Tools: <a href="https://cleanlab.io/">Cleanlab</a>, <a href="https://www.nltk.org/">NLTK</a> (for text-specific preprocessing).</li>
+</ul>
+</li>
+<li><strong>Data Analysis:</strong><ul>
+<li>Understand statistical trends in model responses.</li>
+<li>Tools: <a href="https://pola-rs.github.io/polars/">Polars</a>, an alternative to <a href="https://pandas.pydata.org/">Pandas</a> for high-performance data handling.</li>
+</ul>
+</li>
+<li><strong>Tokenization Analysis:</strong><ul>
+<li>Evaluate token usage in models using OpenAI’s <code>tiktoken</code> library (<a href="https://github.com/openai/tiktoken">GitHub</a>).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-Prompt-Design-and-Optimization"><a href="#3-Prompt-Design-and-Optimization" class="headerlink" title="3. Prompt Design and Optimization"></a>3. Prompt Design and Optimization</h2><p>Crafting effective prompts is at the heart of this role.</p>
+<h3 id="Advanced-Practices"><a href="#Advanced-Practices" class="headerlink" title="Advanced Practices:"></a>Advanced Practices:</h3><ul>
+<li><strong>Prompt Templates:</strong><ul>
+<li>Use structured prompts with placeholders for variables.</li>
+<li>Tools: <a href="https://www.langchain.com/">LangChain</a> for modular prompt management.</li>
+</ul>
+</li>
+<li><strong>Iterative Refinement:</strong><ul>
+<li>Use tools like <a href="https://promptperfect.jina.ai/">PromptPerfect</a> to analyze and enhance prompt effectiveness.</li>
+</ul>
+</li>
+<li><strong>Handling Context:</strong><ul>
+<li>Manage long contexts using techniques like windowing or chunking, supported by <a href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
+<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for Handling Context in AI Models’</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="4-Metrics-for-Evaluating-Prompt-Effectiveness"><a href="#4-Metrics-for-Evaluating-Prompt-Effectiveness" class="headerlink" title="4. Metrics for Evaluating Prompt Effectiveness"></a>4. Metrics for Evaluating Prompt Effectiveness</h2><p>Evaluating AI responses requires robust metrics and tools.</p>
+<h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics:"></a>Metrics:</h3><ul>
+<li><strong>Relevance and Accuracy:</strong><ul>
+<li>Techniques: Embedding similarity scoring (e.g., cosine similarity).</li>
+<li>Tools: <a href="https://www.sbert.net/">Sentence-Transformers</a>.</li>
+</ul>
+</li>
+<li><strong>Quality and Fluency:</strong><ul>
+<li>Automated tools like <a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a> or <a href="https://developer.grammarly.com/">Grammarly API</a>.</li>
+</ul>
+</li>
+<li><strong>BLEU, ROUGE, METEOR:</strong><ul>
+<li><a href="https://huggingface.co/metrics/bleu">BLEU</a></li>
+<li><a href="https://huggingface.co/metrics/rouge">ROUGE</a></li>
+<li><a href="">METEOR</a><ul>
+<li>Paper: <ul>
+<li>METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments, 2005. <ul>
+<li>Reaad on <a href="https://aclanthology.org/W05-0909.pdf">aclanthology.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Paper: The Meteor metric for automatic evaluation of machine translation, 2009<ul>
+<li>DOI:10.1007&#x2F;s10590-009-9059-4</li>
+<li>Read on <a href="https://sci-hub.se/10.1007/s10590-009-9059-4">sci-hub</a></li>
+</ul>
+</li>
+<li>Post: What is the METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)? <ul>
+<li>Reaad on <a href="https://klu.ai/glossary/meteor-score">klu.ai</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Compare responses to benchmarks using <a href="https://huggingface.co/docs/evaluate">Evaluate</a>.<ul>
+<li><a href="https://huggingface.co/docs/evaluate/installation">Evaluate - Installation</a></li>
+<li><a href="https://huggingface.co/docs/evaluate/a_quick_tour">Evaluate - A quick tour</a></li>
+<li><a href="https://huggingface.co/docs/evaluate/choosing_a_metric">Evaluate - Choosing a metric for your task</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-Testing-and-Automation-in-Prompt-Engineering"><a href="#5-Testing-and-Automation-in-Prompt-Engineering" class="headerlink" title="5. Testing and Automation in Prompt Engineering"></a>5. Testing and Automation in Prompt Engineering</h2><p>Automation ensures scalability and reliability in prompt testing.</p>
+<h3 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices:"></a>Best Practices:</h3><ul>
+<li><strong>Automated Test Suites:</strong><ul>
+<li>Frameworks: <a href="https://pytest.org/">pytest</a>, <a href="https://greatexpectations.io/">Great Expectations</a> for data validation.</li>
+</ul>
+</li>
+<li><strong>Version Control for Prompts:</strong><ul>
+<li>Use GitHub or GitLab with prompt-specific repositories.</li>
+</ul>
+</li>
+<li><strong>Continuous Testing Pipelines:</strong><ul>
+<li>CI&#x2F;CD integration using <a href="https://github.com/features/actions">GitHub Actions</a> or <a href="https://circleci.com/">CircleCI</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="6-Tools-for-Working-with-Language-Models"><a href="#6-Tools-for-Working-with-Language-Models" class="headerlink" title="6. Tools for Working with Language Models"></a>6. Tools for Working with Language Models</h2><p>Advanced tools simplify interaction with modern AI systems.</p>
+<h3 id="Recommendations"><a href="#Recommendations" class="headerlink" title="Recommendations:"></a>Recommendations:</h3><ul>
+<li><strong>Model APIs:</strong><ul>
+<li>OpenAI GPT-4, Cohere API (<a href="https://docs.cohere.com/">Cohere Docs</a>).</li>
+</ul>
+</li>
+<li><strong>Interactive Platforms:</strong><ul>
+<li><a href="https://www.notion.so/product/ai">Notion AI</a>, <a href="https://colab.research.google.com/">Google Colab</a>.</li>
+</ul>
+</li>
+<li><strong>Visual Analytics:</strong><ul>
+<li>Dashboards using <a href="https://streamlit.io/">Streamlit</a> or <a href="https://dash.plotly.com/">Plotly Dash</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="7-Software-Development-Skills"><a href="#7-Software-Development-Skills" class="headerlink" title="7. Software Development Skills"></a>7. Software Development Skills</h2><p>Integrating AI prompts into workflows requires coding expertise.</p>
+<h3 id="Key-Skills"><a href="#Key-Skills" class="headerlink" title="Key Skills:"></a>Key Skills:</h3><ul>
+<li><strong>Python for AI:</strong><ul>
+<li>Libraries: Hugging Face Transformers, OpenAI’s Python SDK.</li>
+</ul>
+</li>
+<li><strong>REST API Development:</strong><ul>
+<li>Tools: <a href="https://fastapi.tiangolo.com/">FastAPI</a>, Postman for testing.</li>
+</ul>
+</li>
+<li><strong>Versioning:</strong><ul>
+<li>Git and platforms like DVC (<a href="https://dvc.org/">Data Version Control</a>) for managing prompt iterations.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="8-Ethics-and-Limitations-in-AI"><a href="#8-Ethics-and-Limitations-in-AI" class="headerlink" title="8. Ethics and Limitations in AI"></a>8. Ethics and Limitations in AI</h2><p>Responsibility is a key aspect of prompt engineering.</p>
+<h3 id="Topics"><a href="#Topics" class="headerlink" title="Topics:"></a>Topics:</h3><ul>
+<li><strong>Ethical Prompt Design:</strong><ul>
+<li>Avoid introducing biases into generated outputs.</li>
+</ul>
+</li>
+<li><strong>Privacy and Security:</strong><ul>
+<li>Ensure that personal or sensitive data is anonymized.</li>
+<li>Tools: <a href="https://microsoft.github.io/presidio/">Presidio</a> for PII detection.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><h3 id="Tutorials-and-Resources"><a href="#Tutorials-and-Resources" class="headerlink" title="Tutorials and Resources:"></a>Tutorials and Resources:</h3><ul>
+<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">YouTube</a>, <a href="https://umarjamil.org/">Website</a>.  </li>
+<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">YouTube</a>.</li>
+</ul>
+<h3 id="Research-Papers"><a href="#Research-Papers" class="headerlink" title="Research Papers:"></a>Research Papers:</h3><ul>
+<li>“Attention is All You Need” - Vaswani et al., DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li>“Efficient Fine-Tuning Techniques for LLMs” - DOI: <a href="https://doi.org/10.48550/arXiv.2106.09685">10.48550&#x2F;arXiv.2106.09685</a>.</li>
+</ul>
+<h3 id="Tools-and-Libraries"><a href="#Tools-and-Libraries" class="headerlink" title="Tools and Libraries:"></a>Tools and Libraries:</h3><ul>
+<li>OpenAI API (<a href="https://platform.openai.com/docs">Docs</a>).  </li>
+<li>Hugging Face <a href="https://huggingface.co/transformers">Transformers</a>.  </li>
+<li>LangChain (<a href="https://www.langchain.com/">Website</a>).</li>
+</ul>
+<hr>
+<p><strong>Other posts</strong></p>
 <ol>
-<li><p><strong>Базовые знания искусственного интеллекта и машинного обучения</strong><br>Чтобы эффективно проектировать промпты, необходимо понимать, как работает генеративный ИИ. Некоторые ключевые моменты включают:</p>
-<ul>
-<li>Основы NLP (Natural Language Processing) — понимание, как ИИ обрабатывает текст, помогает создать такие промпты, которые максимально точно интерпретируются моделью.</li>
-<li>Архитектуры языковых моделей — GPT, BERT, T5 и другие модели работают по разным принципам, что отражается на подходе к генерации промптов.</li>
-<li>Обучение и дообучение моделей — знание процесса обучения поможет понять, как модель «учится» и реагирует на разные типы запросов.</li>
-</ul>
-</li>
-<li><p><strong>Навыки работы с данными</strong><br>Важной частью промт-инжиниринга является работа с большими массивами данных для анализа и оптимизации промптов:</p>
-<ul>
-<li>Обработка данных — навыки предобработки текстовых данных (удаление шума, токенизация, нормализация).</li>
-<li>Анализ данных — понимание статистических методов и основ анализа данных (например, для выявления закономерностей в ответах модели на разные промпты).</li>
-<li>Использование Python и библиотек для обработки данных — библиотеками Pandas и NumPy часто пользуются для быстрой обработки и анализа данных.</li>
-</ul>
-</li>
-<li><p><strong>Разработка и оптимизация промптов</strong><br>Работа с промптами требует знаний и опыта в создании запросов, которые дают максимально релевантные ответы. Важно владеть следующими навыками:</p>
-<ul>
-<li>Создание структурированных запросов — понимать, как структурировать промпт для достижения нужного результата (например, задавая четкий формат вывода, делая уточняющие инструкции).</li>
-<li>Оптимизация промптов — умение варьировать фразы, ключевые слова и структуру запроса, чтобы улучшить ответы модели.</li>
-<li>Работа с контекстом — навык передачи контекста и уточняющей информации в промптах, чтобы улучшить понимание ИИ.</li>
-</ul>
-</li>
-<li><p><strong>Метрики оценки качества ответов</strong><br>Специалист по промт-инжинирингу должен уметь оценивать, насколько успешно модель справляется с задачей, и измерять качество ответов. Метрики, которые здесь будут полезны:</p>
-<ul>
-<li>Релевантность — насколько ответ соответствует запросу по смыслу.</li>
-<li>Точность и полнота — охватывает ли ответ все аспекты, обозначенные в запросе.</li>
-<li>Когерентность и читабельность — как логично и понятно сформулирован ответ.</li>
-<li>Использование автоматизированных метрик — если модель генерирует длинные ответы, можно использовать такие метрики, как BLEU, ROUGE или METEOR, чтобы сравнить ответы с эталонными.</li>
-</ul>
-</li>
-<li><p><strong>Тестирование и автоматизация промптов</strong><br>Опыт в тестировании программного обеспечения может стать преимуществом:</p>
-<ul>
-<li>Создание тестовых наборов для промптов — умение разрабатывать тестовые наборы, включающие разнообразные примеры запросов и эталонные ответы.</li>
-<li>A&#x2F;B-тестирование промптов — навык сравнения разных форматов промптов для выявления наиболее эффективного.</li>
-<li>Автоматизация тестирования — навыки программирования для создания автоматизированных тестов (например, с использованием pytest, unittest) и использования CI&#x2F;CD для поддержки непрерывного тестирования промптов.</li>
-</ul>
-</li>
-<li><p><strong>Инструменты для работы с языковыми моделями и анализа промптов</strong><br>Для работы с промптами могут потребоваться следующие инструменты:</p>
-<ul>
-<li>API для работы с моделями — OpenAI, Hugging Face, Google AI и другие предлагают API для взаимодействия с языковыми моделями. Умение работать с ними позволяет внедрять модели в скрипты и приложения.</li>
-<li>Jupyter Notebook и Google Colab — используются для тестирования и анализа промптов в интерактивном режиме.</li>
-<li>Инструменты для визуализации данных — Matplotlib, Seaborn, Plotly для представления результатов тестирования и анализа промптов.</li>
-</ul>
-</li>
-<li><p><strong>Основы разработки</strong><br>Опыт в программировании и разработке поможет эффективно интегрировать промпты в различные приложения:</p>
-<ul>
-<li>Знание Python — Python остается основным языком для работы с ИИ, а также для автоматизации, создания тестов и написания аналитических скриптов.</li>
-<li>Знание REST API — поможет интегрировать запросы к ИИ с другими сервисами и приложениями.</li>
-<li>Навыки работы с версиями кода (Git) — позволяет управлять изменениями в промптах и отслеживать их историю.</li>
-</ul>
-</li>
-<li><p><strong>Понимание этики и ограничений ИИ</strong><br>Особое внимание уделяется ответственности при разработке промптов:</p>
-<ul>
-<li>Этические нормы — понимание, как избежать предвзятости в запросах и снизить вероятность получения неприемлемых ответов.</li>
-<li>Приватность данных — работа с текстовыми данными должна учитывать безопасность и соблюдение конфиденциальности.</li>
-</ul>
-</li>
+<li>Prompt Design and Engineering: Introduction and Advanced Methods. Read on <a href="https://arxiv.org/html/2401.14423v4#S1.F2">arxiv.org</a></li>
 </ol>
-<p><strong>Заключение</strong><br>Промт-инжиниринг — перспективное направление для специалистов, заинтересованных в создании и оптимизации взаимодействия с ИИ. Входя в эту профессию, важно иметь базовые знания об искусственном интеллекте и навыки анализа данных, понимать, как тестировать и оценивать качество промптов, а также уметь использовать инструменты для работы с языковыми моделями. Тестировщик программного обеспечения с опытом в автоматизации и анализе данных может применить свои знания в промт-инжиниринге, делая переход к новой профессии более плавным.</p>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Prompt engineering is an evolving domain, combining technical expertise with creativity. With a solid foundation in AI, data analysis, and ethics, specialists can craft meaningful interactions between humans and machines. By leveraging modern tools and methodologies, professionals can drive innovation in the AI ecosystem.</p>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -1983,6 +2151,22 @@
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chatbots from scratch</title>
+    <url>/hexo-blog/2024/10/28/posts/chatbots_from_scratch/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>chat_bpt</tag>
       </tags>
   </entry>
   <entry>
@@ -2429,66 +2613,104 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXIO.IO fixes guide</title>
-    <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design:</p>
-<ul>
-<li>default configuration of HEXO.IO </li>
-<li>installed themed require additional configuration.</li>
+    <title>Techniques for Handling Context in AI Models</title>
+    <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and tools to enhance context management. Below is a detailed list of techniques and associated tools.</p>
+<p><strong>DOI not checked !!!!</strong></p>
+<h2 id="Techniques"><a href="#Techniques" class="headerlink" title="Techniques"></a>Techniques</h2><h3 id="1-Windowing-Sliding-Window-Technique"><a href="#1-Windowing-Sliding-Window-Technique" class="headerlink" title="1. Windowing (Sliding Window Technique)"></a>1. Windowing (Sliding Window Technique)</h3><ul>
+<li><strong>Title</strong>: Sliding Windows for Sequence Labeling: Applications in Named Entity Recognition  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1906.02691">10.48550&#x2F;arXiv.1906.02691</a></li>
 </ul>
 <hr>
-<p>Below  is a list of changes and improvements.</p>
-<ol>
-<li><p><strong>Moving side panel to the left side.</strong></p>
-<p>Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
-</li>
-<li><p><strong>Removing(hide) <code>Search</code> form on the header</strong><br>Edite <code>\themes\landscape\layout\_partial\header.ejs</code> and comment </p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure>
-<p>and </p>
- <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></li>
-<li><p><strong>Changes project structure. If blog published not iun the root of GitHub</strong></p>
-</li>
-</ol>
-<p> If HEXO.IO project will be publoished not in teh root of GitHub , the _comfig.yaml should be updated. </p>
-<p> Aftrer changes the project structure and making different folders inside the <code>_post</code> folder the blog navigation may not work.<br> Issue is related to at least to sides:<br>    1. When post item has dedicated <code>permalink</code>, project ingine for some reason (if post published no wtih <code>root</code>) conflict of </p>
-<ol start="4">
-<li><strong>Sitemap for the blog.</strong><ul>
-<li><p><strong>Install the Sitemap Plugin</strong></p>
-<p>   In your Hexo project directory, run the following command to install hexo-generator-sitemap:</p>
-   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-
-<p>   This will add the sitemap generator plugin to your project, which automatically generates a sitemap.xml file each time you build your site.</p>
-</li>
-<li><p><strong>Configure _config.yml</strong></p>
-<p>   Open your Hexo <code>_config.yml</code> file (this is the main configuration file in the root directory, not in the theme folder), and add the following configuration under the sitemap settings:</p>
-   <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
-<p>   By default, this will create a sitemap.xml file in the root of your site’s output (public&#x2F;) directory.</p>
-</li>
-<li><p><strong>(Optional) Add the Sitemap URL to robots.txt</strong></p>
-<p>   To help search engines find your sitemap, add its URL to a robots.txt file if you haven’t done so already. Here’s how:</p>
-<p>   If you already have a robots.txt file configured, just add this line to it:</p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Sitemap: https://your-hexo-site.com/sitemap.xml</span><br></pre></td></tr></table></figure>
-<p>   If you don’t have a robots.txt file, you can create one in source&#x2F;robots.txt, and then add the line above with your site URL.</p>
-</li>
-<li><p><strong>Generate and Deploy</strong></p>
-<p>   Run the following commands to generate your site and deploy it:</p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash</span><br><span class="line">hexo clean ; hexo generate ;hexo deploy</span><br></pre></td></tr></table></figure>
-<p>   After deploying, your sitemap should be accessible at <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a>.</p>
-</li>
-<li><p><strong>Verifying the Sitemap</strong></p>
-<p>   Visit <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a> in your browser to confirm the sitemap is generated and accessible.<br>   Submit your sitemap to Google Search Console or other search engine webmaster tools for better indexing.</p>
-</li>
+<h3 id="2-Chunking-and-Overlapping-Contexts"><a href="#2-Chunking-and-Overlapping-Contexts" class="headerlink" title="2. Chunking and Overlapping Contexts"></a>2. Chunking and Overlapping Contexts</h3><ul>
+<li><strong>Title</strong>: Hierarchical Attention Networks for Document Classification  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a></li>
 </ul>
-</li>
-</ol>
+<hr>
+<h3 id="3-Hierarchical-Context-Representations"><a href="#3-Hierarchical-Context-Representations" class="headerlink" title="3. Hierarchical Context Representations"></a>3. Hierarchical Context Representations</h3><ul>
+<li><strong>Title</strong>: Hierarchical Attention for Sequence Learning  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1911.03688">10.48550&#x2F;arXiv.1911.03688</a></li>
+</ul>
+<hr>
+<h3 id="4-Memory-Augmented-Neural-Networks-MANNs"><a href="#4-Memory-Augmented-Neural-Networks-MANNs" class="headerlink" title="4. Memory-Augmented Neural Networks (MANNs)"></a>4. Memory-Augmented Neural Networks (MANNs)</h3><ul>
+<li><strong>Title</strong>: Meta-Learning with Memory-Augmented Neural Networks  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1605.06065">10.48550&#x2F;arXiv.1605.06065</a></li>
+</ul>
+<hr>
+<h3 id="5-Transformer-Variants-for-Long-Contexts"><a href="#5-Transformer-Variants-for-Long-Contexts" class="headerlink" title="5. Transformer Variants for Long Contexts"></a>5. Transformer Variants for Long Contexts</h3><h4 id="Longformer"><a href="#Longformer" class="headerlink" title="Longformer"></a>Longformer</h4><ul>
+<li><strong>Title</strong>: Longformer: The Long-Document Transformer  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2004.05150">10.48550&#x2F;arXiv.2004.05150</a></li>
+</ul>
+<h4 id="Reformer"><a href="#Reformer" class="headerlink" title="Reformer"></a>Reformer</h4><ul>
+<li><strong>Title</strong>: Reformer: The Efficient Transformer  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2001.04451">10.48550&#x2F;arXiv.2001.04451</a></li>
+</ul>
+<hr>
+<h3 id="6-Compression-Based-Context-Management-Summarization"><a href="#6-Compression-Based-Context-Management-Summarization" class="headerlink" title="6. Compression-Based Context Management (Summarization)"></a>6. Compression-Based Context Management (Summarization)</h3><ul>
+<li><strong>Title</strong>: Pretrained Transformers for Text Summarization  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2110.02096">10.48550&#x2F;arXiv.2110.02096</a></li>
+</ul>
+<hr>
+<h3 id="7-Causal-Attention-Mechanisms"><a href="#7-Causal-Attention-Mechanisms" class="headerlink" title="7. Causal Attention Mechanisms"></a>7. Causal Attention Mechanisms</h3><ul>
+<li><strong>Title</strong>: Attention Is All You Need  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1906.01548">10.48550&#x2F;arXiv.1906.01548</a></li>
+</ul>
+<hr>
+<h3 id="8-Vector-Based-Semantic-Search-Dense-Vector-Representations"><a href="#8-Vector-Based-Semantic-Search-Dense-Vector-Representations" class="headerlink" title="8. Vector-Based Semantic Search (Dense Vector Representations)"></a>8. Vector-Based Semantic Search (Dense Vector Representations)</h3><ul>
+<li><strong>Title</strong>: Sentence-BERT: Sentence Embeddings Using Siamese Networks  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2004.00995">10.48550&#x2F;arXiv.2004.00995</a></li>
+</ul>
+<hr>
+<h3 id="9-Retrieval-Augmented-Generation-RAG"><a href="#9-Retrieval-Augmented-Generation-RAG" class="headerlink" title="9. Retrieval-Augmented Generation (RAG)"></a>9. Retrieval-Augmented Generation (RAG)</h3><ul>
+<li><strong>Title</strong>: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2005.11401">10.48550&#x2F;arXiv.2005.11401</a></li>
+</ul>
+<hr>
+<h3 id="10-Cache-Augmented-Models-for-Recurrent-Usage"><a href="#10-Cache-Augmented-Models-for-Recurrent-Usage" class="headerlink" title="10. Cache Augmented Models for Recurrent Usage"></a>10. Cache Augmented Models for Recurrent Usage</h3><ul>
+<li><strong>Title</strong>: Cache-Augmented Models for Dialogue Generation  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1905.12777">10.48550&#x2F;arXiv.1905.12777</a></li>
+</ul>
+<hr>
+<h2 id="Tools-and-Frameworks"><a href="#Tools-and-Frameworks" class="headerlink" title="Tools and Frameworks"></a>Tools and Frameworks</h2><h3 id="1-Pinecone"><a href="#1-Pinecone" class="headerlink" title="1. Pinecone"></a>1. <a href="https://www.pinecone.io/">Pinecone</a></h3><ul>
+<li>Provides vector-based memory and semantic search capabilities.</li>
+</ul>
+<h3 id="2-LangChain"><a href="#2-LangChain" class="headerlink" title="2. LangChain"></a>2. <a href="https://www.langchain.com/">LangChain</a></h3><ul>
+<li>Handles chunking, memory management, and retrieval tasks for LLMs.</li>
+</ul>
+<h3 id="3-FAISS-Facebook-AI-Similarity-Search"><a href="#3-FAISS-Facebook-AI-Similarity-Search" class="headerlink" title="3. FAISS (Facebook AI Similarity Search)"></a>3. <a href="https://faiss.ai/">FAISS (Facebook AI Similarity Search)</a></h3><ul>
+<li>Optimized for efficient similarity search on dense vectors.</li>
+</ul>
+<h3 id="4-Weaviate"><a href="#4-Weaviate" class="headerlink" title="4. Weaviate"></a>4. <a href="https://weaviate.io/">Weaviate</a></h3><ul>
+<li>Offers scalable vector search and knowledge graph integrations.</li>
+</ul>
+<h3 id="5-Hugging-Face’s-Transformers"><a href="#5-Hugging-Face’s-Transformers" class="headerlink" title="5. Hugging Face’s Transformers"></a>5. <a href="https://huggingface.co/transformers/">Hugging Face’s Transformers</a></h3><ul>
+<li>Implements state-of-the-art transformer models like Longformer and Reformer.</li>
+</ul>
+<h3 id="6-OpenAI-Embeddings"><a href="#6-OpenAI-Embeddings" class="headerlink" title="6. OpenAI Embeddings"></a>6. <a href="https://platform.openai.com/docs/guides/embeddings/">OpenAI Embeddings</a></h3><ul>
+<li>Provides embeddings for vector search and semantic tasks.</li>
+</ul>
+<h3 id="7-Redis-Vector-Store"><a href="#7-Redis-Vector-Store" class="headerlink" title="7. Redis Vector Store"></a>7. <a href="https://redis.io/docs/stack/search/">Redis Vector Store</a></h3><ul>
+<li>Lightweight memory storage for vectorized data.</li>
+</ul>
+<h3 id="8-GPT-Index-LlamaIndex"><a href="#8-GPT-Index-LlamaIndex" class="headerlink" title="8. GPT Index (LlamaIndex)"></a>8. <a href="https://gpt-index.readthedocs.io/">GPT Index (LlamaIndex)</a></h3><ul>
+<li>Automates document splitting, chunking, and embedding management for LLMs.</li>
+</ul>
+<h3 id="9-Haystack"><a href="#9-Haystack" class="headerlink" title="9. Haystack"></a>9. <a href="https://haystack.deepset.ai/">Haystack</a></h3><ul>
+<li>An open-source framework for retrieval-augmented generation (RAG).</li>
+</ul>
+<h3 id="10-MemGPT"><a href="#10-MemGPT" class="headerlink" title="10. MemGPT"></a>10. <a href="https://github.com/shroominic/memgpt">MemGPT</a></h3><ul>
+<li>Enhances memory for multi-session GPT-based interactions.</li>
+</ul>
 ]]></content>
       <categories>
-        <category>Tutorials</category>
+        <category>Posts</category>
       </categories>
       <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-        <tag>blog</tag>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
+        <tag>LLM</tag>
       </tags>
   </entry>
   <entry>
@@ -2592,6 +2814,69 @@
       <tags>
         <tag>test_design</tag>
         <tag>mobile_application</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXIO.IO fixes guide</title>
+    <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design:</p>
+<ul>
+<li>default configuration of HEXO.IO </li>
+<li>installed themed require additional configuration.</li>
+</ul>
+<hr>
+<p>Below  is a list of changes and improvements.</p>
+<ol>
+<li><p><strong>Moving side panel to the left side.</strong></p>
+<p>Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
+</li>
+<li><p><strong>Removing(hide) <code>Search</code> form on the header</strong><br>Edite <code>\themes\landscape\layout\_partial\header.ejs</code> and comment </p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>and </p>
+ <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></li>
+<li><p><strong>Changes project structure. If blog published not iun the root of GitHub</strong></p>
+</li>
+</ol>
+<p> If HEXO.IO project will be publoished not in teh root of GitHub , the _comfig.yaml should be updated. </p>
+<p> Aftrer changes the project structure and making different folders inside the <code>_post</code> folder the blog navigation may not work.<br> Issue is related to at least to sides:<br>    1. When post item has dedicated <code>permalink</code>, project ingine for some reason (if post published no wtih <code>root</code>) conflict of </p>
+<ol start="4">
+<li><strong>Sitemap for the blog.</strong><ul>
+<li><p><strong>Install the Sitemap Plugin</strong></p>
+<p>   In your Hexo project directory, run the following command to install hexo-generator-sitemap:</p>
+   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<p>   This will add the sitemap generator plugin to your project, which automatically generates a sitemap.xml file each time you build your site.</p>
+</li>
+<li><p><strong>Configure _config.yml</strong></p>
+<p>   Open your Hexo <code>_config.yml</code> file (this is the main configuration file in the root directory, not in the theme folder), and add the following configuration under the sitemap settings:</p>
+   <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">sitemap.xml</span></span><br></pre></td></tr></table></figure>
+<p>   By default, this will create a sitemap.xml file in the root of your site’s output (public&#x2F;) directory.</p>
+</li>
+<li><p><strong>(Optional) Add the Sitemap URL to robots.txt</strong></p>
+<p>   To help search engines find your sitemap, add its URL to a robots.txt file if you haven’t done so already. Here’s how:</p>
+<p>   If you already have a robots.txt file configured, just add this line to it:</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Sitemap: https://your-hexo-site.com/sitemap.xml</span><br></pre></td></tr></table></figure>
+<p>   If you don’t have a robots.txt file, you can create one in source&#x2F;robots.txt, and then add the line above with your site URL.</p>
+</li>
+<li><p><strong>Generate and Deploy</strong></p>
+<p>   Run the following commands to generate your site and deploy it:</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash</span><br><span class="line">hexo clean ; hexo generate ;hexo deploy</span><br></pre></td></tr></table></figure>
+<p>   After deploying, your sitemap should be accessible at <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a>.</p>
+</li>
+<li><p><strong>Verifying the Sitemap</strong></p>
+<p>   Visit <a href="https://your-hexo-site.com/sitemap.xml">https://your-hexo-site.com/sitemap.xml</a> in your browser to confirm the sitemap is generated and accessible.<br>   Submit your sitemap to Google Search Console or other search engine webmaster tools for better indexing.</p>
+</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -2734,23 +3019,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXIO.IO layout improvements</title>
     <url>/hexo-blog//hexo-layout-improvements/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
@@ -2840,6 +3108,23 @@
         <tag>tutorial</tag>
         <tag>hexo_io</tag>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>

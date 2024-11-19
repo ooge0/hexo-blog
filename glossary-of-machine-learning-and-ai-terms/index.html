@@ -8,17 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="description" content="Artificial Neural Networks (ANNs)Artificial Neural Networks (ANNs) are computational processing systems inspired by biological nervous systems (e.g., the human brain).  Base modelThe original, foundat">
+  <meta name="description" content="AutoencodersAutoencoders are neural network architectures used for unsupervised learning. They are designed to compress input data into a lower-dimensional latent space (encoding) and then reconstruct">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Glossary of Machine Learning and AI Terms">
-<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/11/18/posts/ai_nn_glossary/index.html">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/glossary-of-machine-learning-and-ai-terms/index.html">
 <meta property="og:site_name" content=" ">
-<meta property="og:description" content="Artificial Neural Networks (ANNs)Artificial Neural Networks (ANNs) are computational processing systems inspired by biological nervous systems (e.g., the human brain).  Base modelThe original, foundat">
+<meta property="og:description" content="AutoencodersAutoencoders are neural network architectures used for unsupervised learning. They are designed to compress input data into a lower-dimensional latent space (encoding) and then reconstruct">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-11-17T22:00:00.000Z">
-<meta property="article:modified_time" content="2024-11-18T18:02:15.285Z">
+<meta property="article:modified_time" content="2024-11-19T11:03:19.574Z">
 <meta property="article:author" content="si0n4ra">
-<meta property="article:tag" content="test">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="ML">
+<meta property="article:tag" content="glossary">
 <meta name="twitter:card" content="summary">
   
   
@@ -86,12 +88,12 @@
       <div class="outer">
         <section id="main"><article id="post-posts/ai_nn_glossary" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/hexo-blog/2024/11/18/posts/ai_nn_glossary/" class="article-date">
+    <a href="/hexo-blog/glossary-of-machine-learning-and-ai-terms/" class="article-date">
   <time class="dt-published" datetime="2024-11-17T22:00:00.000Z" itemprop="datePublished">2024-11-18</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/hexo-blog/categories/Test/">Test</a>
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
   </div>
 
   </div>
@@ -110,7 +112,27 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Artificial-Neural-Networks-ANNs"><a href="#Artificial-Neural-Networks-ANNs" class="headerlink" title="Artificial Neural Networks (ANNs)"></a>Artificial Neural Networks (ANNs)</h2><p>Artificial Neural Networks (ANNs) are computational processing systems inspired by biological nervous systems (e.g., the human brain).</p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Autoencoders"><a href="#Autoencoders" class="headerlink" title="Autoencoders"></a>Autoencoders</h2><p>Autoencoders are neural network architectures used for unsupervised learning. They are designed to compress input data into a lower-dimensional latent space (encoding) and then reconstruct the original data from this compressed representation (decoding). The primary objective is to minimize the reconstruction error, typically measured as the difference between input and output. </p>
+<p><strong>Applications:</strong></p>
+<ol>
+<li><strong>Dimensionality Reduction</strong>: Acts as a non-linear alternative to Principal Component Analysis (PCA).</li>
+<li><strong>Feature Learning</strong>: Learns compact and meaningful representations of data.</li>
+<li><strong>Denoising</strong>: Removes noise from corrupted data by training on clean samples.</li>
+<li><strong>Anomaly Detection</strong>: Identifies unusual patterns by observing high reconstruction errors.</li>
+</ol>
+<p><strong>Variants:</strong></p>
+<ul>
+<li><strong>Sparse Autoencoders</strong>: Encourage sparsity in the hidden units to create compressed and interpretable features.</li>
+<li><strong>Denoising Autoencoders</strong>: Add noise to inputs during training, forcing the network to learn robust features.</li>
+<li><strong>Convolutional Autoencoders</strong>: Specialize in image data, leveraging convolutional layers for spatial feature learning.</li>
+</ul>
+<p><strong>Key References:</strong></p>
+<ul>
+<li><strong>Title</strong>: Efficient Learning of Sparse Representations with an Energy-Based Model, 2006.<br><strong>Read on</strong>: <a target="_blank" rel="noopener" href="https://cs.nyu.edu/~sumit/publications/assets/nips06.pdf">cs.nyu.edu</a></li>
+<li><strong>Title</strong>: Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion, 2010.<br><strong>Read on</strong>: <a target="_blank" rel="noopener" href="https://www.cse.fau.edu/~xqzhu/courses/cap5615/reading/autoencoder.pdf">www.cse.fau.edu</a></li>
+</ul>
+<hr>
+<h2 id="Artificial-Neural-Networks-ANNs"><a href="#Artificial-Neural-Networks-ANNs" class="headerlink" title="Artificial Neural Networks (ANNs)"></a>Artificial Neural Networks (ANNs)</h2><p>Artificial Neural Networks (ANNs) are computational processing systems inspired by biological nervous systems (e.g., the human brain).</p>
 <hr>
 <h2 id="Base-model"><a href="#Base-model" class="headerlink" title="Base model"></a>Base model</h2><p>The original, foundational version of a large language model, which has not been fine-tuned.</p>
 <hr>
@@ -144,6 +166,11 @@
 <hr>
 <h2 id="MLOps"><a href="#MLOps" class="headerlink" title="MLOps"></a>MLOps</h2><p>Short for Machine Learning Operations.</p>
 <hr>
+<h2 id="Named-Entity-Recognition"><a href="#Named-Entity-Recognition" class="headerlink" title="Named Entity Recognition"></a>Named Entity Recognition</h2><ul>
+<li>Named Entity Recognition seeks to extract substrings within a text that name real-world objects and to determine their type (for example, whether they refer to persons or organizations).<br>Paper: A survey on recent advances in Named Entity Recognition, 2024.<br>Read on <a target="_blank" rel="noopener" href="https://arxiv.org/html/2401.10825v1">arxiv.org</a></li>
+<li>Named Entity Recognition (NER) is a sub-task of information extraction in Natural Language Processing (NLP) that classifies named entities into predefined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, and more.</li>
+</ul>
+<hr>
 <h2 id="Perplexity"><a href="#Perplexity" class="headerlink" title="Perplexity"></a>Perplexity</h2><p>A measure of how well a language model predicts a sample of text, with lower scores indicating better performance.</p>
 <hr>
 <h2 id="Pooling-layers"><a href="#Pooling-layers" class="headerlink" title="Pooling layers"></a>Pooling layers</h2><p>Layers in CNNs designed to reduce the dimensionality of feature maps, lowering computational complexity.</p>
@@ -172,6 +199,24 @@
 <hr>
 <h2 id="Unsupervised-learning"><a href="#Unsupervised-learning" class="headerlink" title="Unsupervised learning"></a>Unsupervised learning</h2><p>Learning from data without labeled outputs, often for tasks like clustering or dimensionality reduction.</p>
 <hr>
+<h2 id="Variational-Autoencoders-VAEs"><a href="#Variational-Autoencoders-VAEs" class="headerlink" title="Variational Autoencoders (VAEs)"></a>Variational Autoencoders (VAEs)</h2><p>Variational Autoencoders (VAEs) are a probabilistic extension of autoencoders that learn not only to compress data but also to generate new samples by modeling data distributions. VAEs use a latent space with a probabilistic structure, enabling meaningful interpolation between points in the latent space.<br><strong>Features:</strong></p>
+<ol>
+<li><strong>Latent Space Regularization</strong>: Ensures the latent space follows a predefined probability distribution, commonly Gaussian.</li>
+<li><strong>Reconstruction and Generation</strong>: Balances reconstruction accuracy with the regularization term using a loss function derived from the evidence lower bound (ELBO).</li>
+<li><strong>Bayesian Interpretation</strong>: The encoding process approximates posterior distributions via variational inference.</li>
+</ol>
+<p><strong>Applications:</strong></p>
+<ul>
+<li><strong>Data Generation</strong>: Generate novel and coherent samples (e.g., synthetic images, text).</li>
+<li><strong>Anomaly Detection</strong>: Identifies data points that deviate from the learned distribution.</li>
+<li><strong>Latent Space Manipulation</strong>: Enables interpolation and arithmetic operations in the latent space.</li>
+</ul>
+<p><strong>Key References:</strong></p>
+<ul>
+<li><strong>Title</strong>: “Auto-Encoding Variational Bayes”<br><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1312.6114">10.48550&#x2F;arXiv.1312.6114</a></li>
+<li><strong>Title</strong>: “Variational Inference with Normalizing Flows”<br><strong>DOI</strong>: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1505.05770">10.48550&#x2F;arXiv.1505.05770</a></li>
+</ul>
+<hr>
 <h2 id="Zero-padding-CNN"><a href="#Zero-padding-CNN" class="headerlink" title="Zero-padding (CNN)"></a>Zero-padding (CNN)</h2><p>A technique in CNNs that pads the borders of input data with zeros, controlling output dimensionality.</p>
 <hr>
 <h2 id="Zero-shot"><a href="#Zero-shot" class="headerlink" title="Zero-shot"></a>Zero-shot</h2><p>A model’s ability to perform tasks it was not explicitly trained for by leveraging general knowledge.</p>
@@ -180,11 +225,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/18/posts/ai_nn_glossary/" data-id="cm3nc2e8g002juwkk2ci371aq" data-title="Glossary of Machine Learning and AI Terms" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/glossary-of-machine-learning-and-ai-terms/" data-id="cm3ocldw4002f1ckk7r0f3waa" data-title="Glossary of Machine Learning and AI Terms" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/test/" rel="tag">test</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/ML/" rel="tag">ML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/glossary/" rel="tag">glossary</a></li></ul>
 
     </footer>
   </div>
@@ -223,7 +268,7 @@
       Categories
     </h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Test/">Test</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
     </div>
   </div>
   
@@ -232,7 +277,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/hexo-blog/tags/AI/" style="font-size: 16.67px;">AI</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/ML/" style="font-size: 16.67px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 13.33px;">NLP</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/blog/" style="font-size: 16.67px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 10px;">dev_side</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 16.67px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.67px;">knowledge</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 13.33px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 18.33px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 13.33px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 10px;">papers</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 10px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 15px;">science</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test/" style="font-size: 10px;">test</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/vocabularies/" style="font-size: 10px;">vocabularies</a>
+      <a href="/hexo-blog/tags/AI/" style="font-size: 18.57px;">AI</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 10px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/ML/" style="font-size: 18.57px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 12.86px;">NLP</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15.71px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chat-bpt/" style="font-size: 10px;">chat_bpt</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 10px;">dev_side</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 10px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15.71px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.43px;">knowledge</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.86px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 17.14px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.86px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 10px;">papers</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 11.43px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 14.29px;">science</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/vocabularies/" style="font-size: 10px;">vocabularies</a>
     </div>
   </div>
 
@@ -254,6 +299,10 @@
       <ul>
         
           <li>
+            <a href="/hexo-blog/2024/11/19/posts/ai_nlp_text_classification_intro_1/">Text Classification. Historical overview, tools, and techniques.</a>
+          </li>
+        
+          <li>
             <a href="/hexo-blog/nastusja/">Довідник для Лікаря Сімейної Медицини</a>
           </li>
         
@@ -262,15 +311,11 @@
           </li>
         
           <li>
-            <a href="/hexo-blog/2024/11/18/posts/ai_nn_glossary/">Glossary of Machine Learning and AI Terms</a>
+            <a href="/hexo-blog/glossary-of-machine-learning-and-ai-terms/">Glossary of Machine Learning and AI Terms</a>
           </li>
         
           <li>
             <a href="/hexo-blog/2024/11/17/posts/ai_comparing_nlp_models_methods_metrix/">Comparing Efficiency of NLP Models. Methods and Metrics</a>
-          </li>
-        
-          <li>
-            <a href="/hexo-blog/2024/11/17/posts/ai_nlp_tasks_intro_1/">NLP tasks</a>
           </li>
         
       </ul>

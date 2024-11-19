@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>Старт - промт-инжиниринг. |  </title>
+  <title>Prompt Engineering - start. |  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="description" content="references:  Umar Jamil: https:&#x2F;&#x2F;www.youtube.com&#x2F;@umarjamilai &#x2F; https:&#x2F;&#x2F;umarjamil.org&#x2F; Yannic Kilcher: https:&#x2F;&#x2F;www.youtube.com&#x2F;@YannicKilcher    10 Prompt Engineering Best Practices Worked Exampl">
+  <meta name="description" content="Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models lik">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Старт - промт-инжиниринг.">
+<meta property="og:title" content="Prompt Engineering - start.">
 <meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/index.html">
 <meta property="og:site_name" content=" ">
-<meta property="og:description" content="references:  Umar Jamil: https:&#x2F;&#x2F;www.youtube.com&#x2F;@umarjamilai &#x2F; https:&#x2F;&#x2F;umarjamil.org&#x2F; Yannic Kilcher: https:&#x2F;&#x2F;www.youtube.com&#x2F;@YannicKilcher    10 Prompt Engineering Best Practices Worked Exampl">
+<meta property="og:description" content="Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models lik">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-10-28T14:08:12.000Z">
-<meta property="article:modified_time" content="2024-11-12T23:10:28.214Z">
+<meta property="article:modified_time" content="2024-11-19T10:41:43.288Z">
 <meta property="article:author" content="si0n4ra">
 <meta property="article:tag" content="science">
 <meta property="article:tag" content="AI">
@@ -105,7 +105,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      Старт - промт-инжиниринг.
+      Prompt Engineering - start.
     </h1>
   
 
@@ -113,78 +113,201 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>references:</em></p>
-<ul>
-<li>Umar Jamil: <a target="_blank" rel="noopener" href="https://www.youtube.com/@umarjamilai">https://www.youtube.com/@umarjamilai</a> &#x2F; <a target="_blank" rel="noopener" href="https://umarjamil.org/">https://umarjamil.org/</a></li>
-<li>Yannic Kilcher: <a target="_blank" rel="noopener" href="https://www.youtube.com/@YannicKilcher">https://www.youtube.com/@YannicKilcher</a>   </li>
-<li><a target="_blank" rel="noopener" href="https://pieces.app/blog/10-prompt-engineering-best-practices">10 Prompt Engineering Best Practices</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.researchgate.net/publication/382640448_Worked_Examples_to_Facilitate_the_Development_of_Prompt_Engineering_Skills">Worked Examples to Facilitate the Development of Prompt Engineering Skills</a></li>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
+<hr>
+<h2 id="1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning"><a href="#1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning" class="headerlink" title="1. Core Knowledge in Artificial Intelligence and Machine Learning"></a>1. Core Knowledge in Artificial Intelligence and Machine Learning</h2><p>Understanding generative AI and large language models (LLMs) is foundational to prompt engineering.</p>
+<h3 id="Key-Topics"><a href="#Key-Topics" class="headerlink" title="Key Topics:"></a>Key Topics:</h3><ul>
+<li><strong>Natural Language Processing (NLP):</strong> <ul>
+<li>Learn about tokenization, embedding, and attention mechanisms.</li>
+<li>Familiar tools: <a target="_blank" rel="noopener" href="https://spacy.io/">spaCy</a> (2020+), <a target="_blank" rel="noopener" href="https://huggingface.co/transformers">Transformers by Hugging Face</a>.</li>
 </ul>
-<h2 id="Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты"><a href="#Как-стать-специалистом-по-промт-инжинирингу-навыки-области-знаний-и-инструменты" class="headerlink" title="Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты"></a>Как стать специалистом по промт-инжинирингу: навыки, области знаний и инструменты</h2><p><em>В последние годы промт-инжиниринг (prompt engineering) набирает популярность как новая профессия, сосредоточенная на создании, оптимизации и оценке запросов для взаимодействия с моделями искусственного интеллекта. Для специалистов из смежных областей, таких как тестирование программного обеспечения, переход в эту сферу может быть достаточно органичным. Рассмотрим, какие навыки, знания и инструменты понадобятся для успешной работы в этой новой роли.</em></p>
+</li>
+<li><strong>Language Models:</strong><ul>
+<li>Explore architectures like GPT (OpenAI), BERT, and T5.</li>
+<li>Key tools: <a target="_blank" rel="noopener" href="https://platform.openai.com/docs">OpenAI API</a>, <a target="_blank" rel="noopener" href="https://www.tensorflow.org/">Google’s TensorFlow</a>, and Hugging Face’s datasets.</li>
+</ul>
+</li>
+<li><strong>Fine-Tuning Techniques:</strong><ul>
+<li>Study transfer learning for customizing LLMs with domain-specific data.</li>
+<li>Libraries: <a target="_blank" rel="noopener" href="https://huggingface.co/docs/diffusers/v0.16.0/en/training/lora">LoRA</a> (Low-Rank Adaptation for fine-tuning large models).<ul>
+<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models &#x2F; DOI <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2106.09685">arxiv.org&#x2F;abs&#x2F;2106.09685</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><ul>
+<li>Vaswani et al., 2017, “Attention is All You Need” - DOI: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li><em>Efficient Fine-Tuning Techniques for LLMs</em> (Hugging Face PEFT).</li>
+</ul>
+<hr>
+<h2 id="2-Data-Handling-Skills"><a href="#2-Data-Handling-Skills" class="headerlink" title="2. Data Handling Skills"></a>2. Data Handling Skills</h2><p>Prompt engineering often involves working with large datasets to understand and refine AI responses.</p>
+<h3 id="Tools-and-Techniques"><a href="#Tools-and-Techniques" class="headerlink" title="Tools and Techniques:"></a>Tools and Techniques:</h3><ul>
+<li><strong>Data Preprocessing:</strong><ul>
+<li>Techniques: Noise reduction, stemming, and lemmatization.</li>
+<li>Tools: <a target="_blank" rel="noopener" href="https://cleanlab.io/">Cleanlab</a>, <a target="_blank" rel="noopener" href="https://www.nltk.org/">NLTK</a> (for text-specific preprocessing).</li>
+</ul>
+</li>
+<li><strong>Data Analysis:</strong><ul>
+<li>Understand statistical trends in model responses.</li>
+<li>Tools: <a target="_blank" rel="noopener" href="https://pola-rs.github.io/polars/">Polars</a>, an alternative to <a target="_blank" rel="noopener" href="https://pandas.pydata.org/">Pandas</a> for high-performance data handling.</li>
+</ul>
+</li>
+<li><strong>Tokenization Analysis:</strong><ul>
+<li>Evaluate token usage in models using OpenAI’s <code>tiktoken</code> library (<a target="_blank" rel="noopener" href="https://github.com/openai/tiktoken">GitHub</a>).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-Prompt-Design-and-Optimization"><a href="#3-Prompt-Design-and-Optimization" class="headerlink" title="3. Prompt Design and Optimization"></a>3. Prompt Design and Optimization</h2><p>Crafting effective prompts is at the heart of this role.</p>
+<h3 id="Advanced-Practices"><a href="#Advanced-Practices" class="headerlink" title="Advanced Practices:"></a>Advanced Practices:</h3><ul>
+<li><strong>Prompt Templates:</strong><ul>
+<li>Use structured prompts with placeholders for variables.</li>
+<li>Tools: <a target="_blank" rel="noopener" href="https://www.langchain.com/">LangChain</a> for modular prompt management.</li>
+</ul>
+</li>
+<li><strong>Iterative Refinement:</strong><ul>
+<li>Use tools like <a target="_blank" rel="noopener" href="https://promptperfect.jina.ai/">PromptPerfect</a> to analyze and enhance prompt effectiveness.</li>
+</ul>
+</li>
+<li><strong>Handling Context:</strong><ul>
+<li>Manage long contexts using techniques like windowing or chunking, supported by <a target="_blank" rel="noopener" href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
+<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for Handling Context in AI Models’</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="4-Metrics-for-Evaluating-Prompt-Effectiveness"><a href="#4-Metrics-for-Evaluating-Prompt-Effectiveness" class="headerlink" title="4. Metrics for Evaluating Prompt Effectiveness"></a>4. Metrics for Evaluating Prompt Effectiveness</h2><p>Evaluating AI responses requires robust metrics and tools.</p>
+<h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics:"></a>Metrics:</h3><ul>
+<li><strong>Relevance and Accuracy:</strong><ul>
+<li>Techniques: Embedding similarity scoring (e.g., cosine similarity).</li>
+<li>Tools: <a target="_blank" rel="noopener" href="https://www.sbert.net/">Sentence-Transformers</a>.</li>
+</ul>
+</li>
+<li><strong>Quality and Fluency:</strong><ul>
+<li>Automated tools like <a target="_blank" rel="noopener" href="https://textblob.readthedocs.io/en/dev/">TextBlob</a> or <a target="_blank" rel="noopener" href="https://developer.grammarly.com/">Grammarly API</a>.</li>
+</ul>
+</li>
+<li><strong>BLEU, ROUGE, METEOR:</strong><ul>
+<li><a target="_blank" rel="noopener" href="https://huggingface.co/metrics/bleu">BLEU</a></li>
+<li><a target="_blank" rel="noopener" href="https://huggingface.co/metrics/rouge">ROUGE</a></li>
+<li><a href="">METEOR</a><ul>
+<li>Paper: <ul>
+<li>METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments, 2005. <ul>
+<li>Reaad on <a target="_blank" rel="noopener" href="https://aclanthology.org/W05-0909.pdf">aclanthology.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Paper: The Meteor metric for automatic evaluation of machine translation, 2009<ul>
+<li>DOI:10.1007&#x2F;s10590-009-9059-4</li>
+<li>Read on <a target="_blank" rel="noopener" href="https://sci-hub.se/10.1007/s10590-009-9059-4">sci-hub</a></li>
+</ul>
+</li>
+<li>Post: What is the METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)? <ul>
+<li>Reaad on <a target="_blank" rel="noopener" href="https://klu.ai/glossary/meteor-score">klu.ai</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Compare responses to benchmarks using <a target="_blank" rel="noopener" href="https://huggingface.co/docs/evaluate">Evaluate</a>.<ul>
+<li><a target="_blank" rel="noopener" href="https://huggingface.co/docs/evaluate/installation">Evaluate - Installation</a></li>
+<li><a target="_blank" rel="noopener" href="https://huggingface.co/docs/evaluate/a_quick_tour">Evaluate - A quick tour</a></li>
+<li><a target="_blank" rel="noopener" href="https://huggingface.co/docs/evaluate/choosing_a_metric">Evaluate - Choosing a metric for your task</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-Testing-and-Automation-in-Prompt-Engineering"><a href="#5-Testing-and-Automation-in-Prompt-Engineering" class="headerlink" title="5. Testing and Automation in Prompt Engineering"></a>5. Testing and Automation in Prompt Engineering</h2><p>Automation ensures scalability and reliability in prompt testing.</p>
+<h3 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices:"></a>Best Practices:</h3><ul>
+<li><strong>Automated Test Suites:</strong><ul>
+<li>Frameworks: <a target="_blank" rel="noopener" href="https://pytest.org/">pytest</a>, <a target="_blank" rel="noopener" href="https://greatexpectations.io/">Great Expectations</a> for data validation.</li>
+</ul>
+</li>
+<li><strong>Version Control for Prompts:</strong><ul>
+<li>Use GitHub or GitLab with prompt-specific repositories.</li>
+</ul>
+</li>
+<li><strong>Continuous Testing Pipelines:</strong><ul>
+<li>CI&#x2F;CD integration using <a target="_blank" rel="noopener" href="https://github.com/features/actions">GitHub Actions</a> or <a target="_blank" rel="noopener" href="https://circleci.com/">CircleCI</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="6-Tools-for-Working-with-Language-Models"><a href="#6-Tools-for-Working-with-Language-Models" class="headerlink" title="6. Tools for Working with Language Models"></a>6. Tools for Working with Language Models</h2><p>Advanced tools simplify interaction with modern AI systems.</p>
+<h3 id="Recommendations"><a href="#Recommendations" class="headerlink" title="Recommendations:"></a>Recommendations:</h3><ul>
+<li><strong>Model APIs:</strong><ul>
+<li>OpenAI GPT-4, Cohere API (<a target="_blank" rel="noopener" href="https://docs.cohere.com/">Cohere Docs</a>).</li>
+</ul>
+</li>
+<li><strong>Interactive Platforms:</strong><ul>
+<li><a target="_blank" rel="noopener" href="https://www.notion.so/product/ai">Notion AI</a>, <a target="_blank" rel="noopener" href="https://colab.research.google.com/">Google Colab</a>.</li>
+</ul>
+</li>
+<li><strong>Visual Analytics:</strong><ul>
+<li>Dashboards using <a target="_blank" rel="noopener" href="https://streamlit.io/">Streamlit</a> or <a target="_blank" rel="noopener" href="https://dash.plotly.com/">Plotly Dash</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="7-Software-Development-Skills"><a href="#7-Software-Development-Skills" class="headerlink" title="7. Software Development Skills"></a>7. Software Development Skills</h2><p>Integrating AI prompts into workflows requires coding expertise.</p>
+<h3 id="Key-Skills"><a href="#Key-Skills" class="headerlink" title="Key Skills:"></a>Key Skills:</h3><ul>
+<li><strong>Python for AI:</strong><ul>
+<li>Libraries: Hugging Face Transformers, OpenAI’s Python SDK.</li>
+</ul>
+</li>
+<li><strong>REST API Development:</strong><ul>
+<li>Tools: <a target="_blank" rel="noopener" href="https://fastapi.tiangolo.com/">FastAPI</a>, Postman for testing.</li>
+</ul>
+</li>
+<li><strong>Versioning:</strong><ul>
+<li>Git and platforms like DVC (<a target="_blank" rel="noopener" href="https://dvc.org/">Data Version Control</a>) for managing prompt iterations.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="8-Ethics-and-Limitations-in-AI"><a href="#8-Ethics-and-Limitations-in-AI" class="headerlink" title="8. Ethics and Limitations in AI"></a>8. Ethics and Limitations in AI</h2><p>Responsibility is a key aspect of prompt engineering.</p>
+<h3 id="Topics"><a href="#Topics" class="headerlink" title="Topics:"></a>Topics:</h3><ul>
+<li><strong>Ethical Prompt Design:</strong><ul>
+<li>Avoid introducing biases into generated outputs.</li>
+</ul>
+</li>
+<li><strong>Privacy and Security:</strong><ul>
+<li>Ensure that personal or sensitive data is anonymized.</li>
+<li>Tools: <a target="_blank" rel="noopener" href="https://microsoft.github.io/presidio/">Presidio</a> for PII detection.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><h3 id="Tutorials-and-Resources"><a href="#Tutorials-and-Resources" class="headerlink" title="Tutorials and Resources:"></a>Tutorials and Resources:</h3><ul>
+<li>Umar Jamil: <a target="_blank" rel="noopener" href="https://www.youtube.com/@umarjamilai">YouTube</a>, <a target="_blank" rel="noopener" href="https://umarjamil.org/">Website</a>.  </li>
+<li>Yannic Kilcher: <a target="_blank" rel="noopener" href="https://www.youtube.com/@YannicKilcher">YouTube</a>.</li>
+</ul>
+<h3 id="Research-Papers"><a href="#Research-Papers" class="headerlink" title="Research Papers:"></a>Research Papers:</h3><ul>
+<li>“Attention is All You Need” - Vaswani et al., DOI: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li>“Efficient Fine-Tuning Techniques for LLMs” - DOI: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2106.09685">10.48550&#x2F;arXiv.2106.09685</a>.</li>
+</ul>
+<h3 id="Tools-and-Libraries"><a href="#Tools-and-Libraries" class="headerlink" title="Tools and Libraries:"></a>Tools and Libraries:</h3><ul>
+<li>OpenAI API (<a target="_blank" rel="noopener" href="https://platform.openai.com/docs">Docs</a>).  </li>
+<li>Hugging Face <a target="_blank" rel="noopener" href="https://huggingface.co/transformers">Transformers</a>.  </li>
+<li>LangChain (<a target="_blank" rel="noopener" href="https://www.langchain.com/">Website</a>).</li>
+</ul>
+<hr>
+<p><strong>Other posts</strong></p>
 <ol>
-<li><p><strong>Базовые знания искусственного интеллекта и машинного обучения</strong><br>Чтобы эффективно проектировать промпты, необходимо понимать, как работает генеративный ИИ. Некоторые ключевые моменты включают:</p>
-<ul>
-<li>Основы NLP (Natural Language Processing) — понимание, как ИИ обрабатывает текст, помогает создать такие промпты, которые максимально точно интерпретируются моделью.</li>
-<li>Архитектуры языковых моделей — GPT, BERT, T5 и другие модели работают по разным принципам, что отражается на подходе к генерации промптов.</li>
-<li>Обучение и дообучение моделей — знание процесса обучения поможет понять, как модель «учится» и реагирует на разные типы запросов.</li>
-</ul>
-</li>
-<li><p><strong>Навыки работы с данными</strong><br>Важной частью промт-инжиниринга является работа с большими массивами данных для анализа и оптимизации промптов:</p>
-<ul>
-<li>Обработка данных — навыки предобработки текстовых данных (удаление шума, токенизация, нормализация).</li>
-<li>Анализ данных — понимание статистических методов и основ анализа данных (например, для выявления закономерностей в ответах модели на разные промпты).</li>
-<li>Использование Python и библиотек для обработки данных — библиотеками Pandas и NumPy часто пользуются для быстрой обработки и анализа данных.</li>
-</ul>
-</li>
-<li><p><strong>Разработка и оптимизация промптов</strong><br>Работа с промптами требует знаний и опыта в создании запросов, которые дают максимально релевантные ответы. Важно владеть следующими навыками:</p>
-<ul>
-<li>Создание структурированных запросов — понимать, как структурировать промпт для достижения нужного результата (например, задавая четкий формат вывода, делая уточняющие инструкции).</li>
-<li>Оптимизация промптов — умение варьировать фразы, ключевые слова и структуру запроса, чтобы улучшить ответы модели.</li>
-<li>Работа с контекстом — навык передачи контекста и уточняющей информации в промптах, чтобы улучшить понимание ИИ.</li>
-</ul>
-</li>
-<li><p><strong>Метрики оценки качества ответов</strong><br>Специалист по промт-инжинирингу должен уметь оценивать, насколько успешно модель справляется с задачей, и измерять качество ответов. Метрики, которые здесь будут полезны:</p>
-<ul>
-<li>Релевантность — насколько ответ соответствует запросу по смыслу.</li>
-<li>Точность и полнота — охватывает ли ответ все аспекты, обозначенные в запросе.</li>
-<li>Когерентность и читабельность — как логично и понятно сформулирован ответ.</li>
-<li>Использование автоматизированных метрик — если модель генерирует длинные ответы, можно использовать такие метрики, как BLEU, ROUGE или METEOR, чтобы сравнить ответы с эталонными.</li>
-</ul>
-</li>
-<li><p><strong>Тестирование и автоматизация промптов</strong><br>Опыт в тестировании программного обеспечения может стать преимуществом:</p>
-<ul>
-<li>Создание тестовых наборов для промптов — умение разрабатывать тестовые наборы, включающие разнообразные примеры запросов и эталонные ответы.</li>
-<li>A&#x2F;B-тестирование промптов — навык сравнения разных форматов промптов для выявления наиболее эффективного.</li>
-<li>Автоматизация тестирования — навыки программирования для создания автоматизированных тестов (например, с использованием pytest, unittest) и использования CI&#x2F;CD для поддержки непрерывного тестирования промптов.</li>
-</ul>
-</li>
-<li><p><strong>Инструменты для работы с языковыми моделями и анализа промптов</strong><br>Для работы с промптами могут потребоваться следующие инструменты:</p>
-<ul>
-<li>API для работы с моделями — OpenAI, Hugging Face, Google AI и другие предлагают API для взаимодействия с языковыми моделями. Умение работать с ними позволяет внедрять модели в скрипты и приложения.</li>
-<li>Jupyter Notebook и Google Colab — используются для тестирования и анализа промптов в интерактивном режиме.</li>
-<li>Инструменты для визуализации данных — Matplotlib, Seaborn, Plotly для представления результатов тестирования и анализа промптов.</li>
-</ul>
-</li>
-<li><p><strong>Основы разработки</strong><br>Опыт в программировании и разработке поможет эффективно интегрировать промпты в различные приложения:</p>
-<ul>
-<li>Знание Python — Python остается основным языком для работы с ИИ, а также для автоматизации, создания тестов и написания аналитических скриптов.</li>
-<li>Знание REST API — поможет интегрировать запросы к ИИ с другими сервисами и приложениями.</li>
-<li>Навыки работы с версиями кода (Git) — позволяет управлять изменениями в промптах и отслеживать их историю.</li>
-</ul>
-</li>
-<li><p><strong>Понимание этики и ограничений ИИ</strong><br>Особое внимание уделяется ответственности при разработке промптов:</p>
-<ul>
-<li>Этические нормы — понимание, как избежать предвзятости в запросах и снизить вероятность получения неприемлемых ответов.</li>
-<li>Приватность данных — работа с текстовыми данными должна учитывать безопасность и соблюдение конфиденциальности.</li>
-</ul>
-</li>
+<li>Prompt Design and Engineering: Introduction and Advanced Methods. Read on <a target="_blank" rel="noopener" href="https://arxiv.org/html/2401.14423v4#S1.F2">arxiv.org</a></li>
 </ol>
-<p><strong>Заключение</strong><br>Промт-инжиниринг — перспективное направление для специалистов, заинтересованных в создании и оптимизации взаимодействия с ИИ. Входя в эту профессию, важно иметь базовые знания об искусственном интеллекте и навыки анализа данных, понимать, как тестировать и оценивать качество промптов, а также уметь использовать инструменты для работы с языковыми моделями. Тестировщик программного обеспечения с опытом в автоматизации и анализе данных может применить свои знания в промт-инжиниринге, делая переход к новой профессии более плавным.</p>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Prompt engineering is an evolving domain, combining technical expertise with creativity. With a solid foundation in AI, data analysis, and ethics, specialists can craft meaningful interactions between humans and machines. By leveraging modern tools and methodologies, professionals can drive innovation in the AI ecosystem.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/" data-id="cm3nc2e8j002nuwkk2t669psb" data-title="Старт - промт-инжиниринг." class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/" data-id="cm3ocldw6002k1ckk13zf61vq" data-title="Prompt Engineering - start." class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -206,9 +329,9 @@
     </a>
   
   
-    <a href="/hexo-blog/2024/10/28/posts/principles_of_categorizing/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/hexo-blog/2024/10/28/posts/chatbots_from_scratch/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Principles of categorizing</div>
+      <div class="article-nav-title">Chatbots from scratch</div>
     </a>
   
 </nav>
@@ -227,7 +350,7 @@
       Categories
     </h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Test/">Test</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">19</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
     </div>
   </div>
   
@@ -236,7 +359,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/hexo-blog/tags/AI/" style="font-size: 16.67px;">AI</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/ML/" style="font-size: 16.67px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 13.33px;">NLP</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/blog/" style="font-size: 16.67px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 10px;">dev_side</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 16.67px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.67px;">knowledge</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 13.33px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 18.33px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 13.33px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 10px;">papers</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 10px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 15px;">science</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test/" style="font-size: 10px;">test</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/vocabularies/" style="font-size: 10px;">vocabularies</a>
+      <a href="/hexo-blog/tags/AI/" style="font-size: 18.57px;">AI</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 10px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/ML/" style="font-size: 18.57px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 12.86px;">NLP</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15.71px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chat-bpt/" style="font-size: 10px;">chat_bpt</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 10px;">dev_side</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 10px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15.71px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.43px;">knowledge</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.86px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 17.14px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.86px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 10px;">papers</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 11.43px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 14.29px;">science</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 20px;">tutorial</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/vocabularies/" style="font-size: 10px;">vocabularies</a>
     </div>
   </div>
 
@@ -258,6 +381,10 @@
       <ul>
         
           <li>
+            <a href="/hexo-blog/2024/11/19/posts/ai_nlp_text_classification_intro_1/">Text Classification. Historical overview, tools, and techniques.</a>
+          </li>
+        
+          <li>
             <a href="/hexo-blog/nastusja/">Довідник для Лікаря Сімейної Медицини</a>
           </li>
         
@@ -266,15 +393,11 @@
           </li>
         
           <li>
-            <a href="/hexo-blog/2024/11/18/posts/ai_nn_glossary/">Glossary of Machine Learning and AI Terms</a>
+            <a href="/hexo-blog/glossary-of-machine-learning-and-ai-terms/">Glossary of Machine Learning and AI Terms</a>
           </li>
         
           <li>
             <a href="/hexo-blog/2024/11/17/posts/ai_comparing_nlp_models_methods_metrix/">Comparing Efficiency of NLP Models. Methods and Metrics</a>
-          </li>
-        
-          <li>
-            <a href="/hexo-blog/2024/11/17/posts/ai_nlp_tasks_intro_1/">NLP tasks</a>
           </li>
         
       </ul>
