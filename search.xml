@@ -132,6 +132,60 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -201,27 +255,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
   </entry>
   <entry>
     <title>My GitHub projects</title>
@@ -290,6 +326,29 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -500,65 +559,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -620,6 +620,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>note</tag>
         <tag>blog</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
       </tags>
   </entry>
   <entry>
@@ -695,74 +713,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -824,6 +774,56 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -1392,91 +1392,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
-    <url>/hexo-blog/2024/11/13/posts/ai_base_gan/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
-<p><strong>Особенности генеративного ИИ</strong></p>
-<ul>
-<li>Создание нового контента: <ul>
-<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
-</ul>
-</li>
-<li>Высокая адаптивность:<ul>
-<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
-</ul>
-</li>
-<li>Использование больших объемов данных:<ul>
-<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
-</ul>
-</li>
-<li>Сложность в контроле результатов: <ul>
-<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Разновидности генеративного ИИ</strong></p>
-<ul>
-<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
-<ul>
-<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
-</ul>
-</li>
-<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
-<ul>
-<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
-<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
-<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
-<p><strong>Диффузионные модели</strong></p>
-<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
-<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
-<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
-<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
-<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
-<ul>
-<li><p>Создание новых данных vs. анализ и предсказание:</p>
-</li>
-<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
-</li>
-<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
-</li>
-<li><p>Использование для творчества и генерации контента:</p>
-<ul>
-<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
-<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Комплексность и требования к обучению:</strong></p>
-<ul>
-<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
-<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
-</ul>
-<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
-<ul>
-<li>Развлечения и медиа: <ul>
-<li>создание музыки, текста, изображений, сценариев.</li>
-</ul>
-</li>
-<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
-<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
-<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
-</ul>
-<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Comparing Efficiency of NLP Models. Methods and Metrics</title>
     <url>/hexo-blog/2024/11/17/posts/ai_comparing_nlp_models_methods_metrix/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
@@ -1602,9 +1517,124 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
         <tag>NLP</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
+    <url>/hexo-blog/2024/11/13/posts/ai_base_gan/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
+<p><strong>Особенности генеративного ИИ</strong></p>
+<ul>
+<li>Создание нового контента: <ul>
+<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
+</ul>
+</li>
+<li>Высокая адаптивность:<ul>
+<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
+</ul>
+</li>
+<li>Использование больших объемов данных:<ul>
+<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
+</ul>
+</li>
+<li>Сложность в контроле результатов: <ul>
+<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Разновидности генеративного ИИ</strong></p>
+<ul>
+<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
+<ul>
+<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
+</ul>
+</li>
+<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
+<ul>
+<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
+<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
+<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
+<p><strong>Диффузионные модели</strong></p>
+<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
+<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
+<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
+<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
+<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
+<ul>
+<li><p>Создание новых данных vs. анализ и предсказание:</p>
+</li>
+<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
+</li>
+<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
+</li>
+<li><p>Использование для творчества и генерации контента:</p>
+<ul>
+<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
+<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Комплексность и требования к обучению:</strong></p>
+<ul>
+<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
+<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
+</ul>
+<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
+<ul>
+<li>Развлечения и медиа: <ul>
+<li>создание музыки, текста, изображений, сценариев.</li>
+</ul>
+</li>
+<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
+<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
+<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
+</ul>
+<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>science</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/posts/ai_ml%20papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>papers</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1658,36 +1688,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/posts/ai_ml%20papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>papers</tag>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AI - Machine Learning frameworks</title>
     <url>/hexo-blog/2024/09/28/posts/ai_ml/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML framework (Example-1)<br><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a><br> <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p>
@@ -1696,13 +1696,59 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fine-tuning vs. Feature-based Approaches</title>
+    <url>/hexo-blog/2024/11/21/posts/ai_ml_ssss/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
+<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
+<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
+<p><strong>Key Differences:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Fine-tuning</th>
+<th>Feature-based</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Model Modification</td>
+<td>Adjusts weights of pre-trained model</td>
+<td>Extracts features, trains new model</td>
+</tr>
+<tr>
+<td>Computational Cost</td>
+<td>Higher</td>
+<td>Lower</td>
+</tr>
+<tr>
+<td>Task Similarity</td>
+<td>Best for similar tasks</td>
+<td>Can be used for diverse tasks</td>
+</tr>
+<tr>
+<td>Data Requirements</td>
+<td>More data needed</td>
+<td>Less data needed</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>emotions</tag>
       </tags>
   </entry>
   <entry>
     <title>AI - Machine Learning _emotions</title>
-    <url>/hexo-blog/2024/09/28/posts/ai_ml_emotions/</url>
+    <url>/hexo-blog/2024/11/21/posts/ai_ml_emotions/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
 <li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with a Multi-task Retrieval-based LLMs Framework</em></p>
 <ul>
@@ -1731,8 +1777,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>emotions</tag>
       </tags>
   </entry>
@@ -1866,8 +1912,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1955,9 +2001,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
         <tag>NLP</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -2077,9 +2123,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
         <tag>NLP</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
         <tag>text_classification</tag>
       </tags>
   </entry>
@@ -2200,8 +2246,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>glossary</tag>
       </tags>
   </entry>
@@ -2403,9 +2449,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>science</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -2496,8 +2542,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -2512,8 +2558,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>chat_bpt</tag>
       </tags>
   </entry>
@@ -2740,102 +2786,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Principles of categorizing</title>
-    <url>/hexo-blog/2024/10/28/posts/principles_of_categorizing/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains information about fundamental books for classic principles of categorizing.</strong></p>
-<p>Fundamental books that delve deeply into the principles of categorizing and organizing knowledge across different fields:</p>
-<ol>
-<li><p>Metaphysics by Aristotle<br>   <strong>Description:</strong> Aristotle’s work is foundational in Western philosophy, with early explorations into categorization and classification, particularly his concept of “Categories,” which influenced logical structures and classification in science, philosophy, and more.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/metaphysics.1.i.html">Metaphysics by Aristotle</a></p>
-</li>
-<li><p>Categories by Aristotle<br>   <strong>Description:</strong> In this essential work, Aristotle<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Aristotle - Aristotle(Greek: Ἀριστοτέλης Aristotélēs; 384–322 BC) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science. [wikipedia: Aristotle](https://en.wikipedia.org/wiki/Aristotle)">[1]</span></a></sup> introduces a framework for understanding and categorizing different forms of knowledge, laying the groundwork for logical classification systems.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/categories.html">Categories by Aristotle</a></p>
-</li>
-<li><p>Mathematical Principles of Naturalis Philosophy by Isaac Newton <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Isaac Newton - Sir Isaac Newton FRS (25 December 1642 – 20 March 1726/27) was an English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.He was a key figure in the Scientific Revolution and the Enlightenment that followed. [wikipedia: Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton)">[2]</span></a></sup><br>   <strong>Description:</strong> lthough primarily a scientific text, Newton’s “Principia” exemplifies the early scientific method’s approach to categorizing natural phenomena, setting the stage for systematic inquiry and structured scientific classification.<br>   <strong>Book reference:</strong> </p>
-<ol>
-<li><a href="https://redlightrobber.com/red/links_pdf/Isaac-Newton-Principia-English-1846.pdf">Mathematical Principles of Natural Philosophy by Isaac Newton</a> </li>
-<li><a href="https://www.gutenberg.org/ebooks/28233">Philosophiae Naturalis Principia Mathematica by Isaac Newton</a></li>
-</ol>
-</li>
-<li><p>A System of Logic, Ratiocinative and Inductive by John Stuart Mill<br>   <strong>Description:</strong> Mill’s book is a landmark work on logic, covering classification, reasoning, and scientific methods for organizing knowledge and evidence, crucial for systematic thinking and empirical sciences.</p>
-</li>
-<li><p>A Guide to the Classification Theorem for Compact Surfaces by Jean Gallier<br>   <strong>Description:</strong> This work is significant in mathematics and topology, providing insight into classifying surfaces and structures, which has implications for mathematical taxonomy.</p>
-</li>
-<li><p>On the Origin of Species by Charles Darwin<br>   <strong>Description:</strong> Darwin’s work revolutionized biological classification, showing how species evolve and adapt. His theories influenced the way we classify life forms, emphasizing evolutionary relationships as a basis for taxonomy.</p>
-</li>
-<li><p>The Logic of Scientific Discovery by Karl Popper<br>   <strong>Description:</strong> Popper’s book discusses the scientific method and the role of classification in developing theories and hypotheses, providing a foundation for scientific knowledge organization.</p>
-</li>
-<li><p>Systematics and the Origin of Species by Ernst Mayr<br>   <strong>Description:</strong> Mayr’s work is pivotal in evolutionary biology and taxonomy, exploring how species are classified based on genetics, morphology, and evolutionary history.</p>
-</li>
-<li><p>Elements by Euclid<br>   <strong>Description:</strong> An essential work in mathematics, Euclid’s “Elements” systematically categorizes geometric principles, setting a precedent for organizing mathematical knowledge.</p>
-</li>
-<li><p>The Structure of Scientific Revolutions by Thomas Kuhn<br>  <strong>Description:</strong> Kuhn’s book introduced the concept of paradigm shifts and discusses how scientific knowledge is organized, structured, and periodically reclassified in response to new discoveries.</p>
-</li>
-<li><p>The Species Problem by David L. Hull<br>  <strong>Description:</strong> Hull examines the philosophical issues in defining and categorizing species, a classic text in understanding how biological classification raises complex questions about the nature of categories.</p>
-</li>
-<li><p>Principia Ethica by G.E. Moore<br>  <strong>Description:</strong> Although a work in ethics, Moore’s analysis on categorizing moral concepts influenced the logical and systematic classification of ethical terms and principles.</p>
-</li>
-<li><p>Classifications and Typologies in Qualitative Research by Ian Dey<br>  <strong>Description:</strong> This text delves into classification systems in qualitative research, explaining how data is categorized and analyzed in social sciences.</p>
-</li>
-<li><p>Conceptual Spaces: The Geometry of Thought by Peter Gärdenfors<br>  <strong>Description:</strong> Gärdenfors explores the cognitive basis of categorization and how we form mental categories, linking psychology with systematic classification principles.</p>
-</li>
-<li><p>Introduction to the Theory of Sets by Joseph Breuer<br>  <strong>Description:</strong> This work on set theory is fundamental to mathematics and logic, providing a structured framework for understanding categorization through the concept of sets, which underlies much of modern classification theory.</p>
-</li>
-</ol>
-<p><strong>For books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
-<ol>
-<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>   <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
-</li>
-<li><p>Syntactic Structures by Noam Chomsky<br>   <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
-</li>
-<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>   <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
-</li>
-<li><p>Classification, 2nd Edition by David B. Suthers<br>   <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
-</li>
-<li><p>Library Classification and Cataloging by Lois Mai Chan<br>   <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
-</li>
-<li><p>Knowledge and the Flow of Information by Fred Dretske<br>   <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.</p>
-</li>
-<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>   <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.</p>
-</li>
-<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>   <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
-</li>
-<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>   <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
-</li>
-<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
-</li>
-</ol>
-<p><strong>Books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
-<ol>
-<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>  <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
-</li>
-<li><p>Syntactic Structures by Noam Chomsky<br>  <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
-</li>
-<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>  <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
-</li>
-<li><p>Classification, 2nd Edition by David B. Suthers<br>  <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
-</li>
-<li><p>Library Classification and Cataloging by Lois Mai Chan<br>  <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
-</li>
-<li><p>Knowledge and the Flow of Information by Fred Dretske<br>  <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.</p>
-</li>
-<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>  <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.</p>
-</li>
-<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>  <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
-</li>
-<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>  <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
-</li>
-<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
-</li>
-</ol>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Aristotle - Aristotle(Greek: Ἀριστοτέλης Aristotélēs; 384–322 BC) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science. <a href="https://en.wikipedia.org/wiki/Aristotle">wikipedia: Aristotle</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Isaac Newton - Sir Isaac Newton FRS (25 December 1642 – 20 March 1726/27) was an English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.He was a key figure in the Scientific Revolution and the Enlightenment that followed. <a href="https://en.wikipedia.org/wiki/Isaac_Newton">wikipedia: Isaac Newton</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>knowledge</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Types of protocols for interaction on client-server architecture level.</title>
     <url>/hexo-blog/2024/04/09/posts/network_protocols/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
@@ -3054,9 +3004,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>science</tag>
         <tag>prompt_engineering</tag>
         <tag>LLM</tag>
       </tags>
@@ -3225,6 +3175,102 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>hexo_io</tag>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Principles of categorizing</title>
+    <url>/hexo-blog/2024/10/28/posts/principles_of_categorizing/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains information about fundamental books for classic principles of categorizing.</strong></p>
+<p>Fundamental books that delve deeply into the principles of categorizing and organizing knowledge across different fields:</p>
+<ol>
+<li><p>Metaphysics by Aristotle<br>   <strong>Description:</strong> Aristotle’s work is foundational in Western philosophy, with early explorations into categorization and classification, particularly his concept of “Categories,” which influenced logical structures and classification in science, philosophy, and more.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/metaphysics.1.i.html">Metaphysics by Aristotle</a></p>
+</li>
+<li><p>Categories by Aristotle<br>   <strong>Description:</strong> In this essential work, Aristotle<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Aristotle - Aristotle(Greek: Ἀριστοτέλης Aristotélēs; 384–322 BC) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science. [wikipedia: Aristotle](https://en.wikipedia.org/wiki/Aristotle)">[1]</span></a></sup> introduces a framework for understanding and categorizing different forms of knowledge, laying the groundwork for logical classification systems.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/categories.html">Categories by Aristotle</a></p>
+</li>
+<li><p>Mathematical Principles of Naturalis Philosophy by Isaac Newton <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Isaac Newton - Sir Isaac Newton FRS (25 December 1642 – 20 March 1726/27) was an English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.He was a key figure in the Scientific Revolution and the Enlightenment that followed. [wikipedia: Isaac Newton](https://en.wikipedia.org/wiki/Isaac_Newton)">[2]</span></a></sup><br>   <strong>Description:</strong> lthough primarily a scientific text, Newton’s “Principia” exemplifies the early scientific method’s approach to categorizing natural phenomena, setting the stage for systematic inquiry and structured scientific classification.<br>   <strong>Book reference:</strong> </p>
+<ol>
+<li><a href="https://redlightrobber.com/red/links_pdf/Isaac-Newton-Principia-English-1846.pdf">Mathematical Principles of Natural Philosophy by Isaac Newton</a> </li>
+<li><a href="https://www.gutenberg.org/ebooks/28233">Philosophiae Naturalis Principia Mathematica by Isaac Newton</a></li>
+</ol>
+</li>
+<li><p>A System of Logic, Ratiocinative and Inductive by John Stuart Mill<br>   <strong>Description:</strong> Mill’s book is a landmark work on logic, covering classification, reasoning, and scientific methods for organizing knowledge and evidence, crucial for systematic thinking and empirical sciences.</p>
+</li>
+<li><p>A Guide to the Classification Theorem for Compact Surfaces by Jean Gallier<br>   <strong>Description:</strong> This work is significant in mathematics and topology, providing insight into classifying surfaces and structures, which has implications for mathematical taxonomy.</p>
+</li>
+<li><p>On the Origin of Species by Charles Darwin<br>   <strong>Description:</strong> Darwin’s work revolutionized biological classification, showing how species evolve and adapt. His theories influenced the way we classify life forms, emphasizing evolutionary relationships as a basis for taxonomy.</p>
+</li>
+<li><p>The Logic of Scientific Discovery by Karl Popper<br>   <strong>Description:</strong> Popper’s book discusses the scientific method and the role of classification in developing theories and hypotheses, providing a foundation for scientific knowledge organization.</p>
+</li>
+<li><p>Systematics and the Origin of Species by Ernst Mayr<br>   <strong>Description:</strong> Mayr’s work is pivotal in evolutionary biology and taxonomy, exploring how species are classified based on genetics, morphology, and evolutionary history.</p>
+</li>
+<li><p>Elements by Euclid<br>   <strong>Description:</strong> An essential work in mathematics, Euclid’s “Elements” systematically categorizes geometric principles, setting a precedent for organizing mathematical knowledge.</p>
+</li>
+<li><p>The Structure of Scientific Revolutions by Thomas Kuhn<br>  <strong>Description:</strong> Kuhn’s book introduced the concept of paradigm shifts and discusses how scientific knowledge is organized, structured, and periodically reclassified in response to new discoveries.</p>
+</li>
+<li><p>The Species Problem by David L. Hull<br>  <strong>Description:</strong> Hull examines the philosophical issues in defining and categorizing species, a classic text in understanding how biological classification raises complex questions about the nature of categories.</p>
+</li>
+<li><p>Principia Ethica by G.E. Moore<br>  <strong>Description:</strong> Although a work in ethics, Moore’s analysis on categorizing moral concepts influenced the logical and systematic classification of ethical terms and principles.</p>
+</li>
+<li><p>Classifications and Typologies in Qualitative Research by Ian Dey<br>  <strong>Description:</strong> This text delves into classification systems in qualitative research, explaining how data is categorized and analyzed in social sciences.</p>
+</li>
+<li><p>Conceptual Spaces: The Geometry of Thought by Peter Gärdenfors<br>  <strong>Description:</strong> Gärdenfors explores the cognitive basis of categorization and how we form mental categories, linking psychology with systematic classification principles.</p>
+</li>
+<li><p>Introduction to the Theory of Sets by Joseph Breuer<br>  <strong>Description:</strong> This work on set theory is fundamental to mathematics and logic, providing a structured framework for understanding categorization through the concept of sets, which underlies much of modern classification theory.</p>
+</li>
+</ol>
+<p><strong>For books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
+<ol>
+<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>   <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
+</li>
+<li><p>Syntactic Structures by Noam Chomsky<br>   <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
+</li>
+<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>   <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
+</li>
+<li><p>Classification, 2nd Edition by David B. Suthers<br>   <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
+</li>
+<li><p>Library Classification and Cataloging by Lois Mai Chan<br>   <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
+</li>
+<li><p>Knowledge and the Flow of Information by Fred Dretske<br>   <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.</p>
+</li>
+<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>   <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.</p>
+</li>
+<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>   <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
+</li>
+<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>   <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
+</li>
+<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
+</li>
+</ol>
+<p><strong>Books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
+<ol>
+<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>  <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
+</li>
+<li><p>Syntactic Structures by Noam Chomsky<br>  <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
+</li>
+<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>  <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
+</li>
+<li><p>Classification, 2nd Edition by David B. Suthers<br>  <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
+</li>
+<li><p>Library Classification and Cataloging by Lois Mai Chan<br>  <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
+</li>
+<li><p>Knowledge and the Flow of Information by Fred Dretske<br>  <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.</p>
+</li>
+<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>  <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.</p>
+</li>
+<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>  <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
+</li>
+<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>  <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
+</li>
+<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
+</li>
+</ol>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Aristotle - Aristotle(Greek: Ἀριστοτέλης Aristotélēs; 384–322 BC) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science. <a href="https://en.wikipedia.org/wiki/Aristotle">wikipedia: Aristotle</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Isaac Newton - Sir Isaac Newton FRS (25 December 1642 – 20 March 1726/27) was an English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.He was a key figure in the Scientific Revolution and the Enlightenment that followed. <a href="https://en.wikipedia.org/wiki/Isaac_Newton">wikipedia: Isaac Newton</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>knowledge</tag>
       </tags>
   </entry>
   <entry>
