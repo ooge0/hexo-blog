@@ -16,10 +16,10 @@
 <meta property="og:description" content="Feel free to send me your thoughts, notes, other references. My contact details you can find on LinkedIn IndexA  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z AAutoencoders">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-11-17T22:00:00.000Z">
-<meta property="article:modified_time" content="2024-11-22T22:54:48.228Z">
+<meta property="article:modified_time" content="2024-11-24T22:28:30.655Z">
 <meta property="article:author" content="si0n4ra">
-<meta property="article:tag" content="ML">
 <meta property="article:tag" content="AI">
+<meta property="article:tag" content="ML">
 <meta property="article:tag" content="glossary">
 <meta name="twitter:card" content="summary">
   
@@ -142,9 +142,44 @@
 <hr>
 <h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><h3 id="Base-model"><a href="#Base-model" class="headerlink" title="Base model"></a>Base model</h3><p>The original, foundational version of a large language model, which has not been fine-tuned.</p>
 <hr>
+<h3 id="BERT"><a href="#BERT" class="headerlink" title="BERT"></a>BERT</h3><h2 id="Bidirectional-Encoder-Representations-from-Transformers-DEveloped-in-2018-BERT-is-designed-to-pre-train-deep-bidirectional-representations-from-unlabeled-text-by-jointly-conditioning-on-both-left-and-right-context-in-all-layers-As-a-result-the-pre-trained-BERT-model-can-be-fine-tuned-with-just-one-additional-output-layer-to-create-state-of-the-art-models-for-a-wide-range-of-tasks-such-as-question-answering-and-language-inference-without-substantial-task-specific-architecture-modifications-BERT-is-conceptually-simple-and-empirically-powerful-It-obtains-new-state-of-the-art-results-on-eleven-natural-language-processing-tasks-including-pushing-the-GLUE-score-to-80-5-7-7-point-absolute-improvement-MultiNLI-accuracy-to-86-7-4-6-absolute-improvement-SQuAD-v1-1-question-answering-Test-F1-to-93-2-1-5-point-absolute-improvement-and-SQuAD-v2-0-Test-F1-to-83-1-5-1-point-absolute-improvement-Paper-BERT-Pre-training-of-Deep-Bidirectional-Transformers-forLanguage-Understanding-2018-DOI-10-18653-v1-N19-1423-Read-on-arxiv-org"><a href="#Bidirectional-Encoder-Representations-from-Transformers-DEveloped-in-2018-BERT-is-designed-to-pre-train-deep-bidirectional-representations-from-unlabeled-text-by-jointly-conditioning-on-both-left-and-right-context-in-all-layers-As-a-result-the-pre-trained-BERT-model-can-be-fine-tuned-with-just-one-additional-output-layer-to-create-state-of-the-art-models-for-a-wide-range-of-tasks-such-as-question-answering-and-language-inference-without-substantial-task-specific-architecture-modifications-BERT-is-conceptually-simple-and-empirically-powerful-It-obtains-new-state-of-the-art-results-on-eleven-natural-language-processing-tasks-including-pushing-the-GLUE-score-to-80-5-7-7-point-absolute-improvement-MultiNLI-accuracy-to-86-7-4-6-absolute-improvement-SQuAD-v1-1-question-answering-Test-F1-to-93-2-1-5-point-absolute-improvement-and-SQuAD-v2-0-Test-F1-to-83-1-5-1-point-absolute-improvement-Paper-BERT-Pre-training-of-Deep-Bidirectional-Transformers-forLanguage-Understanding-2018-DOI-10-18653-v1-N19-1423-Read-on-arxiv-org" class="headerlink" title="Bidirectional Encoder Representations from Transformers. DEveloped in 2018.BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).Paper:  - BERT: Pre-training of Deep Bidirectional Transformers forLanguage Understanding. 2018    - DOI: 10.18653&#x2F;v1&#x2F;N19-1423    - Read on arxiv.org
+  "></a>Bidirectional Encoder Representations from Transformers. DEveloped in 2018.<br>BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.<br>BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).<br><strong>Paper:</strong><br>  - BERT: Pre-training of Deep Bidirectional Transformers for<br>Language Understanding. 2018<br>    - DOI: <a target="_blank" rel="noopener" href="https://doi.org/10.18653/v1%2FN19-1423">10.18653&#x2F;v1&#x2F;N19-1423</a><br>    - <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1810.04805">Read on arxiv.org</a>
+  </h2><h3 id="BERTScore"><a href="#BERTScore" class="headerlink" title="BERTScore"></a>BERTScore</h3><ul>
+<li><strong>Description</strong>: Leverages contextual embeddings from BERT to evaluate semantic similarity between the generated and reference text.</li>
+<li><strong>Purpose</strong>: Captures semantic similarity more effectively than traditional n-gram-based metrics.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Range</th>
+<th>Interpretation</th>
+<th>Example Values</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>BERTScore (Precision)</strong></td>
+<td>0 to 1</td>
+<td>Measures how much of the generated text aligns with the reference.</td>
+<td>0.7 (moderate), 0.85 (good), 0.95 (excellent)</td>
+</tr>
+<tr>
+<td><strong>BERTScore (Recall)</strong></td>
+<td>0 to 1</td>
+<td>Measures how much of the reference text is captured in the generated output.</td>
+<td>0.6 (moderate), 0.8 (good), 0.9 (excellent)</td>
+</tr>
+<tr>
+<td><strong>BERTScore (F1)</strong></td>
+<td>0 to 1</td>
+<td>Harmonic mean of precision and recall; overall measure of similarity.</td>
+<td>0.65 (moderate), 0.82 (good), 0.9 (excellent)</td>
+</tr>
+</tbody></table>
+<hr>
 <h3 id="Bias"><a href="#Bias" class="headerlink" title="Bias"></a>Bias</h3><p>The disproportionate favor or prejudice towards a specific item or group. AI algorithms may inherit biases from historical data or human trainers, risking perpetuation of these biases in predictions.</p>
 <hr>
-<h3 id="BLEU"><a href="#BLEU" class="headerlink" title="BLEU"></a>BLEU</h3><p>BLEU (Bilingual Evaluation Understudy)</p>
+<h3 id="BLEU"><a href="#BLEU" class="headerlink" title="BLEU"></a>BLEU</h3><p>BLEU (Bilingual Evaluation Understudy) is an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another. Quality is considered to be the correspondence between a machine’s output and that of a human: “the closer a machine translation is to a professional human translation, the better it is” – this is the central idea behind BLEU.<br>BLEU was one of the first metrics to claim a high correlation with human judgements of quality, and remains one of the most popular automated and inexpensive metrics.</p>
 <ul>
 <li>Paper: “BLEU: a Method for Automatic Evaluation of Machine Translation”. Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL), Philadelphia, July 2002, pp. 311-318.<ul>
 <li>DOI: 10.3115&#x2F;1073083.1073135</li>
@@ -152,6 +187,12 @@
 <li>Read on <a target="_blank" rel="noopener" href="https://sci-hub.se/https://doi.org/10.3115/1073083.1073135">sci-hub.se</a></li>
 </ul>
 </li>
+</ul>
+<hr>
+<h3 id="BLEU-score"><a href="#BLEU-score" class="headerlink" title="BLEU score"></a>BLEU score</h3><ul>
+<li>BLEU scores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations. Those scores are then averaged over the whole corpus to reach an estimate of the translation’s overall quality. Neither intelligibility nor grammatical correctness are not taken into account.</li>
+<li>The BLEU algorithm compares consecutive phrases of the automatic translation with the consecutive phrases it finds in the reference translation, and counts the number of matches, in a weighted fashion. These matches are position independent. A higher match degree indicates a higher degree of similarity with the reference translation, and higher score. Intelligibility and grammatical correctness aren’t taken into account.</li>
+<li>web article: <a target="_blank" rel="noopener" href="https://www.geeksforgeeks.org/nlp-bleu-score-for-evaluating-neural-machine-translation-python/#how-to-compute-bleu-score">“How to Compute BLEU Score”</a></li>
 </ul>
 <hr>
 <h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><h3 id="Convolutional-layer"><a href="#Convolutional-layer" class="headerlink" title="Convolutional layer"></a>Convolutional layer</h3><p>A core component of CNNs that processes input data using filters (kernels) to produce feature maps, identifying patterns or features.</p>
@@ -186,7 +227,18 @@
 <hr>
 <h2 id="M"><a href="#M" class="headerlink" title="M"></a>M</h2><h3 id="Machine-Learning-Operations-MLOps"><a href="#Machine-Learning-Operations-MLOps" class="headerlink" title="Machine Learning Operations (MLOps)"></a>Machine Learning Operations (MLOps)</h3><p>The process of deploying, monitoring, and updating machine learning models in production environments.</p>
 <hr>
-<h3 id="METEOR"><a href="#METEOR" class="headerlink" title="METEOR"></a>METEOR</h3><p>METEOR (Metric for Evaluation of Translation with Explicit ORdering)</p>
+<h3 id="METEOR"><a href="#METEOR" class="headerlink" title="METEOR"></a>METEOR</h3><p>Metric. METEOR &#x3D; <strong>M</strong>etric for <strong>E</strong>valuation of <strong>T</strong>ranslation with <strong>E</strong>xplicit <strong>OR</strong>dering</p>
+<ul>
+<li><strong>Description</strong>: Evaluates semantic similarity by considering unigram overlaps, stemming, synonyms, and paraphrasing.</li>
+<li><strong>Score Parameter</strong>: <code>METEOR Score</code>, <a href="#meteor-score">ref</a></li>
+<li><strong>Purpose</strong>: Provides a balanced metric for machine translation and summarization tasks.</li>
+</ul>
+<h3 id="METEOR-Score"><a href="#METEOR-Score" class="headerlink" title="METEOR Score"></a>METEOR Score</h3><ul>
+<li>Metric: <a href="#meteor">METEOR</a></li>
+<li>Range: 0 to 1</li>
+<li>Interpretation: Combines precision and recall, with semantic similarity (e.g., synonyms, stems)</li>
+<li>Example Values: Higher scores indicate better matches.	0.3 (low), 0.6 (moderate), 0.85 (high)</li>
+</ul>
 <hr>
 <h3 id="MLOps"><a href="#MLOps" class="headerlink" title="MLOps"></a>MLOps</h3><p>Short for Machine Learning Operations.</p>
 <hr>
@@ -207,13 +259,20 @@
 <hr>
 <h3 id="Prompt-template"><a href="#Prompt-template" class="headerlink" title="Prompt template"></a>Prompt template</h3><p>Specially formatted instructions used by LLMs to define the input and output.</p>
 <hr>
-<h3 id="R-A-G-Retrieval-Augmented-Generation"><a href="#R-A-G-Retrieval-Augmented-Generation" class="headerlink" title="R.A.G. (Retrieval-Augmented Generation)"></a>R.A.G. (Retrieval-Augmented Generation)</h3><p>A technique combining external information retrieval with the generative capabilities of an LLM for improved accuracy.</p>
-<hr>
-<h3 id="ROUGE"><a href="#ROUGE" class="headerlink" title="ROUGE"></a>ROUGE</h3><p>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</p>
+<h3 id="R-A-G-Retrieval-Augmented-Generation"><a href="#R-A-G-Retrieval-Augmented-Generation" class="headerlink" title="R.A.G. (Retrieval-Augmented Generation)"></a>R.A.G. (Retrieval-Augmented Generation)</h3><h2 id="A-technique-combining-external-information-retrieval-with-the-generative-capabilities-of-an-LLM-for-improved-accuracy"><a href="#A-technique-combining-external-information-retrieval-with-the-generative-capabilities-of-an-LLM-for-improved-accuracy" class="headerlink" title="A technique combining external information retrieval with the generative capabilities of an LLM for improved accuracy."></a>A technique combining external information retrieval with the generative capabilities of an LLM for improved accuracy.</h2><h3 id="ROUGE"><a href="#ROUGE" class="headerlink" title="ROUGE"></a>ROUGE</h3><p>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</p>
 <ul>
+<li><strong>Score parameters</strong>:<ul>
+<li><code>ROUGE-1</code>:	Range: 0 to 1, Measures the overlap of unigram (single word) between the generated and reference text.	0.2 (low overlap), 0.5 (moderate), 0.8 (high)</li>
+<li><code>ROUGE-2</code>:	Range: 0 to 1, Measures the overlap of bigrams (two consecutive words) between generated and reference text.	0.1 (low), 0.4 (moderate), 0.7 (high)</li>
+<li><code>ROUGE-L</code>:	Range: 0 to 1, Measures the longest common subsequence (LCS) between the generated and reference text.	0.3 (low), 0.6 (moderate), 0.9 (high)</li>
+</ul>
+</li>
+<li><strong>Purpose</strong>: Evaluates lexical similarity, fluency, and coherence across different levels (unigrams, bigrams, and sequences).<ul>
 <li>Original ROUGE Paper: Lin, Chin-Yew. “ROUGE: A Package for Automatic Evaluation of Summaries”<ul>
 <li>DOI: 10.3115&#x2F;1073083.1073135</li>
 <li>Read on <a href="">ACL Anthology</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -268,7 +327,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/glossary-of-machine-learning-and-ai-terms/" data-id="cm3urkiwr003a9skk5k5uav1q" data-title="Glossary of Machine Learning and AI Terms" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/glossary-of-machine-learning-and-ai-terms/" data-id="cm3w6822y003mfkkkeluze299" data-title="Glossary of Machine Learning and AI Terms" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
