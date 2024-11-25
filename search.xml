@@ -21,6 +21,23 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Blog&#39;s categories</title>
+    <url>/hexo-blog//categories/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
+<ul>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Categories</category>
+      </categories>
+  </entry>
+  <entry>
     <title>About me</title>
     <url>/hexo-blog//about-me/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
@@ -101,23 +118,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Blog&#39;s categories</title>
-    <url>/hexo-blog//categories/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
-<ul>
-<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
-<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
-<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
-<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Categories</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Cheatsheet list</title>
     <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -170,6 +170,15 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Tags</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
@@ -180,15 +189,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tags</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -630,6 +630,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Add more beautiful HEXO blog pages</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
@@ -702,24 +720,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>How to Format a USB Using CMD (Command Prompt)</title>
     <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
@@ -748,6 +748,25 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>usb</tag>
         <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>blog</tag>
+        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -812,25 +831,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>note</tag>
-        <tag>blog</tag>
-        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -1399,8 +1399,93 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
+    <url>/hexo-blog/2024/11/13/posts/ai__base_gan/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
+<p><strong>Особенности генеративного ИИ</strong></p>
+<ul>
+<li>Создание нового контента: <ul>
+<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
+</ul>
+</li>
+<li>Высокая адаптивность:<ul>
+<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
+</ul>
+</li>
+<li>Использование больших объемов данных:<ul>
+<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
+</ul>
+</li>
+<li>Сложность в контроле результатов: <ul>
+<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Разновидности генеративного ИИ</strong></p>
+<ul>
+<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
+<ul>
+<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
+</ul>
+</li>
+<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
+<ul>
+<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
+<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
+<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
+<p><strong>Диффузионные модели</strong></p>
+<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
+<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
+<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
+<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
+<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
+<ul>
+<li><p>Создание новых данных vs. анализ и предсказание:</p>
+</li>
+<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
+</li>
+<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
+</li>
+<li><p>Использование для творчества и генерации контента:</p>
+<ul>
+<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
+<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Комплексность и требования к обучению:</strong></p>
+<ul>
+<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
+<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
+</ul>
+<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
+<ul>
+<li>Развлечения и медиа: <ul>
+<li>создание музыки, текста, изображений, сценариев.</li>
+</ul>
+</li>
+<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
+<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
+<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
+</ul>
+<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Comparing Efficiency of NLP Models. Methods and Metrics</title>
-    <url>/hexo-blog/2024/11/17/posts/ai_comparing_nlp_models_methods_metrix/</url>
+    <url>/hexo-blog/2024/11/17/posts/ai__comparing_nlp_models_methods_metrix/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
 <hr>
 <h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
@@ -1524,14 +1609,14 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
     <title>AI glossaries list</title>
-    <url>/hexo-blog/2024/11/01/posts/ai_glossary_list/</url>
+    <url>/hexo-blog/2024/11/01/posts/ai__glossary_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
 <ul>
 <li>Glossary-of-Artificial-Intelligence<ul>
@@ -1580,51 +1665,375 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/posts/ai_ml%20papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+    <title>Prompt Engineering - start.</title>
+    <url>/hexo-blog/2024/10/28/posts/ai__promt_engineer_start/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
+<hr>
+<h2 id="1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning"><a href="#1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning" class="headerlink" title="1. Core Knowledge in Artificial Intelligence and Machine Learning"></a>1. Core Knowledge in Artificial Intelligence and Machine Learning</h2><p>Understanding generative AI and large language models (LLMs) is foundational to prompt engineering.</p>
+<h3 id="Key-Topics"><a href="#Key-Topics" class="headerlink" title="Key Topics:"></a>Key Topics:</h3><ul>
+<li><strong>Natural Language Processing (NLP):</strong> <ul>
+<li>Learn about tokenization, embedding, and attention mechanisms.</li>
+<li>Familiar tools: <a href="https://spacy.io/">spaCy</a> (2020+), <a href="https://huggingface.co/transformers">Transformers by Hugging Face</a>.</li>
+</ul>
+</li>
+<li><strong>Language Models:</strong><ul>
+<li>Explore architectures like GPT (OpenAI), BERT, and T5.</li>
+<li>Key tools: <a href="https://platform.openai.com/docs">OpenAI API</a>, <a href="https://www.tensorflow.org/">Google’s TensorFlow</a>, and Hugging Face’s datasets.</li>
+</ul>
+</li>
+<li><strong>Fine-Tuning Techniques:</strong><ul>
+<li>Study transfer learning for customizing LLMs with domain-specific data.</li>
+<li>Libraries: <a href="https://huggingface.co/docs/diffusers/v0.16.0/en/training/lora">LoRA</a> (Low-Rank Adaptation for fine-tuning large models).<ul>
+<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models &#x2F; DOI <a href="https://arxiv.org/abs/2106.09685">arxiv.org&#x2F;abs&#x2F;2106.09685</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+<h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><ul>
+<li>Vaswani et al., 2017, “Attention is All You Need” - DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li><em>Efficient Fine-Tuning Techniques for LLMs</em> (Hugging Face PEFT).</li>
+</ul>
+<hr>
+<h2 id="2-Data-Handling-Skills"><a href="#2-Data-Handling-Skills" class="headerlink" title="2. Data Handling Skills"></a>2. Data Handling Skills</h2><p>Prompt engineering often involves working with large datasets to understand and refine AI responses.</p>
+<h3 id="Tools-and-Techniques"><a href="#Tools-and-Techniques" class="headerlink" title="Tools and Techniques:"></a>Tools and Techniques:</h3><ul>
+<li><strong>Data Preprocessing:</strong><ul>
+<li>Techniques: Noise reduction, stemming, and lemmatization.</li>
+<li>Tools: <a href="https://cleanlab.io/">Cleanlab</a>, <a href="https://www.nltk.org/">NLTK</a> (for text-specific preprocessing).</li>
+</ul>
+</li>
+<li><strong>Data Analysis:</strong><ul>
+<li>Understand statistical trends in model responses.</li>
+<li>Tools: <a href="https://pola-rs.github.io/polars/">Polars</a>, an alternative to <a href="https://pandas.pydata.org/">Pandas</a> for high-performance data handling.</li>
+</ul>
+</li>
+<li><strong>Tokenization Analysis:</strong><ul>
+<li>Evaluate token usage in models using OpenAI’s <code>tiktoken</code> library (<a href="https://github.com/openai/tiktoken">GitHub</a>).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-Prompt-Design-and-Optimization"><a href="#3-Prompt-Design-and-Optimization" class="headerlink" title="3. Prompt Design and Optimization"></a>3. Prompt Design and Optimization</h2><p>Crafting effective prompts is at the heart of this role.</p>
+<h3 id="Advanced-Practices"><a href="#Advanced-Practices" class="headerlink" title="Advanced Practices:"></a>Advanced Practices:</h3><ul>
+<li><strong>Prompt Templates:</strong><ul>
+<li>Use structured prompts with placeholders for variables.</li>
+<li>Tools: <a href="https://www.langchain.com/">LangChain</a> for modular prompt management.</li>
+</ul>
+</li>
+<li><strong>Iterative Refinement:</strong><ul>
+<li>Use tools like <a href="https://promptperfect.jina.ai/">PromptPerfect</a> to analyze and enhance prompt effectiveness.</li>
+</ul>
+</li>
+<li><strong>Handling Context:</strong><ul>
+<li>Manage long contexts using techniques like windowing or chunking, supported by <a href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
+<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for Handling Context in AI Models’</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
+<hr>
+<h2 id="4-Metrics-for-Evaluating-Prompt-Effectiveness"><a href="#4-Metrics-for-Evaluating-Prompt-Effectiveness" class="headerlink" title="4. Metrics for Evaluating Prompt Effectiveness"></a>4. Metrics for Evaluating Prompt Effectiveness</h2><p>Evaluating AI responses requires robust metrics and tools.</p>
+<h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics:"></a>Metrics:</h3><ul>
+<li><strong>Relevance and Accuracy:</strong><ul>
+<li>Techniques: Embedding similarity scoring (e.g., cosine similarity).</li>
+<li>Tools: <a href="https://www.sbert.net/">Sentence-Transformers</a>.</li>
+</ul>
+</li>
+<li><strong>Quality and Fluency:</strong><ul>
+<li>Automated tools like <a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a> or <a href="https://developer.grammarly.com/">Grammarly API</a>.</li>
+</ul>
+</li>
+<li><strong>BLEU, ROUGE, METEOR:</strong><ul>
+<li><a href="https://huggingface.co/metrics/bleu">BLEU</a></li>
+<li><a href="https://huggingface.co/metrics/rouge">ROUGE</a></li>
+<li><a href="">METEOR</a><ul>
+<li>Paper: <ul>
+<li>METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments, 2005. <ul>
+<li>Reaad on <a href="https://aclanthology.org/W05-0909.pdf">aclanthology.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Paper: The Meteor metric for automatic evaluation of machine translation, 2009<ul>
+<li>DOI:10.1007&#x2F;s10590-009-9059-4</li>
+<li>Read on <a href="https://sci-hub.se/10.1007/s10590-009-9059-4">sci-hub</a></li>
+</ul>
+</li>
+<li>Post: What is the METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)? <ul>
+<li>Reaad on <a href="https://klu.ai/glossary/meteor-score">klu.ai</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Compare responses to benchmarks using <a href="https://huggingface.co/docs/evaluate">Evaluate</a>.<ul>
+<li><a href="https://huggingface.co/docs/evaluate/installation">Evaluate - Installation</a></li>
+<li><a href="https://huggingface.co/docs/evaluate/a_quick_tour">Evaluate - A quick tour</a></li>
+<li><a href="https://huggingface.co/docs/evaluate/choosing_a_metric">Evaluate - Choosing a metric for your task</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-Testing-and-Automation-in-Prompt-Engineering"><a href="#5-Testing-and-Automation-in-Prompt-Engineering" class="headerlink" title="5. Testing and Automation in Prompt Engineering"></a>5. Testing and Automation in Prompt Engineering</h2><p>Automation ensures scalability and reliability in prompt testing.</p>
+<h3 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices:"></a>Best Practices:</h3><ul>
+<li><strong>Automated Test Suites:</strong><ul>
+<li>Frameworks: <a href="https://pytest.org/">pytest</a>, <a href="https://greatexpectations.io/">Great Expectations</a> for data validation.</li>
+</ul>
+</li>
+<li><strong>Version Control for Prompts:</strong><ul>
+<li>Use GitHub or GitLab with prompt-specific repositories.</li>
+</ul>
+</li>
+<li><strong>Continuous Testing Pipelines:</strong><ul>
+<li>CI&#x2F;CD integration using <a href="https://github.com/features/actions">GitHub Actions</a> or <a href="https://circleci.com/">CircleCI</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="6-Tools-for-Working-with-Language-Models"><a href="#6-Tools-for-Working-with-Language-Models" class="headerlink" title="6. Tools for Working with Language Models"></a>6. Tools for Working with Language Models</h2><p>Advanced tools simplify interaction with modern AI systems.</p>
+<h3 id="Recommendations"><a href="#Recommendations" class="headerlink" title="Recommendations:"></a>Recommendations:</h3><ul>
+<li><strong>Model APIs:</strong><ul>
+<li>OpenAI GPT-4, Cohere API (<a href="https://docs.cohere.com/">Cohere Docs</a>).</li>
+</ul>
+</li>
+<li><strong>Interactive Platforms:</strong><ul>
+<li><a href="https://www.notion.so/product/ai">Notion AI</a>, <a href="https://colab.research.google.com/">Google Colab</a>.</li>
+</ul>
+</li>
+<li><strong>Visual Analytics:</strong><ul>
+<li>Dashboards using <a href="https://streamlit.io/">Streamlit</a> or <a href="https://dash.plotly.com/">Plotly Dash</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="7-Software-Development-Skills"><a href="#7-Software-Development-Skills" class="headerlink" title="7. Software Development Skills"></a>7. Software Development Skills</h2><p>Integrating AI prompts into workflows requires coding expertise.</p>
+<h3 id="Key-Skills"><a href="#Key-Skills" class="headerlink" title="Key Skills:"></a>Key Skills:</h3><ul>
+<li><strong>Python for AI:</strong><ul>
+<li>Libraries: Hugging Face Transformers, OpenAI’s Python SDK.</li>
+</ul>
+</li>
+<li><strong>REST API Development:</strong><ul>
+<li>Tools: <a href="https://fastapi.tiangolo.com/">FastAPI</a>, Postman for testing.</li>
+</ul>
+</li>
+<li><strong>Versioning:</strong><ul>
+<li>Git and platforms like DVC (<a href="https://dvc.org/">Data Version Control</a>) for managing prompt iterations.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="8-Ethics-and-Limitations-in-AI"><a href="#8-Ethics-and-Limitations-in-AI" class="headerlink" title="8. Ethics and Limitations in AI"></a>8. Ethics and Limitations in AI</h2><p>Responsibility is a key aspect of prompt engineering.</p>
+<h3 id="Topics"><a href="#Topics" class="headerlink" title="Topics:"></a>Topics:</h3><ul>
+<li><strong>Ethical Prompt Design:</strong><ul>
+<li>Avoid introducing biases into generated outputs.</li>
+</ul>
+</li>
+<li><strong>Privacy and Security:</strong><ul>
+<li>Ensure that personal or sensitive data is anonymized.</li>
+<li>Tools: <a href="https://microsoft.github.io/presidio/">Presidio</a> for PII detection.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><h3 id="Tutorials-and-Resources"><a href="#Tutorials-and-Resources" class="headerlink" title="Tutorials and Resources:"></a>Tutorials and Resources:</h3><ul>
+<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">YouTube</a>, <a href="https://umarjamil.org/">Website</a>.  </li>
+<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">YouTube</a>.</li>
+</ul>
+<h3 id="Research-Papers"><a href="#Research-Papers" class="headerlink" title="Research Papers:"></a>Research Papers:</h3><ul>
+<li>“Attention is All You Need” - Vaswani et al., DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li>“Efficient Fine-Tuning Techniques for LLMs” - DOI: <a href="https://doi.org/10.48550/arXiv.2106.09685">10.48550&#x2F;arXiv.2106.09685</a>.</li>
+</ul>
+<h3 id="Tools-and-Libraries"><a href="#Tools-and-Libraries" class="headerlink" title="Tools and Libraries:"></a>Tools and Libraries:</h3><ul>
+<li>OpenAI API (<a href="https://platform.openai.com/docs">Docs</a>).  </li>
+<li>Hugging Face <a href="https://huggingface.co/transformers">Transformers</a>.  </li>
+<li>LangChain (<a href="https://www.langchain.com/">Website</a>).</li>
+</ul>
+<hr>
+<p><strong>Other posts</strong></p>
+<ol>
+<li>Prompt Design and Engineering: Introduction and Advanced Methods. Read on <a href="https://arxiv.org/html/2401.14423v4#S1.F2">arxiv.org</a></li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Prompt engineering is an evolving domain, combining technical expertise with creativity. With a solid foundation in AI, data analysis, and ethics, specialists can craft meaningful interactions between humans and machines. By leveraging modern tools and methodologies, professionals can drive innovation in the AI ecosystem.</p>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>papers</tag>
-        <tag>ML</tag>
+        <tag>science</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
       </tags>
   </entry>
   <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/posts/ai_ml/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML framework (Example-1)<br><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a><br> <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p>
+    <title>Tools for Augmenting Data and Generating Texts</title>
+    <url>/hexo-blog/2024/05/10/posts/ai__tools_for_augmenting_data_and_generating_texts/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text-Generation-Models"><a href="#Text-Generation-Models" class="headerlink" title="Text Generation Models"></a>Text Generation Models</h2><p>Text generation models are trained on large corpora and can generate semantically coherent and lexically varied sentences.</p>
+<ul>
+<li><strong>GPT-3&#x2F;GPT-4</strong>: Generates fluent and contextually relevant text. Supports fine-tuning and controlled outputs through prompt engineering.</li>
+<li><strong>GPT-2</strong>: Effective for text generation and fine-tuning to produce specific semantic or syntactic structures.</li>
+<li><strong>T5 (Text-to-Text Transfer Transformer)</strong>: Handles tasks by converting input into text-to-text format, generating sentences from structured input.</li>
+<li><strong>BERT</strong>: Primarily for understanding tasks, but paired with generation heads like BART or T5, it can generate relevant sentences.</li>
+</ul>
+<h2 id="Text-Augmentation-Libraries"><a href="#Text-Augmentation-Libraries" class="headerlink" title="Text Augmentation Libraries"></a>Text Augmentation Libraries</h2><p>Libraries for NLP data augmentation by altering existing sentences while retaining their meaning.</p>
+<ul>
+<li><strong>nlpaug</strong>: Augments text by synonym replacement, random insertions, and transformations using word embeddings.<ul>
+<li><a href="https://pypi.org/project/nlpaug/">PIP reference</a></li>
+<li><a href="https://towardsdatascience.com/data-augmentation-library-for-text-9661736b13ff">Post: Data Augmentation library for text</a></li>
+<li><a href="https://nlpaug.readthedocs.io/en/latest/index.html">nlpaug.readthedocs.io</a></li>
+</ul>
+</li>
+<li><strong>TextAttack</strong>: Provides adversarial attacks and paraphrasing methods for generating variations of sentences.<ul>
+<li><a href="https://textattack.readthedocs.io/en/master/index.html">TextAttack Documentation</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Semantic-Structure-based-Text-Generation"><a href="#Semantic-Structure-based-Text-Generation" class="headerlink" title="Semantic Structure-based Text Generation"></a>Semantic Structure-based Text Generation</h2><p>Tools for precise control over semantic structure in generated sentences.</p>
+<ul>
+<li><strong>Controlled Text Generation (via GPT-3&#x2F;4)</strong>: Uses structured prompts to guide text generation toward desired structures or concepts.</li>
+<li><strong>OpenAI Codex</strong>: Generates text based on semantic instructions or structural descriptions.</li>
+<li><strong>DeepAI’s Text Generation API</strong>: Generates text based on input semantics and structure.</li>
+<li><strong>CTRL (Conditional Transformer Language Model)</strong>: Conditions text generation on control codes for specific topics or structures.</li>
+</ul>
+<h2 id="Rule-based-Text-Generation"><a href="#Rule-based-Text-Generation" class="headerlink" title="Rule-based Text Generation"></a>Rule-based Text Generation</h2><p>Generates text based on predefined templates or rules.</p>
+<ul>
+<li><strong>OpenNLP</strong>: Uses templates and rules for sentence generation.<ul>
+<li><a href="https://opennlp.apache.org/docs/2.5.0/manual/opennlp.html">Apache OpenNLP Developer Documentation</a></li>
+</ul>
+</li>
+<li><strong>Template-based Generation</strong>: Tools like <strong><a href="https://yarnpkg.com/">Yarn</a></strong> or <strong><a href="https://jinja.palletsprojects.com/en/stable/">Jinja2</a></strong> allow for generating text using templates with placeholders.</li>
+</ul>
+<h2 id="Lexical-Substitution-and-Paraphrasing-Tools"><a href="#Lexical-Substitution-and-Paraphrasing-Tools" class="headerlink" title="Lexical Substitution and Paraphrasing Tools"></a>Lexical Substitution and Paraphrasing Tools</h2><p>Tools for modifying words or phrases while maintaining semantic meaning.</p>
+<ul>
+<li><strong>Paraphrase Generation with BART or T5</strong>: Generates sentence variations that preserve meaning.</li>
+<li><strong>WordNet-based tools</strong>: Uses lexical substitution to replace words with synonyms or semantically related words.</li>
+</ul>
+<h2 id="Generating-Text-Based-on-Semantic-Structures"><a href="#Generating-Text-Based-on-Semantic-Structures" class="headerlink" title="Generating Text Based on Semantic Structures"></a>Generating Text Based on Semantic Structures</h2><p>Tools and techniques to guide text generation using semantic roles or lexical features.</p>
+<ul>
+<li><strong>Graph-based Models</strong>: Represent word or sentence relationships to guide generation using tools like <strong>spaCy</strong>.</li>
+<li><strong>Semantic Role Labeling (SRL)</strong>: Tools like <strong>AllenNLP</strong> tag sentence components to generate text following specific roles or patterns.<ul>
+<li>Read more about Semantic Role Labeling in <a href="https://aclanthology.org/2023.findings-eacl.134.pdf">paper: PriMeSRL-Eval: A Practical Quality Metric for Semantic Role Labeling Systems Evaluation </a></li>
+</ul>
+</li>
+<li><strong>Lexical and Syntactic Features</strong>: Fine-tunes models to control lexical variety or syntactic structure based on desired patterns.</li>
+</ul>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>A wide range of tools like <strong>GPT-3</strong>, <strong>T5</strong>, <strong>TextAttack</strong>, and <strong>nlpaug</strong> are available for augmenting data and generating text. They provide flexibility for creating semantically diverse and lexically varied text, while specialized tools like <strong>AllenNLP</strong> enable controlled generation based on specific structures and constraints.</p>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Techniques for Handling Context in AI Models</title>
+    <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and tools to enhance context management. Below is a detailed list of techniques and associated tools.</p>
+<p><strong>DOI not checked !!!!</strong></p>
+<h2 id="Techniques"><a href="#Techniques" class="headerlink" title="Techniques"></a>Techniques</h2><h3 id="1-Windowing-Sliding-Window-Technique"><a href="#1-Windowing-Sliding-Window-Technique" class="headerlink" title="1. Windowing (Sliding Window Technique)"></a>1. Windowing (Sliding Window Technique)</h3><ul>
+<li><strong>Title</strong>: Sliding Windows for Sequence Labeling: Applications in Named Entity Recognition  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1906.02691">10.48550&#x2F;arXiv.1906.02691</a></li>
+</ul>
+<hr>
+<h3 id="2-Chunking-and-Overlapping-Contexts"><a href="#2-Chunking-and-Overlapping-Contexts" class="headerlink" title="2. Chunking and Overlapping Contexts"></a>2. Chunking and Overlapping Contexts</h3><ul>
+<li><strong>Title</strong>: Hierarchical Attention Networks for Document Classification  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a></li>
+</ul>
+<hr>
+<h3 id="3-Hierarchical-Context-Representations"><a href="#3-Hierarchical-Context-Representations" class="headerlink" title="3. Hierarchical Context Representations"></a>3. Hierarchical Context Representations</h3><ul>
+<li><strong>Title</strong>: Hierarchical Attention for Sequence Learning  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1911.03688">10.48550&#x2F;arXiv.1911.03688</a></li>
+</ul>
+<hr>
+<h3 id="4-Memory-Augmented-Neural-Networks-MANNs"><a href="#4-Memory-Augmented-Neural-Networks-MANNs" class="headerlink" title="4. Memory-Augmented Neural Networks (MANNs)"></a>4. Memory-Augmented Neural Networks (MANNs)</h3><ul>
+<li><strong>Title</strong>: Meta-Learning with Memory-Augmented Neural Networks  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1605.06065">10.48550&#x2F;arXiv.1605.06065</a></li>
+</ul>
+<hr>
+<h3 id="5-Transformer-Variants-for-Long-Contexts"><a href="#5-Transformer-Variants-for-Long-Contexts" class="headerlink" title="5. Transformer Variants for Long Contexts"></a>5. Transformer Variants for Long Contexts</h3><h4 id="Longformer"><a href="#Longformer" class="headerlink" title="Longformer"></a>Longformer</h4><ul>
+<li><strong>Title</strong>: Longformer: The Long-Document Transformer  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2004.05150">10.48550&#x2F;arXiv.2004.05150</a></li>
+</ul>
+<h4 id="Reformer"><a href="#Reformer" class="headerlink" title="Reformer"></a>Reformer</h4><ul>
+<li><strong>Title</strong>: Reformer: The Efficient Transformer  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2001.04451">10.48550&#x2F;arXiv.2001.04451</a></li>
+</ul>
+<hr>
+<h3 id="6-Compression-Based-Context-Management-Summarization"><a href="#6-Compression-Based-Context-Management-Summarization" class="headerlink" title="6. Compression-Based Context Management (Summarization)"></a>6. Compression-Based Context Management (Summarization)</h3><ul>
+<li><strong>Title</strong>: Pretrained Transformers for Text Summarization  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2110.02096">10.48550&#x2F;arXiv.2110.02096</a></li>
+</ul>
+<hr>
+<h3 id="7-Causal-Attention-Mechanisms"><a href="#7-Causal-Attention-Mechanisms" class="headerlink" title="7. Causal Attention Mechanisms"></a>7. Causal Attention Mechanisms</h3><ul>
+<li><strong>Title</strong>: Attention Is All You Need  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1906.01548">10.48550&#x2F;arXiv.1906.01548</a></li>
+</ul>
+<hr>
+<h3 id="8-Vector-Based-Semantic-Search-Dense-Vector-Representations"><a href="#8-Vector-Based-Semantic-Search-Dense-Vector-Representations" class="headerlink" title="8. Vector-Based Semantic Search (Dense Vector Representations)"></a>8. Vector-Based Semantic Search (Dense Vector Representations)</h3><ul>
+<li><strong>Title</strong>: Sentence-BERT: Sentence Embeddings Using Siamese Networks  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2004.00995">10.48550&#x2F;arXiv.2004.00995</a></li>
+</ul>
+<hr>
+<h3 id="9-Retrieval-Augmented-Generation-RAG"><a href="#9-Retrieval-Augmented-Generation-RAG" class="headerlink" title="9. Retrieval-Augmented Generation (RAG)"></a>9. Retrieval-Augmented Generation (RAG)</h3><ul>
+<li><strong>Title</strong>: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2005.11401">10.48550&#x2F;arXiv.2005.11401</a></li>
+</ul>
+<hr>
+<h3 id="10-Cache-Augmented-Models-for-Recurrent-Usage"><a href="#10-Cache-Augmented-Models-for-Recurrent-Usage" class="headerlink" title="10. Cache Augmented Models for Recurrent Usage"></a>10. Cache Augmented Models for Recurrent Usage</h3><ul>
+<li><strong>Title</strong>: Cache-Augmented Models for Dialogue Generation  </li>
+<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1905.12777">10.48550&#x2F;arXiv.1905.12777</a></li>
+</ul>
+<hr>
+<h2 id="Tools-and-Frameworks"><a href="#Tools-and-Frameworks" class="headerlink" title="Tools and Frameworks"></a>Tools and Frameworks</h2><h3 id="1-Pinecone"><a href="#1-Pinecone" class="headerlink" title="1. Pinecone"></a>1. <a href="https://www.pinecone.io/">Pinecone</a></h3><ul>
+<li>Provides vector-based memory and semantic search capabilities.</li>
+</ul>
+<h3 id="2-LangChain"><a href="#2-LangChain" class="headerlink" title="2. LangChain"></a>2. <a href="https://www.langchain.com/">LangChain</a></h3><ul>
+<li>Handles chunking, memory management, and retrieval tasks for LLMs.</li>
+</ul>
+<h3 id="3-FAISS-Facebook-AI-Similarity-Search"><a href="#3-FAISS-Facebook-AI-Similarity-Search" class="headerlink" title="3. FAISS (Facebook AI Similarity Search)"></a>3. <a href="https://faiss.ai/">FAISS (Facebook AI Similarity Search)</a></h3><ul>
+<li>Optimized for efficient similarity search on dense vectors.</li>
+</ul>
+<h3 id="4-Weaviate"><a href="#4-Weaviate" class="headerlink" title="4. Weaviate"></a>4. <a href="https://weaviate.io/">Weaviate</a></h3><ul>
+<li>Offers scalable vector search and knowledge graph integrations.</li>
+</ul>
+<h3 id="5-Hugging-Face’s-Transformers"><a href="#5-Hugging-Face’s-Transformers" class="headerlink" title="5. Hugging Face’s Transformers"></a>5. <a href="https://huggingface.co/transformers/">Hugging Face’s Transformers</a></h3><ul>
+<li>Implements state-of-the-art transformer models like Longformer and Reformer.</li>
+</ul>
+<h3 id="6-OpenAI-Embeddings"><a href="#6-OpenAI-Embeddings" class="headerlink" title="6. OpenAI Embeddings"></a>6. <a href="https://platform.openai.com/docs/guides/embeddings/">OpenAI Embeddings</a></h3><ul>
+<li>Provides embeddings for vector search and semantic tasks.</li>
+</ul>
+<h3 id="7-Redis-Vector-Store"><a href="#7-Redis-Vector-Store" class="headerlink" title="7. Redis Vector Store"></a>7. <a href="https://redis.io/docs/stack/search/">Redis Vector Store</a></h3><ul>
+<li>Lightweight memory storage for vectorized data.</li>
+</ul>
+<h3 id="8-GPT-Index-LlamaIndex"><a href="#8-GPT-Index-LlamaIndex" class="headerlink" title="8. GPT Index (LlamaIndex)"></a>8. <a href="https://gpt-index.readthedocs.io/">GPT Index (LlamaIndex)</a></h3><ul>
+<li>Automates document splitting, chunking, and embedding management for LLMs.</li>
+</ul>
+<h3 id="9-Haystack"><a href="#9-Haystack" class="headerlink" title="9. Haystack"></a>9. <a href="https://haystack.deepset.ai/">Haystack</a></h3><ul>
+<li>An open-source framework for retrieval-augmented generation (RAG).</li>
+</ul>
+<h3 id="10-MemGPT"><a href="#10-MemGPT" class="headerlink" title="10. MemGPT"></a>10. <a href="https://memgpt.ai/">MemGPT</a></h3><ul>
+<li>Enhances memory for multi-session GPT-based interactions.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
+        <tag>LLM</tag>
       </tags>
   </entry>
   <entry>
     <title>AI - Machine Learning + emotions</title>
-    <url>/hexo-blog/2024/11/21/posts/ai_ml_emotions/</url>
+    <url>/hexo-blog/2024/11/21/posts/ai_ml__emotions/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
 <li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with a Multi-task Retrieval-based LLMs Framework</em></p>
 <ul>
@@ -1668,14 +2077,14 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>emotions</tag>
       </tags>
   </entry>
   <entry>
     <title>Fine-tuning vs. Feature-based Approaches</title>
-    <url>/hexo-blog/2024/11/21/posts/ai_ml_finetuning_vs_feature_based_approaches/</url>
+    <url>/hexo-blog/2024/11/21/posts/ai_ml__finetuning_vs_feature_based_approaches/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
 <p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
 <p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
@@ -1714,8 +2123,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>emotions</tag>
       </tags>
   </entry>
@@ -1863,99 +2272,201 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>LLM</tag>
       </tags>
   </entry>
   <entry>
-    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
-    <url>/hexo-blog/2024/11/13/posts/ai_base_gan/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
-<p><strong>Особенности генеративного ИИ</strong></p>
-<ul>
-<li>Создание нового контента: <ul>
-<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
-</ul>
-</li>
-<li>Высокая адаптивность:<ul>
-<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
-</ul>
-</li>
-<li>Использование больших объемов данных:<ul>
-<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
-</ul>
-</li>
-<li>Сложность в контроле результатов: <ul>
-<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Разновидности генеративного ИИ</strong></p>
-<ul>
-<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
-<ul>
-<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
-</ul>
-</li>
-<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
-<ul>
-<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
-<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
-<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
-<p><strong>Диффузионные модели</strong></p>
-<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
-<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
-<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
-<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
-<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
-<ul>
-<li><p>Создание новых данных vs. анализ и предсказание:</p>
-</li>
-<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
-</li>
-<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
-</li>
-<li><p>Использование для творчества и генерации контента:</p>
-<ul>
-<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
-<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Комплексность и требования к обучению:</strong></p>
-<ul>
-<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
-<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
-</ul>
-<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
-<ul>
-<li>Развлечения и медиа: <ul>
-<li>создание музыки, текста, изображений, сценариев.</li>
-</ul>
-</li>
-<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
-<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
-<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
-</ul>
-<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/posts/ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML framework (Example-1)<br><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a><br> <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
-        <tag>science</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/posts/ai_ml__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>papers</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Evolution of Text Augmentation in NLP</title>
+    <url>/hexo-blog/2024/11/25/posts/ai_nlp__evolution_of_text_augmentation_in_nlp/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text augmentation has evolved alongside advancements in natural language processing (NLP), enabling robust data generation and model improvement. Below is a detailed history, including its origins, foundational works, and key developments.</p>
+<h2 id="Origins-of-Development-Pre-Digital-Era-1940s–1960s"><a href="#Origins-of-Development-Pre-Digital-Era-1940s–1960s" class="headerlink" title="Origins of Development: Pre-Digital Era (1940s–1960s)"></a>Origins of Development: Pre-Digital Era (1940s–1960s)</h2><p><strong>Discovery</strong>: The foundations of text augmentation trace back to linguistic research and early computational experiments. Theoretical frameworks like <strong>Noam Chomsky’s generative grammar</strong> established the principles of sentence structure and transformation.</p>
+<p><strong>Significance</strong>: These linguistic theories formed the basis for later computational methods for generating diverse text variations.</p>
+<ul>
+<li><p><strong>Book</strong>:</p>
+<ul>
+<li>Syntactic Structures. Noam Chomsky. 1957.<ul>
+<li><a href="https://mitpress.mit.edu/">Read on MIT Press</a></li>
+</ul>
+</li>
+<li>Syntactic Structures. Noam Chomsky. 2nd edition. 2022 (with introduction by David Lightfoot)<ul>
+<li><a href="https://tallinzen.net/media/readings/chomsky_syntactic_structures.pdf">Read on tallinzen.net</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Papers</strong>:</p>
+<ul>
+<li>A Mathematical Theory of Communication. Shannon, C. E. (1948). Bell System Technical Journal, 27(3), 379–423.<ul>
+<li>DOI: 10.1002&#x2F;j.1538-7305.1948.tb01338.x </li>
+<li><a href="https://sci-hub.se/https://doi.org/10.1002/j.1538-7305.1948.tb01338.x">Read on sci-hub.se</a></li>
+</ul>
+</li>
+<li>Three models for the description of language. Chomsky, N. (1956). IEEE Transactions on Information Theory, 2(3), 113–124.<ul>
+<li>DOI: 10.1109&#x2F;TIT.1956.1056813</li>
+<li><a href="https://sci-hub.se/10.1109/TIT.1956.1056813">Read on sci-hub.se</a></li>
+</ul>
+</li>
+<li>Syntactic Structures. Language, Lees, R. B., &amp; Chomsky, N. (1957). 33(3), 375. <ul>
+<li>DOI:10.2307&#x2F;411160 </li>
+<li><a href="https://sci-hub.se/https://doi.org/10.2307/411160">Read on sci-hub.se</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Early-Rule-Based-Methods-1960s–1980s"><a href="#Early-Rule-Based-Methods-1960s–1980s" class="headerlink" title="Early Rule-Based Methods (1960s–1980s)"></a>Early Rule-Based Methods (1960s–1980s)</h2><p><strong>Discovery</strong>: Rule-based systems emerged as the first computational attempt to augment text. By encoding syntactic and semantic rules, these methods allowed for manual text transformations, such as synonym replacement and sentence restructuring.</p>
+<p><strong>Significance</strong>: These approaches demonstrated how structured transformations could enrich NLP tasks like translation and summarization.</p>
+<ul>
+<li><strong>Paper</strong>:<ul>
+<li>Computational Semantics for Natural Language Processing. Yorick Wilks. 1972.</li>
+<li>DOI: 10.1145&#x2F;1234567</li>
+<li><a href="https://dl.acm.org/doi/10.1145/1234567">Read on ACM</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Emergence-of-Statistical-Methods-1990s"><a href="#Emergence-of-Statistical-Methods-1990s" class="headerlink" title="Emergence of Statistical Methods (1990s)"></a>Emergence of Statistical Methods (1990s)</h2><p><strong>Discovery</strong>: Statistical NLP introduced probabilistic models such as n-grams and Hidden Markov Models (HMMs), enabling dynamic text generation. Techniques like paraphrase generation through probabilistic alignment gained traction.</p>
+<p><strong>Significance</strong>: The shift to statistical methods increased scalability and adaptability, marking a transition from deterministic rules to data-driven approaches.</p>
+<ul>
+<li><p><strong>Paper</strong>:</p>
+<ul>
+<li>A Statistical Approach to Machine Translation. Brown et al. 1990.<ul>
+<li>DOI: 10.1162&#x2F;089120100750105975</li>
+<li><a href="https://aclanthology.org/J90-2002.pdf">Read on aclanthology.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Fundamental Work</strong>:</p>
+<ul>
+<li>Foundations of Statistical Natural Language Processing. Manning &amp; Schütze. 1999.<ul>
+<li>DOI: N&#x2F;A</li>
+<li><a href="https://web.stanford.edu/~jurafsky/fsnlp/">Read on web.stanford.edu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Word-Embeddings-and-Neural-Networks-2000s–2010s"><a href="#Word-Embeddings-and-Neural-Networks-2000s–2010s" class="headerlink" title="Word Embeddings and Neural Networks (2000s–2010s)"></a>Word Embeddings and Neural Networks (2000s–2010s)</h2><p><strong>Discovery</strong>: Embedding-based models like Word2Vec and GloVe enabled semantic-aware text augmentation, where words with similar meanings were mapped closer in vector space. Neural networks introduced deeper, context-aware text manipulation.</p>
+<p><strong>Significance</strong>: Word embeddings made synonym substitution and paraphrasing more semantically relevant, while neural networks added contextual depth.</p>
+<ul>
+<li><strong>Paper</strong>:<ul>
+<li>Distributed Representations of Words and Phrases and Their Compositionality. Mikolov et al. 2013.<ul>
+<li>DOI: 10.1162&#x2F;153244303322533223</li>
+<li><a href="https://arxiv.org/pdf/1310.4546">Read on arXiv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Transformer-Revolution-2017–Present"><a href="#Transformer-Revolution-2017–Present" class="headerlink" title="Transformer Revolution (2017–Present)"></a>Transformer Revolution (2017–Present)</h2><p><strong>Discovery</strong>: Transformers like BERT, GPT, and T5 redefined NLP, introducing powerful models for context-aware text augmentation. Techniques such as masked language modeling and text-to-text generation became mainstream.</p>
+<p><strong>Significance</strong>: The transformer architecture allowed for high-quality, large-scale text augmentation, driving state-of-the-art performance in multiple NLP tasks.</p>
+<ul>
+<li><p><strong>Paper</strong>:</p>
+<ul>
+<li>Attention Is All You Need. Vaswani et al. 2017.<ul>
+<li>DOI: 10.48550&#x2F;arXiv.1706.03762</li>
+<li><a href="https://arxiv.org/pdf/1706.03762">Read on arXiv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Paper</strong>:</p>
+<ul>
+<li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. Devlin et al. 2018.<ul>
+<li>DOI: 10.48550&#x2F;arXiv.1810.04805</li>
+<li><a href="https://arxiv.org/pdf/1810.04805">Read on arXiv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Modern-NLP-Data-Augmentation-Libraries-2020s"><a href="#Modern-NLP-Data-Augmentation-Libraries-2020s" class="headerlink" title="Modern NLP Data Augmentation Libraries (2020s)"></a>Modern NLP Data Augmentation Libraries (2020s)</h2><p><strong>Discovery</strong>: The development of augmentation libraries such as <strong>nlpaug</strong>, <strong>TextAttack</strong>, and <strong>EDA (Easy Data Augmentation)</strong> simplified access to advanced techniques like back-translation, synonym replacement, and adversarial generation.</p>
+<p><strong>Significance</strong>: These tools democratized text augmentation, making sophisticated methods accessible for both research and industry.</p>
+<ul>
+<li><p><strong>Paper</strong>:</p>
+<ul>
+<li>TextAttack: A Framework for Adversarial Attacks, Data Augmentation, and Model Training. Morris et al. 2020.<ul>
+<li>DOI: 10.48550&#x2F;arXiv.2005.05909</li>
+<li><a href="https://arxiv.org/pdf/2005.05909">Read on arXiv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Paper</strong>:</p>
+<ul>
+<li>EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks. Wei &amp; Zou. 2019.<ul>
+<li>DOI: 10.48550&#x2F;arXiv.1901.11196</li>
+<li><a href="https://arxiv.org/pdf/1901.11196">Read on arXiv</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Text augmentation has evolved from manual rules to cutting-edge neural models and accessible libraries. These advancements have significantly enriched NLP applications, highlighting the importance of augmentation in the field’s historical and future trajectory.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLP</tag>
+        <tag>lexic</tag>
       </tags>
   </entry>
   <entry>
     <title>Machine Learning Techniques - Overview</title>
-    <url>/hexo-blog/2024/09/28/posts/ai_ml_techniques_overview_1/</url>
+    <url>/hexo-blog/2024/09/28/posts/ai_ml__techniques_overview_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this guide, we will review popular machine learning techniques with a brief overview of their applications, complexity levels, and some historical context. This list provides a starting point for understanding core machine learning methods and their practical uses.</p>
 <hr>
 <p><a href="" target="_blank"></a></p>
@@ -2173,13 +2684,30 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NLP lexical resources</title>
+    <url>/hexo-blog/2024/11/25/posts/ai_nlp__lexic/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
+<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
+<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
+<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLP</tag>
+        <tag>lexic</tag>
       </tags>
   </entry>
   <entry>
     <title>NLP in pictures</title>
-    <url>/hexo-blog/2024/11/21/posts/ai_nlp_basics_in_pictures_1/</url>
+    <url>/hexo-blog/2024/11/21/posts/ai_nlp__nlp_in_pictures_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="NLP-extracting-information-flow"><a href="#NLP-extracting-information-flow" class="headerlink" title="NLP extracting information flow"></a>NLP extracting information flow</h2><h3 id="Desired-logical-processes"><a href="#Desired-logical-processes" class="headerlink" title="Desired (logical processes)"></a>Desired (logical processes)</h3><p>Morphological analysis &gt;&gt; Syntax analysis  &gt;&gt; Semantic analysis  &gt;&gt; Extracting information</p>
 <hr>
 <h3 id="NLP-text-processing-pipeline-imagination-in-some-AI-ML-engineers-heads"><a href="#NLP-text-processing-pipeline-imagination-in-some-AI-ML-engineers-heads" class="headerlink" title="NLP text processing pipeline (imagination in some AI&#x2F;ML engineers heads)"></a>NLP text processing pipeline (imagination in some AI&#x2F;ML engineers heads)</h3><p><img src="/hexo-blog/images/nlp__text_processing_pipeline_ex_1_1.png" alt="NLP text processing pipeline" title="NLP text processing pipeline" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p></p>
@@ -2197,31 +2725,14 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
+        <tag>AI</tag>
         <tag>ML</tag>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLP lexical resources</title>
-    <url>/hexo-blog/2024/11/25/posts/ai_nlp_lexic/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
-<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
-<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
-<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
         <tag>NLP</tag>
-        <tag>AI</tag>
-        <tag>lexic</tag>
       </tags>
   </entry>
   <entry>
     <title>NLP tasks</title>
-    <url>/hexo-blog/2024/11/17/posts/ai_nlp_tasks_intro_1/</url>
+    <url>/hexo-blog/2024/11/17/posts/ai_nlp__nlp_tasks_intro_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Natural Language Processing (NLP) encompasses a variety of tasks that enable machines to understand, interpret, and generate human language. Below is an overview of some of the most important NLP tasks and their applications.</p>
 <hr>
 <h2 id="1-Sentiment-Analysis"><a href="#1-Sentiment-Analysis" class="headerlink" title="1. Sentiment Analysis"></a>1. Sentiment Analysis</h2><p><strong>Description</strong>: Determines the sentiment or emotion expressed in text (positive, negative, neutral).<br><strong>Applications</strong>: Social media monitoring, product reviews, customer feedback.<br><strong>Datasets</strong>: IMDB Reviews, Sentiment140.<br><strong>References</strong>:  </p>
@@ -2304,14 +2815,14 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
     <title>Text Classification. Historical overview, tools, and techniques.</title>
-    <url>/hexo-blog/2024/11/19/posts/ai_nlp_text_classification_intro_1/</url>
+    <url>/hexo-blog/2024/11/19/posts/ai_nlp__text_classification_intro_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text classification is a fundamental task in Natural Language Processing (NLP) that involves categorizing text into predefined categories. Its applications range from sentiment analysis to spam detection, and news categorization to intent recognition in conversational AI. This document provides a historical overview, a comparative analysis of tools, and details about modern approaches like Word2Vec, FastText, GloVe, and deep learning.</p>
 <ol>
 <li><p>Historical Overview of Text Classification</p>
@@ -2426,15 +2937,15 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
         <tag>text_classification</tag>
       </tags>
   </entry>
   <entry>
     <title>Types of sentiment analysis techniques in NLP</title>
-    <url>/hexo-blog/2024/11/21/posts/ai_nlp_types_of_sentiment_analysis_techniques_in_nlp/</url>
+    <url>/hexo-blog/2024/11/21/posts/ai_nlp__types_of_sentiment_analysis_techniques_in_nlp/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>related to : <a href="/hexo-blog/ai_ml_llm_system_prompts/">LLM system prompts</a></em></p>
 <p><strong>Types of Sentiment Analysis Techniques for NLP (with DOI Papers)</strong><br><em>This post summarizes various sentiment analysis techniques, from lexicon-based methods to advanced deep learning approaches, along with DOI references to explore these concepts further.</em></p>
 <hr>
@@ -2521,8 +3032,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -2754,213 +3265,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>glossary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prompt Engineering - start.</title>
-    <url>/hexo-blog/2024/10/28/posts/ai_promt_engineer_start/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
-<hr>
-<h2 id="1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning"><a href="#1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning" class="headerlink" title="1. Core Knowledge in Artificial Intelligence and Machine Learning"></a>1. Core Knowledge in Artificial Intelligence and Machine Learning</h2><p>Understanding generative AI and large language models (LLMs) is foundational to prompt engineering.</p>
-<h3 id="Key-Topics"><a href="#Key-Topics" class="headerlink" title="Key Topics:"></a>Key Topics:</h3><ul>
-<li><strong>Natural Language Processing (NLP):</strong> <ul>
-<li>Learn about tokenization, embedding, and attention mechanisms.</li>
-<li>Familiar tools: <a href="https://spacy.io/">spaCy</a> (2020+), <a href="https://huggingface.co/transformers">Transformers by Hugging Face</a>.</li>
-</ul>
-</li>
-<li><strong>Language Models:</strong><ul>
-<li>Explore architectures like GPT (OpenAI), BERT, and T5.</li>
-<li>Key tools: <a href="https://platform.openai.com/docs">OpenAI API</a>, <a href="https://www.tensorflow.org/">Google’s TensorFlow</a>, and Hugging Face’s datasets.</li>
-</ul>
-</li>
-<li><strong>Fine-Tuning Techniques:</strong><ul>
-<li>Study transfer learning for customizing LLMs with domain-specific data.</li>
-<li>Libraries: <a href="https://huggingface.co/docs/diffusers/v0.16.0/en/training/lora">LoRA</a> (Low-Rank Adaptation for fine-tuning large models).<ul>
-<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models &#x2F; DOI <a href="https://arxiv.org/abs/2106.09685">arxiv.org&#x2F;abs&#x2F;2106.09685</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><ul>
-<li>Vaswani et al., 2017, “Attention is All You Need” - DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
-<li><em>Efficient Fine-Tuning Techniques for LLMs</em> (Hugging Face PEFT).</li>
-</ul>
-<hr>
-<h2 id="2-Data-Handling-Skills"><a href="#2-Data-Handling-Skills" class="headerlink" title="2. Data Handling Skills"></a>2. Data Handling Skills</h2><p>Prompt engineering often involves working with large datasets to understand and refine AI responses.</p>
-<h3 id="Tools-and-Techniques"><a href="#Tools-and-Techniques" class="headerlink" title="Tools and Techniques:"></a>Tools and Techniques:</h3><ul>
-<li><strong>Data Preprocessing:</strong><ul>
-<li>Techniques: Noise reduction, stemming, and lemmatization.</li>
-<li>Tools: <a href="https://cleanlab.io/">Cleanlab</a>, <a href="https://www.nltk.org/">NLTK</a> (for text-specific preprocessing).</li>
-</ul>
-</li>
-<li><strong>Data Analysis:</strong><ul>
-<li>Understand statistical trends in model responses.</li>
-<li>Tools: <a href="https://pola-rs.github.io/polars/">Polars</a>, an alternative to <a href="https://pandas.pydata.org/">Pandas</a> for high-performance data handling.</li>
-</ul>
-</li>
-<li><strong>Tokenization Analysis:</strong><ul>
-<li>Evaluate token usage in models using OpenAI’s <code>tiktoken</code> library (<a href="https://github.com/openai/tiktoken">GitHub</a>).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="3-Prompt-Design-and-Optimization"><a href="#3-Prompt-Design-and-Optimization" class="headerlink" title="3. Prompt Design and Optimization"></a>3. Prompt Design and Optimization</h2><p>Crafting effective prompts is at the heart of this role.</p>
-<h3 id="Advanced-Practices"><a href="#Advanced-Practices" class="headerlink" title="Advanced Practices:"></a>Advanced Practices:</h3><ul>
-<li><strong>Prompt Templates:</strong><ul>
-<li>Use structured prompts with placeholders for variables.</li>
-<li>Tools: <a href="https://www.langchain.com/">LangChain</a> for modular prompt management.</li>
-</ul>
-</li>
-<li><strong>Iterative Refinement:</strong><ul>
-<li>Use tools like <a href="https://promptperfect.jina.ai/">PromptPerfect</a> to analyze and enhance prompt effectiveness.</li>
-</ul>
-</li>
-<li><strong>Handling Context:</strong><ul>
-<li>Manage long contexts using techniques like windowing or chunking, supported by <a href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
-<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for Handling Context in AI Models’</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="4-Metrics-for-Evaluating-Prompt-Effectiveness"><a href="#4-Metrics-for-Evaluating-Prompt-Effectiveness" class="headerlink" title="4. Metrics for Evaluating Prompt Effectiveness"></a>4. Metrics for Evaluating Prompt Effectiveness</h2><p>Evaluating AI responses requires robust metrics and tools.</p>
-<h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics:"></a>Metrics:</h3><ul>
-<li><strong>Relevance and Accuracy:</strong><ul>
-<li>Techniques: Embedding similarity scoring (e.g., cosine similarity).</li>
-<li>Tools: <a href="https://www.sbert.net/">Sentence-Transformers</a>.</li>
-</ul>
-</li>
-<li><strong>Quality and Fluency:</strong><ul>
-<li>Automated tools like <a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a> or <a href="https://developer.grammarly.com/">Grammarly API</a>.</li>
-</ul>
-</li>
-<li><strong>BLEU, ROUGE, METEOR:</strong><ul>
-<li><a href="https://huggingface.co/metrics/bleu">BLEU</a></li>
-<li><a href="https://huggingface.co/metrics/rouge">ROUGE</a></li>
-<li><a href="">METEOR</a><ul>
-<li>Paper: <ul>
-<li>METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments, 2005. <ul>
-<li>Reaad on <a href="https://aclanthology.org/W05-0909.pdf">aclanthology.org</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Paper: The Meteor metric for automatic evaluation of machine translation, 2009<ul>
-<li>DOI:10.1007&#x2F;s10590-009-9059-4</li>
-<li>Read on <a href="https://sci-hub.se/10.1007/s10590-009-9059-4">sci-hub</a></li>
-</ul>
-</li>
-<li>Post: What is the METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)? <ul>
-<li>Reaad on <a href="https://klu.ai/glossary/meteor-score">klu.ai</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Compare responses to benchmarks using <a href="https://huggingface.co/docs/evaluate">Evaluate</a>.<ul>
-<li><a href="https://huggingface.co/docs/evaluate/installation">Evaluate - Installation</a></li>
-<li><a href="https://huggingface.co/docs/evaluate/a_quick_tour">Evaluate - A quick tour</a></li>
-<li><a href="https://huggingface.co/docs/evaluate/choosing_a_metric">Evaluate - Choosing a metric for your task</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="5-Testing-and-Automation-in-Prompt-Engineering"><a href="#5-Testing-and-Automation-in-Prompt-Engineering" class="headerlink" title="5. Testing and Automation in Prompt Engineering"></a>5. Testing and Automation in Prompt Engineering</h2><p>Automation ensures scalability and reliability in prompt testing.</p>
-<h3 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices:"></a>Best Practices:</h3><ul>
-<li><strong>Automated Test Suites:</strong><ul>
-<li>Frameworks: <a href="https://pytest.org/">pytest</a>, <a href="https://greatexpectations.io/">Great Expectations</a> for data validation.</li>
-</ul>
-</li>
-<li><strong>Version Control for Prompts:</strong><ul>
-<li>Use GitHub or GitLab with prompt-specific repositories.</li>
-</ul>
-</li>
-<li><strong>Continuous Testing Pipelines:</strong><ul>
-<li>CI&#x2F;CD integration using <a href="https://github.com/features/actions">GitHub Actions</a> or <a href="https://circleci.com/">CircleCI</a>.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="6-Tools-for-Working-with-Language-Models"><a href="#6-Tools-for-Working-with-Language-Models" class="headerlink" title="6. Tools for Working with Language Models"></a>6. Tools for Working with Language Models</h2><p>Advanced tools simplify interaction with modern AI systems.</p>
-<h3 id="Recommendations"><a href="#Recommendations" class="headerlink" title="Recommendations:"></a>Recommendations:</h3><ul>
-<li><strong>Model APIs:</strong><ul>
-<li>OpenAI GPT-4, Cohere API (<a href="https://docs.cohere.com/">Cohere Docs</a>).</li>
-</ul>
-</li>
-<li><strong>Interactive Platforms:</strong><ul>
-<li><a href="https://www.notion.so/product/ai">Notion AI</a>, <a href="https://colab.research.google.com/">Google Colab</a>.</li>
-</ul>
-</li>
-<li><strong>Visual Analytics:</strong><ul>
-<li>Dashboards using <a href="https://streamlit.io/">Streamlit</a> or <a href="https://dash.plotly.com/">Plotly Dash</a>.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="7-Software-Development-Skills"><a href="#7-Software-Development-Skills" class="headerlink" title="7. Software Development Skills"></a>7. Software Development Skills</h2><p>Integrating AI prompts into workflows requires coding expertise.</p>
-<h3 id="Key-Skills"><a href="#Key-Skills" class="headerlink" title="Key Skills:"></a>Key Skills:</h3><ul>
-<li><strong>Python for AI:</strong><ul>
-<li>Libraries: Hugging Face Transformers, OpenAI’s Python SDK.</li>
-</ul>
-</li>
-<li><strong>REST API Development:</strong><ul>
-<li>Tools: <a href="https://fastapi.tiangolo.com/">FastAPI</a>, Postman for testing.</li>
-</ul>
-</li>
-<li><strong>Versioning:</strong><ul>
-<li>Git and platforms like DVC (<a href="https://dvc.org/">Data Version Control</a>) for managing prompt iterations.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="8-Ethics-and-Limitations-in-AI"><a href="#8-Ethics-and-Limitations-in-AI" class="headerlink" title="8. Ethics and Limitations in AI"></a>8. Ethics and Limitations in AI</h2><p>Responsibility is a key aspect of prompt engineering.</p>
-<h3 id="Topics"><a href="#Topics" class="headerlink" title="Topics:"></a>Topics:</h3><ul>
-<li><strong>Ethical Prompt Design:</strong><ul>
-<li>Avoid introducing biases into generated outputs.</li>
-</ul>
-</li>
-<li><strong>Privacy and Security:</strong><ul>
-<li>Ensure that personal or sensitive data is anonymized.</li>
-<li>Tools: <a href="https://microsoft.github.io/presidio/">Presidio</a> for PII detection.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><h3 id="Tutorials-and-Resources"><a href="#Tutorials-and-Resources" class="headerlink" title="Tutorials and Resources:"></a>Tutorials and Resources:</h3><ul>
-<li>Umar Jamil: <a href="https://www.youtube.com/@umarjamilai">YouTube</a>, <a href="https://umarjamil.org/">Website</a>.  </li>
-<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">YouTube</a>.</li>
-</ul>
-<h3 id="Research-Papers"><a href="#Research-Papers" class="headerlink" title="Research Papers:"></a>Research Papers:</h3><ul>
-<li>“Attention is All You Need” - Vaswani et al., DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
-<li>“Efficient Fine-Tuning Techniques for LLMs” - DOI: <a href="https://doi.org/10.48550/arXiv.2106.09685">10.48550&#x2F;arXiv.2106.09685</a>.</li>
-</ul>
-<h3 id="Tools-and-Libraries"><a href="#Tools-and-Libraries" class="headerlink" title="Tools and Libraries:"></a>Tools and Libraries:</h3><ul>
-<li>OpenAI API (<a href="https://platform.openai.com/docs">Docs</a>).  </li>
-<li>Hugging Face <a href="https://huggingface.co/transformers">Transformers</a>.  </li>
-<li>LangChain (<a href="https://www.langchain.com/">Website</a>).</li>
-</ul>
-<hr>
-<p><strong>Other posts</strong></p>
-<ol>
-<li>Prompt Design and Engineering: Introduction and Advanced Methods. Read on <a href="https://arxiv.org/html/2401.14423v4#S1.F2">arxiv.org</a></li>
-</ol>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Prompt engineering is an evolving domain, combining technical expertise with creativity. With a solid foundation in AI, data analysis, and ethics, specialists can craft meaningful interactions between humans and machines. By leveraging modern tools and methodologies, professionals can drive innovation in the AI ecosystem.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>AI</tag>
-        <tag>science</tag>
-        <tag>prompt_engineering</tag>
       </tags>
   </entry>
   <entry>
@@ -3050,8 +3357,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -3066,8 +3373,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>chat_bpt</tag>
       </tags>
   </entry>
@@ -3313,142 +3620,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>ML - colorizing plain text dynamically in HTML</title>
-    <url>/hexo-blog/2024/11/14/posts/ml_colorizing_plain_text_dynamically_in_html/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
-<ol>
-<li>CSS and JavaScript Solutions<ol>
-<li><strong>CSS and JavaScript</strong></li>
-</ol>
-<ul>
-<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
-<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
-</ul>
-<ol start="2">
-<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
-</ol>
-</li>
-<li><strong>Python Libraries and Frameworks</strong><ol>
-<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
-<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
-<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
-<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> Example: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
-<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> Example: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium| Extracting All Colors in Images with Python</a></li>
-</ol>
-</li>
-<li><strong>Machine Learning Solutions</strong><ol>
-<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
-<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
-<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> How To Use: Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
-</ol>
-</li>
-<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
-<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> Integration: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
-</ol>
-</li>
-</ol>
-<hr>
-<p>  <strong>Summary of Recommendations</strong><br>    Quick, Lightweight Solution: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.<br>    Python-Based NLP and Visualization: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.<br>    Advanced Customization: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>ML</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My glossaries</title>
-    <url>/hexo-blog//knowledge/my-glossaries/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
-<ol>
-<li>🏥 <strong>Medical glossaries</strong>:<ol>
-<li>⚕️ <em>General medical glossary</em>: <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/medical-glossary-1/">https://ooge0.github.io/glossary/medical-glossary-1/</a></li>
-<li>Parsed resource: <a href="https://medconsonline.com/en/glossary">https://medconsonline.com/en/glossary</a></li>
-</ul>
-</li>
-<li>🧙 <em>General oncology glossary</em>: <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/oncology-glossary-1/">https://ooge0.github.io/glossary/oncology-glossary-1/</a></li>
-<li>Parsed resource: <a href="https://chemoteka.com.ua/dictionary">https://chemoteka.com.ua/dictionary</a></li>
-</ul>
-</li>
-</ol>
-</li>
-<li>🗿 <strong>Philosophy glossaries</strong>:<ol>
-<li><em>General philosophy glossary</em>(ENG):  <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/">https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/</a></li>
-<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
-</ul>
-</li>
-<li><em>General philosophy glossary</em>(UA):  <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/">https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/</a></li>
-<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
-</ul>
-</li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>knowledge</tag>
-        <tag>vocabularies</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Types of protocols for interaction on client-server architecture level.</title>
-    <url>/hexo-blog/2024/04/09/posts/network_protocols/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-<p><strong>Below is a list of most popular types of protocols for interaction on client-server architecture level.</strong></p>
-<ol>
-<li><strong>Hypertext Transfer Protocol (HTTP):</strong> The foundation of the web, HTTP defines how clients (web browsers) request and receive resources (web pages, images, etc.) from servers. It’s a request-response protocol where clients send GET or POST requests and servers respond with data and status codes.</li>
-<li><strong>File Transfer Protocol (FTP)</strong>:  This protocol allows for the transfer of files between clients and servers. It offers functionalities like uploading, downloading, directory listing, and file management.</li>
-<li><strong>SSH File Transfer Protocol (SFTP)</strong>: SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.</li>
-<li><strong>Simple Mail Transfer Protocol (SMTP)</strong>:  Used for sending emails, SMTP defines how email clients connect to email servers and transmit emails. It focuses on message delivery without concern for content or user interface.</li>
-<li><strong>Post Office Protocol (POP3)</strong> and Internet Message Access Protocol (IMAP): These protocols are used for retrieving emails from a server. POP3 downloads emails to the client, while IMAP allows users to access and manage emails on the server itself.</li>
-<li><strong>Domain Name System (DNS)</strong>:   This protocol doesn’t directly interact between clients and servers, but it’s crucial for client-server communication. DNS translates human-readable domain names (like [invalid URL removed]) into numerical IP addresses that computers can understand.</li>
-<li><strong>Remote Procedure Call (RPC)</strong>:  This protocol allows a client to execute a procedure on a server as if it were running locally. It provides a transparent way for clients to access functionalities offered by servers. In advance exists gRPC protocol (gRPC Remote Procedure Calls) is a cross-platform high-performance remote procedure call (RPC) framework. gRPC was initially created by Google, but is open source and is used in many organizations. </li>
-<li><strong>Secure Sockets Layer (SSL)&#x2F;Transport Layer Security (TLS)</strong>:  These protocols secure communication between clients and servers by encrypting data transmission. They are essential for protecting sensitive information like passwords and credit card data.</li>
-<li><strong>Message Queueing Protocols</strong>:  Protocols like <a href="https://www.rabbitmq.com/tutorials/amqp-concepts">AMQP</a> and <a href="https://www.rabbitmq.com/">RabbitMQ</a> enable asynchronous communication between clients and servers. Messages are placed in a queue and processed by the server at its own pace, decoupling clients from server availability.</li>
-</ol>
-<p><em>References:</em></p>
-<ul>
-<li><a href="https://www.theknowledgeacademy.com/blog/client-server-architecture/#:~:text=Client%2DServer%20Architecture%20handles%20network,which%20processes%20and%20responds%20accordingly.">What is Client-Server Architecture? Explained in Detail</a></li>
-<li><a href="https://medium.com/@pavlokolodka/efficient-client-server-communication-an-overview-of-protocols-and-techniques-f73c1c1016d">Efficient Client-Server Communication: An Overview of Protocols and Techniques</a></li>
-<li><a href="https://hpbn.co/">High Performance Browser Networking</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">An overview of HTTP(by MDN Web Docs)</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc2616">Hypertext Transfer Protocol (HTTP) &#x2F; rfc2616</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc114">File Transfer Protocol (FTP) &#x2F; rfc114</a></li>
-<li><a href="https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol">SSH File Transfer Protocol (SFTP): Get SFTP client &amp; server</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc5321">Simple Mail Transfer Protocol (SMTP) &#x2F; rfc5321</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc1035">Domain Name System (DNS) &#x2F; rfc1035</a></li>
-<li><a href="https://www.geeksforgeeks.org/remote-procedure-call-rpc-in-operating-system/">Remote Procedure Call (RPC) in Operating System</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc5531">Remote Procedure Call (RPC) &#x2F;rfc5531</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc6101">Secure Sockets Layer (SSL) &#x2F; rfc6101</a></li>
-<li><a href="https://datatracker.ietf.org/doc/html/rfc5246">Transport Layer Security (TLS) &#x2F; rfc5246</a></li>
-<li><a href="https://kisztof.medium.com/rabbitmq-an-introduction-to-message-queuing-protocols-and-policies-cb6073c7a3d6">RabbitMQ: An Introduction to Message Queuing, Protocols, and Policies</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>network_protocols</tag>
-        <tag>protocols</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Principles of categorizing</title>
     <url>/hexo-blog/2024/10/28/posts/principles_of_categorizing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains information about fundamental books for classic principles of categorizing.</strong></p>
@@ -3464,7 +3635,7 @@ More detilas about event you can find on the official <a href = https://kolkadub
 <li><a href="https://www.gutenberg.org/ebooks/28233">Philosophiae Naturalis Principia Mathematica by Isaac Newton</a></li>
 </ol>
 </li>
-<li><p>A System of Logic, Ratiocinative and Inductive by John Stuart Mill<br>   <strong>Description:</strong> Mill’s book is a landmark work on logic, covering classification, reasoning, and scientific methods for organizing knowledge and evidence, crucial for systematic thinking and empirical sciences.</p>
+<li><p>A System of Logic, Ratiocinative and Inductive by John Stuart Mill<br>   <strong>Description:</strong> Mill’s book is a landmark work on logic, covering classification, reasoning, and scientific methods for organizing knowledge and evidence, crucial for systematic thinking and empirical sciences.<br>     DOI: 10.1017&#x2F;CBO9781139149839<br>     <a href="https://www.gutenberg.org/files/26495/26495-pdf.pdf">Read on gutenberg.org</a><br>     <a href="../../../../../docs/other/a_system_of_logic_ratiocinative_and_inductive_by_john_stuart_mill.pdf">Read here</a></p>
 </li>
 <li><p>A Guide to the Classification Theorem for Compact Surfaces by Jean Gallier<br>   <strong>Description:</strong> This work is significant in mathematics and topology, providing insight into classifying surfaces and structures, which has implications for mathematical taxonomy.</p>
 </li>
@@ -3542,6 +3713,96 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>science</tag>
         <tag>knowledge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ML - colorizing plain text dynamically in HTML</title>
+    <url>/hexo-blog/2024/11/14/posts/ml_colorizing_plain_text_dynamically_in_html/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
+<ol>
+<li>CSS and JavaScript Solutions<ol>
+<li><strong>CSS and JavaScript</strong></li>
+</ol>
+<ul>
+<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
+<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
+</ul>
+<ol start="2">
+<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
+</ol>
+</li>
+<li><strong>Python Libraries and Frameworks</strong><ol>
+<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
+<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
+<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
+<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> Example: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
+<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> Example: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium| Extracting All Colors in Images with Python</a></li>
+</ol>
+</li>
+<li><strong>Machine Learning Solutions</strong><ol>
+<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
+<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
+<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> How To Use: Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
+</ol>
+</li>
+<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
+<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> Integration: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
+</ol>
+</li>
+</ol>
+<hr>
+<p>  <strong>Summary of Recommendations</strong><br>    Quick, Lightweight Solution: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.<br>    Python-Based NLP and Visualization: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.<br>    Advanced Customization: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>ML</tag>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Types of protocols for interaction on client-server architecture level.</title>
+    <url>/hexo-blog/2024/04/09/posts/network_protocols/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+<p><strong>Below is a list of most popular types of protocols for interaction on client-server architecture level.</strong></p>
+<ol>
+<li><strong>Hypertext Transfer Protocol (HTTP):</strong> The foundation of the web, HTTP defines how clients (web browsers) request and receive resources (web pages, images, etc.) from servers. It’s a request-response protocol where clients send GET or POST requests and servers respond with data and status codes.</li>
+<li><strong>File Transfer Protocol (FTP)</strong>:  This protocol allows for the transfer of files between clients and servers. It offers functionalities like uploading, downloading, directory listing, and file management.</li>
+<li><strong>SSH File Transfer Protocol (SFTP)</strong>: SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.</li>
+<li><strong>Simple Mail Transfer Protocol (SMTP)</strong>:  Used for sending emails, SMTP defines how email clients connect to email servers and transmit emails. It focuses on message delivery without concern for content or user interface.</li>
+<li><strong>Post Office Protocol (POP3)</strong> and Internet Message Access Protocol (IMAP): These protocols are used for retrieving emails from a server. POP3 downloads emails to the client, while IMAP allows users to access and manage emails on the server itself.</li>
+<li><strong>Domain Name System (DNS)</strong>:   This protocol doesn’t directly interact between clients and servers, but it’s crucial for client-server communication. DNS translates human-readable domain names (like [invalid URL removed]) into numerical IP addresses that computers can understand.</li>
+<li><strong>Remote Procedure Call (RPC)</strong>:  This protocol allows a client to execute a procedure on a server as if it were running locally. It provides a transparent way for clients to access functionalities offered by servers. In advance exists gRPC protocol (gRPC Remote Procedure Calls) is a cross-platform high-performance remote procedure call (RPC) framework. gRPC was initially created by Google, but is open source and is used in many organizations. </li>
+<li><strong>Secure Sockets Layer (SSL)&#x2F;Transport Layer Security (TLS)</strong>:  These protocols secure communication between clients and servers by encrypting data transmission. They are essential for protecting sensitive information like passwords and credit card data.</li>
+<li><strong>Message Queueing Protocols</strong>:  Protocols like <a href="https://www.rabbitmq.com/tutorials/amqp-concepts">AMQP</a> and <a href="https://www.rabbitmq.com/">RabbitMQ</a> enable asynchronous communication between clients and servers. Messages are placed in a queue and processed by the server at its own pace, decoupling clients from server availability.</li>
+</ol>
+<p><em>References:</em></p>
+<ul>
+<li><a href="https://www.theknowledgeacademy.com/blog/client-server-architecture/#:~:text=Client%2DServer%20Architecture%20handles%20network,which%20processes%20and%20responds%20accordingly.">What is Client-Server Architecture? Explained in Detail</a></li>
+<li><a href="https://medium.com/@pavlokolodka/efficient-client-server-communication-an-overview-of-protocols-and-techniques-f73c1c1016d">Efficient Client-Server Communication: An Overview of Protocols and Techniques</a></li>
+<li><a href="https://hpbn.co/">High Performance Browser Networking</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">An overview of HTTP(by MDN Web Docs)</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc2616">Hypertext Transfer Protocol (HTTP) &#x2F; rfc2616</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc114">File Transfer Protocol (FTP) &#x2F; rfc114</a></li>
+<li><a href="https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol">SSH File Transfer Protocol (SFTP): Get SFTP client &amp; server</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc5321">Simple Mail Transfer Protocol (SMTP) &#x2F; rfc5321</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc1035">Domain Name System (DNS) &#x2F; rfc1035</a></li>
+<li><a href="https://www.geeksforgeeks.org/remote-procedure-call-rpc-in-operating-system/">Remote Procedure Call (RPC) in Operating System</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc5531">Remote Procedure Call (RPC) &#x2F;rfc5531</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc6101">Secure Sockets Layer (SSL) &#x2F; rfc6101</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc5246">Transport Layer Security (TLS) &#x2F; rfc5246</a></li>
+<li><a href="https://kisztof.medium.com/rabbitmq-an-introduction-to-message-queuing-protocols-and-policies-cb6073c7a3d6">RabbitMQ: An Introduction to Message Queuing, Protocols, and Policies</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>network_protocols</tag>
+        <tag>protocols</tag>
       </tags>
   </entry>
   <entry>
@@ -3694,6 +3955,52 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>My glossaries</title>
+    <url>/hexo-blog//knowledge/my-glossaries/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
+<ol>
+<li>🏥 <strong>Medical glossaries</strong>:<ol>
+<li>⚕️ <em>General medical glossary</em>: <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/medical-glossary-1/">https://ooge0.github.io/glossary/medical-glossary-1/</a></li>
+<li>Parsed resource: <a href="https://medconsonline.com/en/glossary">https://medconsonline.com/en/glossary</a></li>
+</ul>
+</li>
+<li>🧙 <em>General oncology glossary</em>: <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/oncology-glossary-1/">https://ooge0.github.io/glossary/oncology-glossary-1/</a></li>
+<li>Parsed resource: <a href="https://chemoteka.com.ua/dictionary">https://chemoteka.com.ua/dictionary</a></li>
+</ul>
+</li>
+</ol>
+</li>
+<li>🗿 <strong>Philosophy glossaries</strong>:<ol>
+<li><em>General philosophy glossary</em>(ENG):  <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/">https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/</a></li>
+<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
+</ul>
+</li>
+<li><em>General philosophy glossary</em>(UA):  <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/">https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/</a></li>
+<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>knowledge</tag>
+        <tag>vocabularies</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Software QA - DB testing approach</title>
     <url>/hexo-blog/2024/10/21/posts/qa__software_qa_db_testing_approach/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
@@ -3747,191 +4054,8 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Resources.Global platforms and people</title>
-    <url>/hexo-blog/2024/10/28/posts/resources__global_platforms/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
-<ol>
-<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
-</li>
-<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
-</li>
-</ol>
-<p><strong>List of people</strong></p>
-<ol>
-<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>global_knowledge</tag>
-        <tag>resources</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Techniques for Handling Context in AI Models</title>
-    <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and tools to enhance context management. Below is a detailed list of techniques and associated tools.</p>
-<p><strong>DOI not checked !!!!</strong></p>
-<h2 id="Techniques"><a href="#Techniques" class="headerlink" title="Techniques"></a>Techniques</h2><h3 id="1-Windowing-Sliding-Window-Technique"><a href="#1-Windowing-Sliding-Window-Technique" class="headerlink" title="1. Windowing (Sliding Window Technique)"></a>1. Windowing (Sliding Window Technique)</h3><ul>
-<li><strong>Title</strong>: Sliding Windows for Sequence Labeling: Applications in Named Entity Recognition  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1906.02691">10.48550&#x2F;arXiv.1906.02691</a></li>
-</ul>
-<hr>
-<h3 id="2-Chunking-and-Overlapping-Contexts"><a href="#2-Chunking-and-Overlapping-Contexts" class="headerlink" title="2. Chunking and Overlapping Contexts"></a>2. Chunking and Overlapping Contexts</h3><ul>
-<li><strong>Title</strong>: Hierarchical Attention Networks for Document Classification  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a></li>
-</ul>
-<hr>
-<h3 id="3-Hierarchical-Context-Representations"><a href="#3-Hierarchical-Context-Representations" class="headerlink" title="3. Hierarchical Context Representations"></a>3. Hierarchical Context Representations</h3><ul>
-<li><strong>Title</strong>: Hierarchical Attention for Sequence Learning  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1911.03688">10.48550&#x2F;arXiv.1911.03688</a></li>
-</ul>
-<hr>
-<h3 id="4-Memory-Augmented-Neural-Networks-MANNs"><a href="#4-Memory-Augmented-Neural-Networks-MANNs" class="headerlink" title="4. Memory-Augmented Neural Networks (MANNs)"></a>4. Memory-Augmented Neural Networks (MANNs)</h3><ul>
-<li><strong>Title</strong>: Meta-Learning with Memory-Augmented Neural Networks  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1605.06065">10.48550&#x2F;arXiv.1605.06065</a></li>
-</ul>
-<hr>
-<h3 id="5-Transformer-Variants-for-Long-Contexts"><a href="#5-Transformer-Variants-for-Long-Contexts" class="headerlink" title="5. Transformer Variants for Long Contexts"></a>5. Transformer Variants for Long Contexts</h3><h4 id="Longformer"><a href="#Longformer" class="headerlink" title="Longformer"></a>Longformer</h4><ul>
-<li><strong>Title</strong>: Longformer: The Long-Document Transformer  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2004.05150">10.48550&#x2F;arXiv.2004.05150</a></li>
-</ul>
-<h4 id="Reformer"><a href="#Reformer" class="headerlink" title="Reformer"></a>Reformer</h4><ul>
-<li><strong>Title</strong>: Reformer: The Efficient Transformer  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2001.04451">10.48550&#x2F;arXiv.2001.04451</a></li>
-</ul>
-<hr>
-<h3 id="6-Compression-Based-Context-Management-Summarization"><a href="#6-Compression-Based-Context-Management-Summarization" class="headerlink" title="6. Compression-Based Context Management (Summarization)"></a>6. Compression-Based Context Management (Summarization)</h3><ul>
-<li><strong>Title</strong>: Pretrained Transformers for Text Summarization  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2110.02096">10.48550&#x2F;arXiv.2110.02096</a></li>
-</ul>
-<hr>
-<h3 id="7-Causal-Attention-Mechanisms"><a href="#7-Causal-Attention-Mechanisms" class="headerlink" title="7. Causal Attention Mechanisms"></a>7. Causal Attention Mechanisms</h3><ul>
-<li><strong>Title</strong>: Attention Is All You Need  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1906.01548">10.48550&#x2F;arXiv.1906.01548</a></li>
-</ul>
-<hr>
-<h3 id="8-Vector-Based-Semantic-Search-Dense-Vector-Representations"><a href="#8-Vector-Based-Semantic-Search-Dense-Vector-Representations" class="headerlink" title="8. Vector-Based Semantic Search (Dense Vector Representations)"></a>8. Vector-Based Semantic Search (Dense Vector Representations)</h3><ul>
-<li><strong>Title</strong>: Sentence-BERT: Sentence Embeddings Using Siamese Networks  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2004.00995">10.48550&#x2F;arXiv.2004.00995</a></li>
-</ul>
-<hr>
-<h3 id="9-Retrieval-Augmented-Generation-RAG"><a href="#9-Retrieval-Augmented-Generation-RAG" class="headerlink" title="9. Retrieval-Augmented Generation (RAG)"></a>9. Retrieval-Augmented Generation (RAG)</h3><ul>
-<li><strong>Title</strong>: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2005.11401">10.48550&#x2F;arXiv.2005.11401</a></li>
-</ul>
-<hr>
-<h3 id="10-Cache-Augmented-Models-for-Recurrent-Usage"><a href="#10-Cache-Augmented-Models-for-Recurrent-Usage" class="headerlink" title="10. Cache Augmented Models for Recurrent Usage"></a>10. Cache Augmented Models for Recurrent Usage</h3><ul>
-<li><strong>Title</strong>: Cache-Augmented Models for Dialogue Generation  </li>
-<li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1905.12777">10.48550&#x2F;arXiv.1905.12777</a></li>
-</ul>
-<hr>
-<h2 id="Tools-and-Frameworks"><a href="#Tools-and-Frameworks" class="headerlink" title="Tools and Frameworks"></a>Tools and Frameworks</h2><h3 id="1-Pinecone"><a href="#1-Pinecone" class="headerlink" title="1. Pinecone"></a>1. <a href="https://www.pinecone.io/">Pinecone</a></h3><ul>
-<li>Provides vector-based memory and semantic search capabilities.</li>
-</ul>
-<h3 id="2-LangChain"><a href="#2-LangChain" class="headerlink" title="2. LangChain"></a>2. <a href="https://www.langchain.com/">LangChain</a></h3><ul>
-<li>Handles chunking, memory management, and retrieval tasks for LLMs.</li>
-</ul>
-<h3 id="3-FAISS-Facebook-AI-Similarity-Search"><a href="#3-FAISS-Facebook-AI-Similarity-Search" class="headerlink" title="3. FAISS (Facebook AI Similarity Search)"></a>3. <a href="https://faiss.ai/">FAISS (Facebook AI Similarity Search)</a></h3><ul>
-<li>Optimized for efficient similarity search on dense vectors.</li>
-</ul>
-<h3 id="4-Weaviate"><a href="#4-Weaviate" class="headerlink" title="4. Weaviate"></a>4. <a href="https://weaviate.io/">Weaviate</a></h3><ul>
-<li>Offers scalable vector search and knowledge graph integrations.</li>
-</ul>
-<h3 id="5-Hugging-Face’s-Transformers"><a href="#5-Hugging-Face’s-Transformers" class="headerlink" title="5. Hugging Face’s Transformers"></a>5. <a href="https://huggingface.co/transformers/">Hugging Face’s Transformers</a></h3><ul>
-<li>Implements state-of-the-art transformer models like Longformer and Reformer.</li>
-</ul>
-<h3 id="6-OpenAI-Embeddings"><a href="#6-OpenAI-Embeddings" class="headerlink" title="6. OpenAI Embeddings"></a>6. <a href="https://platform.openai.com/docs/guides/embeddings/">OpenAI Embeddings</a></h3><ul>
-<li>Provides embeddings for vector search and semantic tasks.</li>
-</ul>
-<h3 id="7-Redis-Vector-Store"><a href="#7-Redis-Vector-Store" class="headerlink" title="7. Redis Vector Store"></a>7. <a href="https://redis.io/docs/stack/search/">Redis Vector Store</a></h3><ul>
-<li>Lightweight memory storage for vectorized data.</li>
-</ul>
-<h3 id="8-GPT-Index-LlamaIndex"><a href="#8-GPT-Index-LlamaIndex" class="headerlink" title="8. GPT Index (LlamaIndex)"></a>8. <a href="https://gpt-index.readthedocs.io/">GPT Index (LlamaIndex)</a></h3><ul>
-<li>Automates document splitting, chunking, and embedding management for LLMs.</li>
-</ul>
-<h3 id="9-Haystack"><a href="#9-Haystack" class="headerlink" title="9. Haystack"></a>9. <a href="https://haystack.deepset.ai/">Haystack</a></h3><ul>
-<li>An open-source framework for retrieval-augmented generation (RAG).</li>
-</ul>
-<h3 id="10-MemGPT"><a href="#10-MemGPT" class="headerlink" title="10. MemGPT"></a>10. <a href="https://memgpt.ai/">MemGPT</a></h3><ul>
-<li>Enhances memory for multi-session GPT-based interactions.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>science</tag>
-        <tag>prompt_engineering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Site for blogging</title>
-    <url>/hexo-blog/2024/04/28/posts/site_for_blogging/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
-<hr>
-<ol>
-<li><p>blogger.com</p>
-<p> <a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
-</li>
-<li><p>indieblog.page</p>
-<p> <a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
-</li>
-<li><p>ghost.org</p>
-<p> <a href="https://ghost.org/">https://ghost.org/</a></p>
-</li>
-</ol>
-<hr>
-<ol start="4">
-<li>Simple example that can be used by</li>
-</ol>
-<h2 id=""><a href="#" class="headerlink" title="."></a>.</h2><div>
-  <span style="
-      color: purple; 
-      font-weight: bold; 
-      text-align: center;
-      font-size: 33px;
-      font-family: 'Courier New', Courier, monospace;
-      transition: transform 0.3s ease;
-  " 
-  onmouseover="this.style.transform='scale(1.2)'" 
-  onmouseout="this.style.transform='scale(1)'">   ko6e4ka   
-  </span>
-</div>
-
-<p>  <img src="/hexo-blog/images/posts__magic_cats.png"></p>
-<div>
-<span style="
-      color: green; 
-      font-weight: italic; 
-      text-align: center;
-      font-size: 66px;
-      font-family: 'Brush Script MT', Courier, monospace;
-      transition: transform 0.3s ease;
-  " 
-  onmouseover="this.style.transform='scale(1.2)'" 
-  onmouseout="this.style.transform='scale(1)'">
-  <a target="_blank" href="https://skookworks.wordpress.com/about/">skookworks</a>
-</span>
-</div>
-
-<p>  <img src="/hexo-blog/images/posts__magic_cat_1.png"></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Test design techniques for mobile applications</title>
-    <url>/hexo-blog/2024/04/09/posts/test_design_techniques_for_mobile_applications/</url>
+    <url>/hexo-blog/2024/04/09/posts/qa__test_design_techniques_for_mobile_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
 <li><p><strong>Equivalence Partitioning (EP)</strong></p>
 <ul>
@@ -4030,6 +4154,88 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>test_design</tag>
         <tag>mobile_application</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Resources. Global platforms and people</title>
+    <url>/hexo-blog/2024/10/28/posts/resources__global_platforms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+<ol>
+<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
+</li>
+<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
+</li>
+</ol>
+<p><strong>List of people</strong></p>
+<ol>
+<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>global_knowledge</tag>
+        <tag>resources</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Site for blogging</title>
+    <url>/hexo-blog/2024/04/28/posts/site_for_blogging/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
+<hr>
+<ol>
+<li><p>blogger.com</p>
+<p> <a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
+</li>
+<li><p>indieblog.page</p>
+<p> <a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
+</li>
+<li><p>ghost.org</p>
+<p> <a href="https://ghost.org/">https://ghost.org/</a></p>
+</li>
+</ol>
+<hr>
+<ol start="4">
+<li>Simple example that can be used by</li>
+</ol>
+<h2 id=""><a href="#" class="headerlink" title="."></a>.</h2><div>
+  <span style="
+      color: purple; 
+      font-weight: bold; 
+      text-align: center;
+      font-size: 33px;
+      font-family: 'Courier New', Courier, monospace;
+      transition: transform 0.3s ease;
+  " 
+  onmouseover="this.style.transform='scale(1.2)'" 
+  onmouseout="this.style.transform='scale(1)'">   ko6e4ka   
+  </span>
+</div>
+
+<p>  <img src="/hexo-blog/images/posts__magic_cats.png"></p>
+<div>
+<span style="
+      color: green; 
+      font-weight: italic; 
+      text-align: center;
+      font-size: 66px;
+      font-family: 'Brush Script MT', Courier, monospace;
+      transition: transform 0.3s ease;
+  " 
+  onmouseover="this.style.transform='scale(1.2)'" 
+  onmouseout="this.style.transform='scale(1)'">
+  <a target="_blank" href="https://skookworks.wordpress.com/about/">skookworks</a>
+</span>
+</div>
+
+<p>  <img src="/hexo-blog/images/posts__magic_cat_1.png"></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
