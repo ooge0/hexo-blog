@@ -101,6 +101,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>cheatsheets</tag>
+        <tag>tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog&#39;s categories</title>
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
@@ -116,20 +130,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <categories>
         <category>Categories</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>cheatsheets</tag>
-        <tag>tutorial</tag>
-      </tags>
   </entry>
   <entry>
     <title>stats</title>
@@ -566,6 +566,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO blog design</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
@@ -609,24 +627,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>note</tag>
         <tag>blog</tag>
         <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -2145,7 +2145,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
     <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and tools to enhance context management. Below is a detailed list of techniques and associated tools.</p>
 <h2 id="Techniques"><a href="#Techniques" class="headerlink" title="Techniques"></a>Techniques</h2><h3 id="1-Windowing-Sliding-Window-Technique"><a href="#1-Windowing-Sliding-Window-Technique" class="headerlink" title="1. Windowing (Sliding Window Technique)"></a>1. Windowing (Sliding Window Technique)</h3><ul>
-<li><strong>Title</strong>: STraining RNN and it’s Variants Using Sliding Window Technique. 2020</li>
+<li><strong>Title</strong>: Training RNN and it’s Variants Using Sliding Window Technique. 2020</li>
 <li><strong>DOI</strong>: 10.1109&#x2F;SCEECS48394.2020.93</li>
 <li><a href="https://sci-hub.se/https://doi.org/10.1109/SCEECS48394.2020.93">Read on sci-hub.se</a></li>
 </ul>
@@ -2802,6 +2802,103 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Neural Process Family</title>
+    <url>/hexo-blog/2024/11/30/posts/ai_ml_npf__general/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
+<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
+<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
+</li>
+<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
+</li>
+<li><p><strong>Model Components</strong>:</p>
+<ul>
+<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
+<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
+<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
+</ul>
+</li>
+<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
+<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
+<ul>
+<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
+<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
+</ul>
+</li>
+<li><p><strong>Neural Processes (NPs)</strong>:</p>
+<ul>
+<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
+<li>Balances flexibility and computational efficiency.</li>
+</ul>
+</li>
+<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
+<ul>
+<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
+<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
+</ul>
+</li>
+<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
+<ul>
+<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
+</ul>
+</li>
+<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
+<ul>
+<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
+<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
+<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
+<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
+<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
+<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
+</ol>
+<hr>
+<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
+<li>Scalability due to neural networks.</li>
+<li>Probabilistic outputs allow uncertainty estimation.</li>
+<li>Adaptable across domains with minimal changes.</li>
+</ul>
+<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
+<li>Trade-off between computational cost and flexibility.</li>
+<li>Dependence on good representation learning.</li>
+<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
+</ul>
+<hr>
+<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
+<hr>
+<p>About:</p>
+<ul>
+<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
+<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
+</ul>
+<hr>
+<p> Papers: </p>
+<ul>
+<li>Papers: <ul>
+<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
+<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
+<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NPF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Evolution of Text Augmentation in NLP</title>
     <url>/hexo-blog/2024/11/25/posts/ai_nlp__evolution_of_text_augmentation_in_nlp/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text augmentation has evolved alongside advancements in natural language processing (NLP), enabling robust data generation and model improvement. Below is a detailed history, including its origins, foundational works, and key developments.</p>
@@ -2943,103 +3040,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>NLP</tag>
         <tag>lexic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Neural Process Family</title>
-    <url>/hexo-blog/2024/11/30/posts/ai_ml_npf__general/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
-<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
-<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
-</li>
-<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
-</li>
-<li><p><strong>Model Components</strong>:</p>
-<ul>
-<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
-<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
-<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
-</ul>
-</li>
-<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
-</li>
-</ol>
-<hr>
-<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
-<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
-<ul>
-<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
-<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
-</ul>
-</li>
-<li><p><strong>Neural Processes (NPs)</strong>:</p>
-<ul>
-<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
-<li>Balances flexibility and computational efficiency.</li>
-</ul>
-</li>
-<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
-<ul>
-<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
-<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
-</ul>
-</li>
-<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
-<ul>
-<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
-</ul>
-</li>
-<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
-<ul>
-<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
-<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
-<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
-<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
-<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
-<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
-</ol>
-<hr>
-<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
-<li>Scalability due to neural networks.</li>
-<li>Probabilistic outputs allow uncertainty estimation.</li>
-<li>Adaptable across domains with minimal changes.</li>
-</ul>
-<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
-<li>Trade-off between computational cost and flexibility.</li>
-<li>Dependence on good representation learning.</li>
-<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
-</ul>
-<hr>
-<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
-<hr>
-<p>About:</p>
-<ul>
-<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
-<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
-</ul>
-<hr>
-<p> Papers: </p>
-<ul>
-<li>Papers: <ul>
-<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
-<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
-<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
