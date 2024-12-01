@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Comparing Efficiency of NLP Models. Methods and Metrics |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.  1. App">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Comparing Efficiency of NLP Models. Methods and Metrics">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/11/17/post_ai__comparing_nlp_models_methods_metrix/index.html">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.  1. App">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-11-17T19:39:11.000Z">
+<meta property="article:modified_time" content="2024-11-17T20:40:14.655Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="ML">
+<meta property="article:tag" content="NLP">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-post_ai__comparing_nlp_models_methods_metrix" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/2024/11/17/post_ai__comparing_nlp_models_methods_metrix/" class="article-date">
+  <time class="dt-published" datetime="2024-11-17T19:39:11.000Z" itemprop="datePublished">2024-11-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Comparing Efficiency of NLP Models. Methods and Metrics
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
+<hr>
+<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
+<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
+<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a target="_blank" rel="noopener" href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems. 
+">[1]</span></a></sup>, <a target="_blank" rel="noopener" href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE. 
+">[2]</span></a></sup>, <a target="_blank" rel="noopener" href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
+">[3]</span></a></sup>, or <a target="_blank" rel="noopener" href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.">[4]</span></a></sup> for standardized comparisons.</li>
+<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
+<li><strong>Scalability and Efficiency Testing</strong>:<ul>
+<li>Test for performance across different dataset sizes.</li>
+<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
+</ul>
+</li>
+<li><strong>Generalization and Robustness</strong>:<ul>
+<li>Test on out-of-distribution data or adversarial examples.</li>
+<li>Use cross-lingual or domain-specific datasets.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
+<li><strong>Classification Tasks</strong>:<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall </li>
+<li>F1-Score</li>
+<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
+</ul>
+</li>
+<li><strong>Text Generation Tasks</strong>:<ul>
+<li>BLEU (Bilingual Evaluation Understudy)</li>
+<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
+<li>METEOR (Metric for Evaluation of Translation with Explicit ORdering)</li>
+</ul>
+</li>
+<li><strong>Question Answering</strong>:<ul>
+<li>Exact Match (EM)</li>
+<li>F1-Score</li>
+</ul>
+</li>
+<li><strong>Language Modeling</strong>:<ul>
+<li>Perplexity</li>
+<li>Bits-per-character (BPC)</li>
+</ul>
+</li>
+<li><strong>Named Entity Recognition (NER)</strong>:<ul>
+<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
+</ul>
+</li>
+<li><strong>Text Summarization</strong>:<ul>
+<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
+</ul>
+</li>
+</ol>
+<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
+<li><strong>Computational Efficiency</strong>:<ul>
+<li>FLOPs (Floating Point Operations per Second)</li>
+<li>Latency (time per inference)</li>
+<li>Training Time</li>
+</ul>
+</li>
+<li><strong>Memory Usage</strong>:<ul>
+<li>GPU&#x2F;CPU memory requirements</li>
+<li>Model size (in MB or parameters)</li>
+</ul>
+</li>
+<li><strong>Energy Consumption</strong>:<ul>
+<li>Energy usage during training&#x2F;inference</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
+<li><strong>Model Parameters</strong>:<ul>
+<li>Number of layers</li>
+<li>Hidden size</li>
+<li>Attention heads</li>
+</ul>
+</li>
+<li><strong>Dataset Characteristics</strong>:<ul>
+<li>Dataset size</li>
+<li>Distribution (balanced vs. imbalanced classes)</li>
+<li>Language&#x2F;domain</li>
+</ul>
+</li>
+<li><strong>Hyperparameters</strong>:<ul>
+<li>Learning rate</li>
+<li>Batch size</li>
+<li>Dropout rate</li>
+<li>Optimization algorithm (e.g., AdamW, SGD)</li>
+</ul>
+</li>
+<li><strong>Infrastructure</strong>:<ul>
+<li>Hardware (e.g., GPU, TPU, or CPU)</li>
+<li>Software (e.g., TensorFlow, PyTorch)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
+<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
+<li><strong>Parameterization</strong>:<ul>
+<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>:<ul>
+<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
+<li>Fix random seeds for deterministic results.</li>
+</ul>
+</li>
+<li><strong>Automated Testing</strong>:<ul>
+<li>Implement pipelines to rerun experiments with new variables.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/17/post_ai__comparing_nlp_models_methods_metrix/" data-id="cm461zghr0007eskk6l24eesn" data-title="Comparing Efficiency of NLP Models. Methods and Metrics" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/ML/" rel="tag">ML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/NLP/" rel="tag">NLP</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/11/18/notes/online_tools/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Online tools
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hexo-blog/2024/11/17/post_ai_nlp__nlp_tasks_intro_1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">NLP tasks</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">40</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/QA/">QA</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 20px;">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 11.11px;">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/Dashdevs/" style="font-size: 10px;">Dashdevs</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 11.11px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 10px;">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 18.89px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 16.67px;">NLP</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 10px;">NPF</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 10px;">VADER</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 10px;">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 10px;">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15.56px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 10px;">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 10px;">data_mining</a> <a href="/hexo-blog/tags/db/" style="font-size: 10px;">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 12.22px;">dev_side</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 11.11px;">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 10px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15.56px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.11px;">knowledge</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 11.11px;">lexic</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.22px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 16.67px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.22px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 13.33px;">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 10px;">parsing</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 13.33px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/python/" style="font-size: 10px;">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 12.22px;">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 10px;">qa_check_list</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 14.44px;">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 11.11px;">sentiment_analysis</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 10px;">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 17.78px;">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 10px;">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/vocabularies/" style="font-size: 10px;">vocabularies</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/05/">May 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/30/post_ai_ml_npf__general/">Neural Process Family</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/">Machine Learning.Teach by Doing(LinkedIn post)</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/28/post_data_mining__parsing_web_site_for_job_offers/">Parsing web site for job offers</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/26/post_ai__vader_intro/">VADER - intro</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/25/post_ai_nlp__evolution_of_text_augmentation_in_nlp/">Evolution of Text Augmentation in NLP</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 si0n4ra<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
