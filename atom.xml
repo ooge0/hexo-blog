@@ -36,9 +36,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
     <category term="NPF" scheme="https://ooge0.github.io/hexo-blog/tags/NPF/"/>
     
@@ -64,9 +64,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
   </entry>
   
@@ -146,9 +146,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
     <category term="lexic" scheme="https://ooge0.github.io/hexo-blog/tags/lexic/"/>
     
@@ -174,9 +174,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
     <category term="lexic" scheme="https://ooge0.github.io/hexo-blog/tags/lexic/"/>
     
@@ -228,9 +228,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
   </entry>
   
@@ -254,11 +254,11 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
+    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
     
     <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
-    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
   </entry>
   
@@ -283,9 +283,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
     <category term="emotions" scheme="https://ooge0.github.io/hexo-blog/tags/emotions/"/>
     
@@ -311,9 +311,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
     <category term="emotions" scheme="https://ooge0.github.io/hexo-blog/tags/emotions/"/>
     
@@ -339,35 +339,11 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
     
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
+    
     <category term="prompt_engineering" scheme="https://ooge0.github.io/hexo-blog/tags/prompt-engineering/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Web data handling</title>
-    <link href="https://ooge0.github.io/hexo-blog/2024/11/20/notes/notes_web_data_handling/"/>
-    <id>https://ooge0.github.io/hexo-blog/2024/11/20/notes/notes_web_data_handling/</id>
-    <published>2024-11-20T19:38:30.000Z</published>
-    <updated>2024-12-03T07:34:55.040Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol><li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;Get-text-from-DOM-by-specific-loc</summary>
-      
-    
-    
-    
-    <category term="Notes" scheme="https://ooge0.github.io/hexo-blog/categories/Notes/"/>
-    
-    
-    <category term="web" scheme="https://ooge0.github.io/hexo-blog/tags/web/"/>
     
   </entry>
   
@@ -397,6 +373,30 @@
   </entry>
   
   <entry>
+    <title>Web data handling</title>
+    <link href="https://ooge0.github.io/hexo-blog/2024/11/20/notes/notes_web_data_handling/"/>
+    <id>https://ooge0.github.io/hexo-blog/2024/11/20/notes/notes_web_data_handling/</id>
+    <published>2024-11-20T19:38:30.000Z</published>
+    <updated>2024-12-03T07:34:55.040Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol><li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;Get-text-from-DOM-by-specific-loc</summary>
+      
+    
+    
+    
+    <category term="Notes" scheme="https://ooge0.github.io/hexo-blog/categories/Notes/"/>
+    
+    
+    <category term="web" scheme="https://ooge0.github.io/hexo-blog/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Text Classification. Historical overview, tools, and techniques.</title>
     <link href="https://ooge0.github.io/hexo-blog/2024/11/19/post_ai_nlp__text_classification_intro_1/"/>
     <id>https://ooge0.github.io/hexo-blog/2024/11/19/post_ai_nlp__text_classification_intro_1/</id>
@@ -416,11 +416,11 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
+    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
     
     <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
-    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
     <category term="text_classification" scheme="https://ooge0.github.io/hexo-blog/tags/text-classification/"/>
     
@@ -470,9 +470,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
     <category term="glossary" scheme="https://ooge0.github.io/hexo-blog/tags/glossary/"/>
     
@@ -526,11 +526,11 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
+    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
     
     <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
-    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
   </entry>
   
@@ -554,11 +554,11 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
+    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
     
     <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
-    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
   </entry>
   
