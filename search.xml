@@ -21,91 +21,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
-    <url>/hexo-blog/2024/11/13/post_ai__base_gan/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
-<p><strong>Особенности генеративного ИИ</strong></p>
-<ul>
-<li>Создание нового контента: <ul>
-<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
-</ul>
-</li>
-<li>Высокая адаптивность:<ul>
-<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
-</ul>
-</li>
-<li>Использование больших объемов данных:<ul>
-<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
-</ul>
-</li>
-<li>Сложность в контроле результатов: <ul>
-<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Разновидности генеративного ИИ</strong></p>
-<ul>
-<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
-<ul>
-<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
-</ul>
-</li>
-<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
-<ul>
-<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
-<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
-<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
-<p><strong>Диффузионные модели</strong></p>
-<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
-<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
-<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
-<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
-<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
-<ul>
-<li><p>Создание новых данных vs. анализ и предсказание:</p>
-</li>
-<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
-</li>
-<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
-</li>
-<li><p>Использование для творчества и генерации контента:</p>
-<ul>
-<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
-<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Комплексность и требования к обучению:</strong></p>
-<ul>
-<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
-<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
-</ul>
-<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
-<ul>
-<li>Развлечения и медиа: <ul>
-<li>создание музыки, текста, изображений, сценариев.</li>
-</ul>
-</li>
-<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
-<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
-<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
-</ul>
-<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ASCII art</title>
     <url>/hexo-blog/2024/10/28/post_acsii_graphics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -245,9 +160,94 @@
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
         <tag>NLP</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
+    <url>/hexo-blog/2024/11/13/post_ai__base_gan/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
+<p><strong>Особенности генеративного ИИ</strong></p>
+<ul>
+<li>Создание нового контента: <ul>
+<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
+</ul>
+</li>
+<li>Высокая адаптивность:<ul>
+<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
+</ul>
+</li>
+<li>Использование больших объемов данных:<ul>
+<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
+</ul>
+</li>
+<li>Сложность в контроле результатов: <ul>
+<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Разновидности генеративного ИИ</strong></p>
+<ul>
+<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
+<ul>
+<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
+</ul>
+</li>
+<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
+<ul>
+<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
+<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
+<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
+<p><strong>Диффузионные модели</strong></p>
+<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
+<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
+<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
+<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
+<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
+<ul>
+<li><p>Создание новых данных vs. анализ и предсказание:</p>
+</li>
+<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
+</li>
+<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
+</li>
+<li><p>Использование для творчества и генерации контента:</p>
+<ul>
+<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
+<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Комплексность и требования к обучению:</strong></p>
+<ul>
+<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
+<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
+</ul>
+<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
+<ul>
+<li>Развлечения и медиа: <ul>
+<li>создание музыки, текста, изображений, сценариев.</li>
+</ul>
+</li>
+<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
+<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
+<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
+</ul>
+<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>science</tag>
       </tags>
   </entry>
   <entry>
@@ -370,8 +370,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -442,8 +442,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>papers</tag>
       </tags>
   </entry>
@@ -472,8 +472,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>papers</tag>
       </tags>
   </entry>
@@ -679,9 +679,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>science</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -743,8 +743,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>augmentation</tag>
         <tag>text_generation</tag>
       </tags>
@@ -877,9 +877,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>science</tag>
         <tag>prompt_engineering</tag>
         <tag>LLM</tag>
       </tags>
@@ -930,8 +930,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>emotions</tag>
       </tags>
   </entry>
@@ -976,8 +976,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>emotions</tag>
       </tags>
   </entry>
@@ -1125,65 +1125,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>LLM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
-    <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
-<p>I(Author) started the Machine Learning: Teach by Doing series to transfer my learnings to those who want to transition to Machine Learning.</p>
-<p>I(Author) have recorded 37 videos in the past 6 months.</p>
-<p>Here are the links for you to learn:</p>
-<ol>
-<li>Introduction to Machine Learning Teach by Doing: <a href="https://lnkd.in/gqN2PMX5">https://lnkd.in/gqN2PMX5</a></li>
-<li>What is Machine Learning? History of Machine Learning: <a href="https://lnkd.in/gvpNSAKh">https://lnkd.in/gvpNSAKh</a></li>
-<li>Types of ML Models: <a href="https://lnkd.in/gSy2mChM">https://lnkd.in/gSy2mChM</a></li>
-<li>6 steps of any ML project: <a href="https://lnkd.in/ggCGchPQ">https://lnkd.in/ggCGchPQ</a></li>
-<li>Install Python and VSCode and run your first code: <a href="https://lnkd.in/gyic7J7b">https://lnkd.in/gyic7J7b</a></li>
-<li>Linear Classifiers Part 1: <a href="https://lnkd.in/gYdfD97D">https://lnkd.in/gYdfD97D</a></li>
-<li>Linear Classifiers Part 2: <a href="https://lnkd.in/gac_z-G8">https://lnkd.in/gac_z-G8</a></li>
-<li>Jupyter Notebook, Numpy and Scikit-Learn: <a href="https://lnkd.in/gWRaC_tB">https://lnkd.in/gWRaC_tB</a></li>
-<li>Running the Random Linear Classifier Algorithm in Python: <a href="https://lnkd.in/g5HacbFC">https://lnkd.in/g5HacbFC</a></li>
-<li>The oldest ML model - Perceptron: <a href="https://lnkd.in/gpce6uFt">https://lnkd.in/gpce6uFt</a></li>
-<li>Coding the Perceptron: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
-<li>Perceptron Convergence Theorem: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
-<li>Magic of features in Machine Learning: <a href="https://lnkd.in/gCeDRb3g">https://lnkd.in/gCeDRb3g</a></li>
-<li>One hot encoding: <a href="https://lnkd.in/g3WfRQGQ">https://lnkd.in/g3WfRQGQ</a></li>
-<li>Logistic Regression Part 1: <a href="https://lnkd.in/gTgZAAZn">https://lnkd.in/gTgZAAZn</a></li>
-<li>Cross Entropy Loss: <a href="https://lnkd.in/g3Ywg_2p">https://lnkd.in/g3Ywg_2p</a></li>
-<li>How gradient descent works: <a href="https://lnkd.in/gKBAsazF">https://lnkd.in/gKBAsazF</a></li>
-<li>Logistic Regression from scratch in Python: <a href="https://lnkd.in/g8iZh27P">https://lnkd.in/g8iZh27P</a></li>
-<li>Introduction to Regularization: <a href="https://lnkd.in/gjM9pVw2">https://lnkd.in/gjM9pVw2</a></li>
-<li>Implementing Regularization in Python: <a href="https://lnkd.in/gRnSK4v4">https://lnkd.in/gRnSK4v4</a></li>
-<li>Linear Regression Introduction: <a href="https://lnkd.in/gPYtSPJ9">https://lnkd.in/gPYtSPJ9</a></li>
-<li>Ordinary Least Squares step by step implementation: <a href="https://lnkd.in/gnWQdgNy">https://lnkd.in/gnWQdgNy</a></li>
-<li>Ridge regression fundamentals and intuition: <a href="https://lnkd.in/gE5M-CSM">https://lnkd.in/gE5M-CSM</a></li>
-<li>Regression recap for interviews: <a href="https://lnkd.in/gNBWzzWv">https://lnkd.in/gNBWzzWv</a></li>
-<li>Neural network architecture in 30 minutes: <a href="https://lnkd.in/g7qSrkxG">https://lnkd.in/g7qSrkxG</a></li>
-<li>Backpropagation intuition: <a href="https://lnkd.in/gAmBARHm">https://lnkd.in/gAmBARHm</a></li>
-<li>Neural network activation functions: <a href="https://lnkd.in/gqrC3zDP">https://lnkd.in/gqrC3zDP</a></li>
-<li>Momentum in gradient descent: <a href="https://lnkd.in/g3M4qhbP">https://lnkd.in/g3M4qhbP</a></li>
-<li>Hands on neural network training in Python: <a href="https://lnkd.in/gz-fTBxs">https://lnkd.in/gz-fTBxs</a></li>
-<li>Introduction to Convolutional Neural Networks (CNNs.: <a href="https://lnkd.in/gpmuBm3j">https://lnkd.in/gpmuBm3j</a></li>
-<li>Filters in 1D and the Convolution Operation: <a href="https://lnkd.in/gEDaKHDU">https://lnkd.in/gEDaKHDU</a></li>
-<li>Filters in 2D, Channels and Feature Identification: <a href="https://lnkd.in/g3Gf_4ia">https://lnkd.in/g3Gf_4ia</a></li>
-<li>Filtering Layers in Convolutional Neural Networks: <a href="https://lnkd.in/gUaiBkTu">https://lnkd.in/gUaiBkTu</a></li>
-<li>What is Max Pooling in Convolutional Neural Networks?: <a href="https://lnkd.in/gGRGy6wq">https://lnkd.in/gGRGy6wq</a></li>
-<li>CNN Architecture explained: <a href="https://lnkd.in/gPQvRh9i">https://lnkd.in/gPQvRh9i</a></li>
-<li>Backpropagation in Convolutional Neural Networks: <a href="https://lnkd.in/g942G6zv">https://lnkd.in/g942G6zv</a></li>
-<li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
-</ol>
-<p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -1209,8 +1153,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1433,8 +1377,64 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
+    <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
+<p>I(Author) started the Machine Learning: Teach by Doing series to transfer my learnings to those who want to transition to Machine Learning.</p>
+<p>I(Author) have recorded 37 videos in the past 6 months.</p>
+<p>Here are the links for you to learn:</p>
+<ol>
+<li>Introduction to Machine Learning Teach by Doing: <a href="https://lnkd.in/gqN2PMX5">https://lnkd.in/gqN2PMX5</a></li>
+<li>What is Machine Learning? History of Machine Learning: <a href="https://lnkd.in/gvpNSAKh">https://lnkd.in/gvpNSAKh</a></li>
+<li>Types of ML Models: <a href="https://lnkd.in/gSy2mChM">https://lnkd.in/gSy2mChM</a></li>
+<li>6 steps of any ML project: <a href="https://lnkd.in/ggCGchPQ">https://lnkd.in/ggCGchPQ</a></li>
+<li>Install Python and VSCode and run your first code: <a href="https://lnkd.in/gyic7J7b">https://lnkd.in/gyic7J7b</a></li>
+<li>Linear Classifiers Part 1: <a href="https://lnkd.in/gYdfD97D">https://lnkd.in/gYdfD97D</a></li>
+<li>Linear Classifiers Part 2: <a href="https://lnkd.in/gac_z-G8">https://lnkd.in/gac_z-G8</a></li>
+<li>Jupyter Notebook, Numpy and Scikit-Learn: <a href="https://lnkd.in/gWRaC_tB">https://lnkd.in/gWRaC_tB</a></li>
+<li>Running the Random Linear Classifier Algorithm in Python: <a href="https://lnkd.in/g5HacbFC">https://lnkd.in/g5HacbFC</a></li>
+<li>The oldest ML model - Perceptron: <a href="https://lnkd.in/gpce6uFt">https://lnkd.in/gpce6uFt</a></li>
+<li>Coding the Perceptron: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
+<li>Perceptron Convergence Theorem: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
+<li>Magic of features in Machine Learning: <a href="https://lnkd.in/gCeDRb3g">https://lnkd.in/gCeDRb3g</a></li>
+<li>One hot encoding: <a href="https://lnkd.in/g3WfRQGQ">https://lnkd.in/g3WfRQGQ</a></li>
+<li>Logistic Regression Part 1: <a href="https://lnkd.in/gTgZAAZn">https://lnkd.in/gTgZAAZn</a></li>
+<li>Cross Entropy Loss: <a href="https://lnkd.in/g3Ywg_2p">https://lnkd.in/g3Ywg_2p</a></li>
+<li>How gradient descent works: <a href="https://lnkd.in/gKBAsazF">https://lnkd.in/gKBAsazF</a></li>
+<li>Logistic Regression from scratch in Python: <a href="https://lnkd.in/g8iZh27P">https://lnkd.in/g8iZh27P</a></li>
+<li>Introduction to Regularization: <a href="https://lnkd.in/gjM9pVw2">https://lnkd.in/gjM9pVw2</a></li>
+<li>Implementing Regularization in Python: <a href="https://lnkd.in/gRnSK4v4">https://lnkd.in/gRnSK4v4</a></li>
+<li>Linear Regression Introduction: <a href="https://lnkd.in/gPYtSPJ9">https://lnkd.in/gPYtSPJ9</a></li>
+<li>Ordinary Least Squares step by step implementation: <a href="https://lnkd.in/gnWQdgNy">https://lnkd.in/gnWQdgNy</a></li>
+<li>Ridge regression fundamentals and intuition: <a href="https://lnkd.in/gE5M-CSM">https://lnkd.in/gE5M-CSM</a></li>
+<li>Regression recap for interviews: <a href="https://lnkd.in/gNBWzzWv">https://lnkd.in/gNBWzzWv</a></li>
+<li>Neural network architecture in 30 minutes: <a href="https://lnkd.in/g7qSrkxG">https://lnkd.in/g7qSrkxG</a></li>
+<li>Backpropagation intuition: <a href="https://lnkd.in/gAmBARHm">https://lnkd.in/gAmBARHm</a></li>
+<li>Neural network activation functions: <a href="https://lnkd.in/gqrC3zDP">https://lnkd.in/gqrC3zDP</a></li>
+<li>Momentum in gradient descent: <a href="https://lnkd.in/g3M4qhbP">https://lnkd.in/g3M4qhbP</a></li>
+<li>Hands on neural network training in Python: <a href="https://lnkd.in/gz-fTBxs">https://lnkd.in/gz-fTBxs</a></li>
+<li>Introduction to Convolutional Neural Networks (CNNs.: <a href="https://lnkd.in/gpmuBm3j">https://lnkd.in/gpmuBm3j</a></li>
+<li>Filters in 1D and the Convolution Operation: <a href="https://lnkd.in/gEDaKHDU">https://lnkd.in/gEDaKHDU</a></li>
+<li>Filters in 2D, Channels and Feature Identification: <a href="https://lnkd.in/g3Gf_4ia">https://lnkd.in/g3Gf_4ia</a></li>
+<li>Filtering Layers in Convolutional Neural Networks: <a href="https://lnkd.in/gUaiBkTu">https://lnkd.in/gUaiBkTu</a></li>
+<li>What is Max Pooling in Convolutional Neural Networks?: <a href="https://lnkd.in/gGRGy6wq">https://lnkd.in/gGRGy6wq</a></li>
+<li>CNN Architecture explained: <a href="https://lnkd.in/gPQvRh9i">https://lnkd.in/gPQvRh9i</a></li>
+<li>Backpropagation in Convolutional Neural Networks: <a href="https://lnkd.in/g942G6zv">https://lnkd.in/g942G6zv</a></li>
+<li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
+</ol>
+<p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1529,8 +1529,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>NPF</tag>
       </tags>
   </entry>
@@ -1673,8 +1673,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>NLP</tag>
+        <tag>AI</tag>
         <tag>lexic</tag>
       </tags>
   </entry>
@@ -1698,9 +1698,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
         <tag>NLP</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1715,8 +1715,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>NLP</tag>
+        <tag>AI</tag>
         <tag>lexic</tag>
       </tags>
   </entry>
@@ -1814,9 +1814,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
         <tag>NLP</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1956,9 +1956,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
         <tag>NLP</tag>
+        <tag>ML</tag>
+        <tag>AI</tag>
         <tag>text_classification</tag>
       </tags>
   </entry>
@@ -2051,8 +2051,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>NLP</tag>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -2285,8 +2285,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>glossary</tag>
       </tags>
   </entry>
@@ -2439,8 +2439,8 @@ print(generated_text)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -2455,8 +2455,8 @@ print(generated_text)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>chatbot</tag>
         <tag>Llama</tag>
       </tags>
@@ -3178,8 +3178,8 @@ print(generated_text)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
         <tag>ML</tag>
+        <tag>AI</tag>
         <tag>papers</tag>
       </tags>
   </entry>
@@ -3601,137 +3601,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Postman tests examples</title>
-    <url>/hexo-blog/2023/05/11/Posts/post_dev_side__postman_tests_examples/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
-<p><strong>Table of content</strong><br><a href="#1-Validate-that-the-response-body-contains-a-specific-email">#1 Validate that the response body contains a specific</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#2 Check if the response status is 200</a><br><a href="#3-Ensure-the-response-time-is-less-than-500ms">#3 Ensure the response time is less than 500ms</a><br><a href="#4-Verify-the-users-first-name-in-the-json-response">#4 Verify the user’s first name in the JSON response</a><br><a href="#5-Validate-that-the-Content-Type-header-is-application-Json">#5 Validate that the Content-Type header is application&#x2F;json</a><br><a href="#6-Ensure-that-the-JSON-array-is-not-empty">#6 Ensure that the JSON array is not empty</a><br><a href="#7-Verify-that-a-specific-key-exists-in-the-response-body">#7 Verify that a specific key exists in the response body</a><br><a href="#8-Validate-the-response-body-includes-the-string-%E2%80%98success%E2%80%99">#8 Validate the response body includes the string ‘success’</a><br><a href="#9-Check-if-a-specific-field-is-of-a-certain-data-type">#9 Check if a specific field is of a certain data type</a><br><a href="#10-Validate-that-a-specific-field-has-a-value-greater-than-zero">#10. Validate that a specific field has a value greater than zero</a><br><a href="#11-Ensure-that-a-specific-header-exists-x-request-id">#11. Ensure that a specific header exists (X-Request-ID)</a><br><a href="#12-Verify-that-the-response-body-does-not-contain-a-specific-string">#12. Verify that the response body does not contain a specific string</a><br><a href="#13-Check-if-the-response-body-contains-a-specific-key-value-pair">#13. Check if the response body contains a specific key-value pair()(email)</a><br><a href="#14-Ensure-the-response-contains-multiple-keys">#14. Ensure the response contains multiple keys</a><br><a href="#15-Verify-that-a-fields-value-is-within-a-specific-range">#15. Verify that a field’s value is within a specific range</a><br><a href="#16-Validate-that-the-response-body-contains-a-specific-substring">#16. Validate that the response body contains a specific substring</a><br><a href="#17-Check-if-a-numeric-field-in-the-response-body-is-even">#17. Check if a numeric field in the response body is even</a><br><a href="#18-Ensure-that-the-response-body-has-a-non-empty-string-field">#18. Ensure that the response body has a non-empty string field</a><br><a href="#19-Verify-that-a-boolean-field-in-the-response-body-is-true">#19. Verify that a boolean field in the response body is true</a><br><a href="#20-Validate-that-an-array-field-has-a-specific-length">#20. Validate that an array field has a specific length</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#21. Check if a date field in the response body is in the past</a><br><a href="#22-Ensure-that-a-response-header-does-not-exist">#22. Ensure that a response header does not exist</a><br><a href="#23-Verify-that-a-specific-field-contains-a-valid-email-address">#23. Verify that a specific field contains a valid email address</a><br><a href="#24-Validate-that-a-fields-value-matches-a-specific-pattern">#24. Validate that a field’s value matches a specific pattern</a><br><a href="#25-Check-if-the-response-body-has-no-null-values-in-an-array">#25. Check if the response body has no null values in an array</a><br><a href="#26-Ensure-the-response-includes-a-specific-nested-object">#26. Ensure the response includes a specific nested object</a><br><a href="#27-Verify-that-a-list-of-ids-in-the-response-body-is-unique">#27. Verify that a list of IDs in the response body is unique</a><br><a href="#28-Validate-that-a-numeric-field-falls-within-a-certain-percentile">#28. Validate that a numeric field falls within a certain percentile </a><br><a href="#29-Check-if-a-timestamp-in-the-response-body-is-in-iso-8601-format">#29. Check if a timestamp in the response body is in ISO 8601 format</a><br><a href="#30-Ensure-that-a-specific-fields-value-does-not-contain-special-characters">#31. Verify that a specific URL in the response body is reachable</a><br><a href="#32-Validate-that-a-keys-value-is-within-a-specific-set-of-allowed-values">#32. Validate that a key’s value is within a specific set of allowed()values</a><br><a href="#33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object">#33. Check if the response contains a nested array with at least one()object</a><br><a href="#34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value">#34. Ensure that the sum of a numeric array field equals a specific()value</a><br><a href="#35-Verify-that-the-response-body-does-not-contain-any-undefined-fields">#35. Verify that the response body does not contain any undefined()fields</a><br><a href="#36-Validate-that-all-objects-in-an-array-have-a-specific-key">#36. Validate that all objects in an array have a specific key</a><br><a href="#37-Check-if-a-fields-value-is-a-valid-json-object">#37. Check if a field’s value is a valid JSON object</a><br><a href="#38-Ensure-the-response-body-does-not-exceed-a-certain-length">#38. Ensure the response body does not exceed a certain length</a><br><a href="#39-Verify-that-the-response-body-does-not-contain-a-specific-key">#39. Verify that the response body does not contain a specific key</a><br><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted">#40. Validate that an array field in the response body is sorted</a></p>
-<hr>
-<h1 id="1-Validate-that-the-response-body-contains-a-specific-email"><a href="#1-Validate-that-the-response-body-contains-a-specific-email" class="headerlink" title="1. Validate that the response body contains a specific email"></a>1. Validate that the response body contains a specific email</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating responsebody contains specific email&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;george.bluth@magic.com&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-Check-if-the-response-status-is-200"><a href="#2-Check-if-the-response-status-is-200" class="headerlink" title="2. Check if the response status is 200"></a>2. Check if the response status is 200</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response status is 200&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="property">response</span>.<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">status</span>(<span class="number">200</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="3-Ensure-the-response-time-is-less-than-500ms"><a href="#3-Ensure-the-response-time-is-less-than-500ms" class="headerlink" title="3. Ensure the response time is less than 500ms"></a>3. Ensure the response time is less than 500ms</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response time is less than 500ms&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">responseTime</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">below</span>(<span class="number">500</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="4-Verify-the-user’s-first-name-in-the-JSON-response"><a href="#4-Verify-the-user’s-first-name-in-the-JSON-response" class="headerlink" title="4. Verify the user’s first name in the JSON response"></a>4. Verify the user’s first name in the JSON response</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating user&#x27;s first name in JSON response&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">first_name</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;George&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="5-Validate-that-the-Content-Type-header-is-application-Json"><a href="#5-Validate-that-the-Content-Type-header-is-application-Json" class="headerlink" title="5. Validate that the Content-Type header is application&#x2F;Json"></a>5. Validate that the Content-Type header is application&#x2F;Json</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating content-type header is application/json&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">get</span>(<span class="string">&quot;Content-Type&quot;</span>)).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;application/json&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="6-Ensure-that-the-JSON-array-is-not-empty"><a href="#6-Ensure-that-the-JSON-array-is-not-empty" class="headerlink" title="6. Ensure that the JSON array is not empty"></a>6. Ensure that the JSON array is not empty</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating JSON array is not empty&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">an</span>(<span class="string">&#x27;array&#x27;</span>).<span class="property">that</span>.<span class="property">is</span>.<span class="property">not</span>.<span class="property">empty</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="7-Verify-that-a-specific-key-exists-in-the-response-body"><a href="#7-Verify-that-a-specific-key-exists-in-the-response-body" class="headerlink" title="7. Verify that a specific key exists in the response body"></a>7. Verify that a specific key exists in the response body</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key existence in response body&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;data&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="8-Validate-the-response-body-includes-the-string-‘success’"><a href="#8-Validate-the-response-body-includes-the-string-‘success’" class="headerlink" title="8.Validate the response body includes the string ‘success’"></a>8.Validate the response body includes the string ‘success’</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body includes the string &#x27;success&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;success&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="9-Check-if-a-specific-field-is-of-a-certain-data-type"><a href="#9-Check-if-a-specific-field-is-of-a-certain-data-type" class="headerlink" title="9. Check if a specific field is of a certain data type"></a>9. Check if a specific field is of a certain data type</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field data type&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">id</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">a</span>(<span class="string">&#x27;number&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="10-Validate-that-a-specific-field-has-a-value-greater-than-zero"><a href="#10-Validate-that-a-specific-field-has-a-value-greater-than-zero" class="headerlink" title="10. Validate that a specific field has a value greater than zero"></a>10. Validate that a specific field has a value greater than zero</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field value is greater than zero&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">age</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="11-Ensure-that-a-specific-header-exists-X-Request-ID"><a href="#11-Ensure-that-a-specific-header-exists-X-Request-ID" class="headerlink" title="11. Ensure that a specific header exists (X-Request-ID)"></a>11. Ensure that a specific header exists (X-Request-ID)</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating header existence X-Request-ID&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">has</span>(<span class="string">&quot;X-Request-ID&quot;</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="property">true</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="12-Verify-that-the-response-body-does-not-contain-a-specific-string"><a href="#12-Verify-that-the-response-body-does-not-contain-a-specific-string" class="headerlink" title="12. Verify that the response body does not contain a specific string"></a>12. Verify that the response body does not contain a specific string</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating absence of string &#x27;error&#x27; in response body&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="property">not</span>.<span class="title function_">include</span>(<span class="string">&quot;error&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="13-Check-if-the-response-body-contains-a-specific-key-value-pair"><a href="#13-Check-if-the-response-body-contains-a-specific-key-value-pair" class="headerlink" title="13. Check if the response body contains a specific key-value pair"></a>13. Check if the response body contains a specific key-value pair</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key-value pair (email)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">email</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;george.bluth@magic.com&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="14-Ensure-the-response-contains-multiple-keys"><a href="#14-Ensure-the-response-contains-multiple-keys" class="headerlink" title="14. Ensure the response contains multiple keys"></a>14. Ensure the response contains multiple keys</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating multiple keys existence (data, support)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">keys</span>([<span class="string">&quot;data&quot;</span>, <span class="string">&quot;support&quot;</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="15-Verify-that-a-field’s-value-is-within-a-specific-range"><a href="#15-Verify-that-a-field’s-value-is-within-a-specific-range" class="headerlink" title="15. Verify that a field’s value is within a specific range"></a>15. Verify that a field’s value is within a specific range</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field value is within range 1-10&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">page</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">within</span>(<span class="number">1</span>, <span class="number">10</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="16-Validate-that-the-response-body-contains-a-specific-substring"><a href="#16-Validate-that-the-response-body-contains-a-specific-substring" class="headerlink" title="16. Validate that the response body contains a specific substring"></a>16. Validate that the response body contains a specific substring</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body contains substring &#x27;welcome&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;welcome&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="17-Check-if-a-numeric-field-in-the-response-body-is-even"><a href="#17-Check-if-a-numeric-field-in-the-response-body-is-even" class="headerlink" title="17. Check if a numeric field in the response body is even"></a>17. Check if a numeric field in the response body is even</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating numeric field is even&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">id</span> % <span class="number">2</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="18-Ensure-that-the-response-body-has-a-non-empty-string-field"><a href="#18-Ensure-that-the-response-body-has-a-non-empty-string-field" class="headerlink" title="18. Ensure that the response body has a non-empty string field"></a>18. Ensure that the response body has a non-empty string field</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating non-empty string field&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">name</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="property">length</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="19-Verify-that-a-boolean-field-in-the-response-body-is-true"><a href="#19-Verify-that-a-boolean-field-in-the-response-body-is-true" class="headerlink" title="19. Verify that a boolean field in the response body is true"></a>19. Verify that a boolean field in the response body is true</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating boolean field is true&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">isActive</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="property">true</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="20-Validate-that-an-array-field-has-a-specific-length"><a href="#20-Validate-that-an-array-field-has-a-specific-length" class="headerlink" title="20. Validate that an array field has a specific length"></a>20. Validate that an array field has a specific length</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating array length is 5&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">items</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">lengthOf</span>(<span class="number">5</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="21-Check-if-a-date-field-in-the-response-body-is-in-the-past"><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past" class="headerlink" title="21. Check if a date field in the response body is in the past"></a>21. Check if a date field in the response body is in the past</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating date field is in the past&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(<span class="keyword">new</span> <span class="title class_">Date</span>(jsonData.<span class="property">data</span>.<span class="property">date</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">below</span>(<span class="keyword">new</span> <span class="title class_">Date</span>());</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="22-Ensure-that-a-response-header-does-not-exist"><a href="#22-Ensure-that-a-response-header-does-not-exist" class="headerlink" title="22. Ensure that a response header does not exist"></a>22. Ensure that a response header does not exist</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating header does not exist X-Deprecated&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">has</span>(<span class="string">&quot;X-Deprecated&quot;</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="property">false</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="23-Verify-that-a-specific-field-contains-a-valid-email-address"><a href="#23-Verify-that-a-specific-field-contains-a-valid-email-address" class="headerlink" title="23. Verify that a specific field contains a valid email address"></a>23. Verify that a specific field contains a valid email address</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating valid email address&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">email</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/\S+@\S+\.\S+/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="24-Validate-that-a-field’s-value-matches-a-specific-pattern"><a href="#24-Validate-that-a-field’s-value-matches-a-specific-pattern" class="headerlink" title="24. Validate that a field’s value matches a specific pattern"></a>24. Validate that a field’s value matches a specific pattern</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field matches phone number pattern&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">phone</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/^\d&#123;3&#125;-\d&#123;3&#125;-\d&#123;4&#125;$/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="25-Check-if-the-response-body-has-no-null-values-in-an-array"><a href="#25-Check-if-the-response-body-has-no-null-values-in-an-array" class="headerlink" title="25. Check if the response body has no null values in an array"></a>25. Check if the response body has no null values in an array</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no null values in array&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="property">not</span>.<span class="property">deep</span>.<span class="property">include</span>.<span class="title function_">members</span>([<span class="literal">null</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="26-Ensure-the-response-includes-a-specific-nested-object"><a href="#26-Ensure-the-response-includes-a-specific-nested-object" class="headerlink" title="26. Ensure the response includes a specific nested object"></a>26. Ensure the response includes a specific nested object</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating nested object existence (address)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">address</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;city&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="27-Verify-that-a-list-of-IDs-in-the-response-body-is-unique"><a href="#27-Verify-that-a-list-of-IDs-in-the-response-body-is-unique" class="headerlink" title="27. Verify that a list of IDs in the response body is unique"></a>27. Verify that a list of IDs in the response body is unique</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating unique IDs in list&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> ids = jsonData.<span class="property">data</span>.<span class="title function_">map</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="property">id</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(<span class="keyword">new</span> <span class="title class_">Set</span>(ids).<span class="property">size</span>).<span class="property">to</span>.<span class="title function_">eql</span>(ids.<span class="property">length</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="28-Validate-that-a-numeric-field-falls-within-a-certain-percentile"><a href="#28-Validate-that-a-numeric-field-falls-within-a-certain-percentile" class="headerlink" title="28. Validate that a numeric field falls within a certain percentile"></a>28. Validate that a numeric field falls within a certain percentile</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field is in top 10 percentile&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">score</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">above</span>(<span class="number">90</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="29-Check-if-a-timestamp-in-the-response-body-is-in-ISO-8601-format"><a href="#29-Check-if-a-timestamp-in-the-response-body-is-in-ISO-8601-format" class="headerlink" title="29. Check if a timestamp in the response body is in ISO 8601 format:"></a>29. Check if a timestamp in the response body is in ISO 8601 format:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating timestamp format is ISO 8601&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">timestamp</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/\d&#123;4&#125;-\d&#123;2&#125;-\d&#123;2&#125;T\d&#123;2&#125;:\d&#123;2&#125;:\d&#123;2&#125;.\d&#123;3&#125;Z/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="30-Ensure-that-a-specific-field’s-value-does-not-contain-special-characters"><a href="#30-Ensure-that-a-specific-field’s-value-does-not-contain-special-characters" class="headerlink" title="30. Ensure that a specific field’s value does not contain special characters:"></a>30. Ensure that a specific field’s value does not contain special characters:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no special characters in field&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">username</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/^[a-zA-Z0-9]+$/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="31-Verify-that-a-specific-URL-in-the-response-body-is-reachable"><a href="#31-Verify-that-a-specific-URL-in-the-response-body-is-reachable" class="headerlink" title="31. Verify that a specific URL in the response body is reachable:"></a>31. Verify that a specific URL in the response body is reachable:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating URL reachability&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/(http|https):\/\/\S+/g</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="32-Validate-that-a-key’s-value-is-within-a-specific-set-of-allowed-values"><a href="#32-Validate-that-a-key’s-value-is-within-a-specific-set-of-allowed-values" class="headerlink" title="32. Validate that a key’s value is within a specific set of allowed values:"></a>32. Validate that a key’s value is within a specific set of allowed values:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key value in allowed set&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">status</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">oneOf</span>([<span class="string">&quot;Pending&quot;</span>, <span class="string">&quot;Completed&quot;</span>, <span class="string">&quot;Canceled&quot;</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object"><a href="#33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object" class="headerlink" title="33. Check if the response contains a nested array with at least one object:"></a>33. Check if the response contains a nested array with at least one object:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating nested array contains at least one object&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">orders</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="property">length</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value"><a href="#34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value" class="headerlink" title="34. Ensure that the sum of a numeric array field equals a specific value:"></a>34. Ensure that the sum of a numeric array field equals a specific value:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating sum of array values equals 100&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> sum = jsonData.<span class="property">data</span>.<span class="property">prices</span>.<span class="title function_">reduce</span>(<span class="function">(<span class="params">acc, price</span>) =&gt;</span> acc + price, <span class="number">0</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(sum).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="number">100</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="35-Verify-that-the-response-body-does-not-contain-any-undefined-fields"><a href="#35-Verify-that-the-response-body-does-not-contain-any-undefined-fields" class="headerlink" title="35. Verify that the response body does not contain any undefined fields:"></a>35. Verify that the response body does not contain any undefined fields:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no undefined fields&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> hasUndefined = <span class="title class_">Object</span>.<span class="title function_">values</span>(jsonData.<span class="property">data</span>).<span class="title function_">includes</span>(<span class="literal">undefined</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(hasUndefined).<span class="property">to</span>.<span class="property">be</span>.<span class="property">false</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="36-Validate-that-all-objects-in-an-array-have-a-specific-key"><a href="#36-Validate-that-all-objects-in-an-array-have-a-specific-key" class="headerlink" title="36. Validate that all objects in an array have a specific key:"></a>36. Validate that all objects in an array have a specific key:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key &#x27;id&#x27; in all array objects&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="title function_">satisfy</span>(<span class="function"><span class="params">items</span> =&gt;</span> items.<span class="title function_">every</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="title function_">hasOwnProperty</span>(<span class="string">&quot;id&quot;</span>)));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="37-Check-if-a-field’s-value-is-a-valid-JSON-object"><a href="#37-Check-if-a-field’s-value-is-a-valid-JSON-object" class="headerlink" title="37. Check if a field’s value is a valid JSON object:"></a>37. Check if a field’s value is a valid JSON object:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field is a valid JSON object&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">config</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">an</span>(<span class="string">&#x27;object&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="38-Ensure-the-response-body-does-not-exceed-a-certain-length"><a href="#38-Ensure-the-response-body-does-not-exceed-a-certain-length" class="headerlink" title="38. Ensure the response body does not exceed a certain length:"></a>38. Ensure the response body does not exceed a certain length:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body length is at most 500&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>().<span class="property">length</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="property">at</span>.<span class="title function_">most</span>(<span class="number">500</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-<h2 id="39-Verify-that-the-response-body-does-not-contain-a-specific-key"><a href="#39-Verify-that-the-response-body-does-not-contain-a-specific-key" class="headerlink" title="39. Verify that the response body does not contain a specific key:"></a>39. Verify that the response body does not contain a specific key:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating absence of key &#x27;password&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">not</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;password&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="40-Validate-that-an-array-field-in-the-response-body-is-sorted"><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted" class="headerlink" title="40. Validate that an array field in the response body is sorted:"></a>40. Validate that an array field in the response body is sorted:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating array is sorted&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> sortedArray = [...jsonData.<span class="property">data</span>].<span class="title function_">sort</span>(<span class="function">(<span class="params">a, b</span>) =&gt;</span> a - b);</span><br><span class="line">    pm.<span class="title function_">expect</span>(sortedArray).<span class="property">to</span>.<span class="title function_">eql</span>(jsonData.<span class="property">data</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>postman</tag>
-        <tag>api_testing</tag>
-        <tag>qa</tag>
-        <tag>API</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python basics</title>
     <url>/hexo-blog/2023/06/12/Posts/post_dev_side__python_basics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
@@ -3930,43 +3799,134 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>UNIX command tutorials</title>
-    <url>/hexo-blog/2023/10/25/Posts/post_dev_side__unix_comand_tutorial/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
-<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
-<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
-<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
-</ul>
-<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
-<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
-<li><strong>Command to run</strong>: <code>vimtutor</code></li>
-</ul>
-<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
-<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
-<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
-</ul>
-<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
-<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
-<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
-<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
-</ul>
-<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
-<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
-<li><strong>Install</strong>: <code>pip install cheat</code></li>
-<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
-</ul>
-<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
-<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
-</ul>
-]]></content>
+    <title>Postman tests examples</title>
+    <url>/hexo-blog/2023/05/11/Posts/post_dev_side__postman_tests_examples/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
+<p><strong>Table of content</strong><br><a href="#1-Validate-that-the-response-body-contains-a-specific-email">#1 Validate that the response body contains a specific</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#2 Check if the response status is 200</a><br><a href="#3-Ensure-the-response-time-is-less-than-500ms">#3 Ensure the response time is less than 500ms</a><br><a href="#4-Verify-the-users-first-name-in-the-json-response">#4 Verify the user’s first name in the JSON response</a><br><a href="#5-Validate-that-the-Content-Type-header-is-application-Json">#5 Validate that the Content-Type header is application&#x2F;json</a><br><a href="#6-Ensure-that-the-JSON-array-is-not-empty">#6 Ensure that the JSON array is not empty</a><br><a href="#7-Verify-that-a-specific-key-exists-in-the-response-body">#7 Verify that a specific key exists in the response body</a><br><a href="#8-Validate-the-response-body-includes-the-string-%E2%80%98success%E2%80%99">#8 Validate the response body includes the string ‘success’</a><br><a href="#9-Check-if-a-specific-field-is-of-a-certain-data-type">#9 Check if a specific field is of a certain data type</a><br><a href="#10-Validate-that-a-specific-field-has-a-value-greater-than-zero">#10. Validate that a specific field has a value greater than zero</a><br><a href="#11-Ensure-that-a-specific-header-exists-x-request-id">#11. Ensure that a specific header exists (X-Request-ID)</a><br><a href="#12-Verify-that-the-response-body-does-not-contain-a-specific-string">#12. Verify that the response body does not contain a specific string</a><br><a href="#13-Check-if-the-response-body-contains-a-specific-key-value-pair">#13. Check if the response body contains a specific key-value pair()(email)</a><br><a href="#14-Ensure-the-response-contains-multiple-keys">#14. Ensure the response contains multiple keys</a><br><a href="#15-Verify-that-a-fields-value-is-within-a-specific-range">#15. Verify that a field’s value is within a specific range</a><br><a href="#16-Validate-that-the-response-body-contains-a-specific-substring">#16. Validate that the response body contains a specific substring</a><br><a href="#17-Check-if-a-numeric-field-in-the-response-body-is-even">#17. Check if a numeric field in the response body is even</a><br><a href="#18-Ensure-that-the-response-body-has-a-non-empty-string-field">#18. Ensure that the response body has a non-empty string field</a><br><a href="#19-Verify-that-a-boolean-field-in-the-response-body-is-true">#19. Verify that a boolean field in the response body is true</a><br><a href="#20-Validate-that-an-array-field-has-a-specific-length">#20. Validate that an array field has a specific length</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#21. Check if a date field in the response body is in the past</a><br><a href="#22-Ensure-that-a-response-header-does-not-exist">#22. Ensure that a response header does not exist</a><br><a href="#23-Verify-that-a-specific-field-contains-a-valid-email-address">#23. Verify that a specific field contains a valid email address</a><br><a href="#24-Validate-that-a-fields-value-matches-a-specific-pattern">#24. Validate that a field’s value matches a specific pattern</a><br><a href="#25-Check-if-the-response-body-has-no-null-values-in-an-array">#25. Check if the response body has no null values in an array</a><br><a href="#26-Ensure-the-response-includes-a-specific-nested-object">#26. Ensure the response includes a specific nested object</a><br><a href="#27-Verify-that-a-list-of-ids-in-the-response-body-is-unique">#27. Verify that a list of IDs in the response body is unique</a><br><a href="#28-Validate-that-a-numeric-field-falls-within-a-certain-percentile">#28. Validate that a numeric field falls within a certain percentile </a><br><a href="#29-Check-if-a-timestamp-in-the-response-body-is-in-iso-8601-format">#29. Check if a timestamp in the response body is in ISO 8601 format</a><br><a href="#30-Ensure-that-a-specific-fields-value-does-not-contain-special-characters">#31. Verify that a specific URL in the response body is reachable</a><br><a href="#32-Validate-that-a-keys-value-is-within-a-specific-set-of-allowed-values">#32. Validate that a key’s value is within a specific set of allowed()values</a><br><a href="#33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object">#33. Check if the response contains a nested array with at least one()object</a><br><a href="#34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value">#34. Ensure that the sum of a numeric array field equals a specific()value</a><br><a href="#35-Verify-that-the-response-body-does-not-contain-any-undefined-fields">#35. Verify that the response body does not contain any undefined()fields</a><br><a href="#36-Validate-that-all-objects-in-an-array-have-a-specific-key">#36. Validate that all objects in an array have a specific key</a><br><a href="#37-Check-if-a-fields-value-is-a-valid-json-object">#37. Check if a field’s value is a valid JSON object</a><br><a href="#38-Ensure-the-response-body-does-not-exceed-a-certain-length">#38. Ensure the response body does not exceed a certain length</a><br><a href="#39-Verify-that-the-response-body-does-not-contain-a-specific-key">#39. Verify that the response body does not contain a specific key</a><br><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted">#40. Validate that an array field in the response body is sorted</a></p>
+<hr>
+<h1 id="1-Validate-that-the-response-body-contains-a-specific-email"><a href="#1-Validate-that-the-response-body-contains-a-specific-email" class="headerlink" title="1. Validate that the response body contains a specific email"></a>1. Validate that the response body contains a specific email</h1><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating responsebody contains specific email&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;george.bluth@magic.com&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-Check-if-the-response-status-is-200"><a href="#2-Check-if-the-response-status-is-200" class="headerlink" title="2. Check if the response status is 200"></a>2. Check if the response status is 200</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response status is 200&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="property">response</span>.<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">status</span>(<span class="number">200</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-Ensure-the-response-time-is-less-than-500ms"><a href="#3-Ensure-the-response-time-is-less-than-500ms" class="headerlink" title="3. Ensure the response time is less than 500ms"></a>3. Ensure the response time is less than 500ms</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response time is less than 500ms&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">responseTime</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">below</span>(<span class="number">500</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="4-Verify-the-user’s-first-name-in-the-JSON-response"><a href="#4-Verify-the-user’s-first-name-in-the-JSON-response" class="headerlink" title="4. Verify the user’s first name in the JSON response"></a>4. Verify the user’s first name in the JSON response</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating user&#x27;s first name in JSON response&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">first_name</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;George&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="5-Validate-that-the-Content-Type-header-is-application-Json"><a href="#5-Validate-that-the-Content-Type-header-is-application-Json" class="headerlink" title="5. Validate that the Content-Type header is application&#x2F;Json"></a>5. Validate that the Content-Type header is application&#x2F;Json</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating content-type header is application/json&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">get</span>(<span class="string">&quot;Content-Type&quot;</span>)).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;application/json&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="6-Ensure-that-the-JSON-array-is-not-empty"><a href="#6-Ensure-that-the-JSON-array-is-not-empty" class="headerlink" title="6. Ensure that the JSON array is not empty"></a>6. Ensure that the JSON array is not empty</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating JSON array is not empty&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">an</span>(<span class="string">&#x27;array&#x27;</span>).<span class="property">that</span>.<span class="property">is</span>.<span class="property">not</span>.<span class="property">empty</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="7-Verify-that-a-specific-key-exists-in-the-response-body"><a href="#7-Verify-that-a-specific-key-exists-in-the-response-body" class="headerlink" title="7. Verify that a specific key exists in the response body"></a>7. Verify that a specific key exists in the response body</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key existence in response body&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;data&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="8-Validate-the-response-body-includes-the-string-‘success’"><a href="#8-Validate-the-response-body-includes-the-string-‘success’" class="headerlink" title="8.Validate the response body includes the string ‘success’"></a>8.Validate the response body includes the string ‘success’</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body includes the string &#x27;success&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;success&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="9-Check-if-a-specific-field-is-of-a-certain-data-type"><a href="#9-Check-if-a-specific-field-is-of-a-certain-data-type" class="headerlink" title="9. Check if a specific field is of a certain data type"></a>9. Check if a specific field is of a certain data type</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field data type&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">id</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">a</span>(<span class="string">&#x27;number&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="10-Validate-that-a-specific-field-has-a-value-greater-than-zero"><a href="#10-Validate-that-a-specific-field-has-a-value-greater-than-zero" class="headerlink" title="10. Validate that a specific field has a value greater than zero"></a>10. Validate that a specific field has a value greater than zero</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field value is greater than zero&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">age</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="11-Ensure-that-a-specific-header-exists-X-Request-ID"><a href="#11-Ensure-that-a-specific-header-exists-X-Request-ID" class="headerlink" title="11. Ensure that a specific header exists (X-Request-ID)"></a>11. Ensure that a specific header exists (X-Request-ID)</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating header existence X-Request-ID&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">has</span>(<span class="string">&quot;X-Request-ID&quot;</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="property">true</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="12-Verify-that-the-response-body-does-not-contain-a-specific-string"><a href="#12-Verify-that-the-response-body-does-not-contain-a-specific-string" class="headerlink" title="12. Verify that the response body does not contain a specific string"></a>12. Verify that the response body does not contain a specific string</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating absence of string &#x27;error&#x27; in response body&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="property">not</span>.<span class="title function_">include</span>(<span class="string">&quot;error&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="13-Check-if-the-response-body-contains-a-specific-key-value-pair"><a href="#13-Check-if-the-response-body-contains-a-specific-key-value-pair" class="headerlink" title="13. Check if the response body contains a specific key-value pair"></a>13. Check if the response body contains a specific key-value pair</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key-value pair (email)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">email</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="string">&quot;george.bluth@magic.com&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="14-Ensure-the-response-contains-multiple-keys"><a href="#14-Ensure-the-response-contains-multiple-keys" class="headerlink" title="14. Ensure the response contains multiple keys"></a>14. Ensure the response contains multiple keys</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating multiple keys existence (data, support)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">keys</span>([<span class="string">&quot;data&quot;</span>, <span class="string">&quot;support&quot;</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="15-Verify-that-a-field’s-value-is-within-a-specific-range"><a href="#15-Verify-that-a-field’s-value-is-within-a-specific-range" class="headerlink" title="15. Verify that a field’s value is within a specific range"></a>15. Verify that a field’s value is within a specific range</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field value is within range 1-10&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">page</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">within</span>(<span class="number">1</span>, <span class="number">10</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="16-Validate-that-the-response-body-contains-a-specific-substring"><a href="#16-Validate-that-the-response-body-contains-a-specific-substring" class="headerlink" title="16. Validate that the response body contains a specific substring"></a>16. Validate that the response body contains a specific substring</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body contains substring &#x27;welcome&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">include</span>(<span class="string">&quot;welcome&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="17-Check-if-a-numeric-field-in-the-response-body-is-even"><a href="#17-Check-if-a-numeric-field-in-the-response-body-is-even" class="headerlink" title="17. Check if a numeric field in the response body is even"></a>17. Check if a numeric field in the response body is even</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating numeric field is even&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">id</span> % <span class="number">2</span>).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="18-Ensure-that-the-response-body-has-a-non-empty-string-field"><a href="#18-Ensure-that-the-response-body-has-a-non-empty-string-field" class="headerlink" title="18. Ensure that the response body has a non-empty string field"></a>18. Ensure that the response body has a non-empty string field</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating non-empty string field&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">name</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="property">length</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="19-Verify-that-a-boolean-field-in-the-response-body-is-true"><a href="#19-Verify-that-a-boolean-field-in-the-response-body-is-true" class="headerlink" title="19. Verify that a boolean field in the response body is true"></a>19. Verify that a boolean field in the response body is true</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating boolean field is true&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">isActive</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="property">true</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="20-Validate-that-an-array-field-has-a-specific-length"><a href="#20-Validate-that-an-array-field-has-a-specific-length" class="headerlink" title="20. Validate that an array field has a specific length"></a>20. Validate that an array field has a specific length</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating array length is 5&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">items</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">lengthOf</span>(<span class="number">5</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="21-Check-if-a-date-field-in-the-response-body-is-in-the-past"><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past" class="headerlink" title="21. Check if a date field in the response body is in the past"></a>21. Check if a date field in the response body is in the past</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating date field is in the past&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(<span class="keyword">new</span> <span class="title class_">Date</span>(jsonData.<span class="property">data</span>.<span class="property">date</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">below</span>(<span class="keyword">new</span> <span class="title class_">Date</span>());</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="22-Ensure-that-a-response-header-does-not-exist"><a href="#22-Ensure-that-a-response-header-does-not-exist" class="headerlink" title="22. Ensure that a response header does not exist"></a>22. Ensure that a response header does not exist</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating header does not exist X-Deprecated&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="property">headers</span>.<span class="title function_">has</span>(<span class="string">&quot;X-Deprecated&quot;</span>)).<span class="property">to</span>.<span class="property">be</span>.<span class="property">false</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="23-Verify-that-a-specific-field-contains-a-valid-email-address"><a href="#23-Verify-that-a-specific-field-contains-a-valid-email-address" class="headerlink" title="23. Verify that a specific field contains a valid email address"></a>23. Verify that a specific field contains a valid email address</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating valid email address&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">email</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/\S+@\S+\.\S+/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="24-Validate-that-a-field’s-value-matches-a-specific-pattern"><a href="#24-Validate-that-a-field’s-value-matches-a-specific-pattern" class="headerlink" title="24. Validate that a field’s value matches a specific pattern"></a>24. Validate that a field’s value matches a specific pattern</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field matches phone number pattern&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">phone</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/^\d&#123;3&#125;-\d&#123;3&#125;-\d&#123;4&#125;$/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="25-Check-if-the-response-body-has-no-null-values-in-an-array"><a href="#25-Check-if-the-response-body-has-no-null-values-in-an-array" class="headerlink" title="25. Check if the response body has no null values in an array"></a>25. Check if the response body has no null values in an array</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no null values in array&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="property">not</span>.<span class="property">deep</span>.<span class="property">include</span>.<span class="title function_">members</span>([<span class="literal">null</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="26-Ensure-the-response-includes-a-specific-nested-object"><a href="#26-Ensure-the-response-includes-a-specific-nested-object" class="headerlink" title="26. Ensure the response includes a specific nested object"></a>26. Ensure the response includes a specific nested object</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating nested object existence (address)&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">address</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;city&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="27-Verify-that-a-list-of-IDs-in-the-response-body-is-unique"><a href="#27-Verify-that-a-list-of-IDs-in-the-response-body-is-unique" class="headerlink" title="27. Verify that a list of IDs in the response body is unique"></a>27. Verify that a list of IDs in the response body is unique</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating unique IDs in list&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> ids = jsonData.<span class="property">data</span>.<span class="title function_">map</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="property">id</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(<span class="keyword">new</span> <span class="title class_">Set</span>(ids).<span class="property">size</span>).<span class="property">to</span>.<span class="title function_">eql</span>(ids.<span class="property">length</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="28-Validate-that-a-numeric-field-falls-within-a-certain-percentile"><a href="#28-Validate-that-a-numeric-field-falls-within-a-certain-percentile" class="headerlink" title="28. Validate that a numeric field falls within a certain percentile"></a>28. Validate that a numeric field falls within a certain percentile</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field is in top 10 percentile&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">score</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">above</span>(<span class="number">90</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="29-Check-if-a-timestamp-in-the-response-body-is-in-ISO-8601-format"><a href="#29-Check-if-a-timestamp-in-the-response-body-is-in-ISO-8601-format" class="headerlink" title="29. Check if a timestamp in the response body is in ISO 8601 format:"></a>29. Check if a timestamp in the response body is in ISO 8601 format:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating timestamp format is ISO 8601&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">timestamp</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/\d&#123;4&#125;-\d&#123;2&#125;-\d&#123;2&#125;T\d&#123;2&#125;:\d&#123;2&#125;:\d&#123;2&#125;.\d&#123;3&#125;Z/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="30-Ensure-that-a-specific-field’s-value-does-not-contain-special-characters"><a href="#30-Ensure-that-a-specific-field’s-value-does-not-contain-special-characters" class="headerlink" title="30. Ensure that a specific field’s value does not contain special characters:"></a>30. Ensure that a specific field’s value does not contain special characters:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no special characters in field&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">username</span>).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/^[a-zA-Z0-9]+$/</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="31-Verify-that-a-specific-URL-in-the-response-body-is-reachable"><a href="#31-Verify-that-a-specific-URL-in-the-response-body-is-reachable" class="headerlink" title="31. Verify that a specific URL in the response body is reachable:"></a>31. Verify that a specific URL in the response body is reachable:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating URL reachability&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>()).<span class="property">to</span>.<span class="title function_">match</span>(<span class="regexp">/(http|https):\/\/\S+/g</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="32-Validate-that-a-key’s-value-is-within-a-specific-set-of-allowed-values"><a href="#32-Validate-that-a-key’s-value-is-within-a-specific-set-of-allowed-values" class="headerlink" title="32. Validate that a key’s value is within a specific set of allowed values:"></a>32. Validate that a key’s value is within a specific set of allowed values:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key value in allowed set&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">status</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">oneOf</span>([<span class="string">&quot;Pending&quot;</span>, <span class="string">&quot;Completed&quot;</span>, <span class="string">&quot;Canceled&quot;</span>]);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object"><a href="#33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object" class="headerlink" title="33. Check if the response contains a nested array with at least one object:"></a>33. Check if the response contains a nested array with at least one object:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating nested array contains at least one object&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">orders</span>).<span class="property">to</span>.<span class="property">have</span>.<span class="property">length</span>.<span class="title function_">above</span>(<span class="number">0</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value"><a href="#34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value" class="headerlink" title="34. Ensure that the sum of a numeric array field equals a specific value:"></a>34. Ensure that the sum of a numeric array field equals a specific value:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating sum of array values equals 100&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> sum = jsonData.<span class="property">data</span>.<span class="property">prices</span>.<span class="title function_">reduce</span>(<span class="function">(<span class="params">acc, price</span>) =&gt;</span> acc + price, <span class="number">0</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(sum).<span class="property">to</span>.<span class="title function_">eql</span>(<span class="number">100</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="35-Verify-that-the-response-body-does-not-contain-any-undefined-fields"><a href="#35-Verify-that-the-response-body-does-not-contain-any-undefined-fields" class="headerlink" title="35. Verify that the response body does not contain any undefined fields:"></a>35. Verify that the response body does not contain any undefined fields:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating no undefined fields&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> hasUndefined = <span class="title class_">Object</span>.<span class="title function_">values</span>(jsonData.<span class="property">data</span>).<span class="title function_">includes</span>(<span class="literal">undefined</span>);</span><br><span class="line">    pm.<span class="title function_">expect</span>(hasUndefined).<span class="property">to</span>.<span class="property">be</span>.<span class="property">false</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="36-Validate-that-all-objects-in-an-array-have-a-specific-key"><a href="#36-Validate-that-all-objects-in-an-array-have-a-specific-key" class="headerlink" title="36. Validate that all objects in an array have a specific key:"></a>36. Validate that all objects in an array have a specific key:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating key &#x27;id&#x27; in all array objects&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>).<span class="property">to</span>.<span class="title function_">satisfy</span>(<span class="function"><span class="params">items</span> =&gt;</span> items.<span class="title function_">every</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="title function_">hasOwnProperty</span>(<span class="string">&quot;id&quot;</span>)));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="37-Check-if-a-field’s-value-is-a-valid-JSON-object"><a href="#37-Check-if-a-field’s-value-is-a-valid-JSON-object" class="headerlink" title="37. Check if a field’s value is a valid JSON object:"></a>37. Check if a field’s value is a valid JSON object:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating field is a valid JSON object&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData.<span class="property">data</span>.<span class="property">config</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="title function_">an</span>(<span class="string">&#x27;object&#x27;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="38-Ensure-the-response-body-does-not-exceed-a-certain-length"><a href="#38-Ensure-the-response-body-does-not-exceed-a-certain-length" class="headerlink" title="38. Ensure the response body does not exceed a certain length:"></a>38. Ensure the response body does not exceed a certain length:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating response body length is at most 500&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    pm.<span class="title function_">expect</span>(pm.<span class="property">response</span>.<span class="title function_">text</span>().<span class="property">length</span>).<span class="property">to</span>.<span class="property">be</span>.<span class="property">at</span>.<span class="title function_">most</span>(<span class="number">500</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="39-Verify-that-the-response-body-does-not-contain-a-specific-key"><a href="#39-Verify-that-the-response-body-does-not-contain-a-specific-key" class="headerlink" title="39. Verify that the response body does not contain a specific key:"></a>39. Verify that the response body does not contain a specific key:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating absence of key &#x27;password&#x27;&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    pm.<span class="title function_">expect</span>(jsonData).<span class="property">to</span>.<span class="property">not</span>.<span class="property">have</span>.<span class="title function_">property</span>(<span class="string">&quot;password&quot;</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="40-Validate-that-an-array-field-in-the-response-body-is-sorted"><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted" class="headerlink" title="40. Validate that an array field in the response body is sorted:"></a>40. Validate that an array field in the response body is sorted:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating array is sorted&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> sortedArray = [...jsonData.<span class="property">data</span>].<span class="title function_">sort</span>(<span class="function">(<span class="params">a, b</span>) =&gt;</span> a - b);</span><br><span class="line">    pm.<span class="title function_">expect</span>(sortedArray).<span class="property">to</span>.<span class="title function_">eql</span>(jsonData.<span class="property">data</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
         <tag>dev_side</tag>
-        <tag>unix</tag>
+        <tag>postman</tag>
+        <tag>api_testing</tag>
+        <tag>qa</tag>
+        <tag>API</tag>
       </tags>
   </entry>
   <entry>
@@ -4087,6 +4047,46 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>UNIX command tutorials</title>
+    <url>/hexo-blog/2023/10/25/Posts/post_dev_side__unix_comand_tutorial/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
+<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
+<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
+<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
+</ul>
+<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
+<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
+<li><strong>Command to run</strong>: <code>vimtutor</code></li>
+</ul>
+<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
+<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
+<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
+</ul>
+<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
+<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
+<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
+<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
+</ul>
+<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
+<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
+<li><strong>Install</strong>: <code>pip install cheat</code></li>
+<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
+</ul>
+<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
+<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>unix</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>My glossaries</title>
     <url>/hexo-blog//knowledge/my-glossaries/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
@@ -4173,6 +4173,27 @@ print(generated_text)
       <tags>
         <tag>network_protocols</tag>
         <tag>protocols</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Psychology</title>
+    <url>/hexo-blog/2024/10/18/Posts/post_psy__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Carroll Izard. The Psychology of Emotions</li>
+<li>Patterns of emotions. A new analysis of anxiety and depression. Carroll Izard</li>
+<li>The American mind; an interpretation of American thought and character since the 1880’s<ul>
+<li><a href="https://archive.org/stream/in.ernet.dli.2015.523442/2015.523442.The-American_djvu.txt">Read on archive.org</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>AI</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -4272,24 +4293,56 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Psychology</title>
-    <url>/hexo-blog/2024/10/18/Posts/post_psy__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Carroll Izard. The Psychology of Emotions</li>
-<li>Patterns of emotions. A new analysis of anxiety and depression. Carroll Izard</li>
-<li>The American mind; an interpretation of American thought and character since the 1880’s<ul>
-<li><a href="https://archive.org/stream/in.ernet.dli.2015.523442/2015.523442.The-American_djvu.txt">Read on archive.org</a></li>
+    <title>Software QA - DB testing approach</title>
+    <url>/hexo-blog/2024/10/21/Posts/post_qa__software_qa_db_testing_approach/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
+<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
+<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
+<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Use this script to create a clean database environment before running tests.</li>
+<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
 </ul>
-</li>
+<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
+<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
 </ul>
-]]></content>
+<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Testing the Stored Procedure:</strong></p>
+<p>You can write a script to test the stored procedure and verify its results.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Create unit tests for stored procedures to ensure they work as expected.</li>
+<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
+</ul>
+<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
+<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
+</ul>
+<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
+<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Posts</category>
+        <category>QA</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
+        <tag>qa</tag>
+        <tag>db</tag>
       </tags>
   </entry>
   <entry>
@@ -4442,56 +4495,26 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Software QA - DB testing approach</title>
-    <url>/hexo-blog/2024/10/21/Posts/post_qa__software_qa_db_testing_approach/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
-<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
-<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
-<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Use this script to create a clean database environment before running tests.</li>
-<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
-</ul>
-<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
-<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
-</ul>
-<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
-
-<p><strong>Testing the Stored Procedure:</strong></p>
-<p>You can write a script to test the stored procedure and verify its results.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Create unit tests for stored procedures to ensure they work as expected.</li>
-<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
-</ul>
-<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
-<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
-</ul>
-<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
-<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
+    <title>Resources. Global platforms and people</title>
+    <url>/hexo-blog/2024/10/28/Posts/post_resources__global_platforms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+<ol>
+<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
+</li>
+<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
+</li>
+</ol>
+<p><strong>List of people</strong></p>
+<ol>
+<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+</ol>
+]]></content>
       <categories>
-        <category>QA</category>
+        <category>Posts</category>
       </categories>
       <tags>
-        <tag>qa</tag>
-        <tag>db</tag>
+        <tag>global_knowledge</tag>
+        <tag>resources</tag>
       </tags>
   </entry>
   <entry>
@@ -4595,29 +4618,6 @@ print(generated_text)
       <tags>
         <tag>test_design</tag>
         <tag>mobile_application</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resources. Global platforms and people</title>
-    <url>/hexo-blog/2024/10/28/Posts/post_resources__global_platforms/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
-<ol>
-<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
-</li>
-<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
-</li>
-</ol>
-<p><strong>List of people</strong></p>
-<ol>
-<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>global_knowledge</tag>
-        <tag>resources</tag>
       </tags>
   </entry>
   <entry>
@@ -5368,6 +5368,56 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -5429,56 +5479,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -5770,6 +5770,28 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Online tools</title>
+    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
+<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
+</ol>
+<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+</ol>
+<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
+<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>tools</tag>
+        <tag>online_tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Symbol encoding (Unicode and family)</title>
     <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
@@ -5888,28 +5910,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>unicode</tag>
         <tag>ASCII</tag>
         <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Online tools</title>
-    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
-<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
-</ol>
-<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-</ol>
-<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
-<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>tools</tag>
-        <tag>online_tools</tag>
       </tags>
   </entry>
   <entry>
@@ -6060,7 +6060,7 @@ More detilas about event you can find on the official <a href = https://kolkadub
 <li>be ready to install some additional plugins that cna be oudiated or required additionla configurations</li>
 </ul>
 <hr>
-<p><strong>TOC</strong><br><a href="#1-Moving-side-panel-to-the-left-side">1. Moving side panel to the left side.</a><br><a href="#2-Removing-hide-Search-form-on-the-header">2. Removing(hide) <code>Search</code> form on the header</a><br><a href="#3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub">3. Changes project structure. If blog published not iun the root of GitHub</a><br><a href="#4-Sitemap-for-the-blog">4. Sitemap for the blog.  </a><br><a href="#5-Add-HEXO-IO-version-details-to-the-footer">5. Add HEXO.IO version details to the footer</a><br><a href="#6-Search-option-internal-HEXO-IO-feature">6. Search option (internal HEXO.IO feature)</a><br><a href="#7-Managing-publishing-several-projects-from-the-same-local-machine-GitHub-access-token-issues">7. Managing (publishing) several projects from the same local machine (GitHub access + token issues)</a></p>
+<p><strong>TOC</strong><br><a href="#1-Moving-side-panel-to-the-left-side">1. Moving side panel to the left side.</a><br><a href="#2-Removing-hide-Search-form-on-the-header">2. Removing(hide) <code>Search</code> form on the header</a><br><a href="#3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub">3. Changes project structure. If blog published not iun the root of GitHub</a><br><a href="#4-Sitemap-for-the-blog">4. Sitemap for the blog.  </a><br><a href="#5-Add-HEXO-IO-version-details-to-the-footer">5. Add HEXO.IO version details to the footer</a><br><a href="#6-Search-option-internal-HEXO-IO-feature">6. Search option (internal HEXO.IO feature)</a><br><a href="#7-Managing-publishing-several-projects-from-the-same-local-machine-GitHub-access-token-issues">7. Managing (publishing) several projects from the same local machine (GitHub access + token issues)</a><br><a href="#8-Pagination-issue-after-deploying-on-GitHub-pages">8. Pagination issue after deploying on GitHub pages</a></p>
 <p>Below  is a list of changes and improvements.</p>
 <h2 id="1-Moving-side-panel-to-the-left-side"><a href="#1-Moving-side-panel-to-the-left-side" class="headerlink" title="1. Moving side panel to the left side."></a>1. Moving side panel to the left side.</h2><p>   Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
 <h2 id="2-Removing-hide-Search-form-on-the-header"><a href="#2-Removing-hide-Search-form-on-the-header" class="headerlink" title="2. Removing(hide) Search form on the header"></a>2. Removing(hide) <code>Search</code> form on the header</h2><h2 id="For-hiding-‘Search’-form-from-the-header-bar-1-open-themes-landscape-layout-partial-header-ejs-it-works-if-theme-is-landscape-It-was-not-chekced-on-default-theme-2-comment-linesin-two-places-1-1st-2-and-2nd"><a href="#For-hiding-‘Search’-form-from-the-header-bar-1-open-themes-landscape-layout-partial-header-ejs-it-works-if-theme-is-landscape-It-was-not-chekced-on-default-theme-2-comment-linesin-two-places-1-1st-2-and-2nd" class="headerlink" title="   For hiding ‘Search’ form from the header bar,   1. open \themes\landscape\layout\_partial\header.ejs (it works if theme is landscape (It was not chekced on default theme!!!)   2. comment  linesin two places:      1. 1st                 2. and 2nd          "></a>   For hiding ‘Search’ form from the header bar,<br>   1. open <code>\themes\landscape\layout\_partial\header.ejs</code> (it works if <code>theme</code> is <code>landscape</code> (It was not chekced on default <code>theme</code>!!!)<br>   2. comment  linesin two places:<br>      1. 1st<br>           <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure><br>      2. and 2nd<br>          <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></h2><h2 id="3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub"><a href="#3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub" class="headerlink" title="3. Changes project structure. If blog published not iun the root of GitHub"></a>3. Changes project structure. If blog published not iun the root of GitHub</h2><p> If HEXO.IO project will be publoished not in teh root of GitHub , the _comfig.yaml should be updated. </p>
@@ -6135,7 +6135,11 @@ More detilas about event you can find on the official <a href = https://kolkadub
   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></li>
 </ol>
 <hr>
-<h2 id="Pagination-issue-after-deploying-on-GitHib-pages"><a href="#Pagination-issue-after-deploying-on-GitHib-pages" class="headerlink" title="Pagination issue after deploying on GitHib pages"></a>Pagination issue after deploying on GitHib pages</h2><p>Pagination of hexo.io blog works fine on localhost but not working after deploy on GitHib pages.<br><a href="http://localhost:4000/hexo-blog/categories/Posts/_posts/2/">http://localhost:4000/hexo-blog/categories/Posts/_posts/2/</a> works fine, page opens with content<br><a href="https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/">https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/</a> shows that page not found</p>
+<h2 id="8-Pagination-issue-after-deploying-on-GitHub-pages"><a href="#8-Pagination-issue-after-deploying-on-GitHub-pages" class="headerlink" title="8. Pagination issue after deploying on GitHub pages"></a>8. Pagination issue after deploying on GitHub pages</h2><p>Pagination of hexo.io blog works fine on localhost but not working after deploy on GitHub pages.<br><a href="http://localhost:4000/hexo-blog/categories/Posts/_posts/2/">http://localhost:4000/hexo-blog/categories/Posts/_posts/2/</a> works fine, page opens with content<br><a href="https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/">https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/</a> shows that page not found</p>
+<p><em>Helpful Resources</em></p>
+<ol>
+<li><a href="https://hexo.io/docs/configuration#Pagination">Hexo Documentation - Pagination</a></li>
+</ol>
 <p>Solutions:</p>
 <ol>
 <li><p>Enable Pretty URLs. Ensure that Hexo generates an index.html file for each page in the pagination. In Hexo, this can be achieved by enabling the proper permalink structure.<br>In the main <code>_config.yml</code>, check or add the following:</p>
@@ -6146,7 +6150,14 @@ More detilas about event you can find on the official <a href = https://kolkadub
 <p><strong>Result:</strong></p>
 <ul>
 <li>On localhost pagination is working </li>
-<li>On GitHib pages <strong>pagination still not working</strong></li>
+<li>On GitHub pages <strong>pagination still not working</strong></li>
+</ul>
+<ol start="2">
+<li>Change  pagination_dir from <code>pagination_dir: _posts</code> to <code>pagination_dir: Posts, page</code> in <code>_config.yml</code><br><strong>Result:</strong></li>
+</ol>
+<ul>
+<li>On localhost pagination is working </li>
+<li>On GitHub pages <strong>pagination still not working</strong></li>
 </ul>
 ]]></content>
       <categories>

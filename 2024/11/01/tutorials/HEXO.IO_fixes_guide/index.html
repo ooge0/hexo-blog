@@ -27,7 +27,7 @@
 <meta property="og:description" content="For making changes in blog design check that:  default configuration of HEXO.IO is not changed (You installed everythong from initial command from Hexo Setup page; you made copy of original project; b">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-11-01T07:22:44.472Z">
-<meta property="article:modified_time" content="2024-12-04T08:46:43.992Z">
+<meta property="article:modified_time" content="2024-12-04T09:08:23.585Z">
 <meta property="article:author" content="si0n4ra">
 <meta property="article:tag" content="tutorial">
 <meta property="article:tag" content="blog">
@@ -132,7 +132,7 @@
 <li>be ready to install some additional plugins that cna be oudiated or required additionla configurations</li>
 </ul>
 <hr>
-<p><strong>TOC</strong><br><a href="#1-Moving-side-panel-to-the-left-side">1. Moving side panel to the left side.</a><br><a href="#2-Removing-hide-Search-form-on-the-header">2. Removing(hide) <code>Search</code> form on the header</a><br><a href="#3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub">3. Changes project structure. If blog published not iun the root of GitHub</a><br><a href="#4-Sitemap-for-the-blog">4. Sitemap for the blog.  </a><br><a href="#5-Add-HEXO-IO-version-details-to-the-footer">5. Add HEXO.IO version details to the footer</a><br><a href="#6-Search-option-internal-HEXO-IO-feature">6. Search option (internal HEXO.IO feature)</a><br><a href="#7-Managing-publishing-several-projects-from-the-same-local-machine-GitHub-access-token-issues">7. Managing (publishing) several projects from the same local machine (GitHub access + token issues)</a></p>
+<p><strong>TOC</strong><br><a href="#1-Moving-side-panel-to-the-left-side">1. Moving side panel to the left side.</a><br><a href="#2-Removing-hide-Search-form-on-the-header">2. Removing(hide) <code>Search</code> form on the header</a><br><a href="#3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub">3. Changes project structure. If blog published not iun the root of GitHub</a><br><a href="#4-Sitemap-for-the-blog">4. Sitemap for the blog.  </a><br><a href="#5-Add-HEXO-IO-version-details-to-the-footer">5. Add HEXO.IO version details to the footer</a><br><a href="#6-Search-option-internal-HEXO-IO-feature">6. Search option (internal HEXO.IO feature)</a><br><a href="#7-Managing-publishing-several-projects-from-the-same-local-machine-GitHub-access-token-issues">7. Managing (publishing) several projects from the same local machine (GitHub access + token issues)</a><br><a href="#8-Pagination-issue-after-deploying-on-GitHub-pages">8. Pagination issue after deploying on GitHub pages</a></p>
 <p>Below  is a list of changes and improvements.</p>
 <h2 id="1-Moving-side-panel-to-the-left-side"><a href="#1-Moving-side-panel-to-the-left-side" class="headerlink" title="1. Moving side panel to the left side."></a>1. Moving side panel to the left side.</h2><p>   Moving side panel to the left side required editing <code>\themes\landscape\_config.yml</code> and add <code>sidebar: left</code></p>
 <h2 id="2-Removing-hide-Search-form-on-the-header"><a href="#2-Removing-hide-Search-form-on-the-header" class="headerlink" title="2. Removing(hide) Search form on the header"></a>2. Removing(hide) <code>Search</code> form on the header</h2><h2 id="For-hiding-‘Search’-form-from-the-header-bar-1-open-themes-landscape-layout-partial-header-ejs-it-works-if-theme-is-landscape-It-was-not-chekced-on-default-theme-2-comment-linesin-two-places-1-1st-2-and-2nd"><a href="#For-hiding-‘Search’-form-from-the-header-bar-1-open-themes-landscape-layout-partial-header-ejs-it-works-if-theme-is-landscape-It-was-not-chekced-on-default-theme-2-comment-linesin-two-places-1-1st-2-and-2nd" class="headerlink" title="   For hiding ‘Search’ form from the header bar,   1. open \themes\landscape\layout\_partial\header.ejs (it works if theme is landscape (It was not chekced on default theme!!!)   2. comment  linesin two places:      1. 1st                 2. and 2nd          "></a>   For hiding ‘Search’ form from the header bar,<br>   1. open <code>\themes\landscape\layout\_partial\header.ejs</code> (it works if <code>theme</code> is <code>landscape</code> (It was not chekced on default <code>theme</code>!!!)<br>   2. comment  linesin two places:<br>      1. 1st<br>           <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">a</span> class=&quot;<span class="selector-tag">nav</span>-<span class="attribute">icon</span> <span class="selector-tag">nav</span>-search-btn&quot; title=&quot;&lt;%= __(&#x27;search&#x27;) %&gt;&quot;&gt;&lt;<span class="selector-tag">span</span> class=&quot;fa fa-search&quot;&gt;&lt;/<span class="selector-tag">span</span>&gt;&lt;/<span class="selector-tag">a</span>&gt;</span><br></pre></td></tr></table></figure><br>      2. and 2nd<br>          <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- search_form(&#123;<span class="selector-tag">button</span>: <span class="string">&#x27;&amp;#xF002;&#x27;</span>, text: <span class="built_in">__</span>(<span class="string">&#x27;search&#x27;</span>)&#125;) %&gt; </span><br></pre></td></tr></table></figure></h2><h2 id="3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub"><a href="#3-Changes-project-structure-If-blog-published-not-iun-the-root-of-GitHub" class="headerlink" title="3. Changes project structure. If blog published not iun the root of GitHub"></a>3. Changes project structure. If blog published not iun the root of GitHub</h2><p> If HEXO.IO project will be publoished not in teh root of GitHub , the _comfig.yaml should be updated. </p>
@@ -207,7 +207,11 @@
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></li>
 </ol>
 <hr>
-<h2 id="Pagination-issue-after-deploying-on-GitHib-pages"><a href="#Pagination-issue-after-deploying-on-GitHib-pages" class="headerlink" title="Pagination issue after deploying on GitHib pages"></a>Pagination issue after deploying on GitHib pages</h2><p>Pagination of hexo.io blog works fine on localhost but not working after deploy on GitHib pages.<br><a target="_blank" rel="noopener" href="http://localhost:4000/hexo-blog/categories/Posts/_posts/2/">http://localhost:4000/hexo-blog/categories/Posts/_posts/2/</a> works fine, page opens with content<br><a href="https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/">https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/</a> shows that page not found</p>
+<h2 id="8-Pagination-issue-after-deploying-on-GitHub-pages"><a href="#8-Pagination-issue-after-deploying-on-GitHub-pages" class="headerlink" title="8. Pagination issue after deploying on GitHub pages"></a>8. Pagination issue after deploying on GitHub pages</h2><p>Pagination of hexo.io blog works fine on localhost but not working after deploy on GitHub pages.<br><a target="_blank" rel="noopener" href="http://localhost:4000/hexo-blog/categories/Posts/_posts/2/">http://localhost:4000/hexo-blog/categories/Posts/_posts/2/</a> works fine, page opens with content<br><a href="https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/">https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/</a> shows that page not found</p>
+<p><em>Helpful Resources</em></p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration#Pagination">Hexo Documentation - Pagination</a></li>
+</ol>
 <p>Solutions:</p>
 <ol>
 <li><p>Enable Pretty URLs. Ensure that Hexo generates an index.html file for each page in the pagination. In Hexo, this can be achieved by enabling the proper permalink structure.<br>In the main <code>_config.yml</code>, check or add the following:</p>
@@ -218,13 +222,20 @@
 <p><strong>Result:</strong></p>
 <ul>
 <li>On localhost pagination is working </li>
-<li>On GitHib pages <strong>pagination still not working</strong></li>
+<li>On GitHub pages <strong>pagination still not working</strong></li>
+</ul>
+<ol start="2">
+<li>Change  pagination_dir from <code>pagination_dir: _posts</code> to <code>pagination_dir: Posts, page</code> in <code>_config.yml</code><br><strong>Result:</strong></li>
+</ol>
+<ul>
+<li>On localhost pagination is working </li>
+<li>On GitHub pages <strong>pagination still not working</strong></li>
 </ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/" data-id="cm49nnxvo007xrkkk6lnv63cx" data-title="HEXIO.IO fixes guide" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/" data-id="cm49o1fgk007xvckkb86wcujj" data-title="HEXIO.IO fixes guide" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
