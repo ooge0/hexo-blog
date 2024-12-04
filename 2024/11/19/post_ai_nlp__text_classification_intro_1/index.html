@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QND5GLPYZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QND5GLPYZV');
+</script>
+<!-- End Google Analytics -->
+
+  
+  <title>Text Classification. Historical overview, tools, and techniques. |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="Text classification is a fundamental task in Natural Language Processing (NLP) that involves categorizing text into predefined categories. Its applications range from sentiment analysis to spam detect">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Text Classification. Historical overview, tools, and techniques.">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/11/19/post_ai_nlp__text_classification_intro_1/">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="Text classification is a fundamental task in Natural Language Processing (NLP) that involves categorizing text into predefined categories. Its applications range from sentiment analysis to spam detect">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-11-19T10:05:30.000Z">
+<meta property="article:modified_time" content="2024-11-19T10:06:14.446Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="ML">
+<meta property="article:tag" content="NLP">
+<meta property="article:tag" content="text_classification">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/hexo-blog/atom.xml" title=" " type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-post_ai_nlp__text_classification_intro_1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/2024/11/19/post_ai_nlp__text_classification_intro_1/" class="article-date">
+  <time class="dt-published" datetime="2024-11-19T10:05:30.000Z" itemprop="datePublished">2024-11-19</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Text Classification. Historical overview, tools, and techniques.
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text classification is a fundamental task in Natural Language Processing (NLP) that involves categorizing text into predefined categories. Its applications range from sentiment analysis to spam detection, and news categorization to intent recognition in conversational AI. This document provides a historical overview, a comparative analysis of tools, and details about modern approaches like Word2Vec, FastText, GloVe, and deep learning.</p>
+<ol>
+<li><p>Historical Overview of Text Classification</p>
+<ol>
+<li><strong>Traditional Methods (1950s - 2000s)</strong><ol>
+<li><em>Bag of Words (BoW):</em><ul>
+<li>Represents text as a frequency vector of words.</li>
+<li>Pros: Simple and interpretable.</li>
+<li>Cons: Ignores word order and semantics.</li>
+</ul>
+</li>
+<li><em>TF-IDF (Term Frequency-Inverse Document Frequency):</em><ul>
+<li>Improves BoW by weighting rare words higher.</li>
+<li>Pros: Better at distinguishing important terms.</li>
+<li>Cons: Still ignores context and word relationships.</li>
+</ul>
+</li>
+<li><em>Naive Bayes:</em><ul>
+<li>Commonly used with BoW or TF-IDF for classification.</li>
+<li>Pros: Fast and robust for small datasets.</li>
+<li>Cons: Assumes word independence, which rarely holds.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p><strong>Emergence of Distributed Representations (2010s)</strong><br>The advent of distributed word representations marked a significant leap, addressing the limitations of sparse representations.</p>
+<ol>
+<li><em>Word2Vec (2013, Mikolov et al.):</em><ul>
+<li>Generates dense vector embeddings using Skip-gram or CBOW.</li>
+<li>Paper: Efficient Estimation of Word Representations in Vector Space<ul>
+<li>DOI: <a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1301.3781">10.48550&#x2F;arXiv.1301.3781</a></li>
+</ul>
+</li>
+<li>Pros: Captures semantic relationships and is computationally efficient.</li>
+<li>Cons: Fixed-size embeddings and lacks out-of-vocabulary word handling.</li>
+</ul>
+</li>
+<li><em>GloVe (2014, Pennington et al.):</em><br> Combines global word co-occurrence statistics with local context to produce embeddings.<ul>
+<li>Paper: GloVe: Global Vectors for Word Representation<ul>
+<li>DOI: <a target="_blank" rel="noopener" href="https://aclanthology.org/D14-1162.pdf">10.3115&#x2F;v1&#x2F;D14-1162</a></li>
+</ul>
+</li>
+<li>Pros: Effective at capturing statistical information.</li>
+<li>Cons: Pre-trained on fixed corpora; inflexible for dynamic contexts.</li>
+</ul>
+</li>
+<li><em>FastText (2016, Bojanowski et al.):</em><br>   Extends Word2Vec by representing words as n-grams of characters.</li>
+</ol>
+<ul>
+<li>Paper:Enriching Word Vectors with Subword Information, 2016<ul>
+<li>DOI: <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1607.04606">10.48550&#x2F;arXiv.1607.04606</a></li>
+</ul>
+</li>
+<li>Pros: Handles rare and out-of-vocabulary words better.</li>
+<li>Cons: Increased computational cost compared to Word2Vec.</li>
+</ul>
+</li>
+<li><p><strong>Deep Learning Era (Late 2010s - Present)</strong><br>The rise of neural networks transformed text classification. Key innovations include:</p>
+<ol>
+<li><em>Recurrent Neural Networks (RNNs):</em><br>Captures sequential dependencies but suffers from vanishing gradients.</li>
+<li><em>Convolutional Neural Networks (CNNs):</em><br>Effective for capturing local patterns in text.<ul>
+<li>Paper: An Introduction to Convolutional Neural Networks<ul>
+<li>DOI: <a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1511.08458">10.48550&#x2F;arXiv.1511.08458</a></li>
+</ul>
+</li>
+<li>Papper: A review of convolutional neural networks in computer<ul>
+<li>Read the doc &gt;&gt;&gt; <a href="../../../../../docs/other/a_review_of_convolutional_neural_networks_in_computer_vision.pdf">A review of convolutional neural networks in computer</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>Transformers and Pre-trained Models (2018 - Present):</em><br>Models like:<ul>
+<li>BERT<ul>
+<li>Paper: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, 2018 <ul>
+<li>DOI:<a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>GPT<ul>
+<li>GPT-2<ul>
+<li>Paper: Release Strategies and the Social Impacts of Language Models, 2019 </li>
+<li>DOI:<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1908.09203">10.48550&#x2F;arXiv.1908.09203</a></li>
+</ul>
+</li>
+<li>GPT-3.5<ul>
+<li>Paper: Language Models are Few-Shot Learners, 2020 </li>
+<li>DOI:<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2005.14165">10.48550&#x2F;arXiv.2005.14165</a></li>
+</ul>
+</li>
+<li>GPT-4<ul>
+<li>Paper: GPT-4 Technical Report, 2023 </li>
+<li>DOI:<a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2303.08774">10.48550&#x2F;arXiv.2303.08774</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>and T5 revolutionized NLP by leveraging attention mechanisms and transfer learning.<ul>
+<li>Paper: T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, 2019</li>
+<li>DOI:<a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1910.10683">10.48550&#x2F;arXiv.1910.10683</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a>Footnotes</h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">IMDB Dataset - Large Movie Review Dataset for Sentiment Analysis by Stanford.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2003 - Dataset for Named Entity Recognition and other sequence modeling tasks.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OntoNotes - Annotated dataset covering various linguistic phenomena.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT - Workshop on Machine Translation datasets for translation tasks.<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OpenSubtitles - Large corpus of subtitles for multilingual tasks.<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CNN/DailyMail - Dataset for abstractive summarization tasks.<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">XSum - Dataset for extreme summarization of news articles.<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">AG News - News topic classification dataset.<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Reuters-21578 - Text categorization benchmark dataset.<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset for reading comprehension tasks.<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">TriviaQA - Dataset containing trivia questions and evidence passages.<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WikiText - Dataset for language modeling based on Wikipedia articles.<a href="#fnref:13" rev="footnote"> ↩</a></span></li><li id="fn:14"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">14.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Penn Treebank - Corpus for linguistic annotation and modeling.<a href="#fnref:14" rev="footnote"> ↩</a></span></li><li id="fn:15"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">15.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Universal Dependencies - Framework for consistent grammatical annotation across languages.<a href="#fnref:15" rev="footnote"> ↩</a></span></li><li id="fn:16"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">16.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WSJ Corpus - Dataset from Wall Street Journal articles for POS tagging.<a href="#fnref:16" rev="footnote"> ↩</a></span></li><li id="fn:17"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">17.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Coreference resolution (CR) is the task of finding all linguistic expressions (called mentions) in a given text that refer to the same real-world entity.<a href="#fnref:17" rev="footnote"> ↩</a></span></li><li id="fn:18"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">18.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">CoNLL-2012 - Shared task on coreference resolution and other NLP challenges.<a href="#fnref:18" rev="footnote"> ↩</a></span></li><li id="fn:19"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">19.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Annotated dataset created to evaluate RoBERTa’s performance on coreference tasks, with a focus on contextual embeddings.<a href="#fnref:19" rev="footnote"> ↩</a></span></li></ol></div></div>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/19/post_ai_nlp__text_classification_intro_1/" data-id="cm49nnxui001wrkkkfj2e2wni" data-title="Text Classification. Historical overview, tools, and techniques." class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/ML/" rel="tag">ML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/NLP/" rel="tag">NLP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/text-classification/" rel="tag">text_classification</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/11/20/notes/notes_windows_services_and_vm_usage/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Windows services and VM usage
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hexo-blog/nastusja/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Довідник для Лікаря Сімейної Медицини</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">54</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/QA/">QA</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 20px;">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 13px;">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/Dashdevs/" style="font-size: 10px;">Dashdevs</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 11px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 10px;">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 19px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 17px;">NLP</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 10px;">NPF</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 10px;">VADER</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 11px;">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 10px;">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 10px;">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 17px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 10px;">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 11px;">data_mining</a> <a href="/hexo-blog/tags/db/" style="font-size: 11px;">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 17px;">dev_side</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 11px;">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 11px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 10px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 16px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 11px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 13px;">knowledge</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 11px;">lexic</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 11px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 17px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 11px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 14px;">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 11px;">parsing</a> <a href="/hexo-blog/tags/postman/" style="font-size: 11px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 13px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 11px;">protocols</a> <a href="/hexo-blog/tags/python/" style="font-size: 13px;">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 15px;">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 11px;">qa_check_list</a> <a href="/hexo-blog/tags/resources/" style="font-size: 11px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 16px;">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 11px;">sentiment_analysis</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 11px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 10px;">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 18px;">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 11px;">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 11px;">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/vocabularies/" style="font-size: 11px;">vocabularies</a> <a href="/hexo-blog/tags/web/" style="font-size: 10px;">web</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/05/">May 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/30/post_ai_ml_npf__general/">Neural Process Family</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/">Machine Learning.Teach by Doing(LinkedIn post)</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/28/post_data_mining__parsing_web_site_for_job_offers/">Parsing web site for job offers</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/28/Posts/post_data_mining__parsing_web_site_for_job_offers/">Parsing web site for job offers</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/26/post_ai__vader_intro/">VADER - intro</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 si0n4ra<br>
+      <!-- Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> (v7.3.0) hexo-cli: 4.3.2 -->
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo v.7.3.0</a> & hexo-cli: 4.3.2
+      <br>Theme: <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">landscape</a>
+    </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
