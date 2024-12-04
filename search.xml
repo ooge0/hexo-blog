@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ASCII art</title>
-    <url>/hexo-blog/2024/10/28/post_acsii_graphics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/hexo-blog/2024/09/20/hello-world/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/">Hexo</a>! </p>
@@ -120,134 +106,17 @@
       </tags>
   </entry>
   <entry>
-    <title>Comparing Efficiency of NLP Models. Methods and Metrics</title>
-    <url>/hexo-blog/2024/11/17/post_ai__comparing_nlp_models_methods_metrix/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
-<hr>
-<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
-<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
-<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems. 
-">[1]</span></a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE. 
-">[2]</span></a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
-">[3]</span></a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.">[4]</span></a></sup> for standardized comparisons.</li>
-<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
-<li><strong>Scalability and Efficiency Testing</strong>:<ul>
-<li>Test for performance across different dataset sizes.</li>
-<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
+    <title>ASCII art</title>
+    <url>/hexo-blog/2024/10/28/post_acsii_graphics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
 </ul>
-</li>
-<li><strong>Generalization and Robustness</strong>:<ul>
-<li>Test on out-of-distribution data or adversarial examples.</li>
-<li>Use cross-lingual or domain-specific datasets.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
-<li><strong>Classification Tasks</strong>:<ul>
-<li>Accuracy</li>
-<li>Precision</li>
-<li>Recall </li>
-<li>F1-Score</li>
-<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
-</ul>
-</li>
-<li><strong>Text Generation Tasks</strong>:<ul>
-<li>BLEU (Bilingual Evaluation Understudy)</li>
-<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
-<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
-</ul>
-</li>
-<li><strong>Question Answering</strong>:<ul>
-<li>Exact Match (EM)</li>
-<li>F1-Score</li>
-</ul>
-</li>
-<li><strong>Language Modeling</strong>:<ul>
-<li>Perplexity</li>
-<li>Bits-per-character (BPC)</li>
-</ul>
-</li>
-<li><strong>Named Entity Recognition (NER)</strong>:<ul>
-<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
-</ul>
-</li>
-<li><strong>Text Summarization</strong>:<ul>
-<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
-</ul>
-</li>
-</ol>
-<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
-<li><strong>Computational Efficiency</strong>:<ul>
-<li>FLOPs (Floating Point Operations per Second)</li>
-<li>Latency (time per inference)</li>
-<li>Training Time</li>
-</ul>
-</li>
-<li><strong>Memory Usage</strong>:<ul>
-<li>GPU&#x2F;CPU memory requirements</li>
-<li>Model size (in MB or parameters)</li>
-</ul>
-</li>
-<li><strong>Energy Consumption</strong>:<ul>
-<li>Energy usage during training&#x2F;inference</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
-<li><strong>Model Parameters</strong>:<ul>
-<li>Number of layers</li>
-<li>Hidden size</li>
-<li>Attention heads</li>
-</ul>
-</li>
-<li><strong>Dataset Characteristics</strong>:<ul>
-<li>Dataset size</li>
-<li>Distribution (balanced vs. imbalanced classes)</li>
-<li>Language&#x2F;domain</li>
-</ul>
-</li>
-<li><strong>Hyperparameters</strong>:<ul>
-<li>Learning rate</li>
-<li>Batch size</li>
-<li>Dropout rate</li>
-<li>Optimization algorithm (e.g., AdamW, SGD)</li>
-</ul>
-</li>
-<li><strong>Infrastructure</strong>:<ul>
-<li>Hardware (e.g., GPU, TPU, or CPU)</li>
-<li>Software (e.g., TensorFlow, PyTorch)</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
-<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
-<li><strong>Parameterization</strong>:<ul>
-<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
-</ul>
-</li>
-<li><strong>Reproducibility</strong>:<ul>
-<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
-<li>Fix random seeds for deterministic results.</li>
-</ul>
-</li>
-<li><strong>Automated Testing</strong>:<ul>
-<li>Implement pipelines to rerun experiments with new variables.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NLP</tag>
+        <tag>acsii</tag>
       </tags>
   </entry>
   <entry>
@@ -386,6 +255,137 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Comparing Efficiency of NLP Models. Methods and Metrics</title>
+    <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
+<hr>
+<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
+<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
+<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems. 
+">[1]</span></a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE. 
+">[2]</span></a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.
+">[3]</span></a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.">[4]</span></a></sup> for standardized comparisons.</li>
+<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
+<li><strong>Scalability and Efficiency Testing</strong>:<ul>
+<li>Test for performance across different dataset sizes.</li>
+<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
+</ul>
+</li>
+<li><strong>Generalization and Robustness</strong>:<ul>
+<li>Test on out-of-distribution data or adversarial examples.</li>
+<li>Use cross-lingual or domain-specific datasets.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
+<li><strong>Classification Tasks</strong>:<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall </li>
+<li>F1-Score</li>
+<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
+</ul>
+</li>
+<li><strong>Text Generation Tasks</strong>:<ul>
+<li>BLEU (Bilingual Evaluation Understudy)</li>
+<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
+<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
+</ul>
+</li>
+<li><strong>Question Answering</strong>:<ul>
+<li>Exact Match (EM)</li>
+<li>F1-Score</li>
+</ul>
+</li>
+<li><strong>Language Modeling</strong>:<ul>
+<li>Perplexity</li>
+<li>Bits-per-character (BPC)</li>
+</ul>
+</li>
+<li><strong>Named Entity Recognition (NER)</strong>:<ul>
+<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
+</ul>
+</li>
+<li><strong>Text Summarization</strong>:<ul>
+<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
+</ul>
+</li>
+</ol>
+<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
+<li><strong>Computational Efficiency</strong>:<ul>
+<li>FLOPs (Floating Point Operations per Second)</li>
+<li>Latency (time per inference)</li>
+<li>Training Time</li>
+</ul>
+</li>
+<li><strong>Memory Usage</strong>:<ul>
+<li>GPU&#x2F;CPU memory requirements</li>
+<li>Model size (in MB or parameters)</li>
+</ul>
+</li>
+<li><strong>Energy Consumption</strong>:<ul>
+<li>Energy usage during training&#x2F;inference</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
+<li><strong>Model Parameters</strong>:<ul>
+<li>Number of layers</li>
+<li>Hidden size</li>
+<li>Attention heads</li>
+</ul>
+</li>
+<li><strong>Dataset Characteristics</strong>:<ul>
+<li>Dataset size</li>
+<li>Distribution (balanced vs. imbalanced classes)</li>
+<li>Language&#x2F;domain</li>
+</ul>
+</li>
+<li><strong>Hyperparameters</strong>:<ul>
+<li>Learning rate</li>
+<li>Batch size</li>
+<li>Dropout rate</li>
+<li>Optimization algorithm (e.g., AdamW, SGD)</li>
+</ul>
+</li>
+<li><strong>Infrastructure</strong>:<ul>
+<li>Hardware (e.g., GPU, TPU, or CPU)</li>
+<li>Software (e.g., TensorFlow, PyTorch)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
+<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
+<li><strong>Parameterization</strong>:<ul>
+<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>:<ul>
+<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
+<li>Fix random seeds for deterministic results.</li>
+</ul>
+</li>
+<li><strong>Automated Testing</strong>:<ul>
+<li>Implement pipelines to rerun experiments with new variables.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -763,6 +763,185 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>BART configuration parameters overview</title>
+    <url>/hexo-blog/2024/12/04/post_ai_llm__bart_configuration_parameters_overview/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
+<ol>
+<li><a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a></li>
+</ol>
+<hr>
+<h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table>
+<thead>
+<tr>
+<th><strong>Parameter</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Data Type&#x2F;Options</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>max_position_embeddings</code></td>
+<td>Maximum number of positions for input tokens.</td>
+<td>Integer, e.g., <code>1024</code>.</td>
+</tr>
+<tr>
+<td><code>d_model</code></td>
+<td>Dimensionality of the model’s embeddings and hidden states.</td>
+<td>Integer, e.g., <code>768</code>, <code>1024</code>.</td>
+</tr>
+<tr>
+<td><code>encoder_layers</code></td>
+<td>Number of layers in the encoder.</td>
+<td>Integer, e.g., <code>6</code>, <code>12</code>.</td>
+</tr>
+<tr>
+<td><code>decoder_layers</code></td>
+<td>Number of layers in the decoder.</td>
+<td>Integer, e.g., <code>6</code>, <code>12</code>.</td>
+</tr>
+<tr>
+<td><code>encoder_attention_heads</code></td>
+<td>Number of attention heads in the encoder.</td>
+<td>Integer, e.g., <code>12</code>.</td>
+</tr>
+<tr>
+<td><code>decoder_attention_heads</code></td>
+<td>Number of attention heads in the decoder.</td>
+<td>Integer, e.g., <code>12</code>.</td>
+</tr>
+<tr>
+<td><code>vocab_size</code></td>
+<td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td>
+<td>Integer, e.g., <code>50265</code>.</td>
+</tr>
+<tr>
+<td><code>activation_function</code></td>
+<td>Activation function used in feedforward layers.</td>
+<td>String: <code>relu</code>, <code>gelu</code>, <code>tanh</code>, etc.</td>
+</tr>
+<tr>
+<td><code>dropout</code></td>
+<td>Dropout probability applied to various layers.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>attention_dropout</code></td>
+<td>Dropout probability in the attention mechanism.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>init_std</code></td>
+<td>Standard deviation for weight initialization.</td>
+<td>Float, e.g., <code>0.02</code>.</td>
+</tr>
+<tr>
+<td><code>encoder_ffn_dim</code></td>
+<td>Dimensionality of the encoder feedforward layers.</td>
+<td>Integer, e.g., <code>3072</code>.</td>
+</tr>
+<tr>
+<td><code>decoder_ffn_dim</code></td>
+<td>Dimensionality of the decoder feedforward layers.</td>
+<td>Integer, e.g., <code>3072</code>.</td>
+</tr>
+<tr>
+<td><code>scale_embedding</code></td>
+<td>Whether to scale the embeddings by <code>sqrt(d_model)</code>.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>use_cache</code></td>
+<td>Whether to use cached key&#x2F;values for faster decoding.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>pad_token_id</code></td>
+<td>Token ID used for padding.</td>
+<td>Integer, typically <code>0</code>.</td>
+</tr>
+<tr>
+<td><code>bos_token_id</code></td>
+<td>Token ID for the beginning-of-sequence token.</td>
+<td>Integer, typically <code>0</code>.</td>
+</tr>
+<tr>
+<td><code>eos_token_id</code></td>
+<td>Token ID for the end-of-sequence token.</td>
+<td>Integer, typically <code>2</code>.</td>
+</tr>
+</tbody></table>
+<h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-Changes-Reflect-on-Model-Behavior"><a href="#How-Changes-Reflect-on-Model-Behavior" class="headerlink" title="How Changes Reflect on Model Behavior:"></a>How Changes Reflect on Model Behavior:</h3><ol>
+<li><p><strong>Model Complexity:</strong></p>
+<ul>
+<li>Increasing <code>encoder_layers</code>, <code>decoder_layers</code>, <code>d_model</code>, or attention heads enhances model capacity but increases computational requirements.</li>
+</ul>
+</li>
+<li><p><strong>Regularization:</strong></p>
+<ul>
+<li>Dropout parameters (<code>dropout</code>, <code>attention_dropout</code>) control overfitting risks but may reduce performance if too high.</li>
+</ul>
+</li>
+<li><p><strong>Encoder-Decoder interactions:</strong></p>
+<ul>
+<li><code>encoder_ffn_dim</code> and <code>decoder_ffn_dim</code> directly influence the learning ability of the model for complex patterns.</li>
+</ul>
+</li>
+<li><p><strong>Efficiency:</strong></p>
+<ul>
+<li>Enabling <code>use_cache</code> improves inference time for autoregressive tasks.</li>
+</ul>
+</li>
+</ol>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li>Paper: BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension<ul>
+<li><a href="https://arxiv.org/pdf/1910.13461">Read on arxiv.org</a></li>
+<li>DOI:10.48550&#x2F;arXiv.1910.13461</li>
+</ul>
+</li>
+<li>Paper: Improving Sharpness-Aware Minimization with Fisher Mask for Better Generalization on Language Models<ul>
+<li>DOI:10.48550&#x2F;arXiv.2210.05497</li>
+<li><a href="https://arxiv.org/pdf/2210.05497">Read on arxiv.org</a></li>
+</ul>
+</li>
+<li><a href="https://huggingface.co/docs/transformers/model_doc/bart">Hugging Face BART Documentation</a></li>
+<li>Web article: <a href="https://medium.com/@nadirapovey/bart-model-architecture-8ac1cea0e877">BART Model Architecture | Medium</a></li>
+<li>Web article: <a href="https://www.projectpro.io/article/transformers-bart-model-explained/553">Transformers BART Model Explained for Text Summarization | projectpro.io</a></li>
+<li>Google colab notebook: <a href="https://colab.research.google.com/drive/1Cy27V-7qqYatqMA7fEqG2kgMySZXw9I4?usp=sharing&pli=1">BART Learns to Rap - Medium.ipynb</a></li>
+</ul>
+<h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul>
+<li><p><strong>Report:</strong> </p>
+<ul>
+<li>Paper: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. Raffel et al., 2020.<ul>
+<li>DOI: 10.48550&#x2F;arXiv.1910.10683</li>
+<li><a href="https://arxiv.org/pdf/1910.10683">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Challenges:</strong> Balancing fine-tuning for generative and discriminative tasks in sequence-to-sequence models.</p>
+<ul>
+<li>Paper: Unified Generative and Discriminative Training for Multi-modal Large Language Models<ul>
+<li><a href="https://arxiv.org/html/2411.00304v1">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul>
+<li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li>
+<li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+<li><strong>OpenAI Playground for Generative Tasks:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>BART</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>VADER - intro</title>
     <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
@@ -787,160 +966,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>VADER</tag>
         <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GPT-2 configuration parameters.Overview</title>
-    <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>related to</em><br><a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a></p>
-<h2 id="Parameters-List-and-Descriptions"><a href="#Parameters-List-and-Descriptions" class="headerlink" title="Parameters List and Descriptions"></a>Parameters List and Descriptions</h2><table>
-<thead>
-<tr>
-<th><strong>Parameter</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Data Type&#x2F;Options</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>n_ctx</code></td>
-<td>The context size or maximum length of input tokens the model can process.</td>
-<td>Integer, e.g., <code>1024</code>, <code>2048</code>.</td>
-</tr>
-<tr>
-<td><code>n_embd</code></td>
-<td>Dimensionality of the embeddings. Determines the size of the word and positional embeddings.</td>
-<td>Integer, typically <code>768</code>, <code>1024</code>, or <code>1280</code>.</td>
-</tr>
-<tr>
-<td><code>n_layer</code></td>
-<td>Number of transformer layers in the model. Dictates depth of the network.</td>
-<td>Integer, e.g., <code>12</code>, <code>24</code>, <code>48</code>.</td>
-</tr>
-<tr>
-<td><code>n_head</code></td>
-<td>Number of attention heads in each transformer layer. Reflects parallel attention mechanisms.</td>
-<td>Integer, typically a divisor of <code>n_embd</code> such as <code>12</code> or <code>16</code>.</td>
-</tr>
-<tr>
-<td><code>vocab_size</code></td>
-<td>Size of the vocabulary for the tokenizer. Represents the range of token IDs the model can handle.</td>
-<td>Integer, e.g., <code>50257</code>.</td>
-</tr>
-<tr>
-<td><code>activation_function</code></td>
-<td>The activation function used in feedforward layers (e.g., “gelu”). Affects non-linearity.</td>
-<td>String: <code>relu</code>, <code>gelu</code>, <code>tanh</code>, <code>sigmoid</code>, etc.</td>
-</tr>
-<tr>
-<td><code>resid_pdrop</code></td>
-<td>Dropout probability for residual connections. Adds regularization.</td>
-<td>Float between <code>0.0</code> and <code>1.0</code>. Typically <code>0.1</code>.</td>
-</tr>
-<tr>
-<td><code>embd_pdrop</code></td>
-<td>Dropout probability for embeddings. Helps prevent overfitting.</td>
-<td>Float between <code>0.0</code> and <code>1.0</code>. Typically <code>0.1</code>.</td>
-</tr>
-<tr>
-<td><code>attn_pdrop</code></td>
-<td>Dropout probability in the attention mechanism. Ensures robustness.</td>
-<td>Float between <code>0.0</code> and <code>1.0</code>. Typically <code>0.1</code>.</td>
-</tr>
-<tr>
-<td><code>initializer_range</code></td>
-<td>The range of the uniform distribution for weight initialization.</td>
-<td>Float, e.g., <code>0.02</code>.</td>
-</tr>
-<tr>
-<td><code>layer_norm_epsilon</code></td>
-<td>A small value added for numerical stability in layer normalization.</td>
-<td>Float, typically <code>1e-5</code>.</td>
-</tr>
-<tr>
-<td><code>use_cache</code></td>
-<td>Whether the model uses cached key&#x2F;values for faster generation during inference.</td>
-<td>Boolean, <code>true</code> or <code>false</code>.</td>
-</tr>
-<tr>
-<td><code>bos_token_id</code></td>
-<td>Token ID for the beginning-of-sequence token.</td>
-<td>Integer, e.g., <code>50256</code>.</td>
-</tr>
-<tr>
-<td><code>eos_token_id</code></td>
-<td>Token ID for the end-of-sequence token.</td>
-<td>Integer, e.g., <code>50256</code>.</td>
-</tr>
-<tr>
-<td><code>scale_attn_weights</code></td>
-<td>Whether to scale the attention weights.</td>
-<td>Boolean, <code>true</code> or <code>false</code>.</td>
-</tr>
-<tr>
-<td><code>output_hidden_states</code></td>
-<td>Whether to return all hidden states from each layer during inference.</td>
-<td>Boolean, <code>true</code> or <code>false</code>.</td>
-</tr>
-<tr>
-<td><code>output_attentions</code></td>
-<td>Whether to return the attention weights during inference.</td>
-<td>Boolean, <code>true</code> or <code>false</code>.</td>
-</tr>
-<tr>
-<td><code>tie_word_embeddings</code></td>
-<td>Whether to tie the input and output word embeddings.</td>
-<td>Boolean, <code>true</code> or <code>false</code>.</td>
-</tr>
-</tbody></table>
-<h2 id="Summary-of-Parameter-Impact"><a href="#Summary-of-Parameter-Impact" class="headerlink" title="Summary of Parameter Impact"></a>Summary of Parameter Impact</h2><h3 id="How-Changes-Reflect-on-Model-Behavior"><a href="#How-Changes-Reflect-on-Model-Behavior" class="headerlink" title="How Changes Reflect on Model Behavior:"></a>How Changes Reflect on Model Behavior:</h3><ol>
-<li><p><strong>Model Size and Computation:</strong></p>
-<ul>
-<li>Increasing <code>n_layer</code>, <code>n_embd</code>, or <code>n_head</code> leads to larger and more computationally intensive models but potentially improves learning capacity.</li>
-<li>Reducing <code>n_ctx</code> limits the model’s ability to process long inputs.</li>
-</ul>
-</li>
-<li><p><strong>Regularization:</strong></p>
-<ul>
-<li>Dropout parameters (<code>resid_pdrop</code>, <code>embd_pdrop</code>, <code>attn_pdrop</code>) mitigate overfitting but may hinder performance if too high.</li>
-</ul>
-</li>
-<li><p><strong>Non-linearity:</strong></p>
-<ul>
-<li>The choice of <code>activation_function</code> (e.g., <code>gelu</code> vs. <code>relu</code>) affects gradient behavior and optimization efficiency.</li>
-</ul>
-</li>
-<li><p><strong>Stability:</strong></p>
-<ul>
-<li>Small <code>layer_norm_epsilon</code> values ensure numerical stability during normalization but may require tuning based on the architecture.</li>
-</ul>
-</li>
-<li><p><strong>Flexibility:</strong></p>
-<ul>
-<li>Enabling <code>output_hidden_states</code> or <code>output_attentions</code> increases interpretability but may slow inference.</li>
-</ul>
-</li>
-</ol>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
-<li><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">GPT-2 Paper</a></li>
-<li><a href="https://huggingface.co/docs/transformers/model_doc/gpt2">Hugging Face Documentation</a></li>
-</ul>
-<h2 id="Challenges-and-Reports-on-Configuration"><a href="#Challenges-and-Reports-on-Configuration" class="headerlink" title="Challenges and Reports on Configuration"></a>Challenges and Reports on Configuration</h2><ul>
-<li><strong>Report:</strong> “Language Models are Few-Shot Learners” (Brown et al., 2020) discusses scalability challenges in transformer-based architectures.</li>
-<li><strong>Challenges:</strong> Balancing model depth and breadth while maintaining computational efficiency.</li>
-</ul>
-<h2 id="Playgrounds-to-Experiment"><a href="#Playgrounds-to-Experiment" class="headerlink" title="Playgrounds to Experiment"></a>Playgrounds to Experiment</h2><ul>
-<li><strong>OpenAI Playground:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li>
-<li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li>
-<li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>GPT2</tag>
       </tags>
   </entry>
   <entry>
@@ -1052,48 +1077,290 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Fine-tuning vs. Feature-based Approaches</title>
-    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
-<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
-<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
-<p><strong>Key Differences:</strong></p>
-<table>
+    <title>GPT-2 configuration parameters overview</title>
+    <url>/hexo-blog/2024/12/04/post_ai_llm__gpt2_configuration_parameters_overview/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
+<ol>
+<li><a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a></li>
+<li><a href="../../../../post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li>
+</ol>
+<hr>
+<h2 id="Parameters-List-and-Descriptions"><a href="#Parameters-List-and-Descriptions" class="headerlink" title="Parameters List and Descriptions"></a>Parameters List and Descriptions</h2><table>
 <thead>
 <tr>
-<th>Feature</th>
-<th>Fine-tuning</th>
-<th>Feature-based</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Data Type&#x2F;Options</strong></th>
 </tr>
 </thead>
 <tbody><tr>
-<td>Model Modification</td>
-<td>Adjusts weights of pre-trained model</td>
-<td>Extracts features, trains new model</td>
+<td><code>n_ctx</code></td>
+<td>The context size or maximum length of input tokens the model can process.</td>
+<td>Integer, e.g., <code>1024</code>, <code>2048</code>.</td>
 </tr>
 <tr>
-<td>Computational Cost</td>
-<td>Higher</td>
-<td>Lower</td>
+<td><code>n_embd</code></td>
+<td>Dimensionality of the embeddings. Determines the size of the word and positional embeddings.</td>
+<td>Integer, typically <code>768</code>, <code>1024</code>, or <code>1280</code>.</td>
 </tr>
 <tr>
-<td>Task Similarity</td>
-<td>Best for similar tasks</td>
-<td>Can be used for diverse tasks</td>
+<td><code>n_layer</code></td>
+<td>Number of transformer layers in the model. Dictates depth of the network.</td>
+<td>Integer, e.g., <code>12</code>, <code>24</code>, <code>48</code>.</td>
 </tr>
 <tr>
-<td>Data Requirements</td>
-<td>More data needed</td>
-<td>Less data needed</td>
+<td><code>n_head</code></td>
+<td>Number of attention heads in each transformer layer. Reflects parallel attention mechanisms.</td>
+<td>Integer, typically a divisor of <code>n_embd</code> such as <code>12</code> or <code>16</code>.</td>
+</tr>
+<tr>
+<td><code>vocab_size</code></td>
+<td>Size of the vocabulary for the tokenizer. Represents the range of token IDs the model can handle.</td>
+<td>Integer, e.g., <code>50257</code>.</td>
+</tr>
+<tr>
+<td><code>activation_function</code></td>
+<td>The activation function used in feedforward layers (e.g., “gelu”). Affects non-linearity.</td>
+<td>String: <code>relu</code>, <code>gelu</code>, <code>tanh</code>, <code>sigmoid</code>, etc.</td>
+</tr>
+<tr>
+<td><code>resid_pdrop</code></td>
+<td>Dropout probability for residual connections. Adds regularization.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>. Typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>embd_pdrop</code></td>
+<td>Dropout probability for embeddings. Helps prevent overfitting.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>. Typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>attn_pdrop</code></td>
+<td>Dropout probability in the attention mechanism. Ensures robustness.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>. Typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>initializer_range</code></td>
+<td>The range of the uniform distribution for weight initialization.</td>
+<td>Float, e.g., <code>0.02</code>.</td>
+</tr>
+<tr>
+<td><code>layer_norm_epsilon</code></td>
+<td>A small value added for numerical stability in layer normalization.</td>
+<td>Float, typically <code>1e-5</code>.</td>
+</tr>
+<tr>
+<td><code>use_cache</code></td>
+<td>Whether the model uses cached key&#x2F;values for faster generation during inference.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>bos_token_id</code></td>
+<td>Token ID for the beginning-of-sequence token.</td>
+<td>Integer, e.g., <code>50256</code>.</td>
+</tr>
+<tr>
+<td><code>eos_token_id</code></td>
+<td>Token ID for the end-of-sequence token.</td>
+<td>Integer, e.g., <code>50256</code>.</td>
+</tr>
+<tr>
+<td><code>scale_attn_weights</code></td>
+<td>Whether to scale the attention weights.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>output_hidden_states</code></td>
+<td>Whether to return all hidden states from each layer during inference.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>output_attentions</code></td>
+<td>Whether to return the attention weights during inference.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>tie_word_embeddings</code></td>
+<td>Whether to tie the input and output word embeddings.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
 </tr>
 </tbody></table>
+<hr>
+<h2 id="Summary-of-Parameter-Impact"><a href="#Summary-of-Parameter-Impact" class="headerlink" title="Summary of Parameter Impact"></a>Summary of Parameter Impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol>
+<li><p><strong>Model Size and Computation:</strong></p>
+<ul>
+<li>Increasing <code>n_layer</code>, <code>n_embd</code>, or <code>n_head</code> leads to larger and more computationally intensive models but potentially improves learning capacity.</li>
+<li>Reducing <code>n_ctx</code> limits the model’s ability to process long inputs.</li>
+</ul>
+</li>
+<li><p><strong>Regularization:</strong></p>
+<ul>
+<li>Dropout parameters (<code>resid_pdrop</code>, <code>embd_pdrop</code>, <code>attn_pdrop</code>) mitigate overfitting but may hinder performance if too high.</li>
+</ul>
+</li>
+<li><p><strong>Non-linearity:</strong></p>
+<ul>
+<li>The choice of <code>activation_function</code> (e.g., <code>gelu</code> vs. <code>relu</code>) affects gradient behavior and optimization efficiency.</li>
+</ul>
+</li>
+<li><p><strong>Stability:</strong></p>
+<ul>
+<li>Small <code>layer_norm_epsilon</code> values ensure numerical stability during normalization but may require tuning based on the architecture.</li>
+</ul>
+</li>
+<li><p><strong>Flexibility:</strong></p>
+<ul>
+<li>Enabling <code>output_hidden_states</code> or <code>output_attentions</code> increases interpretability but may slow inference.</li>
+</ul>
+</li>
+</ol>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">GPT-2 Paper</a></li>
+<li><a href="https://huggingface.co/docs/transformers/model_doc/gpt2">Hugging Face Documentation</a></li>
+</ul>
+<hr>
+<h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul>
+<li><strong>Report:</strong> “Language Models are Few-Shot Learners” (Brown et al., 2020) discusses scalability challenges in transformer-based architectures.</li>
+<li><strong>Challenges:</strong> Balancing model depth and breadth while maintaining computational efficiency.</li>
+</ul>
+<hr>
+<h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul>
+<li><strong>OpenAI Playground:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li>
+<li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li>
+<li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
         <tag>AI</tag>
-        <tag>ML</tag>
+        <tag>LLM</tag>
+        <tag>GPT2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BERT configuration parameters overview</title>
+    <url>/hexo-blog/2024/12/04/post_ai_llm__bert_configuration_parameters_overview/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="This-post-related-to-1-Techniques-for-Handling-Context-in-AI-Models2-GPT2-configuration-parameters-overview3-BART-configuration-parameters-overview"><a href="#This-post-related-to-1-Techniques-for-Handling-Context-in-AI-Models2-GPT2-configuration-parameters-overview3-BART-configuration-parameters-overview" class="headerlink" title="This post related to:1. Techniques for Handling Context in AI Models2. GPT2 configuration parameters overview3. BART configuration parameters overview"></a><em>This post related to:</em><br>1. <a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a><br>2. <a href="../../../../post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a><br>3. <a href="../../../../post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></h2><h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table>
+<thead>
+<tr>
+<th><strong>Parameter</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Data Type&#x2F;Options</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>hidden_size</code></td>
+<td>Dimensionality of the hidden states and embeddings.</td>
+<td>Integer, e.g., <code>768</code>, <code>1024</code>.</td>
+</tr>
+<tr>
+<td><code>num_hidden_layers</code></td>
+<td>Number of hidden layers in the transformer encoder.</td>
+<td>Integer, e.g., <code>12</code>, <code>24</code>.</td>
+</tr>
+<tr>
+<td><code>num_attention_heads</code></td>
+<td>Number of attention heads per transformer layer.</td>
+<td>Integer, typically a divisor of <code>hidden_size</code>.</td>
+</tr>
+<tr>
+<td><code>vocab_size</code></td>
+<td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td>
+<td>Integer, e.g., <code>30522</code>.</td>
+</tr>
+<tr>
+<td><code>intermediate_size</code></td>
+<td>Dimensionality of the feedforward layers.</td>
+<td>Integer, e.g., <code>3072</code>.</td>
+</tr>
+<tr>
+<td><code>hidden_dropout_prob</code></td>
+<td>Dropout probability for fully connected layers in the encoder.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>attention_probs_dropout_prob</code></td>
+<td>Dropout probability in the attention mechanism.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>max_position_embeddings</code></td>
+<td>Maximum number of positions for input tokens.</td>
+<td>Integer, e.g., <code>512</code>.</td>
+</tr>
+<tr>
+<td><code>type_vocab_size</code></td>
+<td>Size of the token type vocabulary for segment embeddings.</td>
+<td>Integer, typically <code>2</code>.</td>
+</tr>
+<tr>
+<td><code>initializer_range</code></td>
+<td>Standard deviation for weight initialization.</td>
+<td>Float, e.g., <code>0.02</code>.</td>
+</tr>
+<tr>
+<td><code>layer_norm_eps</code></td>
+<td>A small value added for numerical stability in layer normalization.</td>
+<td>Float, typically <code>1e-5</code>.</td>
+</tr>
+<tr>
+<td><code>output_hidden_states</code></td>
+<td>Whether to output all hidden states from each layer.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>output_attentions</code></td>
+<td>Whether to output the attention weights.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+</tbody></table>
+<h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol>
+<li><p><strong>Capacity:</strong></p>
+<ul>
+<li>Increasing <code>hidden_size</code>, <code>num_hidden_layers</code>, or <code>num_attention_heads</code> allows the model to capture more complex patterns but increases resource usage.</li>
+</ul>
+</li>
+<li><p><strong>Regularization:</strong></p>
+<ul>
+<li>Dropout probabilities (<code>hidden_dropout_prob</code>, <code>attention_probs_dropout_prob</code>) control overfitting risks but can hinder learning if set too high.</li>
+</ul>
+</li>
+<li><p><strong>Pretraining vs. Fine-tuning:</strong></p>
+<ul>
+<li><code>type_vocab_size</code> is essential for tasks requiring segment embeddings (e.g., sentence pairs).</li>
+</ul>
+</li>
+<li><p><strong>Stability and Efficiency:</strong></p>
+<ul>
+<li><code>layer_norm_eps</code> ensures stable training, while <code>initializer_range</code> affects convergence.</li>
+</ul>
+</li>
+</ol>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li>Paper</li>
+<li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</li>
+<li>DOI: 10.48550&#x2F;arXiv.1810.04805</li>
+<li><a href="https://arxiv.org/abs/1810.04805">Read on </a></li>
+<li><a href="https://huggingface.co/docs/transformers/model_doc/bert">Hugging Face BERT Documentation</a></li>
+</ul>
+<h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul>
+<li><strong>Report:</strong> “On the Structural Properties of BERT Models” (Kovaleva et al., 2019).</li>
+<li><strong>Challenges:</strong> Over-parameterization and inefficiency in fine-tuning for domain-specific tasks.</li>
+</ul>
+<h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul>
+<li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li>
+<li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+<li><strong>OpenAI Playground for Text Understanding:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>BERT</tag>
       </tags>
   </entry>
   <entry>
@@ -1145,6 +1412,51 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>emotions</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fine-tuning vs. Feature-based Approaches</title>
+    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
+<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
+<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
+<p><strong>Key Differences:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Fine-tuning</th>
+<th>Feature-based</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Model Modification</td>
+<td>Adjusts weights of pre-trained model</td>
+<td>Extracts features, trains new model</td>
+</tr>
+<tr>
+<td>Computational Cost</td>
+<td>Higher</td>
+<td>Lower</td>
+</tr>
+<tr>
+<td>Task Similarity</td>
+<td>Best for similar tasks</td>
+<td>Can be used for diverse tasks</td>
+</tr>
+<tr>
+<td>Data Requirements</td>
+<td>More data needed</td>
+<td>Less data needed</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -1604,6 +1916,103 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Neural Process Family</title>
+    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
+<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
+<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
+</li>
+<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
+</li>
+<li><p><strong>Model Components</strong>:</p>
+<ul>
+<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
+<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
+<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
+</ul>
+</li>
+<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
+<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
+<ul>
+<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
+<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
+</ul>
+</li>
+<li><p><strong>Neural Processes (NPs)</strong>:</p>
+<ul>
+<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
+<li>Balances flexibility and computational efficiency.</li>
+</ul>
+</li>
+<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
+<ul>
+<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
+<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
+</ul>
+</li>
+<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
+<ul>
+<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
+</ul>
+</li>
+<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
+<ul>
+<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
+<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
+<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
+<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
+<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
+<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
+</ol>
+<hr>
+<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
+<li>Scalability due to neural networks.</li>
+<li>Probabilistic outputs allow uncertainty estimation.</li>
+<li>Adaptable across domains with minimal changes.</li>
+</ul>
+<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
+<li>Trade-off between computational cost and flexibility.</li>
+<li>Dependence on good representation learning.</li>
+<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
+</ul>
+<hr>
+<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
+<hr>
+<p>About:</p>
+<ul>
+<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
+<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
+</ul>
+<hr>
+<p> Papers: </p>
+<ul>
+<li>Papers: <ul>
+<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
+<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
+<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NPF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Evolution of Text Augmentation in NLP</title>
     <url>/hexo-blog/2024/11/25/post_ai_nlp__evolution_of_text_augmentation_in_nlp/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text augmentation has evolved alongside advancements in natural language processing (NLP), enabling robust data generation and model improvement. Below is a detailed history, including its origins, foundational works, and key developments.</p>
@@ -1745,103 +2154,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>NLP</tag>
         <tag>lexic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Neural Process Family</title>
-    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
-<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
-<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
-</li>
-<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
-</li>
-<li><p><strong>Model Components</strong>:</p>
-<ul>
-<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
-<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
-<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
-</ul>
-</li>
-<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
-</li>
-</ol>
-<hr>
-<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
-<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
-<ul>
-<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
-<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
-</ul>
-</li>
-<li><p><strong>Neural Processes (NPs)</strong>:</p>
-<ul>
-<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
-<li>Balances flexibility and computational efficiency.</li>
-</ul>
-</li>
-<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
-<ul>
-<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
-<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
-</ul>
-</li>
-<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
-<ul>
-<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
-</ul>
-</li>
-<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
-<ul>
-<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
-<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
-<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
-<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
-<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
-<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
-</ol>
-<hr>
-<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
-<li>Scalability due to neural networks.</li>
-<li>Probabilistic outputs allow uncertainty estimation.</li>
-<li>Adaptable across domains with minimal changes.</li>
-</ul>
-<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
-<li>Trade-off between computational cost and flexibility.</li>
-<li>Dependence on good representation learning.</li>
-<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
-</ul>
-<hr>
-<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
-<hr>
-<p>About:</p>
-<ul>
-<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
-<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
-</ul>
-<hr>
-<p> Papers: </p>
-<ul>
-<li>Papers: <ul>
-<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
-<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
-<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
@@ -3900,6 +4212,20 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About me</title>
     <url>/hexo-blog//about-me/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
@@ -4016,30 +4342,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Tags</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
@@ -4061,852 +4363,27 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
 </ul>
-]]></content>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
 </ul>
+<p>User locations:</p>
 ]]></content>
       <categories>
-        <category>Notes</category>
+        <category>Maintanance</category>
       </categories>
       <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO blog design</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
-<p>Header</p>
-<ul>
-<li>Navigation menu:<ul>
-<li>Menu items:<ul>
-<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
-<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Main body</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
-<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
-</ul>
-<p>Side panel</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
-<li><input checked="" disabled="" type="checkbox"> Categories</li>
-<li><input checked="" disabled="" type="checkbox"> Tags</li>
-<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
-<li><input checked="" disabled="" type="checkbox"> Archives</li>
-<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
-</ul>
-<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Add more beautiful HEXO blog pages</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
-<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
-<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
-<p>result below</p>
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
-    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
-  </div> 
-
-<hr>
-<p><strong>2. Highlighted Section with Border and Background</strong></p>
-<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #3c763d;">Important Notice</h3>
-  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
-  </div>
-  
-<hr>
-<p>  <strong>3. Colored Quote Block</strong></p>
-<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
-  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
-</blockquote>
-
-<hr>
-<p><strong>4. Centered Text with Decorative Style</strong></p>
-<p>  Center text with a larger font size, bold style, and color.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
-  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
-  </div>
-
-<hr>
-<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
-<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  <h3 style="color: #b03a2e;">Tip of the Day</h3>
-  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
-  </div>
-
-<hr>
-<p><strong>6. Badge or Label for Text</strong></p>
-<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
-
-<hr>
-<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
-<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
-  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
-</div>
-  
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Info data</title>
-    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
-<div class="sitemap_content">
-    <ul>
-        <li>
-            <iframe
-                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                frameborder="0" width="216" height="60"></iframe>
-        </li>
-        <li>
-        <li>
-            <hr>
-            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
-            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
-        </li>
-        <li>
-            <hr>
-            <h2>Satellite observations</h2>
-            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
-            <hr>
-        </li>
-        <li>
-            <h3>Solar Flares and Storms Warnings for Today</h3>
-            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
-                height="300px"></iframe>
-        </li>
-        <hr>
-        <h3>Forecast platforms</h3>
-        </li>
-        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
-                FORECAST</a>
-        </li>
-        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
-        </li>
-        <li>foreca.com
-            <ul>
-                <li>
-                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
-                        Ukraine,
-                        Sumy</a>
-                </li>
-                <li>
-                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
-                        Kyiv</a>
-                </li>
-            </ul>
-        </li>
-        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
-                Network / European space agency.</a></li>
-        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
-    </ul>
-</div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows services and VM usage</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_windows_services_and_vm_usage/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><p><strong>Virtual Machine Setup</strong><br>Steps to create a virtual machine:</p>
-<ol>
-<li>Download a hypervisor:<ol>
-<li>Go to <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> or <a href="https://www.vmware.com/">VMware</a>. Download and install the software on your machine.</li>
-<li>Obtain an OS image:<ol>
-<li>Download the required ISO file for the operating system.</li>
-</ol>
-</li>
-<li>Create the virtual machine:<ol>
-<li>Open VirtualBox&#x2F;VMware app.</li>
-<li>Create a new virtual machine according to requested specification.&#96;&#96;&#96;&#96;</li>
-<li>Configure name, OS type, hardware settings like RAM, CPU, and disk space.</li>
-</ol>
-</li>
-<li>Install the OS<ol>
-<li>Start the virtual machine.</li>
-<li>Follow the installation steps in the OS setup wizard.</li>
-</ol>
-</li>
-<li>Connect to the VM:<ol>
-<li>For Linux VMs: Enable SSH in the VM during installation or after setup.</li>
-<li>Use SSH (on Linux&#x2F;Mac) or tools like PuTTY (on Windows) to connect.</li>
-</ol>
-</li>
-<li>Additional steps:<ol>
-<li>Windows VM Remote Desktop:<ol>
-<li>Enable Remote Desktop in the Windows VM settings. Use the RDP client, configuration described here &gt;&gt; <a href="https://learn.microsoft.com/uk-ua/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients">Remote Desktop clients for Remote Desktop Services and remote PCs</a> on your host machine to connect.</li>
-<li>Connect RDP client to remote machine.</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p><strong>Windows Services Management in PowerShell.</strong></p>
-<p>Task: </p>
-<ol>
-<li>Print  list of services</li>
-<li>Run specific service</li>
-<li>Stop specific service</li>
-<li>Restart specific service</li>
-<li>Check status for specific service</li>
-</ol>
-<p> To get list of running services I will use :</p>
- <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> | <span class="built_in">Where-Object</span> &#123;<span class="variable">$_</span>.Status <span class="operator">-eq</span> <span class="string">&#x27;Running&#x27;</span>&#125;</span><br></pre></td></tr></table></figure>
-<p> Assuming that I want to run <code>&quot;WSLService&quot;</code></p>
-<p> To start <code>&quot;WSLService&quot;</code> service  I’m using :<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Start-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure><br> To stop the service:<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Stop-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure></p>
-<p> For restarting service:</p>
- <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Restart-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
-<p> For checking the status of monitored service:</p>
- <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
-
-</li>
-<li><p><strong>SSH connection to the Linux machine</strong> actions are below.</p>
-<p>I added more information in advance because the original task does not contain information about the client machine from which the connection to the Linux machine will be made. There is 3 different cases:</p>
-<ul>
-<li>Case 1: From another Linux client to Linux host</li>
-<li>Case 2: From a Windows client  to Linux host</li>
-<li>Case 3: From macOS client to Linux host</li>
-</ul>
-<p>For Linux&#x2F;Mac: SSH is usually pre-installed but if it’s missing install an SSH client (e.g. on Ubuntu):<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client -y</span><br></pre></td></tr></table></figure><br>After installation, start the service on Linux machine:<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start ssh</span><br></pre></td></tr></table></figure><br>If SSH service not started , checked its status on Linux machine:<br>    <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status ssh</span><br></pre></td></tr></table></figure></p>
-<p>Generate SSH keys (on the host machine):</p>
-  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-keygen</span> <span class="literal">-t</span> rsa <span class="literal">-b</span> <span class="number">2048</span></span><br></pre></td></tr></table></figure>
-<p>  The keys will be stored in ~&#x2F;.ssh&#x2F;id_rsa (private) and ~&#x2F;.ssh&#x2F;id_rsa.pub (public).<br>  Copy the public key to the Linux server:</p>
-  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-copy-id</span> user@server_ip</span><br></pre></td></tr></table></figure>
-<p>  Or manually append the content of id_rsa.pub to ~&#x2F;.ssh&#x2F;authorized_keys on the server.</p>
-<p>  Connection via SSH for Linux:<br>   <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh user@server_ip</span><br></pre></td></tr></table></figure></p>
-</li>
-<li><p>Optional Configurations:</p>
-<p>Edit the SSH config file (~&#x2F;.ssh&#x2F;config) for aliases:</p>
-   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Host server_alias  </span><br><span class="line">   HostName server_ip  </span><br><span class="line">   User username  </span><br><span class="line">   IdentityFile ~/.ssh/id_rsa  </span><br></pre></td></tr></table></figure>
-<p>This will simplify the connection:</p>
-   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh server_alias</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p><strong>Case 1</strong>: From another Linux client to Linux host</p>
-<p>  Verify SSH Client on the Local Machine:</p>
-<ul>
-<li>Most Linux distributions come with the ssh client pre-installed. Confirm by running:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
-
- If it’s not installed, install it: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client  </span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>   Replace <code>&lt;username&gt;</code> with the remote machine’s username.</p>
-<p>   Replace <code>&lt;remote_ip&gt;</code> with the target machine’s IP address.</p>
-<ul>
-<li>Use Public Key Authentication (Optional): <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
-<li>Copy the public key to the remote machine:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li>Now, log in without entering a password:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<p><strong>Case 2</strong>: From a Windows client  to Linux host</p>
-<ul>
-<li><p>Install an SSH Client:</p>
-<ul>
-<li>Use the built-in OpenSSH client on Windows 10+. Open PowerShell or Command Prompt and check if SSH is installed:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
-<ul>
-<li>For Windows alternatively install <a href="https://www.openssh.com/">OpenSSH</a> client from <a href="https://learn.microsoft.com/en-us/windows/client-management/client-tools/add-remove-hide-features?pivots=windows-11">“Optional Features”</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">download PuTTY</a>( third-party SSH client).</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Connect Using OpenSSH (Built-in).</p>
-<p>Open PowerShell or Command Prompt and run:  </p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li><p>Connect Using PuTTY:</p>
-<ul>
-<li>Download and install PuTTY.</li>
-<li>Open PuTTY and enter the hostname or IP address.</li>
-<li>Set the Port to 22 and click Open.</li>
-<li>Log in with your credentials.</li>
-<li>Enable Key Authentication (Optional):<ul>
-<li>Use <a href="https://www.puttygen.com/">puttygen</a> to generate a private&#x2F;public key pair.</li>
-<li>Copy the public key to the Linux machine’s ~&#x2F;.ssh&#x2F;authorized_keys.</li>
-<li>In PuTTY, configure the private key in Connection &gt; SSH &gt; Auth &gt; Browse Private Key.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>Case 3</strong>: From macOS client to Linux host </p>
-<ul>
-<li><p>Verify SSH Client:</p>
-<p> macOS includes an SSH client by default. Confirm it by running:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure></li>
-<li><p>Connect to the Linux Machine:</p>
-<p>Open Terminal and run:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li><p>Use Public Key Authentication (Optional):</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
-<li><p>Copy the public key to the remote machine:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li><p>Now, I can log in without entering a password:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>Dashdevs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Довідник для Лікаря Сімейної Медицини</title>
-    <url>/hexo-blog//nastusja/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
-<hr>
-<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
-<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
-<li>Новини, нормативна база, протоколи лікування.</li>
-</ul>
-</li>
-<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
-<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
-</ul>
-</li>
-<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
-<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
-<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
-<li>Інформація про ліки, інструкції, дозування.</li>
-</ul>
-</li>
-<li><p><strong>Реєстр Ліків України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
-<li>Офіційний перелік зареєстрованих ліків.</li>
-</ul>
-</li>
-<li><p><strong>Клінічні протоколи лікування</strong>  </p>
-<ul>
-<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
-<li><p><strong>Медичний Глосарій</strong>  </p>
-<ul>
-<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
-<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
-<ul>
-<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
-<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
-<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
-<li><p><strong>Сінево Україна</strong>  </p>
-<ul>
-<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Діла Лабораторія</strong>  </p>
-<ul>
-<li><a href="https://dila.ua/">dila.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Меділаб</strong>  </p>
-<ul>
-<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
-<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
-<li>Міжнародні рекомендації та дослідження.</li>
-</ul>
-</li>
-<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
-<li>Наукові статті з медицини.</li>
-</ul>
-</li>
-<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
-<li>Профілактика, контроль хвороб.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
-<li><p><strong>Клінічні калькулятори</strong>: <a href="https://www.msdmanuals.com/uk/professional/pages-with-widgets/clinical-calculators?mode=list">msdmanuals.com</a>  </p>
-</li>
-<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
-</li>
-<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
-</li>
-<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>nst</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Online tools</title>
-    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
-<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
-</ol>
-<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-</ol>
-<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
-<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>tools</tag>
-        <tag>online_tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
-<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
-</ol>
-<ul>
-<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
-<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>papers</tag>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Symbol encoding (Unicode and family)</title>
-    <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
-<p>Key Symbol Encoding Systems and Categories</p>
-<ol>
-<li><p>Unicode</p>
-<ul>
-<li>Usage: The universal encoding standard supporting characters from virtually all languages, as well as emoji, symbols, and icons.</li>
-<li>Categories: Includes letters, numbers, emoji, mathematical symbols, box-drawing characters, and more.</li>
-<li>Examples: Alphabet (A, B), numbers (1, 2), emoji (😊), math symbols (√, ∑), and other unique characters like ↵.</li>
-<li>Resources: <ul>
-<li><a href="https://emojidb.org/">https://emojidb.org/</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>ASCII (American Standard Code for Information Interchange)</p>
-<ul>
-<li>Usage: Basic Latin letters, numbers, punctuation, and control characters for simple text encoding.</li>
-<li>Limitations: Limited to 128 characters, excluding many languages and special symbols.</li>
-<li>Examples: Basic Latin alphabet (A-Z), numbers (0-9), punctuation marks like . and ,.</li>
-</ul>
-</li>
-<li><p>ISO&#x2F;IEC 8859 (ISO Latin)</p>
-<ul>
-<li>Usage: Supports European languages with additional Latin characters, like accented letters.</li>
-<li>Categories: Variants (ISO 8859-1, ISO 8859-5) cover Western European, Eastern European, and Cyrillic scripts.</li>
-<li>Limitations: Restricted to 256 characters per set.</li>
-</ul>
-</li>
-<li><p>ANSI (Windows-1252)</p>
-<ul>
-<li>Usage: Commonly used on Windows; extends ASCII with additional characters for Western European languages.</li>
-<li>Limitations: Non-standard on non-Windows systems.</li>
-<li>Examples: Includes symbols like €, accented letters, and punctuation.</li>
-</ul>
-</li>
-<li><p>Emoji (Unicode Extended Pictographic Symbols)</p>
-<ul>
-<li>Usage:  Unicode provides a broad range of emoji for digital communication, sorted into categories.</li>
-<li>Categories: Smileys, People, Animals, Food, Travel, and more.</li>
-<li>Notes: Rendered differently across platforms (Apple, Google, Microsoft, etc.).</li>
-</ul>
-</li>
-<li><p>HTML Entities</p>
-<ul>
-<li>Usage: Encodes special symbols in HTML with named (&amp;) or numeric (&#169;) entities.</li>
-<li>Notes: Often Unicode-based, written as character references in HTML documents for web use.</li>
-</ul>
-</li>
-<li><p>LaTeX Symbols</p>
-<ul>
-<li>Usage:  Essential in academic and scientific fields, especially for mathematical notation.</li>
-<li>Categories: Greek letters, math operators, functions (\alpha, \sum, \infty).</li>
-<li>Notes: Not an encoding system but a method to render symbols in scientific documents.</li>
-</ul>
-</li>
-<li><p>Dingbats</p>
-<ul>
-<li><p>Usage: Decorative symbols, often used for visual enhancement.</p>
-</li>
-<li><p>Examples: Check marks, arrows, stars.</p>
-</li>
-<li><p>Notes: Originated in typefaces like Zapf Dingbats; Unicode includes a Dingbats block.</p>
-</li>
-</ul>
-</li>
-<li><p>Box Drawing Characters</p>
-<ul>
-<li>Usage: Used for simple graphics and box drawing in text files or terminal interfaces.</li>
-<li>Examples: ┌, ─, ┐, │, ┘.</li>
-<li>Notes: Useful for ASCII art and table layouts.</li>
-</ul>
-</li>
-<li><p>Control Characters</p>
-<ul>
-<li>Usage: Non-printing characters to control text display, such as line breaks and tabs.</li>
-<li>Categories: Includes Line Feed (LF), Carriage Return (CR), and others.</li>
-</ul>
-</li>
-<li><p>Private Use Area (PUA)</p>
-<ul>
-<li><p>Usage:  Allows companies or individuals to define custom symbols not in Unicode.</p>
-</li>
-<li><p>Examples: Proprietary symbols, company logos.</p>
-</li>
-<li><p>Notes: Non-standard and specific to certain systems or applications.</p>
-<p>Each of these systems provides unique ways to display and interact with symbols. While Unicode has largely unified global encoding, non-Unicode systems still fulfill niche needs, especially in older systems or specialized fields.</p>
-</li>
-</ul>
-</li>
-</ol>
-<p>Here are a few sources for locating and copying symbols:</p>
-<ol>
-<li><p>Unicode Tables</p>
-<p> <a href="https://home.unicode.org/">home.unicode.org</a> provides official charts for different Unicode blocks. Each chart lists symbols for a specific category, like arrows, geometric shapes, mathematical symbols, etc.<br> You can search by character name or code point to find the exact symbol you need.</p>
-<ul>
-<li>Example: <code>Unicde = &amp;U+1F47D</code> &#x3D; <code>hexadecimal format = &amp;#x1F47D;</code> result &#x3D; &#x1F47D;</li>
-</ul>
-</li>
-<li><p>Character Map Utility (Windows)</p>
-<p> Windows includes a built-in tool called “Character Map” (charmap.exe) where you can browse and copy symbols from various fonts that support Unicode.<br> Open it by typing “Character Map” in the Start menu search bar, then find and copy symbols to paste them into your project.</p>
-</li>
-<li><p>Emoji and Symbol Libraries </p>
-<p> <a href="https://symbl.cc/en/unicode-table/">Online Websites like Unicode Table</a> and <a href="https://coolsymbol.com/">Coolsymbol</a> provide searchable libraries of Unicode symbols, emojis, and text decorations.<br> You can copy the symbol you want directly from these sites.</p>
-</li>
-<li><p>HTML Entity Reference</p>
-<p> Some symbols have HTML entity codes (e.g., &larr; for ←). Sites like DevDocs or W3Schools list HTML entities if you want to embed symbols in web pages.</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>unicode</tag>
-        <tag>ASCII</tag>
-        <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite movies</title>
-    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
-<p><a href="#Takedown">Takedown</a><br><a href="#WarGames">WarGames</a><br><a href="#Tron">Tron</a><br><a href="@Hackers">Hackers</a><br><a href="#The-Net">The-Net</a></p>
-<p><a href="#footnotes">footnotes</a></p>
-<hr>
-<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
-<li>Initial reliese: 2000</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
-<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
-<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
-">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
-">[2]</span></a></sup></li>
-</ul>
-<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
-<li>Initial release: 1983</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
-<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
-<li>Starring: Matthew Broderick, Ally Sheedy</li>
-<li>Director: John Badham</li>
-</ul>
-<hr>
-<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
-<li>Initial release: 1982</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
-<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
-<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
-<li>Director: Steven Lisberger</li>
-</ul>
-<hr>
-<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
-<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
-<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
-<li>Director: Iain Softley</li>
-</ul>
-<hr>
-<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
-<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
-<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
-<li>Director: Phil Alden Robinson</li>
-</ul>
-<hr>
-<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
-<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
-<li>Starring: Sandra Bullock</li>
-<li>Director: Irwin Winkler</li>
-</ul>
-<hr>
-<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
-<li>Initial release: 1984</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
-<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
-<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
-<li>Director: Steve Barron</li>
-</ul>
-<hr>
-<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
-<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
-<li>Starring: Jeff Fahey, Pierce Brosnan</li>
-<li>Director: Brett Leonard</li>
-</ul>
-<hr>
-<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
-<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
-<li>Director: Mamoru Oshii</li>
-</ul>
-<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>movie</tag>
+        <tag>statistics</tag>
       </tags>
   </entry>
   <entry>
@@ -5274,6 +4751,793 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO blog design</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
+<p>Header</p>
+<ul>
+<li>Navigation menu:<ul>
+<li>Menu items:<ul>
+<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
+<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Main body</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
+<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
+</ul>
+<p>Side panel</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
+<li><input checked="" disabled="" type="checkbox"> Categories</li>
+<li><input checked="" disabled="" type="checkbox"> Tags</li>
+<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
+<li><input checked="" disabled="" type="checkbox"> Archives</li>
+<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
+</ul>
+<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Add more beautiful HEXO blog pages</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
+<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
+<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
+<p>result below</p>
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
+    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
+  </div> 
+
+<hr>
+<p><strong>2. Highlighted Section with Border and Background</strong></p>
+<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
+  <h3 style="color: #3c763d;">Important Notice</h3>
+  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
+  </div>
+  
+<hr>
+<p>  <strong>3. Colored Quote Block</strong></p>
+<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
+  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
+</blockquote>
+
+<hr>
+<p><strong>4. Centered Text with Decorative Style</strong></p>
+<p>  Center text with a larger font size, bold style, and color.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
+  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
+  </div>
+
+<hr>
+<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
+<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <h3 style="color: #b03a2e;">Tip of the Day</h3>
+  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
+  </div>
+
+<hr>
+<p><strong>6. Badge or Label for Text</strong></p>
+<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
+
+<hr>
+<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
+<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
+</div>
+  
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[USB drive](https://en.wikipedia.org/wiki/USB_flash_drive).">[1]</span></a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Info data</title>
+    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
+<div class="sitemap_content">
+    <ul>
+        <li>
+            <iframe
+                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                frameborder="0" width="216" height="60"></iframe>
+        </li>
+        <li>
+        <li>
+            <hr>
+            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
+            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
+        </li>
+        <li>
+            <hr>
+            <h2>Satellite observations</h2>
+            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
+            <hr>
+        </li>
+        <li>
+            <h3>Solar Flares and Storms Warnings for Today</h3>
+            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
+                height="300px"></iframe>
+        </li>
+        <hr>
+        <h3>Forecast platforms</h3>
+        </li>
+        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
+                FORECAST</a>
+        </li>
+        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
+        </li>
+        <li>foreca.com
+            <ul>
+                <li>
+                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
+                        Ukraine,
+                        Sumy</a>
+                </li>
+                <li>
+                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
+                        Kyiv</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
+                Network / European space agency.</a></li>
+        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
+    </ul>
+</div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Довідник для Лікаря Сімейної Медицини</title>
+    <url>/hexo-blog//nastusja/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
+<hr>
+<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
+<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
+<li>Новини, нормативна база, протоколи лікування.</li>
+</ul>
+</li>
+<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
+<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
+</ul>
+</li>
+<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
+<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
+<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
+<li>Інформація про ліки, інструкції, дозування.</li>
+</ul>
+</li>
+<li><p><strong>Реєстр Ліків України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
+<li>Офіційний перелік зареєстрованих ліків.</li>
+</ul>
+</li>
+<li><p><strong>Клінічні протоколи лікування</strong>  </p>
+<ul>
+<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
+<li><p><strong>Медичний Глосарій</strong>  </p>
+<ul>
+<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
+<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
+<ul>
+<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
+<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
+<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
+<li><p><strong>Сінево Україна</strong>  </p>
+<ul>
+<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Діла Лабораторія</strong>  </p>
+<ul>
+<li><a href="https://dila.ua/">dila.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Меділаб</strong>  </p>
+<ul>
+<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
+<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
+<li>Міжнародні рекомендації та дослідження.</li>
+</ul>
+</li>
+<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
+<li>Наукові статті з медицини.</li>
+</ul>
+</li>
+<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
+<li>Профілактика, контроль хвороб.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
+<li><p><strong>Клінічні калькулятори</strong>: <a href="https://www.msdmanuals.com/uk/professional/pages-with-widgets/clinical-calculators?mode=list">msdmanuals.com</a>  </p>
+</li>
+<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
+</li>
+<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
+</li>
+<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>nst</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows services and VM usage</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_windows_services_and_vm_usage/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><p><strong>Virtual Machine Setup</strong><br>Steps to create a virtual machine:</p>
+<ol>
+<li>Download a hypervisor:<ol>
+<li>Go to <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> or <a href="https://www.vmware.com/">VMware</a>. Download and install the software on your machine.</li>
+<li>Obtain an OS image:<ol>
+<li>Download the required ISO file for the operating system.</li>
+</ol>
+</li>
+<li>Create the virtual machine:<ol>
+<li>Open VirtualBox&#x2F;VMware app.</li>
+<li>Create a new virtual machine according to requested specification.&#96;&#96;&#96;&#96;</li>
+<li>Configure name, OS type, hardware settings like RAM, CPU, and disk space.</li>
+</ol>
+</li>
+<li>Install the OS<ol>
+<li>Start the virtual machine.</li>
+<li>Follow the installation steps in the OS setup wizard.</li>
+</ol>
+</li>
+<li>Connect to the VM:<ol>
+<li>For Linux VMs: Enable SSH in the VM during installation or after setup.</li>
+<li>Use SSH (on Linux&#x2F;Mac) or tools like PuTTY (on Windows) to connect.</li>
+</ol>
+</li>
+<li>Additional steps:<ol>
+<li>Windows VM Remote Desktop:<ol>
+<li>Enable Remote Desktop in the Windows VM settings. Use the RDP client, configuration described here &gt;&gt; <a href="https://learn.microsoft.com/uk-ua/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients">Remote Desktop clients for Remote Desktop Services and remote PCs</a> on your host machine to connect.</li>
+<li>Connect RDP client to remote machine.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p><strong>Windows Services Management in PowerShell.</strong></p>
+<p>Task: </p>
+<ol>
+<li>Print  list of services</li>
+<li>Run specific service</li>
+<li>Stop specific service</li>
+<li>Restart specific service</li>
+<li>Check status for specific service</li>
+</ol>
+<p> To get list of running services I will use :</p>
+ <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> | <span class="built_in">Where-Object</span> &#123;<span class="variable">$_</span>.Status <span class="operator">-eq</span> <span class="string">&#x27;Running&#x27;</span>&#125;</span><br></pre></td></tr></table></figure>
+<p> Assuming that I want to run <code>&quot;WSLService&quot;</code></p>
+<p> To start <code>&quot;WSLService&quot;</code> service  I’m using :<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Start-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure><br> To stop the service:<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Stop-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure></p>
+<p> For restarting service:</p>
+ <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Restart-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
+<p> For checking the status of monitored service:</p>
+ <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p><strong>SSH connection to the Linux machine</strong> actions are below.</p>
+<p>I added more information in advance because the original task does not contain information about the client machine from which the connection to the Linux machine will be made. There is 3 different cases:</p>
+<ul>
+<li>Case 1: From another Linux client to Linux host</li>
+<li>Case 2: From a Windows client  to Linux host</li>
+<li>Case 3: From macOS client to Linux host</li>
+</ul>
+<p>For Linux&#x2F;Mac: SSH is usually pre-installed but if it’s missing install an SSH client (e.g. on Ubuntu):<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client -y</span><br></pre></td></tr></table></figure><br>After installation, start the service on Linux machine:<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start ssh</span><br></pre></td></tr></table></figure><br>If SSH service not started , checked its status on Linux machine:<br>    <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status ssh</span><br></pre></td></tr></table></figure></p>
+<p>Generate SSH keys (on the host machine):</p>
+  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-keygen</span> <span class="literal">-t</span> rsa <span class="literal">-b</span> <span class="number">2048</span></span><br></pre></td></tr></table></figure>
+<p>  The keys will be stored in ~&#x2F;.ssh&#x2F;id_rsa (private) and ~&#x2F;.ssh&#x2F;id_rsa.pub (public).<br>  Copy the public key to the Linux server:</p>
+  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-copy-id</span> user@server_ip</span><br></pre></td></tr></table></figure>
+<p>  Or manually append the content of id_rsa.pub to ~&#x2F;.ssh&#x2F;authorized_keys on the server.</p>
+<p>  Connection via SSH for Linux:<br>   <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh user@server_ip</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><p>Optional Configurations:</p>
+<p>Edit the SSH config file (~&#x2F;.ssh&#x2F;config) for aliases:</p>
+   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Host server_alias  </span><br><span class="line">   HostName server_ip  </span><br><span class="line">   User username  </span><br><span class="line">   IdentityFile ~/.ssh/id_rsa  </span><br></pre></td></tr></table></figure>
+<p>This will simplify the connection:</p>
+   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh server_alias</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><strong>Case 1</strong>: From another Linux client to Linux host</p>
+<p>  Verify SSH Client on the Local Machine:</p>
+<ul>
+<li>Most Linux distributions come with the ssh client pre-installed. Confirm by running:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
+
+ If it’s not installed, install it: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client  </span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>   Replace <code>&lt;username&gt;</code> with the remote machine’s username.</p>
+<p>   Replace <code>&lt;remote_ip&gt;</code> with the target machine’s IP address.</p>
+<ul>
+<li>Use Public Key Authentication (Optional): <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
+<li>Copy the public key to the remote machine:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li>Now, log in without entering a password:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p><strong>Case 2</strong>: From a Windows client  to Linux host</p>
+<ul>
+<li><p>Install an SSH Client:</p>
+<ul>
+<li>Use the built-in OpenSSH client on Windows 10+. Open PowerShell or Command Prompt and check if SSH is installed:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
+<ul>
+<li>For Windows alternatively install <a href="https://www.openssh.com/">OpenSSH</a> client from <a href="https://learn.microsoft.com/en-us/windows/client-management/client-tools/add-remove-hide-features?pivots=windows-11">“Optional Features”</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">download PuTTY</a>( third-party SSH client).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Connect Using OpenSSH (Built-in).</p>
+<p>Open PowerShell or Command Prompt and run:  </p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li><p>Connect Using PuTTY:</p>
+<ul>
+<li>Download and install PuTTY.</li>
+<li>Open PuTTY and enter the hostname or IP address.</li>
+<li>Set the Port to 22 and click Open.</li>
+<li>Log in with your credentials.</li>
+<li>Enable Key Authentication (Optional):<ul>
+<li>Use <a href="https://www.puttygen.com/">puttygen</a> to generate a private&#x2F;public key pair.</li>
+<li>Copy the public key to the Linux machine’s ~&#x2F;.ssh&#x2F;authorized_keys.</li>
+<li>In PuTTY, configure the private key in Connection &gt; SSH &gt; Auth &gt; Browse Private Key.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Case 3</strong>: From macOS client to Linux host </p>
+<ul>
+<li><p>Verify SSH Client:</p>
+<p> macOS includes an SSH client by default. Confirm it by running:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure></li>
+<li><p>Connect to the Linux Machine:</p>
+<p>Open Terminal and run:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li><p>Use Public Key Authentication (Optional):</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
+<li><p>Copy the public key to the remote machine:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li><p>Now, I can log in without entering a password:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Dashdevs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Online tools</title>
+    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
+<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
+</ol>
+<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+</ol>
+<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
+<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>tools</tag>
+        <tag>online_tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Symbol encoding (Unicode and family)</title>
+    <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
+<p>Key Symbol Encoding Systems and Categories</p>
+<ol>
+<li><p>Unicode</p>
+<ul>
+<li>Usage: The universal encoding standard supporting characters from virtually all languages, as well as emoji, symbols, and icons.</li>
+<li>Categories: Includes letters, numbers, emoji, mathematical symbols, box-drawing characters, and more.</li>
+<li>Examples: Alphabet (A, B), numbers (1, 2), emoji (😊), math symbols (√, ∑), and other unique characters like ↵.</li>
+<li>Resources: <ul>
+<li><a href="https://emojidb.org/">https://emojidb.org/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>ASCII (American Standard Code for Information Interchange)</p>
+<ul>
+<li>Usage: Basic Latin letters, numbers, punctuation, and control characters for simple text encoding.</li>
+<li>Limitations: Limited to 128 characters, excluding many languages and special symbols.</li>
+<li>Examples: Basic Latin alphabet (A-Z), numbers (0-9), punctuation marks like . and ,.</li>
+</ul>
+</li>
+<li><p>ISO&#x2F;IEC 8859 (ISO Latin)</p>
+<ul>
+<li>Usage: Supports European languages with additional Latin characters, like accented letters.</li>
+<li>Categories: Variants (ISO 8859-1, ISO 8859-5) cover Western European, Eastern European, and Cyrillic scripts.</li>
+<li>Limitations: Restricted to 256 characters per set.</li>
+</ul>
+</li>
+<li><p>ANSI (Windows-1252)</p>
+<ul>
+<li>Usage: Commonly used on Windows; extends ASCII with additional characters for Western European languages.</li>
+<li>Limitations: Non-standard on non-Windows systems.</li>
+<li>Examples: Includes symbols like €, accented letters, and punctuation.</li>
+</ul>
+</li>
+<li><p>Emoji (Unicode Extended Pictographic Symbols)</p>
+<ul>
+<li>Usage:  Unicode provides a broad range of emoji for digital communication, sorted into categories.</li>
+<li>Categories: Smileys, People, Animals, Food, Travel, and more.</li>
+<li>Notes: Rendered differently across platforms (Apple, Google, Microsoft, etc.).</li>
+</ul>
+</li>
+<li><p>HTML Entities</p>
+<ul>
+<li>Usage: Encodes special symbols in HTML with named (&amp;) or numeric (&#169;) entities.</li>
+<li>Notes: Often Unicode-based, written as character references in HTML documents for web use.</li>
+</ul>
+</li>
+<li><p>LaTeX Symbols</p>
+<ul>
+<li>Usage:  Essential in academic and scientific fields, especially for mathematical notation.</li>
+<li>Categories: Greek letters, math operators, functions (\alpha, \sum, \infty).</li>
+<li>Notes: Not an encoding system but a method to render symbols in scientific documents.</li>
+</ul>
+</li>
+<li><p>Dingbats</p>
+<ul>
+<li><p>Usage: Decorative symbols, often used for visual enhancement.</p>
+</li>
+<li><p>Examples: Check marks, arrows, stars.</p>
+</li>
+<li><p>Notes: Originated in typefaces like Zapf Dingbats; Unicode includes a Dingbats block.</p>
+</li>
+</ul>
+</li>
+<li><p>Box Drawing Characters</p>
+<ul>
+<li>Usage: Used for simple graphics and box drawing in text files or terminal interfaces.</li>
+<li>Examples: ┌, ─, ┐, │, ┘.</li>
+<li>Notes: Useful for ASCII art and table layouts.</li>
+</ul>
+</li>
+<li><p>Control Characters</p>
+<ul>
+<li>Usage: Non-printing characters to control text display, such as line breaks and tabs.</li>
+<li>Categories: Includes Line Feed (LF), Carriage Return (CR), and others.</li>
+</ul>
+</li>
+<li><p>Private Use Area (PUA)</p>
+<ul>
+<li><p>Usage:  Allows companies or individuals to define custom symbols not in Unicode.</p>
+</li>
+<li><p>Examples: Proprietary symbols, company logos.</p>
+</li>
+<li><p>Notes: Non-standard and specific to certain systems or applications.</p>
+<p>Each of these systems provides unique ways to display and interact with symbols. While Unicode has largely unified global encoding, non-Unicode systems still fulfill niche needs, especially in older systems or specialized fields.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Here are a few sources for locating and copying symbols:</p>
+<ol>
+<li><p>Unicode Tables</p>
+<p> <a href="https://home.unicode.org/">home.unicode.org</a> provides official charts for different Unicode blocks. Each chart lists symbols for a specific category, like arrows, geometric shapes, mathematical symbols, etc.<br> You can search by character name or code point to find the exact symbol you need.</p>
+<ul>
+<li>Example: <code>Unicde = &amp;U+1F47D</code> &#x3D; <code>hexadecimal format = &amp;#x1F47D;</code> result &#x3D; &#x1F47D;</li>
+</ul>
+</li>
+<li><p>Character Map Utility (Windows)</p>
+<p> Windows includes a built-in tool called “Character Map” (charmap.exe) where you can browse and copy symbols from various fonts that support Unicode.<br> Open it by typing “Character Map” in the Start menu search bar, then find and copy symbols to paste them into your project.</p>
+</li>
+<li><p>Emoji and Symbol Libraries </p>
+<p> <a href="https://symbl.cc/en/unicode-table/">Online Websites like Unicode Table</a> and <a href="https://coolsymbol.com/">Coolsymbol</a> provide searchable libraries of Unicode symbols, emojis, and text decorations.<br> You can copy the symbol you want directly from these sites.</p>
+</li>
+<li><p>HTML Entity Reference</p>
+<p> Some symbols have HTML entity codes (e.g., &larr; for ←). Sites like DevDocs or W3Schools list HTML entities if you want to embed symbols in web pages.</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>unicode</tag>
+        <tag>ASCII</tag>
+        <tag>LaTeX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite movies</title>
+    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
+<p><a href="#Takedown">Takedown</a><br><a href="#WarGames">WarGames</a><br><a href="#Tron">Tron</a><br><a href="@Hackers">Hackers</a><br><a href="#The-Net">The-Net</a></p>
+<p><a href="#footnotes">footnotes</a></p>
+<hr>
+<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
+<li>Initial reliese: 2000</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
+<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
+<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[Tsutomu Shimomura](https://en.wikipedia.org/wiki/Tsutomu_Shimomura). More deails about Tsutomu Shimomura you can find in [BIO](http://www.takedown.com/bio/)
+">[1]</span></a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="[John Markoff](https://en.wikipedia.org/wiki/John_Markoff)  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.
+">[2]</span></a></sup></li>
+</ul>
+<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
+<li>Initial release: 1983</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
+<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
+<li>Starring: Matthew Broderick, Ally Sheedy</li>
+<li>Director: John Badham</li>
+</ul>
+<hr>
+<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
+<li>Initial release: 1982</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
+<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
+<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
+<li>Director: Steven Lisberger</li>
+</ul>
+<hr>
+<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
+<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
+<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
+<li>Director: Iain Softley</li>
+</ul>
+<hr>
+<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
+<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
+<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
+<li>Director: Phil Alden Robinson</li>
+</ul>
+<hr>
+<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
+<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
+<li>Starring: Sandra Bullock</li>
+<li>Director: Irwin Winkler</li>
+</ul>
+<hr>
+<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
+<li>Initial release: 1984</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
+<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
+<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
+<li>Director: Steve Barron</li>
+</ul>
+<hr>
+<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
+<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
+<li>Starring: Jeff Fahey, Pierce Brosnan</li>
+<li>Director: Brett Leonard</li>
+</ul>
+<hr>
+<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
+<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
+<li>Director: Mamoru Oshii</li>
+</ul>
+<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>movie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXIO.IO fixes guide</title>
     <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design check that:</p>
@@ -5547,20 +5811,51 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
 </ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
+<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
+</ol>
+<ul>
+<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
+<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>Tutorials</category>
+        <category>Notes</category>
       </categories>
       <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
+        <tag>papers</tag>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
@@ -5653,6 +5948,23 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>blog</tag>
         <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>

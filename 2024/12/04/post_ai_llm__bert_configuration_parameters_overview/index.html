@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QND5GLPYZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QND5GLPYZV');
+</script>
+<!-- End Google Analytics -->
+
+  
+  <title>BERT configuration parameters overview |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="This post related to:1. Techniques for Handling Context in AI Models2. GPT2 configuration parameters overview3. BART configuration parameters overviewParameters list and descriptions   Parameter Descr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BERT configuration parameters overview">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/12/04/post_ai_llm__bert_configuration_parameters_overview/">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="This post related to:1. Techniques for Handling Context in AI Models2. GPT2 configuration parameters overview3. BART configuration parameters overviewParameters list and descriptions   Parameter Descr">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-12-04T20:08:12.000Z">
+<meta property="article:modified_time" content="2024-12-04T20:38:06.482Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="BERT">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/hexo-blog/atom.xml" title=" " type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-post_ai_llm__bert_configuration_parameters_overview" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/2024/12/04/post_ai_llm__bert_configuration_parameters_overview/" class="article-date">
+  <time class="dt-published" datetime="2024-12-04T20:08:12.000Z" itemprop="datePublished">2024-12-04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      BERT configuration parameters overview
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="This-post-related-to-1-Techniques-for-Handling-Context-in-AI-Models2-GPT2-configuration-parameters-overview3-BART-configuration-parameters-overview"><a href="#This-post-related-to-1-Techniques-for-Handling-Context-in-AI-Models2-GPT2-configuration-parameters-overview3-BART-configuration-parameters-overview" class="headerlink" title="This post related to:1. Techniques for Handling Context in AI Models2. GPT2 configuration parameters overview3. BART configuration parameters overview"></a><em>This post related to:</em><br>1. <a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a><br>2. <a href="../../../../post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a><br>3. <a href="../../../../post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></h2><h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table>
+<thead>
+<tr>
+<th><strong>Parameter</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Data Type&#x2F;Options</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>hidden_size</code></td>
+<td>Dimensionality of the hidden states and embeddings.</td>
+<td>Integer, e.g., <code>768</code>, <code>1024</code>.</td>
+</tr>
+<tr>
+<td><code>num_hidden_layers</code></td>
+<td>Number of hidden layers in the transformer encoder.</td>
+<td>Integer, e.g., <code>12</code>, <code>24</code>.</td>
+</tr>
+<tr>
+<td><code>num_attention_heads</code></td>
+<td>Number of attention heads per transformer layer.</td>
+<td>Integer, typically a divisor of <code>hidden_size</code>.</td>
+</tr>
+<tr>
+<td><code>vocab_size</code></td>
+<td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td>
+<td>Integer, e.g., <code>30522</code>.</td>
+</tr>
+<tr>
+<td><code>intermediate_size</code></td>
+<td>Dimensionality of the feedforward layers.</td>
+<td>Integer, e.g., <code>3072</code>.</td>
+</tr>
+<tr>
+<td><code>hidden_dropout_prob</code></td>
+<td>Dropout probability for fully connected layers in the encoder.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>attention_probs_dropout_prob</code></td>
+<td>Dropout probability in the attention mechanism.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>max_position_embeddings</code></td>
+<td>Maximum number of positions for input tokens.</td>
+<td>Integer, e.g., <code>512</code>.</td>
+</tr>
+<tr>
+<td><code>type_vocab_size</code></td>
+<td>Size of the token type vocabulary for segment embeddings.</td>
+<td>Integer, typically <code>2</code>.</td>
+</tr>
+<tr>
+<td><code>initializer_range</code></td>
+<td>Standard deviation for weight initialization.</td>
+<td>Float, e.g., <code>0.02</code>.</td>
+</tr>
+<tr>
+<td><code>layer_norm_eps</code></td>
+<td>A small value added for numerical stability in layer normalization.</td>
+<td>Float, typically <code>1e-5</code>.</td>
+</tr>
+<tr>
+<td><code>output_hidden_states</code></td>
+<td>Whether to output all hidden states from each layer.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>output_attentions</code></td>
+<td>Whether to output the attention weights.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+</tbody></table>
+<h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol>
+<li><p><strong>Capacity:</strong></p>
+<ul>
+<li>Increasing <code>hidden_size</code>, <code>num_hidden_layers</code>, or <code>num_attention_heads</code> allows the model to capture more complex patterns but increases resource usage.</li>
+</ul>
+</li>
+<li><p><strong>Regularization:</strong></p>
+<ul>
+<li>Dropout probabilities (<code>hidden_dropout_prob</code>, <code>attention_probs_dropout_prob</code>) control overfitting risks but can hinder learning if set too high.</li>
+</ul>
+</li>
+<li><p><strong>Pretraining vs. Fine-tuning:</strong></p>
+<ul>
+<li><code>type_vocab_size</code> is essential for tasks requiring segment embeddings (e.g., sentence pairs).</li>
+</ul>
+</li>
+<li><p><strong>Stability and Efficiency:</strong></p>
+<ul>
+<li><code>layer_norm_eps</code> ensures stable training, while <code>initializer_range</code> affects convergence.</li>
+</ul>
+</li>
+</ol>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li>Paper</li>
+<li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</li>
+<li>DOI: 10.48550&#x2F;arXiv.1810.04805</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/abs/1810.04805">Read on </a></li>
+<li><a target="_blank" rel="noopener" href="https://huggingface.co/docs/transformers/model_doc/bert">Hugging Face BERT Documentation</a></li>
+</ul>
+<h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul>
+<li><strong>Report:</strong> “On the Structural Properties of BERT Models” (Kovaleva et al., 2019).</li>
+<li><strong>Challenges:</strong> Over-parameterization and inefficiency in fine-tuning for domain-specific tasks.</li>
+</ul>
+<h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul>
+<li><strong>Hugging Face Spaces:</strong> <a target="_blank" rel="noopener" href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li>
+<li><strong>Google Colab with Transformers:</strong> <a target="_blank" rel="noopener" href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+<li><strong>OpenAI Playground for Text Understanding:</strong> <a target="_blank" rel="noopener" href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/12/04/post_ai_llm__bert_configuration_parameters_overview/" data-id="cm4acqjlu0010j4kk0g4r5wyi" data-title="BERT configuration parameters overview" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/BERT/" rel="tag">BERT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/LLM/" rel="tag">LLM</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/12/04/post_ai_llm__bart_configuration_parameters_overview/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          BART configuration parameters overview
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hexo-blog/2024/12/04/post_ai_llm__gpt2_configuration_parameters_overview/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">GPT-2 configuration parameters overview</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">45</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/QA/">QA</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 20px;">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 11.11px;">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/BART/" style="font-size: 10px;">BART</a> <a href="/hexo-blog/tags/BERT/" style="font-size: 10px;">BERT</a> <a href="/hexo-blog/tags/Dashdevs/" style="font-size: 10px;">Dashdevs</a> <a href="/hexo-blog/tags/GPT2/" style="font-size: 10px;">GPT2</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 14.44px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 10px;">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 18.89px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 16.67px;">NLP</a> <a href="/hexo-blog/tags/NLTK/" style="font-size: 10px;">NLTK</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 10px;">NPF</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 10px;">VADER</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 10px;">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 10px;">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15.56px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 10px;">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 10px;">data_mining</a> <a href="/hexo-blog/tags/db/" style="font-size: 10px;">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 13.33px;">dev_side</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 10px;">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 11.11px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15.56px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.11px;">knowledge</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 11.11px;">lexic</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.22px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 16.67px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.22px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 13.33px;">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 10px;">parsing</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 13.33px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/python/" style="font-size: 11.11px;">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 12.22px;">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 10px;">qa_check_list</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 14.44px;">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 11.11px;">sentiment_analysis</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 10px;">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 17.78px;">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 10px;">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/web/" style="font-size: 10px;">web</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/05/">May 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/04/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/04/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/04/post_ai_llm__gpt2_configuration_parameters_overview/">GPT-2 configuration parameters overview</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/04/post_ai_nltk__general/">NLTK general</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/11/30/post_ai_ml_npf__general/">Neural Process Family</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 si0n4ra<br>
+      <!-- Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> (v7.3.0) hexo-cli: 4.3.2 -->
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo v.7.3.0</a> & hexo-cli: 4.3.2
+      <br>Theme: <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">landscape</a>
+    </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
