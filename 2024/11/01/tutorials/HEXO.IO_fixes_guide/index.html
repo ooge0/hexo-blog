@@ -27,7 +27,7 @@
 <meta property="og:description" content="For making changes in blog design check that:  default configuration of HEXO.IO is not changed (You installed everythong from initial command from Hexo Setup page; you made copy of original project; b">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-11-01T07:22:44.472Z">
-<meta property="article:modified_time" content="2024-12-02T10:13:00.715Z">
+<meta property="article:modified_time" content="2024-12-04T07:54:38.283Z">
 <meta property="article:author" content="si0n4ra">
 <meta property="article:tag" content="tutorial">
 <meta property="article:tag" content="blog">
@@ -178,18 +178,30 @@
 <li>Create ejs file where function retrives existing HEXO.IO details like HEXO.IO version and hexo-client version  <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=<span class="string">&quot;footer-info&quot;</span> <span class="keyword">class</span>=<span class="string">&quot;inner&quot;</span>&gt;</span><br><span class="line">&amp;copy; &lt;%= <span class="title function_">date</span>(<span class="keyword">new</span> <span class="title class_">Date</span>(), <span class="string">&#x27;YYYY&#x27;</span>) %&gt; &lt;%= config.<span class="property">author</span> || config.<span class="property">title</span> %&gt;&lt;br&gt;</span><br><span class="line">&lt;%= <span class="title function_">__</span>(<span class="string">&#x27;powered_by&#x27;</span>) %&gt; <span class="language-xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://hexo.io/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span> (v&lt;%= <span class="title function_">hexoVersion</span>() %&gt;)&lt;br&gt;</span><br><span class="line"><span class="title class_">Hexo</span> <span class="attr">CLI</span>: &lt;%= <span class="title function_">hexoClient</span>() %&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></li>
 </ol>
 <h2 id="Search-option-internal-HEXO-IO-feature"><a href="#Search-option-internal-HEXO-IO-feature" class="headerlink" title="Search option (internal HEXO.IO feature)"></a>Search option (internal HEXO.IO feature)</h2><ol>
-<li>Option-1<br>Use script   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -S hexo-generator-search hexo-generator-feed hexo-renderer-less hexo-autoprefixer hexo-generator-json-content hexo-recommended-posts</span><br></pre></td></tr></table></figure>
+<li>Option-1 (Search option was not possible to configure by these steps)<br>Use script   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -S hexo-generator-search hexo-generator-feed hexo-renderer-less hexo-autoprefixer hexo-generator-json-content hexo-recommended-posts</span><br></pre></td></tr></table></figure>
 <ul>
 <li>hexo-generator-search<br>  <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search">https://github.com/wzpan/hexo-generator-search</a><br>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure></li>
 </ul>
 <p>   hexo-generator-feed<br>   hexo-renderer-less<br>   hexo-autoprefixer<br>   hexo-generator-json-content<br>   hexo-recommended-posts</p>
 </li>
 </ol>
+<h2 id="Pagination-issue-after-deploying-on-GitHib-pages"><a href="#Pagination-issue-after-deploying-on-GitHib-pages" class="headerlink" title="Pagination issue after deploying on GitHib pages"></a>Pagination issue after deploying on GitHib pages</h2><p>Pagination of hexo.io blog works fine on localhost but not working after deploy on GitHib pages.<br><a target="_blank" rel="noopener" href="http://localhost:4000/hexo-blog/categories/Posts/_posts/2/">http://localhost:4000/hexo-blog/categories/Posts/_posts/2/</a> works fine, page opens with content<br><a href="https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/">https://ooge0.github.io/hexo-blog/categories/Posts/_posts/2/</a> shows that page not found</p>
+<p>Solutions:</p>
+<ol>
+<li>Enable Pretty URLs. Ensure that Hexo generates an index.html file for each page in the pagination. In Hexo, this can be achieved by enabling the proper permalink structure.<br>In the main _config.yml, check or add the following:</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:categories/:title/</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>This generates URLs like &#x2F;categories&#x2F;Posts&#x2F;_posts&#x2F;2&#x2F; and ensures that an index.html is created in the corresponding folder.</p>
+<p><strong>Result:</strong></p>
+<ul>
+<li>On localhost pagination is working </li>
+<li>On GitHib pages</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/" data-id="cm49ld4j5007wv8kk9cs60apy" data-title="HEXIO.IO fixes guide" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/" data-id="cm49lkcib007xe8kk83n944h0" data-title="HEXIO.IO fixes guide" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
