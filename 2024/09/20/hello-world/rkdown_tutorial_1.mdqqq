@@ -1,0 +1,347 @@
+---
+title: MarkDowm tutorial-1
+layout: post
+date: 2024-10-21
+categories:
+  - Tutorials
+tags:
+  - markdown
+  - tutorial
+---
+
+Short intro. 
+This page has some glitches.
+
+For some reason rendered examples brakes page layout. 
+I can assume that is some issue with HEXO.IO internal staff. 
+Be carefull to add footnotes. When you added footnote like \[^123] in the document, any text after that references always will be rendered before your first footenote. 
+All footnotes should be always presented in the end of your document or, again , this issue can be related to the HEXO.IO knwon/no-known issues. 
+
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+[Lists](#lists)  
+[Links](#links)  
+[Images](#images)  
+[Code and Syntax Highlighting](#code)  
+[Blockquotes](#blockquotes)  
+[Inline HTML](#html)  
+[Horizontal Rule](#hr)  
+[Line Breaks](#lines)  
+
+---
+
+
+<a name="headers"/>
+## Headers
+
+Markdown supports six levels of headers, which are defined using the # symbol.
+
+```
+  # Header 1
+  ## Header 2
+  ### Header 3
+  #### Header 4
+  ##### Header 5
+  ###### Header 6
+```
+
+produce 
+
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
+2. Emphasis
+You can emphasize text using asterisks or underscores.
+
+```
+*Italic text* or _Italic text_
+```
+
+produce 
+
+*Italic text* or _Italic text_
+
+---
+
+Bold text
+
+```
+**Bold text** or __Bold text__
+```
+
+produce 
+
+**Bold text** or __Bold text__
+
+---
+
+```
+***Bold and italic text*** or ___Bold and italic text___
+```
+
+produce 
+
+***Bold and italic text*** or ___Bold and italic text___
+
+---
+
+1. Lists
+Unordered Lists
+Use asterisks, plus signs, or hyphens for bullet points.
+
+```
+- Item 1
+- Item 2
+  - Subitem 2.1
+  - Subitem 2.2
+- Item 3
+```
+
+produce 
+
+- Item 1
+- Item 2
+  - Subitem 2.1
+  - Subitem 2.2
+- Item 3
+
+---
+
+Ordered Lists
+
+Use numbers followed by a period.
+
+```
+1. First item
+2. Second item
+   1. Subitem 2.1
+   2. Subitem 2.2
+3. Third item
+4. Links
+```
+
+produce 
+
+1. First item
+2. Second item
+   1. Subitem 2.1
+   2. Subitem 2.2
+3. Third item
+4. Links
+
+----
+
+Internal Links
+You can link to sections within the same document using anchor links.
+
+```
+[Go to Section 2](#header-2)
+```
+
+produce 
+
+[Go to Section 2](#header-2)
+
+---
+```
+| Kind of           |            Syntax               |          Description          |
+| ------------------| ------------------------------- | ----------------------------- |
+|  Internal Links       |[Go to Section 2](#header-2) | [Go to Section 2](#header-2) |
+```
+produce
+
+| Kind of           |            Syntax               |          Description          |
+| ------------------| ------------------------------- | ----------------------------- |
+|  Internal Links       |[Go to Section 2](#header-2) | [Go to Section 2](#header-2) |
+
+External Links
+Link to external websites.
+
+```
+[wikipedia](https://wikipedia.com)
+```
+produce
+
+[wikipedia](https://wikipedia.com)
+
+1. Images
+You can include images using a similar syntax to links.
+
+```
+![Alt text](../../images/favicon.ico)
+```
+produce
+
+![Alt text](../../images/favicon.ico)
+
+1. Blockquotes
+Use the > symbol for blockquotes.
+
+```
+> This is a blockquote.
+> It can span multiple lines.
+```
+
+1. Code
+
+Inline Code
+
+Use backticks for inline code snippets.
+
+```
+This is `inline code`.
+```
+produce 
+This is `inline code`.
+
+---
+
+Code Blocks
+
+Use triple backticks for multi-line code blocks. You can specify the language for syntax highlighting.
+Here is an example JavaScript code snippet (ignore **backslash** -   `\`) in the code snippet below:
+
+```markdown
+\```javascript
+function helloWorld() {
+    console.log("Hello, World!");
+}
+\```
+```
+
+
+produce
+
+```javascript
+function helloWorld() {
+    console.log("Hello, World!");
+}
+```
+
+Use three hyphens, asterisks, or underscores to create a horizontal line.
+1. Horizontal Rules
+
+```
+---
+```
+
+produce  horizonatl rule
+
+---
+
+
+
+
+9. Tables
+    
+Create tables using pipes and hyphens.
+
+```
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Row 2    |
+| Row 3    | Row 4    |
+
+```
+produce
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Row 2    |
+| Row 3    | Row 4    |
+
+1.  Task Lists
+You can create task lists with checkboxes.
+
+```
+- [x] Completed task
+- [ ] Incomplete task
+```
+produce
+
+- [x] Completed task
+- [ ] Incomplete task
+
+
+12. Colored Text (HTML)
+Markdown doesn't support colored text natively, but you can use HTML for that.
+
+```
+<span style="color: red;">This text is red.</span>
+```
+produce
+
+<span style="color: red;">This text is red.</span>
+
+---
+
+13.  Comments (HTML)
+You can add comments that won’t appear in the rendered document.
+
+```
+<!-- This is a comment -->
+```
+produce the comment that will be visible only when you edit the file itself. No text or any information you will not find on the renderd page above.
+
+<!-- This is a comment -->
+
+---
+
+1.   Index
+You can create a simple index manually by listing terms and their links.
+
+```
+## Index
+- [Header 1](#header-1)
+  - [Header 2](#header-2)
+    - [Header 3](#header-3)
+      - [Header 4](#header-4)
+        - [Header 5](#header-5)
+          - [Header 6](#header-6)
+- [Header 1](#header-1-1)
+  - [Header 2](#header-2-1)
+    - [Header 3](#header-3-1)
+      - [Header 4](#header-4-1)
+        - [Header 5](#header-5-1)
+          - [Header 6](#header-6-1)
+  - [Copy code](#copy-code)
+  - [Index](#index)
+```
+produce
+
+- [Header 1](#header-1)
+  - [Header 2](#header-2)
+    - [Header 3](#header-3)
+      - [Header 4](#header-4)
+        - [Header 5](#header-5)
+          - [Header 6](#header-6)
+
+---
+
+15.  Escaping Characters
+If you need to display a character that Markdown uses for formatting, you can escape it with a backslash.
+
+```
+ *This text will not be italicized*
+```
+produce
+
+*This text will not be italicized*
+
+11. Footnotes
+Create footnotes for additional information.
+
+Here is a sentence with a footnote.[^1]
+
+```
+[^1]: This is the footnote.
+```
+produce
+
+[^1]: This is the footnote.
