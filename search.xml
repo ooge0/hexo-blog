@@ -386,28 +386,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
-<ul>
-<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
-<li>DOI:10.1561&#x2F;2200000056</li>
-<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
-<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AI glossaries list</title>
     <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
@@ -455,6 +433,28 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
+<ul>
+<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
+<li>DOI:10.1561&#x2F;2200000056</li>
+<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
+<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -696,97 +696,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Tools for Augmenting Data and Generating Texts</title>
-    <url>/hexo-blog/2024/05/10/post_ai__tools_for_augmenting_data_and_generating_texts/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text-Generation-Models"><a href="#Text-Generation-Models" class="headerlink" title="Text Generation Models"></a>Text Generation Models</h2><p>Text generation models are trained on large corpora and can generate semantically coherent and lexically varied sentences.</p>
-<ul>
-<li><strong>GPT-3&#x2F;GPT-4</strong>: Generates fluent and contextually relevant text. Supports fine-tuning and controlled outputs through prompt engineering.</li>
-<li><strong>GPT-2</strong>: Effective for text generation and fine-tuning to produce specific semantic or syntactic structures.</li>
-<li><strong>T5 (Text-to-Text Transfer Transformer)</strong>: Handles tasks by converting input into text-to-text format, generating sentences from structured input.</li>
-<li><strong>BERT</strong>: Primarily for understanding tasks, but paired with generation heads like BART or T5, it can generate relevant sentences.</li>
-</ul>
-<h2 id="Text-Augmentation-Libraries"><a href="#Text-Augmentation-Libraries" class="headerlink" title="Text Augmentation Libraries"></a>Text Augmentation Libraries</h2><p>Libraries for NLP data augmentation by altering existing sentences while retaining their meaning.</p>
-<ul>
-<li><strong>nlpaug</strong>: Augments text by synonym replacement, random insertions, and transformations using word embeddings.<ul>
-<li><a href="https://pypi.org/project/nlpaug/">PIP reference</a></li>
-<li><a href="https://towardsdatascience.com/data-augmentation-library-for-text-9661736b13ff">Post: Data Augmentation library for text</a></li>
-<li><a href="https://nlpaug.readthedocs.io/en/latest/index.html">nlpaug.readthedocs.io</a></li>
-</ul>
-</li>
-<li><strong>TextAttack</strong>: Provides adversarial attacks and paraphrasing methods for generating variations of sentences.<ul>
-<li><a href="https://textattack.readthedocs.io/en/master/index.html">TextAttack Documentation</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="Semantic-Structure-based-Text-Generation"><a href="#Semantic-Structure-based-Text-Generation" class="headerlink" title="Semantic Structure-based Text Generation"></a>Semantic Structure-based Text Generation</h2><p>Tools for precise control over semantic structure in generated sentences.</p>
-<ul>
-<li><strong>Controlled Text Generation (via GPT-3&#x2F;4)</strong>: Uses structured prompts to guide text generation toward desired structures or concepts.</li>
-<li><strong>OpenAI Codex</strong>: Generates text based on semantic instructions or structural descriptions.</li>
-<li><strong>DeepAI’s Text Generation API</strong>: Generates text based on input semantics and structure.</li>
-<li><strong>CTRL (Conditional Transformer Language Model)</strong>: Conditions text generation on control codes for specific topics or structures.</li>
-</ul>
-<h2 id="Rule-based-Text-Generation"><a href="#Rule-based-Text-Generation" class="headerlink" title="Rule-based Text Generation"></a>Rule-based Text Generation</h2><p>Generates text based on predefined templates or rules.</p>
-<ul>
-<li><strong>OpenNLP</strong>: Uses templates and rules for sentence generation.<ul>
-<li><a href="https://opennlp.apache.org/docs/2.5.0/manual/opennlp.html">Apache OpenNLP Developer Documentation</a></li>
-</ul>
-</li>
-<li><strong>Template-based Generation</strong>: Tools like <strong><a href="https://yarnpkg.com/">Yarn</a></strong> or <strong><a href="https://jinja.palletsprojects.com/en/stable/">Jinja2</a></strong> allow for generating text using templates with placeholders.</li>
-</ul>
-<h2 id="Lexical-Substitution-and-Paraphrasing-Tools"><a href="#Lexical-Substitution-and-Paraphrasing-Tools" class="headerlink" title="Lexical Substitution and Paraphrasing Tools"></a>Lexical Substitution and Paraphrasing Tools</h2><p>Tools for modifying words or phrases while maintaining semantic meaning.</p>
-<ul>
-<li><strong>Paraphrase Generation with BART or T5</strong>: Generates sentence variations that preserve meaning.</li>
-<li><strong>WordNet-based tools</strong>: Uses lexical substitution to replace words with synonyms or semantically related words.</li>
-</ul>
-<h2 id="Generating-Text-Based-on-Semantic-Structures"><a href="#Generating-Text-Based-on-Semantic-Structures" class="headerlink" title="Generating Text Based on Semantic Structures"></a>Generating Text Based on Semantic Structures</h2><p>Tools and techniques to guide text generation using semantic roles or lexical features.</p>
-<ul>
-<li><strong>Graph-based Models</strong>: Represent word or sentence relationships to guide generation using tools like <strong>spaCy</strong>.</li>
-<li><strong>Semantic Role Labeling (SRL)</strong>: Tools like <strong><a href="https://docs.allennlp.org/models/main/">AllenNLP</a></strong> tag sentence components to generate text following specific roles or patterns.<ul>
-<li>Read more about Semantic Role Labeling in <a href="https://aclanthology.org/2023.findings-eacl.134.pdf">paper: PriMeSRL-Eval: A Practical Quality Metric for Semantic Role Labeling Systems Evaluation </a></li>
-</ul>
-</li>
-<li><strong>Lexical and Syntactic Features</strong>: Fine-tunes models to control lexical variety or syntactic structure based on desired patterns.</li>
-</ul>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>A wide range of tools like <strong>GPT-3</strong>, <strong>T5</strong>, <strong>TextAttack</strong>, and <strong>nlpaug</strong> are available for augmenting data and generating text. They provide flexibility for creating semantically diverse and lexically varied text, while specialized tools like <strong>AllenNLP</strong> enable controlled generation based on specific structures and constraints.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>augmentation</tag>
-        <tag>text_generation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>BART configuration parameters overview</title>
     <url>/hexo-blog/2024/12/04/post_ai_llm__bart_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
@@ -963,6 +872,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>LLM</tag>
         <tag>BART</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
+</ul>
+</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -1259,63 +1195,66 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <h2 id="Techniques"><a href="#Techniques" class="headerlink" title="Techniques"></a>Techniques</h2><h3 id="1-Windowing-Sliding-Window-Technique"><a href="#1-Windowing-Sliding-Window-Technique" class="headerlink" title="1. Windowing (Sliding Window Technique)"></a>1. Windowing (Sliding Window Technique)</h3><ul>
 <li><strong>Title</strong>: Training RNN and it’s Variants Using Sliding Window Technique. 2020</li>
 <li><strong>DOI</strong>: 10.1109&#x2F;SCEECS48394.2020.93</li>
-<li><a href="https://sci-hub.se/https://doi.org/10.1109/SCEECS48394.2020.93">Read on sci-hub.se</a></li>
+<li><a href="https://sci-hub.se/https://doi.org/10.1109/SCEECS48394.2020.93">Read ‘Training RNN and it’s Variants Using Sliding Window Technique. 2020’ on sci-hub.se</a></li>
 </ul>
 <hr>
 <h3 id="2-Chunking-and-Overlapping-Contexts"><a href="#2-Chunking-and-Overlapping-Contexts" class="headerlink" title="2. Chunking and Overlapping Contexts"></a>2. Chunking and Overlapping Contexts</h3><ul>
 <li><strong>Title</strong>: Hierarchical Attention Networks for Document Classification  </li>
 <li><strong>DOI</strong>: 10.18653&#x2F;v1&#x2F;N16-1174 </li>
-<li><a href="https://aclanthology.org/N16-1174.pdf">Read on aclanthology.org</a></li>
+<li><a href="https://aclanthology.org/N16-1174.pdf">Read ‘Hierarchical Attention Networks for Document Classification’ on aclanthology.org</a></li>
 </ul>
 <hr>
 <h3 id="3-Hierarchical-Context-Representations"><a href="#3-Hierarchical-Context-Representations" class="headerlink" title="3. Hierarchical Context Representations"></a>3. Hierarchical Context Representations</h3><ul>
 <li><strong>Title</strong>: Hierarchical Learning for Generation with Long Source Sequences. 2021 </li>
 <li><strong>DOI</strong>: 10.48550&#x2F;arXiv.2104.07545</li>
-<li><a href="https://arxiv.org/pdf/2104.07545">Read on arxiv.org</a></li>
+<li><a href="https://arxiv.org/pdf/2104.07545">Read ‘Hierarchical Learning for Generation with Long Source Sequences. 2021’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h3 id="4-Memory-Augmented-Neural-Networks-MANNs"><a href="#4-Memory-Augmented-Neural-Networks-MANNs" class="headerlink" title="4. Memory-Augmented Neural Networks (MANNs)"></a>4. Memory-Augmented Neural Networks (MANNs)</h3><ul>
-<li><strong>Title</strong>: One-shot Learning with Memory-Augmented Neural Networks. 2016  </li>
+<li><strong>Title</strong>: One-shot Learning with Memory-Augmented Neural Networks. 2016</li>
 <li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.1605.06065">10.48550&#x2F;arXiv.1605.06065</a></li>
+<li><a href="https://arxiv.org/pdf/1605.06065">Read ‘One-shot Learning with Memory-Augmented Neural Networks. 2016’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h3 id="5-Transformer-Variants-for-Long-Contexts"><a href="#5-Transformer-Variants-for-Long-Contexts" class="headerlink" title="5. Transformer Variants for Long Contexts"></a>5. Transformer Variants for Long Contexts</h3><h4 id="Longformer"><a href="#Longformer" class="headerlink" title="Longformer"></a>Longformer</h4><ul>
 <li><strong>Title</strong>: Longformer: The Long-Document Transformer. 2020  </li>
 <li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2004.05150">10.48550&#x2F;arXiv.2004.05150</a></li>
+<li><a href="https://arxiv.org/pdf/2004.05150">Read ‘Longformer: The Long-Document Transformer. 2020’ on arxiv.org</a></li>
 </ul>
 <h4 id="Reformer"><a href="#Reformer" class="headerlink" title="Reformer"></a>Reformer</h4><ul>
-<li><strong>Title</strong>: Reformer: The Efficient Transformer. 2020    </li>
+<li><strong>Title</strong>: Reformer: The Efficient Transformer. 2020 </li>
 <li><strong>DOI</strong>: <a href="https://doi.org/10.48550/arXiv.2001.04451">10.48550&#x2F;arXiv.2001.04451</a></li>
+<li><a href="https://arxiv.org/pdf/2001.04451">Read ‘Reformer: The Efficient Transformer. 2020’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h3 id="6-Compression-Based-Context-Management-Summarization"><a href="#6-Compression-Based-Context-Management-Summarization" class="headerlink" title="6. Compression-Based Context Management (Summarization)"></a>6. Compression-Based Context Management (Summarization)</h3><ul>
 <li><strong>Title</strong>: Efficient Adaptation of Pretrained Transformers for Abstractive Summarization. 2019 </li>
 <li><strong>DOI</strong>: 10.48550&#x2F;arXiv.1906.00138</li>
-<li><a href="https://arxiv.org/pdf/1906.00138">Read on arxiv.org</a></li>
+<li><a href="https://arxiv.org/pdf/1906.00138">Read ‘Compression-Based Context Management (Summarization)’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h3 id="7-Causal-Attention-Mechanisms"><a href="#7-Causal-Attention-Mechanisms" class="headerlink" title="7. Causal Attention Mechanisms"></a>7. Causal Attention Mechanisms</h3><ul>
 <li><strong>Title</strong>: Attention Is All You Need. 2017  </li>
 <li><strong>DOI</strong>: arXiv.1706.03762</li>
-<li><a href="https://arxiv.org/pdf/1706.03762">Read on arxiv.org</a></li>
+<li><a href="https://arxiv.org/pdf/1706.03762">Read ‘Attention Is All You Need. 2017’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h3 id="8-Vector-Based-Semantic-Search-Dense-Vector-Representations"><a href="#8-Vector-Based-Semantic-Search-Dense-Vector-Representations" class="headerlink" title="8. Vector-Based Semantic Search (Dense Vector Representations)"></a>8. Vector-Based Semantic Search (Dense Vector Representations)</h3><ul>
-<li><strong>Title</strong>: Sentence-BERT: Sentence Embeddings Using Siamese Networks .2019  </li>
+<li><strong>Title</strong>: Sentence-BERT: Sentence Embeddings Using Siamese Networks. 2019</li>
 <li><strong>DOI</strong>: 10.48550&#x2F;arXiv.1908.10084</li>
-<li><a href="https://arxiv.org/pdf/1908.10084">Read on arxiv.org</a></li>
+<li><a href="https://arxiv.org/pdf/1908.10084">Read Sentence-BERT: Sentence Embeddings Using Siamese Networks. 2019’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h3 id="9-Retrieval-Augmented-Generation-RAG"><a href="#9-Retrieval-Augmented-Generation-RAG" class="headerlink" title="9. Retrieval-Augmented Generation (RAG)"></a>9. Retrieval-Augmented Generation (RAG)</h3><ul>
 <li><strong>Title</strong>: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020   </li>
 <li><strong>DOI</strong>: 10.48550&#x2F;arXiv.2005.11401</li>
-<li><a href="https://arxiv.org/pdf/2005.11401">Read on arxiv.org</a></li>
+<li><a href="https://arxiv.org/pdf/2005.11401">Read ‘Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. 2020’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h3 id="10-Cache-Augmented-Models-for-Recurrent-Usage"><a href="#10-Cache-Augmented-Models-for-Recurrent-Usage" class="headerlink" title="10. Cache Augmented Models for Recurrent Usage"></a>10. Cache Augmented Models for Recurrent Usage</h3><ul>
 <li><strong>Title</strong>: RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation. 2024  </li>
 <li><strong>DOI</strong>: 10.48550&#x2F;arXiv.2404.12457</li>
-<li><a href="https://arxiv.org/pdf/2404.12457">Read on arxiv.org</a></li>
+<li><a href="https://arxiv.org/pdf/2404.12457">Read ‘RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation. 2024’ on arxiv.org</a></li>
 </ul>
 <hr>
 <h2 id="Tools-and-Frameworks"><a href="#Tools-and-Frameworks" class="headerlink" title="Tools and Frameworks"></a>Tools and Frameworks</h2><h3 id="1-Pinecone"><a href="#1-Pinecone" class="headerlink" title="1. Pinecone"></a>1. <a href="https://www.pinecone.io/">Pinecone</a></h3><ul>
@@ -1409,6 +1348,70 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>emotions</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools for Augmenting Data and Generating Texts</title>
+    <url>/hexo-blog/2024/05/10/post_ai__tools_for_augmenting_data_and_generating_texts/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text-Generation-Models"><a href="#Text-Generation-Models" class="headerlink" title="Text Generation Models"></a>Text Generation Models</h2><p>Text generation models are trained on large corpora and can generate semantically coherent and lexically varied sentences.</p>
+<ul>
+<li><strong>GPT-3&#x2F;GPT-4</strong>: Generates fluent and contextually relevant text. Supports fine-tuning and controlled outputs through prompt engineering.</li>
+<li><strong>GPT-2</strong>: Effective for text generation and fine-tuning to produce specific semantic or syntactic structures.</li>
+<li><strong>T5 (Text-to-Text Transfer Transformer)</strong>: Handles tasks by converting input into text-to-text format, generating sentences from structured input.</li>
+<li><strong>BERT</strong>: Primarily for understanding tasks, but paired with generation heads like BART or T5, it can generate relevant sentences.</li>
+</ul>
+<h2 id="Text-Augmentation-Libraries"><a href="#Text-Augmentation-Libraries" class="headerlink" title="Text Augmentation Libraries"></a>Text Augmentation Libraries</h2><p>Libraries for NLP data augmentation by altering existing sentences while retaining their meaning.</p>
+<ul>
+<li><strong>nlpaug</strong>: Augments text by synonym replacement, random insertions, and transformations using word embeddings.<ul>
+<li><a href="https://pypi.org/project/nlpaug/">PIP reference</a></li>
+<li><a href="https://towardsdatascience.com/data-augmentation-library-for-text-9661736b13ff">Post: Data Augmentation library for text</a></li>
+<li><a href="https://nlpaug.readthedocs.io/en/latest/index.html">nlpaug.readthedocs.io</a></li>
+</ul>
+</li>
+<li><strong>TextAttack</strong>: Provides adversarial attacks and paraphrasing methods for generating variations of sentences.<ul>
+<li><a href="https://textattack.readthedocs.io/en/master/index.html">TextAttack Documentation</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Semantic-Structure-based-Text-Generation"><a href="#Semantic-Structure-based-Text-Generation" class="headerlink" title="Semantic Structure-based Text Generation"></a>Semantic Structure-based Text Generation</h2><p>Tools for precise control over semantic structure in generated sentences.</p>
+<ul>
+<li><strong>Controlled Text Generation (via GPT-3&#x2F;4)</strong>: Uses structured prompts to guide text generation toward desired structures or concepts.</li>
+<li><strong>OpenAI Codex</strong>: Generates text based on semantic instructions or structural descriptions.</li>
+<li><strong>DeepAI’s Text Generation API</strong>: Generates text based on input semantics and structure.</li>
+<li><strong>CTRL (Conditional Transformer Language Model)</strong>: Conditions text generation on control codes for specific topics or structures.</li>
+</ul>
+<h2 id="Rule-based-Text-Generation"><a href="#Rule-based-Text-Generation" class="headerlink" title="Rule-based Text Generation"></a>Rule-based Text Generation</h2><p>Generates text based on predefined templates or rules.</p>
+<ul>
+<li><strong>OpenNLP</strong>: Uses templates and rules for sentence generation.<ul>
+<li><a href="https://opennlp.apache.org/docs/2.5.0/manual/opennlp.html">Apache OpenNLP Developer Documentation</a></li>
+</ul>
+</li>
+<li><strong>Template-based Generation</strong>: Tools like <strong><a href="https://yarnpkg.com/">Yarn</a></strong> or <strong><a href="https://jinja.palletsprojects.com/en/stable/">Jinja2</a></strong> allow for generating text using templates with placeholders.</li>
+</ul>
+<h2 id="Lexical-Substitution-and-Paraphrasing-Tools"><a href="#Lexical-Substitution-and-Paraphrasing-Tools" class="headerlink" title="Lexical Substitution and Paraphrasing Tools"></a>Lexical Substitution and Paraphrasing Tools</h2><p>Tools for modifying words or phrases while maintaining semantic meaning.</p>
+<ul>
+<li><strong>Paraphrase Generation with BART or T5</strong>: Generates sentence variations that preserve meaning.</li>
+<li><strong>WordNet-based tools</strong>: Uses lexical substitution to replace words with synonyms or semantically related words.</li>
+</ul>
+<h2 id="Generating-Text-Based-on-Semantic-Structures"><a href="#Generating-Text-Based-on-Semantic-Structures" class="headerlink" title="Generating Text Based on Semantic Structures"></a>Generating Text Based on Semantic Structures</h2><p>Tools and techniques to guide text generation using semantic roles or lexical features.</p>
+<ul>
+<li><strong>Graph-based Models</strong>: Represent word or sentence relationships to guide generation using tools like <strong>spaCy</strong>.</li>
+<li><strong>Semantic Role Labeling (SRL)</strong>: Tools like <strong><a href="https://docs.allennlp.org/models/main/">AllenNLP</a></strong> tag sentence components to generate text following specific roles or patterns.<ul>
+<li>Read more about Semantic Role Labeling in <a href="https://aclanthology.org/2023.findings-eacl.134.pdf">paper: PriMeSRL-Eval: A Practical Quality Metric for Semantic Role Labeling Systems Evaluation </a></li>
+</ul>
+</li>
+<li><strong>Lexical and Syntactic Features</strong>: Fine-tunes models to control lexical variety or syntactic structure based on desired patterns.</li>
+</ul>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>A wide range of tools like <strong>GPT-3</strong>, <strong>T5</strong>, <strong>TextAttack</strong>, and <strong>nlpaug</strong> are available for augmenting data and generating text. They provide flexibility for creating semantically diverse and lexically varied text, while specialized tools like <strong>AllenNLP</strong> enable controlled generation based on specific structures and constraints.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>augmentation</tag>
+        <tag>text_generation</tag>
       </tags>
   </entry>
   <entry>
@@ -1652,33 +1655,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
 </ol>
 <p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -2275,6 +2251,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Sentiment analysis framework</title>
     <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
@@ -2415,99 +2418,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>NLP</tag>
         <tag>text_classification</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Types of sentiment analysis techniques in NLP</title>
-    <url>/hexo-blog/2024/11/21/post_ai_nlp__types_of_sentiment_analysis_techniques_in_nlp/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>related to : <a href="/hexo-blog/ai_ml__llm_system_prompts/">LLM system prompts</a></em></p>
-<p><strong>Types of Sentiment Analysis Techniques for NLP (with DOI Papers)</strong><br><em>This post summarizes various sentiment analysis techniques, from lexicon-based methods to advanced deep learning approaches, along with DOI references to explore these concepts further.</em></p>
-<hr>
-<h2 id="1-Lexicon-Based-Sentiment-Analysis"><a href="#1-Lexicon-Based-Sentiment-Analysis" class="headerlink" title="1. Lexicon-Based Sentiment Analysis"></a><strong>1. Lexicon-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Relies on predefined sentiment lexicons (dictionaries of positive, negative, and neutral words). Sentiment scores are calculated based on the presence and frequency of words.</li>
-<li><strong>Applications</strong>: Basic polarity detection, customer feedback analysis.</li>
-<li><strong>Key Paper</strong>:<br>Liu, B. (2012). <strong>Sentiment Analysis and Opinion Mining</strong>. <em>Synthesis Lectures on Human Language Technologies, 5</em>(1), 1–167.<br>DOI: <a href="https://doi.org/10.2200/S00416ED1V01Y201204HLT016">10.2200&#x2F;S00416ED1V01Y201204HLT016</a><br><a href="https://www.cs.uic.edu/~liub/FBS/SentimentAnalysis-and-OpinionMining.pdf">Read on www.cs.uic.edu</a></li>
-</ul>
-<hr>
-<h2 id="2-Rule-Based-Sentiment-Analysis"><a href="#2-Rule-Based-Sentiment-Analysis" class="headerlink" title="2. Rule-Based Sentiment Analysis"></a><strong>2. Rule-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Combines sentiment lexicons with linguistic rules (e.g., negation handling, intensifiers). Example: “not good” &#x3D; negative, “very bad” &#x3D; strongly negative.</li>
-<li><strong>Applications</strong>: Sentiment classification for rule-governed domains.</li>
-<li><strong>Key Paper</strong>:<br>Hutto, C., &amp; Gilbert, E. (2014). <strong>VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text</strong>. <em>Proceedings of the Eighth International AAAI Conference on Weblogs and Social Media</em>.<br>DOI: <a href="https://doi.org/10.1609/icwsm.v8i1.14550">10.1609&#x2F;icwsm.v8i1.14550</a><br><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550/14399">Read on ojs.aaai.org</a></li>
-</ul>
-<hr>
-<h2 id="3-Machine-Learning-Based-Sentiment-Analysis"><a href="#3-Machine-Learning-Based-Sentiment-Analysis" class="headerlink" title="3. Machine Learning-Based Sentiment Analysis"></a><strong>3. Machine Learning-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Uses ML models like Naive Bayes, SVM, or Decision Trees trained on labeled sentiment datasets.</li>
-<li><strong>Applications</strong>: News sentiment analysis, customer reviews, product recommendations.</li>
-<li><strong>Key Paper</strong>:<br>Pang, B., &amp; Lee, L. (2002). <strong>Thumbs Up? Sentiment Classification Using Machine Learning Techniques</strong>. <em>Proceedings of the ACL-02 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 10, 79–86.<br>DOI: <a href="https://doi.org/10.3115/1118693.1118704">10.3115&#x2F;1118693.1118704</a><br><a href="https://dl.acm.org/doi/pdf/10.3115/1118693.1118704">Read on dl.acm.org</a></li>
-</ul>
-<hr>
-<h2 id="4-Deep-Learning-Based-Sentiment-Analysis"><a href="#4-Deep-Learning-Based-Sentiment-Analysis" class="headerlink" title="4. Deep Learning-Based Sentiment Analysis"></a><strong>4. Deep Learning-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Uses neural networks (CNNs, RNNs, LSTMs, Transformers) to analyze sentiment from raw text.</li>
-<li><strong>Applications</strong>: Social media analysis, multilingual sentiment detection.</li>
-<li><strong>Key Papers</strong>:  <ul>
-<li>Socher, R., et al. (2013). <strong>Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank</strong>. <em>Proceedings of EMNLP 2013</em>.<br><a href="https://nlp.stanford.edu/pubs/SocherEtAl_EMNLP2013.pdf">Read on nlp.stanford.edu</a></li>
-<li>Vaswani, A., et al. (2017). <strong>Attention Is All You Need</strong>. <em>Advances in Neural Information Processing Systems (NeurIPS)</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a><br><a href="https://arxiv.org/pdf/1706.03762">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="5-Aspect-Based-Sentiment-Analysis-ABSA"><a href="#5-Aspect-Based-Sentiment-Analysis-ABSA" class="headerlink" title="5. Aspect-Based Sentiment Analysis (ABSA)"></a><strong>5. Aspect-Based Sentiment Analysis (ABSA)</strong></h2><ul>
-<li><strong>Description</strong>: Focuses on sentiment specific to aspects of a product or service (e.g., food, service in restaurant reviews).</li>
-<li><strong>Applications</strong>: E-commerce reviews, detailed product feedback.</li>
-<li><strong>Key Paper</strong>:<br>Pontiki, M., et al. (2014). <strong>SemEval-2014 Task 4: Aspect-Based Sentiment Analysis</strong>. <em>Proceedings of SemEval 2014</em>.<br>DOI: <a href="https://doi.org/10.3115/v1/S14-2004">10.3115&#x2F;v1&#x2F;S14-2004</a><br><a href="https://aclanthology.org/S14-2004.pdf">Read on aclanthology.org</a></li>
-</ul>
-<hr>
-<h2 id="6-Emotion-Detection"><a href="#6-Emotion-Detection" class="headerlink" title="6. Emotion Detection"></a><strong>6. Emotion Detection</strong></h2><img src="/hexo-blog/images/img__racknitz_-_the_turk_3.jpg" style="width: 80%; max-width: 200px; border: 1px solid #ccc; padding: 11px; border-radius: 8px; float: left; margin-right: 22px" />
-
-
-
-<ul>
-<li><strong>Description</strong>: Detects specific emotions (e.g., happiness, anger, fear) rather than just positive or negative sentiment.</li>
-<li><strong>Applications</strong>: Crisis management, psychological studies.</li>
-<li><strong>Key Paper</strong>:<br>Mohammad, S. M., &amp; Turney, P. D. (2013). <strong>Crowdsourcing a Word–Emotion Association Lexicon</strong>. <em>Computational Intelligence, 29</em>(3), 436–465.<br>DOI: <a href="https://doi.org/10.1111/j.1467-8640.2012.00460.x">10.1111&#x2F;j.1467-8640.2012.00460.x</a><br><a href="https://sci-hub.se/https://doi.org/10.1111/j.1467-8640.2012.00460.x">Read on sci-hub.se</a></li>
-</ul>
-<br>
-
-<hr>
-<h2 id="7-Multimodal-Sentiment-Analysis"><a href="#7-Multimodal-Sentiment-Analysis" class="headerlink" title="7. Multimodal Sentiment Analysis"></a><strong>7. Multimodal Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Combines multiple data sources (e.g., text, audio, video) for sentiment analysis.</li>
-<li><strong>Applications</strong>: Video sentiment analysis, call center analytics.</li>
-<li><strong>Key Paper</strong>:<br>Zadeh, A., et al. (2017). <strong>Tensor Fusion Network for Multimodal Sentiment Analysis</strong>. <em>Proceedings of EMNLP 2017</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1707.07250">10.48550&#x2F;arXiv.1707.07250</a><br><a href="https://arxiv.org/pdf/1707.07250">Read on arxiv.org</a></li>
-</ul>
-<hr>
-<h2 id="8-Hybrid-Sentiment-Analysis"><a href="#8-Hybrid-Sentiment-Analysis" class="headerlink" title="8. Hybrid Sentiment Analysis"></a><strong>8. Hybrid Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Combines lexicon-based, rule-based, and machine learning techniques for robust and accurate sentiment detection.</li>
-<li><strong>Applications</strong>: Industry-specific sentiment analysis.</li>
-<li><strong>Key Paper</strong>:<br>Cambria, E., et al. (2013). <strong>New Avenues in Opinion Mining and Sentiment Analysis</strong>. <em>IEEE Intelligent Systems, 28</em>(2), 15–21.<br>DOI: <a href="https://doi.org/10.1109/MIS.2013.30">10.1109&#x2F;MIS.2013.30</a><br><a href="https://sci-hub.se/10.1109/MIS.2013.30">Read on sci-hub.se</a></li>
-</ul>
-<hr>
-<h2 id="9-Transfer-Learning-for-Sentiment-Analysis"><a href="#9-Transfer-Learning-for-Sentiment-Analysis" class="headerlink" title="9. Transfer Learning for Sentiment Analysis"></a><strong>9. Transfer Learning for Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Fine-tunes pre-trained models (e.g., BERT, RoBERTa, GPT) for sentiment classification tasks.</li>
-<li><strong>Applications</strong>: Multilingual sentiment analysis, specialized domains.</li>
-<li><strong>Key Paper</strong>:<br>Devlin, J., et al. (2019). <strong>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</strong>. <em>Proceedings of NAACL 2019</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a><br><a href="https://arxiv.org/pdf/1810.04805">Read on arxiv.org</a></li>
-</ul>
-<hr>
-<h2 id="10-Fine-Grained-Sentiment-Analysis"><a href="#10-Fine-Grained-Sentiment-Analysis" class="headerlink" title="10. Fine-Grained Sentiment Analysis"></a><strong>10. Fine-Grained Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Assigns sentiment scores on a fine-grained scale (e.g., star ratings from 1 to 5).</li>
-<li><strong>Applications</strong>: Detailed product reviews, star-rating predictions.</li>
-<li><strong>Key Paper</strong>:<br>Yang, B., et al. (2016). <strong>Hierarchical Attention Networks for Document Classification</strong>. <em>Proceedings of NAACL 2016</em>.<br>DOI: <a href="https://doi.org/10.18653/v1/N16-1174">10.18653&#x2F;v1&#x2F;N16-1174</a></li>
-</ul>
-<hr>
-<h2 id="Other-resources"><a href="#Other-resources" class="headerlink" title="Other resources"></a>Other resources</h2><ol>
-<li><a href="https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques">https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques</a> </li>
-<li>Article: Opinion Mining and Sentiment Analysis. January 2008. Foundations and Trends® in Information Retrieval 2(1–2):1-135<ul>
-<li>DOI:10.1561&#x2F;1500000011</li>
-<li><a href="https://www.cs.cornell.edu/home/llee/omsa/omsa.pdf">Read on cs.cornell.edu</a></li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -3075,6 +2985,99 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>Types of sentiment analysis techniques in NLP</title>
+    <url>/hexo-blog/2024/11/21/post_ai_nlp__types_of_sentiment_analysis_techniques_in_nlp/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>related to : <a href="/hexo-blog/ai_ml__llm_system_prompts/">LLM system prompts</a></em></p>
+<p><strong>Types of Sentiment Analysis Techniques for NLP (with DOI Papers)</strong><br><em>This post summarizes various sentiment analysis techniques, from lexicon-based methods to advanced deep learning approaches, along with DOI references to explore these concepts further.</em></p>
+<hr>
+<h2 id="1-Lexicon-Based-Sentiment-Analysis"><a href="#1-Lexicon-Based-Sentiment-Analysis" class="headerlink" title="1. Lexicon-Based Sentiment Analysis"></a><strong>1. Lexicon-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Relies on predefined sentiment lexicons (dictionaries of positive, negative, and neutral words). Sentiment scores are calculated based on the presence and frequency of words.</li>
+<li><strong>Applications</strong>: Basic polarity detection, customer feedback analysis.</li>
+<li><strong>Key Paper</strong>:<br>Liu, B. (2012). <strong>Sentiment Analysis and Opinion Mining</strong>. <em>Synthesis Lectures on Human Language Technologies, 5</em>(1), 1–167.<br>DOI: <a href="https://doi.org/10.2200/S00416ED1V01Y201204HLT016">10.2200&#x2F;S00416ED1V01Y201204HLT016</a><br><a href="https://www.cs.uic.edu/~liub/FBS/SentimentAnalysis-and-OpinionMining.pdf">Read on www.cs.uic.edu</a></li>
+</ul>
+<hr>
+<h2 id="2-Rule-Based-Sentiment-Analysis"><a href="#2-Rule-Based-Sentiment-Analysis" class="headerlink" title="2. Rule-Based Sentiment Analysis"></a><strong>2. Rule-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Combines sentiment lexicons with linguistic rules (e.g., negation handling, intensifiers). Example: “not good” &#x3D; negative, “very bad” &#x3D; strongly negative.</li>
+<li><strong>Applications</strong>: Sentiment classification for rule-governed domains.</li>
+<li><strong>Key Paper</strong>:<br>Hutto, C., &amp; Gilbert, E. (2014). <strong>VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text</strong>. <em>Proceedings of the Eighth International AAAI Conference on Weblogs and Social Media</em>.<br>DOI: <a href="https://doi.org/10.1609/icwsm.v8i1.14550">10.1609&#x2F;icwsm.v8i1.14550</a><br><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550/14399">Read on ojs.aaai.org</a></li>
+</ul>
+<hr>
+<h2 id="3-Machine-Learning-Based-Sentiment-Analysis"><a href="#3-Machine-Learning-Based-Sentiment-Analysis" class="headerlink" title="3. Machine Learning-Based Sentiment Analysis"></a><strong>3. Machine Learning-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Uses ML models like Naive Bayes, SVM, or Decision Trees trained on labeled sentiment datasets.</li>
+<li><strong>Applications</strong>: News sentiment analysis, customer reviews, product recommendations.</li>
+<li><strong>Key Paper</strong>:<br>Pang, B., &amp; Lee, L. (2002). <strong>Thumbs Up? Sentiment Classification Using Machine Learning Techniques</strong>. <em>Proceedings of the ACL-02 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 10, 79–86.<br>DOI: <a href="https://doi.org/10.3115/1118693.1118704">10.3115&#x2F;1118693.1118704</a><br><a href="https://dl.acm.org/doi/pdf/10.3115/1118693.1118704">Read on dl.acm.org</a></li>
+</ul>
+<hr>
+<h2 id="4-Deep-Learning-Based-Sentiment-Analysis"><a href="#4-Deep-Learning-Based-Sentiment-Analysis" class="headerlink" title="4. Deep Learning-Based Sentiment Analysis"></a><strong>4. Deep Learning-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Uses neural networks (CNNs, RNNs, LSTMs, Transformers) to analyze sentiment from raw text.</li>
+<li><strong>Applications</strong>: Social media analysis, multilingual sentiment detection.</li>
+<li><strong>Key Papers</strong>:  <ul>
+<li>Socher, R., et al. (2013). <strong>Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank</strong>. <em>Proceedings of EMNLP 2013</em>.<br><a href="https://nlp.stanford.edu/pubs/SocherEtAl_EMNLP2013.pdf">Read on nlp.stanford.edu</a></li>
+<li>Vaswani, A., et al. (2017). <strong>Attention Is All You Need</strong>. <em>Advances in Neural Information Processing Systems (NeurIPS)</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a><br><a href="https://arxiv.org/pdf/1706.03762">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-Aspect-Based-Sentiment-Analysis-ABSA"><a href="#5-Aspect-Based-Sentiment-Analysis-ABSA" class="headerlink" title="5. Aspect-Based Sentiment Analysis (ABSA)"></a><strong>5. Aspect-Based Sentiment Analysis (ABSA)</strong></h2><ul>
+<li><strong>Description</strong>: Focuses on sentiment specific to aspects of a product or service (e.g., food, service in restaurant reviews).</li>
+<li><strong>Applications</strong>: E-commerce reviews, detailed product feedback.</li>
+<li><strong>Key Paper</strong>:<br>Pontiki, M., et al. (2014). <strong>SemEval-2014 Task 4: Aspect-Based Sentiment Analysis</strong>. <em>Proceedings of SemEval 2014</em>.<br>DOI: <a href="https://doi.org/10.3115/v1/S14-2004">10.3115&#x2F;v1&#x2F;S14-2004</a><br><a href="https://aclanthology.org/S14-2004.pdf">Read on aclanthology.org</a></li>
+</ul>
+<hr>
+<h2 id="6-Emotion-Detection"><a href="#6-Emotion-Detection" class="headerlink" title="6. Emotion Detection"></a><strong>6. Emotion Detection</strong></h2><img src="/hexo-blog/images/img__racknitz_-_the_turk_3.jpg" style="width: 80%; max-width: 200px; border: 1px solid #ccc; padding: 11px; border-radius: 8px; float: left; margin-right: 22px" />
+
+
+
+<ul>
+<li><strong>Description</strong>: Detects specific emotions (e.g., happiness, anger, fear) rather than just positive or negative sentiment.</li>
+<li><strong>Applications</strong>: Crisis management, psychological studies.</li>
+<li><strong>Key Paper</strong>:<br>Mohammad, S. M., &amp; Turney, P. D. (2013). <strong>Crowdsourcing a Word–Emotion Association Lexicon</strong>. <em>Computational Intelligence, 29</em>(3), 436–465.<br>DOI: <a href="https://doi.org/10.1111/j.1467-8640.2012.00460.x">10.1111&#x2F;j.1467-8640.2012.00460.x</a><br><a href="https://sci-hub.se/https://doi.org/10.1111/j.1467-8640.2012.00460.x">Read on sci-hub.se</a></li>
+</ul>
+<br>
+
+<hr>
+<h2 id="7-Multimodal-Sentiment-Analysis"><a href="#7-Multimodal-Sentiment-Analysis" class="headerlink" title="7. Multimodal Sentiment Analysis"></a><strong>7. Multimodal Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Combines multiple data sources (e.g., text, audio, video) for sentiment analysis.</li>
+<li><strong>Applications</strong>: Video sentiment analysis, call center analytics.</li>
+<li><strong>Key Paper</strong>:<br>Zadeh, A., et al. (2017). <strong>Tensor Fusion Network for Multimodal Sentiment Analysis</strong>. <em>Proceedings of EMNLP 2017</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1707.07250">10.48550&#x2F;arXiv.1707.07250</a><br><a href="https://arxiv.org/pdf/1707.07250">Read on arxiv.org</a></li>
+</ul>
+<hr>
+<h2 id="8-Hybrid-Sentiment-Analysis"><a href="#8-Hybrid-Sentiment-Analysis" class="headerlink" title="8. Hybrid Sentiment Analysis"></a><strong>8. Hybrid Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Combines lexicon-based, rule-based, and machine learning techniques for robust and accurate sentiment detection.</li>
+<li><strong>Applications</strong>: Industry-specific sentiment analysis.</li>
+<li><strong>Key Paper</strong>:<br>Cambria, E., et al. (2013). <strong>New Avenues in Opinion Mining and Sentiment Analysis</strong>. <em>IEEE Intelligent Systems, 28</em>(2), 15–21.<br>DOI: <a href="https://doi.org/10.1109/MIS.2013.30">10.1109&#x2F;MIS.2013.30</a><br><a href="https://sci-hub.se/10.1109/MIS.2013.30">Read on sci-hub.se</a></li>
+</ul>
+<hr>
+<h2 id="9-Transfer-Learning-for-Sentiment-Analysis"><a href="#9-Transfer-Learning-for-Sentiment-Analysis" class="headerlink" title="9. Transfer Learning for Sentiment Analysis"></a><strong>9. Transfer Learning for Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Fine-tunes pre-trained models (e.g., BERT, RoBERTa, GPT) for sentiment classification tasks.</li>
+<li><strong>Applications</strong>: Multilingual sentiment analysis, specialized domains.</li>
+<li><strong>Key Paper</strong>:<br>Devlin, J., et al. (2019). <strong>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</strong>. <em>Proceedings of NAACL 2019</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a><br><a href="https://arxiv.org/pdf/1810.04805">Read on arxiv.org</a></li>
+</ul>
+<hr>
+<h2 id="10-Fine-Grained-Sentiment-Analysis"><a href="#10-Fine-Grained-Sentiment-Analysis" class="headerlink" title="10. Fine-Grained Sentiment Analysis"></a><strong>10. Fine-Grained Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Assigns sentiment scores on a fine-grained scale (e.g., star ratings from 1 to 5).</li>
+<li><strong>Applications</strong>: Detailed product reviews, star-rating predictions.</li>
+<li><strong>Key Paper</strong>:<br>Yang, B., et al. (2016). <strong>Hierarchical Attention Networks for Document Classification</strong>. <em>Proceedings of NAACL 2016</em>.<br>DOI: <a href="https://doi.org/10.18653/v1/N16-1174">10.18653&#x2F;v1&#x2F;N16-1174</a></li>
+</ul>
+<hr>
+<h2 id="Other-resources"><a href="#Other-resources" class="headerlink" title="Other resources"></a>Other resources</h2><ol>
+<li><a href="https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques">https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques</a> </li>
+<li>Article: Opinion Mining and Sentiment Analysis. January 2008. Foundations and Trends® in Information Retrieval 2(1–2):1-135<ul>
+<li>DOI:10.1561&#x2F;1500000011</li>
+<li><a href="https://www.cs.cornell.edu/home/llee/omsa/omsa.pdf">Read on cs.cornell.edu</a></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Parsing web site for job offers</title>
     <url>/hexo-blog/2024/11/28/post_data_mining__parsing_web_site_for_job_offers/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Given</strong> The website with posted offers.<br><strong>Goal:</strong> to get information from the website using python, BeautifulSoup and save it in JSON and markdown files.</p>
@@ -3380,6 +3383,76 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>Ubuntu web traffic meters</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
+<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
+<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
+<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
+</li>
+<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
+</li>
+</ul>
+<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
+<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
+</li>
+<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
+<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
+</li>
+<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
+</li>
+</ul>
+<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
+<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
+<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
+<li><strong>Installation:</strong></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
+<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
+</li>
+<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
+<p> &#96;</p>
+</li>
+<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>API</tag>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python basics</title>
     <url>/hexo-blog/2023/06/12/post_dev_side__python_basics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
@@ -3578,76 +3651,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Ubuntu web traffic meters</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
-<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
-<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
-<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
-</li>
-<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
-</li>
-</ul>
-<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
-<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
-</li>
-<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
-<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
-</li>
-<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
-</li>
-</ul>
-<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
-<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
-<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
-<li><strong>Installation:</strong></li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
-<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
-</li>
-<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
-<p> &#96;</p>
-</li>
-<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>API</tag>
-        <tag>ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>UNIX command tutorials</title>
     <url>/hexo-blog/2023/10/25/post_dev_side__unix_comand_tutorial/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
@@ -3685,6 +3688,58 @@ print(generated_text)
       <tags>
         <tag>dev_side</tag>
         <tag>unix</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ML - colorizing plain text dynamically in HTML</title>
+    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
+<ol>
+<li>CSS and JavaScript Solutions<ol>
+<li><strong>CSS and JavaScript</strong></li>
+</ol>
+<ul>
+<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
+<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
+</ul>
+<ol start="2">
+<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
+</ol>
+</li>
+<li><strong>Python Libraries and Frameworks</strong><ol>
+<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
+<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
+<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
+<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
+<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
+</ol>
+</li>
+<li><strong>Machine Learning Solutions</strong><ol>
+<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
+<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
+<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
+</ol>
+</li>
+<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
+<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
+</ol>
+</li>
+</ol>
+<hr>
+<p>  <strong>Summary of Recommendations</strong></p>
+<ul>
+<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
+<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
+<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>html</tag>
+        <tag>tutorial</tag>
       </tags>
   </entry>
   <entry>
@@ -3750,58 +3805,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>ReadTheDocs</tag>
         <tag>[object Object]</tag>
         <tag>DocPublishing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ML - colorizing plain text dynamically in HTML</title>
-    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
-<ol>
-<li>CSS and JavaScript Solutions<ol>
-<li><strong>CSS and JavaScript</strong></li>
-</ol>
-<ul>
-<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
-<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
-</ul>
-<ol start="2">
-<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
-</ol>
-</li>
-<li><strong>Python Libraries and Frameworks</strong><ol>
-<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
-<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
-<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
-<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
-<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
-</ol>
-</li>
-<li><strong>Machine Learning Solutions</strong><ol>
-<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
-<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
-<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
-</ol>
-</li>
-<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
-<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
-</ol>
-</li>
-</ol>
-<hr>
-<p>  <strong>Summary of Recommendations</strong></p>
-<ul>
-<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
-<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
-<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>html</tag>
-        <tag>tutorial</tag>
       </tags>
   </entry>
   <entry>
@@ -4213,21 +4216,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>REsources</title>
-    <url>/hexo-blog/2024/10/28/post_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
-<ol>
-<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Test design techniques for mobile applications</title>
     <url>/hexo-blog/2024/04/09/post_qa__test_design_techniques_for_mobile_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
@@ -4331,6 +4319,21 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>REsources</title>
+    <url>/hexo-blog/2024/10/28/post_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
+<ol>
+<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>acsii</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Resources. Global platforms and people</title>
     <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
@@ -4352,6 +4355,11 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>global_knowledge</tag>
         <tag>resources</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
   </entry>
   <entry>
     <title>Site for blogging</title>
@@ -4498,42 +4506,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Blog&#39;s categories</title>
-    <url>/hexo-blog//categories/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
-<ul>
-<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
-<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
-<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
-<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Categories</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
     <title>blog deploy actions</title>
     <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
@@ -4586,6 +4558,37 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <categories>
         <category>Maintanance</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Blog&#39;s categories</title>
+    <url>/hexo-blog//categories/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
+<ul>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Categories</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -4654,64 +4657,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>my_contribution</tag>
         <tag>my_medium_post</tag>
         <tag>my_linkedin_post</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
-<hr>
-<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
       </tags>
   </entry>
   <entry>
@@ -4952,6 +4897,64 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
+<hr>
+<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -5137,6 +5140,70 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Info data</title>
+    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
+<div class="sitemap_content">
+    <ul>
+        <li>
+            <iframe
+                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                frameborder="0" width="216" height="60"></iframe>
+        </li>
+        <li>
+        <li>
+            <hr>
+            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
+            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
+        </li>
+        <li>
+            <hr>
+            <h2>Satellite observations</h2>
+            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
+            <hr>
+        </li>
+        <li>
+            <h3>Solar Flares and Storms Warnings for Today</h3>
+            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
+                height="300px"></iframe>
+        </li>
+        <hr>
+        <h3>Forecast platforms</h3>
+        </li>
+        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
+                FORECAST</a>
+        </li>
+        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
+        </li>
+        <li>foreca.com
+            <ul>
+                <li>
+                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
+                        Ukraine,
+                        Sumy</a>
+                </li>
+                <li>
+                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
+                        Kyiv</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
+                Network / European space agency.</a></li>
+        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
+    </ul>
+</div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Moving from old blog site</title>
     <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
@@ -5153,6 +5220,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>blog</tag>
         <tag>note</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -5302,84 +5383,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Info data</title>
-    <url>/hexo-blog/2010/10/10/notes/info_data/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
-<div class="sitemap_content">
-    <ul>
-        <li>
-            <iframe
-                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                frameborder="0" width="216" height="60"></iframe>
-        </li>
-        <li>
-        <li>
-            <hr>
-            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
-            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
-        </li>
-        <li>
-            <hr>
-            <h2>Satellite observations</h2>
-            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
-            <hr>
-        </li>
-        <li>
-            <h3>Solar Flares and Storms Warnings for Today</h3>
-            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
-                height="300px"></iframe>
-        </li>
-        <hr>
-        <h3>Forecast platforms</h3>
-        </li>
-        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
-                FORECAST</a>
-        </li>
-        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
-        </li>
-        <li>foreca.com
-            <ul>
-                <li>
-                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
-                        Ukraine,
-                        Sumy</a>
-                </li>
-                <li>
-                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
-                        Kyiv</a>
-                </li>
-            </ul>
-        </li>
-        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
-                Network / European space agency.</a></li>
-        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
-    </ul>
-</div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Довідник для Лікаря Сімейної Медицини</title>
     <url>/hexo-blog//nastusja/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
@@ -5505,6 +5508,54 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>nst</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
+<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
+</ol>
+<ul>
+<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
+<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>papers</tag>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
@@ -5648,54 +5699,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>unicode</tag>
         <tag>ASCII</tag>
         <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
-<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
-</ol>
-<ul>
-<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
-<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>papers</tag>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
@@ -5914,115 +5917,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXIO.IO layout improvements</title>
-    <url>/hexo-blog//hexo-layout-improvements/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
-<ul>
-<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
-<li><a href="#changes-1">changes-1</a></li>
-<li><a href="#changes-2">changes-2</a></li>
-</ul>
-</li>
-<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
-<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
-<li><a href="#adding-footnotes">Adding footnotes</a><ul>
-<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
-<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<p>Before changes #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before changes $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Links on the nav bar are not possible to click</p>
-<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>and </p>
-<p>After changes-2 $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>nav-bar fixed and works fine for desktop and mobile view.</p>
-<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
-<p>Before changes-1 header.styl </p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
-
-<p>after changes-1</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
-<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing &#96;&#96;</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
-<p>Run this command to install it:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
-
-<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
-<p>Add this to your <code>_config.yml</code> file:</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
-<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
-
-<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<p>or </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
-
-<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
-<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
-  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and </p>
-<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
-
-<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXIO.IO instalation guide</title>
     <url>/hexo-blog/2024/10/22/tutorials/HEXO.IO_installation_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Make-HEXO-IO-blog"><a href="#Make-HEXO-IO-blog" class="headerlink" title="Make HEXO.IO blog"></a>Make HEXO.IO blog</h2><ul>
@@ -6173,6 +6067,115 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>blog</tag>
         <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXIO.IO layout improvements</title>
+    <url>/hexo-blog//hexo-layout-improvements/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
+<ul>
+<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
+<li><a href="#changes-1">changes-1</a></li>
+<li><a href="#changes-2">changes-2</a></li>
+</ul>
+</li>
+<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
+<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
+<li><a href="#adding-footnotes">Adding footnotes</a><ul>
+<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
+<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<p>Before changes #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before changes $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Links on the nav bar are not possible to click</p>
+<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>and </p>
+<p>After changes-2 $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>nav-bar fixed and works fine for desktop and mobile view.</p>
+<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
+<p>Before changes-1 header.styl </p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
+
+<p>after changes-1</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
+<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing &#96;&#96;</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
+<p>Run this command to install it:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
+
+<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
+<p>Add this to your <code>_config.yml</code> file:</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
+<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
+
+<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>or </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
+
+<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
+<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
+  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and </p>
+<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
+
+<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>
