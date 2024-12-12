@@ -1250,6 +1250,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>LLM</tag>
         <tag>GPT2</tag>
+        <tag>NN</tag>
       </tags>
   </entry>
   <entry>
@@ -1609,6 +1610,62 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
+    <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
+<p>I(Author) started the Machine Learning: Teach by Doing series to transfer my learnings to those who want to transition to Machine Learning.</p>
+<p>I(Author) have recorded 37 videos in the past 6 months.</p>
+<p>Here are the links for you to learn:</p>
+<ol>
+<li>Introduction to Machine Learning Teach by Doing: <a href="https://lnkd.in/gqN2PMX5">https://lnkd.in/gqN2PMX5</a></li>
+<li>What is Machine Learning? History of Machine Learning: <a href="https://lnkd.in/gvpNSAKh">https://lnkd.in/gvpNSAKh</a></li>
+<li>Types of ML Models: <a href="https://lnkd.in/gSy2mChM">https://lnkd.in/gSy2mChM</a></li>
+<li>6 steps of any ML project: <a href="https://lnkd.in/ggCGchPQ">https://lnkd.in/ggCGchPQ</a></li>
+<li>Install Python and VSCode and run your first code: <a href="https://lnkd.in/gyic7J7b">https://lnkd.in/gyic7J7b</a></li>
+<li>Linear Classifiers Part 1: <a href="https://lnkd.in/gYdfD97D">https://lnkd.in/gYdfD97D</a></li>
+<li>Linear Classifiers Part 2: <a href="https://lnkd.in/gac_z-G8">https://lnkd.in/gac_z-G8</a></li>
+<li>Jupyter Notebook, Numpy and Scikit-Learn: <a href="https://lnkd.in/gWRaC_tB">https://lnkd.in/gWRaC_tB</a></li>
+<li>Running the Random Linear Classifier Algorithm in Python: <a href="https://lnkd.in/g5HacbFC">https://lnkd.in/g5HacbFC</a></li>
+<li>The oldest ML model - Perceptron: <a href="https://lnkd.in/gpce6uFt">https://lnkd.in/gpce6uFt</a></li>
+<li>Coding the Perceptron: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
+<li>Perceptron Convergence Theorem: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
+<li>Magic of features in Machine Learning: <a href="https://lnkd.in/gCeDRb3g">https://lnkd.in/gCeDRb3g</a></li>
+<li>One hot encoding: <a href="https://lnkd.in/g3WfRQGQ">https://lnkd.in/g3WfRQGQ</a></li>
+<li>Logistic Regression Part 1: <a href="https://lnkd.in/gTgZAAZn">https://lnkd.in/gTgZAAZn</a></li>
+<li>Cross Entropy Loss: <a href="https://lnkd.in/g3Ywg_2p">https://lnkd.in/g3Ywg_2p</a></li>
+<li>How gradient descent works: <a href="https://lnkd.in/gKBAsazF">https://lnkd.in/gKBAsazF</a></li>
+<li>Logistic Regression from scratch in Python: <a href="https://lnkd.in/g8iZh27P">https://lnkd.in/g8iZh27P</a></li>
+<li>Introduction to Regularization: <a href="https://lnkd.in/gjM9pVw2">https://lnkd.in/gjM9pVw2</a></li>
+<li>Implementing Regularization in Python: <a href="https://lnkd.in/gRnSK4v4">https://lnkd.in/gRnSK4v4</a></li>
+<li>Linear Regression Introduction: <a href="https://lnkd.in/gPYtSPJ9">https://lnkd.in/gPYtSPJ9</a></li>
+<li>Ordinary Least Squares step by step implementation: <a href="https://lnkd.in/gnWQdgNy">https://lnkd.in/gnWQdgNy</a></li>
+<li>Ridge regression fundamentals and intuition: <a href="https://lnkd.in/gE5M-CSM">https://lnkd.in/gE5M-CSM</a></li>
+<li>Regression recap for interviews: <a href="https://lnkd.in/gNBWzzWv">https://lnkd.in/gNBWzzWv</a></li>
+<li>Neural network architecture in 30 minutes: <a href="https://lnkd.in/g7qSrkxG">https://lnkd.in/g7qSrkxG</a></li>
+<li>Backpropagation intuition: <a href="https://lnkd.in/gAmBARHm">https://lnkd.in/gAmBARHm</a></li>
+<li>Neural network activation functions: <a href="https://lnkd.in/gqrC3zDP">https://lnkd.in/gqrC3zDP</a></li>
+<li>Momentum in gradient descent: <a href="https://lnkd.in/g3M4qhbP">https://lnkd.in/g3M4qhbP</a></li>
+<li>Hands on neural network training in Python: <a href="https://lnkd.in/gz-fTBxs">https://lnkd.in/gz-fTBxs</a></li>
+<li>Introduction to Convolutional Neural Networks (CNNs.: <a href="https://lnkd.in/gpmuBm3j">https://lnkd.in/gpmuBm3j</a></li>
+<li>Filters in 1D and the Convolution Operation: <a href="https://lnkd.in/gEDaKHDU">https://lnkd.in/gEDaKHDU</a></li>
+<li>Filters in 2D, Channels and Feature Identification: <a href="https://lnkd.in/g3Gf_4ia">https://lnkd.in/g3Gf_4ia</a></li>
+<li>Filtering Layers in Convolutional Neural Networks: <a href="https://lnkd.in/gUaiBkTu">https://lnkd.in/gUaiBkTu</a></li>
+<li>What is Max Pooling in Convolutional Neural Networks?: <a href="https://lnkd.in/gGRGy6wq">https://lnkd.in/gGRGy6wq</a></li>
+<li>CNN Architecture explained: <a href="https://lnkd.in/gPQvRh9i">https://lnkd.in/gPQvRh9i</a></li>
+<li>Backpropagation in Convolutional Neural Networks: <a href="https://lnkd.in/g942G6zv">https://lnkd.in/g942G6zv</a></li>
+<li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
+</ol>
+<p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Machine Learning Techniques - Overview</title>
     <url>/hexo-blog/2024/09/28/post_ai_ml__techniques_overview_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this guide, we will review popular machine learning techniques with a brief overview of their applications, complexity levels, and some historical context. This list provides a starting point for understanding core machine learning methods and their practical uses.</p>
@@ -1823,62 +1880,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <td>10.1016&#x2F;b0-08-044854-2&#x2F;00907-x</td>
 </tr>
 </tbody></table>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
-    <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
-<p>I(Author) started the Machine Learning: Teach by Doing series to transfer my learnings to those who want to transition to Machine Learning.</p>
-<p>I(Author) have recorded 37 videos in the past 6 months.</p>
-<p>Here are the links for you to learn:</p>
-<ol>
-<li>Introduction to Machine Learning Teach by Doing: <a href="https://lnkd.in/gqN2PMX5">https://lnkd.in/gqN2PMX5</a></li>
-<li>What is Machine Learning? History of Machine Learning: <a href="https://lnkd.in/gvpNSAKh">https://lnkd.in/gvpNSAKh</a></li>
-<li>Types of ML Models: <a href="https://lnkd.in/gSy2mChM">https://lnkd.in/gSy2mChM</a></li>
-<li>6 steps of any ML project: <a href="https://lnkd.in/ggCGchPQ">https://lnkd.in/ggCGchPQ</a></li>
-<li>Install Python and VSCode and run your first code: <a href="https://lnkd.in/gyic7J7b">https://lnkd.in/gyic7J7b</a></li>
-<li>Linear Classifiers Part 1: <a href="https://lnkd.in/gYdfD97D">https://lnkd.in/gYdfD97D</a></li>
-<li>Linear Classifiers Part 2: <a href="https://lnkd.in/gac_z-G8">https://lnkd.in/gac_z-G8</a></li>
-<li>Jupyter Notebook, Numpy and Scikit-Learn: <a href="https://lnkd.in/gWRaC_tB">https://lnkd.in/gWRaC_tB</a></li>
-<li>Running the Random Linear Classifier Algorithm in Python: <a href="https://lnkd.in/g5HacbFC">https://lnkd.in/g5HacbFC</a></li>
-<li>The oldest ML model - Perceptron: <a href="https://lnkd.in/gpce6uFt">https://lnkd.in/gpce6uFt</a></li>
-<li>Coding the Perceptron: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
-<li>Perceptron Convergence Theorem: <a href="https://lnkd.in/gmz-XjNK">https://lnkd.in/gmz-XjNK</a></li>
-<li>Magic of features in Machine Learning: <a href="https://lnkd.in/gCeDRb3g">https://lnkd.in/gCeDRb3g</a></li>
-<li>One hot encoding: <a href="https://lnkd.in/g3WfRQGQ">https://lnkd.in/g3WfRQGQ</a></li>
-<li>Logistic Regression Part 1: <a href="https://lnkd.in/gTgZAAZn">https://lnkd.in/gTgZAAZn</a></li>
-<li>Cross Entropy Loss: <a href="https://lnkd.in/g3Ywg_2p">https://lnkd.in/g3Ywg_2p</a></li>
-<li>How gradient descent works: <a href="https://lnkd.in/gKBAsazF">https://lnkd.in/gKBAsazF</a></li>
-<li>Logistic Regression from scratch in Python: <a href="https://lnkd.in/g8iZh27P">https://lnkd.in/g8iZh27P</a></li>
-<li>Introduction to Regularization: <a href="https://lnkd.in/gjM9pVw2">https://lnkd.in/gjM9pVw2</a></li>
-<li>Implementing Regularization in Python: <a href="https://lnkd.in/gRnSK4v4">https://lnkd.in/gRnSK4v4</a></li>
-<li>Linear Regression Introduction: <a href="https://lnkd.in/gPYtSPJ9">https://lnkd.in/gPYtSPJ9</a></li>
-<li>Ordinary Least Squares step by step implementation: <a href="https://lnkd.in/gnWQdgNy">https://lnkd.in/gnWQdgNy</a></li>
-<li>Ridge regression fundamentals and intuition: <a href="https://lnkd.in/gE5M-CSM">https://lnkd.in/gE5M-CSM</a></li>
-<li>Regression recap for interviews: <a href="https://lnkd.in/gNBWzzWv">https://lnkd.in/gNBWzzWv</a></li>
-<li>Neural network architecture in 30 minutes: <a href="https://lnkd.in/g7qSrkxG">https://lnkd.in/g7qSrkxG</a></li>
-<li>Backpropagation intuition: <a href="https://lnkd.in/gAmBARHm">https://lnkd.in/gAmBARHm</a></li>
-<li>Neural network activation functions: <a href="https://lnkd.in/gqrC3zDP">https://lnkd.in/gqrC3zDP</a></li>
-<li>Momentum in gradient descent: <a href="https://lnkd.in/g3M4qhbP">https://lnkd.in/g3M4qhbP</a></li>
-<li>Hands on neural network training in Python: <a href="https://lnkd.in/gz-fTBxs">https://lnkd.in/gz-fTBxs</a></li>
-<li>Introduction to Convolutional Neural Networks (CNNs.: <a href="https://lnkd.in/gpmuBm3j">https://lnkd.in/gpmuBm3j</a></li>
-<li>Filters in 1D and the Convolution Operation: <a href="https://lnkd.in/gEDaKHDU">https://lnkd.in/gEDaKHDU</a></li>
-<li>Filters in 2D, Channels and Feature Identification: <a href="https://lnkd.in/g3Gf_4ia">https://lnkd.in/g3Gf_4ia</a></li>
-<li>Filtering Layers in Convolutional Neural Networks: <a href="https://lnkd.in/gUaiBkTu">https://lnkd.in/gUaiBkTu</a></li>
-<li>What is Max Pooling in Convolutional Neural Networks?: <a href="https://lnkd.in/gGRGy6wq">https://lnkd.in/gGRGy6wq</a></li>
-<li>CNN Architecture explained: <a href="https://lnkd.in/gPQvRh9i">https://lnkd.in/gPQvRh9i</a></li>
-<li>Backpropagation in Convolutional Neural Networks: <a href="https://lnkd.in/g942G6zv">https://lnkd.in/g942G6zv</a></li>
-<li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
-</ol>
-<p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -2784,6 +2785,695 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Comparison of popular models and architectures</title>
+    <url>/hexo-blog/2024/12/10/post_ai_nn__comparison_of_popular_models_and_architectures/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to:</p>
+<ul>
+<li><a href="../../../../post_ai_nn__list_of_neural_network_models_architectures_and_basic_components">List of neural network models, architectures, and basic components</a></li>
+</ul>
+<hr>
+<!-- ## Table - Models vs features
+
+| **Model/Architecture** | **Basic Components**                                    | **Open-Source/ Forbidden for Modifications** | **Criteria of Measuring Model Productivity** | **Model's Parameters (Changeable/Non-Changeable)** | **Criteria of Measuring Parameter's Productivity** | **Model's Hyperparameters (Changeable/Non-Changeable)** | **Criteria of Measuring Hyperparameter's Productivity** | **Basic Components of Hyperparameter's Productivity** |
+|-------------------------|--------------------------------------------------------|-----------------------------------------------|-----------------------------------------------|----------------------------------------------------|----------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| **Autoencoders**        | Encoder, Decoder, Latent Space                         | Open-Source                                   | Reconstruction Loss                            | Weights (Changeable), Latent Dimensions (Fixed)    | Reconstruction Accuracy                              | Learning Rate, Latent Dimension Size (Changeable)       | Lower Reconstruction Error                             | Effective Latent Space Size, Training Convergence Rate |
+| **CNN**                 | Convolution Layers, Pooling, Fully Connected Layers    | Open-Source                                   | Accuracy, Precision, Recall, F1-Score         | Filter Weights (Changeable), Input Channels (Fixed)| Detection Accuracy                                   | Kernel Size, Stride, Number of Filters (Changeable)     | Higher Feature Extraction Quality                      | Filter Efficiency, Computational Cost                 |
+| **RNN**                 | Recurrent Layers, Activation Functions                | Open-Source                                   | Perplexity, Accuracy, BLEU Score (NLP)        | Hidden State (Changeable), Sequence Length (Fixed) | Temporal Pattern Capture Efficiency                 | Learning Rate, Hidden State Size (Changeable)           | Sequence Learning Performance                          | Effective Sequence Memory Size                        |
+| **FNN**                 | Neurons, Dense Layers, Activation Functions           | Open-Source                                   | Accuracy, Loss Reduction                       | Weights (Changeable), Bias (Fixed)                | Accuracy and Loss Reduction                          | Learning Rate, Number of Layers (Changeable)            | Loss Convergence Rate                                  | Layer Depth, Weight Initialization Strategy           |
+| **LSTM**                | LSTM Cells (Input, Forget, Output Gates)              | Open-Source                                   | Perplexity, Accuracy (Time-Series, NLP)        | Cell Weights (Changeable), Memory Cell (Fixed)    | Long-Term Dependency Capture Efficiency             | Learning Rate, Number of Layers (Changeable)            | Retention of Long-Term Dependencies                   | Sequence Retention and Gradient Stability             |
+| **GNN**                 | Node Embeddings, Edge Features, Graph Convolutions    | Open-Source                                   | Node Classification Accuracy, Link Prediction | Edge Weights (Changeable), Node Attributes (Fixed)| Graph Feature Capture Efficiency                    | Number of Layers, Embedding Size (Changeable)           | Graph-Level Feature Generalization                    | Graph Topology Learning                                |
+| **BERT**                | Encoder, Multi-Head Attention, Feedforward Layers     | Open-Source                                   | F1-Score, Exact Match (QA), Perplexity         | Token Embeddings (Changeable), Vocabulary (Fixed) | Contextual Understanding Quality                    | Learning Rate, Batch Size, Sequence Length (Changeable)| Contextual Embedding Accuracy                         | Attention Mechanism, Positional Encoding              |
+| **BART**                | Encoder-Decoder, Multi-Head Attention, Feedforward    | Open-Source                                   | Rouge Score, BLEU Score                        | Attention Weights (Changeable), Vocabulary (Fixed)| Summarization and Translation Accuracy              | Learning Rate, Number of Heads (Changeable)             | Text Generation Quality                               | Encoder-Decoder Consistency                           |
+| **T5**                  | Encoder-Decoder, Attention Mechanisms, Feedforward    | Open-Source                                   | Rouge Score, BLEU Score                        | Token Embeddings (Changeable), Vocabulary (Fixed) | Text-to-Text Conversion Accuracy                    | Sequence Length, Beam Width (Changeable)                | Text Generation Coherence                             | Attention Span, Latent Representation Quality         |
+| **LLAMA**               | Transformer Layers, Feedforward Layers, Attention     | Restricted for Modifications                  | F1-Score, Rouge Score                          | Attention Weights (Changeable), Vocabulary (Fixed)| Generative Output Accuracy                          | Number of Layers, Head Size (Changeable)                | Latent Representation Consistency                     | Layer-to-Layer Weight Propagation                     |
+| **GPT**                 | Transformer Decoder, Feedforward Layers, Attention    | Open-Source                                   | Perplexity, BLEU Score                         | Attention Weights (Changeable), Vocabulary (Fixed)| Generative Text Coherence                            | Learning Rate, Model Depth, Token Limit (Changeable)    | Generative Text Quality                               | Token Context Understanding                           |
+| **ViT (Vision Transformer)** | Patch Embedding, Transformer Layers, Attention        | Open-Source                                   | Accuracy, Precision, Recall, F1-Score         | Patch Embeddings (Changeable), Image Size (Fixed) | Image Feature Generalization                         | Patch Size, Attention Heads (Changeable)                | Visual Feature Learning Efficiency                    | Patch Extraction Accuracy, Attention Span             |
+
+---
+
+### Notes:
+1. **Open-Source vs. Forbidden for Modifications**: Models like LLAMA may have licensing restrictions preventing modification, while others are freely accessible for experimentation.
+2. **Criteria of Productivity**: Metrics vary by task, e.g., classification accuracy for vision tasks, BLEU scores for translation, or F1-scores for question-answering.
+3. **Parameters vs. Hyperparameters**: Parameters are learned during training (e.g., weights), whereas hyperparameters are manually set and adjusted (e.g., learning rate, number of layers).
+4. **Measuring Hyperparameter Productivity**: Includes monitoring loss convergence, validation performance, and computational efficiency.
+
+
+## Table - Features vs models
+# Comparison of Popular Models and Architectures
+
+| **Category**                               | **Autoencoders**                | **CNN**                            | **RNN**                             | **FNN**                             | **LSTM**                            | **GNN**                             | **BERT**                            | **BART**                            | **T5**                              | **LLAMA**                           | **GPT**                             | **ViT**                             |
+|--------------------------------------------|----------------------------------|-------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+| **Basic Components**                       | Encoder, Decoder, Latent Space  | Convolution Layers, Pooling, Fully Connected Layers | Recurrent Layers, Activation Functions | Neurons, Dense Layers, Activation Functions | LSTM Cells (Input, Forget, Output Gates) | Node Embeddings, Edge Features, Graph Convolutions | Encoder, Multi-Head Attention, Feedforward Layers | Encoder-Decoder, Multi-Head Attention, Feedforward | Encoder-Decoder, Attention Mechanisms, Feedforward | Transformer Layers, Feedforward Layers, Attention | Transformer Decoder, Feedforward Layers, Attention | Patch Embedding, Transformer Layers, Attention |
+| **Open-Source/ Forbidden for Modifications** | Open-Source                     | Open-Source                        | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Restricted for Modifications         | Open-Source                          | Open-Source                          |
+| **Criteria of Measuring Model Productivity** | Reconstruction Loss             | Accuracy, Precision, Recall, F1-Score | Perplexity, Accuracy, BLEU Score (NLP) | Accuracy, Loss Reduction             | Perplexity, Accuracy (Time-Series, NLP) | Node Classification Accuracy, Link Prediction | F1-Score, Exact Match (QA), Perplexity | Rouge Score, BLEU Score             | Rouge Score, BLEU Score             | F1-Score, Rouge Score                | Perplexity, BLEU Score               | Accuracy, Precision, Recall, F1-Score |
+| **Model's Parameters (Changeable/Non-Changeable)** | Weights (Changeable), Latent Dimensions (Fixed) | Filter Weights (Changeable), Input Channels (Fixed) | Hidden State (Changeable), Sequence Length (Fixed) | Weights (Changeable), Bias (Fixed)  | Cell Weights (Changeable), Memory Cell (Fixed) | Edge Weights (Changeable), Node Attributes (Fixed) | Token Embeddings (Changeable), Vocabulary (Fixed) | Attention Weights (Changeable), Vocabulary (Fixed) | Token Embeddings (Changeable), Vocabulary (Fixed) | Attention Weights (Changeable), Vocabulary (Fixed) | Attention Weights (Changeable), Vocabulary (Fixed) | Patch Embeddings (Changeable), Image Size (Fixed) |
+| **Criteria of Measuring Parameter's Productivity** | Reconstruction Accuracy         | Detection Accuracy                 | Temporal Pattern Capture Efficiency  | Accuracy and Loss Reduction          | Long-Term Dependency Capture Efficiency | Graph Feature Capture Efficiency    | Contextual Understanding Quality     | Summarization and Translation Accuracy | Text-to-Text Conversion Accuracy    | Generative Output Accuracy           | Generative Text Coherence            | Image Feature Generalization         |
+| **Model's Hyperparameters (Changeable/Non-Changeable)** | Learning Rate, Latent Dimension Size (Changeable) | Kernel Size, Stride, Number of Filters (Changeable) | Learning Rate, Hidden State Size (Changeable) | Learning Rate, Number of Layers (Changeable) | Learning Rate, Number of Layers (Changeable) | Number of Layers, Embedding Size (Changeable) | Learning Rate, Batch Size, Sequence Length (Changeable) | Learning Rate, Number of Heads (Changeable) | Sequence Length, Beam Width (Changeable) | Number of Layers, Head Size (Changeable) | Learning Rate, Model Depth, Token Limit (Changeable) | Patch Size, Attention Heads (Changeable) |
+| **Criteria of Measuring Hyperparameter's Productivity** | Lower Reconstruction Error      | Higher Feature Extraction Quality  | Sequence Learning Performance        | Loss Convergence Rate                | Retention of Long-Term Dependencies  | Graph-Level Feature Generalization  | Contextual Embedding Accuracy        | Text Generation Quality              | Text Generation Coherence            | Latent Representation Consistency    | Generative Text Quality              | Visual Feature Learning Efficiency   |
+| **Basic Components of Hyperparameter's Productivity** | Effective Latent Space Size, Training Convergence Rate | Filter Efficiency, Computational Cost | Effective Sequence Memory Size       | Layer Depth, Weight Initialization Strategy | Sequence Retention and Gradient Stability | Graph Topology Learning             | Attention Mechanism, Positional Encoding | Encoder-Decoder Consistency         | Attention Span, Latent Representation Quality | Layer-to-Layer Weight Propagation    | Token Context Understanding          | Patch Extraction Accuracy, Attention Span | -->
+
+
+<h2 id="Table-Single-models-with-options"><a href="#Table-Single-models-with-options" class="headerlink" title="Table  - Single models with options"></a>Table  - Single models with options</h2><h1 id="Detailed-Breakdown-of-Popular-Models-and-Architectures"><a href="#Detailed-Breakdown-of-Popular-Models-and-Architectures" class="headerlink" title="Detailed Breakdown of Popular Models and Architectures"></a>Detailed Breakdown of Popular Models and Architectures</h1><h2 id="Autoencoders"><a href="#Autoencoders" class="headerlink" title="Autoencoders"></a>Autoencoders</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder, Decoder, Latent Space</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Reconstruction Loss</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Weights (Changeable), Latent Dimensions (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Reconstruction Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Latent Dimension Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Lower Reconstruction Error</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Effective Latent Space Size, Training Convergence Rate</td>
+</tr>
+</tbody></table>
+<h2 id="CNN-Convolutional-Neural-Networks"><a href="#CNN-Convolutional-Neural-Networks" class="headerlink" title="CNN (Convolutional Neural Networks)"></a>CNN (Convolutional Neural Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Convolution Layers, Pooling, Fully Connected Layers</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Accuracy, Precision, Recall, F1-Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Filter Weights (Changeable), Input Channels (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Detection Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Kernel Size, Stride, Number of Filters (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Higher Feature Extraction Quality</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Filter Efficiency, Computational Cost</td>
+</tr>
+</tbody></table>
+<h2 id="RNN-Recurrent-Neural-Networks"><a href="#RNN-Recurrent-Neural-Networks" class="headerlink" title="RNN (Recurrent Neural Networks)"></a>RNN (Recurrent Neural Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Recurrent Layers, Activation Functions</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Perplexity, Accuracy, BLEU Score (NLP)</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Hidden State (Changeable), Sequence Length (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Temporal Pattern Capture Efficiency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Hidden State Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Sequence Learning Performance</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Effective Sequence Memory Size</td>
+</tr>
+</tbody></table>
+<h2 id="LSTM-Long-Short-Term-Memory-Networks"><a href="#LSTM-Long-Short-Term-Memory-Networks" class="headerlink" title="LSTM (Long Short-Term Memory Networks)"></a>LSTM (Long Short-Term Memory Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>LSTM Cells (Input, Forget, Output Gates)</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Perplexity, Accuracy (Time-Series, NLP)</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Cell Weights (Changeable), Memory Cell (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Long-Term Dependency Capture Efficiency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Number of Layers (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Retention of Long-Term Dependencies</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Sequence Retention and Gradient Stability</td>
+</tr>
+</tbody></table>
+<h2 id="GNN-Graph-Neural-Networks"><a href="#GNN-Graph-Neural-Networks" class="headerlink" title="GNN (Graph Neural Networks)"></a>GNN (Graph Neural Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Node Classification Accuracy, Link Prediction</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Edge Weights (Changeable), Node Attributes (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Graph Feature Capture Efficiency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Number of Layers, Embedding Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Graph-Level Feature Generalization</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Graph Topology Learning</td>
+</tr>
+</tbody></table>
+<h2 id="BERT-Bidirectional-Encoder-Representations-from-Transformers"><a href="#BERT-Bidirectional-Encoder-Representations-from-Transformers" class="headerlink" title="BERT (Bidirectional Encoder Representations from Transformers)"></a>BERT (Bidirectional Encoder Representations from Transformers)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder, Multi-Head Attention, Feedforward Layers</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>F1-Score, Exact Match (QA), Perplexity</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Token Embeddings (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Contextual Understanding Quality</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Batch Size, Sequence Length (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Contextual Embedding Accuracy</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Attention Mechanism, Positional Encoding</td>
+</tr>
+</tbody></table>
+<h2 id="BART-Bidirectional-and-Auto-Regressive-Transformers"><a href="#BART-Bidirectional-and-Auto-Regressive-Transformers" class="headerlink" title="BART (Bidirectional and Auto-Regressive Transformers)"></a>BART (Bidirectional and Auto-Regressive Transformers)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder-Decoder, Multi-Head Attention, Feedforward</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Rouge Score, BLEU Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Attention Weights (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Summarization and Translation Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Number of Heads (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Text Generation Quality</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Encoder-Decoder Consistency</td>
+</tr>
+</tbody></table>
+<h2 id="T5-Text-to-Text-Transfer-Transformer"><a href="#T5-Text-to-Text-Transfer-Transformer" class="headerlink" title="T5 (Text-to-Text Transfer Transformer)"></a>T5 (Text-to-Text Transfer Transformer)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder-Decoder, Attention Mechanisms, Feedforward</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Rouge Score, BLEU Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Token Embeddings (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Text-to-Text Conversion Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Sequence Length, Beam Width (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Text Generation Coherence</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Attention Span, Latent Representation Quality</td>
+</tr>
+</tbody></table>
+<h2 id="LLAMA"><a href="#LLAMA" class="headerlink" title="LLAMA"></a>LLAMA</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Transformer Layers, Feedforward Layers, Attention</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Restricted for Modifications</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>F1-Score, Rouge Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Attention Weights (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Latent Representation Consistency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Number of Layers, Head Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Layer-to-Layer Weight Propagation</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Transformer Block Efficiency</td>
+</tr>
+</tbody></table>
+<h2 id="GPT-Generative-Pre-trained-Transformer"><a href="#GPT-Generative-Pre-trained-Transformer" class="headerlink" title="GPT (Generative Pre-trained Transformer)"></a>GPT (Generative Pre-trained Transformer)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Transformer Decoder, Feedforward Layers, Attention</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Perplexity, BLEU Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Attention Weights (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Generative Text Coherence</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Model Depth, Token Limit (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Generative Text Quality</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Token Context Understanding</td>
+</tr>
+</tbody></table>
+<h2 id="ViT-Vision-Transformer"><a href="#ViT-Vision-Transformer" class="headerlink" title="ViT (Vision Transformer)"></a>ViT (Vision Transformer)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Patch Embedding, Transformer Layers, Attention</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Accuracy, Precision, Recall, F1-Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Patch Embeddings (Changeable), Image Size (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Visual Feature Generalization</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Patch Size, Attention Heads (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Patch Extraction Accuracy, Attention Span</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Image Feature Learning Efficiency</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>List of neural network models, architectures, and basic components</title>
+    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
+<ol>
+<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
+</ol>
+<hr>
+<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
+<hr>
+<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Model Examples</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Feedforward Neural Network (FNN)</strong></td>
+<td>Basic MLP (Multi-Layer Perceptron)</td>
+<td>General-purpose model for regression and classification tasks.</td>
+</tr>
+<tr>
+<td><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td>VGG, ResNet, AlexNet, EfficientNet</td>
+<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
+<td>Vanilla RNN, LSTM, GRU</td>
+<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
+<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
+<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
+</tr>
+<tr>
+<td><strong>Generative Adversarial Networks (GANs)</strong></td>
+<td>DCGAN, StyleGAN, CycleGAN</td>
+<td>Generative tasks such as image synthesis and domain transfer.</td>
+</tr>
+<tr>
+<td><strong>Graph Neural Networks (GNNs)</strong></td>
+<td>GCN, GraphSAGE, GAT</td>
+<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Applications</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Neuron</strong></td>
+<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
+<td>Foundational unit in all neural networks.</td>
+</tr>
+<tr>
+<td><strong>Layer</strong></td>
+<td>A collection of neurons; can be input, hidden, or output.</td>
+<td>Used in all neural architectures.</td>
+</tr>
+<tr>
+<td><strong>Activation Function</strong></td>
+<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
+<td>Enables learning of complex patterns.</td>
+</tr>
+<tr>
+<td><strong>Dropout</strong></td>
+<td>Regularization technique randomly dropping neurons during training.</td>
+<td>Reduces overfitting in models.</td>
+</tr>
+<tr>
+<td><strong>Encoder</strong></td>
+<td>Part of the model that converts input data into a latent representation.</td>
+<td>Used in Transformers, Autoencoders, BERT, and more.</td>
+</tr>
+<tr>
+<td><strong>Decoder</strong></td>
+<td>Converts latent representations back to an output format.</td>
+<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
+</tr>
+<tr>
+<td><strong>Attention Mechanism</strong></td>
+<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
+<td>Essential in Transformers and attention-based architectures.</td>
+</tr>
+<tr>
+<td><strong>Residual Block</strong></td>
+<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
+<td>Found in ResNet, Transformer architectures.</td>
+</tr>
+<tr>
+<td><strong>Convolution Layer</strong></td>
+<td>Applies convolutional operations to extract spatial features.</td>
+<td>Used in CNNs for tasks like image and video analysis.</td>
+</tr>
+<tr>
+<td><strong>Pooling Layer</strong></td>
+<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
+<td>Used in CNNs to downsample feature maps.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Cell</strong></td>
+<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
+<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
+</tr>
+<tr>
+<td><strong>Self-Attention Layer</strong></td>
+<td>Computes relationships between all input tokens to capture global dependencies.</td>
+<td>Core of Transformers.</td>
+</tr>
+<tr>
+<td><strong>Feedforward Layer</strong></td>
+<td>Dense layer applied after attention mechanisms in Transformers.</td>
+<td>Processes token-wise transformations.</td>
+</tr>
+<tr>
+<td><strong>Embedding Layer</strong></td>
+<td>Converts categorical data or tokens into dense vectors.</td>
+<td>Used in NLP, graph embeddings, and more.</td>
+</tr>
+<tr>
+<td><strong>Latent Space</strong></td>
+<td>Compressed representation of data, typically learned by encoders.</td>
+<td>Found in Autoencoders, VAEs, and GANs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Key Components</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>FNN</strong></td>
+<td>Neurons, Layers, Activation Functions, Dropout.</td>
+</tr>
+<tr>
+<td><strong>CNN</strong></td>
+<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>RNN (Vanilla)</strong></td>
+<td>Recurrent Cells, Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
+</tr>
+<tr>
+<td><strong>GANs</strong></td>
+<td>Generator, Discriminator, Adversarial Loss.</td>
+</tr>
+<tr>
+<td><strong>GNNs</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
+</tr>
+</tbody></table>
+<hr>
+<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Glossary of Machine Learning and AI Terms</title>
     <url>/hexo-blog//ai/glossary-of-machine-learning-and-ai-terms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Feel free to send me your thoughts, notes, other references. My contact details you can find on <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a></em></p>
@@ -3037,8 +3727,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li><strong>Matplotlib</strong> and <strong>Seaborn</strong>: For data visualization.</li>
 <li><strong>Python 3.8+</strong>: Required for compatibility with libraries.</li>
 <li><strong>Evaluation Metrics</strong>:<ul>
-<li><a href="../../../../../glossary-of-machine-learning-and-ai-terms#BLEU">BLEU</a> Score</li>
-<li><a href="(../../../../../glossary-of-machine-learning-and-ai-terms#ROUGE-L">ROUGE-L</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#BLEU">BLEU</a> Score</li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#ROUGE-L">ROUGE-L</a></li>
 <li>Perplexity</li>
 </ul>
 </li>
@@ -3500,181 +4190,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Ubuntu web traffic meters</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
-<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
-<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
-<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
-</li>
-<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
-</li>
-</ul>
-<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
-<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
-</li>
-<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
-<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
-</li>
-<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
-</li>
-</ul>
-<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
-<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
-<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
-<li><strong>Installation:</strong></li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
-<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
-</li>
-<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
-<p> &#96;</p>
-</li>
-<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>API</tag>
-        <tag>ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
-    <url>/hexo-blog/2024/09/28/post_docs_publishing__readthedoc_vs_github_pages_tutorial_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
-<p>Now I faced with some issues of publishing existing project documentation that was created by Sphinx<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>For my <a href="https://github.com/ooge0/python_TA_web_api_framework">personal project on GIT: python_TA_web_api_framework</a> I creted project documentation and generated by Sphinx all necessary data but for some technical reason had no luck to publish it in the web.</p>
-<p>Researching existing approaches showed me that there are several platforms for publishing documentation, created mostly in rst<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> format<br>Configuration of GitHub:  Pages and ReadTheDocs: for same project content is different. </p>
-<ul>
-<li>GitHub:  Pages</li>
-<li>ReadTheDocs</li>
-</ul>
-<p>In the end after many attempts of building GitHub:  Pages and ReadTheDocs: I found <a href="https://github.com/readthedocs/test-builds/tree/main/docs">test project for playing readthedocs on official <code>readthedocs</code> GitHub: </a><br>Assumption of making similar projects on GitHub:  Pages and ReadTheDocs: failed. Result below</p>
-<img src="/hexo-blog/images/github_pages_vs_readthedocs__test_project.png" alt="Sphinx project. GitHub:  Pages and ReadTheDocs" title="Sphinx project. GitHub:  Pages and ReadTheDocs" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-<p>Source <code>ReadTheDocs</code> projects was </p>
-<ol>
-<li><a href="https://github.com/ooge0/test-builds">https://github.com/ooge0/test-builds</a></li>
-<li><a href="https://test-builds.readthedocs.io/">https://test-builds.readthedocs.io/</a></li>
-</ol>
-<p>Main configuration files for ReadTheDocs: publishing are below<br><code>.readthedocs.yaml</code></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">os:</span> <span class="string">ubuntu-24.04</span></span><br><span class="line">  <span class="attr">tools:</span></span><br><span class="line">    <span class="attr">python:</span> <span class="string">latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sphinx:</span></span><br><span class="line">  <span class="attr">configuration:</span> <span class="string">docs/conf.py</span></span><br><span class="line"></span><br><span class="line"><span class="attr">python:</span></span><br><span class="line">  <span class="attr">install:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">requirements:</span> <span class="string">requirements.txt</span></span><br></pre></td></tr></table></figure>
-
-<p><code>requirements.txt</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sphinx-autorun</span><br><span class="line">sphinx-rtd-theme&gt;=3.0.0rc2</span><br></pre></td></tr></table></figure>
-
-<p>Another projects for investigation of publishing&#x2F;deploying conflicts</p>
-<ol>
-<li>coding-with-kids<ol>
-<li><a href="https://github.com/dahlsailrunner/coding-with-kids">GitHub:  coding-with-kids</a></li>
-<li><a href="https://coding-with-kids.readthedocs.io/en">ReadTheDocs: coding-with-kids</a></li>
-</ol>
-</li>
-<li>test-builds<ol>
-<li><a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-<li><a href="https://test-builds.readthedocs.io/">ReadTheDocs: test-builds</a></li>
-</ol>
-</li>
-<li>readthedocs-demo-app(my project)<ol>
-<li><a href="https://github.com/ooge0/readthedocs-demo-app">GitHub: readthedocs-demo-app</a></li>
-<li><a href="https://ooge0.github.io/readthedocs-demo-app/">GitHub Pages: readthedocs-demo-app</a></li>
-<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a>. Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-</ol>
-</li>
-<li>docs.readthedocs.io<ol>
-<li><a href="https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/index.rst">GitHub:  docs.readthedocs.io</a></li>
-<li><a href="https://docs.readthedocs.io/en/stable/index.html">ReadTheDocs: docs.readthedocs.io</a></li>
-<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a> Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-</ol>
-</li>
-<li>jubilant-lamp<ol>
-<li><a href="https://github.com/RGGH/jubilant-lamp">GitHub: jubilant-lamp</a></li>
-<li><a href="https://rggh.github.io/jubilant-lamp/">GitHub pages:  jubilant-lamp</a></li>
-</ol>
-</li>
-</ol>
-<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
-reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. reStructuredText is designed for extensibility for specific application domains. The reStructuredText parser is a component of Docutils. reStructuredText is a revision and reinterpretation of the StructuredText and Setext lightweight markup systems.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ReadTheDocs</tag>
-        <tag>[object Object]</tag>
-        <tag>DocPublishing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>UNIX command tutorials</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__unix_comand_tutorial/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
-<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
-<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
-<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
-</ul>
-<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
-<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
-<li><strong>Command to run</strong>: <code>vimtutor</code></li>
-</ul>
-<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
-<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
-<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
-</ul>
-<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
-<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
-<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
-<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
-</ul>
-<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
-<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
-<li><strong>Install</strong>: <code>pip install cheat</code></li>
-<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
-</ul>
-<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
-<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>unix</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python basics</title>
     <url>/hexo-blog/2023/06/12/post_dev_side__python_basics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
@@ -3870,6 +4385,532 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       <tags>
         <tag>python</tag>
         <tag>dev_side</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python libs</title>
+    <url>/hexo-blog/2023/06/10/post_dev_side__python_libs/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of Python packages, their documentation links, and the corresponding installation commands. The packages are arranged alphabetically.</p>
+<p><strong>TOC</strong></p>
+<!-- This TOC is manually managed. Do not auto-generate or format -->
+<ol>
+<li><a href="#allure-pytest">allure-pytest</a></li>
+<li><a href="#cheat">cheat</a></li>
+<li><a href="#colorama">colorama</a></li>
+<li><a href="#faker">faker</a></li>
+<li><a href="#graphviz">graphviz</a></li>
+<li><a href="#hypothesis">hypothesis</a></li>
+<li><a href="#jsonschema">jsonschema</a></li>
+<li><a href="#loguru">loguru</a></li>
+<li><a href="#numpy">numpy</a></li>
+<li><a href="#openpyxl">openpyxl</a></li>
+<li><a href="#pandas">pandas</a></li>
+<li><a href="#pipdeptree">pipdeptree</a></li>
+<li><a href="#pytest">pytest</a></li>
+<li><a href="#pytest-html">pytest-html</a></li>
+<li><a href="#pytest-lazy-fixture">pytest-lazy-fixture</a></li>
+<li><a href="#pytest-xdist">pytest-xdist</a></li>
+<li><a href="#pydocstyle">pydocstyle</a></li>
+<li><a href="#regex">regex</a></li>
+<li><a href="#requests">requests</a></li>
+<li><a href="#scikit">scikit</a></li>
+<li><a href="#selenium">selenium</a></li>
+<li><a href="#sphinx">sphinx</a></li>
+<li><a href="#tach">tach</a></li>
+<li><a href="#tqdm">tqdm</a></li>
+<li><a href="#typing-extensions">typing_extensions</a></li>
+</ol>
+<hr>
+<h3 id="allure-pytest"><a href="#allure-pytest" class="headerlink" title="allure-pytest"></a>allure-pytest</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/allure-pytest/">https://pypi.org/project/allure-pytest/</a></li>
+<li>related info: <a href="https://docs.qameta.io/allure/">https://docs.qameta.io/allure/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install allure-pytest</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="cheat"><a href="#cheat" class="headerlink" title="cheat"></a>cheat</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/cheat/">https://pypi.org/project/cheat/</a></li>
+<li>related info: <a href="https://github.com/cheat/cheat">https://github.com/cheat/cheat</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install cheat</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="colorama"><a href="#colorama" class="headerlink" title="colorama"></a>colorama</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/colorama/">https://pypi.org/project/colorama/</a></li>
+<li>related info: <a href="https://github.com/tartley/colorama">https://github.com/tartley/colorama</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install colorama</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="faker"><a href="#faker" class="headerlink" title="faker"></a>faker</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/Faker/">https://pypi.org/project/Faker/</a></li>
+<li>related info: <a href="https://faker.readthedocs.io/">https://faker.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install faker</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="graphviz"><a href="#graphviz" class="headerlink" title="graphviz"></a>graphviz</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/graphviz/">https://pypi.org/project/graphviz/</a></li>
+<li>related info: <a href="https://graphviz.org/">https://graphviz.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="hypothesis"><a href="#hypothesis" class="headerlink" title="hypothesis"></a>hypothesis</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/hypothesis/">https://pypi.org/project/hypothesis/</a></li>
+<li>related info: <a href="https://hypothesis.readthedocs.io/">https://hypothesis.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install hypothesis</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="jsonschema"><a href="#jsonschema" class="headerlink" title="jsonschema"></a>jsonschema</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/jsonschema/">https://pypi.org/project/jsonschema/</a></li>
+<li>related info: <a href="https://python-jsonschema.readthedocs.io/">https://python-jsonschema.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install jsonschema</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="loguru"><a href="#loguru" class="headerlink" title="loguru"></a>loguru</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/loguru/">https://pypi.org/project/loguru/</a></li>
+<li>related info: <a href="https://github.com/Delgan/loguru">https://github.com/Delgan/loguru</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="numpy"><a href="#numpy" class="headerlink" title="numpy"></a>numpy</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/numpy/">https://pypi.org/project/numpy/</a></li>
+<li>related info: <a href="https://numpy.org/">https://numpy.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install numpy</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="openpyxl"><a href="#openpyxl" class="headerlink" title="openpyxl"></a>openpyxl</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/openpyxl/">https://pypi.org/project/openpyxl/</a></li>
+<li>related info: <a href="https://openpyxl.readthedocs.io/">https://openpyxl.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install openpyxl</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pandas/">https://pypi.org/project/pandas/</a></li>
+<li>related info: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pandas</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pipdeptree"><a href="#pipdeptree" class="headerlink" title="pipdeptree"></a>pipdeptree</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pipdeptree/">https://pypi.org/project/pipdeptree/</a></li>
+<li>related info: <a href="https://github.com/naiquevin/pipdeptree">https://github.com/naiquevin/pipdeptree</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pipdeptree</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest"><a href="#pytest" class="headerlink" title="pytest"></a>pytest</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest/">https://pypi.org/project/pytest/</a></li>
+<li>related info: <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-html"><a href="#pytest-html" class="headerlink" title="pytest-html"></a>pytest-html</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-html/">https://pypi.org/project/pytest-html/</a></li>
+<li>related info: <a href="https://pytest-html.readthedocs.io/">https://pytest-html.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-html</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-lazy-fixture"><a href="#pytest-lazy-fixture" class="headerlink" title="pytest-lazy-fixture"></a>pytest-lazy-fixture</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-lazy-fixture/">https://pypi.org/project/pytest-lazy-fixture/</a></li>
+<li>related info: <a href="https://github.com/tvorog/pytest-lazy-fixture">https://github.com/tvorog/pytest-lazy-fixture</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-lazy-fixture</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-xdist"><a href="#pytest-xdist" class="headerlink" title="pytest-xdist"></a>pytest-xdist</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-xdist/">https://pypi.org/project/pytest-xdist/</a></li>
+<li>related info: <a href="https://pytest-xdist.readthedocs.io/">https://pytest-xdist.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-xdist</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pydocstyle"><a href="#pydocstyle" class="headerlink" title="pydocstyle"></a>pydocstyle</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pydocstyle/">https://pypi.org/project/pydocstyle/</a></li>
+<li>related info: <a href="https://github.com/PyCQA/pydocstyle">https://github.com/PyCQA/pydocstyle</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pydocstyle</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="regex"><a href="#regex" class="headerlink" title="regex"></a>regex</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/regex/">https://pypi.org/project/regex/</a></li>
+<li>related info: <a href="https://github.com/mrabarnett/mrab-regex">https://github.com/mrabarnett/mrab-regex</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install regex</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="requests"><a href="#requests" class="headerlink" title="requests"></a>requests</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/requests/">https://pypi.org/project/requests/</a></li>
+<li>related info: <a href="https://docs.python-requests.org/">https://docs.python-requests.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="scikit"><a href="#scikit" class="headerlink" title="scikit"></a>scikit</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/scikit-learn/">https://pypi.org/project/scikit-learn/</a></li>
+<li>related info: <a href="https://scikit-learn.org/">https://scikit-learn.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install scikit-learn</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="selenium"><a href="#selenium" class="headerlink" title="selenium"></a>selenium</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/selenium/">https://pypi.org/project/selenium/</a></li>
+<li>related info: <a href="https://www.selenium.dev/">https://www.selenium.dev/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="sphinx"><a href="#sphinx" class="headerlink" title="sphinx"></a>sphinx</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/Sphinx/">https://pypi.org/project/Sphinx/</a></li>
+<li>related info: <a href="https://www.sphinx-doc.org/">https://www.sphinx-doc.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install sphinx</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="tach"><a href="#tach" class="headerlink" title="tach"></a>tach</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/tach/">https://pypi.org/project/tach/</a></li>
+<li>related info: <a href="https://github.com/gauge-sh/tach">https://github.com/gauge-sh/tach</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tach</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/tqdm/">https://pypi.org/project/tqdm/</a></li>
+<li>related info: <a href="https://tqdm.github.io/">https://tqdm.github.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tqdm</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="typing-extensions"><a href="#typing-extensions" class="headerlink" title="typing_extensions"></a>typing_extensions</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/typing-extensions/">https://pypi.org/project/typing-extensions/</a></li>
+<li>related info: <a href="https://docs.python.org/3/library/typing.html">https://docs.python.org/3/library/typing.html</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install typing_extensions</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>dev_side</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ubuntu web traffic meters</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
+<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
+<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
+<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
+</li>
+<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
+</li>
+</ul>
+<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
+<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
+</li>
+<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
+<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
+</li>
+<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
+</li>
+</ul>
+<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
+<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
+<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
+<li><strong>Installation:</strong></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
+<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
+</li>
+<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
+<p> &#96;</p>
+</li>
+<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>API</tag>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UNIX command tutorials</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__unix_comand_tutorial/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
+<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
+<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
+<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
+</ul>
+<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
+<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
+<li><strong>Command to run</strong>: <code>vimtutor</code></li>
+</ul>
+<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
+<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
+<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
+</ul>
+<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
+<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
+<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
+<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
+</ul>
+<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
+<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
+<li><strong>Install</strong>: <code>pip install cheat</code></li>
+<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
+</ul>
+<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
+<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>unix</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
+    <url>/hexo-blog/2024/09/28/post_docs_publishing__readthedoc_vs_github_pages_tutorial_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
+<p>Now I faced with some issues of publishing existing project documentation that was created by Sphinx<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>For my <a href="https://github.com/ooge0/python_TA_web_api_framework">personal project on GIT: python_TA_web_api_framework</a> I creted project documentation and generated by Sphinx all necessary data but for some technical reason had no luck to publish it in the web.</p>
+<p>Researching existing approaches showed me that there are several platforms for publishing documentation, created mostly in rst<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> format<br>Configuration of GitHub:  Pages and ReadTheDocs: for same project content is different. </p>
+<ul>
+<li>GitHub:  Pages</li>
+<li>ReadTheDocs</li>
+</ul>
+<p>In the end after many attempts of building GitHub:  Pages and ReadTheDocs: I found <a href="https://github.com/readthedocs/test-builds/tree/main/docs">test project for playing readthedocs on official <code>readthedocs</code> GitHub: </a><br>Assumption of making similar projects on GitHub:  Pages and ReadTheDocs: failed. Result below</p>
+<img src="/hexo-blog/images/github_pages_vs_readthedocs__test_project.png" alt="Sphinx project. GitHub:  Pages and ReadTheDocs" title="Sphinx project. GitHub:  Pages and ReadTheDocs" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+<p>Source <code>ReadTheDocs</code> projects was </p>
+<ol>
+<li><a href="https://github.com/ooge0/test-builds">https://github.com/ooge0/test-builds</a></li>
+<li><a href="https://test-builds.readthedocs.io/">https://test-builds.readthedocs.io/</a></li>
+</ol>
+<p>Main configuration files for ReadTheDocs: publishing are below<br><code>.readthedocs.yaml</code></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">os:</span> <span class="string">ubuntu-24.04</span></span><br><span class="line">  <span class="attr">tools:</span></span><br><span class="line">    <span class="attr">python:</span> <span class="string">latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sphinx:</span></span><br><span class="line">  <span class="attr">configuration:</span> <span class="string">docs/conf.py</span></span><br><span class="line"></span><br><span class="line"><span class="attr">python:</span></span><br><span class="line">  <span class="attr">install:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">requirements:</span> <span class="string">requirements.txt</span></span><br></pre></td></tr></table></figure>
+
+<p><code>requirements.txt</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sphinx-autorun</span><br><span class="line">sphinx-rtd-theme&gt;=3.0.0rc2</span><br></pre></td></tr></table></figure>
+
+<p>Another projects for investigation of publishing&#x2F;deploying conflicts</p>
+<ol>
+<li>coding-with-kids<ol>
+<li><a href="https://github.com/dahlsailrunner/coding-with-kids">GitHub:  coding-with-kids</a></li>
+<li><a href="https://coding-with-kids.readthedocs.io/en">ReadTheDocs: coding-with-kids</a></li>
+</ol>
+</li>
+<li>test-builds<ol>
+<li><a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+<li><a href="https://test-builds.readthedocs.io/">ReadTheDocs: test-builds</a></li>
+</ol>
+</li>
+<li>readthedocs-demo-app(my project)<ol>
+<li><a href="https://github.com/ooge0/readthedocs-demo-app">GitHub: readthedocs-demo-app</a></li>
+<li><a href="https://ooge0.github.io/readthedocs-demo-app/">GitHub Pages: readthedocs-demo-app</a></li>
+<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a>. Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+</ol>
+</li>
+<li>docs.readthedocs.io<ol>
+<li><a href="https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/index.rst">GitHub:  docs.readthedocs.io</a></li>
+<li><a href="https://docs.readthedocs.io/en/stable/index.html">ReadTheDocs: docs.readthedocs.io</a></li>
+<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a> Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+</ol>
+</li>
+<li>jubilant-lamp<ol>
+<li><a href="https://github.com/RGGH/jubilant-lamp">GitHub: jubilant-lamp</a></li>
+<li><a href="https://rggh.github.io/jubilant-lamp/">GitHub pages:  jubilant-lamp</a></li>
+</ol>
+</li>
+</ol>
+<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
+reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. reStructuredText is designed for extensibility for specific application domains. The reStructuredText parser is a component of Docutils. reStructuredText is a revision and reinterpretation of the StructuredText and Setext lightweight markup systems.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ReadTheDocs</tag>
+        <tag>[object Object]</tag>
+        <tag>DocPublishing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Text Generation Coherence vs. Text Generation Quality</title>
+    <url>/hexo-blog/2024/12/12/post_linquistic__text_coherence_vs_text_quiality/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Text-Generation-Coherence"><a href="#1-Text-Generation-Coherence" class="headerlink" title="1. Text Generation Coherence"></a>1. Text Generation Coherence</h2><p>Coherence refers to the logical and structural flow of the text. A coherent text feels connected and makes sense as a whole. It ensures that:</p>
+<ul>
+<li><strong>Logical Progression</strong>: Sentences and paragraphs follow each other in a natural order.</li>
+<li><strong>Topic Consistency</strong>: The generated text remains focused on a single theme or idea.</li>
+<li><strong>Contextual Relevance</strong>: Each part of the text relates appropriately to the previous and following parts.</li>
+<li><strong>Absence of Contradictions</strong>: There are no logical inconsistencies or contradictory statements.</li>
+</ul>
+<h3 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h3><ul>
+<li><p><strong>Coherent Text</strong>:</p>
+<blockquote>
+<p>“The sun was shining brightly in the clear blue sky. Birds chirped as children played in the park. It was a perfect day for a picnic.”</p>
+</blockquote>
+<ul>
+<li>This is coherent because the sentences are connected and describe a single scene.</li>
+</ul>
+</li>
+<li><p><strong>Incoherent Text</strong>:</p>
+<blockquote>
+<p>“The sun was shining. Suddenly, a spaceship landed in the park. Watermelons are tasty.”</p>
+</blockquote>
+<ul>
+<li>This lacks coherence due to abrupt topic shifts and lack of logical flow.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Key Challenge:</strong> Ensuring the generated text flows smoothly across different parts without jumping topics or introducing unrelated ideas.</p>
+<hr>
+<h2 id="2-Text-Generation-Quality"><a href="#2-Text-Generation-Quality" class="headerlink" title="2. Text Generation Quality"></a>2. Text Generation Quality</h2><p>Quality refers to how well the generated text meets overall standards of good writing. It is a broader measure that includes:</p>
+<ul>
+<li><strong>Grammar and Syntax</strong>: Free of grammatical errors and awkward sentence structures.</li>
+<li><strong>Vocabulary Use</strong>: Appropriate word choice, richness of language, and precision.</li>
+<li><strong>Creativity and Style</strong>: Ability to generate text that is engaging, varied, and stylistically appropriate for the context.</li>
+<li><strong>Correctness</strong>: Facts and information presented are accurate.</li>
+<li><strong>Relevance</strong>: Addresses the input or prompt directly and completely.</li>
+</ul>
+<h3 id="Example-1"><a href="#Example-1" class="headerlink" title="Example:"></a>Example:</h3><ul>
+<li><p><strong>High-Quality Text</strong>:</p>
+<blockquote>
+<p>“Artificial intelligence has revolutionized many industries, offering unparalleled efficiency and innovation. From healthcare to finance, its impact is profound.”</p>
+</blockquote>
+<ul>
+<li>This text is grammatically correct, well-structured, and relevant.</li>
+</ul>
+</li>
+<li><p><strong>Low-Quality Text</strong>:</p>
+<blockquote>
+<p>“Artificial intelligance revolution in industries many, efficiently innovation offering. Healthcare finance profound impact is.”</p>
+</blockquote>
+<ul>
+<li>This text is grammatically incorrect and poorly structured.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Key Challenge:</strong> Balancing creativity, accuracy, and linguistic correctness to produce engaging and relevant content.</p>
+<hr>
+<h2 id="Comparison"><a href="#Comparison" class="headerlink" title="Comparison"></a>Comparison</h2><table>
+<thead>
+<tr>
+<th><strong>Aspect</strong></th>
+<th><strong>Text Generation Coherence</strong></th>
+<th><strong>Text Generation Quality</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Focus</strong></td>
+<td>Logical flow and connection between parts of the text.</td>
+<td>Overall writing standards, including grammar, style, and relevance.</td>
+</tr>
+<tr>
+<td><strong>Scope</strong></td>
+<td>Specific to structural and contextual alignment.</td>
+<td>Broader, encompassing coherence, grammar, creativity, etc.</td>
+</tr>
+<tr>
+<td><strong>Evaluation</strong></td>
+<td>Assesses transitions, logical progression, and focus.</td>
+<td>Evaluates overall effectiveness, correctness, and engagement.</td>
+</tr>
+<tr>
+<td><strong>Common Issues</strong></td>
+<td>Topic shifts, contradictions, lack of context.</td>
+<td>Grammatical errors, awkward phrasing, irrelevance.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Real-World-Importance"><a href="#Real-World-Importance" class="headerlink" title="Real-World Importance"></a>Real-World Importance</h2><ul>
+<li><strong>Coherence</strong> is critical for tasks requiring deep contextual understanding, such as writing long essays or technical documents.</li>
+<li><strong>Quality</strong> is essential for creating polished and professional output, such as marketing content or customer communications.</li>
+</ul>
+<blockquote>
+<p>While coherence is a subset of quality, high-quality text must always be coherent. However, coherent text might not necessarily be high-quality if it lacks creativity, relevance, or stylistic finesse.</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>linguistic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linguistic basics</title>
+    <url>/hexo-blog/2024/11/21/post_linquistic_basics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Linguistic-Domains-Involved"><a href="#1-Linguistic-Domains-Involved" class="headerlink" title="1. Linguistic Domains Involved"></a>1. Linguistic Domains Involved</h2><ul>
+<li><strong>Syntax</strong>: Deals with sentence structure and grammatical correctness, which is crucial for text quality.</li>
+<li><strong>Semantics</strong>: Ensures that the meaning of words and sentences aligns logically, contributing to coherence and quality.</li>
+<li><strong>Pragmatics</strong>: Focuses on the context and the intended meaning, which impacts both coherence and quality.</li>
+<li><strong>Discourse Analysis</strong>: Examines how sentences and paragraphs are connected to form a meaningful and coherent whole, a critical aspect of text coherence.</li>
+</ul>
+<h2 id="2-Theoretical-Linguistics"><a href="#2-Theoretical-Linguistics" class="headerlink" title="2. Theoretical Linguistics"></a>2. Theoretical Linguistics</h2><p>In theoretical linguistics, these concepts relate to:</p>
+<ul>
+<li><strong>Text Linguistics</strong>: Studies how text is structured to make it meaningful and coherent as a whole.</li>
+<li><strong>Cohesion and Coherence</strong>: Examines linguistic devices (e.g., conjunctions, pronouns, references) and logical connections between text elements.</li>
+<li><strong>Cognitive Linguistics</strong>: Explores how readers perceive and interpret generated text, contributing to the perception of coherence and quality.</li>
+</ul>
+<h2 id="3-Applied-Linguistics"><a href="#3-Applied-Linguistics" class="headerlink" title="3. Applied Linguistics"></a>3. Applied Linguistics</h2><p>In applied contexts, text coherence and quality are central to:</p>
+<ul>
+<li><strong>Natural Language Processing (NLP)</strong>: Ensuring generated text by machines aligns with human linguistic expectations.</li>
+<li><strong>Language Teaching</strong>: Teaching coherent and high-quality writing skills.</li>
+<li><strong>Translation Studies</strong>: Maintaining coherence and quality when translating between languages.</li>
+</ul>
+<h2 id="4-Computational-Linguistics"><a href="#4-Computational-Linguistics" class="headerlink" title="4. Computational Linguistics"></a>4. Computational Linguistics</h2><p>Text generation and evaluation are significant in computational linguistics, where algorithms are developed to:</p>
+<ul>
+<li>Mimic human-like coherence and quality in machine-generated text.</li>
+<li>Optimize coherence through logical flow and topic consistency.</li>
+<li>Enhance quality with grammatically accurate and stylistically appropriate output.</li>
+</ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><p>Paper: <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1016/j.pragma.2010.04.028">10.1016&#x2F;j.pragma.2010.04.028</a></li>
+<li><a href="https://sci-hub.se/https://doi.org/10.1016/j.pragma.2010.04.028">Read <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997) on sci-hub.se</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1017/CBO9781139524780">10.1017&#x2F;CBO9781139524780</a></li>
+<li><a href="https://xyz.com/">Read <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007) on XYZ</a></li>
+</ul>
+</li>
+<li><p>Book: <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (2020)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://www.ipwatchdog.com/wp-content/uploads/2019/08/Jurafsky.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (2020) on ipwatchdog.com</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Text Cohesion and Coherence in the Age of NLP</em> by R. S. Goh (2019)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://xyz.com/">Read <em>Text Cohesion and Coherence in the Age of NLP</em> by R. S. Goh (2019) on XYZ</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://core.ac.uk/download/pdf/4395395.pdf">Read <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000) on</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://disi.unitn.it/~moschitti/books/PHD-Thesis2003.pdf">Read <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003) on</a></li>
+</ul>
+</li>
+<li><p>Book: <em>The Cambridge Handbook of Computational Linguistics</em> by R. Dale, H. Moisl &amp; H. Somers (2003)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1017/9781108755610">10.1017&#x2F;9781108755610</a></li>
+<li><a href="https://xyz.com/">Read <em>The Cambridge Handbook of Computational Linguistics</em> by R. Dale, H. Moisl &amp; H. Somers (2003) on XYZ</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>linguistic</tag>
       </tags>
   </entry>
   <entry>
@@ -4533,23 +5574,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>Blog&#39;s categories</title>
-    <url>/hexo-blog//categories/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
-<ul>
-<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
-<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
-<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
-<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Categories</category>
-      </categories>
-  </entry>
-  <entry>
     <title>About me</title>
     <url>/hexo-blog//about-me/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
@@ -4635,6 +5659,23 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Blog&#39;s categories</title>
+    <url>/hexo-blog//categories/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
+<ul>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Categories</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Cheatsheet list</title>
     <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -4647,65 +5688,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>cheatsheets</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -4797,64 +5779,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
-<hr>
-<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
       </tags>
   </entry>
   <entry>
@@ -5072,6 +5996,187 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
+<hr>
+<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO blog design</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
+<p>Header</p>
+<ul>
+<li>Navigation menu:<ul>
+<li>Menu items:<ul>
+<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
+<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Main body</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
+<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
+</ul>
+<p>Side panel</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
+<li><input checked="" disabled="" type="checkbox"> Categories</li>
+<li><input checked="" disabled="" type="checkbox"> Tags</li>
+<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
+<li><input checked="" disabled="" type="checkbox"> Archives</li>
+<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
+</ul>
+<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Add more beautiful HEXO blog pages</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
@@ -5144,88 +6249,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO blog design</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
-<p>Header</p>
-<ul>
-<li>Navigation menu:<ul>
-<li>Menu items:<ul>
-<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
-<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Main body</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
-<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
-</ul>
-<p>Side panel</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
-<li><input checked="" disabled="" type="checkbox"> Categories</li>
-<li><input checked="" disabled="" type="checkbox"> Tags</li>
-<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
-<li><input checked="" disabled="" type="checkbox"> Archives</li>
-<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
-</ul>
-<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>How to Format a USB Using CMD (Command Prompt)</title>
     <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
@@ -5254,6 +6277,43 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>usb</tag>
         <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -5321,25 +6381,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Web data handling</title>
     <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
@@ -5351,6 +6392,156 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Довідник для Лікаря Сімейної Медицини</title>
+    <url>/hexo-blog//nastusja/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
+<hr>
+<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
+<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
+<li>Новини, нормативна база, протоколи лікування.</li>
+</ul>
+</li>
+<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
+<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
+</ul>
+</li>
+<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
+<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
+<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
+<li>Інформація про ліки, інструкції, дозування.</li>
+</ul>
+</li>
+<li><p><strong>Реєстр Ліків України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
+<li>Офіційний перелік зареєстрованих ліків.</li>
+</ul>
+</li>
+<li><p><strong>Клінічні протоколи лікування</strong>  </p>
+<ul>
+<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
+<li><p><strong>Медичний Глосарій</strong>  </p>
+<ul>
+<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
+<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
+<ul>
+<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
+<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
+<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
+<li><p><strong>Сінево Україна</strong>  </p>
+<ul>
+<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Діла Лабораторія</strong>  </p>
+<ul>
+<li><a href="https://dila.ua/">dila.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Меділаб</strong>  </p>
+<ul>
+<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
+<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
+<li>Міжнародні рекомендації та дослідження.</li>
+</ul>
+</li>
+<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
+<li>Наукові статті з медицини.</li>
+</ul>
+</li>
+<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
+<li>Профілактика, контроль хвороб.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
+<li><p><strong>Клінічні калькулятори</strong>: <a href="https://www.msdmanuals.com/uk/professional/pages-with-widgets/clinical-calculators?mode=list">msdmanuals.com</a>  </p>
+</li>
+<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
+</li>
+<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
+</li>
+<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>nst</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Online tools</title>
+    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
+<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
+</ol>
+<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+</ol>
+<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
+<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>tools</tag>
+        <tag>online_tools</tag>
       </tags>
   </entry>
   <entry>
@@ -5497,156 +6688,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>Dashdevs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Online tools</title>
-    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
-<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
-</ol>
-<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-</ol>
-<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
-<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>tools</tag>
-        <tag>online_tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Довідник для Лікаря Сімейної Медицини</title>
-    <url>/hexo-blog//nastusja/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
-<hr>
-<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
-<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
-<li>Новини, нормативна база, протоколи лікування.</li>
-</ul>
-</li>
-<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
-<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
-</ul>
-</li>
-<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
-<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
-<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
-<li>Інформація про ліки, інструкції, дозування.</li>
-</ul>
-</li>
-<li><p><strong>Реєстр Ліків України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
-<li>Офіційний перелік зареєстрованих ліків.</li>
-</ul>
-</li>
-<li><p><strong>Клінічні протоколи лікування</strong>  </p>
-<ul>
-<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
-<li><p><strong>Медичний Глосарій</strong>  </p>
-<ul>
-<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
-<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
-<ul>
-<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
-<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
-<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
-<li><p><strong>Сінево Україна</strong>  </p>
-<ul>
-<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Діла Лабораторія</strong>  </p>
-<ul>
-<li><a href="https://dila.ua/">dila.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Меділаб</strong>  </p>
-<ul>
-<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
-<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
-<li>Міжнародні рекомендації та дослідження.</li>
-</ul>
-</li>
-<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
-<li>Наукові статті з медицини.</li>
-</ul>
-</li>
-<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
-<li>Профілактика, контроль хвороб.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
-<li><p><strong>Клінічні калькулятори</strong>: <a href="https://www.msdmanuals.com/uk/professional/pages-with-widgets/clinical-calculators?mode=list">msdmanuals.com</a>  </p>
-</li>
-<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
-</li>
-<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
-</li>
-<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>nst</tag>
       </tags>
   </entry>
   <entry>
@@ -6187,23 +7228,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXIO.IO layout improvements</title>
     <url>/hexo-blog//hexo-layout-improvements/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
@@ -6296,52 +7320,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>UX UI tools</title>
-    <url>/hexo-blog/2024/09/28/tutorials/ux_ui_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- Main Title and Introduction -->
-<h2 style="margin-bottom: 15px; font-weight: italic; background-color: #f4f4f4; padding: 10px; border-radius: 5px; color: #2C3E50;">
-  This post contains a list of discovered UX/UI web tools and additional information to help understand their features.
-</h2>
-
-<hr>
-<p><strong>List of tools</strong></p>
-<ol>
-<li><a href="#cssgradient_io">cssgradient.io</a></li>
-</ol>
-<hr>
-<!-- Header 2 Section with Tool Name -->
-<h2 style="margin-top: 25px;  color: #b03a2e;" id = cssgradient_io>cssgradient.io</h2>
-
-<!-- Tool Home Page Link and Preview Image -->
-<h3 style="margin: 15px 0;">Home Page</h3>
-<a href="https://cssgradient.io/" target="_blank" style="text-decoration: none; color: #3498db;">https://cssgradient.io/</a>
-<div style="margin-top: 10px;">
-    <img src="/hexo-blog/images/cssgradient_site_preview.png" alt="CSS Gradient Home Page" title="CSS Gradient Home Page" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div>
-
-<!-- Header 4 Section with Additional Resources -->
-<h4 style="margin-top: 25px;">See Also:</h4>
-<ol>
-    <li>
-        <a href="https://cssgradient.io/color-shades/" target="_blank" style="text-decoration: none; color: #3498db;">Color Shades</a>
-        <div style="margin-top: 8px;">
-            <img src="/hexo-blog/images/cssgradient.io-color-shades.png" alt="CSS Gradient Color Shades" title="CSS Gradient Color Shades" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-        </div>
-    </li>
-    <li style="margin-top: 15px;">
-        <a href="https://cssgradient.io/gradient-backgrounds/" target="_blank" style="text-decoration: none; color: #3498db;">Gradient Backgrounds</a>
-        <div style="margin-top: 8px;">
-            <img src="/hexo-blog/images/cssgradient.io-gradient-backgrounds.png" alt="CSS Gradient Backgrounds" title="CSS Gradient Backgrounds" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-        </div>
-    </li>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
 </ol>
 ]]></content>
       <categories>
         <category>Tutorials</category>
       </categories>
       <tags>
-        <tag>tutorial</tag>
-        <tag>ux_ui</tag>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>
@@ -6505,6 +7497,55 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tutorial</tag>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UX UI tools</title>
+    <url>/hexo-blog/2024/09/28/tutorials/ux_ui_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- Main Title and Introduction -->
+<h2 style="margin-bottom: 15px; font-weight: italic; background-color: #f4f4f4; padding: 10px; border-radius: 5px; color: #2C3E50;">
+  This post contains a list of discovered UX/UI web tools and additional information to help understand their features.
+</h2>
+
+<hr>
+<p><strong>List of tools</strong></p>
+<ol>
+<li><a href="#cssgradient_io">cssgradient.io</a></li>
+</ol>
+<hr>
+<!-- Header 2 Section with Tool Name -->
+<h2 style="margin-top: 25px;  color: #b03a2e;" id = cssgradient_io>cssgradient.io</h2>
+
+<!-- Tool Home Page Link and Preview Image -->
+<h3 style="margin: 15px 0;">Home Page</h3>
+<a href="https://cssgradient.io/" target="_blank" style="text-decoration: none; color: #3498db;">https://cssgradient.io/</a>
+<div style="margin-top: 10px;">
+    <img src="/hexo-blog/images/cssgradient_site_preview.png" alt="CSS Gradient Home Page" title="CSS Gradient Home Page" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div>
+
+<!-- Header 4 Section with Additional Resources -->
+<h4 style="margin-top: 25px;">See Also:</h4>
+<ol>
+    <li>
+        <a href="https://cssgradient.io/color-shades/" target="_blank" style="text-decoration: none; color: #3498db;">Color Shades</a>
+        <div style="margin-top: 8px;">
+            <img src="/hexo-blog/images/cssgradient.io-color-shades.png" alt="CSS Gradient Color Shades" title="CSS Gradient Color Shades" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+        </div>
+    </li>
+    <li style="margin-top: 15px;">
+        <a href="https://cssgradient.io/gradient-backgrounds/" target="_blank" style="text-decoration: none; color: #3498db;">Gradient Backgrounds</a>
+        <div style="margin-top: 8px;">
+            <img src="/hexo-blog/images/cssgradient.io-gradient-backgrounds.png" alt="CSS Gradient Backgrounds" title="CSS Gradient Backgrounds" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+        </div>
+    </li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>ux_ui</tag>
       </tags>
   </entry>
 </search>

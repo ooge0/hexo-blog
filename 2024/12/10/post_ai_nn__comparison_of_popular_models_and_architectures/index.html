@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QND5GLPYZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QND5GLPYZV');
+</script>
+<!-- End Google Analytics -->
+
+  
+  <title>Comparison of popular models and architectures |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="Related to:  List of neural network models, architectures, and basic components      Table  - Single models with optionsDetailed Breakdown of Popular Models and ArchitecturesAutoencoders   Category De">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Comparison of popular models and architectures">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/12/10/post_ai_nn__comparison_of_popular_models_and_architectures/">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="Related to:  List of neural network models, architectures, and basic components      Table  - Single models with optionsDetailed Breakdown of Popular Models and ArchitecturesAutoencoders   Category De">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-12-10T17:30:33.000Z">
+<meta property="article:modified_time" content="2024-12-12T11:39:51.915Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="NN">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/hexo-blog/atom.xml" title=" " type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="page-post_ai_nn__comparison_of_popular_models_and_architectures" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/2024/12/10/post_ai_nn__comparison_of_popular_models_and_architectures/" class="article-date">
+  <time class="dt-published" datetime="2024-12-10T17:30:33.000Z" itemprop="datePublished">2024-12-10</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Comparison of popular models and architectures
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to:</p>
+<ul>
+<li><a href="../../../../post_ai_nn__list_of_neural_network_models_architectures_and_basic_components">List of neural network models, architectures, and basic components</a></li>
+</ul>
+<hr>
+<!-- ## Table - Models vs features
+
+| **Model/Architecture** | **Basic Components**                                    | **Open-Source/ Forbidden for Modifications** | **Criteria of Measuring Model Productivity** | **Model's Parameters (Changeable/Non-Changeable)** | **Criteria of Measuring Parameter's Productivity** | **Model's Hyperparameters (Changeable/Non-Changeable)** | **Criteria of Measuring Hyperparameter's Productivity** | **Basic Components of Hyperparameter's Productivity** |
+|-------------------------|--------------------------------------------------------|-----------------------------------------------|-----------------------------------------------|----------------------------------------------------|----------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| **Autoencoders**        | Encoder, Decoder, Latent Space                         | Open-Source                                   | Reconstruction Loss                            | Weights (Changeable), Latent Dimensions (Fixed)    | Reconstruction Accuracy                              | Learning Rate, Latent Dimension Size (Changeable)       | Lower Reconstruction Error                             | Effective Latent Space Size, Training Convergence Rate |
+| **CNN**                 | Convolution Layers, Pooling, Fully Connected Layers    | Open-Source                                   | Accuracy, Precision, Recall, F1-Score         | Filter Weights (Changeable), Input Channels (Fixed)| Detection Accuracy                                   | Kernel Size, Stride, Number of Filters (Changeable)     | Higher Feature Extraction Quality                      | Filter Efficiency, Computational Cost                 |
+| **RNN**                 | Recurrent Layers, Activation Functions                | Open-Source                                   | Perplexity, Accuracy, BLEU Score (NLP)        | Hidden State (Changeable), Sequence Length (Fixed) | Temporal Pattern Capture Efficiency                 | Learning Rate, Hidden State Size (Changeable)           | Sequence Learning Performance                          | Effective Sequence Memory Size                        |
+| **FNN**                 | Neurons, Dense Layers, Activation Functions           | Open-Source                                   | Accuracy, Loss Reduction                       | Weights (Changeable), Bias (Fixed)                | Accuracy and Loss Reduction                          | Learning Rate, Number of Layers (Changeable)            | Loss Convergence Rate                                  | Layer Depth, Weight Initialization Strategy           |
+| **LSTM**                | LSTM Cells (Input, Forget, Output Gates)              | Open-Source                                   | Perplexity, Accuracy (Time-Series, NLP)        | Cell Weights (Changeable), Memory Cell (Fixed)    | Long-Term Dependency Capture Efficiency             | Learning Rate, Number of Layers (Changeable)            | Retention of Long-Term Dependencies                   | Sequence Retention and Gradient Stability             |
+| **GNN**                 | Node Embeddings, Edge Features, Graph Convolutions    | Open-Source                                   | Node Classification Accuracy, Link Prediction | Edge Weights (Changeable), Node Attributes (Fixed)| Graph Feature Capture Efficiency                    | Number of Layers, Embedding Size (Changeable)           | Graph-Level Feature Generalization                    | Graph Topology Learning                                |
+| **BERT**                | Encoder, Multi-Head Attention, Feedforward Layers     | Open-Source                                   | F1-Score, Exact Match (QA), Perplexity         | Token Embeddings (Changeable), Vocabulary (Fixed) | Contextual Understanding Quality                    | Learning Rate, Batch Size, Sequence Length (Changeable)| Contextual Embedding Accuracy                         | Attention Mechanism, Positional Encoding              |
+| **BART**                | Encoder-Decoder, Multi-Head Attention, Feedforward    | Open-Source                                   | Rouge Score, BLEU Score                        | Attention Weights (Changeable), Vocabulary (Fixed)| Summarization and Translation Accuracy              | Learning Rate, Number of Heads (Changeable)             | Text Generation Quality                               | Encoder-Decoder Consistency                           |
+| **T5**                  | Encoder-Decoder, Attention Mechanisms, Feedforward    | Open-Source                                   | Rouge Score, BLEU Score                        | Token Embeddings (Changeable), Vocabulary (Fixed) | Text-to-Text Conversion Accuracy                    | Sequence Length, Beam Width (Changeable)                | Text Generation Coherence                             | Attention Span, Latent Representation Quality         |
+| **LLAMA**               | Transformer Layers, Feedforward Layers, Attention     | Restricted for Modifications                  | F1-Score, Rouge Score                          | Attention Weights (Changeable), Vocabulary (Fixed)| Generative Output Accuracy                          | Number of Layers, Head Size (Changeable)                | Latent Representation Consistency                     | Layer-to-Layer Weight Propagation                     |
+| **GPT**                 | Transformer Decoder, Feedforward Layers, Attention    | Open-Source                                   | Perplexity, BLEU Score                         | Attention Weights (Changeable), Vocabulary (Fixed)| Generative Text Coherence                            | Learning Rate, Model Depth, Token Limit (Changeable)    | Generative Text Quality                               | Token Context Understanding                           |
+| **ViT (Vision Transformer)** | Patch Embedding, Transformer Layers, Attention        | Open-Source                                   | Accuracy, Precision, Recall, F1-Score         | Patch Embeddings (Changeable), Image Size (Fixed) | Image Feature Generalization                         | Patch Size, Attention Heads (Changeable)                | Visual Feature Learning Efficiency                    | Patch Extraction Accuracy, Attention Span             |
+
+---
+
+### Notes:
+1. **Open-Source vs. Forbidden for Modifications**: Models like LLAMA may have licensing restrictions preventing modification, while others are freely accessible for experimentation.
+2. **Criteria of Productivity**: Metrics vary by task, e.g., classification accuracy for vision tasks, BLEU scores for translation, or F1-scores for question-answering.
+3. **Parameters vs. Hyperparameters**: Parameters are learned during training (e.g., weights), whereas hyperparameters are manually set and adjusted (e.g., learning rate, number of layers).
+4. **Measuring Hyperparameter Productivity**: Includes monitoring loss convergence, validation performance, and computational efficiency.
+
+
+## Table - Features vs models
+# Comparison of Popular Models and Architectures
+
+| **Category**                               | **Autoencoders**                | **CNN**                            | **RNN**                             | **FNN**                             | **LSTM**                            | **GNN**                             | **BERT**                            | **BART**                            | **T5**                              | **LLAMA**                           | **GPT**                             | **ViT**                             |
+|--------------------------------------------|----------------------------------|-------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+| **Basic Components**                       | Encoder, Decoder, Latent Space  | Convolution Layers, Pooling, Fully Connected Layers | Recurrent Layers, Activation Functions | Neurons, Dense Layers, Activation Functions | LSTM Cells (Input, Forget, Output Gates) | Node Embeddings, Edge Features, Graph Convolutions | Encoder, Multi-Head Attention, Feedforward Layers | Encoder-Decoder, Multi-Head Attention, Feedforward | Encoder-Decoder, Attention Mechanisms, Feedforward | Transformer Layers, Feedforward Layers, Attention | Transformer Decoder, Feedforward Layers, Attention | Patch Embedding, Transformer Layers, Attention |
+| **Open-Source/ Forbidden for Modifications** | Open-Source                     | Open-Source                        | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Open-Source                          | Restricted for Modifications         | Open-Source                          | Open-Source                          |
+| **Criteria of Measuring Model Productivity** | Reconstruction Loss             | Accuracy, Precision, Recall, F1-Score | Perplexity, Accuracy, BLEU Score (NLP) | Accuracy, Loss Reduction             | Perplexity, Accuracy (Time-Series, NLP) | Node Classification Accuracy, Link Prediction | F1-Score, Exact Match (QA), Perplexity | Rouge Score, BLEU Score             | Rouge Score, BLEU Score             | F1-Score, Rouge Score                | Perplexity, BLEU Score               | Accuracy, Precision, Recall, F1-Score |
+| **Model's Parameters (Changeable/Non-Changeable)** | Weights (Changeable), Latent Dimensions (Fixed) | Filter Weights (Changeable), Input Channels (Fixed) | Hidden State (Changeable), Sequence Length (Fixed) | Weights (Changeable), Bias (Fixed)  | Cell Weights (Changeable), Memory Cell (Fixed) | Edge Weights (Changeable), Node Attributes (Fixed) | Token Embeddings (Changeable), Vocabulary (Fixed) | Attention Weights (Changeable), Vocabulary (Fixed) | Token Embeddings (Changeable), Vocabulary (Fixed) | Attention Weights (Changeable), Vocabulary (Fixed) | Attention Weights (Changeable), Vocabulary (Fixed) | Patch Embeddings (Changeable), Image Size (Fixed) |
+| **Criteria of Measuring Parameter's Productivity** | Reconstruction Accuracy         | Detection Accuracy                 | Temporal Pattern Capture Efficiency  | Accuracy and Loss Reduction          | Long-Term Dependency Capture Efficiency | Graph Feature Capture Efficiency    | Contextual Understanding Quality     | Summarization and Translation Accuracy | Text-to-Text Conversion Accuracy    | Generative Output Accuracy           | Generative Text Coherence            | Image Feature Generalization         |
+| **Model's Hyperparameters (Changeable/Non-Changeable)** | Learning Rate, Latent Dimension Size (Changeable) | Kernel Size, Stride, Number of Filters (Changeable) | Learning Rate, Hidden State Size (Changeable) | Learning Rate, Number of Layers (Changeable) | Learning Rate, Number of Layers (Changeable) | Number of Layers, Embedding Size (Changeable) | Learning Rate, Batch Size, Sequence Length (Changeable) | Learning Rate, Number of Heads (Changeable) | Sequence Length, Beam Width (Changeable) | Number of Layers, Head Size (Changeable) | Learning Rate, Model Depth, Token Limit (Changeable) | Patch Size, Attention Heads (Changeable) |
+| **Criteria of Measuring Hyperparameter's Productivity** | Lower Reconstruction Error      | Higher Feature Extraction Quality  | Sequence Learning Performance        | Loss Convergence Rate                | Retention of Long-Term Dependencies  | Graph-Level Feature Generalization  | Contextual Embedding Accuracy        | Text Generation Quality              | Text Generation Coherence            | Latent Representation Consistency    | Generative Text Quality              | Visual Feature Learning Efficiency   |
+| **Basic Components of Hyperparameter's Productivity** | Effective Latent Space Size, Training Convergence Rate | Filter Efficiency, Computational Cost | Effective Sequence Memory Size       | Layer Depth, Weight Initialization Strategy | Sequence Retention and Gradient Stability | Graph Topology Learning             | Attention Mechanism, Positional Encoding | Encoder-Decoder Consistency         | Attention Span, Latent Representation Quality | Layer-to-Layer Weight Propagation    | Token Context Understanding          | Patch Extraction Accuracy, Attention Span | -->
+
+
+<h2 id="Table-Single-models-with-options"><a href="#Table-Single-models-with-options" class="headerlink" title="Table  - Single models with options"></a>Table  - Single models with options</h2><h1 id="Detailed-Breakdown-of-Popular-Models-and-Architectures"><a href="#Detailed-Breakdown-of-Popular-Models-and-Architectures" class="headerlink" title="Detailed Breakdown of Popular Models and Architectures"></a>Detailed Breakdown of Popular Models and Architectures</h1><h2 id="Autoencoders"><a href="#Autoencoders" class="headerlink" title="Autoencoders"></a>Autoencoders</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder, Decoder, Latent Space</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Reconstruction Loss</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Weights (Changeable), Latent Dimensions (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Reconstruction Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Latent Dimension Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Lower Reconstruction Error</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Effective Latent Space Size, Training Convergence Rate</td>
+</tr>
+</tbody></table>
+<h2 id="CNN-Convolutional-Neural-Networks"><a href="#CNN-Convolutional-Neural-Networks" class="headerlink" title="CNN (Convolutional Neural Networks)"></a>CNN (Convolutional Neural Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Convolution Layers, Pooling, Fully Connected Layers</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Accuracy, Precision, Recall, F1-Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Filter Weights (Changeable), Input Channels (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Detection Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Kernel Size, Stride, Number of Filters (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Higher Feature Extraction Quality</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Filter Efficiency, Computational Cost</td>
+</tr>
+</tbody></table>
+<h2 id="RNN-Recurrent-Neural-Networks"><a href="#RNN-Recurrent-Neural-Networks" class="headerlink" title="RNN (Recurrent Neural Networks)"></a>RNN (Recurrent Neural Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Recurrent Layers, Activation Functions</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Perplexity, Accuracy, BLEU Score (NLP)</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Hidden State (Changeable), Sequence Length (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Temporal Pattern Capture Efficiency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Hidden State Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Sequence Learning Performance</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Effective Sequence Memory Size</td>
+</tr>
+</tbody></table>
+<h2 id="LSTM-Long-Short-Term-Memory-Networks"><a href="#LSTM-Long-Short-Term-Memory-Networks" class="headerlink" title="LSTM (Long Short-Term Memory Networks)"></a>LSTM (Long Short-Term Memory Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>LSTM Cells (Input, Forget, Output Gates)</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Perplexity, Accuracy (Time-Series, NLP)</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Cell Weights (Changeable), Memory Cell (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Long-Term Dependency Capture Efficiency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Number of Layers (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Retention of Long-Term Dependencies</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Sequence Retention and Gradient Stability</td>
+</tr>
+</tbody></table>
+<h2 id="GNN-Graph-Neural-Networks"><a href="#GNN-Graph-Neural-Networks" class="headerlink" title="GNN (Graph Neural Networks)"></a>GNN (Graph Neural Networks)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Node Classification Accuracy, Link Prediction</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Edge Weights (Changeable), Node Attributes (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Graph Feature Capture Efficiency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Number of Layers, Embedding Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Graph-Level Feature Generalization</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Graph Topology Learning</td>
+</tr>
+</tbody></table>
+<h2 id="BERT-Bidirectional-Encoder-Representations-from-Transformers"><a href="#BERT-Bidirectional-Encoder-Representations-from-Transformers" class="headerlink" title="BERT (Bidirectional Encoder Representations from Transformers)"></a>BERT (Bidirectional Encoder Representations from Transformers)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder, Multi-Head Attention, Feedforward Layers</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>F1-Score, Exact Match (QA), Perplexity</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Token Embeddings (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Contextual Understanding Quality</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Batch Size, Sequence Length (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Contextual Embedding Accuracy</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Attention Mechanism, Positional Encoding</td>
+</tr>
+</tbody></table>
+<h2 id="BART-Bidirectional-and-Auto-Regressive-Transformers"><a href="#BART-Bidirectional-and-Auto-Regressive-Transformers" class="headerlink" title="BART (Bidirectional and Auto-Regressive Transformers)"></a>BART (Bidirectional and Auto-Regressive Transformers)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder-Decoder, Multi-Head Attention, Feedforward</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Rouge Score, BLEU Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Attention Weights (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Summarization and Translation Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Number of Heads (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Text Generation Quality</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Encoder-Decoder Consistency</td>
+</tr>
+</tbody></table>
+<h2 id="T5-Text-to-Text-Transfer-Transformer"><a href="#T5-Text-to-Text-Transfer-Transformer" class="headerlink" title="T5 (Text-to-Text Transfer Transformer)"></a>T5 (Text-to-Text Transfer Transformer)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Encoder-Decoder, Attention Mechanisms, Feedforward</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Rouge Score, BLEU Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Token Embeddings (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Text-to-Text Conversion Accuracy</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Sequence Length, Beam Width (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Text Generation Coherence</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Attention Span, Latent Representation Quality</td>
+</tr>
+</tbody></table>
+<h2 id="LLAMA"><a href="#LLAMA" class="headerlink" title="LLAMA"></a>LLAMA</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Transformer Layers, Feedforward Layers, Attention</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Restricted for Modifications</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>F1-Score, Rouge Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Attention Weights (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Latent Representation Consistency</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Number of Layers, Head Size (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Layer-to-Layer Weight Propagation</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Transformer Block Efficiency</td>
+</tr>
+</tbody></table>
+<h2 id="GPT-Generative-Pre-trained-Transformer"><a href="#GPT-Generative-Pre-trained-Transformer" class="headerlink" title="GPT (Generative Pre-trained Transformer)"></a>GPT (Generative Pre-trained Transformer)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Transformer Decoder, Feedforward Layers, Attention</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Perplexity, BLEU Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Attention Weights (Changeable), Vocabulary (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Generative Text Coherence</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Learning Rate, Model Depth, Token Limit (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Generative Text Quality</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Token Context Understanding</td>
+</tr>
+</tbody></table>
+<h2 id="ViT-Vision-Transformer"><a href="#ViT-Vision-Transformer" class="headerlink" title="ViT (Vision Transformer)"></a>ViT (Vision Transformer)</h2><table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Basic Components</strong></td>
+<td>Patch Embedding, Transformer Layers, Attention</td>
+</tr>
+<tr>
+<td><strong>Open-Source&#x2F; Forbidden</strong></td>
+<td>Open-Source</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Productivity</strong></td>
+<td>Accuracy, Precision, Recall, F1-Score</td>
+</tr>
+<tr>
+<td><strong>Model’s Parameters</strong></td>
+<td>Patch Embeddings (Changeable), Image Size (Fixed)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Parameter’s Productivity</strong></td>
+<td>Visual Feature Generalization</td>
+</tr>
+<tr>
+<td><strong>Model’s Hyperparameters</strong></td>
+<td>Patch Size, Attention Heads (Changeable)</td>
+</tr>
+<tr>
+<td><strong>Criteria of Measuring Hyperparameter’s Productivity</strong></td>
+<td>Patch Extraction Accuracy, Attention Span</td>
+</tr>
+<tr>
+<td><strong>Basic Components of Hyperparameter’s Productivity</strong></td>
+<td>Image Feature Learning Efficiency</td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/12/10/post_ai_nn__comparison_of_popular_models_and_architectures/" data-id="cm4l91slr002n94kkg0rlg06q" data-title="Comparison of popular models and architectures" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/NN/" rel="tag">NN</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Fine-Tuning vs. Training Models for Specific Tasks
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">List of neural network models, architectures, and basic components</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">55</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/QA/">QA</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 20px;">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 11px;">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/BART/" style="font-size: 10px;">BART</a> <a href="/hexo-blog/tags/BERT/" style="font-size: 10px;">BERT</a> <a href="/hexo-blog/tags/Dashdevs/" style="font-size: 10px;">Dashdevs</a> <a href="/hexo-blog/tags/DocPublishing/" style="font-size: 10px;">DocPublishing</a> <a href="/hexo-blog/tags/GPT2/" style="font-size: 10px;">GPT2</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 14px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 10px;">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 19px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 17px;">NLP</a> <a href="/hexo-blog/tags/NLTK/" style="font-size: 10px;">NLTK</a> <a href="/hexo-blog/tags/NN/" style="font-size: 12px;">NN</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 10px;">NPF</a> <a href="/hexo-blog/tags/ReadTheDocs/" style="font-size: 10px;">ReadTheDocs</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 10px;">VADER</a> <a href="/hexo-blog/tags/object-Object/" style="font-size: 10px;">[object Object]</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 11px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 10px;">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 10px;">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 10px;">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 10px;">data_mining</a> <a href="/hexo-blog/tags/db/" style="font-size: 10px;">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 15px;">dev_side</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 10px;">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 11px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/kafka/" style="font-size: 10px;">kafka</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11px;">knowledge</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 11px;">lexic</a> <a href="/hexo-blog/tags/linguistic/" style="font-size: 11px;">linguistic</a> <a href="/hexo-blog/tags/logger/" style="font-size: 10px;">logger</a> <a href="/hexo-blog/tags/loguru/" style="font-size: 10px;">loguru</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 16px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 13px;">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 10px;">parsing</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 13px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/python/" style="font-size: 12px;">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 12px;">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 10px;">qa_check_list</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 14px;">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 11px;">sentiment_analysis</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 10px;">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 18px;">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 10px;">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/web/" style="font-size: 10px;">web</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/05/">May 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/12/post_linquistic__text_coherence_vs_text_quiality/">Text Generation Coherence vs. Text Generation Quality</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/">Fine-Tuning vs. Training Models for Specific Tasks</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/10/post_ai_nn__comparison_of_popular_models_and_architectures/">Comparison of popular models and architectures</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/">List of neural network models, architectures, and basic components</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/04/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 si0n4ra<br>
+      <!-- Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> (v7.3.0) hexo-cli: 4.3.2 -->
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo v.7.3.0</a> & hexo-cli: 4.3.2
+      <br>Theme: <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">landscape</a>
+    </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
