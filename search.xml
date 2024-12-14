@@ -248,56 +248,6 @@
       </tags>
   </entry>
   <entry>
-    <title>AI glossaries list</title>
-    <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
-<ul>
-<li>Glossary-of-Artificial-Intelligence<ul>
-<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
-<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
-<li>Text + pictures + some python code snippets</li>
-<li>It covers just ‘A’ letter.</li>
-</ul>
-</li>
-<li>Artificial Intelligence and Data Science<ul>
-<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
-<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
-<li>Basic terms for artificial intelligence and data science. Just few terms</li>
-</ul>
-</li>
-<li>AI-Glossary<ul>
-<li>A glossary of terms in AI and their corresponding papers.</li>
-<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
-<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
-</ul>
-</li>
-<li>Generative AI Terminology<ul>
-<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
-</ul>
-</li>
-<li>AI Dictionary<ul>
-<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
-</ul>
-</li>
-<li>Online glossary of machine learning terms<ul>
-<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
-<li>Well srtuctured and informative resource</li>
-</ul>
-</li>
-</ul>
-<p><strong>Other</strong></p>
-<ul>
-<li><a href="https://csrc.nist.gov/glossary">NIST glossary</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Evaluating AI Applications. Checklist</title>
     <url>/hexo-blog/2024/10/28/post_ai__evaluating_ai_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Evaluation-of-AI-Prompts"><a href="#1-Evaluation-of-AI-Prompts" class="headerlink" title="1. Evaluation of AI Prompts"></a>1. Evaluation of AI Prompts</h2><h3 id="1-1-Prompt-Clarity"><a href="#1-1-Prompt-Clarity" class="headerlink" title="1.1 Prompt Clarity"></a>1.1 <strong>Prompt Clarity</strong></h3><ul>
@@ -433,6 +383,56 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI glossaries list</title>
+    <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
+<ul>
+<li>Glossary-of-Artificial-Intelligence<ul>
+<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
+<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
+<li>Text + pictures + some python code snippets</li>
+<li>It covers just ‘A’ letter.</li>
+</ul>
+</li>
+<li>Artificial Intelligence and Data Science<ul>
+<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
+<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
+<li>Basic terms for artificial intelligence and data science. Just few terms</li>
+</ul>
+</li>
+<li>AI-Glossary<ul>
+<li>A glossary of terms in AI and their corresponding papers.</li>
+<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
+<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
+</ul>
+</li>
+<li>Generative AI Terminology<ul>
+<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
+</ul>
+</li>
+<li>AI Dictionary<ul>
+<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
+</ul>
+</li>
+<li>Online glossary of machine learning terms<ul>
+<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
+<li>Well srtuctured and informative resource</li>
+</ul>
+</li>
+</ul>
+<p><strong>Other</strong></p>
+<ul>
+<li><a href="https://csrc.nist.gov/glossary">NIST glossary</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1416,51 +1416,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Fine-tuning vs. Feature-based Approaches</title>
-    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
-<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
-<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
-<p><strong>Key Differences:</strong></p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Fine-tuning</th>
-<th>Feature-based</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Model Modification</td>
-<td>Adjusts weights of pre-trained model</td>
-<td>Extracts features, trains new model</td>
-</tr>
-<tr>
-<td>Computational Cost</td>
-<td>Higher</td>
-<td>Lower</td>
-</tr>
-<tr>
-<td>Task Similarity</td>
-<td>Best for similar tasks</td>
-<td>Can be used for diverse tasks</td>
-</tr>
-<tr>
-<td>Data Requirements</td>
-<td>More data needed</td>
-<td>Less data needed</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>LLM system prompts</title>
     <url>/hexo-blog//ai_ml_llm_system_prompts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="LLM-System-Prompt-Generator"><a href="#LLM-System-Prompt-Generator" class="headerlink" title="LLM System Prompt Generator"></a>LLM System Prompt Generator</h1><h2 id="💡-Creative-Idea-Generator-—-AI-powered-brainstorming-tool-for-generating-creative-solutions-and-ideas"><a href="#💡-Creative-Idea-Generator-—-AI-powered-brainstorming-tool-for-generating-creative-solutions-and-ideas" class="headerlink" title="💡 Creative Idea Generator — AI-powered brainstorming tool for generating creative solutions and ideas"></a>💡 <a href="https://chatgpt.com/g/g-zucYjaMne-creative-answers-brainstorm-gpt">Creative Idea Generator</a> — AI-powered brainstorming tool for generating creative solutions and ideas</h2><hr>
@@ -1607,6 +1562,51 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>LLM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fine-tuning vs. Feature-based Approaches</title>
+    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
+<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
+<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
+<p><strong>Key Differences:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Fine-tuning</th>
+<th>Feature-based</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Model Modification</td>
+<td>Adjusts weights of pre-trained model</td>
+<td>Extracts features, trains new model</td>
+</tr>
+<tr>
+<td>Computational Cost</td>
+<td>Higher</td>
+<td>Lower</td>
+</tr>
+<tr>
+<td>Task Similarity</td>
+<td>Best for similar tasks</td>
+<td>Can be used for diverse tasks</td>
+</tr>
+<tr>
+<td>Data Requirements</td>
+<td>More data needed</td>
+<td>Less data needed</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -3503,7 +3503,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <hr>
 <h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><h3 id="Base-model"><a href="#Base-model" class="headerlink" title="Base model"></a>Base model</h3><p>The original, foundational version of a large language model, which has not been fine-tuned.</p>
 <hr>
-<h3 id="BERT"><a href="#BERT" class="headerlink" title="BERT"></a>BERT</h3><h2 id="Bidirectional-Encoder-Representations-from-Transformers-DEveloped-in-2018-BERT-is-designed-to-pre-train-deep-bidirectional-representations-from-unlabeled-text-by-jointly-conditioning-on-both-left-and-right-context-in-all-layers-As-a-result-the-pre-trained-BERT-model-can-be-fine-tuned-with-just-one-additional-output-layer-to-create-state-of-the-art-models-for-a-wide-range-of-tasks-such-as-question-answering-and-language-inference-without-substantial-task-specific-architecture-modifications-BERT-is-conceptually-simple-and-empirically-powerful-It-obtains-new-state-of-the-art-results-on-eleven-natural-language-processing-tasks-including-pushing-the-GLUE-score-to-80-5-7-7-point-absolute-improvement-MultiNLI-accuracy-to-86-7-4-6-absolute-improvement-SQuAD-v1-1-question-answering-Test-F1-to-93-2-1-5-point-absolute-improvement-and-SQuAD-v2-0-Test-F1-to-83-1-5-1-point-absolute-improvement-Paper-BERT-Pre-training-of-Deep-Bidirectional-Transformers-forLanguage-Understanding-2018-DOI-10-18653-v1-N19-1423-Read-on-arxiv-org-Post-BERT-Transformers-–-How-Do-They-Work"><a href="#Bidirectional-Encoder-Representations-from-Transformers-DEveloped-in-2018-BERT-is-designed-to-pre-train-deep-bidirectional-representations-from-unlabeled-text-by-jointly-conditioning-on-both-left-and-right-context-in-all-layers-As-a-result-the-pre-trained-BERT-model-can-be-fine-tuned-with-just-one-additional-output-layer-to-create-state-of-the-art-models-for-a-wide-range-of-tasks-such-as-question-answering-and-language-inference-without-substantial-task-specific-architecture-modifications-BERT-is-conceptually-simple-and-empirically-powerful-It-obtains-new-state-of-the-art-results-on-eleven-natural-language-processing-tasks-including-pushing-the-GLUE-score-to-80-5-7-7-point-absolute-improvement-MultiNLI-accuracy-to-86-7-4-6-absolute-improvement-SQuAD-v1-1-question-answering-Test-F1-to-93-2-1-5-point-absolute-improvement-and-SQuAD-v2-0-Test-F1-to-83-1-5-1-point-absolute-improvement-Paper-BERT-Pre-training-of-Deep-Bidirectional-Transformers-forLanguage-Understanding-2018-DOI-10-18653-v1-N19-1423-Read-on-arxiv-org-Post-BERT-Transformers-–-How-Do-They-Work" class="headerlink" title="Bidirectional Encoder Representations from Transformers. DEveloped in 2018.BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).Paper:  - BERT: Pre-training of Deep Bidirectional Transformers forLanguage Understanding. 2018    - DOI: 10.18653&#x2F;v1&#x2F;N19-1423    - Read on arxiv.org  Post  - BERT Transformers – How Do They Work?"></a>Bidirectional Encoder Representations from Transformers. DEveloped in 2018.<br>BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.<br>BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).<br><strong>Paper:</strong><br>  - BERT: Pre-training of Deep Bidirectional Transformers for<br>Language Understanding. 2018<br>    - DOI: <a href="https://doi.org/10.18653/v1%2FN19-1423">10.18653&#x2F;v1&#x2F;N19-1423</a><br>    - <a href="https://arxiv.org/pdf/1810.04805">Read on arxiv.org</a><br>  <strong>Post</strong><br>  - <a href="https://www.exxactcorp.com/blog/Deep-Learning/how-do-bert-transformers-work">BERT Transformers – How Do They Work?</a></h2><h3 id="BERTScore"><a href="#BERTScore" class="headerlink" title="BERTScore"></a>BERTScore</h3><ul>
+<h3 id="BERT"><a href="#BERT" class="headerlink" title="BERT"></a>BERT</h3><h2 id="Bidirectional-Encoder-Representations-from-Transformers-DEveloped-in-2018-BERT-is-designed-to-pre-train-deep-bidirectional-representations-from-unlabeled-text-by-jointly-conditioning-on-both-left-and-right-context-in-all-layers-As-a-result-the-pre-trained-BERT-model-can-be-fine-tuned-with-just-one-additional-output-layer-to-create-state-of-the-art-models-for-a-wide-range-of-tasks-such-as-question-answering-and-language-inference-without-substantial-task-specific-architecture-modifications-BERT-is-conceptually-simple-and-empirically-powerful-It-obtains-new-state-of-the-art-results-on-eleven-natural-language-processing-tasks-including-pushing-the-GLUE-score-to-80-5-7-7-point-absolute-improvement-MultiNLI-accuracy-to-86-7-4-6-absolute-improvement-SQuAD-v1-1-question-answering-Test-F1-to-93-2-1-5-point-absolute-improvement-and-SQuAD-v2-0-Test-F1-to-83-1-5-1-point-absolute-improvement-Paper-BERT-Pre-training-of-Deep-Bidirectional-Transformers-forLanguage-Understanding-2018-DOI-10-18653-v1-N19-1423-Read-on-arxiv-org-Post-BERT-Transformers-–-How-Do-They-Work"><a href="#Bidirectional-Encoder-Representations-from-Transformers-DEveloped-in-2018-BERT-is-designed-to-pre-train-deep-bidirectional-representations-from-unlabeled-text-by-jointly-conditioning-on-both-left-and-right-context-in-all-layers-As-a-result-the-pre-trained-BERT-model-can-be-fine-tuned-with-just-one-additional-output-layer-to-create-state-of-the-art-models-for-a-wide-range-of-tasks-such-as-question-answering-and-language-inference-without-substantial-task-specific-architecture-modifications-BERT-is-conceptually-simple-and-empirically-powerful-It-obtains-new-state-of-the-art-results-on-eleven-natural-language-processing-tasks-including-pushing-the-GLUE-score-to-80-5-7-7-point-absolute-improvement-MultiNLI-accuracy-to-86-7-4-6-absolute-improvement-SQuAD-v1-1-question-answering-Test-F1-to-93-2-1-5-point-absolute-improvement-and-SQuAD-v2-0-Test-F1-to-83-1-5-1-point-absolute-improvement-Paper-BERT-Pre-training-of-Deep-Bidirectional-Transformers-forLanguage-Understanding-2018-DOI-10-18653-v1-N19-1423-Read-on-arxiv-org-Post-BERT-Transformers-–-How-Do-They-Work" class="headerlink" title="Bidirectional Encoder Representations from Transformers. DEveloped in 2018.BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).Paper:  - BERT: Pre-training of Deep Bidirectional Transformers forLanguage Understanding. 2018    - DOI: 10.18653&#x2F;v1&#x2F;N19-1423    - Read on arxiv.org  Post  - BERT Transformers – How Do They Work?
+  "></a>Bidirectional Encoder Representations from Transformers. DEveloped in 2018.<br>BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications.<br>BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).<br><strong>Paper:</strong><br>  - BERT: Pre-training of Deep Bidirectional Transformers for<br>Language Understanding. 2018<br>    - DOI: <a href="https://doi.org/10.18653/v1%2FN19-1423">10.18653&#x2F;v1&#x2F;N19-1423</a><br>    - <a href="https://arxiv.org/pdf/1810.04805">Read on arxiv.org</a><br>  <strong>Post</strong><br>  - <a href="https://www.exxactcorp.com/blog/Deep-Learning/how-do-bert-transformers-work">BERT Transformers – How Do They Work?</a>
+  </h2><h3 id="BERTScore"><a href="#BERTScore" class="headerlink" title="BERTScore"></a>BERTScore</h3><ul>
 <li><strong>Description</strong>: Leverages contextual embeddings from BERT to evaluate semantic similarity between the generated and reference text.</li>
 <li><strong>Purpose</strong>: Captures semantic similarity more effectively than traditional n-gram-based metrics.</li>
 </ul>
@@ -5674,20 +5676,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blog&#39;s categories</title>
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
@@ -5705,9 +5693,35 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>stats</title>
     <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
   </entry>
   <entry>
     <title>blog deploy actions</title>
@@ -5743,18 +5757,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Sitemap</title>
     <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
@@ -5762,370 +5764,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <categories>
         <category>Maintanance</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Favorite post categories</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
-<ul>
-<li><a href="#post-details">Post Details</a><ul>
-<li><a href="#linkedin">LinkedIn</a></li>
-<li><a href="#medium">Medium</a></li>
-<li><a href="#other-resources">Other Resources</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
-<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
-</ul>
-<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
-<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
-</ul>
-<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
-<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
-<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
-<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
-<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
-<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
-<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
-<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
-<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
-<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
-<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
-<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
-<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
-<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
-<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
-<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
-<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
-<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
-<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
-<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
-<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
-<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
-<li>Author: Piotr Gaczkowski</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_medium_post</tag>
-        <tag>my_linkedin_post</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
-<hr>
-<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My tools</title>
-    <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h2><h3 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h3><ul>
-<li>Slack</li>
-<li>Zoom<ul>
-<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h3 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h3><ul>
-<li>Postman</li>
-<li>Insomnia</li>
-</ul>
-<h3 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h3><ul>
-<li>SSMS</li>
-<li>Dbviewer</li>
-</ul>
-<h3 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h3><ul>
-<li>Fiddler</li>
-<li>Charles</li>
-<li>Local proxy</li>
-</ul>
-<h3 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h3><ul>
-<li>Kafka</li>
-</ul>
-<h3 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h3><ul>
-<li>Jira </li>
-<li>TestRail</li>
-</ul>
-<p> </p>
-<h3 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h3><ul>
-<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
-<li>Amazon Virtual machines<ul>
-<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
-<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h3 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h3><ul>
-<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
-<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-</ul>
-<h3 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h3><ul>
-<li>Kibana </li>
-<li>Grafana </li>
-<li>Azure Application Insights</li>
-</ul>
-<p> </p>
-<h3 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h3><ol>
-<li><a href="https://ocr.space/">ocr.space</a> </li>
-<li><a href="http://www.structurise.com/screenshot-ocr/">structurise.com | make OCR from the clipboard</a></li>
-</ol>
-<h3 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h3><table>
-<thead>
-<tr>
-<th>No.</th>
-<th>Temporary Email Service</th>
-<th>URL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>10 Minute Mail</td>
-<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
-</tr>
-<tr>
-<td>2</td>
-<td>EmailOnDeck</td>
-<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Fake Mail Generator</td>
-<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
-</tr>
-<tr>
-<td>4</td>
-<td>FakeMail  &#x2F; TempMailAddress</td>
-<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
-</tr>
-<tr>
-<td>5</td>
-<td>GetNada</td>
-<td><a href="https://getnada.com/">https://getnada.com/</a></td>
-</tr>
-<tr>
-<td>6</td>
-<td>Guerrilla Mail</td>
-<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
-</tr>
-<tr>
-<td>7</td>
-<td>MailCatch</td>
-<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
-</tr>
-<tr>
-<td>8</td>
-<td>MailDrop</td>
-<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
-</tr>
-<tr>
-<td>9</td>
-<td>Mailinator</td>
-<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
-</tr>
-<tr>
-<td>10</td>
-<td>Mailnesia</td>
-<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
-</tr>
-<tr>
-<td>11</td>
-<td>Moakt</td>
-<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
-</tr>
-<tr>
-<td>12</td>
-<td>MyTemp.email</td>
-<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
-</tr>
-<tr>
-<td>13</td>
-<td>Proton mail</td>
-<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
-</tr>
-<tr>
-<td>14</td>
-<td>Temp Mail</td>
-<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
-</tr>
-<tr>
-<td>15</td>
-<td>Tempail</td>
-<td><a href="https://tempail.com/">https://tempail.com/</a></td>
-</tr>
-<tr>
-<td>16</td>
-<td>Temp-Mail.io</td>
-<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
-</tr>
-<tr>
-<td>17</td>
-<td>Throwawaymail</td>
-<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
-</tr>
-<tr>
-<td>18</td>
-<td>YOPmail</td>
-<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Other-tools"><a href="#Other-tools" class="headerlink" title="Other tools"></a>Other tools</h2><h3 id="Screenrecorders"><a href="#Screenrecorders" class="headerlink" title="Screenrecorders"></a>Screenrecorders</h3><h4 id="Offline-screenrecorder"><a href="#Offline-screenrecorder" class="headerlink" title="Offline screenrecorder"></a>Offline screenrecorder</h4><h5 id="OBS-studio"><a href="#OBS-studio" class="headerlink" title="OBS studio"></a>OBS studio</h5><ul>
-<li>Mac &#x2F; Windows &#x2F; Android</li>
-<li><a href="https://obsproject.com/download">https://obsproject.com/download</a></li>
-</ul>
-<h4 id="Online-screenrecorder"><a href="#Online-screenrecorder" class="headerlink" title="Online screenrecorder"></a>Online screenrecorder</h4><h5 id="Loom"><a href="#Loom" class="headerlink" title="Loom"></a>Loom</h5><ul>
-<li>Mac &#x2F; Windows &#x2F; Android</li>
-<li><a href="https://www.loom.com/screen-recorder">https://www.loom.com/screen-recorder</a></li>
-</ul>
-<h3 id="Generators"><a href="#Generators" class="headerlink" title="Generators"></a>Generators</h3><h4 id="User-fake-data"><a href="#User-fake-data" class="headerlink" title="User fake data"></a>User fake data</h4><ul>
-<li><p>jsonplaceholder.typicode.com</p>
-<ul>
-<li>fake data generator via JS code snippets</li>
-<li><a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a><div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__jsonplaceholder_typicode_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div></li>
-</ul>
-</li>
-<li><p>mockaroo.com</p>
-<ul>
-<li>fake data generator with prettty UI configuration</li>
-<li><a href="https://www.mockaroo.com/">https://www.mockaroo.com/</a><div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__mockaroo_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div></li>
-</ul>
-</li>
-</ul>
-<h4 id="Image-generators"><a href="#Image-generators" class="headerlink" title="Image generators"></a>Image generators</h4><ul>
-<li>image generator via parametrised HTTP requests<ul>
-<li><a href="https://dummyjson.com/docs/image">https://dummyjson.com/docs/image</a>  <div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__dummy_json_image_generator_example.png" alt="https://dummyjson.com/docs/image" title=" dummyjson.com/docs/image" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;"/>
-</div></li>
-</ul>
-</li>
-</ul>
-<h3 id="Free-video-samples"><a href="#Free-video-samples" class="headerlink" title="Free video samples"></a>Free video samples</h3><h4 id="file-examples-com-video"><a href="#file-examples-com-video" class="headerlink" title="file-examples.com&#x2F;video"></a>file-examples.com&#x2F;video</h4><ul>
-<li>AVI	 &#x2F; MOV &#x2F; OGG	&#x2F; MP4	&#x2F; WMV	&#x2F;WEBM</li>
-<li><a href="https://file-examples.com/index.php/sample-video-files/">https://file-examples.com/index.php/sample-video-files/</a></li>
-</ul>
-<h3 id="Free-images"><a href="#Free-images" class="headerlink" title="Free images"></a>Free images</h3><h4 id="file-examples-com-images"><a href="#file-examples-com-images" class="headerlink" title="file-examples.com&#x2F;images"></a>file-examples.com&#x2F;images</h4><ul>
-<li>JPG &#x2F; PNG  &#x2F;GIF &#x2F; TIFF &#x2F; ICO &#x2F; SVG &#x2F; WEBP</li>
-<li><a href="https://file-examples.com/index.php/sample-images-download/">https://file-examples.com/index.php/sample-images-download/</a></li>
-</ul>
-<h2 id="Display-extension"><a href="#Display-extension" class="headerlink" title="Display extension"></a>Display extension</h2><h3 id="spacedesk"><a href="#spacedesk" class="headerlink" title="spacedesk"></a>spacedesk</h3><p>Spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.<br><img src="/hexo-blog/images/space_desk_logo_image.png" alt="Spacedesk app" title="Spacedesk app" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p></p>
-<ul>
-<li>Web site: <a href="https://www.spacedesk.net/">https://www.spacedesk.net/</a></li>
-<li>Download page: <a href="https://www.spacedesk.net/download/">https://www.spacedesk.net/download/</a></li>
-<li>Installation guide for Windows: <a href="https://www.youtube.com/watch?v=iJ2bFcDUol8&t=262s">https://www.youtube.com/watch?v=iJ2bFcDUol8&amp;t=262s</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>apps</tag>
-        <tag>my_contribution</tag>
-      </tags>
   </entry>
   <entry>
     <title>HEXO.IO blog references</title>
@@ -6961,6 +6599,370 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Favorite post categories</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#post-details">Post Details</a><ul>
+<li><a href="#linkedin">LinkedIn</a></li>
+<li><a href="#medium">Medium</a></li>
+<li><a href="#other-resources">Other Resources</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
+<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
+</ul>
+<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
+<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
+</ul>
+<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
+<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
+<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
+<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
+<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
+<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
+<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
+<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
+<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
+<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
+<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
+<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
+<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
+<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
+<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
+<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
+<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
+<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
+<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
+<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
+<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
+<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
+<li>Author: Piotr Gaczkowski</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_medium_post</tag>
+        <tag>my_linkedin_post</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
+<hr>
+<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My tools</title>
+    <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h2><h3 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h3><ul>
+<li>Slack</li>
+<li>Zoom<ul>
+<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h3 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h3><ul>
+<li>Postman</li>
+<li>Insomnia</li>
+</ul>
+<h3 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h3><ul>
+<li>SSMS</li>
+<li>Dbviewer</li>
+</ul>
+<h3 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h3><ul>
+<li>Fiddler</li>
+<li>Charles</li>
+<li>Local proxy</li>
+</ul>
+<h3 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h3><ul>
+<li>Kafka</li>
+</ul>
+<h3 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h3><ul>
+<li>Jira </li>
+<li>TestRail</li>
+</ul>
+<p> </p>
+<h3 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h3><ul>
+<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
+<li>Amazon Virtual machines<ul>
+<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h3 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h3><ul>
+<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
+<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+</ul>
+<h3 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h3><ul>
+<li>Kibana </li>
+<li>Grafana </li>
+<li>Azure Application Insights</li>
+</ul>
+<p> </p>
+<h3 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h3><ol>
+<li><a href="https://ocr.space/">ocr.space</a> </li>
+<li><a href="http://www.structurise.com/screenshot-ocr/">structurise.com | make OCR from the clipboard</a></li>
+</ol>
+<h3 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h3><table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Temporary Email Service</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>10 Minute Mail</td>
+<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>EmailOnDeck</td>
+<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Fake Mail Generator</td>
+<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>FakeMail  &#x2F; TempMailAddress</td>
+<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>GetNada</td>
+<td><a href="https://getnada.com/">https://getnada.com/</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Guerrilla Mail</td>
+<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>MailCatch</td>
+<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>MailDrop</td>
+<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Mailinator</td>
+<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Mailnesia</td>
+<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Moakt</td>
+<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>MyTemp.email</td>
+<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Proton mail</td>
+<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Temp Mail</td>
+<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Tempail</td>
+<td><a href="https://tempail.com/">https://tempail.com/</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Temp-Mail.io</td>
+<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Throwawaymail</td>
+<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td>YOPmail</td>
+<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Other-tools"><a href="#Other-tools" class="headerlink" title="Other tools"></a>Other tools</h2><h3 id="Screenrecorders"><a href="#Screenrecorders" class="headerlink" title="Screenrecorders"></a>Screenrecorders</h3><h4 id="Offline-screenrecorder"><a href="#Offline-screenrecorder" class="headerlink" title="Offline screenrecorder"></a>Offline screenrecorder</h4><h5 id="OBS-studio"><a href="#OBS-studio" class="headerlink" title="OBS studio"></a>OBS studio</h5><ul>
+<li>Mac &#x2F; Windows &#x2F; Android</li>
+<li><a href="https://obsproject.com/download">https://obsproject.com/download</a></li>
+</ul>
+<h4 id="Online-screenrecorder"><a href="#Online-screenrecorder" class="headerlink" title="Online screenrecorder"></a>Online screenrecorder</h4><h5 id="Loom"><a href="#Loom" class="headerlink" title="Loom"></a>Loom</h5><ul>
+<li>Mac &#x2F; Windows &#x2F; Android</li>
+<li><a href="https://www.loom.com/screen-recorder">https://www.loom.com/screen-recorder</a></li>
+</ul>
+<h3 id="Generators"><a href="#Generators" class="headerlink" title="Generators"></a>Generators</h3><h4 id="User-fake-data"><a href="#User-fake-data" class="headerlink" title="User fake data"></a>User fake data</h4><ul>
+<li><p>jsonplaceholder.typicode.com</p>
+<ul>
+<li>fake data generator via JS code snippets</li>
+<li><a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a><div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__jsonplaceholder_typicode_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div></li>
+</ul>
+</li>
+<li><p>mockaroo.com</p>
+<ul>
+<li>fake data generator with prettty UI configuration</li>
+<li><a href="https://www.mockaroo.com/">https://www.mockaroo.com/</a><div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__mockaroo_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div></li>
+</ul>
+</li>
+</ul>
+<h4 id="Image-generators"><a href="#Image-generators" class="headerlink" title="Image generators"></a>Image generators</h4><ul>
+<li>image generator via parametrised HTTP requests<ul>
+<li><a href="https://dummyjson.com/docs/image">https://dummyjson.com/docs/image</a>  <div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__dummy_json_image_generator_example.png" alt="https://dummyjson.com/docs/image" title=" dummyjson.com/docs/image" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;"/>
+</div></li>
+</ul>
+</li>
+</ul>
+<h3 id="Free-video-samples"><a href="#Free-video-samples" class="headerlink" title="Free video samples"></a>Free video samples</h3><h4 id="file-examples-com-video"><a href="#file-examples-com-video" class="headerlink" title="file-examples.com&#x2F;video"></a>file-examples.com&#x2F;video</h4><ul>
+<li>AVI	 &#x2F; MOV &#x2F; OGG	&#x2F; MP4	&#x2F; WMV	&#x2F;WEBM</li>
+<li><a href="https://file-examples.com/index.php/sample-video-files/">https://file-examples.com/index.php/sample-video-files/</a></li>
+</ul>
+<h3 id="Free-images"><a href="#Free-images" class="headerlink" title="Free images"></a>Free images</h3><h4 id="file-examples-com-images"><a href="#file-examples-com-images" class="headerlink" title="file-examples.com&#x2F;images"></a>file-examples.com&#x2F;images</h4><ul>
+<li>JPG &#x2F; PNG  &#x2F;GIF &#x2F; TIFF &#x2F; ICO &#x2F; SVG &#x2F; WEBP</li>
+<li><a href="https://file-examples.com/index.php/sample-images-download/">https://file-examples.com/index.php/sample-images-download/</a></li>
+</ul>
+<h2 id="Display-extension"><a href="#Display-extension" class="headerlink" title="Display extension"></a>Display extension</h2><h3 id="spacedesk"><a href="#spacedesk" class="headerlink" title="spacedesk"></a>spacedesk</h3><p>Spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.<br><img src="/hexo-blog/images/space_desk_logo_image.png" alt="Spacedesk app" title="Spacedesk app" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p></p>
+<ul>
+<li>Web site: <a href="https://www.spacedesk.net/">https://www.spacedesk.net/</a></li>
+<li>Download page: <a href="https://www.spacedesk.net/download/">https://www.spacedesk.net/download/</a></li>
+<li>Installation guide for Windows: <a href="https://www.youtube.com/watch?v=iJ2bFcDUol8&t=262s">https://www.youtube.com/watch?v=iJ2bFcDUol8&amp;t=262s</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>apps</tag>
+        <tag>my_contribution</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXIO.IO fixes guide</title>
     <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design check that:</p>
@@ -7352,6 +7354,55 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>UX UI tools</title>
+    <url>/hexo-blog/2024/09/28/tutorials/ux_ui_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- Main Title and Introduction -->
+<h2 style="margin-bottom: 15px; font-weight: italic; background-color: #f4f4f4; padding: 10px; border-radius: 5px; color: #2C3E50;">
+  This post contains a list of discovered UX/UI web tools and additional information to help understand their features.
+</h2>
+
+<hr>
+<p><strong>List of tools</strong></p>
+<ol>
+<li><a href="#cssgradient_io">cssgradient.io</a></li>
+</ol>
+<hr>
+<!-- Header 2 Section with Tool Name -->
+<h2 style="margin-top: 25px;  color: #b03a2e;" id = cssgradient_io>cssgradient.io</h2>
+
+<!-- Tool Home Page Link and Preview Image -->
+<h3 style="margin: 15px 0;">Home Page</h3>
+<a href="https://cssgradient.io/" target="_blank" style="text-decoration: none; color: #3498db;">https://cssgradient.io/</a>
+<div style="margin-top: 10px;">
+    <img src="/hexo-blog/images/cssgradient_site_preview.png" alt="CSS Gradient Home Page" title="CSS Gradient Home Page" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div>
+
+<!-- Header 4 Section with Additional Resources -->
+<h4 style="margin-top: 25px;">See Also:</h4>
+<ol>
+    <li>
+        <a href="https://cssgradient.io/color-shades/" target="_blank" style="text-decoration: none; color: #3498db;">Color Shades</a>
+        <div style="margin-top: 8px;">
+            <img src="/hexo-blog/images/cssgradient.io-color-shades.png" alt="CSS Gradient Color Shades" title="CSS Gradient Color Shades" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+        </div>
+    </li>
+    <li style="margin-top: 15px;">
+        <a href="https://cssgradient.io/gradient-backgrounds/" target="_blank" style="text-decoration: none; color: #3498db;">Gradient Backgrounds</a>
+        <div style="margin-top: 8px;">
+            <img src="/hexo-blog/images/cssgradient.io-gradient-backgrounds.png" alt="CSS Gradient Backgrounds" title="CSS Gradient Backgrounds" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+        </div>
+    </li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>ux_ui</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MarkDowm tutorial-2</title>
     <url>/hexo-blog/2024/10/21/tutorials/markdown_tutorial_2/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This post is originated from <a href="https://gist.github.com/apackeer/4159268">here</a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p>
@@ -7512,55 +7563,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tutorial</tag>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>UX UI tools</title>
-    <url>/hexo-blog/2024/09/28/tutorials/ux_ui_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- Main Title and Introduction -->
-<h2 style="margin-bottom: 15px; font-weight: italic; background-color: #f4f4f4; padding: 10px; border-radius: 5px; color: #2C3E50;">
-  This post contains a list of discovered UX/UI web tools and additional information to help understand their features.
-</h2>
-
-<hr>
-<p><strong>List of tools</strong></p>
-<ol>
-<li><a href="#cssgradient_io">cssgradient.io</a></li>
-</ol>
-<hr>
-<!-- Header 2 Section with Tool Name -->
-<h2 style="margin-top: 25px;  color: #b03a2e;" id = cssgradient_io>cssgradient.io</h2>
-
-<!-- Tool Home Page Link and Preview Image -->
-<h3 style="margin: 15px 0;">Home Page</h3>
-<a href="https://cssgradient.io/" target="_blank" style="text-decoration: none; color: #3498db;">https://cssgradient.io/</a>
-<div style="margin-top: 10px;">
-    <img src="/hexo-blog/images/cssgradient_site_preview.png" alt="CSS Gradient Home Page" title="CSS Gradient Home Page" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div>
-
-<!-- Header 4 Section with Additional Resources -->
-<h4 style="margin-top: 25px;">See Also:</h4>
-<ol>
-    <li>
-        <a href="https://cssgradient.io/color-shades/" target="_blank" style="text-decoration: none; color: #3498db;">Color Shades</a>
-        <div style="margin-top: 8px;">
-            <img src="/hexo-blog/images/cssgradient.io-color-shades.png" alt="CSS Gradient Color Shades" title="CSS Gradient Color Shades" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-        </div>
-    </li>
-    <li style="margin-top: 15px;">
-        <a href="https://cssgradient.io/gradient-backgrounds/" target="_blank" style="text-decoration: none; color: #3498db;">Gradient Backgrounds</a>
-        <div style="margin-top: 8px;">
-            <img src="/hexo-blog/images/cssgradient.io-gradient-backgrounds.png" alt="CSS Gradient Backgrounds" title="CSS Gradient Backgrounds" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-        </div>
-    </li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>ux_ui</tag>
       </tags>
   </entry>
 </search>
