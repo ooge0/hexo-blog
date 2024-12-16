@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QND5GLPYZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QND5GLPYZV');
+</script>
+<!-- End Google Analytics -->
+
+  
+  <title>Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE) |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.   Key Objectives">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2024/11/24/post_ai_promt_engineer_task_llm_via_api/">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.   Key Objectives">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-11-24T16:56:12.000Z">
+<meta property="article:modified_time" content="2024-12-16T09:38:57.296Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="ML">
+<meta property="article:tag" content="prompt_engineering">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/hexo-blog/atom.xml" title=" " type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-post_ai_promt_engineer_task_llm_via_api" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/2024/11/24/post_ai_promt_engineer_task_llm_via_api/" class="article-date">
+  <time class="dt-published" datetime="2024-11-24T16:56:12.000Z" itemprop="datePublished">2024-11-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.  </p>
+<h2 id="Key-Objectives"><a href="#Key-Objectives" class="headerlink" title="Key Objectives"></a>Key Objectives</h2><ul>
+<li>Design efficient prompts for LLM APIs.  </li>
+<li>Evaluate and refine prompt quality.  </li>
+<li>Use programmatic techniques for dynamic prompt construction.  </li>
+<li>Monitor and maintain performance over time.</li>
+</ul>
+<hr>
+<h2 id="Steps-to-Complete-the-Task"><a href="#Steps-to-Complete-the-Task" class="headerlink" title="Steps to Complete the Task"></a>Steps to Complete the Task</h2><h3 id="1-Prepare-the-Environment"><a href="#1-Prepare-the-Environment" class="headerlink" title="1. Prepare the Environment"></a>1. <strong>Prepare the Environment</strong></h3><p>Install the necessary Python libraries to interact with LLM APIs:  </p>
+<pre><code class="bash">pip install openai langchain  
+</code></pre>
+<hr>
+<h3 id="2-Interact-with-the-API"><a href="#2-Interact-with-the-API" class="headerlink" title="2. Interact with the API"></a>2. <strong>Interact with the API</strong></h3><h4 id="a-Initialize-API-Connection"><a href="#a-Initialize-API-Connection" class="headerlink" title="a. Initialize API Connection"></a>a. <strong>Initialize API Connection</strong></h4><p>Set up API authentication and configuration:  </p>
+<pre><code class="python">import openai  
+
+def initialize_api(api_key):  
+   openai.api_key = api_key  # Set your API key  
+   return &quot;API Initialized&quot;  
+</code></pre>
+<h4 id="b-Send-a-Prompt"><a href="#b-Send-a-Prompt" class="headerlink" title="b. Send a Prompt"></a>b. <strong>Send a Prompt</strong></h4><p>Define a function to send a prompt and receive a response:  </p>
+<pre><code class="python">def send_prompt(prompt, model=&quot;gpt-4&quot;, temperature=0.7):  
+    response = openai.ChatCompletion.create(  
+        model=model,  
+        messages=[&#123;&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: prompt&#125;],  
+        temperature=temperature  
+    )  
+    return response[&quot;choices&quot;][0][&quot;message&quot;][&quot;content&quot;]  
+</code></pre>
+<hr>
+<h3 id="3-Design-Effective-Prompts"><a href="#3-Design-Effective-Prompts" class="headerlink" title="3. Design Effective Prompts"></a>3. <strong>Design Effective Prompts</strong></h3><h4 id="a-Use-a-Structured-Approach"><a href="#a-Use-a-Structured-Approach" class="headerlink" title="a. Use a Structured Approach"></a>a. <strong>Use a Structured Approach</strong></h4><ul>
+<li><strong>Role-based prompting</strong>: Clearly define the model’s role (e.g., “You are a helpful assistant…”).  </li>
+<li><strong>Instruction clarity</strong>: Provide concise, unambiguous instructions.  </li>
+<li><strong>Examples</strong>: Use few-shot learning by including examples in the prompt.</li>
+</ul>
+<p>Example:  </p>
+<pre><code class="python">def create_prompt(task_description, examples=[]):  
+    prompt = f&quot;Task: &#123;task_description&#125;\n&quot;  
+    for example in examples:  
+        prompt += f&quot;Example: &#123;example&#125;\n&quot;  
+    return prompt  
+</code></pre>
+<h4 id="b-Dynamic-Prompt-Construction"><a href="#b-Dynamic-Prompt-Construction" class="headerlink" title="b. Dynamic Prompt Construction"></a>b. <strong>Dynamic Prompt Construction</strong></h4><p>Adapt prompts based on user inputs or API responses:  </p>
+<pre><code class="python">def dynamic_prompt(base_prompt, user_input):  
+    return f&quot;&#123;base_prompt&#125;\nUser Input: &#123;user_input&#125;&quot;  
+</code></pre>
+<hr>
+<h3 id="4-Evaluate-Model-Performance"><a href="#4-Evaluate-Model-Performance" class="headerlink" title="4. Evaluate Model Performance"></a>4. <strong>Evaluate Model Performance</strong></h3><h4 id="a-Define-Quality-Metrics"><a href="#a-Define-Quality-Metrics" class="headerlink" title="a. Define Quality Metrics"></a>a. <strong>Define Quality Metrics</strong></h4><ul>
+<li><strong>Accuracy</strong>: Compare responses against ground truth.  </li>
+<li><strong>Relevance</strong>: Check alignment with the given task.  </li>
+<li><strong>Consistency</strong>: Ensure similar prompts yield consistent outputs.</li>
+</ul>
+<h4 id="b-Log-and-Analyze-Outputs"><a href="#b-Log-and-Analyze-Outputs" class="headerlink" title="b. Log and Analyze Outputs"></a>b. <strong>Log and Analyze Outputs</strong></h4><p>Use logging to track prompts and responses for debugging:  </p>
+<pre><code class="python">def log_interaction(prompt, response, log_file=&quot;logs.txt&quot;):  
+    with open(log_file, &quot;a&quot;) as file:  
+        file.write(f&quot;Prompt: &#123;prompt&#125;\nResponse: &#123;response&#125;\n\n&quot;)  
+</code></pre>
+<hr>
+<h3 id="5-Optimize-Prompts"><a href="#5-Optimize-Prompts" class="headerlink" title="5. Optimize Prompts"></a>5. <strong>Optimize Prompts</strong></h3><h4 id="a-Iterative-Refinement"><a href="#a-Iterative-Refinement" class="headerlink" title="a. Iterative Refinement"></a>a. <strong>Iterative Refinement</strong></h4><ul>
+<li>Identify weaknesses in responses.  </li>
+<li>Adjust the prompt to clarify ambiguity or provide better context.</li>
+</ul>
+<h4 id="b-Temperature-Tuning"><a href="#b-Temperature-Tuning" class="headerlink" title="b. Temperature Tuning"></a>b. <strong>Temperature Tuning</strong></h4><p>Control randomness using the <code>temperature</code> parameter. Lower values yield deterministic responses, while higher values generate more diverse outputs.  </p>
+<h4 id="c-Test-Variations"><a href="#c-Test-Variations" class="headerlink" title="c. Test Variations"></a>c. <strong>Test Variations</strong></h4><p>Experiment with different phrasings and structures to identify optimal prompt designs.  </p>
+<hr>
+<h3 id="6-Maintain-and-Monitor-Performance"><a href="#6-Maintain-and-Monitor-Performance" class="headerlink" title="6. Maintain and Monitor Performance"></a>6. <strong>Maintain and Monitor Performance</strong></h3><h4 id="a-Automate-Testing"><a href="#a-Automate-Testing" class="headerlink" title="a. Automate Testing"></a>a. <strong>Automate Testing</strong></h4><p>Build a suite of tests with predefined prompts and expected responses:  </p>
+<pre><code class="python">def test_prompt(prompt, expected_response):  
+    response = send_prompt(prompt)  
+    return response == expected_response  # Compare with expected response  
+</code></pre>
+<h4 id="b-Adapt-to-Model-Updates"><a href="#b-Adapt-to-Model-Updates" class="headerlink" title="b. Adapt to Model Updates"></a>b. <strong>Adapt to Model Updates</strong></h4><p>Periodically re-evaluate prompts after API updates or model changes to ensure continued performance.  </p>
+<h4 id="c-Integrate-Feedback-Loops"><a href="#c-Integrate-Feedback-Loops" class="headerlink" title="c. Integrate Feedback Loops"></a>c. <strong>Integrate Feedback Loops</strong></h4><p>Incorporate user feedback to iteratively improve prompts.  </p>
+<hr>
+<h2 id="Tools-and-Libraries-Overview"><a href="#Tools-and-Libraries-Overview" class="headerlink" title="Tools and Libraries Overview"></a>Tools and Libraries Overview</h2><ul>
+<li><strong>API Interaction</strong>: OpenAI API, LangChain  </li>
+<li><strong>Data Logging</strong>: Python’s <code>logging</code> module or external tools like <code>Elasticsearch</code>  </li>
+<li><strong>Testing Frameworks</strong>: PyTest, Unittest for automated evaluation</li>
+</ul>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>By following these steps, you can effectively interact with LLM APIs for prompt engineering while ensuring high-quality model performance. This approach emphasizes structured prompt design, iterative refinement, and continuous monitoring to optimize outputs for real-world tasks.  </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/2024/11/24/post_ai_promt_engineer_task_llm_via_api/" data-id="cm4rin3e00037k4kk8k415iqi" data-title="Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/ML/" rel="tag">ML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/prompt-engineering/" rel="tag">prompt_engineering</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Sentiment analysis framework
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hexo-blog/2024/11/21/post_ai_nlp__types_of_sentiment_analysis_techniques_in_nlp/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Types of sentiment analysis techniques in NLP</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">59</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/QA/">QA</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 20px;">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 10.91px;">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/BART/" style="font-size: 10px;">BART</a> <a href="/hexo-blog/tags/BERT/" style="font-size: 10px;">BERT</a> <a href="/hexo-blog/tags/Dashdevs/" style="font-size: 10px;">Dashdevs</a> <a href="/hexo-blog/tags/DocPublishing/" style="font-size: 10px;">DocPublishing</a> <a href="/hexo-blog/tags/GPT2/" style="font-size: 10px;">GPT2</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 14.55px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 10px;">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 19.09px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 17.27px;">NLP</a> <a href="/hexo-blog/tags/NLTK/" style="font-size: 10px;">NLTK</a> <a href="/hexo-blog/tags/NN/" style="font-size: 11.82px;">NN</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 10px;">NPF</a> <a href="/hexo-blog/tags/ReadTheDocs/" style="font-size: 10px;">ReadTheDocs</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 10px;">VADER</a> <a href="/hexo-blog/tags/object-Object/" style="font-size: 10px;">[object Object]</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10.91px;">acsii</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 10.91px;">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 10px;">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15.45px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 10px;">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 10px;">data_mining</a> <a href="/hexo-blog/tags/db/" style="font-size: 10px;">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 15.45px;">dev_side</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 10px;">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 10.91px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15.45px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/kafka/" style="font-size: 10px;">kafka</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 10.91px;">knowledge</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 10.91px;">lexic</a> <a href="/hexo-blog/tags/linguistic/" style="font-size: 10.91px;">linguistic</a> <a href="/hexo-blog/tags/llm-parameters/" style="font-size: 10.91px;">llm_parameters</a> <a href="/hexo-blog/tags/local-development/" style="font-size: 10px;">local_development</a> <a href="/hexo-blog/tags/logger/" style="font-size: 10px;">logger</a> <a href="/hexo-blog/tags/loguru/" style="font-size: 10px;">loguru</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 11.82px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 16.36px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 11.82px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 12.73px;">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 10px;">parsing</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 14.55px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/python/" style="font-size: 11.82px;">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 11.82px;">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 10px;">qa_check_list</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 13.64px;">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 10.91px;">sentiment_analysis</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 10px;">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 18.18px;">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 10px;">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/web/" style="font-size: 10px;">web</a> <a href="/hexo-blog/tags/windows-os/" style="font-size: 10px;">windows_os</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/05/">May 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/16/post_ai_promt_engineer_task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/13/post_os__windows%20app/">Windows OS apps</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/12/post_linquistic__text_coherence_vs_text_quiality/">Text Generation Coherence vs. Text Generation Quality</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/">Fine-Tuning vs. Training Models for Specific Tasks</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/2024/12/10/post_ai_nn__comparison_of_popular_models_and_architectures/">Comparison of popular models and architectures</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 si0n4ra<br>
+      <!-- Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> (v7.3.0) hexo-cli: 4.3.2 -->
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo v.7.3.0</a> & hexo-cli: 4.3.2
+      <br>Theme: <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">landscape</a>
+    </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
