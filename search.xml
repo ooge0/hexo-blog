@@ -120,6 +120,134 @@
       </tags>
   </entry>
   <entry>
+    <title>Comparing Efficiency of NLP Models. Methods and Metrics.</title>
+    <url>/hexo-blog//ai/post_ai__comparing_nlp_models_methods_metrix/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
+<hr>
+<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
+<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
+<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> for standardized comparisons.</li>
+<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
+<li><strong>Scalability and Efficiency Testing</strong>:<ul>
+<li>Test for performance across different dataset sizes.</li>
+<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
+</ul>
+</li>
+<li><strong>Generalization and Robustness</strong>:<ul>
+<li>Test on out-of-distribution data or adversarial examples.</li>
+<li>Use cross-lingual or domain-specific datasets.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
+<li><strong>Classification Tasks</strong>:<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall </li>
+<li>F1-Score</li>
+<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
+</ul>
+</li>
+<li><strong>Text Generation Tasks</strong>:<ul>
+<li>BLEU (Bilingual Evaluation Understudy)</li>
+<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
+<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
+</ul>
+</li>
+<li><strong>Question Answering</strong>:<ul>
+<li>Exact Match (EM)</li>
+<li>F1-Score</li>
+</ul>
+</li>
+<li><strong>Language Modeling</strong>:<ul>
+<li>Perplexity</li>
+<li>Bits-per-character (BPC)</li>
+</ul>
+</li>
+<li><strong>Named Entity Recognition (NER)</strong>:<ul>
+<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
+</ul>
+</li>
+<li><strong>Text Summarization</strong>:<ul>
+<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
+</ul>
+</li>
+</ol>
+<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
+<li><strong>Computational Efficiency</strong>:<ul>
+<li>FLOPs (Floating Point Operations per Second)</li>
+<li>Latency (time per inference)</li>
+<li>Training Time</li>
+</ul>
+</li>
+<li><strong>Memory Usage</strong>:<ul>
+<li>GPU&#x2F;CPU memory requirements</li>
+<li>Model size (in MB or parameters)</li>
+</ul>
+</li>
+<li><strong>Energy Consumption</strong>:<ul>
+<li>Energy usage during training&#x2F;inference</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
+<li><strong>Model Parameters</strong>:<ul>
+<li>Number of layers</li>
+<li>Hidden size</li>
+<li>Attention heads</li>
+</ul>
+</li>
+<li><strong>Dataset Characteristics</strong>:<ul>
+<li>Dataset size</li>
+<li>Distribution (balanced vs. imbalanced classes)</li>
+<li>Language&#x2F;domain</li>
+</ul>
+</li>
+<li><strong>Hyperparameters</strong>:<ul>
+<li>Learning rate</li>
+<li>Batch size</li>
+<li>Dropout rate</li>
+<li>Optimization algorithm (e.g., AdamW, SGD)</li>
+</ul>
+</li>
+<li><strong>Infrastructure</strong>:<ul>
+<li>Hardware (e.g., GPU, TPU, or CPU)</li>
+<li>Software (e.g., TensorFlow, PyTorch)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
+<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
+<li><strong>Parameterization</strong>:<ul>
+<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>:<ul>
+<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
+<li>Fix random seeds for deterministic results.</li>
+</ul>
+</li>
+<li><strong>Automated Testing</strong>:<ul>
+<li>Implement pipelines to rerun experiments with new variables.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.</span><a href="#fnref:2" rev="footnote"> ↩</a></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">3.</span><span style="display: inline-block; vertical-align: top;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.</span><a href="#fnref:3" rev="footnote"> ↩</a></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">4.</span><span style="display: inline-block; vertical-align: top;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.</span><a href="#fnref:4" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Evaluating AI Applications. Checklist</title>
     <url>/hexo-blog/2024/10/28/post_ai__evaluating_ai_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Evaluation-of-AI-Prompts"><a href="#1-Evaluation-of-AI-Prompts" class="headerlink" title="1. Evaluation of AI Prompts"></a>1. Evaluation of AI Prompts</h2><h3 id="1-1-Prompt-Clarity"><a href="#1-1-Prompt-Clarity" class="headerlink" title="1.1 Prompt Clarity"></a>1.1 <strong>Prompt Clarity</strong></h3><ul>
@@ -255,134 +383,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Comparing Efficiency of NLP Models. Methods and Metrics</title>
-    <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
-<hr>
-<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
-<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
-<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> for standardized comparisons.</li>
-<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
-<li><strong>Scalability and Efficiency Testing</strong>:<ul>
-<li>Test for performance across different dataset sizes.</li>
-<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
-</ul>
-</li>
-<li><strong>Generalization and Robustness</strong>:<ul>
-<li>Test on out-of-distribution data or adversarial examples.</li>
-<li>Use cross-lingual or domain-specific datasets.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
-<li><strong>Classification Tasks</strong>:<ul>
-<li>Accuracy</li>
-<li>Precision</li>
-<li>Recall </li>
-<li>F1-Score</li>
-<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
-</ul>
-</li>
-<li><strong>Text Generation Tasks</strong>:<ul>
-<li>BLEU (Bilingual Evaluation Understudy)</li>
-<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
-<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
-</ul>
-</li>
-<li><strong>Question Answering</strong>:<ul>
-<li>Exact Match (EM)</li>
-<li>F1-Score</li>
-</ul>
-</li>
-<li><strong>Language Modeling</strong>:<ul>
-<li>Perplexity</li>
-<li>Bits-per-character (BPC)</li>
-</ul>
-</li>
-<li><strong>Named Entity Recognition (NER)</strong>:<ul>
-<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
-</ul>
-</li>
-<li><strong>Text Summarization</strong>:<ul>
-<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
-</ul>
-</li>
-</ol>
-<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
-<li><strong>Computational Efficiency</strong>:<ul>
-<li>FLOPs (Floating Point Operations per Second)</li>
-<li>Latency (time per inference)</li>
-<li>Training Time</li>
-</ul>
-</li>
-<li><strong>Memory Usage</strong>:<ul>
-<li>GPU&#x2F;CPU memory requirements</li>
-<li>Model size (in MB or parameters)</li>
-</ul>
-</li>
-<li><strong>Energy Consumption</strong>:<ul>
-<li>Energy usage during training&#x2F;inference</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
-<li><strong>Model Parameters</strong>:<ul>
-<li>Number of layers</li>
-<li>Hidden size</li>
-<li>Attention heads</li>
-</ul>
-</li>
-<li><strong>Dataset Characteristics</strong>:<ul>
-<li>Dataset size</li>
-<li>Distribution (balanced vs. imbalanced classes)</li>
-<li>Language&#x2F;domain</li>
-</ul>
-</li>
-<li><strong>Hyperparameters</strong>:<ul>
-<li>Learning rate</li>
-<li>Batch size</li>
-<li>Dropout rate</li>
-<li>Optimization algorithm (e.g., AdamW, SGD)</li>
-</ul>
-</li>
-<li><strong>Infrastructure</strong>:<ul>
-<li>Hardware (e.g., GPU, TPU, or CPU)</li>
-<li>Software (e.g., TensorFlow, PyTorch)</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
-<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
-<li><strong>Parameterization</strong>:<ul>
-<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
-</ul>
-</li>
-<li><strong>Reproducibility</strong>:<ul>
-<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
-<li>Fix random seeds for deterministic results.</li>
-</ul>
-</li>
-<li><strong>Automated Testing</strong>:<ul>
-<li>Implement pipelines to rerun experiments with new variables.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.</span><a href="#fnref:2" rev="footnote"> ↩</a></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">3.</span><span style="display: inline-block; vertical-align: top;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.</span><a href="#fnref:3" rev="footnote"> ↩</a></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">4.</span><span style="display: inline-block; vertical-align: top;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.</span><a href="#fnref:4" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -549,7 +549,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 </li>
 <li><strong>Handling Context:</strong><ul>
 <li>Manage long contexts using techniques like windowing or chunking, supported by <a href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
-<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for Handling Context in AI Models’</a></li>
+<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for handling context in LLM models’</a></li>
 </ul>
 </li>
 </ul>
@@ -696,6 +696,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
+</ul>
+</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Tools for Augmenting Data and Generating Texts</title>
     <url>/hexo-blog/2024/05/10/post_ai__tools_for_augmenting_data_and_generating_texts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text-Generation-Models"><a href="#Text-Generation-Models" class="headerlink" title="Text Generation Models"></a>Text Generation Models</h2><p>Text generation models are trained on large corpora and can generate semantically coherent and lexically varied sentences.</p>
@@ -760,38 +787,11 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>BART configuration parameters overview</title>
-    <url>/hexo-blog/2024/12/04/post_ai_llm__bart_configuration_parameters_overview/</url>
+    <url>/hexo-blog//ai/post_ai_llm__bart_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
 <ol>
-<li><a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li>
 </ol>
 <hr>
 <h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table>
@@ -968,12 +968,12 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
   </entry>
   <entry>
     <title>BERT configuration parameters overview</title>
-    <url>/hexo-blog/2024/12/04/post_ai_llm__bert_configuration_parameters_overview/</url>
+    <url>/hexo-blog//ai/post_ai_llm__bert_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
 <ol>
-<li><a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a></li>
-<li><a href="../../../../post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a></li>
-<li><a href="../../../../post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li>
 </ol>
 <hr>
 <h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table>
@@ -1100,11 +1100,11 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
   </entry>
   <entry>
     <title>GPT-2 configuration parameters overview</title>
-    <url>/hexo-blog/2024/12/04/post_ai_llm__gpt2_configuration_parameters_overview/</url>
+    <url>/hexo-blog//ai/post_ai_llm__gpt2_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
 <ol>
-<li><a href="../../../../post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for Handling Context in AI Models</a></li>
-<li><a href="../../../../post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li>
 </ol>
 <hr>
 <h2 id="Parameters-List-and-Descriptions"><a href="#Parameters-List-and-Descriptions" class="headerlink" title="Parameters List and Descriptions"></a>Parameters List and Descriptions</h2><table>
@@ -1263,8 +1263,13 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
   </entry>
   <entry>
     <title>Common LLM parameters</title>
-    <url>/hexo-blog/2024/12/04/post_ai_llm__llm_parameters/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to <a href="../../../../2024/12/16/post_ai_promt_engineer_task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></p>
+    <url>/hexo-blog//ai/post_ai_llm__llm_parameters/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ol>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_promt_engineer_task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></li>
+</ol>
 <hr>
 <table>
 <thead>
@@ -1336,9 +1341,14 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Techniques for Handling Context in AI Models</title>
-    <url>/hexo-blog//techniques-for-handling-context-in-ai-models/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and tools to enhance context management. Below is a detailed list of techniques and associated tools.</p>
+    <title>Techniques for handling context in LLM models</title>
+    <url>/hexo-blog//ai/post_ai_llm__techniques_for_handling_context_in_ai_models/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ol>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
+</ol>
+<hr>
+<p>Large Language Models (LLMs) often face challenges with long contexts due to token limitations or memory constraints. To address this, researchers and engineers have developed various techniques and tools to enhance context management. Below is a detailed list of techniques and associated tools.</p>
 <h2 id="Techniques"><a href="#Techniques" class="headerlink" title="Techniques"></a>Techniques</h2><h3 id="1-Windowing-Sliding-Window-Technique"><a href="#1-Windowing-Sliding-Window-Technique" class="headerlink" title="1. Windowing (Sliding Window Technique)"></a>1. Windowing (Sliding Window Technique)</h3><ul>
 <li><strong>Title</strong>: Training RNN and it’s Variants Using Sliding Window Technique. 2020</li>
 <li><strong>DOI</strong>: 10.1109&#x2F;SCEECS48394.2020.93</li>
@@ -1439,7 +1449,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>science</tag>
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
@@ -1999,103 +2008,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Neural Process Family</title>
-    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
-<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
-<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
-</li>
-<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
-</li>
-<li><p><strong>Model Components</strong>:</p>
-<ul>
-<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
-<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
-<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
-</ul>
-</li>
-<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
-</li>
-</ol>
-<hr>
-<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
-<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
-<ul>
-<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
-<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
-</ul>
-</li>
-<li><p><strong>Neural Processes (NPs)</strong>:</p>
-<ul>
-<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
-<li>Balances flexibility and computational efficiency.</li>
-</ul>
-</li>
-<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
-<ul>
-<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
-<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
-</ul>
-</li>
-<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
-<ul>
-<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
-</ul>
-</li>
-<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
-<ul>
-<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
-<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
-<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
-<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
-<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
-<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
-</ol>
-<hr>
-<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
-<li>Scalability due to neural networks.</li>
-<li>Probabilistic outputs allow uncertainty estimation.</li>
-<li>Adaptable across domains with minimal changes.</li>
-</ul>
-<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
-<li>Trade-off between computational cost and flexibility.</li>
-<li>Dependence on good representation learning.</li>
-<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
-</ul>
-<hr>
-<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
-<hr>
-<p>About:</p>
-<ul>
-<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
-<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
-</ul>
-<hr>
-<p> Papers: </p>
-<ul>
-<li>Papers: <ul>
-<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
-<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
-<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NPF</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
     <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
@@ -2210,6 +2122,103 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Neural Process Family</title>
+    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
+<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
+<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
+</li>
+<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
+</li>
+<li><p><strong>Model Components</strong>:</p>
+<ul>
+<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
+<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
+<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
+</ul>
+</li>
+<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
+<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
+<ul>
+<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
+<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
+</ul>
+</li>
+<li><p><strong>Neural Processes (NPs)</strong>:</p>
+<ul>
+<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
+<li>Balances flexibility and computational efficiency.</li>
+</ul>
+</li>
+<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
+<ul>
+<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
+<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
+</ul>
+</li>
+<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
+<ul>
+<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
+</ul>
+</li>
+<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
+<ul>
+<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
+<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
+<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
+<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
+<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
+<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
+</ol>
+<hr>
+<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
+<li>Scalability due to neural networks.</li>
+<li>Probabilistic outputs allow uncertainty estimation.</li>
+<li>Adaptable across domains with minimal changes.</li>
+</ul>
+<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
+<li>Trade-off between computational cost and flexibility.</li>
+<li>Dependence on good representation learning.</li>
+<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
+</ul>
+<hr>
+<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
+<hr>
+<p>About:</p>
+<ul>
+<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
+<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
+</ul>
+<hr>
+<p> Papers: </p>
+<ul>
+<li>Papers: <ul>
+<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
+<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
+<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
@@ -3950,8 +3959,13 @@ print(generated_text)
   </entry>
   <entry>
     <title>Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</title>
-    <url>/hexo-blog/2024/12/16/post_ai_promt_engineer_task_llm_locally/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to : <a href="../../../../2024/11/24/post_ai_promt_engineer_task_llm_via_api/">Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</a><br>This guide provides a structured approach to exploring OpenAI models locally, focusing on setting up a local environment and evaluating the performance and behavior of models without relying on external APIs.  </p>
+    <url>/hexo-blog//ai/post_ai_promt_engineer_task_llm_locally/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to :</em></p>
+<ol>
+<li><a href="/hexo-blog/ai/post_ai_promt_engineer_task_llm_via_api/">Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</a></li>
+</ol>
+<hr>
+<p>This guide provides a structured approach to exploring OpenAI models locally, focusing on setting up a local environment and evaluating the performance and behavior of models without relying on external APIs.  </p>
 <h2 id="Key-objectives"><a href="#Key-objectives" class="headerlink" title="Key objectives"></a>Key objectives</h2><ul>
 <li>Set up OpenAI models on a local machine.  </li>
 <li>Explore model behavior using local resources.  </li>
@@ -4058,7 +4072,7 @@ print(batch_responses)
   </entry>
   <entry>
     <title>Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</title>
-    <url>/hexo-blog/2024/11/24/post_ai_promt_engineer_task_llm_via_api/</url>
+    <url>/hexo-blog//ai/post_ai_promt_engineer_task_llm_via_api/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.  </p>
 <h2 id="Key-Objectives"><a href="#Key-Objectives" class="headerlink" title="Key Objectives"></a>Key Objectives</h2><ul>
 <li>Design efficient prompts for LLM APIs.  </li>
@@ -4167,7 +4181,7 @@ def initialize_api(api_key):
   </entry>
   <entry>
     <title>Parsing web site for job offers</title>
-    <url>/hexo-blog/2024/11/28/post_data_mining__parsing_web_site_for_job_offers/</url>
+    <url>/hexo-blog//data_mining/post_data_mining__parsing_web_site_for_job_offers/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Given</strong> The website with posted offers.<br><strong>Goal:</strong> to get information from the website using python, BeautifulSoup and save it in JSON and markdown files.</p>
 <p><strong>Python scirpt</strong></p>
 <p>Install and import required packages</p>
@@ -4836,46 +4850,6 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
-    <title>UNIX command tutorials</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__unix_comand_tutorial/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
-<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
-<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
-<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
-</ul>
-<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
-<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
-<li><strong>Command to run</strong>: <code>vimtutor</code></li>
-</ul>
-<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
-<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
-<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
-</ul>
-<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
-<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
-<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
-<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
-</ul>
-<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
-<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
-<li><strong>Install</strong>: <code>pip install cheat</code></li>
-<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
-</ul>
-<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
-<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>unix</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ubuntu web traffic meters</title>
     <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
@@ -4943,6 +4917,46 @@ def initialize_api(api_key):
         <tag>dev_side</tag>
         <tag>API</tag>
         <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UNIX command tutorials</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__unix_comand_tutorial/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
+<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
+<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
+<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
+</ul>
+<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
+<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
+<li><strong>Command to run</strong>: <code>vimtutor</code></li>
+</ul>
+<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
+<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
+<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
+</ul>
+<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
+<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
+<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
+<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
+</ul>
+<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
+<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
+<li><strong>Install</strong>: <code>pip install cheat</code></li>
+<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
+</ul>
+<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
+<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>unix</tag>
       </tags>
   </entry>
   <entry>
@@ -5287,6 +5301,28 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>Windows OS apps</title>
+    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
+<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
+To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
+
+<ul>
+<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
+<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>apps</tag>
+        <tag>windows_os</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Types of protocols for interaction on client-server architecture level.</title>
     <url>/hexo-blog/2024/04/09/post_network_protocols/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
@@ -5330,25 +5366,99 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>Windows OS apps</title>
-    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
-<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
-To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
-
-<ul>
-<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
-<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
-</ul>
+    <title>Principles of categorizing</title>
+    <url>/hexo-blog/2024/10/28/post_principles_of_categorizing/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains information about fundamental books for classic principles of categorizing.</strong></p>
+<p>Fundamental books that delve deeply into the principles of categorizing and organizing knowledge across different fields:</p>
+<ol>
+<li><p>Metaphysics by Aristotle<br>   <strong>Description:</strong> Aristotle’s work is foundational in Western philosophy, with early explorations into categorization and classification, particularly his concept of “Categories,” which influenced logical structures and classification in science, philosophy, and more.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/metaphysics.1.i.html">Metaphysics by Aristotle</a></p>
 </li>
-</ul>
-]]></content>
+<li><p>Categories by Aristotle<br>   <strong>Description:</strong> In this essential work, Aristotle<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> introduces a framework for understanding and categorizing different forms of knowledge, laying the groundwork for logical classification systems.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/categories.html">Categories by Aristotle</a></p>
+</li>
+<li><p>Mathematical Principles of Naturalis Philosophy by Isaac Newton <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup><br>   <strong>Description:</strong> lthough primarily a scientific text, Newton’s “Principia” exemplifies the early scientific method’s approach to categorizing natural phenomena, setting the stage for systematic inquiry and structured scientific classification.<br>   <strong>Book reference:</strong> </p>
+<ol>
+<li><a href="https://redlightrobber.com/red/links_pdf/Isaac-Newton-Principia-English-1846.pdf">Mathematical Principles of Natural Philosophy by Isaac Newton</a> </li>
+<li><a href="https://www.gutenberg.org/ebooks/28233">Philosophiae Naturalis Principia Mathematica by Isaac Newton</a></li>
+</ol>
+</li>
+<li><p>A System of Logic, Ratiocinative and Inductive by John Stuart Mill<br>   <strong>Description:</strong> Mill’s book is a landmark work on logic, covering classification, reasoning, and scientific methods for organizing knowledge and evidence, crucial for systematic thinking and empirical sciences.<br>     DOI: 10.1017&#x2F;CBO9781139149839<br>     <a href="https://www.gutenberg.org/files/26495/26495-pdf.pdf">Read on gutenberg.org</a><br>     <a href="../../../../../docs/other/a_system_of_logic_ratiocinative_and_inductive_by_john_stuart_mill.pdf">Read here</a></p>
+</li>
+<li><p>A Guide to the Classification Theorem for Compact Surfaces by Jean Gallier<br>   <strong>Description:</strong> This work is significant in mathematics and topology, providing insight into classifying surfaces and structures, which has implications for mathematical taxonomy.</p>
+</li>
+<li><p>On the Origin of Species by Charles Darwin<br>   <strong>Description:</strong> Darwin’s work revolutionized biological classification, showing how species evolve and adapt. His theories influenced the way we classify life forms, emphasizing evolutionary relationships as a basis for taxonomy.</p>
+</li>
+<li><p>The Logic of Scientific Discovery by Karl Popper<br>   <strong>Description:</strong> Popper’s book discusses the scientific method and the role of classification in developing theories and hypotheses, providing a foundation for scientific knowledge organization.</p>
+</li>
+<li><p>Systematics and the Origin of Species by Ernst Mayr<br>   <strong>Description:</strong> Mayr’s work is pivotal in evolutionary biology and taxonomy, exploring how species are classified based on genetics, morphology, and evolutionary history.</p>
+</li>
+<li><p>Elements by Euclid<br>   <strong>Description:</strong> An essential work in mathematics, Euclid’s “Elements” systematically categorizes geometric principles, setting a precedent for organizing mathematical knowledge.</p>
+</li>
+<li><p>The Structure of Scientific Revolutions by Thomas Kuhn<br>  <strong>Description:</strong> Kuhn’s book introduced the concept of paradigm shifts and discusses how scientific knowledge is organized, structured, and periodically reclassified in response to new discoveries.</p>
+</li>
+<li><p>The Species Problem by David L. Hull<br>  <strong>Description:</strong> Hull examines the philosophical issues in defining and categorizing species, a classic text in understanding how biological classification raises complex questions about the nature of categories.</p>
+</li>
+<li><p>Principia Ethica by G.E. Moore<br>  <strong>Description:</strong> Although a work in ethics, Moore’s analysis on categorizing moral concepts influenced the logical and systematic classification of ethical terms and principles.</p>
+</li>
+<li><p>Classifications and Typologies in Qualitative Research by Ian Dey<br>  <strong>Description:</strong> This text delves into classification systems in qualitative research, explaining how data is categorized and analyzed in social sciences.</p>
+</li>
+<li><p>Conceptual Spaces: The Geometry of Thought by Peter Gärdenfors<br>  <strong>Description:</strong> Gärdenfors explores the cognitive basis of categorization and how we form mental categories, linking psychology with systematic classification principles.</p>
+</li>
+<li><p>Introduction to the Theory of Sets by Joseph Breuer<br>  <strong>Description:</strong> This work on set theory is fundamental to mathematics and logic, providing a structured framework for understanding categorization through the concept of sets, which underlies much of modern classification theory.</p>
+</li>
+</ol>
+<p><strong>For books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
+<ol>
+<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>   <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
+</li>
+<li><p>Syntactic Structures by Noam Chomsky<br>   <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
+</li>
+<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>   <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
+</li>
+<li><p>Classification, 2nd Edition by David B. Suthers<br>   <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
+</li>
+<li><p>Library Classification and Cataloging by Lois Mai Chan<br>   <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
+</li>
+<li><p>Knowledge and the Flow of Information by Fred Dretske<br>   <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.<br>   DOI: 10.2307&#x2F;2214939<br>   <a href="https://sci-hub.se/https://doi.org/10.2307/2214939">Read on sci-hub.se</a></p>
+</li>
+<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>   <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.<br>   <a href="https://yunus.hacettepe.edu.tr/~tonta/courses/fall2010/bby607/IAWWW.pdf">Read on yunus.hacettepe.edu.tr</a></p>
+</li>
+<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>   <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
+</li>
+<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>   <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
+</li>
+<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
+</li>
+</ol>
+<p><strong>Books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
+<ol>
+<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>  <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
+</li>
+<li><p>Syntactic Structures by Noam Chomsky<br>  <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
+</li>
+<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>  <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
+</li>
+<li><p>Classification, 2nd Edition by David B. Suthers<br>  <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
+</li>
+<li><p>Library Classification and Cataloging by Lois Mai Chan<br>  <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
+</li>
+<li><p>Knowledge and the Flow of Information by Fred Dretske<br>  <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.</p>
+</li>
+<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>  <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.</p>
+</li>
+<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>  <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
+</li>
+<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>  <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
+</li>
+<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
+</li>
+</ol>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">Aristotle - Aristotle(Greek: Ἀριστοτέλης Aristotélēs; 384–322 BC) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science. <a href="https://en.wikipedia.org/wiki/Aristotle">wikipedia: Aristotle</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">Isaac Newton - Sir Isaac Newton FRS (25 December 1642 – 20 March 1726/27) was an English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.He was a key figure in the Scientific Revolution and the Enlightenment that followed. <a href="https://en.wikipedia.org/wiki/Isaac_Newton">wikipedia: Isaac Newton</a></span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>apps</tag>
-        <tag>windows_os</tag>
+        <tag>science</tag>
+        <tag>knowledge</tag>
       </tags>
   </entry>
   <entry>
@@ -5572,102 +5682,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>qa</tag>
         <tag>db</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Principles of categorizing</title>
-    <url>/hexo-blog/2024/10/28/post_principles_of_categorizing/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains information about fundamental books for classic principles of categorizing.</strong></p>
-<p>Fundamental books that delve deeply into the principles of categorizing and organizing knowledge across different fields:</p>
-<ol>
-<li><p>Metaphysics by Aristotle<br>   <strong>Description:</strong> Aristotle’s work is foundational in Western philosophy, with early explorations into categorization and classification, particularly his concept of “Categories,” which influenced logical structures and classification in science, philosophy, and more.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/metaphysics.1.i.html">Metaphysics by Aristotle</a></p>
-</li>
-<li><p>Categories by Aristotle<br>   <strong>Description:</strong> In this essential work, Aristotle<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> introduces a framework for understanding and categorizing different forms of knowledge, laying the groundwork for logical classification systems.<br>   <strong>Book reference:</strong> <a href="https://classics.mit.edu/Aristotle/categories.html">Categories by Aristotle</a></p>
-</li>
-<li><p>Mathematical Principles of Naturalis Philosophy by Isaac Newton <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup><br>   <strong>Description:</strong> lthough primarily a scientific text, Newton’s “Principia” exemplifies the early scientific method’s approach to categorizing natural phenomena, setting the stage for systematic inquiry and structured scientific classification.<br>   <strong>Book reference:</strong> </p>
-<ol>
-<li><a href="https://redlightrobber.com/red/links_pdf/Isaac-Newton-Principia-English-1846.pdf">Mathematical Principles of Natural Philosophy by Isaac Newton</a> </li>
-<li><a href="https://www.gutenberg.org/ebooks/28233">Philosophiae Naturalis Principia Mathematica by Isaac Newton</a></li>
-</ol>
-</li>
-<li><p>A System of Logic, Ratiocinative and Inductive by John Stuart Mill<br>   <strong>Description:</strong> Mill’s book is a landmark work on logic, covering classification, reasoning, and scientific methods for organizing knowledge and evidence, crucial for systematic thinking and empirical sciences.<br>     DOI: 10.1017&#x2F;CBO9781139149839<br>     <a href="https://www.gutenberg.org/files/26495/26495-pdf.pdf">Read on gutenberg.org</a><br>     <a href="../../../../../docs/other/a_system_of_logic_ratiocinative_and_inductive_by_john_stuart_mill.pdf">Read here</a></p>
-</li>
-<li><p>A Guide to the Classification Theorem for Compact Surfaces by Jean Gallier<br>   <strong>Description:</strong> This work is significant in mathematics and topology, providing insight into classifying surfaces and structures, which has implications for mathematical taxonomy.</p>
-</li>
-<li><p>On the Origin of Species by Charles Darwin<br>   <strong>Description:</strong> Darwin’s work revolutionized biological classification, showing how species evolve and adapt. His theories influenced the way we classify life forms, emphasizing evolutionary relationships as a basis for taxonomy.</p>
-</li>
-<li><p>The Logic of Scientific Discovery by Karl Popper<br>   <strong>Description:</strong> Popper’s book discusses the scientific method and the role of classification in developing theories and hypotheses, providing a foundation for scientific knowledge organization.</p>
-</li>
-<li><p>Systematics and the Origin of Species by Ernst Mayr<br>   <strong>Description:</strong> Mayr’s work is pivotal in evolutionary biology and taxonomy, exploring how species are classified based on genetics, morphology, and evolutionary history.</p>
-</li>
-<li><p>Elements by Euclid<br>   <strong>Description:</strong> An essential work in mathematics, Euclid’s “Elements” systematically categorizes geometric principles, setting a precedent for organizing mathematical knowledge.</p>
-</li>
-<li><p>The Structure of Scientific Revolutions by Thomas Kuhn<br>  <strong>Description:</strong> Kuhn’s book introduced the concept of paradigm shifts and discusses how scientific knowledge is organized, structured, and periodically reclassified in response to new discoveries.</p>
-</li>
-<li><p>The Species Problem by David L. Hull<br>  <strong>Description:</strong> Hull examines the philosophical issues in defining and categorizing species, a classic text in understanding how biological classification raises complex questions about the nature of categories.</p>
-</li>
-<li><p>Principia Ethica by G.E. Moore<br>  <strong>Description:</strong> Although a work in ethics, Moore’s analysis on categorizing moral concepts influenced the logical and systematic classification of ethical terms and principles.</p>
-</li>
-<li><p>Classifications and Typologies in Qualitative Research by Ian Dey<br>  <strong>Description:</strong> This text delves into classification systems in qualitative research, explaining how data is categorized and analyzed in social sciences.</p>
-</li>
-<li><p>Conceptual Spaces: The Geometry of Thought by Peter Gärdenfors<br>  <strong>Description:</strong> Gärdenfors explores the cognitive basis of categorization and how we form mental categories, linking psychology with systematic classification principles.</p>
-</li>
-<li><p>Introduction to the Theory of Sets by Joseph Breuer<br>  <strong>Description:</strong> This work on set theory is fundamental to mathematics and logic, providing a structured framework for understanding categorization through the concept of sets, which underlies much of modern classification theory.</p>
-</li>
-</ol>
-<p><strong>For books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
-<ol>
-<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>   <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
-</li>
-<li><p>Syntactic Structures by Noam Chomsky<br>   <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
-</li>
-<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>   <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
-</li>
-<li><p>Classification, 2nd Edition by David B. Suthers<br>   <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
-</li>
-<li><p>Library Classification and Cataloging by Lois Mai Chan<br>   <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
-</li>
-<li><p>Knowledge and the Flow of Information by Fred Dretske<br>   <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.<br>   DOI: 10.2307&#x2F;2214939<br>   <a href="https://sci-hub.se/https://doi.org/10.2307/2214939">Read on sci-hub.se</a></p>
-</li>
-<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>   <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.<br>   <a href="https://yunus.hacettepe.edu.tr/~tonta/courses/fall2010/bby607/IAWWW.pdf">Read on yunus.hacettepe.edu.tr</a></p>
-</li>
-<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>   <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
-</li>
-<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>   <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
-</li>
-<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
-</li>
-</ol>
-<p><strong>Books that explore systematic knowledge categorization and classification, here are some highly regarded titles:</strong></p>
-<ol>
-<li><p>Classification Theory: Foundations and Applications by William G. Wilson<br>  <strong>Description:</strong> This book provides a comprehensive overview of classification theories, exploring the foundations, methodologies, and applications across different fields. It discusses systematic approaches to categorization in science, information systems, and data organization.</p>
-</li>
-<li><p>Syntactic Structures by Noam Chomsky<br>  <strong>Description:</strong> Although primarily focused on linguistics, Chomsky’s work introduced systematic methods for categorizing language structure, which has influenced knowledge classification in other fields, especially in computational linguistics and artificial intelligence.</p>
-</li>
-<li><p>The Order of Things: An Archaeology of the Human Sciences by Michel Foucault<br>  <strong>Description:</strong> Foucault analyzes the historical evolution of classification systems in the sciences, examining how humans have historically categorized knowledge and how these structures shape our perception of the world.</p>
-</li>
-<li><p>Classification, 2nd Edition by David B. Suthers<br>  <strong>Description:</strong> This book provides a deep dive into systematic classification for information science, covering frameworks like taxonomies, ontologies, and faceted classification. It’s a useful resource for understanding the foundations of knowledge organization.</p>
-</li>
-<li><p>Library Classification and Cataloging by Lois Mai Chan<br>  <strong>Description:</strong> Focused on library science, this book explores classification systems like the Dewey Decimal and Library of Congress systems. It’s a practical guide to the systematic categorization and retrieval of knowledge.</p>
-</li>
-<li><p>Knowledge and the Flow of Information by Fred Dretske<br>  <strong>Description:</strong> This philosophical work examines how knowledge is categorized, structured, and communicated. Dretske’s theories are foundational in information theory and knowledge management.</p>
-</li>
-<li><p>Information Architecture for the World Wide Web by Louis Rosenfeld and Peter Morville<br>  <strong>Description:</strong> A practical book for categorizing digital information. It discusses principles of taxonomy, metadata, and controlled vocabularies, which are essential for creating structured information on the web.</p>
-</li>
-<li><p>The Library: A Fragile History by Andrew Pettegree and Arthur der Weduwen<br>  <strong>Description:</strong> This historical account discusses how libraries have categorized and preserved knowledge over centuries, exploring classification as a tool for knowledge organization and accessibility.</p>
-</li>
-<li><p>General System Theory: Foundations, Development, Applications by Ludwig von Bertalanffy<br>  <strong>Description:</strong> Bertalanffy’s work is foundational in systems theory, which underpins classification across sciences. This book explores how systems thinking helps organize knowledge systematically.</p>
-</li>
-<li><p>Ontology Learning and Population from Text: Algorithms, Evaluation and Applications by Philipp Cimiano<br>  <strong>Description:</strong> Focusing on ontology, this book explains methods for building structured, hierarchical classifications from text data, valuable for machine learning and data science.</p>
-</li>
-</ol>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">Aristotle - Aristotle(Greek: Ἀριστοτέλης Aristotélēs; 384–322 BC) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science. <a href="https://en.wikipedia.org/wiki/Aristotle">wikipedia: Aristotle</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">Isaac Newton - Sir Isaac Newton FRS (25 December 1642 – 20 March 1726/27) was an English polymath active as a mathematician, physicist, astronomer, alchemist, theologian, and author who was described in his time as a natural philosopher.He was a key figure in the Scientific Revolution and the Enlightenment that followed. <a href="https://en.wikipedia.org/wiki/Isaac_Newton">wikipedia: Isaac Newton</a></span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>knowledge</tag>
       </tags>
   </entry>
   <entry>
@@ -5973,6 +5987,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -6042,29 +6070,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My GitHub projects</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
@@ -6120,6 +6125,29 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -6337,20 +6365,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>stats</title>
     <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
@@ -6359,15 +6373,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
     <title>blog deploy actions</title>
     <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
 ]]></content>
       <categories>
         <category>Maintanance</category>
@@ -6407,6 +6412,33 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -6453,24 +6485,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>hexo_io</tag>
         <tag>note</tag>
         <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -7372,115 +7386,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXIO.IO layout improvements</title>
-    <url>/hexo-blog//hexo-layout-improvements/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
-<ul>
-<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
-<li><a href="#changes-1">changes-1</a></li>
-<li><a href="#changes-2">changes-2</a></li>
-</ul>
-</li>
-<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
-<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
-<li><a href="#adding-footnotes">Adding footnotes</a><ul>
-<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
-<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<p>Before changes #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before changes $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Links on the nav bar are not possible to click</p>
-<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>and </p>
-<p>After changes-2 $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>nav-bar fixed and works fine for desktop and mobile view.</p>
-<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
-<p>Before changes-1 header.styl </p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
-
-<p>after changes-1</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
-<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing &#96;&#96;</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
-<p>Run this command to install it:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
-
-<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
-<p>Add this to your <code>_config.yml</code> file:</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
-<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
-
-<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<p>or </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
-
-<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
-<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
-  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and </p>
-<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
-
-<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXIO.IO instalation guide</title>
     <url>/hexo-blog/2024/10/22/tutorials/HEXO.IO_installation_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Make-HEXO-IO-blog"><a href="#Make-HEXO-IO-blog" class="headerlink" title="Make HEXO.IO blog"></a>Make HEXO.IO blog</h2><ul>
@@ -7631,6 +7536,115 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>blog</tag>
         <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXIO.IO layout improvements</title>
+    <url>/hexo-blog//hexo-layout-improvements/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
+<ul>
+<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
+<li><a href="#changes-1">changes-1</a></li>
+<li><a href="#changes-2">changes-2</a></li>
+</ul>
+</li>
+<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
+<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
+<li><a href="#adding-footnotes">Adding footnotes</a><ul>
+<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
+<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<p>Before changes #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before changes $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Links on the nav bar are not possible to click</p>
+<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>and </p>
+<p>After changes-2 $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>nav-bar fixed and works fine for desktop and mobile view.</p>
+<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
+<p>Before changes-1 header.styl </p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
+
+<p>after changes-1</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
+<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing &#96;&#96;</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
+<p>Run this command to install it:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
+
+<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
+<p>Add this to your <code>_config.yml</code> file:</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
+<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
+
+<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>or </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
+
+<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
+<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
+  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and </p>
+<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
+
+<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>
