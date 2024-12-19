@@ -403,28 +403,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
-<ul>
-<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
-<li>DOI:10.1561&#x2F;2200000056</li>
-<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
-<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AI glossaries list</title>
     <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
@@ -472,6 +450,28 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
+<ul>
+<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
+<li>DOI:10.1561&#x2F;2200000056</li>
+<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
+<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -2104,123 +2104,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
-    <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
-<hr>
-<h2 id="Key-differences-between-fine-tuning-and-training"><a href="#Key-differences-between-fine-tuning-and-training" class="headerlink" title="Key differences between fine-tuning and training"></a>Key differences between fine-tuning and training</h2><table>
-<thead>
-<tr>
-<th>Aspect</th>
-<th>Fine-Tuning</th>
-<th>Training</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Starting Point</strong></td>
-<td>Pre-trained model weights from a related task (e.g., ImageNet for vision, GPT for text).</td>
-<td>Randomly initialized weights.</td>
-</tr>
-<tr>
-<td><strong>Data Requirements</strong></td>
-<td>Requires less data; leverages knowledge from the pre-trained model.</td>
-<td>Requires large amounts of labeled data.</td>
-</tr>
-<tr>
-<td><strong>Training Duration</strong></td>
-<td>Generally shorter; only adjusts some layers.</td>
-<td>Longer; all parameters are learned from scratch.</td>
-</tr>
-<tr>
-<td><strong>Resource Needs</strong></td>
-<td>Less compute-intensive due to reduced training scope.</td>
-<td>High resource demands for extensive training.</td>
-</tr>
-<tr>
-<td><strong>Use Case</strong></td>
-<td>When data is limited or computational resources are constrained.</td>
-<td>When custom architecture or large task-specific datasets are available.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Baselines-for-fine-tuning-training"><a href="#Baselines-for-fine-tuning-training" class="headerlink" title="Baselines for fine-tuning&#x2F;training"></a>Baselines for fine-tuning&#x2F;training</h2><h3 id="1-Feedforward-Networks-FFNs"><a href="#1-Feedforward-Networks-FFNs" class="headerlink" title="1. Feedforward Networks (FFNs)"></a>1. Feedforward Networks (FFNs)</h3><ul>
-<li><strong>Baseline</strong>: Fully connected layers with non-linear activations.</li>
-<li><strong>Fine-Tuning</strong>: Modify output layers to match the target task and optionally freeze earlier layers.</li>
-<li><strong>Training</strong>: Start with random initialization, requiring carefully tuned learning rates and weight initialization methods.</li>
-</ul>
-<h3 id="2-Convolutional-Neural-Networks-CNNs"><a href="#2-Convolutional-Neural-Networks-CNNs" class="headerlink" title="2. Convolutional Neural Networks (CNNs)"></a>2. Convolutional Neural Networks (CNNs)</h3><ul>
-<li><strong>Baseline</strong>: Architectures like VGG, ResNet, or EfficientNet, pre-trained on ImageNet.</li>
-<li><strong>Fine-Tuning</strong>: Replace the classification head to match target classes, often freezing earlier convolutional layers.</li>
-<li><strong>Training</strong>: Train from scratch if the task involves entirely different visual domains (e.g., medical imaging).</li>
-</ul>
-<h3 id="3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs"><a href="#3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs" class="headerlink" title="3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)"></a>3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)</h3><ul>
-<li><strong>Baseline</strong>: Pre-trained word embeddings (e.g., GloVe, Word2Vec) or models like ELMo.</li>
-<li><strong>Fine-Tuning</strong>: Use pre-trained embeddings, fine-tune the LSTM layers on sequential tasks.</li>
-<li><strong>Training</strong>: Train an LSTM network from scratch for language modeling or time-series tasks.</li>
-</ul>
-<h3 id="4-Transformers"><a href="#4-Transformers" class="headerlink" title="4. Transformers"></a>4. Transformers</h3><ul>
-<li><strong>Baseline</strong>: Models like BERT, GPT, or T5.</li>
-<li><strong>Fine-Tuning</strong>: Modify the decoder head, adjust hyperparameters like learning rate and layer freezing.</li>
-<li><strong>Training</strong>: Start with pre-trained embeddings; for unique tasks, initialize the Transformer from scratch (high compute).</li>
-</ul>
-<hr>
-<h2 id="Technical-details-of-popular-architectures"><a href="#Technical-details-of-popular-architectures" class="headerlink" title="Technical details of popular architectures"></a>Technical details of popular architectures</h2><table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Baseline Task</th>
-<th>Fine-Tuning Scope</th>
-<th>Training Considerations</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>VGG16</strong></td>
-<td>Image Classification (ImageNet)</td>
-<td>Replace final dense layer, freeze initial layers.</td>
-<td>High memory usage, simpler architecture to optimize.</td>
-</tr>
-<tr>
-<td><strong>ResNet50</strong></td>
-<td>Image Classification (ImageNet)</td>
-<td>Adjust classification head; fine-tune deeper layers as needed.</td>
-<td>Skip connections improve gradient flow.</td>
-</tr>
-<tr>
-<td><strong>BERT</strong></td>
-<td>Masked Language Model (MLM)</td>
-<td>Modify for classification, QA, or summarization.</td>
-<td>Pre-training requires MLM objectives.</td>
-</tr>
-<tr>
-<td><strong>GPT-3</strong></td>
-<td>Text Generation</td>
-<td>Fine-tune specific tasks by updating decoder head.</td>
-<td>Requires extensive GPU resources for full training.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>Sequential Data Modeling</td>
-<td>Fine-tune on embeddings, adjust for target sequence length.</td>
-<td>Long training times due to sequential processing.</td>
-</tr>
-<tr>
-<td><strong>EfficientNet</strong></td>
-<td>Image Classification</td>
-<td>Replace head; scale input resolution for task-specific datasets.</td>
-<td>Compound scaling optimizes trade-offs in performance.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>Fine-tuning and training models depend heavily on the task, available data, and computational resources. Fine-tuning is generally faster and resource-efficient, making it ideal for adapting large pre-trained models to specific tasks. On the other hand, training from scratch offers flexibility when creating custom architectures but demands extensive data and compute. By understanding these approaches, practitioners can select the most suitable method for their applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Neural Process Family</title>
     <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
@@ -2459,6 +2342,123 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>NLP</tag>
         <tag>lexic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
+    <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
+<hr>
+<h2 id="Key-differences-between-fine-tuning-and-training"><a href="#Key-differences-between-fine-tuning-and-training" class="headerlink" title="Key differences between fine-tuning and training"></a>Key differences between fine-tuning and training</h2><table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Fine-Tuning</th>
+<th>Training</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Starting Point</strong></td>
+<td>Pre-trained model weights from a related task (e.g., ImageNet for vision, GPT for text).</td>
+<td>Randomly initialized weights.</td>
+</tr>
+<tr>
+<td><strong>Data Requirements</strong></td>
+<td>Requires less data; leverages knowledge from the pre-trained model.</td>
+<td>Requires large amounts of labeled data.</td>
+</tr>
+<tr>
+<td><strong>Training Duration</strong></td>
+<td>Generally shorter; only adjusts some layers.</td>
+<td>Longer; all parameters are learned from scratch.</td>
+</tr>
+<tr>
+<td><strong>Resource Needs</strong></td>
+<td>Less compute-intensive due to reduced training scope.</td>
+<td>High resource demands for extensive training.</td>
+</tr>
+<tr>
+<td><strong>Use Case</strong></td>
+<td>When data is limited or computational resources are constrained.</td>
+<td>When custom architecture or large task-specific datasets are available.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Baselines-for-fine-tuning-training"><a href="#Baselines-for-fine-tuning-training" class="headerlink" title="Baselines for fine-tuning&#x2F;training"></a>Baselines for fine-tuning&#x2F;training</h2><h3 id="1-Feedforward-Networks-FFNs"><a href="#1-Feedforward-Networks-FFNs" class="headerlink" title="1. Feedforward Networks (FFNs)"></a>1. Feedforward Networks (FFNs)</h3><ul>
+<li><strong>Baseline</strong>: Fully connected layers with non-linear activations.</li>
+<li><strong>Fine-Tuning</strong>: Modify output layers to match the target task and optionally freeze earlier layers.</li>
+<li><strong>Training</strong>: Start with random initialization, requiring carefully tuned learning rates and weight initialization methods.</li>
+</ul>
+<h3 id="2-Convolutional-Neural-Networks-CNNs"><a href="#2-Convolutional-Neural-Networks-CNNs" class="headerlink" title="2. Convolutional Neural Networks (CNNs)"></a>2. Convolutional Neural Networks (CNNs)</h3><ul>
+<li><strong>Baseline</strong>: Architectures like VGG, ResNet, or EfficientNet, pre-trained on ImageNet.</li>
+<li><strong>Fine-Tuning</strong>: Replace the classification head to match target classes, often freezing earlier convolutional layers.</li>
+<li><strong>Training</strong>: Train from scratch if the task involves entirely different visual domains (e.g., medical imaging).</li>
+</ul>
+<h3 id="3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs"><a href="#3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs" class="headerlink" title="3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)"></a>3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)</h3><ul>
+<li><strong>Baseline</strong>: Pre-trained word embeddings (e.g., GloVe, Word2Vec) or models like ELMo.</li>
+<li><strong>Fine-Tuning</strong>: Use pre-trained embeddings, fine-tune the LSTM layers on sequential tasks.</li>
+<li><strong>Training</strong>: Train an LSTM network from scratch for language modeling or time-series tasks.</li>
+</ul>
+<h3 id="4-Transformers"><a href="#4-Transformers" class="headerlink" title="4. Transformers"></a>4. Transformers</h3><ul>
+<li><strong>Baseline</strong>: Models like BERT, GPT, or T5.</li>
+<li><strong>Fine-Tuning</strong>: Modify the decoder head, adjust hyperparameters like learning rate and layer freezing.</li>
+<li><strong>Training</strong>: Start with pre-trained embeddings; for unique tasks, initialize the Transformer from scratch (high compute).</li>
+</ul>
+<hr>
+<h2 id="Technical-details-of-popular-architectures"><a href="#Technical-details-of-popular-architectures" class="headerlink" title="Technical details of popular architectures"></a>Technical details of popular architectures</h2><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Baseline Task</th>
+<th>Fine-Tuning Scope</th>
+<th>Training Considerations</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>VGG16</strong></td>
+<td>Image Classification (ImageNet)</td>
+<td>Replace final dense layer, freeze initial layers.</td>
+<td>High memory usage, simpler architecture to optimize.</td>
+</tr>
+<tr>
+<td><strong>ResNet50</strong></td>
+<td>Image Classification (ImageNet)</td>
+<td>Adjust classification head; fine-tune deeper layers as needed.</td>
+<td>Skip connections improve gradient flow.</td>
+</tr>
+<tr>
+<td><strong>BERT</strong></td>
+<td>Masked Language Model (MLM)</td>
+<td>Modify for classification, QA, or summarization.</td>
+<td>Pre-training requires MLM objectives.</td>
+</tr>
+<tr>
+<td><strong>GPT-3</strong></td>
+<td>Text Generation</td>
+<td>Fine-tune specific tasks by updating decoder head.</td>
+<td>Requires extensive GPU resources for full training.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>Sequential Data Modeling</td>
+<td>Fine-tune on embeddings, adjust for target sequence length.</td>
+<td>Long training times due to sequential processing.</td>
+</tr>
+<tr>
+<td><strong>EfficientNet</strong></td>
+<td>Image Classification</td>
+<td>Replace head; scale input resolution for task-specific datasets.</td>
+<td>Compound scaling optimizes trade-offs in performance.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>Fine-tuning and training models depend heavily on the task, available data, and computational resources. Fine-tuning is generally faster and resource-efficient, making it ideal for adapting large pre-trained models to specific tasks. On the other hand, training from scratch offers flexibility when creating custom architectures but demands extensive data and compute. By understanding these approaches, practitioners can select the most suitable method for their applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -2816,159 +2816,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLTK general</title>
-    <url>/hexo-blog/2024/12/04/post_ai_nltk__general/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="NLTK-Natural-Language-Toolkit-for-Natural-Language-Text-Processing-NLTP"><a href="#NLTK-Natural-Language-Toolkit-for-Natural-Language-Text-Processing-NLTP" class="headerlink" title="NLTK - Natural Language Toolkit for Natural Language Text Processing (NLTP)"></a>NLTK - Natural Language Toolkit for Natural Language Text Processing (NLTP)</h2><hr>
-<h3 id="General"><a href="#General" class="headerlink" title="General"></a>General</h3><ol>
-<li><a href="https://www.nltk.org/howto.html#example-usage-of-nltk-modules">Example usage of NLTK modules</a></li>
-<li><a href="https://github.com/nltk/nltk/wiki">NLTK WIKI</a></li>
-<li><a href="https://github.com/nltk/nltk/wiki/Projects">NLTK WIKI Projects</a></li>
-<li><a href="https://github.com/nltk/nltk/FAQ">NLTK FAQ</a></li>
-<li><a href="http://text-processing.com/demo/">NLTK Interactive online demos</a></li>
-</ol>
-<hr>
-<h3 id="NLTK-books"><a href="#NLTK-books" class="headerlink" title="NLTK books"></a>NLTK books</h3><p><a href="https://www.nltk.org/book/">Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit. Steven Bird, Ewan Klein, and Edward Loper</a></p>
-<hr>
-<h4 id="NLTK-courses"><a href="#NLTK-courses" class="headerlink" title="NLTK courses"></a>NLTK courses</h4><p><a href="http://www.nltk.org/courses">NLTK courses</a></p>
-<hr>
-<h4 id="About-‘Natural-Language-Text-Processing’"><a href="#About-‘Natural-Language-Text-Processing’" class="headerlink" title="About ‘Natural Language Text Processing’"></a>About ‘Natural Language Text Processing’</h4><p>Natural Language Text Processing encompasses a range of techniques and tools to analyze, manipulate, and understand human language in text form. Below is a detailed explanation of key terms, their technical details, and implementation options in NLP.</p>
-<p>Natural Language Text Processing include but not limited by <code>sentiment analysis</code>, which uses text classification to determine <code>sentiment polarity</code>, <code>word tokenization</code> , <code>stemming</code> text, <code>speech tagging</code> using <code>speech taggers</code>, <code>chunk extraction</code> and named <code>entity recognition</code>. </p>
-<hr>
-<h4 id="Sentiment-Analysis"><a href="#Sentiment-Analysis" class="headerlink" title="Sentiment Analysis"></a><strong>Sentiment Analysis</strong></h4><p><strong>Definition</strong>: Sentiment Analysis determines the emotional tone behind a body of text. It classifies text as positive, negative, or neutral.</p>
-<p><strong>Approaches</strong>:</p>
-<ol>
-<li><strong>Lexicon-Based Methods</strong>:<ul>
-<li>Use predefined dictionaries of positive and negative words.</li>
-<li>Examples: SentiWordNet, VADER.</li>
-</ul>
-</li>
-<li><strong>Machine Learning-Based Methods</strong>:<ul>
-<li>Train a model on labeled datasets to classify sentiments.</li>
-<li>Examples: Naive Bayes, Support Vector Machines (SVM).</li>
-</ul>
-</li>
-<li><strong>Deep Learning Methods</strong>:<ul>
-<li>Utilize neural networks like RNNs, LSTMs, or transformers.</li>
-<li>Examples: BERT, RoBERTa, DistilBERT.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h4 id="Word-Tokenization"><a href="#Word-Tokenization" class="headerlink" title="Word Tokenization"></a><strong>Word Tokenization</strong></h4><p><strong>Definition</strong>: The process of splitting a sentence or paragraph into individual words or tokens.</p>
-<p><strong>Options</strong>:</p>
-<ol>
-<li><strong>Rule-Based Tokenization</strong>:<ul>
-<li>Uses language-specific rules to split text.</li>
-<li>Example Tools: NLTK, SpaCy.</li>
-</ul>
-</li>
-<li><strong>Statistical Tokenization</strong>:<ul>
-<li>Employs probabilistic models for token boundaries.</li>
-<li>Examples: Punkt tokenizer.</li>
-</ul>
-</li>
-<li><strong>Subword Tokenization</strong>:<ul>
-<li>Splits text into subwords to handle rare words.</li>
-<li>Examples: Byte Pair Encoding (BPE), WordPiece (used in BERT).</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h4 id="Stemming"><a href="#Stemming" class="headerlink" title="Stemming"></a><strong>Stemming</strong></h4><p><strong>Definition</strong>: Reduces words to their base or root form (e.g., “running” → “run”).</p>
-<p><strong>Methods</strong>:</p>
-<ol>
-<li><strong>Porter Stemmer</strong>: Algorithmic and rule-based.</li>
-<li><strong>Lancaster Stemmer</strong>: Faster but more aggressive.</li>
-<li><strong>Snowball Stemmer</strong>: Improved version of Porter.</li>
-</ol>
-<p><strong>Usage</strong>: Common in search engines and text indexing.</p>
-<hr>
-<h4 id="Speech-Tagging"><a href="#Speech-Tagging" class="headerlink" title="Speech Tagging"></a><strong>Speech Tagging</strong></h4><p><strong>Definition</strong>: Assigning parts of speech (POS) tags (e.g., noun, verb) to each word in a text.</p>
-<p><strong>Taggers</strong>:</p>
-<ol>
-<li><strong>Rule-Based POS Tagging</strong>:<ul>
-<li>Uses manually crafted rules.</li>
-</ul>
-</li>
-<li><strong>Statistical POS Tagging</strong>:<ul>
-<li>Relies on probabilistic models (e.g., Hidden Markov Models).</li>
-</ul>
-</li>
-<li><strong>Neural POS Tagging</strong>:<ul>
-<li>Utilizes neural networks for higher accuracy.</li>
-</ul>
-</li>
-</ol>
-<p><strong>Example Tools</strong>: NLTK POS Tagger, SpaCy.</p>
-<hr>
-<h4 id="Chunk-Extraction"><a href="#Chunk-Extraction" class="headerlink" title="Chunk Extraction"></a><strong>Chunk Extraction</strong></h4><p><strong>Definition</strong>: Identifies and groups related words (e.g., noun phrases, verb phrases).</p>
-<p><strong>Types</strong>:</p>
-<ol>
-<li><strong>Shallow Parsing</strong>:<ul>
-<li>Focuses on high-level phrase detection.</li>
-</ul>
-</li>
-<li><strong>Dependency Parsing</strong>:<ul>
-<li>Analyzes grammatical structure by identifying relationships between words.</li>
-</ul>
-</li>
-</ol>
-<p><strong>Example Tools</strong>: OpenNLP, CoreNLP.</p>
-<hr>
-<h4 id="Named-Entity-Recognition-NER"><a href="#Named-Entity-Recognition-NER" class="headerlink" title="Named Entity Recognition (NER)"></a><strong>Named Entity Recognition (NER)</strong></h4><p><strong>Definition</strong>: Identifies and categorizes entities in text (e.g., names, organizations, dates).</p>
-<p><strong>NER Types</strong>:</p>
-<ol>
-<li><strong>Rule-Based NER</strong>:<ul>
-<li>Uses pattern-matching rules.</li>
-<li>Examples: Regular Expressions.</li>
-</ul>
-</li>
-<li><strong>Statistical NER</strong>:<ul>
-<li>Trains models on labeled entity datasets.</li>
-<li>Examples: Conditional Random Fields (CRF).</li>
-</ul>
-</li>
-<li><strong>Neural NER</strong>:<ul>
-<li>Deep learning-based methods for context understanding.</li>
-<li>Examples: SpaCy, Flair, Hugging Face.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h3 id="Implementation-in-NLP"><a href="#Implementation-in-NLP" class="headerlink" title="Implementation in NLP"></a><strong>Implementation in NLP</strong></h3><ol>
-<li><p><strong>Libraries and Frameworks</strong>:</p>
-<ul>
-<li><strong>NLTK</strong>: A foundational library for tokenization, stemming, and POS tagging.</li>
-<li><strong>SpaCy</strong>: Industrial-strength NLP with support for tokenization, POS tagging, NER, etc.</li>
-<li><strong>Transformers (Hugging Face)</strong>: Pre-trained models for sentiment analysis, NER, and more.</li>
-<li><strong>CoreNLP</strong>: Comprehensive NLP suite by Stanford.</li>
-</ul>
-</li>
-<li><p><strong>Use Cases</strong>:</p>
-<ul>
-<li>Sentiment analysis in social media monitoring.</li>
-<li>Tokenization in machine translation.</li>
-<li>NER for information extraction from documents.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://nlp.stanford.edu/">Natural Language Processing | Stanford NLP</a>  </li>
-<li><a href="https://huggingface.co/">Understanding NLP Techniques | Hugging Face</a>  </li>
-<li><a href="https://www.nltk.org/">NLTK Official Documentation</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NLTK</tag>
       </tags>
   </entry>
   <entry>
@@ -3464,6 +3311,159 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NLTK general</title>
+    <url>/hexo-blog/2024/12/04/post_ai_nltk__general/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="NLTK-Natural-Language-Toolkit-for-Natural-Language-Text-Processing-NLTP"><a href="#NLTK-Natural-Language-Toolkit-for-Natural-Language-Text-Processing-NLTP" class="headerlink" title="NLTK - Natural Language Toolkit for Natural Language Text Processing (NLTP)"></a>NLTK - Natural Language Toolkit for Natural Language Text Processing (NLTP)</h2><hr>
+<h3 id="General"><a href="#General" class="headerlink" title="General"></a>General</h3><ol>
+<li><a href="https://www.nltk.org/howto.html#example-usage-of-nltk-modules">Example usage of NLTK modules</a></li>
+<li><a href="https://github.com/nltk/nltk/wiki">NLTK WIKI</a></li>
+<li><a href="https://github.com/nltk/nltk/wiki/Projects">NLTK WIKI Projects</a></li>
+<li><a href="https://github.com/nltk/nltk/FAQ">NLTK FAQ</a></li>
+<li><a href="http://text-processing.com/demo/">NLTK Interactive online demos</a></li>
+</ol>
+<hr>
+<h3 id="NLTK-books"><a href="#NLTK-books" class="headerlink" title="NLTK books"></a>NLTK books</h3><p><a href="https://www.nltk.org/book/">Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit. Steven Bird, Ewan Klein, and Edward Loper</a></p>
+<hr>
+<h4 id="NLTK-courses"><a href="#NLTK-courses" class="headerlink" title="NLTK courses"></a>NLTK courses</h4><p><a href="http://www.nltk.org/courses">NLTK courses</a></p>
+<hr>
+<h4 id="About-‘Natural-Language-Text-Processing’"><a href="#About-‘Natural-Language-Text-Processing’" class="headerlink" title="About ‘Natural Language Text Processing’"></a>About ‘Natural Language Text Processing’</h4><p>Natural Language Text Processing encompasses a range of techniques and tools to analyze, manipulate, and understand human language in text form. Below is a detailed explanation of key terms, their technical details, and implementation options in NLP.</p>
+<p>Natural Language Text Processing include but not limited by <code>sentiment analysis</code>, which uses text classification to determine <code>sentiment polarity</code>, <code>word tokenization</code> , <code>stemming</code> text, <code>speech tagging</code> using <code>speech taggers</code>, <code>chunk extraction</code> and named <code>entity recognition</code>. </p>
+<hr>
+<h4 id="Sentiment-Analysis"><a href="#Sentiment-Analysis" class="headerlink" title="Sentiment Analysis"></a><strong>Sentiment Analysis</strong></h4><p><strong>Definition</strong>: Sentiment Analysis determines the emotional tone behind a body of text. It classifies text as positive, negative, or neutral.</p>
+<p><strong>Approaches</strong>:</p>
+<ol>
+<li><strong>Lexicon-Based Methods</strong>:<ul>
+<li>Use predefined dictionaries of positive and negative words.</li>
+<li>Examples: SentiWordNet, VADER.</li>
+</ul>
+</li>
+<li><strong>Machine Learning-Based Methods</strong>:<ul>
+<li>Train a model on labeled datasets to classify sentiments.</li>
+<li>Examples: Naive Bayes, Support Vector Machines (SVM).</li>
+</ul>
+</li>
+<li><strong>Deep Learning Methods</strong>:<ul>
+<li>Utilize neural networks like RNNs, LSTMs, or transformers.</li>
+<li>Examples: BERT, RoBERTa, DistilBERT.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 id="Word-Tokenization"><a href="#Word-Tokenization" class="headerlink" title="Word Tokenization"></a><strong>Word Tokenization</strong></h4><p><strong>Definition</strong>: The process of splitting a sentence or paragraph into individual words or tokens.</p>
+<p><strong>Options</strong>:</p>
+<ol>
+<li><strong>Rule-Based Tokenization</strong>:<ul>
+<li>Uses language-specific rules to split text.</li>
+<li>Example Tools: NLTK, SpaCy.</li>
+</ul>
+</li>
+<li><strong>Statistical Tokenization</strong>:<ul>
+<li>Employs probabilistic models for token boundaries.</li>
+<li>Examples: Punkt tokenizer.</li>
+</ul>
+</li>
+<li><strong>Subword Tokenization</strong>:<ul>
+<li>Splits text into subwords to handle rare words.</li>
+<li>Examples: Byte Pair Encoding (BPE), WordPiece (used in BERT).</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 id="Stemming"><a href="#Stemming" class="headerlink" title="Stemming"></a><strong>Stemming</strong></h4><p><strong>Definition</strong>: Reduces words to their base or root form (e.g., “running” → “run”).</p>
+<p><strong>Methods</strong>:</p>
+<ol>
+<li><strong>Porter Stemmer</strong>: Algorithmic and rule-based.</li>
+<li><strong>Lancaster Stemmer</strong>: Faster but more aggressive.</li>
+<li><strong>Snowball Stemmer</strong>: Improved version of Porter.</li>
+</ol>
+<p><strong>Usage</strong>: Common in search engines and text indexing.</p>
+<hr>
+<h4 id="Speech-Tagging"><a href="#Speech-Tagging" class="headerlink" title="Speech Tagging"></a><strong>Speech Tagging</strong></h4><p><strong>Definition</strong>: Assigning parts of speech (POS) tags (e.g., noun, verb) to each word in a text.</p>
+<p><strong>Taggers</strong>:</p>
+<ol>
+<li><strong>Rule-Based POS Tagging</strong>:<ul>
+<li>Uses manually crafted rules.</li>
+</ul>
+</li>
+<li><strong>Statistical POS Tagging</strong>:<ul>
+<li>Relies on probabilistic models (e.g., Hidden Markov Models).</li>
+</ul>
+</li>
+<li><strong>Neural POS Tagging</strong>:<ul>
+<li>Utilizes neural networks for higher accuracy.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Example Tools</strong>: NLTK POS Tagger, SpaCy.</p>
+<hr>
+<h4 id="Chunk-Extraction"><a href="#Chunk-Extraction" class="headerlink" title="Chunk Extraction"></a><strong>Chunk Extraction</strong></h4><p><strong>Definition</strong>: Identifies and groups related words (e.g., noun phrases, verb phrases).</p>
+<p><strong>Types</strong>:</p>
+<ol>
+<li><strong>Shallow Parsing</strong>:<ul>
+<li>Focuses on high-level phrase detection.</li>
+</ul>
+</li>
+<li><strong>Dependency Parsing</strong>:<ul>
+<li>Analyzes grammatical structure by identifying relationships between words.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Example Tools</strong>: OpenNLP, CoreNLP.</p>
+<hr>
+<h4 id="Named-Entity-Recognition-NER"><a href="#Named-Entity-Recognition-NER" class="headerlink" title="Named Entity Recognition (NER)"></a><strong>Named Entity Recognition (NER)</strong></h4><p><strong>Definition</strong>: Identifies and categorizes entities in text (e.g., names, organizations, dates).</p>
+<p><strong>NER Types</strong>:</p>
+<ol>
+<li><strong>Rule-Based NER</strong>:<ul>
+<li>Uses pattern-matching rules.</li>
+<li>Examples: Regular Expressions.</li>
+</ul>
+</li>
+<li><strong>Statistical NER</strong>:<ul>
+<li>Trains models on labeled entity datasets.</li>
+<li>Examples: Conditional Random Fields (CRF).</li>
+</ul>
+</li>
+<li><strong>Neural NER</strong>:<ul>
+<li>Deep learning-based methods for context understanding.</li>
+<li>Examples: SpaCy, Flair, Hugging Face.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="Implementation-in-NLP"><a href="#Implementation-in-NLP" class="headerlink" title="Implementation in NLP"></a><strong>Implementation in NLP</strong></h3><ol>
+<li><p><strong>Libraries and Frameworks</strong>:</p>
+<ul>
+<li><strong>NLTK</strong>: A foundational library for tokenization, stemming, and POS tagging.</li>
+<li><strong>SpaCy</strong>: Industrial-strength NLP with support for tokenization, POS tagging, NER, etc.</li>
+<li><strong>Transformers (Hugging Face)</strong>: Pre-trained models for sentiment analysis, NER, and more.</li>
+<li><strong>CoreNLP</strong>: Comprehensive NLP suite by Stanford.</li>
+</ul>
+</li>
+<li><p><strong>Use Cases</strong>:</p>
+<ul>
+<li>Sentiment analysis in social media monitoring.</li>
+<li>Tokenization in machine translation.</li>
+<li>NER for information extraction from documents.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://nlp.stanford.edu/">Natural Language Processing | Stanford NLP</a>  </li>
+<li><a href="https://huggingface.co/">Understanding NLP Techniques | Hugging Face</a>  </li>
+<li><a href="https://www.nltk.org/">NLTK Official Documentation</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLTK</tag>
       </tags>
   </entry>
   <entry>
@@ -5099,77 +5099,109 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
-    <title>Linguistic basics</title>
-    <url>/hexo-blog/2024/11/21/post_linquistic_basics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Linguistic-Domains-Involved"><a href="#1-Linguistic-Domains-Involved" class="headerlink" title="1. Linguistic Domains Involved"></a>1. Linguistic Domains Involved</h2><ul>
-<li><strong>Syntax</strong>: Deals with sentence structure and grammatical correctness, which is crucial for text quality.</li>
-<li><strong>Semantics</strong>: Ensures that the meaning of words and sentences aligns logically, contributing to coherence and quality.</li>
-<li><strong>Pragmatics</strong>: Focuses on the context and the intended meaning, which impacts both coherence and quality.</li>
-<li><strong>Discourse Analysis</strong>: Examines how sentences and paragraphs are connected to form a meaningful and coherent whole, a critical aspect of text coherence.</li>
-</ul>
-<h2 id="2-Theoretical-Linguistics"><a href="#2-Theoretical-Linguistics" class="headerlink" title="2. Theoretical Linguistics"></a>2. Theoretical Linguistics</h2><p>In theoretical linguistics, these concepts relate to:</p>
+    <title>Troubleshooting SSH connection termination after `sshd_config` changes</title>
+    <url>/hexo-blog//devops/post_devops__troubleshooting_ssh_connection_termination_after_sshd_config_changes/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Steps-to-verify-and-resolve-the-issue"><a href="#Steps-to-verify-and-resolve-the-issue" class="headerlink" title="Steps to verify and resolve the issue:"></a>Steps to verify and resolve the issue:</h2><ol>
+<li><p><strong>Check if SSH server (<code>sshd</code>) is installed</strong>  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">dpkg -l | grep openssh-server</span><br></pre></td></tr></table></figure>
+
+<p>If not installed:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install openssh-server</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Check if the SSH service is active</strong><br>Identify the SSH service and verify its status:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl status ssh.service</span><br></pre></td></tr></table></figure>
+
+<p>If not running:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start ssh.service</span><br><span class="line"><span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> ssh.service</span><br></pre></td></tr></table></figure>
+
+<p>If the service name differs:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl list-units --<span class="built_in">type</span>=service | grep ssh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Validate Changes to <code>sshd_config</code></strong><br>Test for syntax errors in the configuration:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> sshd -t</span><br></pre></td></tr></table></figure>
+
+<p>Correct any errors found in <code>/etc/ssh/sshd_config</code>.</p>
+</li>
+<li><p><strong>Prevent system suspend by disabling suspend mode.</strong><br>Temporarily disable suspend mode:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target</span><br></pre></td></tr></table></figure>
+
+<p>To make this change persistent, edit <code>/etc/systemd/logind.conf</code>:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/systemd/logind.conf</span><br></pre></td></tr></table></figure>
+
+<p>Add or modify the following lines:</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">HandleLidSwitch</span>=ignore</span><br><span class="line"><span class="attr">HandleSuspendKey</span>=ignore</span><br><span class="line"><span class="attr">HandleLidSwitchDocked</span>=ignore</span><br><span class="line"><span class="attr">IdleAction</span>=ignore</span><br></pre></td></tr></table></figure>
+<p><strong>!!! IMPORTANT</strong><br>&#96;Do not mixed up configuration if you did any manipulations with preventing machine be sleeping when ‘lid’ is closed.’</p>
+<p>Reload the configuration:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudosystemctlrestartsystemd−logindz</span><br></pre></td></tr></table></figure></li>
+<li><p>Confirm SSH Usage</p>
+<p>Check for active SSH sessions:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">who</span>∣grepssh</span><br></pre></td></tr></table></figure>
+<p>Verify the SSH port is open:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudonetstat−tuln∣grep:22</span><br></pre></td></tr></table></figure>
+<p>If using a custom port, update firewall rules:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudoufwallow&lt;customport&gt;/tcpsudoufwreload</span><br></pre></td></tr></table></figure></li>
+<li><p>Custom scrtipt for preventing suspend mode from <strong>&#x2F;usr&#x2F;lib&#x2F;systemd&#x2F;system-sleep&#x2F;</strong></p>
+<ol>
+<li><p>Create script fiel<code>ssh_keep_awake.sh</code> </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /usr/lib/systemd/system-sleep/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure></li>
+<li><p>Add there script for getting <code>ip</code> of connected via SSH remote machine</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># add some sleep delay to manage execution of script. </span></span><br><span class="line"><span class="built_in">sleep</span> 1</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Checking for active SSH sessions...&quot;</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># Run the &#x27;w&#x27; command and store the output</span></span><br><span class="line">w_output=$(w -h)</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;w command output: <span class="variable">$w_output</span>&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Extract the IP addresses of users logged in via SSH</span></span><br><span class="line">ip=$(<span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$w_output</span>&quot;</span> | grep -oP <span class="string">&#x27;(\d&#123;1,3&#125;\.)&#123;3&#125;\d&#123;1,3&#125;&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Detected IP: <span class="variable">$ip</span>&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ -z <span class="string">&quot;<span class="variable">$ip</span>&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">   <span class="built_in">echo</span> <span class="string">&quot;No active SSH session detected.&quot;</span></span><br><span class="line">   <span class="built_in">exit</span> 0</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">   <span class="built_in">echo</span> <span class="string">&quot;User is still logged in from <span class="variable">$ip</span>&quot;</span></span><br><span class="line">   <span class="built_in">exit</span> 1</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></li>
+<li><p>Check the script location and permissions:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">ls</span> -l /usr/lib/systemd/system-sleep/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure>
+<p>It should show something like:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-rwxr-xr-x 1 root root 123 Dec 19 14:00 /usr/lib/systemd/system-sleep/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure></li>
+<li><p>Grant access to the file</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> +x /usr/lib/systemd/system-sleep/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure></li>
+<li><p>For checking active SSH session on remote Linux machine execute</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">w -h </span><br></pre></td></tr></table></figure>
+<p>Console should show exisintg session for all users.</p>
+</li>
+<li><p>Run and check script execution via</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> /usr/lib/systemd/system-sleep/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure>
+<p>  <strong>Expected Output:</strong></p>
 <ul>
-<li><strong>Text Linguistics</strong>: Studies how text is structured to make it meaningful and coherent as a whole.</li>
-<li><strong>Cohesion and Coherence</strong>: Examines linguistic devices (e.g., conjunctions, pronouns, references) and logical connections between text elements.</li>
-<li><strong>Cognitive Linguistics</strong>: Explores how readers perceive and interpret generated text, contributing to the perception of coherence and quality.</li>
-</ul>
-<h2 id="3-Applied-Linguistics"><a href="#3-Applied-Linguistics" class="headerlink" title="3. Applied Linguistics"></a>3. Applied Linguistics</h2><p>In applied contexts, text coherence and quality are central to:</p>
-<ul>
-<li><strong>Natural Language Processing (NLP)</strong>: Ensuring generated text by machines aligns with human linguistic expectations.</li>
-<li><strong>Language Teaching</strong>: Teaching coherent and high-quality writing skills.</li>
-<li><strong>Translation Studies</strong>: Maintaining coherence and quality when translating between languages.</li>
-</ul>
-<h2 id="4-Computational-Linguistics"><a href="#4-Computational-Linguistics" class="headerlink" title="4. Computational Linguistics"></a>4. Computational Linguistics</h2><p>Text generation and evaluation are significant in computational linguistics, where algorithms are developed to:</p>
-<ul>
-<li>Mimic human-like coherence and quality in machine-generated text.</li>
-<li>Optimize coherence through logical flow and topic consistency.</li>
-<li>Enhance quality with grammatically accurate and stylistically appropriate output.</li>
-</ul>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
-<li><p>Paper: <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997)</p>
-<ul>
-<li>DOI: <a href="https://doi.org/10.1016/j.pragma.2010.04.028">10.1016&#x2F;j.pragma.2010.04.028</a></li>
-<li><a href="http://library.lgaki.info:404/2017/De%20Beaugrande%20R.-A..pdf">Read <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997) on library.lgaki.info</a></li>
+<li>The output should print the raw result of w -h and then show the detected IP address.</li>
+<li>If there is an active SSH session, it should print “User is still logged in from <IP>“.</li>
+<li>If no session is found, it should print “No active SSH session detected.”.</li>
 </ul>
 </li>
-<li><p>Paper: <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007)</p>
+</ol>
+</li>
+<li><p>Custom scrtipt for preventing suspend mode from <strong>&#x2F;etc&#x2F;pm&#x2F;sleep.d&#x2F;</strong></p>
+<ol>
+<li><p>Create script fiel<code>ssh_keep_awake.sh</code> </p>
+   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /usr/lib/systemd/system-sleep/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure></li>
+<li><p>Add there script for getting <code>ip</code> of connected via SSH remote machine</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="built_in">sleep</span> 1</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Checking for active SSH sessions...&quot;</span> </span><br><span class="line"></span><br><span class="line"><span class="comment"># Run the &#x27;w&#x27; command and store the output</span></span><br><span class="line">w_output=$(w -h)</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;w command output: <span class="variable">$w_output</span>&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Extract the IP addresses of users logged in via SSH</span></span><br><span class="line">ip=$(<span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$w_output</span>&quot;</span> | grep -oP <span class="string">&#x27;(\d&#123;1,3&#125;\.)&#123;3&#125;\d&#123;1,3&#125;&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Detected IP: <span class="variable">$ip</span>&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ -z <span class="string">&quot;<span class="variable">$ip</span>&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">   <span class="built_in">echo</span> <span class="string">&quot;No active SSH session detected.&quot;</span></span><br><span class="line">   <span class="built_in">exit</span> 0</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">   <span class="built_in">echo</span> <span class="string">&quot;User is still logged in from <span class="variable">$ip</span>&quot;</span></span><br><span class="line">   <span class="built_in">exit</span> 1</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure></li>
+<li><p>Check the script location and permissions:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">ls</span> -l /etc/pm/sleep.d/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure>
+<p>It should show something like:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-rwxr-xr-x 1 root root 123 Dec 19 14:00 /etc/pm/sleep.d/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure></li>
+<li><p>Grant access to the file</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> +x /etc/pm/sleep.d/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure></li>
+<li><p>For checking active SSH session on remote Linux machine execute</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">w -h </span><br></pre></td></tr></table></figure>
+<p>Console should show exisintg session for all users.</p>
+</li>
+<li><p>Run and check script execution via</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> /etc/pm/sleep.d/ssh_keep_awake.sh</span><br></pre></td></tr></table></figure>
+<p>  <strong>Expected Output:</strong></p>
 <ul>
-<li>DOI: <a href="https://doi.org/10.1017/CBO9781139524780">10.1017&#x2F;CBO9781139524780</a></li>
-<li><a href="https://api.pageplace.de/preview/DT0400.9781135604196_A24656486/preview-9781135604196_A24656486.pdf">Read <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007) on api.pageplace.de</a></li>
+<li>The output should print the raw result of w -h and then show the detected IP address.</li>
+<li>If there is an active SSH session, it should print “User is still logged in from <IP>“.</li>
+<li>If no session is found, it should print “No active SSH session detected.”.</li>
 </ul>
 </li>
-<li><p>Book: <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin </p>
-<ul>
-<li>DOI: <a href="https://doi.org/">XYZ</a></li>
-<li><a href="https://ia600302.us.archive.org/33/items/jurafsky_martin/jurafsky_martin.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (1999) on us.archive.org</a></li>
-<li><a href="https://www.ipwatchdog.com/wp-content/uploads/2019/08/Jurafsky.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (2000) on ipwatchdog.com</a></li>
-</ul>
+</ol>
 </li>
-<li><p>Paper: <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000)</p>
-<ul>
-<li>DOI: <a href="https://doi.org/">XYZ</a></li>
-<li><a href="https://core.ac.uk/download/pdf/4395395.pdf">Read <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000) on</a></li>
-</ul>
-</li>
-<li><p>Paper: <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003)</p>
-<ul>
-<li>DOI: <a href="https://doi.org/">XYZ</a></li>
-<li><a href="https://disi.unitn.it/~moschitti/books/PHD-Thesis2003.pdf">Read <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003) on</a></li>
-</ul>
-</li>
-<li><p>Book: <em>The Cambridge Handbook of Computational Linguistics</em> by R. Dale, H. Moisl &amp; H. Somers</p>
-<ul>
-<li>DOI: <a href="https://doi.org/10.1017/9781108755610">10.1017&#x2F;9781108755610</a></li>
-</ul>
-</li>
-</ul>
+</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>linguistic</tag>
+        <tag>ssh</tag>
+        <tag>devops</tag>
       </tags>
   </entry>
   <entry>
@@ -5342,6 +5374,80 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>Linguistic basics</title>
+    <url>/hexo-blog/2024/11/21/post_linquistic_basics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Linguistic-Domains-Involved"><a href="#1-Linguistic-Domains-Involved" class="headerlink" title="1. Linguistic Domains Involved"></a>1. Linguistic Domains Involved</h2><ul>
+<li><strong>Syntax</strong>: Deals with sentence structure and grammatical correctness, which is crucial for text quality.</li>
+<li><strong>Semantics</strong>: Ensures that the meaning of words and sentences aligns logically, contributing to coherence and quality.</li>
+<li><strong>Pragmatics</strong>: Focuses on the context and the intended meaning, which impacts both coherence and quality.</li>
+<li><strong>Discourse Analysis</strong>: Examines how sentences and paragraphs are connected to form a meaningful and coherent whole, a critical aspect of text coherence.</li>
+</ul>
+<h2 id="2-Theoretical-Linguistics"><a href="#2-Theoretical-Linguistics" class="headerlink" title="2. Theoretical Linguistics"></a>2. Theoretical Linguistics</h2><p>In theoretical linguistics, these concepts relate to:</p>
+<ul>
+<li><strong>Text Linguistics</strong>: Studies how text is structured to make it meaningful and coherent as a whole.</li>
+<li><strong>Cohesion and Coherence</strong>: Examines linguistic devices (e.g., conjunctions, pronouns, references) and logical connections between text elements.</li>
+<li><strong>Cognitive Linguistics</strong>: Explores how readers perceive and interpret generated text, contributing to the perception of coherence and quality.</li>
+</ul>
+<h2 id="3-Applied-Linguistics"><a href="#3-Applied-Linguistics" class="headerlink" title="3. Applied Linguistics"></a>3. Applied Linguistics</h2><p>In applied contexts, text coherence and quality are central to:</p>
+<ul>
+<li><strong>Natural Language Processing (NLP)</strong>: Ensuring generated text by machines aligns with human linguistic expectations.</li>
+<li><strong>Language Teaching</strong>: Teaching coherent and high-quality writing skills.</li>
+<li><strong>Translation Studies</strong>: Maintaining coherence and quality when translating between languages.</li>
+</ul>
+<h2 id="4-Computational-Linguistics"><a href="#4-Computational-Linguistics" class="headerlink" title="4. Computational Linguistics"></a>4. Computational Linguistics</h2><p>Text generation and evaluation are significant in computational linguistics, where algorithms are developed to:</p>
+<ul>
+<li>Mimic human-like coherence and quality in machine-generated text.</li>
+<li>Optimize coherence through logical flow and topic consistency.</li>
+<li>Enhance quality with grammatically accurate and stylistically appropriate output.</li>
+</ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><p>Paper: <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1016/j.pragma.2010.04.028">10.1016&#x2F;j.pragma.2010.04.028</a></li>
+<li><a href="http://library.lgaki.info:404/2017/De%20Beaugrande%20R.-A..pdf">Read <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997) on library.lgaki.info</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1017/CBO9781139524780">10.1017&#x2F;CBO9781139524780</a></li>
+<li><a href="https://api.pageplace.de/preview/DT0400.9781135604196_A24656486/preview-9781135604196_A24656486.pdf">Read <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007) on api.pageplace.de</a></li>
+</ul>
+</li>
+<li><p>Book: <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin </p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://ia600302.us.archive.org/33/items/jurafsky_martin/jurafsky_martin.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (1999) on us.archive.org</a></li>
+<li><a href="https://www.ipwatchdog.com/wp-content/uploads/2019/08/Jurafsky.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (2000) on ipwatchdog.com</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://core.ac.uk/download/pdf/4395395.pdf">Read <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000) on</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://disi.unitn.it/~moschitti/books/PHD-Thesis2003.pdf">Read <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003) on</a></li>
+</ul>
+</li>
+<li><p>Book: <em>The Cambridge Handbook of Computational Linguistics</em> by R. Dale, H. Moisl &amp; H. Somers</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1017/9781108755610">10.1017&#x2F;9781108755610</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>linguistic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ML - colorizing plain text dynamically in HTML</title>
     <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
@@ -5440,28 +5546,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>Windows OS apps</title>
-    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
-<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
-To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
-
-<ul>
-<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
-<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>apps</tag>
-        <tag>windows_os</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Types of protocols for interaction on client-server architecture level.</title>
     <url>/hexo-blog/2024/04/09/post_network_protocols/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
@@ -5502,6 +5586,28 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>network_protocols</tag>
         <tag>protocols</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows OS apps</title>
+    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
+<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
+To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
+
+<ul>
+<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
+<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>apps</tag>
+        <tag>windows_os</tag>
       </tags>
   </entry>
   <entry>
@@ -6126,20 +6232,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Cheatsheet list</title>
     <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -6151,65 +6243,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tutorial</tag>
         <tag>cheatsheets</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -6282,13 +6315,27 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
 ]]></content>
       <categories>
-        <category>Maintanance</category>
+        <category>My contribution</category>
       </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
+      </tags>
   </entry>
   <entry>
     <title>My GitHub projects</title>
@@ -6564,6 +6611,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -6813,20 +6919,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Moving from old blog site</title>
     <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
@@ -6843,6 +6935,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>blog</tag>
         <tag>note</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -7142,6 +7248,54 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
+<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
+</ol>
+<ul>
+<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
+<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>papers</tag>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Symbol encoding (Unicode and family)</title>
     <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
@@ -7260,54 +7414,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>unicode</tag>
         <tag>ASCII</tag>
         <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
-<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
-</ol>
-<ul>
-<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
-<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>papers</tag>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
