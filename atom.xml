@@ -232,6 +232,35 @@
   </entry>
   
   <entry>
+    <title>BERT configuration parameters overview</title>
+    <link href="https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/"/>
+    <id>https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/</id>
+    <published>2024-12-04T20:08:12.000Z</published>
+    <updated>2024-12-17T12:22:36.458Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p><ol><li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li><li><a href="/hexo-blog/ai/post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a></li><li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li></ol><hr><h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table><thead><tr><th><strong>Parameter</strong></th><th><strong>Description</strong></th><th><strong>Data Type&#x2F;Options</strong></th></tr></thead><tbody><tr><td><code>hidden_size</code></td><td>Dimensionality of the hidden states and embeddings.</td><td>Integer, e.g., <code>768</code>, <code>1024</code>.</td></tr><tr><td><code>num_hidden_layers</code></td><td>Number of hidden layers in the transformer encoder.</td><td>Integer, e.g., <code>12</code>, <code>24</code>.</td></tr><tr><td><code>num_attention_heads</code></td><td>Number of attention heads per transformer layer.</td><td>Integer, typically a divisor of <code>hidden_size</code>.</td></tr><tr><td><code>vocab_size</code></td><td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td><td>Integer, e.g., <code>30522</code>.</td></tr><tr><td><code>intermediate_size</code></td><td>Dimensionality of the feedforward layers.</td><td>Integer, e.g., <code>3072</code>.</td></tr><tr><td><code>hidden_dropout_prob</code></td><td>Dropout probability for fully connected layers in the encoder.</td><td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td></tr><tr><td><code>attention_probs_dropout_prob</code></td><td>Dropout probability in the attention mechanism.</td><td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td></tr><tr><td><code>max_position_embeddings</code></td><td>Maximum number of positions for input tokens.</td><td>Integer, e.g., <code>512</code>.</td></tr><tr><td><code>type_vocab_size</code></td><td>Size of the token type vocabulary for segment embeddings.</td><td>Integer, typically <code>2</code>.</td></tr><tr><td><code>initializer_range</code></td><td>Standard deviation for weight initialization.</td><td>Float, e.g., <code>0.02</code>.</td></tr><tr><td><code>layer_norm_eps</code></td><td>A small value added for numerical stability in layer normalization.</td><td>Float, typically <code>1e-5</code>.</td></tr><tr><td><code>output_hidden_states</code></td><td>Whether to output all hidden states from each layer.</td><td>Boolean, <code>true</code> or <code>false</code>.</td></tr><tr><td><code>output_attentions</code></td><td>Whether to output the attention weights.</td><td>Boolean, <code>true</code> or <code>false</code>.</td></tr></tbody></table><h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol><li><p><strong>Capacity:</strong></p><ul><li>Increasing <code>hidden_size</code>, <code>num_hidden_layers</code>, or <code>num_attention_heads</code> allows the model to capture more complex patterns but increases resource usage.</li></ul></li><li><p><strong>Regularization:</strong></p><ul><li>Dropout probabilities (<code>hidden_dropout_prob</code>, <code>attention_probs_dropout_prob</code>) control overfitting risks but can hinder learning if set too high.</li></ul></li><li><p><strong>Pretraining vs. Fine-tuning:</strong></p><ul><li><code>type_vocab_size</code> is essential for tasks requiring segment embeddings (e.g., sentence pairs).</li></ul></li><li><p><strong>Stability and Efficiency:</strong></p><ul><li><code>layer_norm_eps</code> ensures stable training, while <code>initializer_range</code> affects convergence.</li></ul></li></ol><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul><li>Paper</li><li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</li><li>DOI: 10.48550&#x2F;arXiv.1810.04805</li><li><a href="https://arxiv.org/abs/1810.04805">Read on </a></li><li><a href="https://huggingface.co/docs/transformers/model_doc/bert">Hugging Face BERT Documentation</a></li></ul><h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul><li><strong>Report:</strong> “On the Structural Properties of BERT Models” (Kovaleva et al., 2019).</li><li><strong>Challenges:</strong> Over-parameterization and inefficiency in fine-tuning for domain-specific tasks.</li></ul><h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul><li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li><li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li><li><strong>OpenAI Playground for Text Understanding:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;em&gt;This post is related to:&lt;/em&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
+    
+    
+    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="LLM" scheme="https://ooge0.github.io/hexo-blog/tags/LLM/"/>
+    
+    <category term="BERT" scheme="https://ooge0.github.io/hexo-blog/tags/BERT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>BART configuration parameters overview</title>
     <link href="https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/"/>
     <id>https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/</id>
@@ -259,35 +288,6 @@
     <category term="BART" scheme="https://ooge0.github.io/hexo-blog/tags/BART/"/>
     
     <category term="llm_parameters" scheme="https://ooge0.github.io/hexo-blog/tags/llm-parameters/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BERT configuration parameters overview</title>
-    <link href="https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/"/>
-    <id>https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/</id>
-    <published>2024-12-04T20:08:12.000Z</published>
-    <updated>2024-12-17T12:22:36.458Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p><ol><li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li><li><a href="/hexo-blog/ai/post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a></li><li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li></ol><hr><h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table><thead><tr><th><strong>Parameter</strong></th><th><strong>Description</strong></th><th><strong>Data Type&#x2F;Options</strong></th></tr></thead><tbody><tr><td><code>hidden_size</code></td><td>Dimensionality of the hidden states and embeddings.</td><td>Integer, e.g., <code>768</code>, <code>1024</code>.</td></tr><tr><td><code>num_hidden_layers</code></td><td>Number of hidden layers in the transformer encoder.</td><td>Integer, e.g., <code>12</code>, <code>24</code>.</td></tr><tr><td><code>num_attention_heads</code></td><td>Number of attention heads per transformer layer.</td><td>Integer, typically a divisor of <code>hidden_size</code>.</td></tr><tr><td><code>vocab_size</code></td><td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td><td>Integer, e.g., <code>30522</code>.</td></tr><tr><td><code>intermediate_size</code></td><td>Dimensionality of the feedforward layers.</td><td>Integer, e.g., <code>3072</code>.</td></tr><tr><td><code>hidden_dropout_prob</code></td><td>Dropout probability for fully connected layers in the encoder.</td><td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td></tr><tr><td><code>attention_probs_dropout_prob</code></td><td>Dropout probability in the attention mechanism.</td><td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td></tr><tr><td><code>max_position_embeddings</code></td><td>Maximum number of positions for input tokens.</td><td>Integer, e.g., <code>512</code>.</td></tr><tr><td><code>type_vocab_size</code></td><td>Size of the token type vocabulary for segment embeddings.</td><td>Integer, typically <code>2</code>.</td></tr><tr><td><code>initializer_range</code></td><td>Standard deviation for weight initialization.</td><td>Float, e.g., <code>0.02</code>.</td></tr><tr><td><code>layer_norm_eps</code></td><td>A small value added for numerical stability in layer normalization.</td><td>Float, typically <code>1e-5</code>.</td></tr><tr><td><code>output_hidden_states</code></td><td>Whether to output all hidden states from each layer.</td><td>Boolean, <code>true</code> or <code>false</code>.</td></tr><tr><td><code>output_attentions</code></td><td>Whether to output the attention weights.</td><td>Boolean, <code>true</code> or <code>false</code>.</td></tr></tbody></table><h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol><li><p><strong>Capacity:</strong></p><ul><li>Increasing <code>hidden_size</code>, <code>num_hidden_layers</code>, or <code>num_attention_heads</code> allows the model to capture more complex patterns but increases resource usage.</li></ul></li><li><p><strong>Regularization:</strong></p><ul><li>Dropout probabilities (<code>hidden_dropout_prob</code>, <code>attention_probs_dropout_prob</code>) control overfitting risks but can hinder learning if set too high.</li></ul></li><li><p><strong>Pretraining vs. Fine-tuning:</strong></p><ul><li><code>type_vocab_size</code> is essential for tasks requiring segment embeddings (e.g., sentence pairs).</li></ul></li><li><p><strong>Stability and Efficiency:</strong></p><ul><li><code>layer_norm_eps</code> ensures stable training, while <code>initializer_range</code> affects convergence.</li></ul></li></ol><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul><li>Paper</li><li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</li><li>DOI: 10.48550&#x2F;arXiv.1810.04805</li><li><a href="https://arxiv.org/abs/1810.04805">Read on </a></li><li><a href="https://huggingface.co/docs/transformers/model_doc/bert">Hugging Face BERT Documentation</a></li></ul><h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul><li><strong>Report:</strong> “On the Structural Properties of BERT Models” (Kovaleva et al., 2019).</li><li><strong>Challenges:</strong> Over-parameterization and inefficiency in fine-tuning for domain-specific tasks.</li></ul><h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul><li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li><li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li><li><strong>OpenAI Playground for Text Understanding:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;em&gt;This post is related to:&lt;/em&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
-    
-    
-    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
-    
-    <category term="LLM" scheme="https://ooge0.github.io/hexo-blog/tags/LLM/"/>
-    
-    <category term="BERT" scheme="https://ooge0.github.io/hexo-blog/tags/BERT/"/>
     
   </entry>
   
