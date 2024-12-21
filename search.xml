@@ -21,39 +21,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>ASCII art</title>
-    <url>/hexo-blog/2024/10/28/post_acsii_graphics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chatbots from scratch</title>
-    <url>/hexo-blog/2024/10/28/post_ai__chatbots_from_scratch/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>chatbot</tag>
-        <tag>Llama</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
-    <url>/hexo-blog/2024/11/13/post_ai__base_gan/</url>
+    <url>/hexo-blog//ai/base_gan/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
 <p><strong>Особенности генеративного ИИ</strong></p>
 <ul>
@@ -131,9 +100,9 @@
         <category>Posts</category>
       </categories>
       <tags>
+        <tag>science</tag>
         <tag>AI</tag>
         <tag>ML</tag>
-        <tag>science</tag>
       </tags>
   </entry>
   <entry>
@@ -266,7 +235,7 @@
   </entry>
   <entry>
     <title>Evaluating AI Applications. Checklist</title>
-    <url>/hexo-blog/2024/10/28/post_ai__evaluating_ai_applications/</url>
+    <url>/hexo-blog//ai/evaluating_ai_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Evaluation-of-AI-Prompts"><a href="#1-Evaluation-of-AI-Prompts" class="headerlink" title="1. Evaluation of AI Prompts"></a>1. Evaluation of AI Prompts</h2><h3 id="1-1-Prompt-Clarity"><a href="#1-1-Prompt-Clarity" class="headerlink" title="1.1 Prompt Clarity"></a>1.1 <strong>Prompt Clarity</strong></h3><ul>
 <li>Ensure the prompt is clear and unambiguous.</li>
 <li>Verify that the prompt avoids overly complex or technical language unless required by the application.</li>
@@ -450,28 +419,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
-<ul>
-<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
-<li>DOI:10.1561&#x2F;2200000056</li>
-<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
-<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -706,10 +653,32 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
+        <tag>science</tag>
         <tag>AI</tag>
         <tag>ML</tag>
-        <tag>science</tag>
         <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
+<ul>
+<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
+<li>DOI:10.1561&#x2F;2200000056</li>
+<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
+<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -774,6 +743,23 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>augmentation</tag>
         <tag>text_generation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chatbots from scratch</title>
+    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>chatbot</tag>
+        <tag>Llama</tag>
       </tags>
   </entry>
   <entry>
@@ -1797,6 +1783,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
     <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
@@ -1843,33 +1856,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
 </ol>
 <p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -4619,6 +4605,173 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
+    <title>Python libs</title>
+    <url>/hexo-blog/2023/06/10/post_dev_side__python_libs/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of Python packages, their documentation links, and the corresponding installation commands. The packages are arranged alphabetically.</p>
+<p><strong>TOC</strong></p>
+<!-- This TOC is manually managed. Do not auto-generate or format -->
+<ol>
+<li><a href="#allure-pytest">allure-pytest</a></li>
+<li><a href="#cheat">cheat</a></li>
+<li><a href="#colorama">colorama</a></li>
+<li><a href="#faker">faker</a></li>
+<li><a href="#graphviz">graphviz</a></li>
+<li><a href="#hypothesis">hypothesis</a></li>
+<li><a href="#jsonschema">jsonschema</a></li>
+<li><a href="#loguru">loguru</a></li>
+<li><a href="#numpy">numpy</a></li>
+<li><a href="#openpyxl">openpyxl</a></li>
+<li><a href="#pandas">pandas</a></li>
+<li><a href="#pipdeptree">pipdeptree</a></li>
+<li><a href="#pytest">pytest</a></li>
+<li><a href="#pytest-html">pytest-html</a></li>
+<li><a href="#pytest-lazy-fixture">pytest-lazy-fixture</a></li>
+<li><a href="#pytest-xdist">pytest-xdist</a></li>
+<li><a href="#pydocstyle">pydocstyle</a></li>
+<li><a href="#regex">regex</a></li>
+<li><a href="#requests">requests</a></li>
+<li><a href="#scikit">scikit</a></li>
+<li><a href="#selenium">selenium</a></li>
+<li><a href="#sphinx">sphinx</a></li>
+<li><a href="#tach">tach</a></li>
+<li><a href="#tqdm">tqdm</a></li>
+<li><a href="#typing-extensions">typing_extensions</a></li>
+</ol>
+<hr>
+<h3 id="allure-pytest"><a href="#allure-pytest" class="headerlink" title="allure-pytest"></a>allure-pytest</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/allure-pytest/">https://pypi.org/project/allure-pytest/</a></li>
+<li>related info: <a href="https://docs.qameta.io/allure/">https://docs.qameta.io/allure/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install allure-pytest</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="cheat"><a href="#cheat" class="headerlink" title="cheat"></a>cheat</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/cheat/">https://pypi.org/project/cheat/</a></li>
+<li>related info: <a href="https://github.com/cheat/cheat">https://github.com/cheat/cheat</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install cheat</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="colorama"><a href="#colorama" class="headerlink" title="colorama"></a>colorama</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/colorama/">https://pypi.org/project/colorama/</a></li>
+<li>related info: <a href="https://github.com/tartley/colorama">https://github.com/tartley/colorama</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install colorama</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="faker"><a href="#faker" class="headerlink" title="faker"></a>faker</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/Faker/">https://pypi.org/project/Faker/</a></li>
+<li>related info: <a href="https://faker.readthedocs.io/">https://faker.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install faker</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="graphviz"><a href="#graphviz" class="headerlink" title="graphviz"></a>graphviz</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/graphviz/">https://pypi.org/project/graphviz/</a></li>
+<li>related info: <a href="https://graphviz.org/">https://graphviz.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="hypothesis"><a href="#hypothesis" class="headerlink" title="hypothesis"></a>hypothesis</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/hypothesis/">https://pypi.org/project/hypothesis/</a></li>
+<li>related info: <a href="https://hypothesis.readthedocs.io/">https://hypothesis.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install hypothesis</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="jsonschema"><a href="#jsonschema" class="headerlink" title="jsonschema"></a>jsonschema</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/jsonschema/">https://pypi.org/project/jsonschema/</a></li>
+<li>related info: <a href="https://python-jsonschema.readthedocs.io/">https://python-jsonschema.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install jsonschema</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="loguru"><a href="#loguru" class="headerlink" title="loguru"></a>loguru</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/loguru/">https://pypi.org/project/loguru/</a></li>
+<li>related info: <a href="https://github.com/Delgan/loguru">https://github.com/Delgan/loguru</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="numpy"><a href="#numpy" class="headerlink" title="numpy"></a>numpy</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/numpy/">https://pypi.org/project/numpy/</a></li>
+<li>related info: <a href="https://numpy.org/">https://numpy.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install numpy</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="openpyxl"><a href="#openpyxl" class="headerlink" title="openpyxl"></a>openpyxl</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/openpyxl/">https://pypi.org/project/openpyxl/</a></li>
+<li>related info: <a href="https://openpyxl.readthedocs.io/">https://openpyxl.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install openpyxl</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pandas/">https://pypi.org/project/pandas/</a></li>
+<li>related info: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pandas</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pipdeptree"><a href="#pipdeptree" class="headerlink" title="pipdeptree"></a>pipdeptree</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pipdeptree/">https://pypi.org/project/pipdeptree/</a></li>
+<li>related info: <a href="https://github.com/naiquevin/pipdeptree">https://github.com/naiquevin/pipdeptree</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pipdeptree</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest"><a href="#pytest" class="headerlink" title="pytest"></a>pytest</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest/">https://pypi.org/project/pytest/</a></li>
+<li>related info: <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-html"><a href="#pytest-html" class="headerlink" title="pytest-html"></a>pytest-html</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-html/">https://pypi.org/project/pytest-html/</a></li>
+<li>related info: <a href="https://pytest-html.readthedocs.io/">https://pytest-html.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-html</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-lazy-fixture"><a href="#pytest-lazy-fixture" class="headerlink" title="pytest-lazy-fixture"></a>pytest-lazy-fixture</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-lazy-fixture/">https://pypi.org/project/pytest-lazy-fixture/</a></li>
+<li>related info: <a href="https://github.com/tvorog/pytest-lazy-fixture">https://github.com/tvorog/pytest-lazy-fixture</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-lazy-fixture</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-xdist"><a href="#pytest-xdist" class="headerlink" title="pytest-xdist"></a>pytest-xdist</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-xdist/">https://pypi.org/project/pytest-xdist/</a></li>
+<li>related info: <a href="https://pytest-xdist.readthedocs.io/">https://pytest-xdist.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-xdist</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pydocstyle"><a href="#pydocstyle" class="headerlink" title="pydocstyle"></a>pydocstyle</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pydocstyle/">https://pypi.org/project/pydocstyle/</a></li>
+<li>related info: <a href="https://github.com/PyCQA/pydocstyle">https://github.com/PyCQA/pydocstyle</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pydocstyle</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="regex"><a href="#regex" class="headerlink" title="regex"></a>regex</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/regex/">https://pypi.org/project/regex/</a></li>
+<li>related info: <a href="https://github.com/mrabarnett/mrab-regex">https://github.com/mrabarnett/mrab-regex</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install regex</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="requests"><a href="#requests" class="headerlink" title="requests"></a>requests</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/requests/">https://pypi.org/project/requests/</a></li>
+<li>related info: <a href="https://docs.python-requests.org/">https://docs.python-requests.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="scikit"><a href="#scikit" class="headerlink" title="scikit"></a>scikit</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/scikit-learn/">https://pypi.org/project/scikit-learn/</a></li>
+<li>related info: <a href="https://scikit-learn.org/">https://scikit-learn.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install scikit-learn</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="selenium"><a href="#selenium" class="headerlink" title="selenium"></a>selenium</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/selenium/">https://pypi.org/project/selenium/</a></li>
+<li>related info: <a href="https://www.selenium.dev/">https://www.selenium.dev/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="sphinx"><a href="#sphinx" class="headerlink" title="sphinx"></a>sphinx</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/Sphinx/">https://pypi.org/project/Sphinx/</a></li>
+<li>related info: <a href="https://www.sphinx-doc.org/">https://www.sphinx-doc.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install sphinx</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="tach"><a href="#tach" class="headerlink" title="tach"></a>tach</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/tach/">https://pypi.org/project/tach/</a></li>
+<li>related info: <a href="https://github.com/gauge-sh/tach">https://github.com/gauge-sh/tach</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tach</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/tqdm/">https://pypi.org/project/tqdm/</a></li>
+<li>related info: <a href="https://tqdm.github.io/">https://tqdm.github.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tqdm</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="typing-extensions"><a href="#typing-extensions" class="headerlink" title="typing_extensions"></a>typing_extensions</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/typing-extensions/">https://pypi.org/project/typing-extensions/</a></li>
+<li>related info: <a href="https://docs.python.org/3/library/typing.html">https://docs.python.org/3/library/typing.html</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install typing_extensions</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>dev_side</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python basics</title>
     <url>/hexo-blog/2023/06/12/post_dev_side__python_basics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
@@ -4817,173 +4970,6 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
-    <title>Python libs</title>
-    <url>/hexo-blog/2023/06/10/post_dev_side__python_libs/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of Python packages, their documentation links, and the corresponding installation commands. The packages are arranged alphabetically.</p>
-<p><strong>TOC</strong></p>
-<!-- This TOC is manually managed. Do not auto-generate or format -->
-<ol>
-<li><a href="#allure-pytest">allure-pytest</a></li>
-<li><a href="#cheat">cheat</a></li>
-<li><a href="#colorama">colorama</a></li>
-<li><a href="#faker">faker</a></li>
-<li><a href="#graphviz">graphviz</a></li>
-<li><a href="#hypothesis">hypothesis</a></li>
-<li><a href="#jsonschema">jsonschema</a></li>
-<li><a href="#loguru">loguru</a></li>
-<li><a href="#numpy">numpy</a></li>
-<li><a href="#openpyxl">openpyxl</a></li>
-<li><a href="#pandas">pandas</a></li>
-<li><a href="#pipdeptree">pipdeptree</a></li>
-<li><a href="#pytest">pytest</a></li>
-<li><a href="#pytest-html">pytest-html</a></li>
-<li><a href="#pytest-lazy-fixture">pytest-lazy-fixture</a></li>
-<li><a href="#pytest-xdist">pytest-xdist</a></li>
-<li><a href="#pydocstyle">pydocstyle</a></li>
-<li><a href="#regex">regex</a></li>
-<li><a href="#requests">requests</a></li>
-<li><a href="#scikit">scikit</a></li>
-<li><a href="#selenium">selenium</a></li>
-<li><a href="#sphinx">sphinx</a></li>
-<li><a href="#tach">tach</a></li>
-<li><a href="#tqdm">tqdm</a></li>
-<li><a href="#typing-extensions">typing_extensions</a></li>
-</ol>
-<hr>
-<h3 id="allure-pytest"><a href="#allure-pytest" class="headerlink" title="allure-pytest"></a>allure-pytest</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/allure-pytest/">https://pypi.org/project/allure-pytest/</a></li>
-<li>related info: <a href="https://docs.qameta.io/allure/">https://docs.qameta.io/allure/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install allure-pytest</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="cheat"><a href="#cheat" class="headerlink" title="cheat"></a>cheat</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/cheat/">https://pypi.org/project/cheat/</a></li>
-<li>related info: <a href="https://github.com/cheat/cheat">https://github.com/cheat/cheat</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install cheat</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="colorama"><a href="#colorama" class="headerlink" title="colorama"></a>colorama</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/colorama/">https://pypi.org/project/colorama/</a></li>
-<li>related info: <a href="https://github.com/tartley/colorama">https://github.com/tartley/colorama</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install colorama</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="faker"><a href="#faker" class="headerlink" title="faker"></a>faker</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/Faker/">https://pypi.org/project/Faker/</a></li>
-<li>related info: <a href="https://faker.readthedocs.io/">https://faker.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install faker</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="graphviz"><a href="#graphviz" class="headerlink" title="graphviz"></a>graphviz</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/graphviz/">https://pypi.org/project/graphviz/</a></li>
-<li>related info: <a href="https://graphviz.org/">https://graphviz.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="hypothesis"><a href="#hypothesis" class="headerlink" title="hypothesis"></a>hypothesis</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/hypothesis/">https://pypi.org/project/hypothesis/</a></li>
-<li>related info: <a href="https://hypothesis.readthedocs.io/">https://hypothesis.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install hypothesis</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="jsonschema"><a href="#jsonschema" class="headerlink" title="jsonschema"></a>jsonschema</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/jsonschema/">https://pypi.org/project/jsonschema/</a></li>
-<li>related info: <a href="https://python-jsonschema.readthedocs.io/">https://python-jsonschema.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install jsonschema</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="loguru"><a href="#loguru" class="headerlink" title="loguru"></a>loguru</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/loguru/">https://pypi.org/project/loguru/</a></li>
-<li>related info: <a href="https://github.com/Delgan/loguru">https://github.com/Delgan/loguru</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="numpy"><a href="#numpy" class="headerlink" title="numpy"></a>numpy</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/numpy/">https://pypi.org/project/numpy/</a></li>
-<li>related info: <a href="https://numpy.org/">https://numpy.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install numpy</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="openpyxl"><a href="#openpyxl" class="headerlink" title="openpyxl"></a>openpyxl</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/openpyxl/">https://pypi.org/project/openpyxl/</a></li>
-<li>related info: <a href="https://openpyxl.readthedocs.io/">https://openpyxl.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install openpyxl</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pandas/">https://pypi.org/project/pandas/</a></li>
-<li>related info: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pandas</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pipdeptree"><a href="#pipdeptree" class="headerlink" title="pipdeptree"></a>pipdeptree</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pipdeptree/">https://pypi.org/project/pipdeptree/</a></li>
-<li>related info: <a href="https://github.com/naiquevin/pipdeptree">https://github.com/naiquevin/pipdeptree</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pipdeptree</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest"><a href="#pytest" class="headerlink" title="pytest"></a>pytest</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest/">https://pypi.org/project/pytest/</a></li>
-<li>related info: <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest-html"><a href="#pytest-html" class="headerlink" title="pytest-html"></a>pytest-html</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest-html/">https://pypi.org/project/pytest-html/</a></li>
-<li>related info: <a href="https://pytest-html.readthedocs.io/">https://pytest-html.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-html</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest-lazy-fixture"><a href="#pytest-lazy-fixture" class="headerlink" title="pytest-lazy-fixture"></a>pytest-lazy-fixture</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest-lazy-fixture/">https://pypi.org/project/pytest-lazy-fixture/</a></li>
-<li>related info: <a href="https://github.com/tvorog/pytest-lazy-fixture">https://github.com/tvorog/pytest-lazy-fixture</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-lazy-fixture</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest-xdist"><a href="#pytest-xdist" class="headerlink" title="pytest-xdist"></a>pytest-xdist</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest-xdist/">https://pypi.org/project/pytest-xdist/</a></li>
-<li>related info: <a href="https://pytest-xdist.readthedocs.io/">https://pytest-xdist.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-xdist</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pydocstyle"><a href="#pydocstyle" class="headerlink" title="pydocstyle"></a>pydocstyle</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pydocstyle/">https://pypi.org/project/pydocstyle/</a></li>
-<li>related info: <a href="https://github.com/PyCQA/pydocstyle">https://github.com/PyCQA/pydocstyle</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pydocstyle</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="regex"><a href="#regex" class="headerlink" title="regex"></a>regex</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/regex/">https://pypi.org/project/regex/</a></li>
-<li>related info: <a href="https://github.com/mrabarnett/mrab-regex">https://github.com/mrabarnett/mrab-regex</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install regex</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="requests"><a href="#requests" class="headerlink" title="requests"></a>requests</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/requests/">https://pypi.org/project/requests/</a></li>
-<li>related info: <a href="https://docs.python-requests.org/">https://docs.python-requests.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="scikit"><a href="#scikit" class="headerlink" title="scikit"></a>scikit</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/scikit-learn/">https://pypi.org/project/scikit-learn/</a></li>
-<li>related info: <a href="https://scikit-learn.org/">https://scikit-learn.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install scikit-learn</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="selenium"><a href="#selenium" class="headerlink" title="selenium"></a>selenium</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/selenium/">https://pypi.org/project/selenium/</a></li>
-<li>related info: <a href="https://www.selenium.dev/">https://www.selenium.dev/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="sphinx"><a href="#sphinx" class="headerlink" title="sphinx"></a>sphinx</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/Sphinx/">https://pypi.org/project/Sphinx/</a></li>
-<li>related info: <a href="https://www.sphinx-doc.org/">https://www.sphinx-doc.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install sphinx</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="tach"><a href="#tach" class="headerlink" title="tach"></a>tach</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/tach/">https://pypi.org/project/tach/</a></li>
-<li>related info: <a href="https://github.com/gauge-sh/tach">https://github.com/gauge-sh/tach</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tach</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/tqdm/">https://pypi.org/project/tqdm/</a></li>
-<li>related info: <a href="https://tqdm.github.io/">https://tqdm.github.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tqdm</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="typing-extensions"><a href="#typing-extensions" class="headerlink" title="typing_extensions"></a>typing_extensions</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/typing-extensions/">https://pypi.org/project/typing-extensions/</a></li>
-<li>related info: <a href="https://docs.python.org/3/library/typing.html">https://docs.python.org/3/library/typing.html</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install typing_extensions</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>dev_side</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ubuntu web traffic meters</title>
     <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
@@ -5091,66 +5077,6 @@ def initialize_api(api_key):
       <tags>
         <tag>dev_side</tag>
         <tag>unix</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Remote access to Ubuntu machine via ssh. Commands.</title>
-    <url>/hexo-blog//devops/post_devops__remote_access_to_ubuntu_machine_via_ssh_commands/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List:"></a>Task List:</h2><ol>
-<li><p>Check that any SSH services are installed on the remote Linux machine  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">dpkg -l | grep ssh</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Check for the correct cervice name<br>Run the following command to list all available services related to SSH:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl list-units --<span class="built_in">type</span>=service | grep ssh</span><br></pre></td></tr></table></figure>
-<p> You might see service names like:</p>
-<ul>
-<li>ssh.service</li>
-<li>sshd.service</li>
-<li>openssh-server.service</li>
-</ul>
-</li>
-<li><p>Check that <code>openssh-server</code> is installed  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install openssh-server</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Verify the installed <code>openssh-server</code> configuration  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl status sshd</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Check secure SSH access via the configuration file  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Confirm that <code>openssh-server</code> is running  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start sshd &amp;&amp; <span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> sshd</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Test SSH connection from a remote system  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh username@&lt;remote_machine_ip&gt;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Transfer files using SSH from <code>&lt;local_machine&gt;</code> to <code>&lt;remote_machine&gt;</code>  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">scp /path/to/local/file username@&lt;remote_machine_ip&gt;:/path/to/remote/destination</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h2 id="Additional-Commands"><a href="#Additional-Commands" class="headerlink" title="Additional Commands:"></a>Additional Commands:</h2><ol>
-<li><p>Restart the SSH service after making configuration changes  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl restart sshd</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Check the active SSH sessions on the remote machine  </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">who</span> | grep ssh</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Allow only key-based authentication for SSH connections  </p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/ssh/sshd_config</span><br><span class="line"><span class="comment"># Change the following:</span></span><br><span class="line"><span class="comment"># PasswordAuthentication no</span></span><br><span class="line"><span class="comment"># PermitRootLogin no</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Monitor SSH access logs  </p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">tail</span> -f /var/log/auth.log</span><br></pre></td></tr></table></figure></li>
-<li><p>Put the syste to suspend, by <code>power management</code> (alias <code>pm</code>):</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pm-suspend</span><br></pre></td></tr></table></figure></li>
-<li><p>Put the syste to suspend by <code>systemctl</code>:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl <span class="built_in">suspend</span></span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ssh</tag>
-        <tag>devops</tag>
       </tags>
   </entry>
   <entry>
@@ -5322,6 +5248,80 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>ReadTheDocs</tag>
         <tag>[object Object]</tag>
         <tag>DocPublishing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Remote access to Ubuntu machine via ssh. Commands.</title>
+    <url>/hexo-blog//devops/post_devops__remote_access_to_ubuntu_machine_via_ssh_commands/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List:"></a>Task List:</h2><ol>
+<li><p>Check that any SSH services are installed on the remote Linux machine  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">dpkg -l | grep ssh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Check for the correct cervice name<br>Run the following command to list all available services related to SSH:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl list-units --<span class="built_in">type</span>=service | grep ssh</span><br></pre></td></tr></table></figure>
+<p> You might see service names like:</p>
+<ul>
+<li>ssh.service</li>
+<li>sshd.service</li>
+<li>openssh-server.service</li>
+</ul>
+</li>
+<li><p>Check that <code>openssh-server</code> is installed  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install openssh-server</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Verify the installed <code>openssh-server</code> configuration  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl status sshd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Check secure SSH access via the configuration file  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Confirm that <code>openssh-server</code> is running  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start sshd &amp;&amp; <span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> sshd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Test SSH connection from a remote system  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh username@&lt;remote_machine_ip&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Transfer files using SSH from <code>&lt;local_machine&gt;</code> to <code>&lt;remote_machine&gt;</code>  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">scp /path/to/local/file username@&lt;remote_machine_ip&gt;:/path/to/remote/destination</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="Additional-Commands"><a href="#Additional-Commands" class="headerlink" title="Additional Commands:"></a>Additional Commands:</h2><ol>
+<li><p>Restart the SSH service after making configuration changes  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl restart sshd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Check the active SSH sessions on the remote machine  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">who</span> | grep ssh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Allow only key-based authentication for SSH connections  </p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> nano /etc/ssh/sshd_config</span><br><span class="line"><span class="comment"># Change the following:</span></span><br><span class="line"><span class="comment"># PasswordAuthentication no</span></span><br><span class="line"><span class="comment"># PermitRootLogin no</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Monitor SSH access logs  </p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">tail</span> -f /var/log/auth.log</span><br></pre></td></tr></table></figure></li>
+<li><p>Put the syste to suspend, by <code>power management</code> (alias <code>pm</code>):</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pm-suspend</span><br></pre></td></tr></table></figure></li>
+<li><p>Put the syste to suspend by <code>systemctl</code>:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl <span class="built_in">suspend</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ssh</tag>
+        <tag>devops</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ASCII art</title>
+    <url>/hexo-blog//fun/acsii_graphics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>acsii</tag>
       </tags>
   </entry>
   <entry>
@@ -6301,6 +6301,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -6390,6 +6449,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>test_tasks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
+<hr>
+<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
       </tags>
   </entry>
   <entry>
@@ -6605,124 +6723,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>apps</tag>
         <tag>my_contribution</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
-<hr>
-<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>HEXO.IO blog references</title>
@@ -7281,6 +7281,28 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Online tools</title>
+    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
+<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
+</ol>
+<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+</ol>
+<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
+<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>tools</tag>
+        <tag>online_tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Other papers</title>
     <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
@@ -7447,28 +7469,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>unicode</tag>
         <tag>ASCII</tag>
         <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Online tools</title>
-    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
-<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
-</ol>
-<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-</ol>
-<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
-<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>tools</tag>
-        <tag>online_tools</tag>
       </tags>
   </entry>
   <entry>
