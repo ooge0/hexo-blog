@@ -444,244 +444,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prompt Engineering - start.</title>
-    <url>/hexo-blog/2024/10/28/post_ai__promt_engineer_start/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
-<hr>
-<h2 id="1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning"><a href="#1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning" class="headerlink" title="1. Core Knowledge in Artificial Intelligence and Machine Learning"></a>1. Core Knowledge in Artificial Intelligence and Machine Learning</h2><p>Understanding generative AI and large language models (LLMs) is foundational to prompt engineering.</p>
-<h3 id="Key-Topics"><a href="#Key-Topics" class="headerlink" title="Key Topics:"></a>Key Topics:</h3><ul>
-<li><strong>Natural Language Processing (NLP):</strong> <ul>
-<li>Learn about tokenization, embedding, and attention mechanisms.</li>
-<li>Familiar tools: <a href="https://spacy.io/">spaCy</a> (2020+), <a href="https://huggingface.co/transformers">Transformers by Hugging Face</a>.</li>
-</ul>
-</li>
-<li><strong>Language Models:</strong><ul>
-<li>Explore architectures like GPT (OpenAI), BERT, and T5.</li>
-<li>Key tools: <a href="https://platform.openai.com/docs">OpenAI API</a>, <a href="https://www.tensorflow.org/">Google’s TensorFlow</a>, and Hugging Face’s datasets.</li>
-</ul>
-</li>
-<li><strong>Fine-Tuning Techniques:</strong><ul>
-<li>Study transfer learning for customizing LLMs with domain-specific data.</li>
-<li>Libraries: <a href="https://huggingface.co/docs/diffusers/v0.16.0/en/training/lora">LoRA</a> (Low-Rank Adaptation for fine-tuning large models).<ul>
-<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models &#x2F; DOI <a href="https://arxiv.org/abs/2106.09685">arxiv.org&#x2F;abs&#x2F;2106.09685</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><ul>
-<li>Vaswani et al., 2017, “Attention is All You Need” - DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
-<li><em>Efficient Fine-Tuning Techniques for LLMs</em> (Hugging Face PEFT).</li>
-</ul>
-<hr>
-<h2 id="2-Data-Handling-Skills"><a href="#2-Data-Handling-Skills" class="headerlink" title="2. Data Handling Skills"></a>2. Data Handling Skills</h2><p>Prompt engineering often involves working with large datasets to understand and refine AI responses.</p>
-<h3 id="Tools-and-Techniques"><a href="#Tools-and-Techniques" class="headerlink" title="Tools and Techniques:"></a>Tools and Techniques:</h3><ul>
-<li><strong>Data Preprocessing:</strong><ul>
-<li>Techniques: Noise reduction, stemming, and lemmatization.</li>
-<li>Tools: <a href="https://cleanlab.io/">Cleanlab</a>, <a href="https://www.nltk.org/">NLTK</a> (for text-specific preprocessing).</li>
-</ul>
-</li>
-<li><strong>Data Analysis:</strong><ul>
-<li>Understand statistical trends in model responses.</li>
-<li>Tools: <a href="https://pola-rs.github.io/polars/">Polars</a>, an alternative to <a href="https://pandas.pydata.org/">Pandas</a> for high-performance data handling.</li>
-</ul>
-</li>
-<li><strong>Tokenization Analysis:</strong><ul>
-<li>Evaluate token usage in models using OpenAI’s <code>tiktoken</code> library (<a href="https://github.com/openai/tiktoken">GitHub</a>).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="3-Prompt-Design-and-Optimization"><a href="#3-Prompt-Design-and-Optimization" class="headerlink" title="3. Prompt Design and Optimization"></a>3. Prompt Design and Optimization</h2><p>Crafting effective prompts is at the heart of this role.</p>
-<h3 id="Advanced-Practices"><a href="#Advanced-Practices" class="headerlink" title="Advanced Practices:"></a>Advanced Practices:</h3><ul>
-<li><strong>Prompt Templates:</strong><ul>
-<li>Use structured prompts with placeholders for variables.</li>
-<li>Tools: <a href="https://www.langchain.com/">LangChain</a> for modular prompt management.</li>
-</ul>
-</li>
-<li><strong>Iterative Refinement:</strong><ul>
-<li>Use tools like <a href="https://promptperfect.jina.ai/">PromptPerfect</a> to analyze and enhance prompt effectiveness.</li>
-</ul>
-</li>
-<li><strong>Handling Context:</strong><ul>
-<li>Manage long contexts using techniques like windowing or chunking, supported by <a href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
-<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for handling context in LLM models’</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="4-Metrics-for-Evaluating-Prompt-Effectiveness"><a href="#4-Metrics-for-Evaluating-Prompt-Effectiveness" class="headerlink" title="4. Metrics for Evaluating Prompt Effectiveness"></a>4. Metrics for Evaluating Prompt Effectiveness</h2><p>Evaluating AI responses requires robust metrics and tools.</p>
-<h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics:"></a>Metrics:</h3><ul>
-<li><strong>Relevance and Accuracy:</strong><ul>
-<li>Techniques: Embedding similarity scoring (e.g., cosine similarity).</li>
-<li>Tools: <a href="https://www.sbert.net/">Sentence-Transformers</a>.</li>
-</ul>
-</li>
-<li><strong>Quality and Fluency:</strong><ul>
-<li>Automated tools like <a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a> or <a href="https://developer.grammarly.com/">Grammarly API</a>.</li>
-</ul>
-</li>
-<li><strong>BLEU, ROUGE, METEOR:</strong><ul>
-<li><a href="https://huggingface.co/metrics/bleu">BLEU</a></li>
-<li><a href="https://huggingface.co/metrics/rouge">ROUGE</a></li>
-<li><a href="">METEOR</a><ul>
-<li>Paper: <ul>
-<li>METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments, 2005. <ul>
-<li>Reaad on <a href="https://aclanthology.org/W05-0909.pdf">aclanthology.org</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Paper: The Meteor metric for automatic evaluation of machine translation, 2009<ul>
-<li>DOI:10.1007&#x2F;s10590-009-9059-4</li>
-<li>Read on <a href="https://sci-hub.se/10.1007/s10590-009-9059-4">sci-hub</a></li>
-</ul>
-</li>
-<li>Post: What is the METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)? <ul>
-<li>Reaad on <a href="https://klu.ai/glossary/meteor-score">klu.ai</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Compare responses to benchmarks using <a href="https://huggingface.co/docs/evaluate">Evaluate</a>.<ul>
-<li><a href="https://huggingface.co/docs/evaluate/installation">Evaluate - Installation</a></li>
-<li><a href="https://huggingface.co/docs/evaluate/a_quick_tour">Evaluate - A quick tour</a></li>
-<li><a href="https://huggingface.co/docs/evaluate/choosing_a_metric">Evaluate - Choosing a metric for your task</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="5-Testing-and-Automation-in-Prompt-Engineering"><a href="#5-Testing-and-Automation-in-Prompt-Engineering" class="headerlink" title="5. Testing and Automation in Prompt Engineering"></a>5. Testing and Automation in Prompt Engineering</h2><p>Automation ensures scalability and reliability in prompt testing.</p>
-<h3 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices:"></a>Best Practices:</h3><ul>
-<li><strong>Automated Test Suites:</strong><ul>
-<li>Frameworks: <a href="https://pytest.org/">pytest</a>, <a href="https://greatexpectations.io/">Great Expectations</a> for data validation.</li>
-</ul>
-</li>
-<li><strong>Version Control for Prompts:</strong><ul>
-<li>Use GitHub or GitLab with prompt-specific repositories.</li>
-</ul>
-</li>
-<li><strong>Continuous Testing Pipelines:</strong><ul>
-<li>CI&#x2F;CD integration using <a href="https://github.com/features/actions">GitHub Actions</a> or <a href="https://circleci.com/">CircleCI</a>.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="6-Tools-for-Working-with-Language-Models"><a href="#6-Tools-for-Working-with-Language-Models" class="headerlink" title="6. Tools for Working with Language Models"></a>6. Tools for Working with Language Models</h2><p>Advanced tools simplify interaction with modern AI systems.</p>
-<h3 id="Recommendations"><a href="#Recommendations" class="headerlink" title="Recommendations:"></a>Recommendations:</h3><ul>
-<li><strong>Model APIs:</strong><ul>
-<li>OpenAI GPT-4, Cohere API (<a href="https://docs.cohere.com/">Cohere Docs</a>).</li>
-</ul>
-</li>
-<li><strong>Interactive Platforms:</strong><ul>
-<li><a href="https://www.notion.so/product/ai">Notion AI</a>, <a href="https://colab.research.google.com/">Google Colab</a>.</li>
-</ul>
-</li>
-<li><strong>Visual Analytics:</strong><ul>
-<li>Dashboards using <a href="https://streamlit.io/">Streamlit</a> or <a href="https://dash.plotly.com/">Plotly Dash</a>.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="7-Software-Development-Skills"><a href="#7-Software-Development-Skills" class="headerlink" title="7. Software Development Skills"></a>7. Software Development Skills</h2><p>Integrating AI prompts into workflows requires coding expertise.</p>
-<h3 id="Key-Skills"><a href="#Key-Skills" class="headerlink" title="Key Skills:"></a>Key Skills:</h3><ul>
-<li><strong>Python for AI:</strong><ul>
-<li>Libraries: Hugging Face Transformers, OpenAI’s Python SDK.</li>
-</ul>
-</li>
-<li><strong>REST API Development:</strong><ul>
-<li>Tools: <a href="https://fastapi.tiangolo.com/">FastAPI</a>, Postman for testing.</li>
-</ul>
-</li>
-<li><strong>Versioning:</strong><ul>
-<li>Git and platforms like DVC (<a href="https://dvc.org/">Data Version Control</a>) for managing prompt iterations.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="8-Ethics-and-Limitations-in-AI"><a href="#8-Ethics-and-Limitations-in-AI" class="headerlink" title="8. Ethics and Limitations in AI"></a>8. Ethics and Limitations in AI</h2><p>Responsibility is a key aspect of prompt engineering.</p>
-<h3 id="Topics"><a href="#Topics" class="headerlink" title="Topics:"></a>Topics:</h3><ul>
-<li><strong>Ethical Prompt Design:</strong><ul>
-<li>Avoid introducing biases into generated outputs.</li>
-</ul>
-</li>
-<li><strong>Privacy and Security:</strong><ul>
-<li>Ensure that personal or sensitive data is anonymized.</li>
-<li>Tools: <a href="https://microsoft.github.io/presidio/">Presidio</a> for PII detection.</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><h3 id="Tutorials-and-Resources"><a href="#Tutorials-and-Resources" class="headerlink" title="Tutorials and Resources:"></a>Tutorials and Resources:</h3><ul>
-<li>Umar Jamil: <ul>
-<li><a href="https://www.youtube.com/@umarjamilai">YouTube</a>, <a href="https://umarjamil.org/">Website</a>.  </li>
-<li>Videos: <a href="https://github.com/hkproj/hkproj.github.io/blob/main/content/posts/videos.md">GitHub videos</a></li>
-</ul>
-</li>
-<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">YouTube</a>.</li>
-</ul>
-<h3 id="Research-Papers"><a href="#Research-Papers" class="headerlink" title="Research Papers:"></a>Research Papers:</h3><ul>
-<li>“Attention is All You Need” - Vaswani et al., DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
-<li>“Efficient Fine-Tuning Techniques for LLMs” - DOI: <a href="https://doi.org/10.48550/arXiv.2106.09685">10.48550&#x2F;arXiv.2106.09685</a>.</li>
-</ul>
-<h3 id="Tools-and-Libraries"><a href="#Tools-and-Libraries" class="headerlink" title="Tools and Libraries:"></a>Tools and Libraries:</h3><ul>
-<li>OpenAI API (<a href="https://platform.openai.com/docs">Docs</a>).  </li>
-<li>Hugging Face <a href="https://huggingface.co/transformers">Transformers</a>.  </li>
-<li>LangChain (<a href="https://www.langchain.com/">Website</a>).</li>
-</ul>
-<hr>
-<p><strong>Other posts</strong></p>
-<ol>
-<li>Prompt Design and Engineering: Introduction and Advanced Methods. Read on <a href="https://arxiv.org/html/2401.14423v4#S1.F2">arxiv.org</a></li>
-</ol>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Prompt engineering is an evolving domain, combining technical expertise with creativity. With a solid foundation in AI, data analysis, and ethics, specialists can craft meaningful interactions between humans and machines. By leveraging modern tools and methodologies, professionals can drive innovation in the AI ecosystem.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>prompt_engineering</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Tools for Augmenting Data and Generating Texts</title>
     <url>/hexo-blog/2024/05/10/post_ai__tools_for_augmenting_data_and_generating_texts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text-Generation-Models"><a href="#Text-Generation-Models" class="headerlink" title="Text Generation Models"></a>Text Generation Models</h2><p>Text generation models are trained on large corpora and can generate semantically coherent and lexically varied sentences.</p>
@@ -743,6 +505,36 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>augmentation</tag>
         <tag>text_generation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -1102,85 +894,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Dream team LLM engineer</title>
-    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="LLM-Engineer-Skill-Set"><a href="#LLM-Engineer-Skill-Set" class="headerlink" title="LLM Engineer Skill Set"></a><strong>LLM Engineer Skill Set</strong></h1><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
-<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
-<li>Fine-tuning and deploying large language models.</li>
-<li>Managing multimodal LLMs with text and visual inputs.</li>
-<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
-<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
-<li>Expertise in handling large-scale datasets.</li>
-</ul>
-<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
-<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
-<li>Familiarity with performance optimization for large-scale AI models.</li>
-<li>Experience with text embeddings, vector search, and similarity models.</li>
-<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
-<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
-</ul>
-<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
-<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
-<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
-<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
-<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
-</ul>
-<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
-<li>TensorFlow</li>
-<li>PyTorch</li>
-<li>Hugging Face Transformers</li>
-</ul>
-<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
-<li>Pandas</li>
-<li>Matplotlib</li>
-<li>Seaborn</li>
-</ul>
-<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
-<li><strong>Text Analysis and Preprocessing:</strong><ul>
-<li>NLTK</li>
-<li>SpaCy</li>
-<li>FastText</li>
-</ul>
-</li>
-<li><strong>Model Optimization and Deployment:</strong><ul>
-<li>ONNX</li>
-<li>TensorRT</li>
-<li>Ray Serve</li>
-</ul>
-</li>
-<li><strong>Data Management:</strong><ul>
-<li>DVC (Data Version Control)</li>
-<li>Apache Airflow</li>
-</ul>
-</li>
-<li><strong>Search and Retrieval:</strong><ul>
-<li>Elasticsearch</li>
-<li>Faiss</li>
-<li>Weaviate</li>
-</ul>
-</li>
-<li><strong>Performance Monitoring:</strong><ul>
-<li>Prometheus</li>
-<li>Grafana</li>
-<li>Sentry</li>
-</ul>
-</li>
-</ul>
-<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
-<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
-<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>dream_team</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GPT-2 configuration parameters overview</title>
     <url>/hexo-blog//ai/post_ai_llm__gpt2_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1341,6 +1054,85 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>LLM</tag>
         <tag>GPT2</tag>
         <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dream team LLM engineer</title>
+    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="LLM-Engineer-Skill-Set"><a href="#LLM-Engineer-Skill-Set" class="headerlink" title="LLM Engineer Skill Set"></a><strong>LLM Engineer Skill Set</strong></h1><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
+<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
+<li>Fine-tuning and deploying large language models.</li>
+<li>Managing multimodal LLMs with text and visual inputs.</li>
+<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
+<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
+<li>Expertise in handling large-scale datasets.</li>
+</ul>
+<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
+<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
+<li>Familiarity with performance optimization for large-scale AI models.</li>
+<li>Experience with text embeddings, vector search, and similarity models.</li>
+<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
+<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
+</ul>
+<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
+<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
+<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
+<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
+<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
+</ul>
+<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
+<li>TensorFlow</li>
+<li>PyTorch</li>
+<li>Hugging Face Transformers</li>
+</ul>
+<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
+<li>Pandas</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+</ul>
+<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
+<li><strong>Text Analysis and Preprocessing:</strong><ul>
+<li>NLTK</li>
+<li>SpaCy</li>
+<li>FastText</li>
+</ul>
+</li>
+<li><strong>Model Optimization and Deployment:</strong><ul>
+<li>ONNX</li>
+<li>TensorRT</li>
+<li>Ray Serve</li>
+</ul>
+</li>
+<li><strong>Data Management:</strong><ul>
+<li>DVC (Data Version Control)</li>
+<li>Apache Airflow</li>
+</ul>
+</li>
+<li><strong>Search and Retrieval:</strong><ul>
+<li>Elasticsearch</li>
+<li>Faiss</li>
+<li>Weaviate</li>
+</ul>
+</li>
+<li><strong>Performance Monitoring:</strong><ul>
+<li>Prometheus</li>
+<li>Grafana</li>
+<li>Sentry</li>
+</ul>
+</li>
+</ul>
+<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
+<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
+<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>dream_team</tag>
       </tags>
   </entry>
   <entry>
@@ -3018,197 +2810,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>List of neural network models, architectures, and basic components</title>
-    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
-<ol>
-<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
-</ol>
-<hr>
-<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
-<hr>
-<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Model Examples</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Feedforward Neural Network (FNN)</strong></td>
-<td>Basic MLP (Multi-Layer Perceptron)</td>
-<td>General-purpose model for regression and classification tasks.</td>
-</tr>
-<tr>
-<td><strong>Convolutional Neural Networks (CNN)</strong></td>
-<td>VGG, ResNet, AlexNet, EfficientNet</td>
-<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
-<td>Vanilla RNN, LSTM, GRU</td>
-<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
-<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
-<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
-</tr>
-<tr>
-<td><strong>Generative Adversarial Networks (GANs)</strong></td>
-<td>DCGAN, StyleGAN, CycleGAN</td>
-<td>Generative tasks such as image synthesis and domain transfer.</td>
-</tr>
-<tr>
-<td><strong>Graph Neural Networks (GNNs)</strong></td>
-<td>GCN, GraphSAGE, GAT</td>
-<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Component</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Applications</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Neuron</strong></td>
-<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
-<td>Foundational unit in all neural networks.</td>
-</tr>
-<tr>
-<td><strong>Layer</strong></td>
-<td>A collection of neurons; can be input, hidden, or output.</td>
-<td>Used in all neural architectures.</td>
-</tr>
-<tr>
-<td><strong>Activation Function</strong></td>
-<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
-<td>Enables learning of complex patterns.</td>
-</tr>
-<tr>
-<td><strong>Dropout</strong></td>
-<td>Regularization technique randomly dropping neurons during training.</td>
-<td>Reduces overfitting in models.</td>
-</tr>
-<tr>
-<td><strong>Encoder</strong></td>
-<td>Part of the model that converts input data into a latent representation.</td>
-<td>Used in Transformers, Autoencoders, BERT, and more.</td>
-</tr>
-<tr>
-<td><strong>Decoder</strong></td>
-<td>Converts latent representations back to an output format.</td>
-<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
-</tr>
-<tr>
-<td><strong>Attention Mechanism</strong></td>
-<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
-<td>Essential in Transformers and attention-based architectures.</td>
-</tr>
-<tr>
-<td><strong>Residual Block</strong></td>
-<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
-<td>Found in ResNet, Transformer architectures.</td>
-</tr>
-<tr>
-<td><strong>Convolution Layer</strong></td>
-<td>Applies convolutional operations to extract spatial features.</td>
-<td>Used in CNNs for tasks like image and video analysis.</td>
-</tr>
-<tr>
-<td><strong>Pooling Layer</strong></td>
-<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
-<td>Used in CNNs to downsample feature maps.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Cell</strong></td>
-<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
-<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
-</tr>
-<tr>
-<td><strong>Self-Attention Layer</strong></td>
-<td>Computes relationships between all input tokens to capture global dependencies.</td>
-<td>Core of Transformers.</td>
-</tr>
-<tr>
-<td><strong>Feedforward Layer</strong></td>
-<td>Dense layer applied after attention mechanisms in Transformers.</td>
-<td>Processes token-wise transformations.</td>
-</tr>
-<tr>
-<td><strong>Embedding Layer</strong></td>
-<td>Converts categorical data or tokens into dense vectors.</td>
-<td>Used in NLP, graph embeddings, and more.</td>
-</tr>
-<tr>
-<td><strong>Latent Space</strong></td>
-<td>Compressed representation of data, typically learned by encoders.</td>
-<td>Found in Autoencoders, VAEs, and GANs.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Key Components</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>FNN</strong></td>
-<td>Neurons, Layers, Activation Functions, Dropout.</td>
-</tr>
-<tr>
-<td><strong>CNN</strong></td>
-<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>RNN (Vanilla)</strong></td>
-<td>Recurrent Cells, Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
-</tr>
-<tr>
-<td><strong>GANs</strong></td>
-<td>Generator, Discriminator, Adversarial Loss.</td>
-</tr>
-<tr>
-<td><strong>GNNs</strong></td>
-<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
-</tr>
-</tbody></table>
-<hr>
-<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NN</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Comparison of popular models and architectures</title>
     <url>/hexo-blog/2024/12/10/post_ai_nn__comparison_of_popular_models_and_architectures/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to:</p>
@@ -3704,6 +3305,197 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>List of neural network models, architectures, and basic components</title>
+    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
+<ol>
+<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
+</ol>
+<hr>
+<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
+<hr>
+<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Model Examples</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Feedforward Neural Network (FNN)</strong></td>
+<td>Basic MLP (Multi-Layer Perceptron)</td>
+<td>General-purpose model for regression and classification tasks.</td>
+</tr>
+<tr>
+<td><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td>VGG, ResNet, AlexNet, EfficientNet</td>
+<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
+<td>Vanilla RNN, LSTM, GRU</td>
+<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
+<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
+<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
+</tr>
+<tr>
+<td><strong>Generative Adversarial Networks (GANs)</strong></td>
+<td>DCGAN, StyleGAN, CycleGAN</td>
+<td>Generative tasks such as image synthesis and domain transfer.</td>
+</tr>
+<tr>
+<td><strong>Graph Neural Networks (GNNs)</strong></td>
+<td>GCN, GraphSAGE, GAT</td>
+<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Applications</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Neuron</strong></td>
+<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
+<td>Foundational unit in all neural networks.</td>
+</tr>
+<tr>
+<td><strong>Layer</strong></td>
+<td>A collection of neurons; can be input, hidden, or output.</td>
+<td>Used in all neural architectures.</td>
+</tr>
+<tr>
+<td><strong>Activation Function</strong></td>
+<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
+<td>Enables learning of complex patterns.</td>
+</tr>
+<tr>
+<td><strong>Dropout</strong></td>
+<td>Regularization technique randomly dropping neurons during training.</td>
+<td>Reduces overfitting in models.</td>
+</tr>
+<tr>
+<td><strong>Encoder</strong></td>
+<td>Part of the model that converts input data into a latent representation.</td>
+<td>Used in Transformers, Autoencoders, BERT, and more.</td>
+</tr>
+<tr>
+<td><strong>Decoder</strong></td>
+<td>Converts latent representations back to an output format.</td>
+<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
+</tr>
+<tr>
+<td><strong>Attention Mechanism</strong></td>
+<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
+<td>Essential in Transformers and attention-based architectures.</td>
+</tr>
+<tr>
+<td><strong>Residual Block</strong></td>
+<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
+<td>Found in ResNet, Transformer architectures.</td>
+</tr>
+<tr>
+<td><strong>Convolution Layer</strong></td>
+<td>Applies convolutional operations to extract spatial features.</td>
+<td>Used in CNNs for tasks like image and video analysis.</td>
+</tr>
+<tr>
+<td><strong>Pooling Layer</strong></td>
+<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
+<td>Used in CNNs to downsample feature maps.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Cell</strong></td>
+<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
+<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
+</tr>
+<tr>
+<td><strong>Self-Attention Layer</strong></td>
+<td>Computes relationships between all input tokens to capture global dependencies.</td>
+<td>Core of Transformers.</td>
+</tr>
+<tr>
+<td><strong>Feedforward Layer</strong></td>
+<td>Dense layer applied after attention mechanisms in Transformers.</td>
+<td>Processes token-wise transformations.</td>
+</tr>
+<tr>
+<td><strong>Embedding Layer</strong></td>
+<td>Converts categorical data or tokens into dense vectors.</td>
+<td>Used in NLP, graph embeddings, and more.</td>
+</tr>
+<tr>
+<td><strong>Latent Space</strong></td>
+<td>Compressed representation of data, typically learned by encoders.</td>
+<td>Found in Autoencoders, VAEs, and GANs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Key Components</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>FNN</strong></td>
+<td>Neurons, Layers, Activation Functions, Dropout.</td>
+</tr>
+<tr>
+<td><strong>CNN</strong></td>
+<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>RNN (Vanilla)</strong></td>
+<td>Recurrent Cells, Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
+</tr>
+<tr>
+<td><strong>GANs</strong></td>
+<td>Generator, Discriminator, Adversarial Loss.</td>
+</tr>
+<tr>
+<td><strong>GNNs</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
+</tr>
+</tbody></table>
+<hr>
+<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Glossary of Machine Learning and AI Terms</title>
     <url>/hexo-blog//ai/glossary-of-machine-learning-and-ai-terms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Feel free to send me your thoughts, notes, other references. My contact details you can find on <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a></em></p>
@@ -3943,6 +3735,215 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>glossary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Prompt Engineering - INTRO.</title>
+    <url>/hexo-blog//ai_promt_engineer/promt_engineer_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
+<hr>
+<h2 id="1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning"><a href="#1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning" class="headerlink" title="1. Core Knowledge in Artificial Intelligence and Machine Learning"></a>1. Core Knowledge in Artificial Intelligence and Machine Learning</h2><p>Understanding generative AI and large language models (LLMs) is foundational to prompt engineering.</p>
+<h3 id="Key-Topics"><a href="#Key-Topics" class="headerlink" title="Key Topics:"></a>Key Topics:</h3><ul>
+<li><strong>Natural Language Processing (NLP):</strong> <ul>
+<li>Learn about tokenization, embedding, and attention mechanisms.</li>
+<li>Familiar tools: <a href="https://spacy.io/">spaCy</a> (2020+), <a href="https://huggingface.co/transformers">Transformers by Hugging Face</a>.</li>
+</ul>
+</li>
+<li><strong>Language Models:</strong><ul>
+<li>Explore architectures like GPT (OpenAI), BERT, and T5.</li>
+<li>Key tools: <a href="https://platform.openai.com/docs">OpenAI API</a>, <a href="https://www.tensorflow.org/">Google’s TensorFlow</a>, and Hugging Face’s datasets.</li>
+</ul>
+</li>
+<li><strong>Fine-Tuning Techniques:</strong><ul>
+<li>Study transfer learning for customizing LLMs with domain-specific data.</li>
+<li>Libraries: <a href="https://huggingface.co/docs/diffusers/v0.16.0/en/training/lora">LoRA</a> (Low-Rank Adaptation for fine-tuning large models).<ul>
+<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models &#x2F; DOI <a href="https://arxiv.org/abs/2106.09685">arxiv.org&#x2F;abs&#x2F;2106.09685</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><ul>
+<li>Vaswani et al., 2017, “Attention is All You Need” - DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li><em>Efficient Fine-Tuning Techniques for LLMs</em> (Hugging Face PEFT).</li>
+</ul>
+<hr>
+<h2 id="2-Data-Handling-Skills"><a href="#2-Data-Handling-Skills" class="headerlink" title="2. Data Handling Skills"></a>2. Data Handling Skills</h2><p>Prompt engineering often involves working with large datasets to understand and refine AI responses.</p>
+<h3 id="Tools-and-Techniques"><a href="#Tools-and-Techniques" class="headerlink" title="Tools and Techniques:"></a>Tools and Techniques:</h3><ul>
+<li><strong>Data Preprocessing:</strong><ul>
+<li>Techniques: Noise reduction, stemming, and lemmatization.</li>
+<li>Tools: <a href="https://cleanlab.io/">Cleanlab</a>, <a href="https://www.nltk.org/">NLTK</a> (for text-specific preprocessing).</li>
+</ul>
+</li>
+<li><strong>Data Analysis:</strong><ul>
+<li>Understand statistical trends in model responses.</li>
+<li>Tools: <a href="https://pola-rs.github.io/polars/">Polars</a>, an alternative to <a href="https://pandas.pydata.org/">Pandas</a> for high-performance data handling.</li>
+</ul>
+</li>
+<li><strong>Tokenization Analysis:</strong><ul>
+<li>Evaluate token usage in models using OpenAI’s <code>tiktoken</code> library (<a href="https://github.com/openai/tiktoken">GitHub</a>).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-Prompt-Design-and-Optimization"><a href="#3-Prompt-Design-and-Optimization" class="headerlink" title="3. Prompt Design and Optimization"></a>3. Prompt Design and Optimization</h2><p>Crafting effective prompts is at the heart of this role.</p>
+<h3 id="Advanced-Practices"><a href="#Advanced-Practices" class="headerlink" title="Advanced Practices:"></a>Advanced Practices:</h3><ul>
+<li><strong>Prompt Templates:</strong><ul>
+<li>Use structured prompts with placeholders for variables.</li>
+<li>Tools: <a href="https://www.langchain.com/">LangChain</a> for modular prompt management.</li>
+</ul>
+</li>
+<li><strong>Iterative Refinement:</strong><ul>
+<li>Use tools like <a href="https://promptperfect.jina.ai/">PromptPerfect</a> to analyze and enhance prompt effectiveness.</li>
+</ul>
+</li>
+<li><strong>Handling Context:</strong><ul>
+<li>Manage long contexts using techniques like windowing or chunking, supported by <a href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
+<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for handling context in LLM models’</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="4-Metrics-for-Evaluating-Prompt-Effectiveness"><a href="#4-Metrics-for-Evaluating-Prompt-Effectiveness" class="headerlink" title="4. Metrics for Evaluating Prompt Effectiveness"></a>4. Metrics for Evaluating Prompt Effectiveness</h2><p>Evaluating AI responses requires robust metrics and tools.</p>
+<h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics:"></a>Metrics:</h3><ul>
+<li><strong>Relevance and Accuracy:</strong><ul>
+<li>Techniques: Embedding similarity scoring (e.g., cosine similarity).</li>
+<li>Tools: <a href="https://www.sbert.net/">Sentence-Transformers</a>.</li>
+</ul>
+</li>
+<li><strong>Quality and Fluency:</strong><ul>
+<li>Automated tools like <a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a> or <a href="https://developer.grammarly.com/">Grammarly API</a>.</li>
+</ul>
+</li>
+<li><strong>BLEU, ROUGE, METEOR:</strong><ul>
+<li><a href="https://huggingface.co/metrics/bleu">BLEU</a></li>
+<li><a href="https://huggingface.co/metrics/rouge">ROUGE</a></li>
+<li><a href="">METEOR</a><ul>
+<li>Paper: <ul>
+<li>METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments, 2005. <ul>
+<li>Reaad on <a href="https://aclanthology.org/W05-0909.pdf">aclanthology.org</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Paper: The Meteor metric for automatic evaluation of machine translation, 2009<ul>
+<li>DOI:10.1007&#x2F;s10590-009-9059-4</li>
+<li>Read on <a href="https://sci-hub.se/10.1007/s10590-009-9059-4">sci-hub</a></li>
+</ul>
+</li>
+<li>Post: What is the METEOR Score (Metric for Evaluation of Translation with Explicit Ordering)? <ul>
+<li>Reaad on <a href="https://klu.ai/glossary/meteor-score">klu.ai</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Compare responses to benchmarks using <a href="https://huggingface.co/docs/evaluate">Evaluate</a>.<ul>
+<li><a href="https://huggingface.co/docs/evaluate/installation">Evaluate - Installation</a></li>
+<li><a href="https://huggingface.co/docs/evaluate/a_quick_tour">Evaluate - A quick tour</a></li>
+<li><a href="https://huggingface.co/docs/evaluate/choosing_a_metric">Evaluate - Choosing a metric for your task</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-Testing-and-Automation-in-Prompt-Engineering"><a href="#5-Testing-and-Automation-in-Prompt-Engineering" class="headerlink" title="5. Testing and Automation in Prompt Engineering"></a>5. Testing and Automation in Prompt Engineering</h2><p>Automation ensures scalability and reliability in prompt testing.</p>
+<h3 id="Best-Practices"><a href="#Best-Practices" class="headerlink" title="Best Practices:"></a>Best Practices:</h3><ul>
+<li><strong>Automated Test Suites:</strong><ul>
+<li>Frameworks: <a href="https://pytest.org/">pytest</a>, <a href="https://greatexpectations.io/">Great Expectations</a> for data validation.</li>
+</ul>
+</li>
+<li><strong>Version Control for Prompts:</strong><ul>
+<li>Use GitHub or GitLab with prompt-specific repositories.</li>
+</ul>
+</li>
+<li><strong>Continuous Testing Pipelines:</strong><ul>
+<li>CI&#x2F;CD integration using <a href="https://github.com/features/actions">GitHub Actions</a> or <a href="https://circleci.com/">CircleCI</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="6-Tools-for-Working-with-Language-Models"><a href="#6-Tools-for-Working-with-Language-Models" class="headerlink" title="6. Tools for Working with Language Models"></a>6. Tools for Working with Language Models</h2><p>Advanced tools simplify interaction with modern AI systems.</p>
+<h3 id="Recommendations"><a href="#Recommendations" class="headerlink" title="Recommendations:"></a>Recommendations:</h3><ul>
+<li><strong>Model APIs:</strong><ul>
+<li>OpenAI GPT-4, Cohere API (<a href="https://docs.cohere.com/">Cohere Docs</a>).</li>
+</ul>
+</li>
+<li><strong>Interactive Platforms:</strong><ul>
+<li><a href="https://www.notion.so/product/ai">Notion AI</a>, <a href="https://colab.research.google.com/">Google Colab</a>.</li>
+</ul>
+</li>
+<li><strong>Visual Analytics:</strong><ul>
+<li>Dashboards using <a href="https://streamlit.io/">Streamlit</a> or <a href="https://dash.plotly.com/">Plotly Dash</a>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="7-Software-Development-Skills"><a href="#7-Software-Development-Skills" class="headerlink" title="7. Software Development Skills"></a>7. Software Development Skills</h2><p>Integrating AI prompts into workflows requires coding expertise.</p>
+<h3 id="Key-Skills"><a href="#Key-Skills" class="headerlink" title="Key Skills:"></a>Key Skills:</h3><ul>
+<li><strong>Python for AI:</strong><ul>
+<li>Libraries: Hugging Face Transformers, OpenAI’s Python SDK.</li>
+</ul>
+</li>
+<li><strong>REST API Development:</strong><ul>
+<li>Tools: <a href="https://fastapi.tiangolo.com/">FastAPI</a>, Postman for testing.</li>
+</ul>
+</li>
+<li><strong>Versioning:</strong><ul>
+<li>Git and platforms like DVC (<a href="https://dvc.org/">Data Version Control</a>) for managing prompt iterations.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="8-Ethics-and-Limitations-in-AI"><a href="#8-Ethics-and-Limitations-in-AI" class="headerlink" title="8. Ethics and Limitations in AI"></a>8. Ethics and Limitations in AI</h2><p>Responsibility is a key aspect of prompt engineering.</p>
+<h3 id="Topics"><a href="#Topics" class="headerlink" title="Topics:"></a>Topics:</h3><ul>
+<li><strong>Ethical Prompt Design:</strong><ul>
+<li>Avoid introducing biases into generated outputs.</li>
+</ul>
+</li>
+<li><strong>Privacy and Security:</strong><ul>
+<li>Ensure that personal or sensitive data is anonymized.</li>
+<li>Tools: <a href="https://microsoft.github.io/presidio/">Presidio</a> for PII detection.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><h3 id="Tutorials-and-Resources"><a href="#Tutorials-and-Resources" class="headerlink" title="Tutorials and Resources:"></a>Tutorials and Resources:</h3><ul>
+<li>Umar Jamil: <ul>
+<li><a href="https://www.youtube.com/@umarjamilai">YouTube</a>, <a href="https://umarjamil.org/">Website</a>.  </li>
+<li>Videos: <a href="https://github.com/hkproj/hkproj.github.io/blob/main/content/posts/videos.md">GitHub videos</a></li>
+</ul>
+</li>
+<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">YouTube</a>.</li>
+</ul>
+<h3 id="Research-Papers"><a href="#Research-Papers" class="headerlink" title="Research Papers:"></a>Research Papers:</h3><ul>
+<li>“Attention is All You Need” - Vaswani et al., DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
+<li>“Efficient Fine-Tuning Techniques for LLMs” - DOI: <a href="https://doi.org/10.48550/arXiv.2106.09685">10.48550&#x2F;arXiv.2106.09685</a>.</li>
+</ul>
+<h3 id="Tools-and-Libraries"><a href="#Tools-and-Libraries" class="headerlink" title="Tools and Libraries:"></a>Tools and Libraries:</h3><ul>
+<li>OpenAI API (<a href="https://platform.openai.com/docs">Docs</a>).  </li>
+<li>Hugging Face <a href="https://huggingface.co/transformers">Transformers</a>.  </li>
+<li>LangChain (<a href="https://www.langchain.com/">Website</a>).</li>
+</ul>
+<hr>
+<p><strong>Papers and references</strong></p>
+<ol>
+<li><a href="https://arxiv.org/html/2401.14423v4#S1.F2">Read <code>Prompt Design and Engineering: Introduction and Advanced Methods</code> on arxiv.org</a></li>
+<li><a href="https://arxiv.org/pdf/2312.16171">Read <code>Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4</code> on arxiv.org</a></li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Prompt engineering is an evolving domain, combining technical expertise with creativity. With a solid foundation in AI, data analysis, and ethics, specialists can craft meaningful interactions between humans and machines. By leveraging modern tools and methodologies, professionals can drive innovation in the AI ecosystem.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
       </tags>
   </entry>
   <entry>
@@ -4808,6 +4809,173 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
+    <title>Python libs</title>
+    <url>/hexo-blog/2023/06/10/post_dev_side__python_libs/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of Python packages, their documentation links, and the corresponding installation commands. The packages are arranged alphabetically.</p>
+<p><strong>TOC</strong></p>
+<!-- This TOC is manually managed. Do not auto-generate or format -->
+<ol>
+<li><a href="#allure-pytest">allure-pytest</a></li>
+<li><a href="#cheat">cheat</a></li>
+<li><a href="#colorama">colorama</a></li>
+<li><a href="#faker">faker</a></li>
+<li><a href="#graphviz">graphviz</a></li>
+<li><a href="#hypothesis">hypothesis</a></li>
+<li><a href="#jsonschema">jsonschema</a></li>
+<li><a href="#loguru">loguru</a></li>
+<li><a href="#numpy">numpy</a></li>
+<li><a href="#openpyxl">openpyxl</a></li>
+<li><a href="#pandas">pandas</a></li>
+<li><a href="#pipdeptree">pipdeptree</a></li>
+<li><a href="#pytest">pytest</a></li>
+<li><a href="#pytest-html">pytest-html</a></li>
+<li><a href="#pytest-lazy-fixture">pytest-lazy-fixture</a></li>
+<li><a href="#pytest-xdist">pytest-xdist</a></li>
+<li><a href="#pydocstyle">pydocstyle</a></li>
+<li><a href="#regex">regex</a></li>
+<li><a href="#requests">requests</a></li>
+<li><a href="#scikit">scikit</a></li>
+<li><a href="#selenium">selenium</a></li>
+<li><a href="#sphinx">sphinx</a></li>
+<li><a href="#tach">tach</a></li>
+<li><a href="#tqdm">tqdm</a></li>
+<li><a href="#typing-extensions">typing_extensions</a></li>
+</ol>
+<hr>
+<h3 id="allure-pytest"><a href="#allure-pytest" class="headerlink" title="allure-pytest"></a>allure-pytest</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/allure-pytest/">https://pypi.org/project/allure-pytest/</a></li>
+<li>related info: <a href="https://docs.qameta.io/allure/">https://docs.qameta.io/allure/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install allure-pytest</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="cheat"><a href="#cheat" class="headerlink" title="cheat"></a>cheat</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/cheat/">https://pypi.org/project/cheat/</a></li>
+<li>related info: <a href="https://github.com/cheat/cheat">https://github.com/cheat/cheat</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install cheat</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="colorama"><a href="#colorama" class="headerlink" title="colorama"></a>colorama</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/colorama/">https://pypi.org/project/colorama/</a></li>
+<li>related info: <a href="https://github.com/tartley/colorama">https://github.com/tartley/colorama</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install colorama</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="faker"><a href="#faker" class="headerlink" title="faker"></a>faker</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/Faker/">https://pypi.org/project/Faker/</a></li>
+<li>related info: <a href="https://faker.readthedocs.io/">https://faker.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install faker</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="graphviz"><a href="#graphviz" class="headerlink" title="graphviz"></a>graphviz</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/graphviz/">https://pypi.org/project/graphviz/</a></li>
+<li>related info: <a href="https://graphviz.org/">https://graphviz.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="hypothesis"><a href="#hypothesis" class="headerlink" title="hypothesis"></a>hypothesis</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/hypothesis/">https://pypi.org/project/hypothesis/</a></li>
+<li>related info: <a href="https://hypothesis.readthedocs.io/">https://hypothesis.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install hypothesis</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="jsonschema"><a href="#jsonschema" class="headerlink" title="jsonschema"></a>jsonschema</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/jsonschema/">https://pypi.org/project/jsonschema/</a></li>
+<li>related info: <a href="https://python-jsonschema.readthedocs.io/">https://python-jsonschema.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install jsonschema</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="loguru"><a href="#loguru" class="headerlink" title="loguru"></a>loguru</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/loguru/">https://pypi.org/project/loguru/</a></li>
+<li>related info: <a href="https://github.com/Delgan/loguru">https://github.com/Delgan/loguru</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="numpy"><a href="#numpy" class="headerlink" title="numpy"></a>numpy</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/numpy/">https://pypi.org/project/numpy/</a></li>
+<li>related info: <a href="https://numpy.org/">https://numpy.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install numpy</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="openpyxl"><a href="#openpyxl" class="headerlink" title="openpyxl"></a>openpyxl</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/openpyxl/">https://pypi.org/project/openpyxl/</a></li>
+<li>related info: <a href="https://openpyxl.readthedocs.io/">https://openpyxl.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install openpyxl</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pandas/">https://pypi.org/project/pandas/</a></li>
+<li>related info: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pandas</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pipdeptree"><a href="#pipdeptree" class="headerlink" title="pipdeptree"></a>pipdeptree</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pipdeptree/">https://pypi.org/project/pipdeptree/</a></li>
+<li>related info: <a href="https://github.com/naiquevin/pipdeptree">https://github.com/naiquevin/pipdeptree</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pipdeptree</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest"><a href="#pytest" class="headerlink" title="pytest"></a>pytest</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest/">https://pypi.org/project/pytest/</a></li>
+<li>related info: <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-html"><a href="#pytest-html" class="headerlink" title="pytest-html"></a>pytest-html</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-html/">https://pypi.org/project/pytest-html/</a></li>
+<li>related info: <a href="https://pytest-html.readthedocs.io/">https://pytest-html.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-html</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-lazy-fixture"><a href="#pytest-lazy-fixture" class="headerlink" title="pytest-lazy-fixture"></a>pytest-lazy-fixture</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-lazy-fixture/">https://pypi.org/project/pytest-lazy-fixture/</a></li>
+<li>related info: <a href="https://github.com/tvorog/pytest-lazy-fixture">https://github.com/tvorog/pytest-lazy-fixture</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-lazy-fixture</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pytest-xdist"><a href="#pytest-xdist" class="headerlink" title="pytest-xdist"></a>pytest-xdist</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pytest-xdist/">https://pypi.org/project/pytest-xdist/</a></li>
+<li>related info: <a href="https://pytest-xdist.readthedocs.io/">https://pytest-xdist.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-xdist</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="pydocstyle"><a href="#pydocstyle" class="headerlink" title="pydocstyle"></a>pydocstyle</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/pydocstyle/">https://pypi.org/project/pydocstyle/</a></li>
+<li>related info: <a href="https://github.com/PyCQA/pydocstyle">https://github.com/PyCQA/pydocstyle</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pydocstyle</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="regex"><a href="#regex" class="headerlink" title="regex"></a>regex</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/regex/">https://pypi.org/project/regex/</a></li>
+<li>related info: <a href="https://github.com/mrabarnett/mrab-regex">https://github.com/mrabarnett/mrab-regex</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install regex</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="requests"><a href="#requests" class="headerlink" title="requests"></a>requests</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/requests/">https://pypi.org/project/requests/</a></li>
+<li>related info: <a href="https://docs.python-requests.org/">https://docs.python-requests.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="scikit"><a href="#scikit" class="headerlink" title="scikit"></a>scikit</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/scikit-learn/">https://pypi.org/project/scikit-learn/</a></li>
+<li>related info: <a href="https://scikit-learn.org/">https://scikit-learn.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install scikit-learn</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="selenium"><a href="#selenium" class="headerlink" title="selenium"></a>selenium</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/selenium/">https://pypi.org/project/selenium/</a></li>
+<li>related info: <a href="https://www.selenium.dev/">https://www.selenium.dev/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="sphinx"><a href="#sphinx" class="headerlink" title="sphinx"></a>sphinx</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/Sphinx/">https://pypi.org/project/Sphinx/</a></li>
+<li>related info: <a href="https://www.sphinx-doc.org/">https://www.sphinx-doc.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install sphinx</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="tach"><a href="#tach" class="headerlink" title="tach"></a>tach</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/tach/">https://pypi.org/project/tach/</a></li>
+<li>related info: <a href="https://github.com/gauge-sh/tach">https://github.com/gauge-sh/tach</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tach</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/tqdm/">https://pypi.org/project/tqdm/</a></li>
+<li>related info: <a href="https://tqdm.github.io/">https://tqdm.github.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tqdm</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+<h3 id="typing-extensions"><a href="#typing-extensions" class="headerlink" title="typing_extensions"></a>typing_extensions</h3><ul>
+<li>pypi.org docs: <a href="https://pypi.org/project/typing-extensions/">https://pypi.org/project/typing-extensions/</a></li>
+<li>related info: <a href="https://docs.python.org/3/library/typing.html">https://docs.python.org/3/library/typing.html</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install typing_extensions</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>dev_side</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu web traffic meters</title>
     <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
@@ -4975,173 +5143,6 @@ def initialize_api(api_key):
       <tags>
         <tag>ssh</tag>
         <tag>devops</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python libs</title>
-    <url>/hexo-blog/2023/06/10/post_dev_side__python_libs/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of Python packages, their documentation links, and the corresponding installation commands. The packages are arranged alphabetically.</p>
-<p><strong>TOC</strong></p>
-<!-- This TOC is manually managed. Do not auto-generate or format -->
-<ol>
-<li><a href="#allure-pytest">allure-pytest</a></li>
-<li><a href="#cheat">cheat</a></li>
-<li><a href="#colorama">colorama</a></li>
-<li><a href="#faker">faker</a></li>
-<li><a href="#graphviz">graphviz</a></li>
-<li><a href="#hypothesis">hypothesis</a></li>
-<li><a href="#jsonschema">jsonschema</a></li>
-<li><a href="#loguru">loguru</a></li>
-<li><a href="#numpy">numpy</a></li>
-<li><a href="#openpyxl">openpyxl</a></li>
-<li><a href="#pandas">pandas</a></li>
-<li><a href="#pipdeptree">pipdeptree</a></li>
-<li><a href="#pytest">pytest</a></li>
-<li><a href="#pytest-html">pytest-html</a></li>
-<li><a href="#pytest-lazy-fixture">pytest-lazy-fixture</a></li>
-<li><a href="#pytest-xdist">pytest-xdist</a></li>
-<li><a href="#pydocstyle">pydocstyle</a></li>
-<li><a href="#regex">regex</a></li>
-<li><a href="#requests">requests</a></li>
-<li><a href="#scikit">scikit</a></li>
-<li><a href="#selenium">selenium</a></li>
-<li><a href="#sphinx">sphinx</a></li>
-<li><a href="#tach">tach</a></li>
-<li><a href="#tqdm">tqdm</a></li>
-<li><a href="#typing-extensions">typing_extensions</a></li>
-</ol>
-<hr>
-<h3 id="allure-pytest"><a href="#allure-pytest" class="headerlink" title="allure-pytest"></a>allure-pytest</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/allure-pytest/">https://pypi.org/project/allure-pytest/</a></li>
-<li>related info: <a href="https://docs.qameta.io/allure/">https://docs.qameta.io/allure/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install allure-pytest</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="cheat"><a href="#cheat" class="headerlink" title="cheat"></a>cheat</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/cheat/">https://pypi.org/project/cheat/</a></li>
-<li>related info: <a href="https://github.com/cheat/cheat">https://github.com/cheat/cheat</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install cheat</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="colorama"><a href="#colorama" class="headerlink" title="colorama"></a>colorama</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/colorama/">https://pypi.org/project/colorama/</a></li>
-<li>related info: <a href="https://github.com/tartley/colorama">https://github.com/tartley/colorama</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install colorama</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="faker"><a href="#faker" class="headerlink" title="faker"></a>faker</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/Faker/">https://pypi.org/project/Faker/</a></li>
-<li>related info: <a href="https://faker.readthedocs.io/">https://faker.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install faker</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="graphviz"><a href="#graphviz" class="headerlink" title="graphviz"></a>graphviz</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/graphviz/">https://pypi.org/project/graphviz/</a></li>
-<li>related info: <a href="https://graphviz.org/">https://graphviz.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install graphviz</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="hypothesis"><a href="#hypothesis" class="headerlink" title="hypothesis"></a>hypothesis</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/hypothesis/">https://pypi.org/project/hypothesis/</a></li>
-<li>related info: <a href="https://hypothesis.readthedocs.io/">https://hypothesis.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install hypothesis</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="jsonschema"><a href="#jsonschema" class="headerlink" title="jsonschema"></a>jsonschema</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/jsonschema/">https://pypi.org/project/jsonschema/</a></li>
-<li>related info: <a href="https://python-jsonschema.readthedocs.io/">https://python-jsonschema.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install jsonschema</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="loguru"><a href="#loguru" class="headerlink" title="loguru"></a>loguru</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/loguru/">https://pypi.org/project/loguru/</a></li>
-<li>related info: <a href="https://github.com/Delgan/loguru">https://github.com/Delgan/loguru</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="numpy"><a href="#numpy" class="headerlink" title="numpy"></a>numpy</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/numpy/">https://pypi.org/project/numpy/</a></li>
-<li>related info: <a href="https://numpy.org/">https://numpy.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install numpy</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="openpyxl"><a href="#openpyxl" class="headerlink" title="openpyxl"></a>openpyxl</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/openpyxl/">https://pypi.org/project/openpyxl/</a></li>
-<li>related info: <a href="https://openpyxl.readthedocs.io/">https://openpyxl.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install openpyxl</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pandas/">https://pypi.org/project/pandas/</a></li>
-<li>related info: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pandas</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pipdeptree"><a href="#pipdeptree" class="headerlink" title="pipdeptree"></a>pipdeptree</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pipdeptree/">https://pypi.org/project/pipdeptree/</a></li>
-<li>related info: <a href="https://github.com/naiquevin/pipdeptree">https://github.com/naiquevin/pipdeptree</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pipdeptree</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest"><a href="#pytest" class="headerlink" title="pytest"></a>pytest</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest/">https://pypi.org/project/pytest/</a></li>
-<li>related info: <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest-html"><a href="#pytest-html" class="headerlink" title="pytest-html"></a>pytest-html</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest-html/">https://pypi.org/project/pytest-html/</a></li>
-<li>related info: <a href="https://pytest-html.readthedocs.io/">https://pytest-html.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-html</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest-lazy-fixture"><a href="#pytest-lazy-fixture" class="headerlink" title="pytest-lazy-fixture"></a>pytest-lazy-fixture</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest-lazy-fixture/">https://pypi.org/project/pytest-lazy-fixture/</a></li>
-<li>related info: <a href="https://github.com/tvorog/pytest-lazy-fixture">https://github.com/tvorog/pytest-lazy-fixture</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-lazy-fixture</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pytest-xdist"><a href="#pytest-xdist" class="headerlink" title="pytest-xdist"></a>pytest-xdist</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pytest-xdist/">https://pypi.org/project/pytest-xdist/</a></li>
-<li>related info: <a href="https://pytest-xdist.readthedocs.io/">https://pytest-xdist.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pytest-xdist</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="pydocstyle"><a href="#pydocstyle" class="headerlink" title="pydocstyle"></a>pydocstyle</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/pydocstyle/">https://pypi.org/project/pydocstyle/</a></li>
-<li>related info: <a href="https://github.com/PyCQA/pydocstyle">https://github.com/PyCQA/pydocstyle</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install pydocstyle</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="regex"><a href="#regex" class="headerlink" title="regex"></a>regex</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/regex/">https://pypi.org/project/regex/</a></li>
-<li>related info: <a href="https://github.com/mrabarnett/mrab-regex">https://github.com/mrabarnett/mrab-regex</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install regex</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="requests"><a href="#requests" class="headerlink" title="requests"></a>requests</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/requests/">https://pypi.org/project/requests/</a></li>
-<li>related info: <a href="https://docs.python-requests.org/">https://docs.python-requests.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="scikit"><a href="#scikit" class="headerlink" title="scikit"></a>scikit</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/scikit-learn/">https://pypi.org/project/scikit-learn/</a></li>
-<li>related info: <a href="https://scikit-learn.org/">https://scikit-learn.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install scikit-learn</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="selenium"><a href="#selenium" class="headerlink" title="selenium"></a>selenium</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/selenium/">https://pypi.org/project/selenium/</a></li>
-<li>related info: <a href="https://www.selenium.dev/">https://www.selenium.dev/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install selenium</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="sphinx"><a href="#sphinx" class="headerlink" title="sphinx"></a>sphinx</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/Sphinx/">https://pypi.org/project/Sphinx/</a></li>
-<li>related info: <a href="https://www.sphinx-doc.org/">https://www.sphinx-doc.org/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install sphinx</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="tach"><a href="#tach" class="headerlink" title="tach"></a>tach</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/tach/">https://pypi.org/project/tach/</a></li>
-<li>related info: <a href="https://github.com/gauge-sh/tach">https://github.com/gauge-sh/tach</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tach</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="tqdm"><a href="#tqdm" class="headerlink" title="tqdm"></a>tqdm</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/tqdm/">https://pypi.org/project/tqdm/</a></li>
-<li>related info: <a href="https://tqdm.github.io/">https://tqdm.github.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install tqdm</span><br></pre></td></tr></table></figure></li>
-</ul>
-<hr>
-<h3 id="typing-extensions"><a href="#typing-extensions" class="headerlink" title="typing_extensions"></a>typing_extensions</h3><ul>
-<li>pypi.org docs: <a href="https://pypi.org/project/typing-extensions/">https://pypi.org/project/typing-extensions/</a></li>
-<li>related info: <a href="https://docs.python.org/3/library/typing.html">https://docs.python.org/3/library/typing.html</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install typing_extensions</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>dev_side</tag>
       </tags>
   </entry>
   <entry>
@@ -5383,80 +5384,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
 </li>
 <li></li>
 </ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>linguistic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linguistic basics</title>
-    <url>/hexo-blog//linquistic/linquistic_basics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Linguistic-Domains-Involved"><a href="#1-Linguistic-Domains-Involved" class="headerlink" title="1. Linguistic Domains Involved"></a>1. Linguistic Domains Involved</h2><ul>
-<li><strong>Syntax</strong>: Deals with sentence structure and grammatical correctness, which is crucial for text quality.</li>
-<li><strong>Semantics</strong>: Ensures that the meaning of words and sentences aligns logically, contributing to coherence and quality.</li>
-<li><strong>Pragmatics</strong>: Focuses on the context and the intended meaning, which impacts both coherence and quality.</li>
-<li><strong>Discourse Analysis</strong>: Examines how sentences and paragraphs are connected to form a meaningful and coherent whole, a critical aspect of text coherence.</li>
-</ul>
-<h2 id="2-Theoretical-Linguistics"><a href="#2-Theoretical-Linguistics" class="headerlink" title="2. Theoretical Linguistics"></a>2. Theoretical Linguistics</h2><p>In theoretical linguistics, these concepts relate to:</p>
-<ul>
-<li><strong>Text Linguistics</strong>: Studies how text is structured to make it meaningful and coherent as a whole.</li>
-<li><strong>Cohesion and Coherence</strong>: Examines linguistic devices (e.g., conjunctions, pronouns, references) and logical connections between text elements.</li>
-<li><strong>Cognitive Linguistics</strong>: Explores how readers perceive and interpret generated text, contributing to the perception of coherence and quality.</li>
-</ul>
-<h2 id="3-Applied-Linguistics"><a href="#3-Applied-Linguistics" class="headerlink" title="3. Applied Linguistics"></a>3. Applied Linguistics</h2><p>In applied contexts, text coherence and quality are central to:</p>
-<ul>
-<li><strong>Natural Language Processing (NLP)</strong>: Ensuring generated text by machines aligns with human linguistic expectations.</li>
-<li><strong>Language Teaching</strong>: Teaching coherent and high-quality writing skills.</li>
-<li><strong>Translation Studies</strong>: Maintaining coherence and quality when translating between languages.</li>
-</ul>
-<h2 id="4-Computational-Linguistics"><a href="#4-Computational-Linguistics" class="headerlink" title="4. Computational Linguistics"></a>4. Computational Linguistics</h2><p>Text generation and evaluation are significant in computational linguistics, where algorithms are developed to:</p>
-<ul>
-<li>Mimic human-like coherence and quality in machine-generated text.</li>
-<li>Optimize coherence through logical flow and topic consistency.</li>
-<li>Enhance quality with grammatically accurate and stylistically appropriate output.</li>
-</ul>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
-<li><p>Paper: <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997)</p>
-<ul>
-<li>DOI: <a href="https://doi.org/10.1016/j.pragma.2010.04.028">10.1016&#x2F;j.pragma.2010.04.028</a></li>
-<li><a href="http://library.lgaki.info:404/2017/De%20Beaugrande%20R.-A..pdf">Read <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997) on library.lgaki.info</a></li>
-</ul>
-</li>
-<li><p>Paper: <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007)</p>
-<ul>
-<li>DOI: <a href="https://doi.org/10.1017/CBO9781139524780">10.1017&#x2F;CBO9781139524780</a></li>
-<li><a href="https://api.pageplace.de/preview/DT0400.9781135604196_A24656486/preview-9781135604196_A24656486.pdf">Read <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007) on api.pageplace.de</a></li>
-</ul>
-</li>
-<li><p>Book: <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin </p>
-<ul>
-<li>DOI: <a href="https://doi.org/">XYZ</a></li>
-<li><a href="https://ia600302.us.archive.org/33/items/jurafsky_martin/jurafsky_martin.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (1999) on us.archive.org</a></li>
-<li><a href="https://www.ipwatchdog.com/wp-content/uploads/2019/08/Jurafsky.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (2000) on ipwatchdog.com</a></li>
-</ul>
-</li>
-<li><p>Paper: <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000)</p>
-<ul>
-<li>DOI: <a href="https://doi.org/">XYZ</a></li>
-<li><a href="https://core.ac.uk/download/pdf/4395395.pdf">Read <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000) on</a></li>
-</ul>
-</li>
-<li><p>Paper: <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003)</p>
-<ul>
-<li>DOI: <a href="https://doi.org/">XYZ</a></li>
-<li><a href="https://disi.unitn.it/~moschitti/books/PHD-Thesis2003.pdf">Read <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003) on</a></li>
-</ul>
-</li>
-<li><p>Book: <em>The Cambridge Handbook of Computational Linguistics</em> by R. Dale, H. Moisl &amp; H. Somers</p>
-<ul>
-<li>DOI: <a href="https://doi.org/10.1017/9781108755610">10.1017&#x2F;9781108755610</a></li>
-</ul>
-</li>
-</ul>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -5712,28 +5639,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>Windows OS apps</title>
-    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
-<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
-To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
-
-<ul>
-<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
-<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>apps</tag>
-        <tag>windows_os</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Principles of categorizing</title>
     <url>/hexo-blog/2024/10/28/post_principles_of_categorizing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains information about fundamental books for classic principles of categorizing.</strong></p>
@@ -5827,6 +5732,102 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>science</tag>
         <tag>knowledge</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows OS apps</title>
+    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
+<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
+To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
+
+<ul>
+<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
+<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>apps</tag>
+        <tag>windows_os</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linguistic basics</title>
+    <url>/hexo-blog//linquistic/linquistic_basics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Linguistic-Domains-Involved"><a href="#1-Linguistic-Domains-Involved" class="headerlink" title="1. Linguistic Domains Involved"></a>1. Linguistic Domains Involved</h2><ul>
+<li><strong>Syntax</strong>: Deals with sentence structure and grammatical correctness, which is crucial for text quality.</li>
+<li><strong>Semantics</strong>: Ensures that the meaning of words and sentences aligns logically, contributing to coherence and quality.</li>
+<li><strong>Pragmatics</strong>: Focuses on the context and the intended meaning, which impacts both coherence and quality.</li>
+<li><strong>Discourse Analysis</strong>: Examines how sentences and paragraphs are connected to form a meaningful and coherent whole, a critical aspect of text coherence.</li>
+</ul>
+<h2 id="2-Theoretical-Linguistics"><a href="#2-Theoretical-Linguistics" class="headerlink" title="2. Theoretical Linguistics"></a>2. Theoretical Linguistics</h2><p>In theoretical linguistics, these concepts relate to:</p>
+<ul>
+<li><strong>Text Linguistics</strong>: Studies how text is structured to make it meaningful and coherent as a whole.</li>
+<li><strong>Cohesion and Coherence</strong>: Examines linguistic devices (e.g., conjunctions, pronouns, references) and logical connections between text elements.</li>
+<li><strong>Cognitive Linguistics</strong>: Explores how readers perceive and interpret generated text, contributing to the perception of coherence and quality.</li>
+</ul>
+<h2 id="3-Applied-Linguistics"><a href="#3-Applied-Linguistics" class="headerlink" title="3. Applied Linguistics"></a>3. Applied Linguistics</h2><p>In applied contexts, text coherence and quality are central to:</p>
+<ul>
+<li><strong>Natural Language Processing (NLP)</strong>: Ensuring generated text by machines aligns with human linguistic expectations.</li>
+<li><strong>Language Teaching</strong>: Teaching coherent and high-quality writing skills.</li>
+<li><strong>Translation Studies</strong>: Maintaining coherence and quality when translating between languages.</li>
+</ul>
+<h2 id="4-Computational-Linguistics"><a href="#4-Computational-Linguistics" class="headerlink" title="4. Computational Linguistics"></a>4. Computational Linguistics</h2><p>Text generation and evaluation are significant in computational linguistics, where algorithms are developed to:</p>
+<ul>
+<li>Mimic human-like coherence and quality in machine-generated text.</li>
+<li>Optimize coherence through logical flow and topic consistency.</li>
+<li>Enhance quality with grammatically accurate and stylistically appropriate output.</li>
+</ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><p>Paper: <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1016/j.pragma.2010.04.028">10.1016&#x2F;j.pragma.2010.04.028</a></li>
+<li><a href="http://library.lgaki.info:404/2017/De%20Beaugrande%20R.-A..pdf">Read <em>Cohesion and Coherence in Text: An Introduction</em> by Teun A. van Dijk (1997) on library.lgaki.info</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1017/CBO9781139524780">10.1017&#x2F;CBO9781139524780</a></li>
+<li><a href="https://api.pageplace.de/preview/DT0400.9781135604196_A24656486/preview-9781135604196_A24656486.pdf">Read <em>Cognitive Linguistics and Second Language Learning</em> by Peter Robinson (2007) on api.pageplace.de</a></li>
+</ul>
+</li>
+<li><p>Book: <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin </p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://ia600302.us.archive.org/33/items/jurafsky_martin/jurafsky_martin.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (1999) on us.archive.org</a></li>
+<li><a href="https://www.ipwatchdog.com/wp-content/uploads/2019/08/Jurafsky.pdf">Read <em>Speech and Language Processing</em> by Daniel Jurafsky &amp; James H. Martin (2000) on ipwatchdog.com</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://core.ac.uk/download/pdf/4395395.pdf">Read <em>Coherence in natural language: Data structures and applications</em> by Florian Wolf (2000) on</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003)</p>
+<ul>
+<li>DOI: <a href="https://doi.org/">XYZ</a></li>
+<li><a href="https://disi.unitn.it/~moschitti/books/PHD-Thesis2003.pdf">Read <em>Natural Language Processing and Automated Text Categorization</em> by Alessandro Moschitti (2003) on</a></li>
+</ul>
+</li>
+<li><p>Book: <em>The Cambridge Handbook of Computational Linguistics</em> by R. Dale, H. Moisl &amp; H. Somers</p>
+<ul>
+<li>DOI: <a href="https://doi.org/10.1017/9781108755610">10.1017&#x2F;9781108755610</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>linguistic</tag>
       </tags>
   </entry>
   <entry>
@@ -6369,65 +6370,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -6793,6 +6735,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -6857,6 +6858,78 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Add more beautiful HEXO blog pages</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
+<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
+<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
+<p>result below</p>
+<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
+    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
+  </div> 
+
+<hr>
+<p><strong>2. Highlighted Section with Border and Background</strong></p>
+<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
+  <h3 style="color: #3c763d;">Important Notice</h3>
+  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
+  </div>
+  
+<hr>
+<p>  <strong>3. Colored Quote Block</strong></p>
+<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
+  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
+</blockquote>
+
+<hr>
+<p><strong>4. Centered Text with Decorative Style</strong></p>
+<p>  Center text with a larger font size, bold style, and color.</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
+  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
+  </div>
+
+<hr>
+<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
+<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>  result below</p>
+  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  <h3 style="color: #b03a2e;">Tip of the Day</h3>
+  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
+  </div>
+
+<hr>
+<p><strong>6. Badge or Label for Text</strong></p>
+<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
+
+<hr>
+<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
+<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
+  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
+</div>
+  
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Favorite books</title>
     <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
@@ -6872,6 +6945,37 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>my_contribution</tag>
         <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
@@ -6969,6 +7073,152 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows services and VM usage</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_windows_services_and_vm_usage/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><p><strong>Virtual Machine Setup</strong><br>Steps to create a virtual machine:</p>
+<ol>
+<li>Download a hypervisor:<ol>
+<li>Go to <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> or <a href="https://www.vmware.com/">VMware</a>. Download and install the software on your machine.</li>
+<li>Obtain an OS image:<ol>
+<li>Download the required ISO file for the operating system.</li>
+</ol>
+</li>
+<li>Create the virtual machine:<ol>
+<li>Open VirtualBox&#x2F;VMware app.</li>
+<li>Create a new virtual machine according to requested specification.&#96;&#96;&#96;&#96;</li>
+<li>Configure name, OS type, hardware settings like RAM, CPU, and disk space.</li>
+</ol>
+</li>
+<li>Install the OS<ol>
+<li>Start the virtual machine.</li>
+<li>Follow the installation steps in the OS setup wizard.</li>
+</ol>
+</li>
+<li>Connect to the VM:<ol>
+<li>For Linux VMs: Enable SSH in the VM during installation or after setup.</li>
+<li>Use SSH (on Linux&#x2F;Mac) or tools like PuTTY (on Windows) to connect.</li>
+</ol>
+</li>
+<li>Additional steps:<ol>
+<li>Windows VM Remote Desktop:<ol>
+<li>Enable Remote Desktop in the Windows VM settings. Use the RDP client, configuration described here &gt;&gt; <a href="https://learn.microsoft.com/uk-ua/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients">Remote Desktop clients for Remote Desktop Services and remote PCs</a> on your host machine to connect.</li>
+<li>Connect RDP client to remote machine.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p><strong>Windows Services Management in PowerShell.</strong></p>
+<p>Task: </p>
+<ol>
+<li>Print  list of services</li>
+<li>Run specific service</li>
+<li>Stop specific service</li>
+<li>Restart specific service</li>
+<li>Check status for specific service</li>
+</ol>
+<p> To get list of running services I will use :</p>
+ <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> | <span class="built_in">Where-Object</span> &#123;<span class="variable">$_</span>.Status <span class="operator">-eq</span> <span class="string">&#x27;Running&#x27;</span>&#125;</span><br></pre></td></tr></table></figure>
+<p> Assuming that I want to run <code>&quot;WSLService&quot;</code></p>
+<p> To start <code>&quot;WSLService&quot;</code> service  I’m using :<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Start-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure><br> To stop the service:<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Stop-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure></p>
+<p> For restarting service:</p>
+ <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Restart-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
+<p> For checking the status of monitored service:</p>
+ <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p><strong>SSH connection to the Linux machine</strong> actions are below.</p>
+<p>I added more information in advance because the original task does not contain information about the client machine from which the connection to the Linux machine will be made. There is 3 different cases:</p>
+<ul>
+<li>Case 1: From another Linux client to Linux host</li>
+<li>Case 2: From a Windows client  to Linux host</li>
+<li>Case 3: From macOS client to Linux host</li>
+</ul>
+<p>For Linux&#x2F;Mac: SSH is usually pre-installed but if it’s missing install an SSH client (e.g. on Ubuntu):<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client -y</span><br></pre></td></tr></table></figure><br>After installation, start the service on Linux machine:<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start ssh</span><br></pre></td></tr></table></figure><br>If SSH service not started , checked its status on Linux machine:<br>    <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status ssh</span><br></pre></td></tr></table></figure></p>
+<p>Generate SSH keys (on the host machine):</p>
+  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-keygen</span> <span class="literal">-t</span> rsa <span class="literal">-b</span> <span class="number">2048</span></span><br></pre></td></tr></table></figure>
+<p>  The keys will be stored in ~&#x2F;.ssh&#x2F;id_rsa (private) and ~&#x2F;.ssh&#x2F;id_rsa.pub (public).<br>  Copy the public key to the Linux server:</p>
+  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-copy-id</span> user@server_ip</span><br></pre></td></tr></table></figure>
+<p>  Or manually append the content of id_rsa.pub to ~&#x2F;.ssh&#x2F;authorized_keys on the server.</p>
+<p>  Connection via SSH for Linux:<br>   <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh user@server_ip</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><p>Optional Configurations:</p>
+<p>Edit the SSH config file (~&#x2F;.ssh&#x2F;config) for aliases:</p>
+   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Host server_alias  </span><br><span class="line">   HostName server_ip  </span><br><span class="line">   User username  </span><br><span class="line">   IdentityFile ~/.ssh/id_rsa  </span><br></pre></td></tr></table></figure>
+<p>This will simplify the connection:</p>
+   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh server_alias</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><strong>Case 1</strong>: From another Linux client to Linux host</p>
+<p>  Verify SSH Client on the Local Machine:</p>
+<ul>
+<li>Most Linux distributions come with the ssh client pre-installed. Confirm by running:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
+
+ If it’s not installed, install it: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client  </span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>   Replace <code>&lt;username&gt;</code> with the remote machine’s username.</p>
+<p>   Replace <code>&lt;remote_ip&gt;</code> with the target machine’s IP address.</p>
+<ul>
+<li>Use Public Key Authentication (Optional): <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
+<li>Copy the public key to the remote machine:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li>Now, log in without entering a password:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<p><strong>Case 2</strong>: From a Windows client  to Linux host</p>
+<ul>
+<li><p>Install an SSH Client:</p>
+<ul>
+<li>Use the built-in OpenSSH client on Windows 10+. Open PowerShell or Command Prompt and check if SSH is installed:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
+<ul>
+<li>For Windows alternatively install <a href="https://www.openssh.com/">OpenSSH</a> client from <a href="https://learn.microsoft.com/en-us/windows/client-management/client-tools/add-remove-hide-features?pivots=windows-11">“Optional Features”</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">download PuTTY</a>( third-party SSH client).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Connect Using OpenSSH (Built-in).</p>
+<p>Open PowerShell or Command Prompt and run:  </p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li><p>Connect Using PuTTY:</p>
+<ul>
+<li>Download and install PuTTY.</li>
+<li>Open PuTTY and enter the hostname or IP address.</li>
+<li>Set the Port to 22 and click Open.</li>
+<li>Log in with your credentials.</li>
+<li>Enable Key Authentication (Optional):<ul>
+<li>Use <a href="https://www.puttygen.com/">puttygen</a> to generate a private&#x2F;public key pair.</li>
+<li>Copy the public key to the Linux machine’s ~&#x2F;.ssh&#x2F;authorized_keys.</li>
+<li>In PuTTY, configure the private key in Connection &gt; SSH &gt; Auth &gt; Browse Private Key.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Case 3</strong>: From macOS client to Linux host </p>
+<ul>
+<li><p>Verify SSH Client:</p>
+<p> macOS includes an SSH client by default. Confirm it by running:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure></li>
+<li><p>Connect to the Linux Machine:</p>
+<p>Open Terminal and run:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li><p>Use Public Key Authentication (Optional):</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
+<li><p>Copy the public key to the remote machine:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+<li><p>Now, I can log in without entering a password:</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>sys_conffigs</tag>
       </tags>
   </entry>
   <entry>
@@ -7097,109 +7347,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>nst</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Add more beautiful HEXO blog pages</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
-<p>  <strong>1. Text Block with Background Color and Padding</strong></p>
-<p>  Use this snippet to create a colored background for a paragraph or block of text.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #f0f8ff; padding: 15px; border-radius: 5px;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<span class="tag">&lt;<span class="name">p</span>&gt;</span>` tags within this div.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br></pre></td></tr></table></figure>
-<p>result below</p>
-<div style="background-color: #f0f8ff; padding: 15px; border-radius: 5px;">
-    <p>This is a block of text with a light blue background color, padding, and rounded corners. You can style each paragraph separately by adding new `<p>` tags within this div.</p>
-  </div> 
-
-<hr>
-<p><strong>2. Highlighted Section with Border and Background</strong></p>
-<p>  Create a visually distinct area with a subtle border, background, and some padding.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #3c763d;&quot;</span>&gt;</span>Important Notice<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This section is highlighted with a green background, a border, and some padding to make it stand out.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-<div style="background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #3c763d;">Important Notice</h3>
-  <p>This section is highlighted with a green background, a border, and some padding to make it stand out.</p>
-  </div>
-  
-<hr>
-<p>  <strong>3. Colored Quote Block</strong></p>
-<p>  Emphasize quotes or important messages with a block style and colored left borde</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">blockquote</span> <span class="attr">style</span>=<span class="string">&quot;border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color: #4a235a;&quot;</span>&gt;</span>&quot;Here is a highlighted quote or important message with a unique style.&quot;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">blockquote</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-<blockquote style="border-left: 4px solid #8e44ad; background-color: #f7f1ff; padding: 15px; margin: 10px 0;">
-  <p style="color: #4a235a;">"Here is a highlighted quote or important message with a unique style."</p>
-</blockquote>
-
-<hr>
-<p><strong>4. Centered Text with Decorative Style</strong></p>
-<p>  Center text with a larger font size, bold style, and color.</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>This is centered, larger, and bold text with a custom color for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #2980b9;">
-  <p>This is centered, larger, and bold text with a custom color for emphasis.</p>
-  </div>
-
-<hr>
-<p><strong>5. Callout Box with Shadow and Gradient Background</strong></p>
-<p>Create a callout box with a gradient background and shadow to make it “pop.”</p>
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">style</span>=<span class="string">&quot;color: #b03a2e;&quot;</span>&gt;</span>Tip of the Day<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Use gradients and shadows to create eye-catching highlights in your content!<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>  result below</p>
-  <div style="background: linear-gradient(to right, #ffecd2, #fcb69f); padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-  <h3 style="color: #b03a2e;">Tip of the Day</h3>
-  <p>Use gradients and shadows to create eye-catching highlights in your content!</p>
-  </div>
-
-<hr>
-<p><strong>6. Badge or Label for Text</strong></p>
-<p>Use a styled span element to create a badge that you can place inline with text.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Get our latest updates: <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;&quot;</span>&gt;</span>New<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <p>Get our latest updates: <span style="background-color: #3498db; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.9em;">New</span></p>
-
-<hr>
-<p><strong>7. Box with Border and Light Shadow for Emphasis</strong></p>
-<p>  Create a simple box with a light border and shadow effect.<br>  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is a separated section with a border and light shadow effect for emphasis.<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><br>  result below</p>
-  <div style="border: 1px solid #ccc; padding: 20px; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
-  <p>This is a separated section with a border and light shadow effect for emphasis.</p>
-</div>
-  
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -7759,152 +7906,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>blog</tag>
         <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows services and VM usage</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_windows_services_and_vm_usage/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><p><strong>Virtual Machine Setup</strong><br>Steps to create a virtual machine:</p>
-<ol>
-<li>Download a hypervisor:<ol>
-<li>Go to <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> or <a href="https://www.vmware.com/">VMware</a>. Download and install the software on your machine.</li>
-<li>Obtain an OS image:<ol>
-<li>Download the required ISO file for the operating system.</li>
-</ol>
-</li>
-<li>Create the virtual machine:<ol>
-<li>Open VirtualBox&#x2F;VMware app.</li>
-<li>Create a new virtual machine according to requested specification.&#96;&#96;&#96;&#96;</li>
-<li>Configure name, OS type, hardware settings like RAM, CPU, and disk space.</li>
-</ol>
-</li>
-<li>Install the OS<ol>
-<li>Start the virtual machine.</li>
-<li>Follow the installation steps in the OS setup wizard.</li>
-</ol>
-</li>
-<li>Connect to the VM:<ol>
-<li>For Linux VMs: Enable SSH in the VM during installation or after setup.</li>
-<li>Use SSH (on Linux&#x2F;Mac) or tools like PuTTY (on Windows) to connect.</li>
-</ol>
-</li>
-<li>Additional steps:<ol>
-<li>Windows VM Remote Desktop:<ol>
-<li>Enable Remote Desktop in the Windows VM settings. Use the RDP client, configuration described here &gt;&gt; <a href="https://learn.microsoft.com/uk-ua/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients">Remote Desktop clients for Remote Desktop Services and remote PCs</a> on your host machine to connect.</li>
-<li>Connect RDP client to remote machine.</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-<li><p><strong>Windows Services Management in PowerShell.</strong></p>
-<p>Task: </p>
-<ol>
-<li>Print  list of services</li>
-<li>Run specific service</li>
-<li>Stop specific service</li>
-<li>Restart specific service</li>
-<li>Check status for specific service</li>
-</ol>
-<p> To get list of running services I will use :</p>
- <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> | <span class="built_in">Where-Object</span> &#123;<span class="variable">$_</span>.Status <span class="operator">-eq</span> <span class="string">&#x27;Running&#x27;</span>&#125;</span><br></pre></td></tr></table></figure>
-<p> Assuming that I want to run <code>&quot;WSLService&quot;</code></p>
-<p> To start <code>&quot;WSLService&quot;</code> service  I’m using :<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Start-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure><br> To stop the service:<br> <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Stop-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure></p>
-<p> For restarting service:</p>
- <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Restart-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
-<p> For checking the status of monitored service:</p>
- <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="built_in">Get-Service</span> <span class="literal">-Name</span> <span class="string">&quot;WSLService&quot;</span></span><br></pre></td></tr></table></figure>
-
-</li>
-<li><p><strong>SSH connection to the Linux machine</strong> actions are below.</p>
-<p>I added more information in advance because the original task does not contain information about the client machine from which the connection to the Linux machine will be made. There is 3 different cases:</p>
-<ul>
-<li>Case 1: From another Linux client to Linux host</li>
-<li>Case 2: From a Windows client  to Linux host</li>
-<li>Case 3: From macOS client to Linux host</li>
-</ul>
-<p>For Linux&#x2F;Mac: SSH is usually pre-installed but if it’s missing install an SSH client (e.g. on Ubuntu):<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client -y</span><br></pre></td></tr></table></figure><br>After installation, start the service on Linux machine:<br>   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl start ssh</span><br></pre></td></tr></table></figure><br>If SSH service not started , checked its status on Linux machine:<br>    <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status ssh</span><br></pre></td></tr></table></figure></p>
-<p>Generate SSH keys (on the host machine):</p>
-  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-keygen</span> <span class="literal">-t</span> rsa <span class="literal">-b</span> <span class="number">2048</span></span><br></pre></td></tr></table></figure>
-<p>  The keys will be stored in ~&#x2F;.ssh&#x2F;id_rsa (private) and ~&#x2F;.ssh&#x2F;id_rsa.pub (public).<br>  Copy the public key to the Linux server:</p>
-  <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh<span class="literal">-copy-id</span> user@server_ip</span><br></pre></td></tr></table></figure>
-<p>  Or manually append the content of id_rsa.pub to ~&#x2F;.ssh&#x2F;authorized_keys on the server.</p>
-<p>  Connection via SSH for Linux:<br>   <figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ssh user@server_ip</span><br></pre></td></tr></table></figure></p>
-</li>
-<li><p>Optional Configurations:</p>
-<p>Edit the SSH config file (~&#x2F;.ssh&#x2F;config) for aliases:</p>
-   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Host server_alias  </span><br><span class="line">   HostName server_ip  </span><br><span class="line">   User username  </span><br><span class="line">   IdentityFile ~/.ssh/id_rsa  </span><br></pre></td></tr></table></figure>
-<p>This will simplify the connection:</p>
-   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh server_alias</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p><strong>Case 1</strong>: From another Linux client to Linux host</p>
-<p>  Verify SSH Client on the Local Machine:</p>
-<ul>
-<li>Most Linux distributions come with the ssh client pre-installed. Confirm by running:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
-
- If it’s not installed, install it: <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt install openssh-client  </span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>   Replace <code>&lt;username&gt;</code> with the remote machine’s username.</p>
-<p>   Replace <code>&lt;remote_ip&gt;</code> with the target machine’s IP address.</p>
-<ul>
-<li>Use Public Key Authentication (Optional): <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
-<li>Copy the public key to the remote machine:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li>Now, log in without entering a password:<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-</ul>
-<p><strong>Case 2</strong>: From a Windows client  to Linux host</p>
-<ul>
-<li><p>Install an SSH Client:</p>
-<ul>
-<li>Use the built-in OpenSSH client on Windows 10+. Open PowerShell or Command Prompt and check if SSH is installed:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure>
-<ul>
-<li>For Windows alternatively install <a href="https://www.openssh.com/">OpenSSH</a> client from <a href="https://learn.microsoft.com/en-us/windows/client-management/client-tools/add-remove-hide-features?pivots=windows-11">“Optional Features”</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">download PuTTY</a>( third-party SSH client).</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Connect Using OpenSSH (Built-in).</p>
-<p>Open PowerShell or Command Prompt and run:  </p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li><p>Connect Using PuTTY:</p>
-<ul>
-<li>Download and install PuTTY.</li>
-<li>Open PuTTY and enter the hostname or IP address.</li>
-<li>Set the Port to 22 and click Open.</li>
-<li>Log in with your credentials.</li>
-<li>Enable Key Authentication (Optional):<ul>
-<li>Use <a href="https://www.puttygen.com/">puttygen</a> to generate a private&#x2F;public key pair.</li>
-<li>Copy the public key to the Linux machine’s ~&#x2F;.ssh&#x2F;authorized_keys.</li>
-<li>In PuTTY, configure the private key in Connection &gt; SSH &gt; Auth &gt; Browse Private Key.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>Case 3</strong>: From macOS client to Linux host </p>
-<ul>
-<li><p>Verify SSH Client:</p>
-<p> macOS includes an SSH client by default. Confirm it by running:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -V</span><br></pre></td></tr></table></figure></li>
-<li><p>Connect to the Linux Machine:</p>
-<p>Open Terminal and run:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li><p>Use Public Key Authentication (Optional):</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen</span><br></pre></td></tr></table></figure></li>
-<li><p>Copy the public key to the remote machine:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-copy-id &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-<li><p>Now, I can log in without entering a password:</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;remote_ip&gt;</span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>sys_conffigs</tag>
       </tags>
   </entry>
   <entry>
