@@ -234,56 +234,6 @@
       </tags>
   </entry>
   <entry>
-    <title>AI glossaries list</title>
-    <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
-<ul>
-<li>Glossary-of-Artificial-Intelligence<ul>
-<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
-<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
-<li>Text + pictures + some python code snippets</li>
-<li>It covers just ‘A’ letter.</li>
-</ul>
-</li>
-<li>Artificial Intelligence and Data Science<ul>
-<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
-<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
-<li>Basic terms for artificial intelligence and data science. Just few terms</li>
-</ul>
-</li>
-<li>AI-Glossary<ul>
-<li>A glossary of terms in AI and their corresponding papers.</li>
-<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
-<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
-</ul>
-</li>
-<li>Generative AI Terminology<ul>
-<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
-</ul>
-</li>
-<li>AI Dictionary<ul>
-<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
-</ul>
-</li>
-<li>Online glossary of machine learning terms<ul>
-<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
-<li>Well srtuctured and informative resource</li>
-</ul>
-</li>
-</ul>
-<p><strong>Other</strong></p>
-<ul>
-<li><a href="https://csrc.nist.gov/glossary">NIST glossary</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Evaluating AI Applications. Checklist</title>
     <url>/hexo-blog//ai/evaluating_ai_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Evaluation-of-AI-Prompts"><a href="#1-Evaluation-of-AI-Prompts" class="headerlink" title="1. Evaluation of AI Prompts"></a>1. Evaluation of AI Prompts</h2><h3 id="1-1-Prompt-Clarity"><a href="#1-1-Prompt-Clarity" class="headerlink" title="1.1 Prompt Clarity"></a>1.1 <strong>Prompt Clarity</strong></h3><ul>
@@ -419,6 +369,56 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI glossaries list</title>
+    <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
+<ul>
+<li>Glossary-of-Artificial-Intelligence<ul>
+<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
+<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
+<li>Text + pictures + some python code snippets</li>
+<li>It covers just ‘A’ letter.</li>
+</ul>
+</li>
+<li>Artificial Intelligence and Data Science<ul>
+<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
+<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
+<li>Basic terms for artificial intelligence and data science. Just few terms</li>
+</ul>
+</li>
+<li>AI-Glossary<ul>
+<li>A glossary of terms in AI and their corresponding papers.</li>
+<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
+<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
+</ul>
+</li>
+<li>Generative AI Terminology<ul>
+<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
+</ul>
+</li>
+<li>AI Dictionary<ul>
+<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
+</ul>
+</li>
+<li>Online glossary of machine learning terms<ul>
+<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
+<li>Well srtuctured and informative resource</li>
+</ul>
+</li>
+</ul>
+<p><strong>Other</strong></p>
+<ul>
+<li><a href="https://csrc.nist.gov/glossary">NIST glossary</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -973,6 +973,85 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Common LLM parameters</title>
+    <url>/hexo-blog//ai/post_ai_llm__llm_parameters/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ol>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_prompt_engineer_task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></li>
+</ol>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Location in Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>pad_token_id</strong></td>
+<td>The token ID used for padding sequences. This value indicates to the model where padding occurs.</td>
+<td>Check the tokenizer documentation: <a href="https://huggingface.co/docs/tokenizers/main/en/api/tokenizer#tokenizers.Tokenizer">Hugging Face Tokenizers</a></td>
+</tr>
+<tr>
+<td><strong>eos_token_id</strong></td>
+<td>The token ID that signifies the end of a sequence (End Of Sequence).</td>
+<td>Check model documentation for specifics: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/stopping_criteria#new-eostokencriteriaeostokenid">Hugging Face Models</a></td>
+</tr>
+<tr>
+<td><strong>attention_mask</strong></td>
+<td>A mask that indicates which tokens should be attended to by the model (1 for actual tokens, 0 for padding).</td>
+<td>Refer to model-specific usage in the Hugging Face library: <a href="https://huggingface.co/docs/transformers.js/main/en/api/models#modelscumsummaskedfillattentionmask--code-object-code">Transformers Usage</a></td>
+</tr>
+<tr>
+<td><strong>input_ids</strong></td>
+<td>The token IDs representing the input sequence of text.</td>
+<td>General model input specifications: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#forcetokenslogitsprocessorcallinputids-logits--code-tensor-code">Hugging Face Model Input</a></td>
+</tr>
+<tr>
+<td><strong>output_attention</strong></td>
+<td>A boolean flag indicating if the model should return attention weights in addition to outputs.</td>
+<td>Detailed in specific model API docs: <a href="https://huggingface.co/docs">Transformers API</a></td>
+</tr>
+<tr>
+<td><strong>max_length</strong></td>
+<td>The maximum length of sequences for generation tasks, limiting how long the output can be.</td>
+<td>Check generation section in model docs: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
+</tr>
+<tr>
+<td><strong>num_return_sequences</strong></td>
+<td>The number of sequences to return from the model output, useful for generating multiple responses. The number of independently computed returned sequences for each element in the batch.</td>
+<td>Refer to the text generation configuration: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
+</tr>
+<tr>
+<td><strong>temperature</strong></td>
+<td>Strictly positive float value used to modulate the logits distribution. A value smaller than 1 decreases randomness (and vice versa), with 0 being equivalent to shifting all probability mass to the most likely token.</td>
+<td>Discussed in generation options: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/logits_process#temperaturelogitswarpercallinputids-logits--code-tensor-code">Generation Parameters</a></td>
+</tr>
+<tr>
+<td><strong>top_k</strong></td>
+<td>The number of highest probability vocabulary tokens to keep for sampling.</td>
+<td>Detailed in sampling strategies: <a href="https://huggingface.co/docs">Sampling Methods</a></td>
+</tr>
+<tr>
+<td><strong>top_p</strong></td>
+<td>Controls the cumulative probability distribution for nucleus sampling.</td>
+<td>Explained in sampling calculations: <a href="https://huggingface.co/docs">Nucleus Sampling</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>llm_parameters</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>GPT-2 configuration parameters overview</title>
     <url>/hexo-blog//ai/post_ai_llm__gpt2_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1133,85 +1212,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>LLM</tag>
         <tag>GPT2</tag>
         <tag>NN</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Common LLM parameters</title>
-    <url>/hexo-blog//ai/post_ai_llm__llm_parameters/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
-<ol>
-<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
-<li><a href="/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a></li>
-<li><a href="/hexo-blog/ai/post_ai_promt_engineer_task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></li>
-</ol>
-<hr>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Location in Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>pad_token_id</strong></td>
-<td>The token ID used for padding sequences. This value indicates to the model where padding occurs.</td>
-<td>Check the tokenizer documentation: <a href="https://huggingface.co/docs/tokenizers/main/en/api/tokenizer#tokenizers.Tokenizer">Hugging Face Tokenizers</a></td>
-</tr>
-<tr>
-<td><strong>eos_token_id</strong></td>
-<td>The token ID that signifies the end of a sequence (End Of Sequence).</td>
-<td>Check model documentation for specifics: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/stopping_criteria#new-eostokencriteriaeostokenid">Hugging Face Models</a></td>
-</tr>
-<tr>
-<td><strong>attention_mask</strong></td>
-<td>A mask that indicates which tokens should be attended to by the model (1 for actual tokens, 0 for padding).</td>
-<td>Refer to model-specific usage in the Hugging Face library: <a href="https://huggingface.co/docs/transformers.js/main/en/api/models#modelscumsummaskedfillattentionmask--code-object-code">Transformers Usage</a></td>
-</tr>
-<tr>
-<td><strong>input_ids</strong></td>
-<td>The token IDs representing the input sequence of text.</td>
-<td>General model input specifications: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#forcetokenslogitsprocessorcallinputids-logits--code-tensor-code">Hugging Face Model Input</a></td>
-</tr>
-<tr>
-<td><strong>output_attention</strong></td>
-<td>A boolean flag indicating if the model should return attention weights in addition to outputs.</td>
-<td>Detailed in specific model API docs: <a href="https://huggingface.co/docs">Transformers API</a></td>
-</tr>
-<tr>
-<td><strong>max_length</strong></td>
-<td>The maximum length of sequences for generation tasks, limiting how long the output can be.</td>
-<td>Check generation section in model docs: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
-</tr>
-<tr>
-<td><strong>num_return_sequences</strong></td>
-<td>The number of sequences to return from the model output, useful for generating multiple responses. The number of independently computed returned sequences for each element in the batch.</td>
-<td>Refer to the text generation configuration: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
-</tr>
-<tr>
-<td><strong>temperature</strong></td>
-<td>Strictly positive float value used to modulate the logits distribution. A value smaller than 1 decreases randomness (and vice versa), with 0 being equivalent to shifting all probability mass to the most likely token.</td>
-<td>Discussed in generation options: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/logits_process#temperaturelogitswarpercallinputids-logits--code-tensor-code">Generation Parameters</a></td>
-</tr>
-<tr>
-<td><strong>top_k</strong></td>
-<td>The number of highest probability vocabulary tokens to keep for sampling.</td>
-<td>Detailed in sampling strategies: <a href="https://huggingface.co/docs">Sampling Methods</a></td>
-</tr>
-<tr>
-<td><strong>top_p</strong></td>
-<td>Controls the cumulative probability distribution for nucleus sampling.</td>
-<td>Explained in sampling calculations: <a href="https://huggingface.co/docs">Nucleus Sampling</a></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>llm_parameters</tag>
       </tags>
   </entry>
   <entry>
@@ -1575,33 +1575,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
     <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
@@ -1648,6 +1621,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
 </ol>
 <p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -2096,6 +2096,61 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Internet resources and references for building NLP projects</title>
+    <url>/hexo-blog//ai_nlp/internet_resources_and_references_for_building_nlp_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial<ol>
+<li><p><strong>Intro</strong></p>
+<p>Welcome to Tutorial 3 of our NLP with HuggingFace series! In this exciting installment, we dive deep into the world of Text Generation using the powerful GPT-2 model. 🚀</p>
+<p>Discover the magic of transforming prompts into creative and contextually rich text outputs. We’ll guide you step by step through the process of leveraging HuggingFace’s GPT-2 model for crafting compelling narratives, generating code, and much more. 📝✨</p>
+<p>Whether you’re a seasoned NLP enthusiast or just beginning your journey, this tutorial will equip you with the skills to unlock the art of automatic text generation. Join us as we unravel the intricacies of GPT-2 and showcase its ability to generate fluent and coherent content.</p>
+<p>Don’t miss out on this educational adventure! Like, subscribe, and hit the notification bell to stay updated with the latest in Natural Language Processing and HuggingFace magic. Get ready to take your text generation game to the next level with NLP and GPT-2. Let’s dive in!</p>
+</li>
+<li><p><strong>Author</strong>:</p>
+<ol>
+<li>YouTube channel: KGP Talkie</li>
+<li><a href="https://www.youtube.com/@KGPTalkie">YouTube channel link: KGP Talkie</a></li>
+</ol>
+</li>
+<li><p><a href="https://github.com/laxmimerit/NLP-Tutorials-with-HuggingFace">GitHub project: NLP-Tutorials-with-HuggingFace</a></p>
+</li>
+<li><p><a href="https://www.youtube.com/watch?v=7O5ZKtJ99lc&t=1831s">Youtube video link: 3- Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial</a></p>
+</li>
+</ol>
+</li>
+<li>Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)<ol>
+<li><strong>Author</strong>:<ol>
+<li>YouTube channel: Евгений Разинков</li>
+<li><a href="https://www.youtube.com/@razinkov">YouTube channel link: Евгений Разинков</a></li>
+</ol>
+</li>
+<li><a href="https://www.youtube.com/watch?v=bn11u_Ijf8Y&t=300s">Youtube video link: Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)</a></li>
+</ol>
+</li>
+<li>[DL] Training very deep models using residual connections<ol>
+<li><strong>Author</strong>:<ol>
+<li><a href="https://badriadhikari.github.io/concept-map">Badri Adhikari personal website</a><ol>
+<li><a href="https://badriadhikari.github.io/concept-maps/kate_2022spring_dl.png">An example concept map drawn by Kate Arendes, a student who took Badri Adhikari’s Deep Learning course in Spring 2022.</a></li>
+</ol>
+</li>
+<li>YouTube channel: Badri Adhikari</li>
+<li><a href="https://www.youtube.com/@BadriAdhikari1">YouTube channel link: Badri Adhikari</a></li>
+</ol>
+</li>
+<li><a href="https://youtu.be/SnkcHjH5tjI">Youtube video link: [DL] Training very deep models using residual connections</a></li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Evolution of Text Augmentation in NLP</title>
     <url>/hexo-blog//ai_nlp/evolution_of_text_augmentation_in_nlp/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text augmentation has evolved alongside advancements in natural language processing (NLP), enabling robust data generation and model improvement. Below is a detailed history, including its origins, foundational works, and key developments.</p>
@@ -2240,51 +2295,12 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Internet resources and references for building NLP projects</title>
-    <url>/hexo-blog//ai_nlp/internet_resources_and_references_for_building_nlp_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial<ol>
-<li><p><strong>Intro</strong></p>
-<p>Welcome to Tutorial 3 of our NLP with HuggingFace series! In this exciting installment, we dive deep into the world of Text Generation using the powerful GPT-2 model. 🚀</p>
-<p>Discover the magic of transforming prompts into creative and contextually rich text outputs. We’ll guide you step by step through the process of leveraging HuggingFace’s GPT-2 model for crafting compelling narratives, generating code, and much more. 📝✨</p>
-<p>Whether you’re a seasoned NLP enthusiast or just beginning your journey, this tutorial will equip you with the skills to unlock the art of automatic text generation. Join us as we unravel the intricacies of GPT-2 and showcase its ability to generate fluent and coherent content.</p>
-<p>Don’t miss out on this educational adventure! Like, subscribe, and hit the notification bell to stay updated with the latest in Natural Language Processing and HuggingFace magic. Get ready to take your text generation game to the next level with NLP and GPT-2. Let’s dive in!</p>
-</li>
-<li><p><strong>Author</strong>:</p>
-<ol>
-<li>YouTube channel: KGP Talkie</li>
-<li><a href="https://www.youtube.com/@KGPTalkie">YouTube channel link: KGP Talkie</a></li>
-</ol>
-</li>
-<li><p><a href="https://github.com/laxmimerit/NLP-Tutorials-with-HuggingFace">GitHub project: NLP-Tutorials-with-HuggingFace</a></p>
-</li>
-<li><p><a href="https://www.youtube.com/watch?v=7O5ZKtJ99lc&t=1831s">Youtube video link: 3- Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial</a></p>
-</li>
-</ol>
-</li>
-<li>Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)<ol>
-<li><strong>Author</strong>:<ol>
-<li>YouTube channel: Евгений Разинков</li>
-<li><a href="https://www.youtube.com/@razinkov">YouTube channel link: Евгений Разинков</a></li>
-</ol>
-</li>
-<li><a href="https://www.youtube.com/watch?v=bn11u_Ijf8Y&t=300s">Youtube video link: Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)</a></li>
-</ol>
-</li>
-<li>[DL] Training very deep models using residual connections<ol>
-<li><strong>Author</strong>:<ol>
-<li><a href="https://badriadhikari.github.io/concept-map">Badri Adhikari personal website</a><ol>
-<li><a href="https://badriadhikari.github.io/concept-maps/kate_2022spring_dl.png">An example concept map drawn by Kate Arendes, a student who took Badri Adhikari’s Deep Learning course in Spring 2022.</a></li>
-</ol>
-</li>
-<li>YouTube channel: Badri Adhikari</li>
-<li><a href="https://www.youtube.com/@BadriAdhikari1">YouTube channel link: Badri Adhikari</a></li>
-</ol>
-</li>
-<li><a href="https://youtu.be/SnkcHjH5tjI">Youtube video link: [DL] Training very deep models using residual connections</a></li>
-</ol>
-</li>
-</ol>
+    <title>NLP lexical resources</title>
+    <url>/hexo-blog/2024/11/25/post_ai_nlp__nlp_lexical_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
+<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
+<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
+<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -2292,6 +2308,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>NLP</tag>
+        <tag>lexic</tag>
       </tags>
   </entry>
   <entry>
@@ -2322,6 +2339,26 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sentiment analysis framework</title>
+    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
+<li>Here is a draft structure of  Python-based project with an OOP design. </li>
+<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
+<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>All implementations and improvements will be presented in separate posts.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -2401,43 +2438,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLP lexical resources</title>
-    <url>/hexo-blog/2024/11/25/post_ai_nlp__nlp_lexical_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
-<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
-<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
-<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NLP</tag>
-        <tag>lexic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sentiment analysis framework</title>
-    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
-<li>Here is a draft structure of  Python-based project with an OOP design. </li>
-<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
-<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>All implementations and improvements will be presented in separate posts.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -3739,7 +3739,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
   </entry>
   <entry>
     <title>Prompt Engineering - INTRO.</title>
-    <url>/hexo-blog//ai_promt_engineer/promt_engineer_intro/</url>
+    <url>/hexo-blog//ai_prompt_engineer/prompt_engineer_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
 <hr>
 <h2 id="1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning"><a href="#1-Core-Knowledge-in-Artificial-Intelligence-and-Machine-Learning" class="headerlink" title="1. Core Knowledge in Artificial Intelligence and Machine Learning"></a>1. Core Knowledge in Artificial Intelligence and Machine Learning</h2><p>Understanding generative AI and large language models (LLMs) is foundational to prompt engineering.</p>
@@ -3949,7 +3949,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
   </entry>
   <entry>
     <title>Prompt Engineering - task_1.</title>
-    <url>/hexo-blog/2024/11/21/post_ai_promt_engineer_task_1/</url>
+    <url>/hexo-blog/2024/11/21/post_ai_prompt_engineer_task_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Prompt Evaluation Guide: Assessing Prompt and Response Quality</strong></p>
 <h2 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1. Introduction"></a>1. Introduction</h2><p>In this guide, we will evaluate the quality of prompts and their corresponding responses using a machine learning model. The goal is to determine whether the outputs align with specified criteria, improving the model’s prompt-handling capability through fine-tuning or adjustments. We’ll use <strong>OpenAI’s GPT-based models</strong> as our foundation, showcasing how to configure, evaluate, and visualize results locally. </p>
 <p>This guide includes a step-by-step walkthrough for local deployment, fine-tuning, and performance assessment, complete with visualization of results to understand the quality and impact of changes.</p>
@@ -4103,10 +4103,10 @@ print(generated_text)
   </entry>
   <entry>
     <title>Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</title>
-    <url>/hexo-blog//ai/post_ai_promt_engineer_task_llm_locally/</url>
+    <url>/hexo-blog//ai/post_ai_prompt_engineer_task_llm_locally/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to :</em></p>
 <ol>
-<li><a href="/hexo-blog/ai/post_ai_promt_engineer_task_llm_via_api/">Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</a></li>
+<li><a href="/hexo-blog/ai/post_ai_prompt_engineer_task_llm_via_api/">Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</a></li>
 </ol>
 <hr>
 <p>This guide provides a structured approach to exploring OpenAI models locally, focusing on setting up a local environment and evaluating the performance and behavior of models without relying on external APIs.  </p>
@@ -4216,7 +4216,7 @@ print(batch_responses)
   </entry>
   <entry>
     <title>Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</title>
-    <url>/hexo-blog//ai/post_ai_promt_engineer_task_llm_via_api/</url>
+    <url>/hexo-blog//ai/post_ai_prompt_engineer_task_llm_via_api/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.  </p>
 <h2 id="Key-Objectives"><a href="#Key-Objectives" class="headerlink" title="Key Objectives"></a>Key Objectives</h2><ul>
 <li>Design efficient prompts for LLM APIs.  </li>
@@ -4456,6 +4456,31 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
+    <title>Basic loguru configuration for python</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__loguru_loger_basic_configuration/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
+<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
+<li><p>Loguru installation command via PIP</p>
+ <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
+</li>
+<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>loguru</tag>
+        <tag>logger</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Postman tests examples</title>
     <url>/hexo-blog/2023/05/11/post_dev_side__postman_tests_examples/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
@@ -4584,31 +4609,6 @@ def initialize_api(api_key):
         <tag>api_testing</tag>
         <tag>qa</tag>
         <tag>API</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Basic loguru configuration for python</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__loguru_loger_basic_configuration/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
-<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
-<li><p>Loguru installation command via PIP</p>
- <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
-</li>
-<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>loguru</tag>
-        <tag>logger</tag>
       </tags>
   </entry>
   <entry>
@@ -5047,46 +5047,6 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
-    <title>UNIX command tutorials</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__unix_comand_tutorial/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
-<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
-<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
-<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
-</ul>
-<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
-<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
-<li><strong>Command to run</strong>: <code>vimtutor</code></li>
-</ul>
-<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
-<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
-<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
-</ul>
-<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
-<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
-<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
-<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
-</ul>
-<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
-<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
-<li><strong>Install</strong>: <code>pip install cheat</code></li>
-<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
-</ul>
-<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
-<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
-<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>unix</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Remote access to Ubuntu machine via ssh. Commands.</title>
     <url>/hexo-blog//devops/post_devops__remote_access_to_ubuntu_machine_via_ssh_commands/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List:"></a>Task List:</h2><ol>
@@ -5144,6 +5104,46 @@ def initialize_api(api_key):
       <tags>
         <tag>ssh</tag>
         <tag>devops</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>UNIX command tutorials</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__unix_comand_tutorial/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
+<h2 id="1-bashcrawl"><a href="#1-bashcrawl" class="headerlink" title="1. bashcrawl:"></a>1. <strong><code>bashcrawl</code></strong>:</h2><ul>
+<li>A game-like, interactive tutorial for learning UNIX commands inside the bash shell. It guides you through different directories and tasks, teaching basic UNIX commands in the process.</li>
+<li><strong>Where to get it</strong>: <a href="https://github.com/notklaatu/bashcrawll">bashcrawl GitHub Repository</a></li>
+</ul>
+<h2 id="2-vimtutor"><a href="#2-vimtutor" class="headerlink" title="2. vimtutor:"></a>2. <strong><code>vimtutor</code></strong>:</h2><ul>
+<li>While this tool specifically teaches the <code>vim</code> editor, it’s useful for learning command-line navigation and basics. Most UNIX systems come with <code>vim</code>, and running <code>vimtutor</code> provides an interactive way to learn.</li>
+<li><strong>Command to run</strong>: <code>vimtutor</code></li>
+</ul>
+<h2 id="3-explainshell"><a href="#3-explainshell" class="headerlink" title="3. explainshell:"></a>3. <strong><code>explainshell</code></strong>:</h2><ul>
+<li>This is an online tool that helps explain UNIX commands by breaking down shell command syntax and arguments. You input a command, and it shows a description of each part of the command.</li>
+<li><strong>Website</strong>: <a href="https://explainshell.com/">explainshell.com</a></li>
+</ul>
+<h2 id="4-tldr-Too-Long-Didn’t-Read"><a href="#4-tldr-Too-Long-Didn’t-Read" class="headerlink" title="4. tldr (Too Long Didn’t Read):"></a>4. <strong><code>tldr</code> (Too Long Didn’t Read)</strong>:</h2><ul>
+<li>A simplified and community-driven collection of UNIX command explanations. It provides short, practical examples for UNIX commands, unlike the often-detailed <code>man</code> pages.</li>
+<li><strong>Install</strong>: <code>sudo apt install tldr</code> (on Ubuntu) or <a href="https://github.com/tldr-pages/tldr">tldr GitHub</a></li>
+<li><strong>Usage</strong>: <code>tldr &lt;command&gt;</code></li>
+</ul>
+<h2 id="5-cheat"><a href="#5-cheat" class="headerlink" title="5. cheat"></a>5. <strong><code>cheat</code></strong></h2><ul>
+<li>A cheat-sheet tool that gives you concise examples and explanations of how to use UNIX commands. You can use it to quickly look up syntax and examples for common commands.</li>
+<li><strong>Install</strong>: <code>pip install cheat</code></li>
+<li><strong>Usage</strong>: <code>cheat &lt;command&gt;</code></li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheat">cheat GitHub</a></li>
+</ul>
+<h2 id="6-cheatsheets"><a href="#6-cheatsheets" class="headerlink" title="6. cheatsheets"></a>6. <strong><code>cheatsheets</code></strong></h2><ul>
+<li>This repository contains community-sourced cheatsheets to be used with <a href="https://github.com/cheat/cheat">cheat</a> and similar applications.</li>
+<li><strong>GitHub</strong>: <a href="https://github.com/cheat/cheatsheets">cheatsheets Github</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>unix</tag>
       </tags>
   </entry>
   <entry>
@@ -5250,6 +5250,71 @@ def initialize_api(api_key):
       <tags>
         <tag>ssh</tag>
         <tag>devops</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
+    <url>/hexo-blog/2024/09/28/post_docs_publishing__readthedoc_vs_github_pages_tutorial_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
+<p>Now I faced with some issues of publishing existing project documentation that was created by Sphinx<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>For my <a href="https://github.com/ooge0/python_TA_web_api_framework">personal project on GIT: python_TA_web_api_framework</a> I creted project documentation and generated by Sphinx all necessary data but for some technical reason had no luck to publish it in the web.</p>
+<p>Researching existing approaches showed me that there are several platforms for publishing documentation, created mostly in rst<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> format<br>Configuration of GitHub:  Pages and ReadTheDocs: for same project content is different. </p>
+<ul>
+<li>GitHub:  Pages</li>
+<li>ReadTheDocs</li>
+</ul>
+<p>In the end after many attempts of building GitHub:  Pages and ReadTheDocs: I found <a href="https://github.com/readthedocs/test-builds/tree/main/docs">test project for playing readthedocs on official <code>readthedocs</code> GitHub: </a><br>Assumption of making similar projects on GitHub:  Pages and ReadTheDocs: failed. Result below</p>
+<img src="/hexo-blog/images/github_pages_vs_readthedocs__test_project.png" alt="Sphinx project. GitHub:  Pages and ReadTheDocs" title="Sphinx project. GitHub:  Pages and ReadTheDocs" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+<p>Source <code>ReadTheDocs</code> projects was </p>
+<ol>
+<li><a href="https://github.com/ooge0/test-builds">https://github.com/ooge0/test-builds</a></li>
+<li><a href="https://test-builds.readthedocs.io/">https://test-builds.readthedocs.io/</a></li>
+</ol>
+<p>Main configuration files for ReadTheDocs: publishing are below<br><code>.readthedocs.yaml</code></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">os:</span> <span class="string">ubuntu-24.04</span></span><br><span class="line">  <span class="attr">tools:</span></span><br><span class="line">    <span class="attr">python:</span> <span class="string">latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sphinx:</span></span><br><span class="line">  <span class="attr">configuration:</span> <span class="string">docs/conf.py</span></span><br><span class="line"></span><br><span class="line"><span class="attr">python:</span></span><br><span class="line">  <span class="attr">install:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">requirements:</span> <span class="string">requirements.txt</span></span><br></pre></td></tr></table></figure>
+
+<p><code>requirements.txt</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sphinx-autorun</span><br><span class="line">sphinx-rtd-theme&gt;=3.0.0rc2</span><br></pre></td></tr></table></figure>
+
+<p>Another projects for investigation of publishing&#x2F;deploying conflicts</p>
+<ol>
+<li>coding-with-kids<ol>
+<li><a href="https://github.com/dahlsailrunner/coding-with-kids">GitHub:  coding-with-kids</a></li>
+<li><a href="https://coding-with-kids.readthedocs.io/en">ReadTheDocs: coding-with-kids</a></li>
+</ol>
+</li>
+<li>test-builds<ol>
+<li><a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+<li><a href="https://test-builds.readthedocs.io/">ReadTheDocs: test-builds</a></li>
+</ol>
+</li>
+<li>readthedocs-demo-app(my project)<ol>
+<li><a href="https://github.com/ooge0/readthedocs-demo-app">GitHub: readthedocs-demo-app</a></li>
+<li><a href="https://ooge0.github.io/readthedocs-demo-app/">GitHub Pages: readthedocs-demo-app</a></li>
+<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a>. Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+</ol>
+</li>
+<li>docs.readthedocs.io<ol>
+<li><a href="https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/index.rst">GitHub:  docs.readthedocs.io</a></li>
+<li><a href="https://docs.readthedocs.io/en/stable/index.html">ReadTheDocs: docs.readthedocs.io</a></li>
+<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a> Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+</ol>
+</li>
+<li>jubilant-lamp<ol>
+<li><a href="https://github.com/RGGH/jubilant-lamp">GitHub: jubilant-lamp</a></li>
+<li><a href="https://rggh.github.io/jubilant-lamp/">GitHub pages:  jubilant-lamp</a></li>
+</ol>
+</li>
+</ol>
+<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
+reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. reStructuredText is designed for extensibility for specific application domains. The reStructuredText parser is a component of Docutils. reStructuredText is a revision and reinterpretation of the StructuredText and Setext lightweight markup systems.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ReadTheDocs</tag>
+        <tag>[object Object]</tag>
+        <tag>DocPublishing</tag>
       </tags>
   </entry>
   <entry>
@@ -5401,71 +5466,6 @@ def initialize_api(api_key):
       <tags>
         <tag>NLP</tag>
         <tag>linguistic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
-    <url>/hexo-blog/2024/09/28/post_docs_publishing__readthedoc_vs_github_pages_tutorial_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
-<p>Now I faced with some issues of publishing existing project documentation that was created by Sphinx<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>For my <a href="https://github.com/ooge0/python_TA_web_api_framework">personal project on GIT: python_TA_web_api_framework</a> I creted project documentation and generated by Sphinx all necessary data but for some technical reason had no luck to publish it in the web.</p>
-<p>Researching existing approaches showed me that there are several platforms for publishing documentation, created mostly in rst<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> format<br>Configuration of GitHub:  Pages and ReadTheDocs: for same project content is different. </p>
-<ul>
-<li>GitHub:  Pages</li>
-<li>ReadTheDocs</li>
-</ul>
-<p>In the end after many attempts of building GitHub:  Pages and ReadTheDocs: I found <a href="https://github.com/readthedocs/test-builds/tree/main/docs">test project for playing readthedocs on official <code>readthedocs</code> GitHub: </a><br>Assumption of making similar projects on GitHub:  Pages and ReadTheDocs: failed. Result below</p>
-<img src="/hexo-blog/images/github_pages_vs_readthedocs__test_project.png" alt="Sphinx project. GitHub:  Pages and ReadTheDocs" title="Sphinx project. GitHub:  Pages and ReadTheDocs" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-<p>Source <code>ReadTheDocs</code> projects was </p>
-<ol>
-<li><a href="https://github.com/ooge0/test-builds">https://github.com/ooge0/test-builds</a></li>
-<li><a href="https://test-builds.readthedocs.io/">https://test-builds.readthedocs.io/</a></li>
-</ol>
-<p>Main configuration files for ReadTheDocs: publishing are below<br><code>.readthedocs.yaml</code></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">os:</span> <span class="string">ubuntu-24.04</span></span><br><span class="line">  <span class="attr">tools:</span></span><br><span class="line">    <span class="attr">python:</span> <span class="string">latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sphinx:</span></span><br><span class="line">  <span class="attr">configuration:</span> <span class="string">docs/conf.py</span></span><br><span class="line"></span><br><span class="line"><span class="attr">python:</span></span><br><span class="line">  <span class="attr">install:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">requirements:</span> <span class="string">requirements.txt</span></span><br></pre></td></tr></table></figure>
-
-<p><code>requirements.txt</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sphinx-autorun</span><br><span class="line">sphinx-rtd-theme&gt;=3.0.0rc2</span><br></pre></td></tr></table></figure>
-
-<p>Another projects for investigation of publishing&#x2F;deploying conflicts</p>
-<ol>
-<li>coding-with-kids<ol>
-<li><a href="https://github.com/dahlsailrunner/coding-with-kids">GitHub:  coding-with-kids</a></li>
-<li><a href="https://coding-with-kids.readthedocs.io/en">ReadTheDocs: coding-with-kids</a></li>
-</ol>
-</li>
-<li>test-builds<ol>
-<li><a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-<li><a href="https://test-builds.readthedocs.io/">ReadTheDocs: test-builds</a></li>
-</ol>
-</li>
-<li>readthedocs-demo-app(my project)<ol>
-<li><a href="https://github.com/ooge0/readthedocs-demo-app">GitHub: readthedocs-demo-app</a></li>
-<li><a href="https://ooge0.github.io/readthedocs-demo-app/">GitHub Pages: readthedocs-demo-app</a></li>
-<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a>. Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-</ol>
-</li>
-<li>docs.readthedocs.io<ol>
-<li><a href="https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/index.rst">GitHub:  docs.readthedocs.io</a></li>
-<li><a href="https://docs.readthedocs.io/en/stable/index.html">ReadTheDocs: docs.readthedocs.io</a></li>
-<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a> Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-</ol>
-</li>
-<li>jubilant-lamp<ol>
-<li><a href="https://github.com/RGGH/jubilant-lamp">GitHub: jubilant-lamp</a></li>
-<li><a href="https://rggh.github.io/jubilant-lamp/">GitHub pages:  jubilant-lamp</a></li>
-</ol>
-</li>
-</ol>
-<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
-reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. reStructuredText is designed for extensibility for specific application domains. The reStructuredText parser is a component of Docutils. reStructuredText is a revision and reinterpretation of the StructuredText and Setext lightweight markup systems.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ReadTheDocs</tag>
-        <tag>[object Object]</tag>
-        <tag>DocPublishing</tag>
       </tags>
   </entry>
   <entry>
@@ -5622,6 +5622,52 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>ML</tag>
         <tag>html</tag>
         <tag>tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My glossaries</title>
+    <url>/hexo-blog//knowledge/my-glossaries/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
+<ol>
+<li>🏥 <strong>Medical glossaries</strong>:<ol>
+<li>⚕️ <em>General medical glossary</em>: <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/medical-glossary-1/">https://ooge0.github.io/glossary/medical-glossary-1/</a></li>
+<li>Parsed resource: <a href="https://medconsonline.com/en/glossary">https://medconsonline.com/en/glossary</a></li>
+</ul>
+</li>
+<li>🧙 <em>General oncology glossary</em>: <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/oncology-glossary-1/">https://ooge0.github.io/glossary/oncology-glossary-1/</a></li>
+<li>Parsed resource: <a href="https://chemoteka.com.ua/dictionary">https://chemoteka.com.ua/dictionary</a></li>
+</ul>
+</li>
+</ol>
+</li>
+<li>🗿 <strong>Philosophy glossaries</strong>:<ol>
+<li><em>General philosophy glossary</em>(ENG):  <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/">https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/</a></li>
+<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
+</ul>
+</li>
+<li><em><strong>General philosophy glossary</strong></em>(UA):  <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/">https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/</a></li>
+<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>glossary</tag>
+        <tag>knowledge</tag>
       </tags>
   </entry>
   <entry>
@@ -5786,326 +5832,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
-    <title>Psychology</title>
-    <url>/hexo-blog/2024/10/18/post_psy__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://www.academia.edu/23028227/The_Psychology_of_Emotions">Carroll Izard. The Psychology of Emotions . Read on academia.edu</a></li>
-<li>Patterns of emotions. A new analysis of anxiety and depression. Carroll Izard</li>
-<li>The American mind; an interpretation of American thought and character since the 1880’s<ul>
-<li><a href="https://archive.org/stream/in.ernet.dli.2015.523442/2015.523442.The-American_djvu.txt">Read on archive.org</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My glossaries</title>
-    <url>/hexo-blog//knowledge/my-glossaries/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
-<ol>
-<li>🏥 <strong>Medical glossaries</strong>:<ol>
-<li>⚕️ <em>General medical glossary</em>: <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/medical-glossary-1/">https://ooge0.github.io/glossary/medical-glossary-1/</a></li>
-<li>Parsed resource: <a href="https://medconsonline.com/en/glossary">https://medconsonline.com/en/glossary</a></li>
-</ul>
-</li>
-<li>🧙 <em>General oncology glossary</em>: <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/oncology-glossary-1/">https://ooge0.github.io/glossary/oncology-glossary-1/</a></li>
-<li>Parsed resource: <a href="https://chemoteka.com.ua/dictionary">https://chemoteka.com.ua/dictionary</a></li>
-</ul>
-</li>
-</ol>
-</li>
-<li>🗿 <strong>Philosophy glossaries</strong>:<ol>
-<li><em>General philosophy glossary</em>(ENG):  <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/">https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/</a></li>
-<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
-</ul>
-</li>
-<li><em><strong>General philosophy glossary</strong></em>(UA):  <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/">https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/</a></li>
-<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
-</ul>
-</li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>glossary</tag>
-        <tag>knowledge</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Software QA - DB testing approach</title>
-    <url>/hexo-blog/2024/10/21/post_qa__software_qa_db_testing_approach/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
-<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
-<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
-<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Use this script to create a clean database environment before running tests.</li>
-<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
-</ul>
-<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
-<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
-</ul>
-<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
-
-<p><strong>Testing the Stored Procedure:</strong></p>
-<p>You can write a script to test the stored procedure and verify its results.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Create unit tests for stored procedures to ensure they work as expected.</li>
-<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
-</ul>
-<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
-<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
-</ul>
-<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
-<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>QA</category>
-      </categories>
-      <tags>
-        <tag>qa</tag>
-        <tag>db</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resources</title>
-    <url>/hexo-blog/2024/10/28/post_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
-<ol>
-<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>links</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resources. Global platforms and people</title>
-    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
-<ol>
-<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
-</li>
-<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
-</li>
-</ol>
-<p><strong>List of people</strong></p>
-<ol>
-<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>global_knowledge</tag>
-        <tag>resources</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Test design techniques for mobile applications</title>
-    <url>/hexo-blog/2024/04/09/post_qa__test_design_techniques_for_mobile_applications/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><p><strong>Equivalence Partitioning (EP)</strong></p>
-<ul>
-<li><strong>What it is</strong>: Divides input data into partitions of equivalent data from which test cases can be derived.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Input fields (e.g., login forms, search boxes) are tested by creating test cases for valid and invalid partitions (e.g., different password lengths, valid email formats).</li>
-</ul>
-</li>
-<li><p><strong>Boundary Value Analysis (BVA)</strong></p>
-<ul>
-<li><strong>What it is</strong>: Tests boundaries between partitions where errors tend to occur.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Test extreme values for input fields, such as the minimum and maximum length of text fields or file uploads (e.g., minimum and maximum resolution of an image upload).</li>
-</ul>
-</li>
-<li><p><strong>Decision Table Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Models system behavior with different input conditions using decision tables.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Mobile application settings often involve multiple options (e.g., turning on notifications, dark mode, permissions). Decision tables help test combinations of these settings.</li>
-</ul>
-</li>
-<li><p><strong>State Transition Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Tests how the application behaves when transitioning from one state to another.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Mobile apps often have distinct states, such as login&#x2F;logout, background&#x2F;foreground, or different navigation flows. State transition testing ensures correct app behavior as users interact with various features and transitions between states (e.g., switching between active screens, minimizing and reopening the app).</li>
-</ul>
-</li>
-<li><p><strong>Use Case Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Validates the system behavior by following specific user scenarios or workflows.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Create real-world scenarios such as registering a new user, placing an order, or navigating a map in an app. It ensures the app works from the user’s perspective for each typical action.</li>
-</ul>
-</li>
-<li><p><strong>Exploratory Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Ad-hoc testing technique where the tester actively explores the application without predefined test cases.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Discover unexpected behaviors by interacting with various parts of the app (e.g., swiping, pinch-to-zoom, rotating the device). This is particularly useful for UX testing.</li>
-</ul>
-</li>
-<li><p><strong>Usability Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Evaluates the app’s user-friendliness and overall user experience.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Test the app’s layout, navigation, responsiveness, and interaction. Verify the ease of use of buttons, touch gestures, app loading speed, and error messages. Also, ensure the app is intuitive and consistent with mobile design guidelines (e.g., iOS vs. Android UI&#x2F;UX standards).</li>
-</ul>
-</li>
-<li><p><strong>Compatibility Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Verifies the application’s compatibility across different mobile devices, screen sizes, resolutions, and operating systems.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Test the app on various device models (iPhones, Android phones) and OS versions (e.g., iOS 14, iOS 15, Android 10, Android 11). Also, check how the app adapts to different screen sizes (phones, tablets) and orientation (portrait vs. landscape).</li>
-</ul>
-</li>
-<li><p><strong>Interrupt Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Ensures the application can handle interruptions gracefully.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Test how the app reacts to incoming calls, text messages, low battery warnings, switching between apps, or airplane mode. The app should resume properly after the interruption.</li>
-</ul>
-</li>
-<li><p><strong>Localization Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Ensures the app supports different languages, time zones, and regional formats.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Verify that the app correctly displays translated text, numbers, and date formats across different languages and regions (e.g., US vs. UK date formats, local currencies).</li>
-</ul>
-</li>
-</ol>
-<p>11.** Performance Testing**<br>    * <strong>What it is</strong>: Evaluates the app’s performance in terms of speed, responsiveness, and resource usage.<br>    * <strong>How it’s used in mobile testing</strong>: Simulate low internet bandwidth or unstable network conditions. Test app loading times, battery consumption, memory usage, and responsiveness under heavy usage or background processes.</p>
-<ol start="12">
-<li><strong>Security Testing</strong><ul>
-<li><strong>What it is</strong>: Identifies vulnerabilities and weaknesses in the application.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Test login mechanisms, encryption of sensitive data (e.g., payment information), secure transmission of data, authentication (e.g., two-factor authentication), and handling of user sessions.</li>
-</ul>
-</li>
-</ol>
-<p>13.** Network and Connectivity Testing**<br>    * <strong>What it is</strong>: Ensures the app performs well across different network conditions (e.g., Wi-Fi, 4G, 5G).<br>    * <strong>How it’s used in mobile testing</strong>: Test how the app behaves when switching between networks or under different connectivity scenarios like weak or lost signal, airplane mode, and reconnections.</p>
-<ol start="14">
-<li><p><strong>Regression Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Ensures that recent code changes haven’t introduced new bugs or negatively impacted existing functionality.  </li>
-<li><strong>How it’s used in mobile testing</strong>: After bug fixes or feature updates, run automated or manual test cases to verify that previous functionality still works as expected.</li>
-</ul>
-</li>
-<li><p><strong>Gesture-Based Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Tests mobile app interactions that rely on gestures like tap, swipe, pinch, zoom, or rotate.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Validate the proper response of gestures on different devices and screen sizes (e.g., map zoom-in&#x2F;zoom-out, swiping between screens).</li>
-</ul>
-</li>
-<li><p><strong>Installation and Update Testing</strong></p>
-<ul>
-<li><strong>What it is</strong>: Ensures the application installs, updates, and uninstalls properly.  </li>
-<li><strong>How it’s used in mobile testing</strong>: Test app installation under different scenarios, such as a fresh install, app updates, rollbacks, and app removal. Validate data persistence after an update and check the impact on user preferences or data.</li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>test_design</tag>
-        <tag>mobile_application</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Site for blogging</title>
-    <url>/hexo-blog/2024/04/28/post_site_for_blogging/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
-<hr>
-<ol>
-<li><p>blogger.com</p>
-<p> <a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
-</li>
-<li><p>indieblog.page</p>
-<p> <a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
-</li>
-<li><p>ghost.org</p>
-<p> <a href="https://ghost.org/">https://ghost.org/</a></p>
-</li>
-</ol>
-<hr>
-<ol start="4">
-<li>Simple example that can be used by</li>
-</ol>
-<h2 id=""><a href="#" class="headerlink" title="."></a>.</h2><div>
-  <span style="
-      color: purple; 
-      font-weight: bold; 
-      text-align: center;
-      font-size: 33px;
-      font-family: 'Courier New', Courier, monospace;
-      transition: transform 0.3s ease;
-  " 
-  onmouseover="this.style.transform='scale(1.2)'" 
-  onmouseout="this.style.transform='scale(1)'">   ko6e4ka   
-  </span>
-</div>
-
-<p>  <img src="/hexo-blog/images/posts__magic_cats.png"></p>
-<div>
-<span style="
-      color: green; 
-      font-weight: italic; 
-      text-align: center;
-      font-size: 66px;
-      font-family: 'Brush Script MT', Courier, monospace;
-      transition: transform 0.3s ease;
-  " 
-  onmouseover="this.style.transform='scale(1.2)'" 
-  onmouseout="this.style.transform='scale(1)'">
-  <a target="_blank" href="https://skookworks.wordpress.com/about/">skookworks</a>
-</span>
-</div>
-
-<p>  <img src="/hexo-blog/images/posts__magic_cat_1.png"></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Software QA - Basic check list</title>
     <url>/hexo-blog/2024/08/28/post_qa__software_qa_basic_check_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Login-form-Test-Cases"><a href="#1-Login-form-Test-Cases" class="headerlink" title="1 Login form Test Cases"></a>1 Login form Test Cases</h2><ol>
@@ -6255,72 +5981,277 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
-    <title>Blog&#39;s categories</title>
-    <url>/hexo-blog//categories/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
-<ul>
-<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
-<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
-<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
-<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+    <title>Psychology</title>
+    <url>/hexo-blog/2024/10/18/post_psy__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://www.academia.edu/23028227/The_Psychology_of_Emotions">Carroll Izard. The Psychology of Emotions . Read on academia.edu</a></li>
+<li>Patterns of emotions. A new analysis of anxiety and depression. Carroll Izard</li>
+<li>The American mind; an interpretation of American thought and character since the 1880’s<ul>
+<li><a href="https://archive.org/stream/in.ernet.dli.2015.523442/2015.523442.The-American_djvu.txt">Read on archive.org</a></li>
+</ul>
+</li>
 </ul>
 ]]></content>
       <categories>
-        <category>Categories</category>
+        <category>Posts</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
       <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+    <title>Software QA - DB testing approach</title>
+    <url>/hexo-blog/2024/10/21/post_qa__software_qa_db_testing_approach/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
+<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
+<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
+<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
 <ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
+<li>Use this script to create a clean database environment before running tests.</li>
+<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
 </ul>
-<p>Longest session: </p>
+<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
 <ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
+<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
+<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
 </ul>
-<p>User locations:</p>
-]]></content>
+<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Testing the Stored Procedure:</strong></p>
+<p>You can write a script to test the stored procedure and verify its results.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Create unit tests for stored procedures to ensure they work as expected.</li>
+<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
+</ul>
+<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
+<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
+</ul>
+<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
+<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Maintanance</category>
+        <category>QA</category>
       </categories>
       <tags>
-        <tag>statistics</tag>
+        <tag>qa</tag>
+        <tag>db</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Test design techniques for mobile applications</title>
+    <url>/hexo-blog/2024/04/09/post_qa__test_design_techniques_for_mobile_applications/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><p><strong>Equivalence Partitioning (EP)</strong></p>
+<ul>
+<li><strong>What it is</strong>: Divides input data into partitions of equivalent data from which test cases can be derived.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Input fields (e.g., login forms, search boxes) are tested by creating test cases for valid and invalid partitions (e.g., different password lengths, valid email formats).</li>
+</ul>
+</li>
+<li><p><strong>Boundary Value Analysis (BVA)</strong></p>
+<ul>
+<li><strong>What it is</strong>: Tests boundaries between partitions where errors tend to occur.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Test extreme values for input fields, such as the minimum and maximum length of text fields or file uploads (e.g., minimum and maximum resolution of an image upload).</li>
+</ul>
+</li>
+<li><p><strong>Decision Table Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Models system behavior with different input conditions using decision tables.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Mobile application settings often involve multiple options (e.g., turning on notifications, dark mode, permissions). Decision tables help test combinations of these settings.</li>
+</ul>
+</li>
+<li><p><strong>State Transition Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Tests how the application behaves when transitioning from one state to another.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Mobile apps often have distinct states, such as login&#x2F;logout, background&#x2F;foreground, or different navigation flows. State transition testing ensures correct app behavior as users interact with various features and transitions between states (e.g., switching between active screens, minimizing and reopening the app).</li>
+</ul>
+</li>
+<li><p><strong>Use Case Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Validates the system behavior by following specific user scenarios or workflows.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Create real-world scenarios such as registering a new user, placing an order, or navigating a map in an app. It ensures the app works from the user’s perspective for each typical action.</li>
+</ul>
+</li>
+<li><p><strong>Exploratory Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Ad-hoc testing technique where the tester actively explores the application without predefined test cases.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Discover unexpected behaviors by interacting with various parts of the app (e.g., swiping, pinch-to-zoom, rotating the device). This is particularly useful for UX testing.</li>
+</ul>
+</li>
+<li><p><strong>Usability Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Evaluates the app’s user-friendliness and overall user experience.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Test the app’s layout, navigation, responsiveness, and interaction. Verify the ease of use of buttons, touch gestures, app loading speed, and error messages. Also, ensure the app is intuitive and consistent with mobile design guidelines (e.g., iOS vs. Android UI&#x2F;UX standards).</li>
+</ul>
+</li>
+<li><p><strong>Compatibility Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Verifies the application’s compatibility across different mobile devices, screen sizes, resolutions, and operating systems.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Test the app on various device models (iPhones, Android phones) and OS versions (e.g., iOS 14, iOS 15, Android 10, Android 11). Also, check how the app adapts to different screen sizes (phones, tablets) and orientation (portrait vs. landscape).</li>
+</ul>
+</li>
+<li><p><strong>Interrupt Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Ensures the application can handle interruptions gracefully.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Test how the app reacts to incoming calls, text messages, low battery warnings, switching between apps, or airplane mode. The app should resume properly after the interruption.</li>
+</ul>
+</li>
+<li><p><strong>Localization Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Ensures the app supports different languages, time zones, and regional formats.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Verify that the app correctly displays translated text, numbers, and date formats across different languages and regions (e.g., US vs. UK date formats, local currencies).</li>
+</ul>
+</li>
+</ol>
+<p>11.** Performance Testing**<br>    * <strong>What it is</strong>: Evaluates the app’s performance in terms of speed, responsiveness, and resource usage.<br>    * <strong>How it’s used in mobile testing</strong>: Simulate low internet bandwidth or unstable network conditions. Test app loading times, battery consumption, memory usage, and responsiveness under heavy usage or background processes.</p>
+<ol start="12">
+<li><strong>Security Testing</strong><ul>
+<li><strong>What it is</strong>: Identifies vulnerabilities and weaknesses in the application.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Test login mechanisms, encryption of sensitive data (e.g., payment information), secure transmission of data, authentication (e.g., two-factor authentication), and handling of user sessions.</li>
+</ul>
+</li>
+</ol>
+<p>13.** Network and Connectivity Testing**<br>    * <strong>What it is</strong>: Ensures the app performs well across different network conditions (e.g., Wi-Fi, 4G, 5G).<br>    * <strong>How it’s used in mobile testing</strong>: Test how the app behaves when switching between networks or under different connectivity scenarios like weak or lost signal, airplane mode, and reconnections.</p>
+<ol start="14">
+<li><p><strong>Regression Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Ensures that recent code changes haven’t introduced new bugs or negatively impacted existing functionality.  </li>
+<li><strong>How it’s used in mobile testing</strong>: After bug fixes or feature updates, run automated or manual test cases to verify that previous functionality still works as expected.</li>
+</ul>
+</li>
+<li><p><strong>Gesture-Based Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Tests mobile app interactions that rely on gestures like tap, swipe, pinch, zoom, or rotate.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Validate the proper response of gestures on different devices and screen sizes (e.g., map zoom-in&#x2F;zoom-out, swiping between screens).</li>
+</ul>
+</li>
+<li><p><strong>Installation and Update Testing</strong></p>
+<ul>
+<li><strong>What it is</strong>: Ensures the application installs, updates, and uninstalls properly.  </li>
+<li><strong>How it’s used in mobile testing</strong>: Test app installation under different scenarios, such as a fresh install, app updates, rollbacks, and app removal. Validate data persistence after an update and check the impact on user preferences or data.</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>test_design</tag>
+        <tag>mobile_application</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Resources</title>
+    <url>/hexo-blog/2024/10/28/post_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
+<ol>
+<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>links</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Resources. Global platforms and people</title>
+    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+<ol>
+<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
+</li>
+<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
+</li>
+</ol>
+<p><strong>List of people</strong></p>
+<ol>
+<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>global_knowledge</tag>
+        <tag>resources</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Site for blogging</title>
+    <url>/hexo-blog/2024/04/28/post_site_for_blogging/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
+<hr>
+<ol>
+<li><p>blogger.com</p>
+<p> <a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
+</li>
+<li><p>indieblog.page</p>
+<p> <a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
+</li>
+<li><p>ghost.org</p>
+<p> <a href="https://ghost.org/">https://ghost.org/</a></p>
+</li>
+</ol>
+<hr>
+<ol start="4">
+<li>Simple example that can be used by</li>
+</ol>
+<h2 id=""><a href="#" class="headerlink" title="."></a>.</h2><div>
+  <span style="
+      color: purple; 
+      font-weight: bold; 
+      text-align: center;
+      font-size: 33px;
+      font-family: 'Courier New', Courier, monospace;
+      transition: transform 0.3s ease;
+  " 
+  onmouseover="this.style.transform='scale(1.2)'" 
+  onmouseout="this.style.transform='scale(1)'">   ko6e4ka   
+  </span>
+</div>
+
+<p>  <img src="/hexo-blog/images/posts__magic_cats.png"></p>
+<div>
+<span style="
+      color: green; 
+      font-weight: italic; 
+      text-align: center;
+      font-size: 66px;
+      font-family: 'Brush Script MT', Courier, monospace;
+      transition: transform 0.3s ease;
+  " 
+  onmouseover="this.style.transform='scale(1.2)'" 
+  onmouseout="this.style.transform='scale(1)'">
+  <a target="_blank" href="https://skookworks.wordpress.com/about/">skookworks</a>
+</span>
+</div>
+
+<p>  <img src="/hexo-blog/images/posts__magic_cat_1.png"></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -6409,15 +6340,72 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+    <title>Blog&#39;s categories</title>
+    <url>/hexo-blog//categories/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
+<ul>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Categories</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
 ]]></content>
       <categories>
         <category>Maintanance</category>
       </categories>
       <tags>
-        <tag>tags</tag>
+        <tag>statistics</tag>
       </tags>
   </entry>
   <entry>
@@ -6428,6 +6416,18 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <categories>
         <category>Maintanance</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
   </entry>
   <entry>
     <title>Favorite post categories</title>
