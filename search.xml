@@ -21,6 +21,91 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
+    <url>/hexo-blog//ai/base_gan/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
+<p><strong>Особенности генеративного ИИ</strong></p>
+<ul>
+<li>Создание нового контента: <ul>
+<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
+</ul>
+</li>
+<li>Высокая адаптивность:<ul>
+<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
+</ul>
+</li>
+<li>Использование больших объемов данных:<ul>
+<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
+</ul>
+</li>
+<li>Сложность в контроле результатов: <ul>
+<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Разновидности генеративного ИИ</strong></p>
+<ul>
+<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
+<ul>
+<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
+</ul>
+</li>
+<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
+<ul>
+<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
+<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
+<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
+<p><strong>Диффузионные модели</strong></p>
+<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
+<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
+<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
+<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
+<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
+<ul>
+<li><p>Создание новых данных vs. анализ и предсказание:</p>
+</li>
+<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
+</li>
+<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
+</li>
+<li><p>Использование для творчества и генерации контента:</p>
+<ul>
+<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
+<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Комплексность и требования к обучению:</strong></p>
+<ul>
+<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
+<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
+</ul>
+<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
+<ul>
+<li>Развлечения и медиа: <ul>
+<li>создание музыки, текста, изображений, сценариев.</li>
+</ul>
+</li>
+<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
+<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
+<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
+</ul>
+<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Comparing Efficiency of NLP Models. Methods and Metrics.</title>
     <url>/hexo-blog//ai/post_ai__comparing_nlp_models_methods_metrix/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
@@ -143,94 +228,9 @@
         <category>Posts</category>
       </categories>
       <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
         <tag>NLP</tag>
-        <tag>ML</tag>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
-    <url>/hexo-blog//ai/base_gan/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
-<p><strong>Особенности генеративного ИИ</strong></p>
-<ul>
-<li>Создание нового контента: <ul>
-<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
-</ul>
-</li>
-<li>Высокая адаптивность:<ul>
-<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
-</ul>
-</li>
-<li>Использование больших объемов данных:<ul>
-<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
-</ul>
-</li>
-<li>Сложность в контроле результатов: <ul>
-<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Разновидности генеративного ИИ</strong></p>
-<ul>
-<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
-<ul>
-<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
-</ul>
-</li>
-<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
-<ul>
-<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
-<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
-<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
-<p><strong>Диффузионные модели</strong></p>
-<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
-<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
-<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
-<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
-<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
-<ul>
-<li><p>Создание новых данных vs. анализ и предсказание:</p>
-</li>
-<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
-</li>
-<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
-</li>
-<li><p>Использование для творчества и генерации контента:</p>
-<ul>
-<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
-<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Комплексность и требования к обучению:</strong></p>
-<ul>
-<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
-<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
-</ul>
-<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
-<ul>
-<li>Развлечения и медиа: <ul>
-<li>создание музыки, текста, изображений, сценариев.</li>
-</ul>
-</li>
-<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
-<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
-<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
-</ul>
-<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>AI</tag>
-        <tag>science</tag>
       </tags>
   </entry>
   <entry>
@@ -366,8 +366,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -438,8 +438,38 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
         <tag>papers</tag>
       </tags>
   </entry>
@@ -501,8 +531,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>augmentation</tag>
         <tag>text_generation</tag>
       </tags>
@@ -518,40 +548,10 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>chatbot</tag>
         <tag>Llama</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>AI</tag>
-        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -1323,8 +1323,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
         <tag>LLM</tag>
       </tags>
@@ -1375,8 +1375,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>emotions</tag>
       </tags>
   </entry>
@@ -1421,8 +1421,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -1569,8 +1569,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>LLM</tag>
       </tags>
   </entry>
@@ -1626,8 +1626,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -1653,8 +1653,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -1877,8 +1877,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -2090,8 +2090,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>NPF</tag>
       </tags>
   </entry>
@@ -2234,8 +2234,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
         <tag>lexic</tag>
       </tags>
   </entry>
@@ -2290,8 +2290,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -2337,9 +2337,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -2354,8 +2354,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
         <tag>lexic</tag>
       </tags>
   </entry>
@@ -2433,9 +2433,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -2575,9 +2575,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
         <tag>text_classification</tag>
       </tags>
   </entry>
@@ -2670,8 +2670,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -3750,8 +3750,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>glossary</tag>
       </tags>
   </entry>
@@ -3823,6 +3823,200 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 </ul>
 </li>
 </ul>
+<h3 id="Promt-categories-paterns-and-examples"><a href="#Promt-categories-paterns-and-examples" class="headerlink" title="Promt categories, paterns and examples"></a>Promt categories, paterns and examples</h3><table>
+<thead>
+<tr>
+<th><strong>Pattern Category</strong></th>
+<th><strong>Prompt Pattern</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Input Semantics</strong></td>
+<td>Meta Language Creation</td>
+<td>“Generate a story in <strong>Haiku format</strong> about a wandering traveler.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Concept Mapping</td>
+<td>“Create a mind map of the concept ‘Sustainability’ with three main branches.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Hierarchical Categorization</td>
+<td>“Organize these animals into categories: mammals, reptiles, birds.”</td>
+</tr>
+<tr>
+<td><strong>Output Customization</strong></td>
+<td>Output Automater</td>
+<td>“Summarize this text into a <strong>300-word executive summary</strong>.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Persona</td>
+<td>“Write a reply as a <strong>19th-century poet</strong> responding to criticism of their work.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Visualization Generator</td>
+<td>“Create a <strong>chart</strong> showing the sales trends of the past 12 months.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Recipe</td>
+<td>“Provide a <strong>step-by-step guide</strong> to bake sourdough bread.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Template</td>
+<td>“Generate an email template to inform customers about a new product launch.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Emotional Tone Calibration</td>
+<td>“Rewrite this apology email to sound more empathetic and professional.”</td>
+</tr>
+<tr>
+<td><strong>Error Identification</strong></td>
+<td>Fact Check List</td>
+<td>“List <strong>potential inaccuracies</strong> in this news article.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Reflection</td>
+<td>“What assumptions does this argument make that could be challenged?”</td>
+</tr>
+<tr>
+<td></td>
+<td>Cognitive Bias Detection</td>
+<td>“Identify examples of <strong>confirmation bias</strong> in this text.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Logical Consistency Check</td>
+<td>“Does the conclusion of this essay logically follow from the premises?”</td>
+</tr>
+<tr>
+<td><strong>Prompt Improvement</strong></td>
+<td>Question Refinement</td>
+<td>“Rephrase the question: ‘Why is climate change happening?’ to make it more <strong>specific</strong>.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Alternative Approaches</td>
+<td>“Suggest two alternative methods to solve this math problem.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Cognitive Verifier</td>
+<td>“Verify if the reasoning used in this explanation is <strong>valid and logical</strong>.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Refusal Breaker</td>
+<td>“Find a creative way to respond positively to the refusal: ‘I can’t help you with that.’”</td>
+</tr>
+<tr>
+<td></td>
+<td>Analogical Reasoning</td>
+<td>“Explain quantum mechanics using an analogy involving <strong>traffic flow</strong>.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Guided Iteration</td>
+<td>“Suggest improvements to this paragraph for <strong>clarity and conciseness</strong>.”</td>
+</tr>
+<tr>
+<td><strong>Interaction</strong></td>
+<td>Flipped Interaction</td>
+<td>“Instead of answering directly, ask <strong>clarifying questions</strong> to understand the user’s intent.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Game Play</td>
+<td>“Create a simple trivia game with three questions about <strong>ancient history</strong>.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Infinite Generation</td>
+<td>“Generate <strong>20 unique headlines</strong> for a blog post about AI advancements.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Interactive Memory Tracing</td>
+<td>“Remind me of the <strong>key takeaways</strong> from our last discussion on blockchain.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Collaborative Problem Solving</td>
+<td>“Propose three solutions to reduce urban pollution and ask the user to choose the best one.”</td>
+</tr>
+<tr>
+<td><strong>Context Control</strong></td>
+<td>Context Manager</td>
+<td>“Summarize all previous interactions in <strong>two sentences</strong>.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Focus Adjustment</td>
+<td>“Ignore irrelevant details and focus on <strong>financial implications</strong> of this policy.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Incremental Context Expansion</td>
+<td>“Gradually expand the story by introducing one new character per paragraph.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Temporal Context Anchoring</td>
+<td>“Generate a timeline for events in World War II starting from <strong>1939</strong>.”</td>
+</tr>
+<tr>
+<td><strong>Memory Enhancement</strong></td>
+<td>Chunking for Retention</td>
+<td>“Divide this list of 30 items into <strong>5 logical groups</strong> for easier memorization.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Mnemonic Patterns</td>
+<td>“Create a mnemonic to remember the planets in our solar system.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Retrieval Practice Simulation</td>
+<td>“Quiz me on the definitions of these terms to reinforce my learning.”</td>
+</tr>
+<tr>
+<td><strong>Problem Solving</strong></td>
+<td>Divergent Thinking Prompts</td>
+<td>“List five unconventional ways to promote renewable energy adoption.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Incremental Deduction</td>
+<td>“Break down this problem into <strong>three smaller sub-problems</strong> and solve each one sequentially.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Hypothesis Testing Framework</td>
+<td>“Formulate a hypothesis for why sales dropped and propose an experiment to test it.”</td>
+</tr>
+<tr>
+<td><strong>User Engagement</strong></td>
+<td>Narrative Framing</td>
+<td>“Turn this set of facts into an engaging <strong>story for children</strong>.”</td>
+</tr>
+<tr>
+<td></td>
+<td>Curiosity-Driven Questions</td>
+<td>“What do you think happens to water molecules when they freeze?”</td>
+</tr>
+<tr>
+<td></td>
+<td>Visual or Spatial Prompt Integration</td>
+<td>“Design a floor plan for a <strong>tiny house</strong> using only 300 square feet of space.”</td>
+</tr>
+</tbody></table>
 <hr>
 <h2 id="4-Metrics-for-Evaluating-Prompt-Effectiveness"><a href="#4-Metrics-for-Evaluating-Prompt-Effectiveness" class="headerlink" title="4. Metrics for Evaluating Prompt Effectiveness"></a>4. Metrics for Evaluating Prompt Effectiveness</h2><p>Evaluating AI responses requires robust metrics and tools.</p>
 <h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics:"></a>Metrics:</h3><ul>
@@ -3986,9 +4180,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
-        <tag>AI</tag>
         <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -4141,8 +4335,8 @@ print(generated_text)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -4253,8 +4447,8 @@ print(batch_responses)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
         <tag>local_development</tag>
       </tags>
@@ -4346,8 +4540,8 @@ def initialize_api(api_key):
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -5901,8 +6095,8 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>papers</tag>
       </tags>
   </entry>
@@ -6484,6 +6678,371 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
+    <title>Favorite post categories</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#post-details">Post Details</a><ul>
+<li><a href="#linkedin">LinkedIn</a></li>
+<li><a href="#medium">Medium</a></li>
+<li><a href="#other-resources">Other Resources</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
+<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
+</ul>
+<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
+<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
+</ul>
+<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
+<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
+<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
+<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
+<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
+<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
+<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
+<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
+<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
+<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
+<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
+<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
+<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
+<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
+<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
+<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
+<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
+<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
+<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
+<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
+<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
+<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
+<li>Author: Piotr Gaczkowski</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_medium_post</tag>
+        <tag>my_linkedin_post</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
+<hr>
+<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My tools</title>
+    <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h2><h3 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h3><ul>
+<li>Slack</li>
+<li>Zoom<ul>
+<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h3 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h3><ul>
+<li>Postman</li>
+<li>Insomnia</li>
+</ul>
+<h3 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h3><ul>
+<li>SSMS</li>
+<li>Dbviewer</li>
+</ul>
+<h3 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h3><ul>
+<li>Fiddler</li>
+<li>Charles</li>
+<li>Local proxy</li>
+</ul>
+<h3 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h3><ul>
+<li>Kafka</li>
+</ul>
+<h3 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h3><ul>
+<li>Jira </li>
+<li>TestRail</li>
+</ul>
+<p> </p>
+<h3 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h3><ul>
+<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
+<li>Amazon Virtual machines<ul>
+<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h3 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h3><ul>
+<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
+<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+</ul>
+<h3 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h3><ul>
+<li>Kibana </li>
+<li>Grafana </li>
+<li>Azure Application Insights</li>
+</ul>
+<p> </p>
+<h3 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h3><ol>
+<li><a href="https://ocr.space/">ocr.space</a> </li>
+<li><a href="http://www.structurise.com/screenshot-ocr/">structurise.com | make OCR from the clipboard</a></li>
+</ol>
+<h3 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h3><table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Temporary Email Service</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>10 Minute Mail</td>
+<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>EmailOnDeck</td>
+<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Fake Mail Generator</td>
+<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>FakeMail  &#x2F; TempMailAddress</td>
+<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>GetNada</td>
+<td><a href="https://getnada.com/">https://getnada.com/</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Guerrilla Mail</td>
+<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>MailCatch</td>
+<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>MailDrop</td>
+<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Mailinator</td>
+<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Mailnesia</td>
+<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Moakt</td>
+<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>MyTemp.email</td>
+<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Proton mail</td>
+<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Temp Mail</td>
+<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Tempail</td>
+<td><a href="https://tempail.com/">https://tempail.com/</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Temp-Mail.io</td>
+<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Throwawaymail</td>
+<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td>YOPmail</td>
+<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Other-tools"><a href="#Other-tools" class="headerlink" title="Other tools"></a>Other tools</h2><h3 id="Screenrecorders"><a href="#Screenrecorders" class="headerlink" title="Screenrecorders"></a>Screenrecorders</h3><h4 id="Offline-screenrecorder"><a href="#Offline-screenrecorder" class="headerlink" title="Offline screenrecorder"></a>Offline screenrecorder</h4><h5 id="OBS-studio"><a href="#OBS-studio" class="headerlink" title="OBS studio"></a>OBS studio</h5><ul>
+<li>Mac &#x2F; Windows &#x2F; Android</li>
+<li><a href="https://obsproject.com/download">https://obsproject.com/download</a></li>
+</ul>
+<h4 id="Online-screenrecorder"><a href="#Online-screenrecorder" class="headerlink" title="Online screenrecorder"></a>Online screenrecorder</h4><h5 id="Loom"><a href="#Loom" class="headerlink" title="Loom"></a>Loom</h5><ul>
+<li>Mac &#x2F; Windows &#x2F; Android</li>
+<li><a href="https://www.loom.com/screen-recorder">https://www.loom.com/screen-recorder</a></li>
+</ul>
+<h3 id="Generators"><a href="#Generators" class="headerlink" title="Generators"></a>Generators</h3><h4 id="User-fake-data"><a href="#User-fake-data" class="headerlink" title="User fake data"></a>User fake data</h4><ul>
+<li><p>jsonplaceholder.typicode.com</p>
+<ul>
+<li>fake data generator via JS code snippets</li>
+<li><a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a><div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__jsonplaceholder_typicode_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div></li>
+</ul>
+</li>
+<li><p>mockaroo.com</p>
+<ul>
+<li>fake data generator with prettty UI configuration</li>
+<li><a href="https://www.mockaroo.com/">https://www.mockaroo.com/</a><div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__mockaroo_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div></li>
+</ul>
+</li>
+</ul>
+<h4 id="Image-generators"><a href="#Image-generators" class="headerlink" title="Image generators"></a>Image generators</h4><ul>
+<li>image generator via parametrised HTTP requests<ul>
+<li><a href="https://dummyjson.com/docs/image">https://dummyjson.com/docs/image</a>  <div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__dummy_json_image_generator_example.png" alt="https://dummyjson.com/docs/image" title=" dummyjson.com/docs/image" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;"/>
+</div></li>
+</ul>
+</li>
+</ul>
+<h3 id="Free-video-samples"><a href="#Free-video-samples" class="headerlink" title="Free video samples"></a>Free video samples</h3><h4 id="file-examples-com-video"><a href="#file-examples-com-video" class="headerlink" title="file-examples.com&#x2F;video"></a>file-examples.com&#x2F;video</h4><ul>
+<li>AVI	 &#x2F; MOV &#x2F; OGG	&#x2F; MP4	&#x2F; WMV	&#x2F;WEBM</li>
+<li><a href="https://file-examples.com/index.php/sample-video-files/">https://file-examples.com/index.php/sample-video-files/</a></li>
+</ul>
+<h3 id="Free-images"><a href="#Free-images" class="headerlink" title="Free images"></a>Free images</h3><h4 id="file-examples-com-images"><a href="#file-examples-com-images" class="headerlink" title="file-examples.com&#x2F;images"></a>file-examples.com&#x2F;images</h4><ul>
+<li>JPG &#x2F; PNG  &#x2F;GIF &#x2F; TIFF &#x2F; ICO &#x2F; SVG &#x2F; WEBP</li>
+<li><a href="https://file-examples.com/index.php/sample-images-download/">https://file-examples.com/index.php/sample-images-download/</a></li>
+</ul>
+<h2 id="Display-extension"><a href="#Display-extension" class="headerlink" title="Display extension"></a>Display extension</h2><h3 id="spacedesk"><a href="#spacedesk" class="headerlink" title="spacedesk"></a>spacedesk</h3><p>Spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.<br><img src="/hexo-blog/images/space_desk_logo_image.png" alt="Spacedesk app" title="Spacedesk app" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p></p>
+<ul>
+<li>Web site: <a href="https://www.spacedesk.net/">https://www.spacedesk.net/</a></li>
+<li>Download page: <a href="https://www.spacedesk.net/download/">https://www.spacedesk.net/download/</a></li>
+<li>Installation guide for Windows: <a href="https://www.youtube.com/watch?v=iJ2bFcDUol8&t=262s">https://www.youtube.com/watch?v=iJ2bFcDUol8&amp;t=262s</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>apps</tag>
+        <tag>my_contribution</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -6499,6 +7058,52 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tutorial</tag>
         <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO blog design</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
+<p>Header</p>
+<ul>
+<li>Navigation menu:<ul>
+<li>Menu items:<ul>
+<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
+<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Main body</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
+<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
+</ul>
+<p>Side panel</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
+<li><input checked="" disabled="" type="checkbox"> Categories</li>
+<li><input checked="" disabled="" type="checkbox"> Tags</li>
+<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
+<li><input checked="" disabled="" type="checkbox"> Archives</li>
+<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
+</ul>
+<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -6563,52 +7168,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
   
 <hr>
 ]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO blog design</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
-<p>Header</p>
-<ul>
-<li>Navigation menu:<ul>
-<li>Menu items:<ul>
-<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
-<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Main body</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
-<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
-</ul>
-<p>Side panel</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
-<li><input checked="" disabled="" type="checkbox"> Categories</li>
-<li><input checked="" disabled="" type="checkbox"> Tags</li>
-<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
-<li><input checked="" disabled="" type="checkbox"> Archives</li>
-<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
-</ul>
-<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
       <categories>
         <category>Notes</category>
       </categories>
@@ -6730,20 +7289,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -6909,6 +7454,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>sys_conffigs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -7314,371 +7873,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>my_contribution</tag>
         <tag>movie</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite post categories</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
-<ul>
-<li><a href="#post-details">Post Details</a><ul>
-<li><a href="#linkedin">LinkedIn</a></li>
-<li><a href="#medium">Medium</a></li>
-<li><a href="#other-resources">Other Resources</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
-<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
-</ul>
-<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
-<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
-</ul>
-<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
-<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
-<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
-<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
-<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
-<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
-<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
-<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
-<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
-<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
-<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
-<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
-<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
-<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
-<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
-<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
-<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
-<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
-<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
-<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
-<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
-<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
-<li>Author: Piotr Gaczkowski</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_medium_post</tag>
-        <tag>my_linkedin_post</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My tools</title>
-    <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h2><h3 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h3><ul>
-<li>Slack</li>
-<li>Zoom<ul>
-<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h3 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h3><ul>
-<li>Postman</li>
-<li>Insomnia</li>
-</ul>
-<h3 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h3><ul>
-<li>SSMS</li>
-<li>Dbviewer</li>
-</ul>
-<h3 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h3><ul>
-<li>Fiddler</li>
-<li>Charles</li>
-<li>Local proxy</li>
-</ul>
-<h3 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h3><ul>
-<li>Kafka</li>
-</ul>
-<h3 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h3><ul>
-<li>Jira </li>
-<li>TestRail</li>
-</ul>
-<p> </p>
-<h3 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h3><ul>
-<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
-<li>Amazon Virtual machines<ul>
-<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
-<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h3 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h3><ul>
-<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
-<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-</ul>
-<h3 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h3><ul>
-<li>Kibana </li>
-<li>Grafana </li>
-<li>Azure Application Insights</li>
-</ul>
-<p> </p>
-<h3 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h3><ol>
-<li><a href="https://ocr.space/">ocr.space</a> </li>
-<li><a href="http://www.structurise.com/screenshot-ocr/">structurise.com | make OCR from the clipboard</a></li>
-</ol>
-<h3 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h3><table>
-<thead>
-<tr>
-<th>No.</th>
-<th>Temporary Email Service</th>
-<th>URL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>10 Minute Mail</td>
-<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
-</tr>
-<tr>
-<td>2</td>
-<td>EmailOnDeck</td>
-<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Fake Mail Generator</td>
-<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
-</tr>
-<tr>
-<td>4</td>
-<td>FakeMail  &#x2F; TempMailAddress</td>
-<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
-</tr>
-<tr>
-<td>5</td>
-<td>GetNada</td>
-<td><a href="https://getnada.com/">https://getnada.com/</a></td>
-</tr>
-<tr>
-<td>6</td>
-<td>Guerrilla Mail</td>
-<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
-</tr>
-<tr>
-<td>7</td>
-<td>MailCatch</td>
-<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
-</tr>
-<tr>
-<td>8</td>
-<td>MailDrop</td>
-<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
-</tr>
-<tr>
-<td>9</td>
-<td>Mailinator</td>
-<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
-</tr>
-<tr>
-<td>10</td>
-<td>Mailnesia</td>
-<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
-</tr>
-<tr>
-<td>11</td>
-<td>Moakt</td>
-<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
-</tr>
-<tr>
-<td>12</td>
-<td>MyTemp.email</td>
-<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
-</tr>
-<tr>
-<td>13</td>
-<td>Proton mail</td>
-<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
-</tr>
-<tr>
-<td>14</td>
-<td>Temp Mail</td>
-<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
-</tr>
-<tr>
-<td>15</td>
-<td>Tempail</td>
-<td><a href="https://tempail.com/">https://tempail.com/</a></td>
-</tr>
-<tr>
-<td>16</td>
-<td>Temp-Mail.io</td>
-<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
-</tr>
-<tr>
-<td>17</td>
-<td>Throwawaymail</td>
-<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
-</tr>
-<tr>
-<td>18</td>
-<td>YOPmail</td>
-<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Other-tools"><a href="#Other-tools" class="headerlink" title="Other tools"></a>Other tools</h2><h3 id="Screenrecorders"><a href="#Screenrecorders" class="headerlink" title="Screenrecorders"></a>Screenrecorders</h3><h4 id="Offline-screenrecorder"><a href="#Offline-screenrecorder" class="headerlink" title="Offline screenrecorder"></a>Offline screenrecorder</h4><h5 id="OBS-studio"><a href="#OBS-studio" class="headerlink" title="OBS studio"></a>OBS studio</h5><ul>
-<li>Mac &#x2F; Windows &#x2F; Android</li>
-<li><a href="https://obsproject.com/download">https://obsproject.com/download</a></li>
-</ul>
-<h4 id="Online-screenrecorder"><a href="#Online-screenrecorder" class="headerlink" title="Online screenrecorder"></a>Online screenrecorder</h4><h5 id="Loom"><a href="#Loom" class="headerlink" title="Loom"></a>Loom</h5><ul>
-<li>Mac &#x2F; Windows &#x2F; Android</li>
-<li><a href="https://www.loom.com/screen-recorder">https://www.loom.com/screen-recorder</a></li>
-</ul>
-<h3 id="Generators"><a href="#Generators" class="headerlink" title="Generators"></a>Generators</h3><h4 id="User-fake-data"><a href="#User-fake-data" class="headerlink" title="User fake data"></a>User fake data</h4><ul>
-<li><p>jsonplaceholder.typicode.com</p>
-<ul>
-<li>fake data generator via JS code snippets</li>
-<li><a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a><div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__jsonplaceholder_typicode_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div></li>
-</ul>
-</li>
-<li><p>mockaroo.com</p>
-<ul>
-<li>fake data generator with prettty UI configuration</li>
-<li><a href="https://www.mockaroo.com/">https://www.mockaroo.com/</a><div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__mockaroo_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div></li>
-</ul>
-</li>
-</ul>
-<h4 id="Image-generators"><a href="#Image-generators" class="headerlink" title="Image generators"></a>Image generators</h4><ul>
-<li>image generator via parametrised HTTP requests<ul>
-<li><a href="https://dummyjson.com/docs/image">https://dummyjson.com/docs/image</a>  <div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__dummy_json_image_generator_example.png" alt="https://dummyjson.com/docs/image" title=" dummyjson.com/docs/image" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;"/>
-</div></li>
-</ul>
-</li>
-</ul>
-<h3 id="Free-video-samples"><a href="#Free-video-samples" class="headerlink" title="Free video samples"></a>Free video samples</h3><h4 id="file-examples-com-video"><a href="#file-examples-com-video" class="headerlink" title="file-examples.com&#x2F;video"></a>file-examples.com&#x2F;video</h4><ul>
-<li>AVI	 &#x2F; MOV &#x2F; OGG	&#x2F; MP4	&#x2F; WMV	&#x2F;WEBM</li>
-<li><a href="https://file-examples.com/index.php/sample-video-files/">https://file-examples.com/index.php/sample-video-files/</a></li>
-</ul>
-<h3 id="Free-images"><a href="#Free-images" class="headerlink" title="Free images"></a>Free images</h3><h4 id="file-examples-com-images"><a href="#file-examples-com-images" class="headerlink" title="file-examples.com&#x2F;images"></a>file-examples.com&#x2F;images</h4><ul>
-<li>JPG &#x2F; PNG  &#x2F;GIF &#x2F; TIFF &#x2F; ICO &#x2F; SVG &#x2F; WEBP</li>
-<li><a href="https://file-examples.com/index.php/sample-images-download/">https://file-examples.com/index.php/sample-images-download/</a></li>
-</ul>
-<h2 id="Display-extension"><a href="#Display-extension" class="headerlink" title="Display extension"></a>Display extension</h2><h3 id="spacedesk"><a href="#spacedesk" class="headerlink" title="spacedesk"></a>spacedesk</h3><p>Spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.<br><img src="/hexo-blog/images/space_desk_logo_image.png" alt="Spacedesk app" title="Spacedesk app" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p></p>
-<ul>
-<li>Web site: <a href="https://www.spacedesk.net/">https://www.spacedesk.net/</a></li>
-<li>Download page: <a href="https://www.spacedesk.net/download/">https://www.spacedesk.net/download/</a></li>
-<li>Installation guide for Windows: <a href="https://www.youtube.com/watch?v=iJ2bFcDUol8&t=262s">https://www.youtube.com/watch?v=iJ2bFcDUol8&amp;t=262s</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>apps</tag>
-        <tag>my_contribution</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
-<hr>
-<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
       </tags>
   </entry>
   <entry>
