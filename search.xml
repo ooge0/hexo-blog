@@ -423,21 +423,13 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
   </entry>
   <entry>
     <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
-</ul>
-</li>
+    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
+<ul>
+<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
+<li>DOI:10.1561&#x2F;2200000056</li>
+<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
+<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
 </ul>
 </li>
 </ul>
@@ -449,6 +441,23 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chatbots from scratch</title>
+    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>chatbot</tag>
+        <tag>Llama</tag>
       </tags>
   </entry>
   <entry>
@@ -516,10 +525,24 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Chatbots from scratch</title>
-    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 ]]></content>
       <categories>
@@ -528,8 +551,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>ML</tag>
-        <tag>chatbot</tag>
-        <tag>Llama</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -872,186 +894,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
-<ul>
-<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
-<li>DOI:10.1561&#x2F;2200000056</li>
-<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
-<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Common LLM parameters</title>
-    <url>/hexo-blog//ai/post_ai_llm__llm_parameters/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
-<ol>
-<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
-<li><a href="/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a></li>
-<li><a href="/hexo-blog/ai/post_ai_prompt_engineer_task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></li>
-</ol>
-<hr>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Location in Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>pad_token_id</strong></td>
-<td>The token ID used for padding sequences. This value indicates to the model where padding occurs.</td>
-<td>Check the tokenizer documentation: <a href="https://huggingface.co/docs/tokenizers/main/en/api/tokenizer#tokenizers.Tokenizer">Hugging Face Tokenizers</a></td>
-</tr>
-<tr>
-<td><strong>eos_token_id</strong></td>
-<td>The token ID that signifies the end of a sequence (End Of Sequence).</td>
-<td>Check model documentation for specifics: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/stopping_criteria#new-eostokencriteriaeostokenid">Hugging Face Models</a></td>
-</tr>
-<tr>
-<td><strong>attention_mask</strong></td>
-<td>A mask that indicates which tokens should be attended to by the model (1 for actual tokens, 0 for padding).</td>
-<td>Refer to model-specific usage in the Hugging Face library: <a href="https://huggingface.co/docs/transformers.js/main/en/api/models#modelscumsummaskedfillattentionmask--code-object-code">Transformers Usage</a></td>
-</tr>
-<tr>
-<td><strong>input_ids</strong></td>
-<td>The token IDs representing the input sequence of text.</td>
-<td>General model input specifications: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#forcetokenslogitsprocessorcallinputids-logits--code-tensor-code">Hugging Face Model Input</a></td>
-</tr>
-<tr>
-<td><strong>output_attention</strong></td>
-<td>A boolean flag indicating if the model should return attention weights in addition to outputs.</td>
-<td>Detailed in specific model API docs: <a href="https://huggingface.co/docs">Transformers API</a></td>
-</tr>
-<tr>
-<td><strong>max_length</strong></td>
-<td>The maximum length of sequences for generation tasks, limiting how long the output can be.</td>
-<td>Check generation section in model docs: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
-</tr>
-<tr>
-<td><strong>num_return_sequences</strong></td>
-<td>The number of sequences to return from the model output, useful for generating multiple responses. The number of independently computed returned sequences for each element in the batch.</td>
-<td>Refer to the text generation configuration: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
-</tr>
-<tr>
-<td><strong>temperature</strong></td>
-<td>Strictly positive float value used to modulate the logits distribution. A value smaller than 1 decreases randomness (and vice versa), with 0 being equivalent to shifting all probability mass to the most likely token.</td>
-<td>Discussed in generation options: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/logits_process#temperaturelogitswarpercallinputids-logits--code-tensor-code">Generation Parameters</a></td>
-</tr>
-<tr>
-<td><strong>top_k</strong></td>
-<td>The number of highest probability vocabulary tokens to keep for sampling.</td>
-<td>Detailed in sampling strategies: <a href="https://huggingface.co/docs">Sampling Methods</a></td>
-</tr>
-<tr>
-<td><strong>top_p</strong></td>
-<td>Controls the cumulative probability distribution for nucleus sampling.</td>
-<td>Explained in sampling calculations: <a href="https://huggingface.co/docs">Nucleus Sampling</a></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>llm_parameters</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dream team LLM engineer</title>
-    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="LLM-Engineer-Skill-Set"><a href="#LLM-Engineer-Skill-Set" class="headerlink" title="LLM Engineer Skill Set"></a><strong>LLM Engineer Skill Set</strong></h1><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
-<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
-<li>Fine-tuning and deploying large language models.</li>
-<li>Managing multimodal LLMs with text and visual inputs.</li>
-<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
-<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
-<li>Expertise in handling large-scale datasets.</li>
-</ul>
-<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
-<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
-<li>Familiarity with performance optimization for large-scale AI models.</li>
-<li>Experience with text embeddings, vector search, and similarity models.</li>
-<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
-<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
-</ul>
-<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
-<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
-<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
-<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
-<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
-</ul>
-<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
-<li>TensorFlow</li>
-<li>PyTorch</li>
-<li>Hugging Face Transformers</li>
-</ul>
-<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
-<li>Pandas</li>
-<li>Matplotlib</li>
-<li>Seaborn</li>
-</ul>
-<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
-<li><strong>Text Analysis and Preprocessing:</strong><ul>
-<li>NLTK</li>
-<li>SpaCy</li>
-<li>FastText</li>
-</ul>
-</li>
-<li><strong>Model Optimization and Deployment:</strong><ul>
-<li>ONNX</li>
-<li>TensorRT</li>
-<li>Ray Serve</li>
-</ul>
-</li>
-<li><strong>Data Management:</strong><ul>
-<li>DVC (Data Version Control)</li>
-<li>Apache Airflow</li>
-</ul>
-</li>
-<li><strong>Search and Retrieval:</strong><ul>
-<li>Elasticsearch</li>
-<li>Faiss</li>
-<li>Weaviate</li>
-</ul>
-</li>
-<li><strong>Performance Monitoring:</strong><ul>
-<li>Prometheus</li>
-<li>Grafana</li>
-<li>Sentry</li>
-</ul>
-</li>
-</ul>
-<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
-<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
-<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>dream_team</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GPT-2 configuration parameters overview</title>
     <url>/hexo-blog//ai/post_ai_llm__gpt2_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1212,6 +1054,164 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>LLM</tag>
         <tag>GPT2</tag>
         <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dream team LLM engineer</title>
+    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="LLM-Engineer-Skill-Set"><a href="#LLM-Engineer-Skill-Set" class="headerlink" title="LLM Engineer Skill Set"></a><strong>LLM Engineer Skill Set</strong></h1><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
+<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
+<li>Fine-tuning and deploying large language models.</li>
+<li>Managing multimodal LLMs with text and visual inputs.</li>
+<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
+<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
+<li>Expertise in handling large-scale datasets.</li>
+</ul>
+<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
+<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
+<li>Familiarity with performance optimization for large-scale AI models.</li>
+<li>Experience with text embeddings, vector search, and similarity models.</li>
+<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
+<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
+</ul>
+<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
+<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
+<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
+<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
+<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
+</ul>
+<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
+<li>TensorFlow</li>
+<li>PyTorch</li>
+<li>Hugging Face Transformers</li>
+</ul>
+<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
+<li>Pandas</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+</ul>
+<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
+<li><strong>Text Analysis and Preprocessing:</strong><ul>
+<li>NLTK</li>
+<li>SpaCy</li>
+<li>FastText</li>
+</ul>
+</li>
+<li><strong>Model Optimization and Deployment:</strong><ul>
+<li>ONNX</li>
+<li>TensorRT</li>
+<li>Ray Serve</li>
+</ul>
+</li>
+<li><strong>Data Management:</strong><ul>
+<li>DVC (Data Version Control)</li>
+<li>Apache Airflow</li>
+</ul>
+</li>
+<li><strong>Search and Retrieval:</strong><ul>
+<li>Elasticsearch</li>
+<li>Faiss</li>
+<li>Weaviate</li>
+</ul>
+</li>
+<li><strong>Performance Monitoring:</strong><ul>
+<li>Prometheus</li>
+<li>Grafana</li>
+<li>Sentry</li>
+</ul>
+</li>
+</ul>
+<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
+<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
+<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>dream_team</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Common LLM parameters</title>
+    <url>/hexo-blog//ai/post_ai_llm__llm_parameters/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ol>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_prompt_engineer_task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></li>
+</ol>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Location in Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>pad_token_id</strong></td>
+<td>The token ID used for padding sequences. This value indicates to the model where padding occurs.</td>
+<td>Check the tokenizer documentation: <a href="https://huggingface.co/docs/tokenizers/main/en/api/tokenizer#tokenizers.Tokenizer">Hugging Face Tokenizers</a></td>
+</tr>
+<tr>
+<td><strong>eos_token_id</strong></td>
+<td>The token ID that signifies the end of a sequence (End Of Sequence).</td>
+<td>Check model documentation for specifics: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/stopping_criteria#new-eostokencriteriaeostokenid">Hugging Face Models</a></td>
+</tr>
+<tr>
+<td><strong>attention_mask</strong></td>
+<td>A mask that indicates which tokens should be attended to by the model (1 for actual tokens, 0 for padding).</td>
+<td>Refer to model-specific usage in the Hugging Face library: <a href="https://huggingface.co/docs/transformers.js/main/en/api/models#modelscumsummaskedfillattentionmask--code-object-code">Transformers Usage</a></td>
+</tr>
+<tr>
+<td><strong>input_ids</strong></td>
+<td>The token IDs representing the input sequence of text.</td>
+<td>General model input specifications: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#forcetokenslogitsprocessorcallinputids-logits--code-tensor-code">Hugging Face Model Input</a></td>
+</tr>
+<tr>
+<td><strong>output_attention</strong></td>
+<td>A boolean flag indicating if the model should return attention weights in addition to outputs.</td>
+<td>Detailed in specific model API docs: <a href="https://huggingface.co/docs">Transformers API</a></td>
+</tr>
+<tr>
+<td><strong>max_length</strong></td>
+<td>The maximum length of sequences for generation tasks, limiting how long the output can be.</td>
+<td>Check generation section in model docs: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
+</tr>
+<tr>
+<td><strong>num_return_sequences</strong></td>
+<td>The number of sequences to return from the model output, useful for generating multiple responses. The number of independently computed returned sequences for each element in the batch.</td>
+<td>Refer to the text generation configuration: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
+</tr>
+<tr>
+<td><strong>temperature</strong></td>
+<td>Strictly positive float value used to modulate the logits distribution. A value smaller than 1 decreases randomness (and vice versa), with 0 being equivalent to shifting all probability mass to the most likely token.</td>
+<td>Discussed in generation options: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/logits_process#temperaturelogitswarpercallinputids-logits--code-tensor-code">Generation Parameters</a></td>
+</tr>
+<tr>
+<td><strong>top_k</strong></td>
+<td>The number of highest probability vocabulary tokens to keep for sampling.</td>
+<td>Detailed in sampling strategies: <a href="https://huggingface.co/docs">Sampling Methods</a></td>
+</tr>
+<tr>
+<td><strong>top_p</strong></td>
+<td>Controls the cumulative probability distribution for nucleus sampling.</td>
+<td>Explained in sampling calculations: <a href="https://huggingface.co/docs">Nucleus Sampling</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>llm_parameters</tag>
       </tags>
   </entry>
   <entry>
@@ -1381,6 +1381,51 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Fine-tuning vs. Feature-based Approaches</title>
+    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
+<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
+<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
+<p><strong>Key Differences:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Fine-tuning</th>
+<th>Feature-based</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Model Modification</td>
+<td>Adjusts weights of pre-trained model</td>
+<td>Extracts features, trains new model</td>
+</tr>
+<tr>
+<td>Computational Cost</td>
+<td>Higher</td>
+<td>Lower</td>
+</tr>
+<tr>
+<td>Task Similarity</td>
+<td>Best for similar tasks</td>
+<td>Can be used for diverse tasks</td>
+</tr>
+<tr>
+<td>Data Requirements</td>
+<td>More data needed</td>
+<td>Less data needed</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LLM system prompts</title>
     <url>/hexo-blog//ai_ml_llm_system_prompts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="LLM-System-Prompt-Generator"><a href="#LLM-System-Prompt-Generator" class="headerlink" title="LLM System Prompt Generator"></a>LLM System Prompt Generator</h1><h2 id="💡-Creative-Idea-Generator-—-AI-powered-brainstorming-tool-for-generating-creative-solutions-and-ideas"><a href="#💡-Creative-Idea-Generator-—-AI-powered-brainstorming-tool-for-generating-creative-solutions-and-ideas" class="headerlink" title="💡 Creative Idea Generator — AI-powered brainstorming tool for generating creative solutions and ideas"></a>💡 <a href="https://chatgpt.com/g/g-zucYjaMne-creative-answers-brainstorm-gpt">Creative Idea Generator</a> — AI-powered brainstorming tool for generating creative solutions and ideas</h2><hr>
@@ -1530,51 +1575,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Fine-tuning vs. Feature-based Approaches</title>
-    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
-<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
-<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
-<p><strong>Key Differences:</strong></p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Fine-tuning</th>
-<th>Feature-based</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Model Modification</td>
-<td>Adjusts weights of pre-trained model</td>
-<td>Extracts features, trains new model</td>
-</tr>
-<tr>
-<td>Computational Cost</td>
-<td>Higher</td>
-<td>Lower</td>
-</tr>
-<tr>
-<td>Task Similarity</td>
-<td>Best for similar tasks</td>
-<td>Can be used for diverse tasks</td>
-</tr>
-<tr>
-<td>Data Requirements</td>
-<td>More data needed</td>
-<td>Less data needed</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
     <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
@@ -1621,6 +1621,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
 </ol>
 <p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -1855,33 +1882,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
     <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
@@ -1996,103 +1996,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Neural Process Family</title>
-    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
-<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
-<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
-</li>
-<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
-</li>
-<li><p><strong>Model Components</strong>:</p>
-<ul>
-<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
-<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
-<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
-</ul>
-</li>
-<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
-</li>
-</ol>
-<hr>
-<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
-<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
-<ul>
-<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
-<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
-</ul>
-</li>
-<li><p><strong>Neural Processes (NPs)</strong>:</p>
-<ul>
-<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
-<li>Balances flexibility and computational efficiency.</li>
-</ul>
-</li>
-<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
-<ul>
-<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
-<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
-</ul>
-</li>
-<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
-<ul>
-<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
-</ul>
-</li>
-<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
-<ul>
-<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
-<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
-<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
-<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
-<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
-<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
-</ol>
-<hr>
-<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
-<li>Scalability due to neural networks.</li>
-<li>Probabilistic outputs allow uncertainty estimation.</li>
-<li>Adaptable across domains with minimal changes.</li>
-</ul>
-<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
-<li>Trade-off between computational cost and flexibility.</li>
-<li>Dependence on good representation learning.</li>
-<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
-</ul>
-<hr>
-<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
-<hr>
-<p>About:</p>
-<ul>
-<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
-<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
-</ul>
-<hr>
-<p> Papers: </p>
-<ul>
-<li>Papers: <ul>
-<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
-<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
-<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
@@ -2237,6 +2140,103 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>NLP</tag>
         <tag>lexic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Neural Process Family</title>
+    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
+<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
+<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
+</li>
+<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
+</li>
+<li><p><strong>Model Components</strong>:</p>
+<ul>
+<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
+<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
+<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
+</ul>
+</li>
+<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
+<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
+<ul>
+<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
+<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
+</ul>
+</li>
+<li><p><strong>Neural Processes (NPs)</strong>:</p>
+<ul>
+<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
+<li>Balances flexibility and computational efficiency.</li>
+</ul>
+</li>
+<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
+<ul>
+<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
+<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
+</ul>
+</li>
+<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
+<ul>
+<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
+</ul>
+</li>
+<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
+<ul>
+<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
+<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
+<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
+<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
+<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
+<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
+</ol>
+<hr>
+<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
+<li>Scalability due to neural networks.</li>
+<li>Probabilistic outputs allow uncertainty estimation.</li>
+<li>Adaptable across domains with minimal changes.</li>
+</ul>
+<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
+<li>Trade-off between computational cost and flexibility.</li>
+<li>Dependence on good representation learning.</li>
+<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
+</ul>
+<hr>
+<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
+<hr>
+<p>About:</p>
+<ul>
+<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
+<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
+</ul>
+<hr>
+<p> Papers: </p>
+<ul>
+<li>Papers: <ul>
+<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
+<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
+<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
@@ -2421,6 +2421,26 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Sentiment analysis framework</title>
+    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
+<li>Here is a draft structure of  Python-based project with an OOP design. </li>
+<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
+<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>All implementations and improvements will be presented in separate posts.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>sentiment_analysis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Text Classification. Historical overview, tools, and techniques.</title>
     <url>/hexo-blog/2024/11/19/post_ai_nlp__text_classification_intro_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text classification is a fundamental task in Natural Language Processing (NLP) that involves categorizing text into predefined categories. Its applications range from sentiment analysis to spam detection, and news categorization to intent recognition in conversational AI. This document provides a historical overview, a comparative analysis of tools, and details about modern approaches like Word2Vec, FastText, GloVe, and deep learning.</p>
@@ -2541,26 +2561,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>NLP</tag>
         <tag>text_classification</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sentiment analysis framework</title>
-    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
-<li>Here is a draft structure of  Python-based project with an OOP design. </li>
-<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
-<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>All implementations and improvements will be presented in separate posts.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -3305,6 +3305,197 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>List of neural network models, architectures, and basic components</title>
+    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
+<ol>
+<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
+</ol>
+<hr>
+<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
+<hr>
+<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Model Examples</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Feedforward Neural Network (FNN)</strong></td>
+<td>Basic MLP (Multi-Layer Perceptron)</td>
+<td>General-purpose model for regression and classification tasks.</td>
+</tr>
+<tr>
+<td><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td>VGG, ResNet, AlexNet, EfficientNet</td>
+<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
+<td>Vanilla RNN, LSTM, GRU</td>
+<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
+<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
+<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
+</tr>
+<tr>
+<td><strong>Generative Adversarial Networks (GANs)</strong></td>
+<td>DCGAN, StyleGAN, CycleGAN</td>
+<td>Generative tasks such as image synthesis and domain transfer.</td>
+</tr>
+<tr>
+<td><strong>Graph Neural Networks (GNNs)</strong></td>
+<td>GCN, GraphSAGE, GAT</td>
+<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Applications</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Neuron</strong></td>
+<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
+<td>Foundational unit in all neural networks.</td>
+</tr>
+<tr>
+<td><strong>Layer</strong></td>
+<td>A collection of neurons; can be input, hidden, or output.</td>
+<td>Used in all neural architectures.</td>
+</tr>
+<tr>
+<td><strong>Activation Function</strong></td>
+<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
+<td>Enables learning of complex patterns.</td>
+</tr>
+<tr>
+<td><strong>Dropout</strong></td>
+<td>Regularization technique randomly dropping neurons during training.</td>
+<td>Reduces overfitting in models.</td>
+</tr>
+<tr>
+<td><strong>Encoder</strong></td>
+<td>Part of the model that converts input data into a latent representation.</td>
+<td>Used in Transformers, Autoencoders, BERT, and more.</td>
+</tr>
+<tr>
+<td><strong>Decoder</strong></td>
+<td>Converts latent representations back to an output format.</td>
+<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
+</tr>
+<tr>
+<td><strong>Attention Mechanism</strong></td>
+<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
+<td>Essential in Transformers and attention-based architectures.</td>
+</tr>
+<tr>
+<td><strong>Residual Block</strong></td>
+<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
+<td>Found in ResNet, Transformer architectures.</td>
+</tr>
+<tr>
+<td><strong>Convolution Layer</strong></td>
+<td>Applies convolutional operations to extract spatial features.</td>
+<td>Used in CNNs for tasks like image and video analysis.</td>
+</tr>
+<tr>
+<td><strong>Pooling Layer</strong></td>
+<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
+<td>Used in CNNs to downsample feature maps.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Cell</strong></td>
+<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
+<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
+</tr>
+<tr>
+<td><strong>Self-Attention Layer</strong></td>
+<td>Computes relationships between all input tokens to capture global dependencies.</td>
+<td>Core of Transformers.</td>
+</tr>
+<tr>
+<td><strong>Feedforward Layer</strong></td>
+<td>Dense layer applied after attention mechanisms in Transformers.</td>
+<td>Processes token-wise transformations.</td>
+</tr>
+<tr>
+<td><strong>Embedding Layer</strong></td>
+<td>Converts categorical data or tokens into dense vectors.</td>
+<td>Used in NLP, graph embeddings, and more.</td>
+</tr>
+<tr>
+<td><strong>Latent Space</strong></td>
+<td>Compressed representation of data, typically learned by encoders.</td>
+<td>Found in Autoencoders, VAEs, and GANs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Key Components</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>FNN</strong></td>
+<td>Neurons, Layers, Activation Functions, Dropout.</td>
+</tr>
+<tr>
+<td><strong>CNN</strong></td>
+<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>RNN (Vanilla)</strong></td>
+<td>Recurrent Cells, Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
+</tr>
+<tr>
+<td><strong>GANs</strong></td>
+<td>Generator, Discriminator, Adversarial Loss.</td>
+</tr>
+<tr>
+<td><strong>GNNs</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
+</tr>
+</tbody></table>
+<hr>
+<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Glossary of Machine Learning and AI Terms</title>
     <url>/hexo-blog//ai/glossary-of-machine-learning-and-ai-terms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Feel free to send me your thoughts, notes, other references. My contact details you can find on <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a></em></p>
@@ -3547,197 +3738,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>List of neural network models, architectures, and basic components</title>
-    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
-<ol>
-<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
-</ol>
-<hr>
-<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
-<hr>
-<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Model Examples</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Feedforward Neural Network (FNN)</strong></td>
-<td>Basic MLP (Multi-Layer Perceptron)</td>
-<td>General-purpose model for regression and classification tasks.</td>
-</tr>
-<tr>
-<td><strong>Convolutional Neural Networks (CNN)</strong></td>
-<td>VGG, ResNet, AlexNet, EfficientNet</td>
-<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
-<td>Vanilla RNN, LSTM, GRU</td>
-<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
-<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
-<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
-</tr>
-<tr>
-<td><strong>Generative Adversarial Networks (GANs)</strong></td>
-<td>DCGAN, StyleGAN, CycleGAN</td>
-<td>Generative tasks such as image synthesis and domain transfer.</td>
-</tr>
-<tr>
-<td><strong>Graph Neural Networks (GNNs)</strong></td>
-<td>GCN, GraphSAGE, GAT</td>
-<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Component</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Applications</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Neuron</strong></td>
-<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
-<td>Foundational unit in all neural networks.</td>
-</tr>
-<tr>
-<td><strong>Layer</strong></td>
-<td>A collection of neurons; can be input, hidden, or output.</td>
-<td>Used in all neural architectures.</td>
-</tr>
-<tr>
-<td><strong>Activation Function</strong></td>
-<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
-<td>Enables learning of complex patterns.</td>
-</tr>
-<tr>
-<td><strong>Dropout</strong></td>
-<td>Regularization technique randomly dropping neurons during training.</td>
-<td>Reduces overfitting in models.</td>
-</tr>
-<tr>
-<td><strong>Encoder</strong></td>
-<td>Part of the model that converts input data into a latent representation.</td>
-<td>Used in Transformers, Autoencoders, BERT, and more.</td>
-</tr>
-<tr>
-<td><strong>Decoder</strong></td>
-<td>Converts latent representations back to an output format.</td>
-<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
-</tr>
-<tr>
-<td><strong>Attention Mechanism</strong></td>
-<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
-<td>Essential in Transformers and attention-based architectures.</td>
-</tr>
-<tr>
-<td><strong>Residual Block</strong></td>
-<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
-<td>Found in ResNet, Transformer architectures.</td>
-</tr>
-<tr>
-<td><strong>Convolution Layer</strong></td>
-<td>Applies convolutional operations to extract spatial features.</td>
-<td>Used in CNNs for tasks like image and video analysis.</td>
-</tr>
-<tr>
-<td><strong>Pooling Layer</strong></td>
-<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
-<td>Used in CNNs to downsample feature maps.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Cell</strong></td>
-<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
-<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
-</tr>
-<tr>
-<td><strong>Self-Attention Layer</strong></td>
-<td>Computes relationships between all input tokens to capture global dependencies.</td>
-<td>Core of Transformers.</td>
-</tr>
-<tr>
-<td><strong>Feedforward Layer</strong></td>
-<td>Dense layer applied after attention mechanisms in Transformers.</td>
-<td>Processes token-wise transformations.</td>
-</tr>
-<tr>
-<td><strong>Embedding Layer</strong></td>
-<td>Converts categorical data or tokens into dense vectors.</td>
-<td>Used in NLP, graph embeddings, and more.</td>
-</tr>
-<tr>
-<td><strong>Latent Space</strong></td>
-<td>Compressed representation of data, typically learned by encoders.</td>
-<td>Found in Autoencoders, VAEs, and GANs.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Key Components</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>FNN</strong></td>
-<td>Neurons, Layers, Activation Functions, Dropout.</td>
-</tr>
-<tr>
-<td><strong>CNN</strong></td>
-<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>RNN (Vanilla)</strong></td>
-<td>Recurrent Cells, Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
-</tr>
-<tr>
-<td><strong>GANs</strong></td>
-<td>Generator, Discriminator, Adversarial Loss.</td>
-</tr>
-<tr>
-<td><strong>GNNs</strong></td>
-<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
-</tr>
-</tbody></table>
-<hr>
-<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NN</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Prompt Engineering - INTRO.</title>
     <url>/hexo-blog//ai_prompt_engineer/prompt_engineer_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
@@ -3905,7 +3905,10 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 </li>
 <li><strong>Privacy and Security:</strong><ul>
 <li>Ensure that personal or sensitive data is anonymized.</li>
-<li>Tools: <a href="https://microsoft.github.io/presidio/">Presidio</a> for PII detection.</li>
+<li>Tools: <ul>
+<li><a href="https://microsoft.github.io/presidio/">Presidio GitHub repo</a> for PII detection.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -3913,10 +3916,13 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <h2 id="References-1"><a href="#References-1" class="headerlink" title="References"></a>References</h2><h3 id="Tutorials-and-Resources"><a href="#Tutorials-and-Resources" class="headerlink" title="Tutorials and Resources:"></a>Tutorials and Resources:</h3><ul>
 <li>Umar Jamil: <ul>
 <li><a href="https://www.youtube.com/@umarjamilai">YouTube</a>, <a href="https://umarjamil.org/">Website</a>.  </li>
-<li>Videos: <a href="https://github.com/hkproj/hkproj.github.io/blob/main/content/posts/videos.md">GitHub videos</a></li>
+<li>Videos: <a href="https://github.com/hkproj/hkproj.github.io/blob/main/content/posts/videos.md">Umar Jamil GitHub videos</a></li>
 </ul>
 </li>
-<li>Yannic Kilcher: <a href="https://www.youtube.com/@YannicKilcher">YouTube</a>.</li>
+<li>Yannic Kilcher:<ul>
+<li><a href="https://www.youtube.com/@YannicKilcher">Yannic Kilcher YouTube channel</a>.</li>
+</ul>
+</li>
 </ul>
 <h3 id="Research-Papers"><a href="#Research-Papers" class="headerlink" title="Research Papers:"></a>Research Papers:</h3><ul>
 <li><p>“Attention is All You Need” - Vaswani et al. 2017, </p>
@@ -3934,9 +3940,16 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 </li>
 </ul>
 <h3 id="Tools-and-Libraries"><a href="#Tools-and-Libraries" class="headerlink" title="Tools and Libraries:"></a>Tools and Libraries:</h3><ul>
-<li>OpenAI API (<a href="https://platform.openai.com/docs">OpenAI API Docs</a>).  </li>
-<li>Hugging Face <a href="https://huggingface.co/transformers">Hugging Face <code>Transformers</code></a>.  </li>
-<li>LangChain (<a href="https://www.langchain.com/">LangChain щашссшфд website</a>).</li>
+<li>OpenAI API:<ul>
+<li><a href="https://platform.openai.com/docs">OpenAI API Docs</a></li>
+</ul>
+</li>
+<li>Hugging Face: </li>
+<li><a href="https://huggingface.co/transformers">Hugging Face <code>Transformers</code> homepage</a></li>
+<li>LangChain: <ul>
+<li><a href="https://www.langchain.com/">LangChain щашссшфд website</a></li>
+</ul>
+</li>
 </ul>
 <hr>
 <p><strong>Papers and docs</strong></p>
@@ -4318,36 +4331,6 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
-    <title>Parsing web site for job offers</title>
-    <url>/hexo-blog//data_mining/post_data_mining__parsing_web_site_for_job_offers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Given</strong> The website with posted offers.<br><strong>Goal:</strong> to get information from the website using python, BeautifulSoup and save it in JSON and markdown files.</p>
-<p><strong>Python scirpt</strong></p>
-<p>Install and import required packages</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">execute_requests</span>(<span class="params">base_url, amount_of_pages</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Executes GET requests for the specified number of pages and returns the responses.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        base_url (str): The base URL for requests.</span></span><br><span class="line"><span class="string">        amount_of_pages (int): The number of pages to fetch.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        list: A list of dictionaries containing the request number, page counter, and response content.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    payload = &#123;&#125;</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;Cookie&#x27;</span>: <span class="string">&#x27;_jobboard_session=895b7b35b6493519c3ad686923d8cc1d; __cf_bm=BrUIPeJX6XqIr7jlW.4M-1732742386-1.0.1.1-1hk8BgPr6ZL6QswlF6K2dUhchp0reiDPOXzX6z.etyq.IUHZqPg&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    responses_data = []  <span class="comment"># Initialize an empty list to store response data</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> counter <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, amount_of_pages + <span class="number">1</span>):</span><br><span class="line">        <span class="comment"># Construct the URL with the current page counter</span></span><br><span class="line">        url = <span class="string">f&quot;<span class="subst">&#123;base_url&#125;</span>&amp;page=<span class="subst">&#123;counter&#125;</span>&quot;</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Fetching data from: <span class="subst">&#123;url&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># Send GET request</span></span><br><span class="line">            response = requests.get(url, headers=headers, data=payload)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Append the response data to the list</span></span><br><span class="line">            responses_data.append(&#123;</span><br><span class="line">                <span class="string">&quot;request_key&quot;</span>: <span class="string">f&quot;request_<span class="subst">&#123;counter&#125;</span>&quot;</span>,</span><br><span class="line">                <span class="string">&quot;counter&quot;</span>: counter,</span><br><span class="line">                <span class="string">&quot;response_content&quot;</span>: response.text</span><br><span class="line">            &#125;)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;counter: <span class="subst">&#123;counter&#125;</span> | &#x27;status_code:&#x27; <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line">        <span class="keyword">except</span> requests.RequestException <span class="keyword">as</span> e:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;Error fetching data for page <span class="subst">&#123;counter&#125;</span>: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> responses_data</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>Parse data from <code>json</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">parse_job_data_from_json</span>(<span class="params">response_data, output_json_file, output_markdown_file</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Parse job data from a list of responses and extract job listings using BeautifulSoup.</span></span><br><span class="line"><span class="string">    Save results to both a JSON file and a Markdown file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        response_data (list): List of dictionaries containing the response data.</span></span><br><span class="line"><span class="string">        output_json_file (str): Path to save the parsed job data in JSON format.</span></span><br><span class="line"><span class="string">        output_markdown_file (str): Path to save the parsed job data in Markdown format.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        job_data = []  <span class="comment"># List to store extracted job data</span></span><br><span class="line">        markdown_content = []  <span class="comment"># List to store Markdown entries</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Loop through each request in the list</span></span><br><span class="line">        <span class="keyword">for</span> request <span class="keyword">in</span> response_data:</span><br><span class="line">            counter = request.get(<span class="string">&quot;counter&quot;</span>, <span class="string">&quot;unknown&quot;</span>)</span><br><span class="line">            response_content = request.get(<span class="string">&quot;response_content&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Parse the HTML content using BeautifulSoup</span></span><br><span class="line">            soup = BeautifulSoup(response_content, <span class="string">&#x27;html.parser&#x27;</span>)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Find all job listings using the locator</span></span><br><span class="line">            job_listings = soup.find_all(<span class="string">&#x27;li&#x27;</span>, class_=<span class="string">&#x27;job-listing&#x27;</span>)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Extract data from each job listing</span></span><br><span class="line">            <span class="keyword">for</span> job <span class="keyword">in</span> job_listings:</span><br><span class="line">                <span class="comment"># Safely find required elements, fallback to &#x27;N/A&#x27; if not present</span></span><br><span class="line">                job_title = job.find(<span class="string">&#x27;a&#x27;</span>, class_=<span class="string">&#x27;jobList-title zip-backfill-link&#x27;</span>)</span><br><span class="line">                job_description = job.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&#x27;jobList-description&#x27;</span>)</span><br><span class="line">                salary = job.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&#x27;jobList-salary&#x27;</span>)</span><br><span class="line"></span><br><span class="line">                job_info = &#123;</span><br><span class="line">                    <span class="string">&#x27;title&#x27;</span>: job_title.text.strip() <span class="keyword">if</span> job_title <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;href&#x27;</span>: job_title[<span class="string">&#x27;href&#x27;</span>] <span class="keyword">if</span> job_title <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;description&#x27;</span>: job_description.text.strip() <span class="keyword">if</span> job_description <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;salary&#x27;</span>: salary.text.strip() <span class="keyword">if</span> salary <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;page&#x27;</span>: counter</span><br><span class="line">                &#125;</span><br><span class="line">                job_data.append(job_info)</span><br><span class="line"></span><br><span class="line">                <span class="comment"># Prepare entry for Markdown</span></span><br><span class="line">                markdown_entry = <span class="string">f&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">### Job Title: <span class="subst">&#123;job_info[<span class="string">&#x27;title&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">- **Link**: [<span class="subst">&#123;job_info[<span class="string">&#x27;title&#x27;</span>]&#125;</span>](<span class="subst">&#123;job_info[<span class="string">&#x27;href&#x27;</span>]&#125;</span>)</span></span><br><span class="line"><span class="string">- **Description**: <span class="subst">&#123;job_info[<span class="string">&#x27;description&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">- **Salary**: <span class="subst">&#123;job_info[<span class="string">&#x27;salary&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">- **Page**: <span class="subst">&#123;job_info[<span class="string">&#x27;page&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">                &quot;&quot;&quot;</span></span><br><span class="line">                markdown_content.append(markdown_entry.strip())</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save extracted job data to a new JSON file</span></span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(output_json_file, <span class="string">&#x27;w&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            json.dump(job_data, f, ensure_ascii=<span class="literal">False</span>, indent=<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Job data successfully parsed and saved to <span class="subst">&#123;output_json_file&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save Markdown content to a file</span></span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(output_markdown_file, <span class="string">&#x27;w&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&quot;\n\n&quot;</span>.join(markdown_content))</span><br><span class="line"></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Job data successfully saved to <span class="subst">&#123;output_markdown_file&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error processing file: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><strong>IMPORTANT !</strong></p>
-<ul>
-<li>Provide valid references for saving retrieved data.</li>
-<li>Make sure that you copied valid url from the browser and manage pagination properly.</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    base_url = <span class="string">&quot;https://www.ziprecruiter.co.uk/jobs/search?l=Remote&amp;q=qa+software+engineer&amp;remote=full&quot;</span></span><br><span class="line">    amount_of_pages = <span class="number">100</span>  <span class="comment"># Or any number that you wish to check</span></span><br><span class="line">    responses_data = execute_requests(base_url, amount_of_pages)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Output files for parsed data</span></span><br><span class="line">    output_json_file = <span class="string">&#x27;parsed_job_data.json&#x27;</span></span><br><span class="line">    output_markdown_file = <span class="string">&#x27;parsed_job_data.md&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Parse and save the job data</span></span><br><span class="line">    parse_job_data_from_json(responses_data, output_json_file, output_markdown_file)</span><br></pre></td></tr></table></figure>
-
-<p>Script works fine for several executions. After that cookies expired and new one should be regenerated.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>data_mining</tag>
-        <tag>parsing</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Kafka intro</title>
     <url>/hexo-blog/2023/01/02/post_dev_side__kafka_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Understanding-Kafka-A-Message-Broker-Overview"><a href="#Understanding-Kafka-A-Message-Broker-Overview" class="headerlink" title="Understanding Kafka: A Message Broker Overview"></a>Understanding Kafka: A Message Broker Overview</h1><p>Message brokers play a critical role in distributed systems by enabling communication between different applications and services. Kafka, a leading distributed event streaming platform, has become a cornerstone for building scalable and fault-tolerant systems.</p>
@@ -4464,6 +4447,36 @@ def initialize_api(api_key):
       <tags>
         <tag>dev_side</tag>
         <tag>kafka</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Parsing web site for job offers</title>
+    <url>/hexo-blog//data_mining/post_data_mining__parsing_web_site_for_job_offers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Given</strong> The website with posted offers.<br><strong>Goal:</strong> to get information from the website using python, BeautifulSoup and save it in JSON and markdown files.</p>
+<p><strong>Python scirpt</strong></p>
+<p>Install and import required packages</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">execute_requests</span>(<span class="params">base_url, amount_of_pages</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Executes GET requests for the specified number of pages and returns the responses.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        base_url (str): The base URL for requests.</span></span><br><span class="line"><span class="string">        amount_of_pages (int): The number of pages to fetch.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        list: A list of dictionaries containing the request number, page counter, and response content.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    payload = &#123;&#125;</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;Cookie&#x27;</span>: <span class="string">&#x27;_jobboard_session=895b7b35b6493519c3ad686923d8cc1d; __cf_bm=BrUIPeJX6XqIr7jlW.4M-1732742386-1.0.1.1-1hk8BgPr6ZL6QswlF6K2dUhchp0reiDPOXzX6z.etyq.IUHZqPg&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    responses_data = []  <span class="comment"># Initialize an empty list to store response data</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> counter <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, amount_of_pages + <span class="number">1</span>):</span><br><span class="line">        <span class="comment"># Construct the URL with the current page counter</span></span><br><span class="line">        url = <span class="string">f&quot;<span class="subst">&#123;base_url&#125;</span>&amp;page=<span class="subst">&#123;counter&#125;</span>&quot;</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Fetching data from: <span class="subst">&#123;url&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># Send GET request</span></span><br><span class="line">            response = requests.get(url, headers=headers, data=payload)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Append the response data to the list</span></span><br><span class="line">            responses_data.append(&#123;</span><br><span class="line">                <span class="string">&quot;request_key&quot;</span>: <span class="string">f&quot;request_<span class="subst">&#123;counter&#125;</span>&quot;</span>,</span><br><span class="line">                <span class="string">&quot;counter&quot;</span>: counter,</span><br><span class="line">                <span class="string">&quot;response_content&quot;</span>: response.text</span><br><span class="line">            &#125;)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;counter: <span class="subst">&#123;counter&#125;</span> | &#x27;status_code:&#x27; <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line">        <span class="keyword">except</span> requests.RequestException <span class="keyword">as</span> e:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;Error fetching data for page <span class="subst">&#123;counter&#125;</span>: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> responses_data</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>Parse data from <code>json</code></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">parse_job_data_from_json</span>(<span class="params">response_data, output_json_file, output_markdown_file</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Parse job data from a list of responses and extract job listings using BeautifulSoup.</span></span><br><span class="line"><span class="string">    Save results to both a JSON file and a Markdown file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        response_data (list): List of dictionaries containing the response data.</span></span><br><span class="line"><span class="string">        output_json_file (str): Path to save the parsed job data in JSON format.</span></span><br><span class="line"><span class="string">        output_markdown_file (str): Path to save the parsed job data in Markdown format.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        job_data = []  <span class="comment"># List to store extracted job data</span></span><br><span class="line">        markdown_content = []  <span class="comment"># List to store Markdown entries</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># Loop through each request in the list</span></span><br><span class="line">        <span class="keyword">for</span> request <span class="keyword">in</span> response_data:</span><br><span class="line">            counter = request.get(<span class="string">&quot;counter&quot;</span>, <span class="string">&quot;unknown&quot;</span>)</span><br><span class="line">            response_content = request.get(<span class="string">&quot;response_content&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Parse the HTML content using BeautifulSoup</span></span><br><span class="line">            soup = BeautifulSoup(response_content, <span class="string">&#x27;html.parser&#x27;</span>)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Find all job listings using the locator</span></span><br><span class="line">            job_listings = soup.find_all(<span class="string">&#x27;li&#x27;</span>, class_=<span class="string">&#x27;job-listing&#x27;</span>)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Extract data from each job listing</span></span><br><span class="line">            <span class="keyword">for</span> job <span class="keyword">in</span> job_listings:</span><br><span class="line">                <span class="comment"># Safely find required elements, fallback to &#x27;N/A&#x27; if not present</span></span><br><span class="line">                job_title = job.find(<span class="string">&#x27;a&#x27;</span>, class_=<span class="string">&#x27;jobList-title zip-backfill-link&#x27;</span>)</span><br><span class="line">                job_description = job.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&#x27;jobList-description&#x27;</span>)</span><br><span class="line">                salary = job.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&#x27;jobList-salary&#x27;</span>)</span><br><span class="line"></span><br><span class="line">                job_info = &#123;</span><br><span class="line">                    <span class="string">&#x27;title&#x27;</span>: job_title.text.strip() <span class="keyword">if</span> job_title <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;href&#x27;</span>: job_title[<span class="string">&#x27;href&#x27;</span>] <span class="keyword">if</span> job_title <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;description&#x27;</span>: job_description.text.strip() <span class="keyword">if</span> job_description <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;salary&#x27;</span>: salary.text.strip() <span class="keyword">if</span> salary <span class="keyword">else</span> <span class="string">&#x27;N/A&#x27;</span>,</span><br><span class="line">                    <span class="string">&#x27;page&#x27;</span>: counter</span><br><span class="line">                &#125;</span><br><span class="line">                job_data.append(job_info)</span><br><span class="line"></span><br><span class="line">                <span class="comment"># Prepare entry for Markdown</span></span><br><span class="line">                markdown_entry = <span class="string">f&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">### Job Title: <span class="subst">&#123;job_info[<span class="string">&#x27;title&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">- **Link**: [<span class="subst">&#123;job_info[<span class="string">&#x27;title&#x27;</span>]&#125;</span>](<span class="subst">&#123;job_info[<span class="string">&#x27;href&#x27;</span>]&#125;</span>)</span></span><br><span class="line"><span class="string">- **Description**: <span class="subst">&#123;job_info[<span class="string">&#x27;description&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">- **Salary**: <span class="subst">&#123;job_info[<span class="string">&#x27;salary&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">- **Page**: <span class="subst">&#123;job_info[<span class="string">&#x27;page&#x27;</span>]&#125;</span></span></span><br><span class="line"><span class="string">                &quot;&quot;&quot;</span></span><br><span class="line">                markdown_content.append(markdown_entry.strip())</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save extracted job data to a new JSON file</span></span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(output_json_file, <span class="string">&#x27;w&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            json.dump(job_data, f, ensure_ascii=<span class="literal">False</span>, indent=<span class="number">4</span>)</span><br><span class="line"></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Job data successfully parsed and saved to <span class="subst">&#123;output_json_file&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save Markdown content to a file</span></span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(output_markdown_file, <span class="string">&#x27;w&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            f.write(<span class="string">&quot;\n\n&quot;</span>.join(markdown_content))</span><br><span class="line"></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Job data successfully saved to <span class="subst">&#123;output_markdown_file&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Error processing file: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><strong>IMPORTANT !</strong></p>
+<ul>
+<li>Provide valid references for saving retrieved data.</li>
+<li>Make sure that you copied valid url from the browser and manage pagination properly.</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    base_url = <span class="string">&quot;https://www.ziprecruiter.co.uk/jobs/search?l=Remote&amp;q=qa+software+engineer&amp;remote=full&quot;</span></span><br><span class="line">    amount_of_pages = <span class="number">100</span>  <span class="comment"># Or any number that you wish to check</span></span><br><span class="line">    responses_data = execute_requests(base_url, amount_of_pages)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Output files for parsed data</span></span><br><span class="line">    output_json_file = <span class="string">&#x27;parsed_job_data.json&#x27;</span></span><br><span class="line">    output_markdown_file = <span class="string">&#x27;parsed_job_data.md&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># Parse and save the job data</span></span><br><span class="line">    parse_job_data_from_json(responses_data, output_json_file, output_markdown_file)</span><br></pre></td></tr></table></figure>
+
+<p>Script works fine for several executions. After that cookies expired and new one should be regenerated.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>data_mining</tag>
+        <tag>parsing</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -4816,78 +4829,8 @@ def initialize_api(api_key):
         <category>Posts</category>
       </categories>
       <tags>
+        <tag>dev_side</tag>
         <tag>python</tag>
-        <tag>dev_side</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Ubuntu web traffic meters</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
-<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
-<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
-<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
-</li>
-<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
-</li>
-</ul>
-<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
-<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
-</li>
-<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
-<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
-</li>
-<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
-</li>
-</ul>
-<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
-<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
-<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
-<li><strong>Installation:</strong></li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
-<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
-</li>
-<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
-<p> &#96;</p>
-</li>
-<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>API</tag>
-        <tag>ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5053,8 +4996,78 @@ def initialize_api(api_key):
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>dev_side</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Ubuntu web traffic meters</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
+<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
+<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
+<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
+</li>
+<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
+</li>
+</ul>
+<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
+<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
+</li>
+<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
+<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
+</li>
+<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
+</li>
+</ul>
+<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
+<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
+<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
+<li><strong>Installation:</strong></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
+<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
+</li>
+<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
+<p> &#96;</p>
+</li>
+<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>API</tag>
+        <tag>ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -5343,69 +5356,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>Основы лингвистики</title>
-    <url>/hexo-blog//linquistic/linquistic_basics_ru/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Лингвистические-домены"><a href="#1-Лингвистические-домены" class="headerlink" title="1. Лингвистические домены"></a>1. Лингвистические домены</h2><h3 id="Синтаксис"><a href="#Синтаксис" class="headerlink" title="Синтаксис"></a>Синтаксис</h3><p>Синтаксис занимается структурой предложений и грамматической корректностью, что является основой для качества текста.</p>
-<h3 id="Семантика"><a href="#Семантика" class="headerlink" title="Семантика"></a>Семантика</h3><p>Семантика обеспечивает логическое соответствие значений слов и предложений, способствуя когерентности и качеству текста.</p>
-<h3 id="Прагматика"><a href="#Прагматика" class="headerlink" title="Прагматика"></a>Прагматика</h3><p>Прагматика изучает контекст и предполагаемое значение, что влияет как на когерентность, так и на качество текста.</p>
-<h3 id="Анализ-дискурса"><a href="#Анализ-дискурса" class="headerlink" title="Анализ дискурса"></a>Анализ дискурса</h3><p>Анализ дискурса исследует, как предложения и абзацы соединяются в значимую и когерентную структуру, что является критическим аспектом текстовой когерентности.</p>
-<hr>
-<h2 id="2-Теоретическая-лингвистика"><a href="#2-Теоретическая-лингвистика" class="headerlink" title="2. Теоретическая лингвистика"></a>2. Теоретическая лингвистика</h2><p>В теоретической лингвистике данные понятия связаны с:</p>
-<h3 id="Лингвистика-текста"><a href="#Лингвистика-текста" class="headerlink" title="Лингвистика текста"></a>Лингвистика текста</h3><p>Изучает, как текст структурирован для достижения смысла и когерентности.</p>
-<h3 id="Когезия-и-когерентность"><a href="#Когезия-и-когерентность" class="headerlink" title="Когезия и когерентность"></a>Когезия и когерентность</h3><p>Анализирует языковые средства (например, союзы, местоимения, референции) и логические связи между элементами текста.</p>
-<h3 id="Когнитивная-лингвистика"><a href="#Когнитивная-лингвистика" class="headerlink" title="Когнитивная лингвистика"></a>Когнитивная лингвистика</h3><p>Изучает, как читатели воспринимают и интерпретируют текст, что влияет на восприятие когерентности и качества.</p>
-<h3 id="Разрешение-анафор"><a href="#Разрешение-анафор" class="headerlink" title="Разрешение анафор"></a>Разрешение анафор</h3><p>Анафора — это использование слов, ссылающихся на ранее упомянутые элементы текста (например, местоимения “он”, “она”, “оно”). Разрешение анафор включает:</p>
-<ul>
-<li>Определение референтов (к чему относится анафора).</li>
-<li>Построение моделей контекста для точной интерпретации.<br>Пример: “Маша пошла в магазин. Она купила хлеб.” Здесь “она” относится к “Маша”.</li>
-</ul>
-<h4 id="Связанные-понятия"><a href="#Связанные-понятия" class="headerlink" title="Связанные понятия"></a>Связанные понятия</h4><ul>
-<li><strong>Катастрофа референции</strong>: ошибки в интерпретации референтов.</li>
-<li><strong>Кореференция</strong>: идентификация, когда разные выражения ссылаются на один объект.<br>Пример: “Доктор Иванов вошел. Иванов начал осмотр.”</li>
-</ul>
-<hr>
-<h2 id="3-Прикладная-лингвистика"><a href="#3-Прикладная-лингвистика" class="headerlink" title="3. Прикладная лингвистика"></a>3. Прикладная лингвистика</h2><p>В прикладных контекстах когерентность и качество текста играют ключевую роль в:</p>
-<h3 id="Обработка-естественного-языка-NLP"><a href="#Обработка-естественного-языка-NLP" class="headerlink" title="Обработка естественного языка (NLP)"></a>Обработка естественного языка (NLP)</h3><p>Обеспечение того, чтобы текст, сгенерированный машинами, соответствовал ожиданиям человека.</p>
-<h3 id="Преподавание-языка"><a href="#Преподавание-языка" class="headerlink" title="Преподавание языка"></a>Преподавание языка</h3><p>Обучение навыкам написания когерентных и качественных текстов.</p>
-<h3 id="Переводоведение"><a href="#Переводоведение" class="headerlink" title="Переводоведение"></a>Переводоведение</h3><p>Сохранение когерентности и качества при переводе между языками.</p>
-<hr>
-<h2 id="4-Компьютерная-лингвистика"><a href="#4-Компьютерная-лингвистика" class="headerlink" title="4. Компьютерная лингвистика"></a>4. Компьютерная лингвистика</h2><p>Генерация и оценка текста играют важную роль в компьютерной лингвистике, где разрабатываются алгоритмы для:</p>
-<ul>
-<li>Имитации человеческой когерентности и качества в машинно-сгенерированном тексте.</li>
-<li>Оптимизации когерентности за счет логического построения и тематической согласованности.</li>
-<li>Улучшения качества через грамматически точный и стилистически подходящий текст.</li>
-</ul>
-<hr>
-<h2 id="Литература"><a href="#Литература" class="headerlink" title="Литература"></a>Литература</h2><ol>
-<li>Кибрик А. А. <em>Введение в общую и прикладную лингвистику</em>. Москва: УРСС, 2008.  </li>
-<li>Бондарко А. В. <em>Функциональная грамматика</em>. Москва: Наука, 1984.  </li>
-<li>Богуславский И. М. <em>Семантический синтаксис и разрешение анафоры</em>. Москва: Языки славянской культуры, 2011.  </li>
-<li>Яковлев С. П. <em>Компьютерная лингвистика и обработка текстов</em>. Санкт-Петербург: Питер, 2020.  </li>
-<li>Бибер Д., Конрад С. <em>Лингвистический анализ текста</em>. Москва: Логос, 2009.  </li>
-<li>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. <ol>
-<li><a href="https://moodle.znu.edu.ua/pluginfile.php/587137/mod_resource/content/1/%D0%A1%D0%B5%D0%BB%D1%96%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0.pdf">Читати <code>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. </code> на moodle.znu.edu.ua</a></li>
-</ol>
-</li>
-<li>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423<ol>
-<li><a href="https://shron1.chtyvo.org.ua/Kochan_Iryna/Linhvistychnyi_analiz_tekstu.pdf?PHPSESSID=1cl5h308tpamb2igkr67p4ni86">Читати <code>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423</code> на chtyvo.org.ua</a></li>
-</ol>
-</li>
-<li>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269<ol>
-<li><a href="https://www.hse.ru/data/2017/08/12/1174382135/NLP_and_DA.pdf">Читать <code>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269</code> на hse.ru</a></li>
-</ol>
-</li>
-<li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>linguistic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linguistic basics</title>
     <url>/hexo-blog//linquistic/linquistic_basics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Linguistic-Domains-Involved"><a href="#1-Linguistic-Domains-Involved" class="headerlink" title="1. Linguistic Domains Involved"></a>1. Linguistic Domains Involved</h2><ul>
@@ -5470,6 +5420,69 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
 </ul>
 </li>
 </ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>linguistic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Основы лингвистики</title>
+    <url>/hexo-blog//linquistic/linquistic_basics_ru/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Лингвистические-домены"><a href="#1-Лингвистические-домены" class="headerlink" title="1. Лингвистические домены"></a>1. Лингвистические домены</h2><h3 id="Синтаксис"><a href="#Синтаксис" class="headerlink" title="Синтаксис"></a>Синтаксис</h3><p>Синтаксис занимается структурой предложений и грамматической корректностью, что является основой для качества текста.</p>
+<h3 id="Семантика"><a href="#Семантика" class="headerlink" title="Семантика"></a>Семантика</h3><p>Семантика обеспечивает логическое соответствие значений слов и предложений, способствуя когерентности и качеству текста.</p>
+<h3 id="Прагматика"><a href="#Прагматика" class="headerlink" title="Прагматика"></a>Прагматика</h3><p>Прагматика изучает контекст и предполагаемое значение, что влияет как на когерентность, так и на качество текста.</p>
+<h3 id="Анализ-дискурса"><a href="#Анализ-дискурса" class="headerlink" title="Анализ дискурса"></a>Анализ дискурса</h3><p>Анализ дискурса исследует, как предложения и абзацы соединяются в значимую и когерентную структуру, что является критическим аспектом текстовой когерентности.</p>
+<hr>
+<h2 id="2-Теоретическая-лингвистика"><a href="#2-Теоретическая-лингвистика" class="headerlink" title="2. Теоретическая лингвистика"></a>2. Теоретическая лингвистика</h2><p>В теоретической лингвистике данные понятия связаны с:</p>
+<h3 id="Лингвистика-текста"><a href="#Лингвистика-текста" class="headerlink" title="Лингвистика текста"></a>Лингвистика текста</h3><p>Изучает, как текст структурирован для достижения смысла и когерентности.</p>
+<h3 id="Когезия-и-когерентность"><a href="#Когезия-и-когерентность" class="headerlink" title="Когезия и когерентность"></a>Когезия и когерентность</h3><p>Анализирует языковые средства (например, союзы, местоимения, референции) и логические связи между элементами текста.</p>
+<h3 id="Когнитивная-лингвистика"><a href="#Когнитивная-лингвистика" class="headerlink" title="Когнитивная лингвистика"></a>Когнитивная лингвистика</h3><p>Изучает, как читатели воспринимают и интерпретируют текст, что влияет на восприятие когерентности и качества.</p>
+<h3 id="Разрешение-анафор"><a href="#Разрешение-анафор" class="headerlink" title="Разрешение анафор"></a>Разрешение анафор</h3><p>Анафора — это использование слов, ссылающихся на ранее упомянутые элементы текста (например, местоимения “он”, “она”, “оно”). Разрешение анафор включает:</p>
+<ul>
+<li>Определение референтов (к чему относится анафора).</li>
+<li>Построение моделей контекста для точной интерпретации.<br>Пример: “Маша пошла в магазин. Она купила хлеб.” Здесь “она” относится к “Маша”.</li>
+</ul>
+<h4 id="Связанные-понятия"><a href="#Связанные-понятия" class="headerlink" title="Связанные понятия"></a>Связанные понятия</h4><ul>
+<li><strong>Катастрофа референции</strong>: ошибки в интерпретации референтов.</li>
+<li><strong>Кореференция</strong>: идентификация, когда разные выражения ссылаются на один объект.<br>Пример: “Доктор Иванов вошел. Иванов начал осмотр.”</li>
+</ul>
+<hr>
+<h2 id="3-Прикладная-лингвистика"><a href="#3-Прикладная-лингвистика" class="headerlink" title="3. Прикладная лингвистика"></a>3. Прикладная лингвистика</h2><p>В прикладных контекстах когерентность и качество текста играют ключевую роль в:</p>
+<h3 id="Обработка-естественного-языка-NLP"><a href="#Обработка-естественного-языка-NLP" class="headerlink" title="Обработка естественного языка (NLP)"></a>Обработка естественного языка (NLP)</h3><p>Обеспечение того, чтобы текст, сгенерированный машинами, соответствовал ожиданиям человека.</p>
+<h3 id="Преподавание-языка"><a href="#Преподавание-языка" class="headerlink" title="Преподавание языка"></a>Преподавание языка</h3><p>Обучение навыкам написания когерентных и качественных текстов.</p>
+<h3 id="Переводоведение"><a href="#Переводоведение" class="headerlink" title="Переводоведение"></a>Переводоведение</h3><p>Сохранение когерентности и качества при переводе между языками.</p>
+<hr>
+<h2 id="4-Компьютерная-лингвистика"><a href="#4-Компьютерная-лингвистика" class="headerlink" title="4. Компьютерная лингвистика"></a>4. Компьютерная лингвистика</h2><p>Генерация и оценка текста играют важную роль в компьютерной лингвистике, где разрабатываются алгоритмы для:</p>
+<ul>
+<li>Имитации человеческой когерентности и качества в машинно-сгенерированном тексте.</li>
+<li>Оптимизации когерентности за счет логического построения и тематической согласованности.</li>
+<li>Улучшения качества через грамматически точный и стилистически подходящий текст.</li>
+</ul>
+<hr>
+<h2 id="Литература"><a href="#Литература" class="headerlink" title="Литература"></a>Литература</h2><ol>
+<li>Кибрик А. А. <em>Введение в общую и прикладную лингвистику</em>. Москва: УРСС, 2008.  </li>
+<li>Бондарко А. В. <em>Функциональная грамматика</em>. Москва: Наука, 1984.  </li>
+<li>Богуславский И. М. <em>Семантический синтаксис и разрешение анафоры</em>. Москва: Языки славянской культуры, 2011.  </li>
+<li>Яковлев С. П. <em>Компьютерная лингвистика и обработка текстов</em>. Санкт-Петербург: Питер, 2020.  </li>
+<li>Бибер Д., Конрад С. <em>Лингвистический анализ текста</em>. Москва: Логос, 2009.  </li>
+<li>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. <ol>
+<li><a href="https://moodle.znu.edu.ua/pluginfile.php/587137/mod_resource/content/1/%D0%A1%D0%B5%D0%BB%D1%96%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0.pdf">Читати <code>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. </code> на moodle.znu.edu.ua</a></li>
+</ol>
+</li>
+<li>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423<ol>
+<li><a href="https://shron1.chtyvo.org.ua/Kochan_Iryna/Linhvistychnyi_analiz_tekstu.pdf?PHPSESSID=1cl5h308tpamb2igkr67p4ni86">Читати <code>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423</code> на chtyvo.org.ua</a></li>
+</ol>
+</li>
+<li>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269<ol>
+<li><a href="https://www.hse.ru/data/2017/08/12/1174382135/NLP_and_DA.pdf">Читать <code>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269</code> на hse.ru</a></li>
+</ol>
+</li>
+<li></li>
+</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -5725,6 +5738,28 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>Windows OS apps</title>
+    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
+<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
+To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
+
+<ul>
+<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
+<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>apps</tag>
+        <tag>windows_os</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Principles of categorizing</title>
     <url>/hexo-blog/2024/10/28/post_principles_of_categorizing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains information about fundamental books for classic principles of categorizing.</strong></p>
@@ -5839,28 +5874,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows OS apps</title>
-    <url>/hexo-blog/2024/12/13/post_os__windows%20app/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
-<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
-To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
-
-<ul>
-<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
-<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>apps</tag>
-        <tag>windows_os</tag>
       </tags>
   </entry>
   <entry>
@@ -6184,6 +6197,29 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
+    <title>Resources. Global platforms and people</title>
+    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+<ol>
+<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
+</li>
+<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
+</li>
+</ol>
+<p><strong>List of people</strong></p>
+<ol>
+<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>global_knowledge</tag>
+        <tag>resources</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Site for blogging</title>
     <url>/hexo-blog/2024/04/28/post_site_for_blogging/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
@@ -6240,29 +6276,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </categories>
       <tags>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resources. Global platforms and people</title>
-    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
-<ol>
-<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
-</li>
-<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
-</li>
-</ol>
-<p><strong>List of people</strong></p>
-<ol>
-<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>global_knowledge</tag>
-        <tag>resources</tag>
       </tags>
   </entry>
   <entry>
@@ -6382,6 +6395,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -6451,29 +6523,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My GitHub projects</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
@@ -6530,6 +6579,29 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -6747,65 +6819,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -6867,24 +6880,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>hexo_io</tag>
         <tag>note</tag>
         <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
       </tags>
   </entry>
   <entry>
@@ -6957,6 +6952,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>hexo_io</tag>
         <tag>note</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
       </tags>
   </entry>
   <entry>
