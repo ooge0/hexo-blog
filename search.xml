@@ -538,23 +538,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Chatbots from scratch</title>
-    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>chatbot</tag>
-        <tag>Llama</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>VADER - intro</title>
     <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
@@ -579,6 +562,23 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>VADER</tag>
         <tag>sentiment_analysis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chatbots from scratch</title>
+    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>chatbot</tag>
+        <tag>Llama</tag>
       </tags>
   </entry>
   <entry>
@@ -2299,9 +2299,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
     <url>/hexo-blog//ai_nlp/knowledge_graph/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
 <li><a href="https://sysblok.ru/glossary/knowledge-graph-ili-graf-znanij-chto-jeto-takoe-i-gde-primenjaetsja/">Read ‘Knowledge Graph или граф знаний: что это такое и где применяется’ on sysblok.ru</a></li>
-<li><a href="https://lod-cloud.net/clouds/lod-cloud.svga"><code>Linked Open Data</code> Knowledge Graph on lod-cloud.net</a></li>
+<li><a href="https://lod-cloud.net/"><code>Linked Open Data</code> Knowledge Graph on lod-cloud.net</a></li>
 <li><a href="https://webmaestro.com.ua/ru/blog/knowledge-graph/">Read <code>Граф знаний Google: что это такое и как туда попасть</code> on webmaestro.com.ua</a></li>
-<li><a href="">Read &#96;&#96; on</a></li>
 </ol>
 ]]></content>
       <categories>
@@ -3775,15 +3774,23 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li><strong>Fine-Tuning Techniques:</strong><ul>
 <li>Study transfer learning for customizing LLMs with domain-specific data.</li>
 <li>Libraries: <a href="https://huggingface.co/docs/diffusers/v0.16.0/en/training/lora">LoRA</a> (Low-Rank Adaptation for fine-tuning large models).<ul>
-<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models. Edward J. Hu er al. 2021 &#x2F; DOI <a href="https://arxiv.org/abs/2106.09685">arxiv.org&#x2F;abs&#x2F;2106.09685</a></li>
+<li>Paper: LoRA: Low-Rank Adaptation of Large Language Models. Edward J. Hu er al. 2021</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 <h3 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h3><ul>
-<li>Vaswani et al., 2017, “Attention is All You Need” - DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a>.  </li>
-<li><em>LoRA: Low-Rank Adaptation of Large Language Models. Edward J. Hu er al. 2021</em> (Hugging Face PEFT).</li>
+<li>Attention is All You Need. Vaswani et al., 2017<ul>
+<li>DOI: 10.48550&#x2F;arXiv.1706.03762</li>
+<li><a href="https://arxiv.org/pdf/1706.03762">Read paper <code>Attention is All You Need. Vaswani et al., 2017</code> on arxiv.org</a></li>
+</ul>
+</li>
+<li>LoRA: Low-Rank Adaptation of Large Language Models. Edward J. Hu er al. 2021. (Hugging Face PEFT)<ul>
+<li>DOI arxiv.org&#x2F;abs&#x2F;2106.09685</li>
+<li><a href="https://arxiv.org/pdf/2106.09685">Read paper <code>LoRA: Low-Rank Adaptation of Large Language Models. Edward J. Hu er al. 2021. (Hugging Face PEFT).</code> on on arxiv.org</a></li>
+</ul>
+</li>
 </ul>
 <hr>
 <h2 id="2-Data-Handling-Skills"><a href="#2-Data-Handling-Skills" class="headerlink" title="2. Data Handling Skills"></a>2. Data Handling Skills</h2><p>Prompt engineering often involves working with large datasets to understand and refine AI responses.</p>
@@ -3817,7 +3824,7 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 </li>
 <li><strong>Handling Context:</strong><ul>
 <li>Manage long contexts using techniques like windowing or chunking, supported by <a href="https://www.pinecone.io/">Pinecone</a> for vector search.<ul>
-<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">post: ‘Techniques for handling context in LLM models’</a></li>
+<li>Other techniques and tools presented in other <a href="../../../../../../hexo-blog/techniques-for-handling-context-in-ai-models/">blog post: ‘Techniques for handling context in LLM models’</a></li>
 </ul>
 </li>
 </ul>
@@ -4546,6 +4553,270 @@ def initialize_api(api_key):
       </tags>
   </entry>
   <entry>
+    <title>Algorithms. List of top 100 AI algorithms</title>
+    <url>/hexo-blog//algorithms/list_of_top_100_ai_algorithms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="List-of-top-100-AI-algorithms"><a href="#List-of-top-100-AI-algorithms" class="headerlink" title="List of top 100 AI algorithms"></a>List of top 100 AI algorithms</h2><p>Below is a list of AI algorithms discovered in the LinkedIn post.<br>All algorithms presented on the picture below.<br>   <img src="/hexo-blog/images/denis_panjuta_list_of_ai_algorithms.png" alt="denis-panjuta. Algorithms. List of top 100 algorithms" title="@denis-panjuta. Algorithms. List of top 100 algorithms" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p>
+<hr>
+<h2 id="Retrived-data-from-the-picture"><a href="#Retrived-data-from-the-picture" class="headerlink" title="Retrived data from the picture:"></a>Retrived data from the picture:</h2><p><strong>Machine Learning Algorithms (14 algorithms)</strong></p>
+<ol>
+<li>Linear Regression</li>
+<li>Logistic Regression</li>
+<li>Decision Trees</li>
+<li>Random Forests</li>
+<li>Support Vector Machines (SVM)</li>
+<li>Naive Bayes</li>
+<li>K-Nearest Neighbors (KNN)</li>
+<li>K-Means Clustering</li>
+<li>Principal Component Analysis (PCA)</li>
+<li>Gradient Boosting Machines (GBM)</li>
+<li>Adaboost</li>
+<li>Bagging</li>
+<li>Stochastic Gradient Descent (SGD)</li>
+<li>Expectation Maximization (EM)</li>
+</ol>
+<hr>
+<p><strong>Natural Language Processing Algorithms (12 algorithms)</strong></p>
+<ol>
+<li>Bag of Words (BoW)</li>
+<li>Term Frequency–Inverse Document Frequency (TF-IDF)</li>
+<li>Word2Vec</li>
+<li>GloVe (Global Vectors for Word Representation)</li>
+<li>Embeddings from Language Models (ELMo)</li>
+<li>GPT (Generative Pre-trained Transformer)</li>
+<li>Seq2Seq Models</li>
+<li>Conditional Random Fields (CRF)</li>
+<li>BERT (Bidirectional Encoder Representations from Transformers)</li>
+<li>RoBERTa</li>
+<li>T5 (Text-to-Text Transformer)</li>
+<li>XLNet</li>
+</ol>
+<p><strong>Computer Vision Algorithms (13 algorithms)</strong></p>
+<ol>
+<li>Edge Detection (Sobel, Prewitt, Canny)</li>
+<li>Hough Transform</li>
+<li>Scale-Invariant Feature Transform (SIFT)</li>
+<li>Histogram of Oriented Gradients (HOG)</li>
+<li>Region-Based Convolutional Neural Network (R-CNN)</li>
+<li>Fast R-CNN</li>
+<li>Mask R-CNN</li>
+<li>You Only Look Once (YOLO)</li>
+<li>SSD (Single Shot Multibox Detector)</li>
+<li>ResNet</li>
+<li>Fully Convolutional Networks (FCN)</li>
+<li>GAN Variants (Pix2Pix, CycleGAN)</li>
+<li>Optical Flow</li>
+</ol>
+<p><strong>Reinforcement Learning Algorithms (13 algorithms)</strong></p>
+<ol>
+<li>Q-Learning</li>
+<li>Deep Q Network (DQN)</li>
+<li>Policy Gradients</li>
+<li>Actor-Critic Methods</li>
+<li>Monte Carlo Tree Search (MCTS)</li>
+<li>Proximal Policy Optimization (PPO)</li>
+<li>Soft Actor-Critic (SAC)</li>
+<li>Trust Region Policy Optimization (TRPO)</li>
+<li>SARSA (State-Action-Reward-State-Action)</li>
+<li>Double DQN</li>
+<li>Dueling DQN</li>
+<li>Rainbow DQN</li>
+<li>TD-Lambda</li>
+</ol>
+<p><strong>Deep Learning Algorithms (14 algorithms)</strong></p>
+<ol>
+<li>Convolutional Neural Networks (CNNs)</li>
+<li>Recurrent Neural Networks (RNNs)</li>
+<li>Long Short-Term Memory (LSTMs)</li>
+<li>Generative Adversarial Networks (GANs)</li>
+<li>Autoencoders</li>
+<li>Deep Belief Networks (DBNs)</li>
+<li>Transformers</li>
+<li>U-Net</li>
+<li>ResNet</li>
+<li>VGGNet</li>
+<li>InceptionNet</li>
+<li>DenseNet</li>
+<li>MobileNet</li>
+<li>EfficientNet</li>
+</ol>
+<p><strong>Optimization Algorithms (14 algorithms)</strong></p>
+<ol>
+<li>Gradient Descent</li>
+<li>Stochastic Gradient Descent (SGD)</li>
+<li>Momentum-Based Methods</li>
+<li>Adam (Adaptive Moment Estimation)</li>
+<li>RMSprop</li>
+<li>Simulated Annealing</li>
+<li>Genetic Algorithm</li>
+<li>Particle Swarm Optimization (PSO)</li>
+<li>Ant Colony Optimization (ACO)</li>
+<li>Bayesian Optimization</li>
+<li>Nelder–Mead</li>
+<li>Powell’s Method</li>
+<li>L-BFGS (Limited-memory BFGS)</li>
+<li>CMA-ES (Covariance Matrix Adaptation Evolution Strategy)</li>
+</ol>
+<p><strong>Ensemble Algorithms (12 algorithms)</strong></p>
+<ol>
+<li>Boosting</li>
+<li>Bagging</li>
+<li>Random Subspace</li>
+<li>Stacking</li>
+<li>Gradient Boosting Machines (GBM)</li>
+<li>XGBoost</li>
+<li>CatBoost</li>
+<li>LightGBM</li>
+<li>Rotation Forest</li>
+<li>Voting Classifier</li>
+<li>SMOTEBoost</li>
+<li>Balanced Random Forest (BRF)</li>
+</ol>
+<p><strong>Recommendation Systems (10 algorithms)</strong></p>
+<ol>
+<li>Collaborative Filtering</li>
+<li>Content-Based Filtering</li>
+<li>Matrix Factorization Techniques (SVD, ALS)</li>
+<li>Association Rule Learning (Apriori, Eclat)</li>
+<li>Neural Collaborative Filtering</li>
+<li>Hybrid Recommendation Systems</li>
+<li>Context-Aware Recommendation</li>
+<li>Reinforcement Learning-Based Recommendation</li>
+<li>Deep Learning-Based Recommendation</li>
+<li>Knowledge Graph-Based Recommendation</li>
+</ol>
+<p><strong>Anomaly Detection Algorithms (9 algorithms)</strong></p>
+<ol>
+<li>Isolation Forest</li>
+<li>One-Class SVM</li>
+<li>Local Outlier Factor (LOF)</li>
+<li>Elliptic Envelope</li>
+<li>DBSCAN</li>
+<li>PCA-Based Anomaly Detection</li>
+<li>Autoencoders-Based Anomaly Detection</li>
+<li>GMM (Gaussian Mixture Model)</li>
+<li>Hawkins–Cramer Test</li>
+<li>Graph Algorithms in AI (8 algorithms)**</li>
+<li>PageRank</li>
+<li>Graph Convolutional Networks (GCNs)</li>
+<li>Node2Vec</li>
+<li>Graph Attention Networks (GAT)</li>
+<li>GraphSAGE</li>
+<li>Random Walk Algorithms</li>
+<li>Label Propagation Algorithm</li>
+<li>Eigenvector-Based Centrality</li>
+</ol>
+<hr>
+<p>Table below is showing some algorithms, related information and examples that programmatically shows how it works (this task is in progress and some separated posts will be created later).</p>
+<table>
+<thead>
+<tr>
+<th><strong>Category</strong></th>
+<th><strong>Algorithm</strong></th>
+<th><strong>References</strong></th>
+<th><strong>Examples</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Machine Learning Algorithms</strong></td>
+<td>Linear Regression</td>
+<td><a href="https://doi.org/10.1007/978-0-387-84858-7">Algorithm <code>Linear Regression</code> in <code>The Elements of Statistical Learning, Hastie et al., 2009, see on pages 43-50.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_linear_regression">Example in python code for <code>Linear Regression</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Logistic Regression</td>
+<td><a href="https://github.com/peteflorence/MachineLearning6.867/blob/master/Bishop/Bishop%20-%20Pattern%20Recognition%20and%20Machine%20Learning.pdf">Algorithm <code>Logistic Regression</code> in <code>Pattern Recognition and Machine Learning, Bishop, 2006, see on pages 205-210.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_logistic_regression">Example in python code for <code>Logistic Regression</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Decision Trees</td>
+<td><a href="https://www.taylorfrancis.com/books/mono/10.1201/9781315139470/classification-regression-trees-leo-breiman-jerome-friedman-olshen-charles-stone">Algorithm <code>Decision Trees</code> in <code>Classification and Regression Trees, Breiman et al., 1984, see on pages 32-38.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_decision_trees">Example in python code for <code>Decision Trees</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Random Forests</td>
+<td><a href="https://doi.org/10.1007/978-0-387-84858-7">Algorithm <code>Random Forests</code> in <code>The Elements of Statistical Learning, Hastie et al., 2009, see on pages 587-606.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_random_forests">Example in python code for <code>Random Forests</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Support Vector Machines</td>
+<td><a href="https://github.com/peteflorence/MachineLearning6.867/blob/master/Bishop/Bishop%20-%20Pattern%20Recognition%20and%20Machine%20Learning.pdf">Algorithm <code>SVM</code> in <code>Pattern Recognition and Machine Learning, Bishop, 2006, see on pages 326-337.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_svm">Example in python code for <code>Support Vector Machines</code></a></td>
+</tr>
+<tr>
+<td><strong>Deep Learning Algorithms</strong></td>
+<td>Convolutional Neural Networks (CNNs)</td>
+<td><a href="http://alvarestech.com/temp/deep/Deep%20Learning%20by%20Ian%20Goodfellow,%20Yoshua%20Bengio,%20Aaron%20Courville%20(z-lib.org).pdf">Algorithm <code>CNNs</code> in <code>Deep Learning, Goodfellow et al., 2016, see on pages 330-378.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_cnns">Example in python code for <code>CNNs</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Recurrent Neural Networks (RNNs)</td>
+<td><a href="http://alvarestech.com/temp/deep/Deep%20Learning%20by%20Ian%20Goodfellow,%20Yoshua%20Bengio,%20Aaron%20Courville%20(z-lib.org).pdf">Algorithm <code>RNNs</code> in <code>Deep Learning, Goodfellow et al., 2016, see on pages 372-400.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_rnns">Example in python code for <code>RNNs</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Generative Adversarial Networks (GANs)</td>
+<td><a href="http://alvarestech.com/temp/deep/Deep%20Learning%20by%20Ian%20Goodfellow,%20Yoshua%20Bengio,%20Aaron%20Courville%20(z-lib.org).pdf">Algorithm <code>GANs</code> in <code>Deep Learning, Goodfellow et al., 2016, see on pages 669-708.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_gans">Example in python code for <code>GANs</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Transformers</td>
+<td><a href="https://arxiv.org/abs/1706.03762">Algorithm <code>Transformers</code> in <code>Attention Is All You Need, Vaswani et al., 2017.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_transformers">Example in python code for <code>Transformers</code></a></td>
+</tr>
+<tr>
+<td><strong>Optimization Algorithms</strong></td>
+<td>Gradient Descent</td>
+<td><a href="https://web.stanford.edu/~boyd/cvxbook/">Algorithm <code>Gradient Descent</code> in <code>Convex Optimization, Boyd et al., 2004, see on pages 232-240.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_gradient_descent">Example in python code for <code>Gradient Descent</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Stochastic Gradient Descent (SGD)</td>
+<td><a href="http://alvarestech.com/temp/deep/Deep%20Learning%20by%20Ian%20Goodfellow,%20Yoshua%20Bengio,%20Aaron%20Courville%20(z-lib.org).pdf">Algorithm <code>SGD</code> in <code>Deep Learning, Goodfellow et al., 2016, see on pages 295-298.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_sgd">Example in python code for <code>SGD</code></a></td>
+</tr>
+<tr>
+<td><strong>Reinforcement Learning</strong></td>
+<td>Q-Learning</td>
+<td><a href="https://web.stanford.edu/class/psych209/">Algorithm <code>Q-Learning</code> in <code>Reinforcement Learning: An Introduction, Sutton &amp; Barto, 1998, see on pages 131-139.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_q_learning">Example in python code for <code>Q-Learning</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>Deep Q-Network (DQN)</td>
+<td><a href="https://arxiv.org/abs/1312.5602">Algorithm <code>DQN</code> in <code>Playing Atari with Deep Reinforcement Learning, Mnih et al., 2013.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_dqn">Example in python code for <code>DQN</code></a></td>
+</tr>
+<tr>
+<td><strong>Natural Language Processing</strong></td>
+<td>BERT (Bidirectional Encoder Representations from Transformers)</td>
+<td><a href="https://arxiv.org/abs/1810.04805">Algorithm <code>BERT</code> in <code>BERT: Pre-training of Deep Bidirectional Transformers, Devlin et al., 2019.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_bert">Example in python code for <code>BERT</code></a></td>
+</tr>
+<tr>
+<td></td>
+<td>GPT (Generative Pre-trained Transformer)</td>
+<td><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">Algorithm <code>GPT</code> in <code>Improving Language Understanding by Generative Pre-Training, Radford et al., 2018.</code></a></td>
+<td><a href="/hexo-blog/algorithms/example_in_code_for_gpt">Example in python code for <code>GPT</code></a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>algorithms</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Parsing web site for job offers</title>
     <url>/hexo-blog//data_mining/post_data_mining__parsing_web_site_for_job_offers/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Given</strong> The website with posted offers.<br><strong>Goal:</strong> to get information from the website using python, BeautifulSoup and save it in JSON and markdown files.</p>
@@ -4692,31 +4963,6 @@ def initialize_api(api_key):
       <tags>
         <tag>dev_side</tag>
         <tag>kafka</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Basic loguru configuration for python</title>
-    <url>/hexo-blog/2023/10/25/post_dev_side__loguru_loger_basic_configuration/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
-<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
-<li><p>Loguru installation command via PIP</p>
- <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
-</li>
-<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>loguru</tag>
-        <tag>logger</tag>
       </tags>
   </entry>
   <entry>
@@ -5046,6 +5292,31 @@ def initialize_api(api_key):
       <tags>
         <tag>python</tag>
         <tag>dev_side</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic loguru configuration for python</title>
+    <url>/hexo-blog/2023/10/25/post_dev_side__loguru_loger_basic_configuration/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
+<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
+<li><p>Loguru installation command via PIP</p>
+ <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
+</li>
+<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>loguru</tag>
+        <tag>logger</tag>
       </tags>
   </entry>
   <entry>
@@ -5493,7 +5764,7 @@ def initialize_api(api_key):
   </entry>
   <entry>
     <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
-    <url>/hexo-blog/2024/09/28/post_docs_publishing__readthedoc_vs_github_pages_tutorial_1/</url>
+    <url>/hexo-blog//docs_publishing/readthedoc_vs_github_pages_tutorial_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
 <p>Now I faced with some issues of publishing existing project documentation that was created by Sphinx<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>For my <a href="https://github.com/ooge0/python_TA_web_api_framework">personal project on GIT: python_TA_web_api_framework</a> I creted project documentation and generated by Sphinx all necessary data but for some technical reason had no luck to publish it in the web.</p>
 <p>Researching existing approaches showed me that there are several platforms for publishing documentation, created mostly in rst<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> format<br>Configuration of GitHub:  Pages and ReadTheDocs: for same project content is different. </p>
@@ -5545,14 +5816,14 @@ def initialize_api(api_key):
 </ol>
 </li>
 </ol>
-<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
+<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-YouTube-video-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-YouTube-video-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. YouTube video: Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">YouTube video: Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
 reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. reStructuredText is designed for extensibility for specific application domains. The reStructuredText parser is a component of Docutils. reStructuredText is a revision and reinterpretation of the StructuredText and Setext lightweight markup systems.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
         <tag>ReadTheDocs</tag>
-        <tag>[object Object]</tag>
+        <tag>GitHubPages</tag>
         <tag>DocPublishing</tag>
       </tags>
   </entry>
@@ -5647,78 +5918,8 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>Основы лингвистики</title>
-    <url>/hexo-blog//linguistic/linguistic_basics_ru/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
-<ul>
-<li><a href="/hexo-blog/linguistic/linguistic_basics/">Linguistic basics</a></li>
-</ul>
-<hr>
-<h2 id="1-Лингвистические-домены"><a href="#1-Лингвистические-домены" class="headerlink" title="1. Лингвистические домены"></a>1. Лингвистические домены</h2><h3 id="Синтаксис"><a href="#Синтаксис" class="headerlink" title="Синтаксис"></a>Синтаксис</h3><p>Синтаксис занимается структурой предложений и грамматической корректностью, что является основой для качества текста.</p>
-<h3 id="Семантика"><a href="#Семантика" class="headerlink" title="Семантика"></a>Семантика</h3><p>Семантика обеспечивает логическое соответствие значений слов и предложений, способствуя когерентности и качеству текста.</p>
-<h3 id="Прагматика"><a href="#Прагматика" class="headerlink" title="Прагматика"></a>Прагматика</h3><p>Прагматика изучает контекст и предполагаемое значение, что влияет как на когерентность, так и на качество текста.</p>
-<h3 id="Анализ-дискурса"><a href="#Анализ-дискурса" class="headerlink" title="Анализ дискурса"></a>Анализ дискурса</h3><p>Анализ дискурса исследует, как предложения и абзацы соединяются в значимую и когерентную структуру, что является критическим аспектом текстовой когерентности.</p>
-<hr>
-<h2 id="2-Теоретическая-лингвистика"><a href="#2-Теоретическая-лингвистика" class="headerlink" title="2. Теоретическая лингвистика"></a>2. Теоретическая лингвистика</h2><p>В теоретической лингвистике данные понятия связаны с:</p>
-<h3 id="Лингвистика-текста"><a href="#Лингвистика-текста" class="headerlink" title="Лингвистика текста"></a>Лингвистика текста</h3><p>Изучает, как текст структурирован для достижения смысла и когерентности.</p>
-<h3 id="Когезия-и-когерентность"><a href="#Когезия-и-когерентность" class="headerlink" title="Когезия и когерентность"></a>Когезия и когерентность</h3><p>Анализирует языковые средства (например, союзы, местоимения, референции) и логические связи между элементами текста.</p>
-<h3 id="Когезия"><a href="#Когезия" class="headerlink" title="Когезия"></a>Когезия</h3><p>Когезия как явление очень основательно описана в работе Халидая и Хасана 1976 года под названием “Cohesion in English”. По определению авторов, когезия - это явление непрерывности между разными частями того, что мы называем текстом. Эта непрерывность образуется благодаря грамматическим и лексическим связям между отдельными смысловыми сущностями, которыми могут выступать предложения или простые части сложных предложений.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
-<h3 id="Когерентность"><a href="#Когерентность" class="headerlink" title="Когерентность"></a>Когерентность</h3><p>Когере́нтность (от лат. cohaerens — «находящийся в связи») — в лингвистике целостность текста, заключающаяся в логико-семантической, грамматической и стилистической соотнесённости и взаимозависимости составляющих его элементов (слов, предложений и т. д.)<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
-<h3 id="Когнитивная-лингвистика"><a href="#Когнитивная-лингвистика" class="headerlink" title="Когнитивная лингвистика"></a>Когнитивная лингвистика</h3><p>Изучает, как читатели воспринимают и интерпретируют текст, что влияет на восприятие когерентности и качества.</p>
-<h3 id="Разрешение-анафор"><a href="#Разрешение-анафор" class="headerlink" title="Разрешение анафор"></a>Разрешение анафор</h3><p>Анафора — это использование слов, ссылающихся на ранее упомянутые элементы текста (например, местоимения “он”, “она”, “оно”). Разрешение анафор включает:</p>
-<ul>
-<li>Определение референтов (к чему относится анафора).</li>
-<li>Построение моделей контекста для точной интерпретации.<br>Пример: “Маша пошла в магазин. Она купила хлеб.” Здесь “она” относится к “Маша”.</li>
-</ul>
-<h4 id="Связанные-понятия"><a href="#Связанные-понятия" class="headerlink" title="Связанные понятия"></a>Связанные понятия</h4><ul>
-<li><strong>Катастрофа референции</strong>: ошибки в интерпретации референтов.</li>
-<li><strong>Кореференция</strong>: идентификация, когда разные выражения ссылаются на один объект.<br>Пример: “Доктор Иванов вошел. Иванов начал осмотр.”</li>
-</ul>
-<hr>
-<h2 id="3-Прикладная-лингвистика"><a href="#3-Прикладная-лингвистика" class="headerlink" title="3. Прикладная лингвистика"></a>3. Прикладная лингвистика</h2><p>В прикладных контекстах когерентность и качество текста играют ключевую роль в:</p>
-<h3 id="Обработка-естественного-языка-NLP"><a href="#Обработка-естественного-языка-NLP" class="headerlink" title="Обработка естественного языка (NLP)"></a>Обработка естественного языка (NLP)</h3><p>Обеспечение того, чтобы текст, сгенерированный машинами, соответствовал ожиданиям человека.</p>
-<h3 id="Преподавание-языка"><a href="#Преподавание-языка" class="headerlink" title="Преподавание языка"></a>Преподавание языка</h3><p>Обучение навыкам написания когерентных и качественных текстов.</p>
-<h3 id="Переводоведение"><a href="#Переводоведение" class="headerlink" title="Переводоведение"></a>Переводоведение</h3><p>Сохранение когерентности и качества при переводе между языками.</p>
-<hr>
-<h2 id="4-Компьютерная-лингвистика"><a href="#4-Компьютерная-лингвистика" class="headerlink" title="4. Компьютерная лингвистика"></a>4. Компьютерная лингвистика</h2><p>Генерация и оценка текста играют важную роль в компьютерной лингвистике, где разрабатываются алгоритмы для:</p>
-<ul>
-<li>Имитации человеческой когерентности и качества в машинно-сгенерированном тексте.</li>
-<li>Оптимизации когерентности за счет логического построения и тематической согласованности.</li>
-<li>Улучшения качества через грамматически точный и стилистически подходящий текст.</li>
-</ul>
-<hr>
-<h2 id="Литература"><a href="#Литература" class="headerlink" title="Литература"></a>Литература</h2><ol>
-<li>Кибрик А. А. <code>Введение в общую и прикладную лингвистику</code>. Москва: УРСС, 2008.  </li>
-<li>Бондарко А. В. <code>Функциональная грамматика</code>. Москва: Наука, 1984.  </li>
-<li>Богуславский И. М. <code>Семантический синтаксис и разрешение анафоры</code>. Москва: Языки славянской культуры, 2011.  </li>
-<li>Яковлев С. П. <code>Компьютерная лингвистика и обработка текстов</code>. Санкт-Петербург: Питер, 2020.  </li>
-<li>Бибер Д., Конрад С. <code>Лингвистический анализ текста</code>. Москва: Логос, 2009.  </li>
-<li>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. <ol>
-<li><a href="https://moodle.znu.edu.ua/pluginfile.php/587137/mod_resource/content/1/%D0%A1%D0%B5%D0%BB%D1%96%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0.pdf">Читати книгу <code>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. </code> на moodle.znu.edu.ua</a></li>
-</ol>
-</li>
-<li>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423<ol>
-<li><a href="https://shron1.chtyvo.org.ua/Kochan_Iryna/Linhvistychnyi_analiz_tekstu.pdf?PHPSESSID=1cl5h308tpamb2igkr67p4ni86">Читати книгу <code>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423</code> на chtyvo.org.ua</a></li>
-</ol>
-</li>
-<li>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269<ol>
-<li><a href="https://www.hse.ru/data/2017/08/12/1174382135/NLP_and_DA.pdf">Читать книгу <code>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269</code> на hse.ru</a></li>
-</ol>
-</li>
-<li></li>
-</ol>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://habr.com/ru/articles/711054/">О когезии и когерентности. habr.com</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B3%D0%B5%D1%80%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)#cite_note-1">Когерентность. wikipedia.org</a></span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>linguistic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Text Generation Coherence vs. Text Generation Quality</title>
-    <url>/hexo-blog/2024/12/12/post_linguistic__text_coherence_vs_text_quiality/</url>
+    <url>/hexo-blog//linguistic/text_coherence_vs_text_quiality/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Text-Generation-Coherence"><a href="#1-Text-Generation-Coherence" class="headerlink" title="1. Text Generation Coherence"></a>1. Text Generation Coherence</h2><p>Coherence refers to the logical and structural flow of the text. A coherent text feels connected and makes sense as a whole. It ensures that:</p>
 <ul>
 <li><strong>Logical Progression</strong>: Sentences and paragraphs follow each other in a natural order.</li>
@@ -5812,6 +6013,76 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
 <p>While coherence is a subset of quality, high-quality text must always be coherent. However, coherent text might not necessarily be high-quality if it lacks creativity, relevance, or stylistic finesse.</p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>linguistic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Основы лингвистики</title>
+    <url>/hexo-blog//linguistic/linguistic_basics_ru/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ul>
+<li><a href="/hexo-blog/linguistic/linguistic_basics/">Linguistic basics</a></li>
+</ul>
+<hr>
+<h2 id="1-Лингвистические-домены"><a href="#1-Лингвистические-домены" class="headerlink" title="1. Лингвистические домены"></a>1. Лингвистические домены</h2><h3 id="Синтаксис"><a href="#Синтаксис" class="headerlink" title="Синтаксис"></a>Синтаксис</h3><p>Синтаксис занимается структурой предложений и грамматической корректностью, что является основой для качества текста.</p>
+<h3 id="Семантика"><a href="#Семантика" class="headerlink" title="Семантика"></a>Семантика</h3><p>Семантика обеспечивает логическое соответствие значений слов и предложений, способствуя когерентности и качеству текста.</p>
+<h3 id="Прагматика"><a href="#Прагматика" class="headerlink" title="Прагматика"></a>Прагматика</h3><p>Прагматика изучает контекст и предполагаемое значение, что влияет как на когерентность, так и на качество текста.</p>
+<h3 id="Анализ-дискурса"><a href="#Анализ-дискурса" class="headerlink" title="Анализ дискурса"></a>Анализ дискурса</h3><p>Анализ дискурса исследует, как предложения и абзацы соединяются в значимую и когерентную структуру, что является критическим аспектом текстовой когерентности.</p>
+<hr>
+<h2 id="2-Теоретическая-лингвистика"><a href="#2-Теоретическая-лингвистика" class="headerlink" title="2. Теоретическая лингвистика"></a>2. Теоретическая лингвистика</h2><p>В теоретической лингвистике данные понятия связаны с:</p>
+<h3 id="Лингвистика-текста"><a href="#Лингвистика-текста" class="headerlink" title="Лингвистика текста"></a>Лингвистика текста</h3><p>Изучает, как текст структурирован для достижения смысла и когерентности.</p>
+<h3 id="Когезия-и-когерентность"><a href="#Когезия-и-когерентность" class="headerlink" title="Когезия и когерентность"></a>Когезия и когерентность</h3><p>Анализирует языковые средства (например, союзы, местоимения, референции) и логические связи между элементами текста.</p>
+<h3 id="Когезия"><a href="#Когезия" class="headerlink" title="Когезия"></a>Когезия</h3><p>Когезия как явление очень основательно описана в работе Халидая и Хасана 1976 года под названием “Cohesion in English”. По определению авторов, когезия - это явление непрерывности между разными частями того, что мы называем текстом. Эта непрерывность образуется благодаря грамматическим и лексическим связям между отдельными смысловыми сущностями, которыми могут выступать предложения или простые части сложных предложений.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<h3 id="Когерентность"><a href="#Когерентность" class="headerlink" title="Когерентность"></a>Когерентность</h3><p>Когере́нтность (от лат. cohaerens — «находящийся в связи») — в лингвистике целостность текста, заключающаяся в логико-семантической, грамматической и стилистической соотнесённости и взаимозависимости составляющих его элементов (слов, предложений и т. д.)<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+<h3 id="Когнитивная-лингвистика"><a href="#Когнитивная-лингвистика" class="headerlink" title="Когнитивная лингвистика"></a>Когнитивная лингвистика</h3><p>Изучает, как читатели воспринимают и интерпретируют текст, что влияет на восприятие когерентности и качества.</p>
+<h3 id="Разрешение-анафор"><a href="#Разрешение-анафор" class="headerlink" title="Разрешение анафор"></a>Разрешение анафор</h3><p>Анафора — это использование слов, ссылающихся на ранее упомянутые элементы текста (например, местоимения “он”, “она”, “оно”). Разрешение анафор включает:</p>
+<ul>
+<li>Определение референтов (к чему относится анафора).</li>
+<li>Построение моделей контекста для точной интерпретации.<br>Пример: “Маша пошла в магазин. Она купила хлеб.” Здесь “она” относится к “Маша”.</li>
+</ul>
+<h4 id="Связанные-понятия"><a href="#Связанные-понятия" class="headerlink" title="Связанные понятия"></a>Связанные понятия</h4><ul>
+<li><strong>Катастрофа референции</strong>: ошибки в интерпретации референтов.</li>
+<li><strong>Кореференция</strong>: идентификация, когда разные выражения ссылаются на один объект.<br>Пример: “Доктор Иванов вошел. Иванов начал осмотр.”</li>
+</ul>
+<hr>
+<h2 id="3-Прикладная-лингвистика"><a href="#3-Прикладная-лингвистика" class="headerlink" title="3. Прикладная лингвистика"></a>3. Прикладная лингвистика</h2><p>В прикладных контекстах когерентность и качество текста играют ключевую роль в:</p>
+<h3 id="Обработка-естественного-языка-NLP"><a href="#Обработка-естественного-языка-NLP" class="headerlink" title="Обработка естественного языка (NLP)"></a>Обработка естественного языка (NLP)</h3><p>Обеспечение того, чтобы текст, сгенерированный машинами, соответствовал ожиданиям человека.</p>
+<h3 id="Преподавание-языка"><a href="#Преподавание-языка" class="headerlink" title="Преподавание языка"></a>Преподавание языка</h3><p>Обучение навыкам написания когерентных и качественных текстов.</p>
+<h3 id="Переводоведение"><a href="#Переводоведение" class="headerlink" title="Переводоведение"></a>Переводоведение</h3><p>Сохранение когерентности и качества при переводе между языками.</p>
+<hr>
+<h2 id="4-Компьютерная-лингвистика"><a href="#4-Компьютерная-лингвистика" class="headerlink" title="4. Компьютерная лингвистика"></a>4. Компьютерная лингвистика</h2><p>Генерация и оценка текста играют важную роль в компьютерной лингвистике, где разрабатываются алгоритмы для:</p>
+<ul>
+<li>Имитации человеческой когерентности и качества в машинно-сгенерированном тексте.</li>
+<li>Оптимизации когерентности за счет логического построения и тематической согласованности.</li>
+<li>Улучшения качества через грамматически точный и стилистически подходящий текст.</li>
+</ul>
+<hr>
+<h2 id="Литература"><a href="#Литература" class="headerlink" title="Литература"></a>Литература</h2><ol>
+<li>Кибрик А. А. <code>Введение в общую и прикладную лингвистику</code>. Москва: УРСС, 2008.  </li>
+<li>Бондарко А. В. <code>Функциональная грамматика</code>. Москва: Наука, 1984.  </li>
+<li>Богуславский И. М. <code>Семантический синтаксис и разрешение анафоры</code>. Москва: Языки славянской культуры, 2011.  </li>
+<li>Яковлев С. П. <code>Компьютерная лингвистика и обработка текстов</code>. Санкт-Петербург: Питер, 2020.  </li>
+<li>Бибер Д., Конрад С. <code>Лингвистический анализ текста</code>. Москва: Логос, 2009.  </li>
+<li>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. <ol>
+<li><a href="https://moodle.znu.edu.ua/pluginfile.php/587137/mod_resource/content/1/%D0%A1%D0%B5%D0%BB%D1%96%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0.pdf">Читати книгу <code>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. </code> на moodle.znu.edu.ua</a></li>
+</ol>
+</li>
+<li>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423<ol>
+<li><a href="https://shron1.chtyvo.org.ua/Kochan_Iryna/Linhvistychnyi_analiz_tekstu.pdf?PHPSESSID=1cl5h308tpamb2igkr67p4ni86">Читати книгу <code>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423</code> на chtyvo.org.ua</a></li>
+</ol>
+</li>
+<li>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269<ol>
+<li><a href="https://www.hse.ru/data/2017/08/12/1174382135/NLP_and_DA.pdf">Читать книгу <code>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269</code> на hse.ru</a></li>
+</ol>
+</li>
+<li></li>
+</ol>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://habr.com/ru/articles/711054/">О когезии и когерентности. habr.com</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B3%D0%B5%D1%80%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)#cite_note-1">Когерентность. wikipedia.org</a></span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
       <categories>
         <category>Posts</category>
       </categories>
@@ -6250,59 +6521,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
-    <title>Software QA - DB testing approach</title>
-    <url>/hexo-blog/2024/10/21/post_qa__software_qa_db_testing_approach/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
-<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
-<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
-<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Use this script to create a clean database environment before running tests.</li>
-<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
-</ul>
-<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
-<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
-</ul>
-<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
-
-<p><strong>Testing the Stored Procedure:</strong></p>
-<p>You can write a script to test the stored procedure and verify its results.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Create unit tests for stored procedures to ensure they work as expected.</li>
-<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
-</ul>
-<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
-<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
-</ul>
-<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
-<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>QA</category>
-      </categories>
-      <tags>
-        <tag>qa</tag>
-        <tag>db</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Test design techniques for mobile applications</title>
     <url>/hexo-blog/2024/04/09/post_qa__test_design_techniques_for_mobile_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
@@ -6406,6 +6624,59 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
+    <title>Software QA - DB testing approach</title>
+    <url>/hexo-blog/2024/10/21/post_qa__software_qa_db_testing_approach/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
+<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
+<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
+<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Use this script to create a clean database environment before running tests.</li>
+<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
+</ul>
+<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
+<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
+</ul>
+<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Testing the Stored Procedure:</strong></p>
+<p>You can write a script to test the stored procedure and verify its results.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Create unit tests for stored procedures to ensure they work as expected.</li>
+<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
+</ul>
+<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
+<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
+</ul>
+<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
+<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>QA</category>
+      </categories>
+      <tags>
+        <tag>qa</tag>
+        <tag>db</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Resources</title>
     <url>/hexo-blog/2024/10/28/post_resources/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
@@ -6441,65 +6712,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>global_knowledge</tag>
         <tag>resources</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Site for blogging</title>
-    <url>/hexo-blog/2024/04/28/post_site_for_blogging/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
-<hr>
-<ol>
-<li><p>blogger.com</p>
-<p> <a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
-</li>
-<li><p>indieblog.page</p>
-<p> <a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
-</li>
-<li><p>ghost.org</p>
-<p> <a href="https://ghost.org/">https://ghost.org/</a></p>
-</li>
-</ol>
-<hr>
-<ol start="4">
-<li>Simple example that can be used by</li>
-</ol>
-<h2 id=""><a href="#" class="headerlink" title="."></a>.</h2><div>
-  <span style="
-      color: purple; 
-      font-weight: bold; 
-      text-align: center;
-      font-size: 33px;
-      font-family: 'Courier New', Courier, monospace;
-      transition: transform 0.3s ease;
-  " 
-  onmouseover="this.style.transform='scale(1.2)'" 
-  onmouseout="this.style.transform='scale(1)'">   ko6e4ka   
-  </span>
-</div>
-
-<p>  <img src="/hexo-blog/images/posts__magic_cats.png"></p>
-<div>
-<span style="
-      color: green; 
-      font-weight: italic; 
-      text-align: center;
-      font-size: 66px;
-      font-family: 'Brush Script MT', Courier, monospace;
-      transition: transform 0.3s ease;
-  " 
-  onmouseover="this.style.transform='scale(1.2)'" 
-  onmouseout="this.style.transform='scale(1)'">
-  <a target="_blank" href="https://skookworks.wordpress.com/about/">skookworks</a>
-</span>
-</div>
-
-<p>  <img src="/hexo-blog/images/posts__magic_cat_1.png"></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -6588,6 +6800,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Site for blogging</title>
+    <url>/hexo-blog/2024/04/28/post_site_for_blogging/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
+<hr>
+<ol>
+<li><p>blogger.com</p>
+<p> <a href="https://www.blogger.com/">https://www.blogger.com/</a></p>
+</li>
+<li><p>indieblog.page</p>
+<p> <a href="https://indieblog.page/all">https://indieblog.page/all</a></p>
+</li>
+<li><p>ghost.org</p>
+<p> <a href="https://ghost.org/">https://ghost.org/</a></p>
+</li>
+</ol>
+<hr>
+<ol start="4">
+<li>Simple example that can be used by</li>
+</ol>
+<h2 id=""><a href="#" class="headerlink" title="."></a>.</h2><div>
+  <span style="
+      color: purple; 
+      font-weight: bold; 
+      text-align: center;
+      font-size: 33px;
+      font-family: 'Courier New', Courier, monospace;
+      transition: transform 0.3s ease;
+  " 
+  onmouseover="this.style.transform='scale(1.2)'" 
+  onmouseout="this.style.transform='scale(1)'">   ko6e4ka   
+  </span>
+</div>
+
+<p>  <img src="/hexo-blog/images/posts__magic_cats.png"></p>
+<div>
+<span style="
+      color: green; 
+      font-weight: italic; 
+      text-align: center;
+      font-size: 66px;
+      font-family: 'Brush Script MT', Courier, monospace;
+      transition: transform 0.3s ease;
+  " 
+  onmouseover="this.style.transform='scale(1.2)'" 
+  onmouseout="this.style.transform='scale(1)'">
+  <a target="_blank" href="https://skookworks.wordpress.com/about/">skookworks</a>
+</span>
+</div>
+
+<p>  <img src="/hexo-blog/images/posts__magic_cat_1.png"></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Blog&#39;s categories</title>
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
@@ -6605,6 +6876,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Cheatsheet list</title>
     <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -6619,18 +6904,25 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
 ]]></content>
       <categories>
         <category>Maintanance</category>
       </categories>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
   </entry>
   <entry>
     <title>My Statistics page</title>
@@ -6655,27 +6947,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>statistics</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -7043,24 +7314,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXO blog design</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
@@ -7104,6 +7357,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>hexo_io</tag>
         <tag>note</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -7311,6 +7582,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows services and VM usage</title>
     <url>/hexo-blog/2024/11/20/notes/notes_windows_services_and_vm_usage/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
@@ -7454,20 +7739,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>sys_conffigs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -7618,54 +7889,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>my_contribution</tag>
         <tag>tools</tag>
         <tag>online_tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
-<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
-</ol>
-<ul>
-<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
-<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>papers</tag>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
@@ -8264,6 +8487,54 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>hexo_io</tag>
         <tag>examples</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
+<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
+</ol>
+<ul>
+<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
+<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>papers</tag>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
