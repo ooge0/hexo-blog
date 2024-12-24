@@ -372,28 +372,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
-<ul>
-<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
-<li>DOI:10.1561&#x2F;2200000056</li>
-<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
-<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AI glossaries list</title>
     <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
@@ -441,6 +419,28 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><p>Paper:</p>
+<ul>
+<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
+<li>DOI:10.1561&#x2F;2200000056</li>
+<li><a href="https://arxiv.org/pdf/1906.02691">Read on arxiv.org</a></li>
+<li><a href="https://sci-hub.se/10.1561/2200000056">Read on sci-hub.se</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -565,23 +565,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Chatbots from scratch</title>
-    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>chatbot</tag>
-        <tag>Llama</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>References for learning AI algorithms</title>
     <url>/hexo-blog//ai_algorithms/references_for_learning_ai_algorithms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>references_for_learning_ai_algorithms<br><em>This post related to :</em></p>
@@ -627,126 +610,10 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>BERT configuration parameters overview</title>
-    <url>/hexo-blog//ai/post_ai_llm__bert_configuration_parameters_overview/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
-<ol>
-<li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li>
-<li><a href="/hexo-blog/ai/post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a></li>
-<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li>
-</ol>
-<hr>
-<h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table>
-<thead>
-<tr>
-<th><strong>Parameter</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Data Type&#x2F;Options</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>hidden_size</code></td>
-<td>Dimensionality of the hidden states and embeddings.</td>
-<td>Integer, e.g., <code>768</code>, <code>1024</code>.</td>
-</tr>
-<tr>
-<td><code>num_hidden_layers</code></td>
-<td>Number of hidden layers in the transformer encoder.</td>
-<td>Integer, e.g., <code>12</code>, <code>24</code>.</td>
-</tr>
-<tr>
-<td><code>num_attention_heads</code></td>
-<td>Number of attention heads per transformer layer.</td>
-<td>Integer, typically a divisor of <code>hidden_size</code>.</td>
-</tr>
-<tr>
-<td><code>vocab_size</code></td>
-<td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td>
-<td>Integer, e.g., <code>30522</code>.</td>
-</tr>
-<tr>
-<td><code>intermediate_size</code></td>
-<td>Dimensionality of the feedforward layers.</td>
-<td>Integer, e.g., <code>3072</code>.</td>
-</tr>
-<tr>
-<td><code>hidden_dropout_prob</code></td>
-<td>Dropout probability for fully connected layers in the encoder.</td>
-<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
-</tr>
-<tr>
-<td><code>attention_probs_dropout_prob</code></td>
-<td>Dropout probability in the attention mechanism.</td>
-<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
-</tr>
-<tr>
-<td><code>max_position_embeddings</code></td>
-<td>Maximum number of positions for input tokens.</td>
-<td>Integer, e.g., <code>512</code>.</td>
-</tr>
-<tr>
-<td><code>type_vocab_size</code></td>
-<td>Size of the token type vocabulary for segment embeddings.</td>
-<td>Integer, typically <code>2</code>.</td>
-</tr>
-<tr>
-<td><code>initializer_range</code></td>
-<td>Standard deviation for weight initialization.</td>
-<td>Float, e.g., <code>0.02</code>.</td>
-</tr>
-<tr>
-<td><code>layer_norm_eps</code></td>
-<td>A small value added for numerical stability in layer normalization.</td>
-<td>Float, typically <code>1e-5</code>.</td>
-</tr>
-<tr>
-<td><code>output_hidden_states</code></td>
-<td>Whether to output all hidden states from each layer.</td>
-<td>Boolean, <code>true</code> or <code>false</code>.</td>
-</tr>
-<tr>
-<td><code>output_attentions</code></td>
-<td>Whether to output the attention weights.</td>
-<td>Boolean, <code>true</code> or <code>false</code>.</td>
-</tr>
-</tbody></table>
-<h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol>
-<li><p><strong>Capacity:</strong></p>
-<ul>
-<li>Increasing <code>hidden_size</code>, <code>num_hidden_layers</code>, or <code>num_attention_heads</code> allows the model to capture more complex patterns but increases resource usage.</li>
-</ul>
-</li>
-<li><p><strong>Regularization:</strong></p>
-<ul>
-<li>Dropout probabilities (<code>hidden_dropout_prob</code>, <code>attention_probs_dropout_prob</code>) control overfitting risks but can hinder learning if set too high.</li>
-</ul>
-</li>
-<li><p><strong>Pretraining vs. Fine-tuning:</strong></p>
-<ul>
-<li><code>type_vocab_size</code> is essential for tasks requiring segment embeddings (e.g., sentence pairs).</li>
-</ul>
-</li>
-<li><p><strong>Stability and Efficiency:</strong></p>
-<ul>
-<li><code>layer_norm_eps</code> ensures stable training, while <code>initializer_range</code> affects convergence.</li>
-</ul>
-</li>
-</ol>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
-<li>Paper</li>
-<li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</li>
-<li>DOI: 10.48550&#x2F;arXiv.1810.04805</li>
-<li><a href="https://arxiv.org/abs/1810.04805">Read on </a></li>
-<li><a href="https://huggingface.co/docs/transformers/model_doc/bert">Hugging Face BERT Documentation</a></li>
-</ul>
-<h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul>
-<li><strong>Report:</strong> “On the Structural Properties of BERT Models” (Kovaleva et al., 2019).</li>
-<li><strong>Challenges:</strong> Over-parameterization and inefficiency in fine-tuning for domain-specific tasks.</li>
-</ul>
-<h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul>
-<li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li>
-<li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
-<li><strong>OpenAI Playground for Text Understanding:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li>
+    <title>Chatbots from scratch</title>
+    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -754,8 +621,94 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>BERT</tag>
+        <tag>ML</tag>
+        <tag>chatbot</tag>
+        <tag>Llama</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basics of Generative Pre-training Transformer (GPT)</title>
+    <url>/hexo-blog//ai_gpt/gpt_basics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Generative Pre-training Transformers (GPT) are a type of language model that utilizes the transformer architecture to generate, predict, or understand natural language. The foundation of GPT is rooted in deep learning principles, leveraging pre-trained models that learn from massive datasets to predict the next word or phrase in a sequence. This guide provides an overview of GPT, its evaluation metrics, and references for further exploration.</p>
+<h2 id="Core-Concepts-of-GPT"><a href="#Core-Concepts-of-GPT" class="headerlink" title="Core Concepts of GPT"></a>Core Concepts of GPT</h2><h3 id="Transformer-Architecture"><a href="#Transformer-Architecture" class="headerlink" title="Transformer Architecture"></a>Transformer Architecture</h3><p>Transformers are neural networks designed to handle sequential data efficiently by using attention mechanisms instead of recurrence. Key components of transformers include:</p>
+<ul>
+<li><strong>Self-Attention Mechanism</strong>: Helps the model focus on relevant parts of input sequences while processing text.</li>
+<li><strong>Feed-Forward Neural Networks</strong>: Adds depth to the architecture, enhancing its expressive capabilities.</li>
+<li><strong>Positional Encoding</strong>: Captures the order of words, a critical aspect of language understanding.</li>
+</ul>
+<h3 id="Generative-Pre-training"><a href="#Generative-Pre-training" class="headerlink" title="Generative Pre-training"></a>Generative Pre-training</h3><p>The pre-training phase involves unsupervised learning on vast corpora of text. The model learns statistical patterns of language, such as grammar, semantics, and relationships between words, enabling fine-tuning for specific tasks.</p>
+<h3 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h3><p>Fine-tuning adapts the pre-trained model to specific applications (e.g., summarization, translation, or question answering) using task-specific labeled datasets.</p>
+<h2 id="Metrics-for-Evaluating-Generated-Context"><a href="#Metrics-for-Evaluating-Generated-Context" class="headerlink" title="Metrics for Evaluating Generated Context"></a>Metrics for Evaluating Generated Context</h2><p>Assessing the quality of generated content requires diverse evaluation metrics. Below are commonly used metrics with short descriptions:</p>
+<ol>
+<li><strong>Perplexity</strong><ul>
+<li>Measures how well a model predicts a sample. Lower perplexity indicates better performance.</li>
+</ul>
+</li>
+<li><strong>BLEU (Bilingual Evaluation Understudy)</strong><ul>
+<li>Evaluates machine translation by comparing generated text to reference translations using n-gram overlap.</li>
+</ul>
+</li>
+<li><strong>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</strong><ul>
+<li>Measures the quality of summaries by comparing overlap with reference summaries.</li>
+</ul>
+</li>
+<li><strong>METEOR (Metric for Evaluation of Translation with Explicit ORdering)</strong><ul>
+<li>Focuses on precision and recall, considering synonyms and stemming.</li>
+</ul>
+</li>
+<li><strong>CIDEr (Consensus-based Image Description Evaluation)</strong><ul>
+<li>Evaluates the alignment between generated captions and reference captions in visual tasks.</li>
+</ul>
+</li>
+<li><strong>SPICE (Semantic Propositional Image Caption Evaluation)</strong><ul>
+<li>Measures semantic quality by assessing propositional content.</li>
+</ul>
+</li>
+<li><strong>TER (Translation Edit Rate)</strong><ul>
+<li>Computes the number of edits required to match a generated sentence with a reference.</li>
+</ul>
+</li>
+<li><strong>Coherence</strong><ul>
+<li>Checks the logical flow and relevance of ideas in the generated content.</li>
+</ul>
+</li>
+<li><strong>Diversity</strong><ul>
+<li>Assesses variability in generated responses, penalizing repetitive outputs.</li>
+</ul>
+</li>
+<li><strong>AUT (Alternative Usage Tests)</strong><ul>
+<li>Evaluates the applicability of generated content for alternative scenarios or contexts.</li>
+</ul>
+</li>
+</ol>
+<h2 id="Alternative-Usage-Tests-AUT"><a href="#Alternative-Usage-Tests-AUT" class="headerlink" title="Alternative Usage Tests (AUT)"></a>Alternative Usage Tests (AUT)</h2><p>AUT focuses on testing a model’s adaptability in diverse contexts. Examples include:</p>
+<ul>
+<li><strong>Scenario-Specific Adaptation</strong>: Generating content for specific domains, like legal or medical.</li>
+<li><strong>Interactive Dialogues</strong>: Testing conversational models’ ability to handle varied inputs.</li>
+<li><strong>Creative Writing Tasks</strong>: Evaluating the model’s ability to generate poetry, stories, or advertisements.</li>
+</ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><a href="https://www.cs.bu.edu/fac/snyder/cs505/PerplexityPosts.pdf">Read post <code>Two minutes NLP — Perplexity explained with simple probabilities</code> + <code> Perplexity Intuition (and its derivation)</code> on cs.bu.edu</a></li>
+<li><a href="https://medium.com/@echen/understanding-perplexity-metrics-in-natural-language-ai-dbc6d57eb812">Read post <code>Understanding Perplexity Metrics in Natural Language AI</code> on medium.com</a></li>
+<li><a href="https://medium.com/@shubhamsd100/understanding-perplexity-in-language-models-a-detailed-exploration-2108b6ab85af">Read post <code>Understanding Perplexity in Language Models: A Detailed Exploration</code> on medium.com</a></li>
+<li><a href="https://aclanthology.org/P02-1040.pdf">Read paper <code>BLEU: A Method for Automatic Evaluation of Machine Translation. 2002</code> on aclanthology.org</a></li>
+<li><a href="https://towardsdatascience.com/introduction-to-text-summarization-with-rouge-scores-84140c64b471">Read post <code>Introduction to Text Summarization with ROUGE Scores</code> on towardsdatascience.com</a></li>
+<li><a href="https://docs.kolena.com/metrics/meteor/">Read post <code>METEOR</code> on docs.kolena.com</a></li>
+<li><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">Read paper <code>CIDEr: Consensus-based Image Description Evaluation</code>. Vedantam et al. (2015) on openaccess.thecvf.com</a></li>
+<li><a href="https://panderson.me/images/SPICE.pdf">Read paper <code>SPICE Metric for Captioning</code> on panderson.me</a></li>
+<li><a href="https://arxiv.org/pdf/2309.12619">Read paper <code>Coherence in natural language: Data structures and applications</code>. Florian Wolf (2000) on</a></li>
+<li><a href="hhttps://arxiv.org/pdf/2309.12619">Read paper <code>Learning to Diversify Neural Text Generation via Degenerative Model.2023</code> on arxiv.org</a></li>
+<li><a href="https://aclanthology.org/D19-1321.pdf">Read paper <code>Long and Diverse Text Generation with Planning-based Hierarchical Variational Model. 2019</code> on aclanthology.org</a></li>
+<li><a href="https://arxiv.org/pdf/1804.11258">Read paper <code>Toward Diverse Text Generation with Inverse Reinforcement Learning. 2018</code> on arxiv.org&#x2F;pdf</a></li>
+<li><a href="https://computationalcreativity.net/iccc23/papers/ICCC-2023_paper_90.pdf">Read post <code>Pushing GPT&#39;s Creativity to Its Limits: Alternative Uses and Torrance Tests. 2023</code> on computationalcreativity.net</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>GPT</tag>
       </tags>
   </entry>
   <entry>
@@ -936,6 +889,138 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>LLM</tag>
         <tag>BART</tag>
         <tag>llm_parameters</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BERT configuration parameters overview</title>
+    <url>/hexo-blog//ai/post_ai_llm__bert_configuration_parameters_overview/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ol>
+<li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li>
+</ol>
+<hr>
+<h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table>
+<thead>
+<tr>
+<th><strong>Parameter</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Data Type&#x2F;Options</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>hidden_size</code></td>
+<td>Dimensionality of the hidden states and embeddings.</td>
+<td>Integer, e.g., <code>768</code>, <code>1024</code>.</td>
+</tr>
+<tr>
+<td><code>num_hidden_layers</code></td>
+<td>Number of hidden layers in the transformer encoder.</td>
+<td>Integer, e.g., <code>12</code>, <code>24</code>.</td>
+</tr>
+<tr>
+<td><code>num_attention_heads</code></td>
+<td>Number of attention heads per transformer layer.</td>
+<td>Integer, typically a divisor of <code>hidden_size</code>.</td>
+</tr>
+<tr>
+<td><code>vocab_size</code></td>
+<td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td>
+<td>Integer, e.g., <code>30522</code>.</td>
+</tr>
+<tr>
+<td><code>intermediate_size</code></td>
+<td>Dimensionality of the feedforward layers.</td>
+<td>Integer, e.g., <code>3072</code>.</td>
+</tr>
+<tr>
+<td><code>hidden_dropout_prob</code></td>
+<td>Dropout probability for fully connected layers in the encoder.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>attention_probs_dropout_prob</code></td>
+<td>Dropout probability in the attention mechanism.</td>
+<td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td>
+</tr>
+<tr>
+<td><code>max_position_embeddings</code></td>
+<td>Maximum number of positions for input tokens.</td>
+<td>Integer, e.g., <code>512</code>.</td>
+</tr>
+<tr>
+<td><code>type_vocab_size</code></td>
+<td>Size of the token type vocabulary for segment embeddings.</td>
+<td>Integer, typically <code>2</code>.</td>
+</tr>
+<tr>
+<td><code>initializer_range</code></td>
+<td>Standard deviation for weight initialization.</td>
+<td>Float, e.g., <code>0.02</code>.</td>
+</tr>
+<tr>
+<td><code>layer_norm_eps</code></td>
+<td>A small value added for numerical stability in layer normalization.</td>
+<td>Float, typically <code>1e-5</code>.</td>
+</tr>
+<tr>
+<td><code>output_hidden_states</code></td>
+<td>Whether to output all hidden states from each layer.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+<tr>
+<td><code>output_attentions</code></td>
+<td>Whether to output the attention weights.</td>
+<td>Boolean, <code>true</code> or <code>false</code>.</td>
+</tr>
+</tbody></table>
+<h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol>
+<li><p><strong>Capacity:</strong></p>
+<ul>
+<li>Increasing <code>hidden_size</code>, <code>num_hidden_layers</code>, or <code>num_attention_heads</code> allows the model to capture more complex patterns but increases resource usage.</li>
+</ul>
+</li>
+<li><p><strong>Regularization:</strong></p>
+<ul>
+<li>Dropout probabilities (<code>hidden_dropout_prob</code>, <code>attention_probs_dropout_prob</code>) control overfitting risks but can hinder learning if set too high.</li>
+</ul>
+</li>
+<li><p><strong>Pretraining vs. Fine-tuning:</strong></p>
+<ul>
+<li><code>type_vocab_size</code> is essential for tasks requiring segment embeddings (e.g., sentence pairs).</li>
+</ul>
+</li>
+<li><p><strong>Stability and Efficiency:</strong></p>
+<ul>
+<li><code>layer_norm_eps</code> ensures stable training, while <code>initializer_range</code> affects convergence.</li>
+</ul>
+</li>
+</ol>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li>Paper</li>
+<li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</li>
+<li>DOI: 10.48550&#x2F;arXiv.1810.04805</li>
+<li><a href="https://arxiv.org/abs/1810.04805">Read on </a></li>
+<li><a href="https://huggingface.co/docs/transformers/model_doc/bert">Hugging Face BERT Documentation</a></li>
+</ul>
+<h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul>
+<li><strong>Report:</strong> “On the Structural Properties of BERT Models” (Kovaleva et al., 2019).</li>
+<li><strong>Challenges:</strong> Over-parameterization and inefficiency in fine-tuning for domain-specific tasks.</li>
+</ul>
+<h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul>
+<li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li>
+<li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+<li><strong>OpenAI Playground for Text Understanding:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>BERT</tag>
       </tags>
   </entry>
   <entry>
@@ -1260,57 +1345,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI - Machine Learning + emotions</title>
-    <url>/hexo-blog/2024/11/21/post_ai_ml__emotions/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with a Multi-task Retrieval-based LLMs Framework</em></p>
-<ul>
-<li>DOI:10.48550&#x2F;arXiv.2406.18088</li>
-<li><a href="https://openreview.net/pdf/2c4c4157e9917665bbf110ffb8a87c3eba3ebed4.pdf">Read on openreview.net</a></li>
-</ul>
-</li>
-<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with Multi-task Retrieval-Augmented Large Language Models, 2024</em></p>
-<ul>
-<li>DOI: 10.48550&#x2F;arXiv.2309.11911</li>
-<li><a href="https://arxiv.org/pdf/2309.11911">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Other-resources-papers-books"><a href="#Other-resources-papers-books" class="headerlink" title="Other resources&#x2F;papers&#x2F;books"></a>Other resources&#x2F;papers&#x2F;books</h2><ol>
-<li><p>Book: <em>Zinker J. Creative process in gestalt therapy. Vintage books. Random House, 1978</em></p>
-</li>
-<li><p>Book: <em>The Expressions of the Emotions in Man and Animals. Darwin. 1872</em></p>
-<ul>
-<li><a href="https://darwin-online.org.uk/content/frameset?viewtype=text&itemID=F1142&pageseq=1">Read book on darwin-online.org.uk</a></li>
-<li><a href="https://archive.org/details/expressionofemot1872darw/">✰✰✰✰✰ Read book on archive.org </a></li>
-<li><a href="https://web.seducoahuila.gob.mx/biblioweb/upload/the_expression_of_the_emotions_in_man_and_animals.pdf">✰ Read book on web.seducoahuila.gob.mx</a></li>
-</ul>
-</li>
-<li><p>Paper: PyPlutchik: Visualising and comparing emotion-annotated corpora. 2021.</p>
-<ul>
-<li>DOI:10.1371&#x2F;journal.pone.0256503</li>
-<li><a href="https://www.researchgate.net/publication/354295491_PyPlutchik_Visualising_and_comparing_emotion-annotated_corpora">✰✰✰✰✰ Read on researchgate.net</a><img src="/hexo-blog/images/plutchik_s_wheel_of_emotions.jpg" alt="Plutchik's wheel of emotions" title="Plutchik's wheel of emotions" href = "https://en.wikipedia.org/wiki/Robert_Plutchik#/media/File:Plutchik-wheel.svg" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-<li><p>Paper: <em>The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276.</em></p>
-<ul>
-<li>DOI:10.1177&#x2F;036215378201200411</li>
-<li><a href="https://sci-hub.se/10.1177/036215378201200411">Read on sc-hub.se</a><img src="/hexo-blog/images/feeling_wheel_willcox_g_1982.jpg" alt="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." title="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." style="width: 40%; max-width: 1300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
- <img src="/hexo-blog/images/feeling_wheel_willcox_g_1982_ru.jpg" alt="The Feeling Wheel.Willcox,G _ru" title="The Feeling Wheel.Willcox,G _ru" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>emotions</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Techniques for handling context in LLM models</title>
     <url>/hexo-blog//ai/post_ai_llm__techniques_for_handling_context_in_ai_models/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1423,6 +1457,57 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
         <tag>LLM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI - Machine Learning + emotions</title>
+    <url>/hexo-blog/2024/11/21/post_ai_ml__emotions/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with a Multi-task Retrieval-based LLMs Framework</em></p>
+<ul>
+<li>DOI:10.48550&#x2F;arXiv.2406.18088</li>
+<li><a href="https://openreview.net/pdf/2c4c4157e9917665bbf110ffb8a87c3eba3ebed4.pdf">Read on openreview.net</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with Multi-task Retrieval-Augmented Large Language Models, 2024</em></p>
+<ul>
+<li>DOI: 10.48550&#x2F;arXiv.2309.11911</li>
+<li><a href="https://arxiv.org/pdf/2309.11911">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Other-resources-papers-books"><a href="#Other-resources-papers-books" class="headerlink" title="Other resources&#x2F;papers&#x2F;books"></a>Other resources&#x2F;papers&#x2F;books</h2><ol>
+<li><p>Book: <em>Zinker J. Creative process in gestalt therapy. Vintage books. Random House, 1978</em></p>
+</li>
+<li><p>Book: <em>The Expressions of the Emotions in Man and Animals. Darwin. 1872</em></p>
+<ul>
+<li><a href="https://darwin-online.org.uk/content/frameset?viewtype=text&itemID=F1142&pageseq=1">Read book on darwin-online.org.uk</a></li>
+<li><a href="https://archive.org/details/expressionofemot1872darw/">✰✰✰✰✰ Read book on archive.org </a></li>
+<li><a href="https://web.seducoahuila.gob.mx/biblioweb/upload/the_expression_of_the_emotions_in_man_and_animals.pdf">✰ Read book on web.seducoahuila.gob.mx</a></li>
+</ul>
+</li>
+<li><p>Paper: PyPlutchik: Visualising and comparing emotion-annotated corpora. 2021.</p>
+<ul>
+<li>DOI:10.1371&#x2F;journal.pone.0256503</li>
+<li><a href="https://www.researchgate.net/publication/354295491_PyPlutchik_Visualising_and_comparing_emotion-annotated_corpora">✰✰✰✰✰ Read on researchgate.net</a><img src="/hexo-blog/images/plutchik_s_wheel_of_emotions.jpg" alt="Plutchik's wheel of emotions" title="Plutchik's wheel of emotions" href = "https://en.wikipedia.org/wiki/Robert_Plutchik#/media/File:Plutchik-wheel.svg" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+<li><p>Paper: <em>The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276.</em></p>
+<ul>
+<li>DOI:10.1177&#x2F;036215378201200411</li>
+<li><a href="https://sci-hub.se/10.1177/036215378201200411">Read on sc-hub.se</a><img src="/hexo-blog/images/feeling_wheel_willcox_g_1982.jpg" alt="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." title="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." style="width: 40%; max-width: 1300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+ <img src="/hexo-blog/images/feeling_wheel_willcox_g_1982_ru.jpg" alt="The Feeling Wheel.Willcox,G _ru" title="The Feeling Wheel.Willcox,G _ru" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>emotions</tag>
       </tags>
   </entry>
   <entry>
@@ -1676,6 +1761,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Machine Learning Techniques - Overview</title>
     <url>/hexo-blog/2024/09/28/post_ai_ml__techniques_overview_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this guide, we will review popular machine learning techniques with a brief overview of their applications, complexity levels, and some historical context. This list provides a starting point for understanding core machine learning methods and their practical uses.</p>
@@ -1900,33 +2012,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
     <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
@@ -2041,103 +2126,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Neural Process Family</title>
-    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
-<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
-<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
-</li>
-<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
-</li>
-<li><p><strong>Model Components</strong>:</p>
-<ul>
-<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
-<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
-<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
-</ul>
-</li>
-<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
-</li>
-</ol>
-<hr>
-<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
-<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
-<ul>
-<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
-<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
-</ul>
-</li>
-<li><p><strong>Neural Processes (NPs)</strong>:</p>
-<ul>
-<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
-<li>Balances flexibility and computational efficiency.</li>
-</ul>
-</li>
-<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
-<ul>
-<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
-<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
-</ul>
-</li>
-<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
-<ul>
-<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
-</ul>
-</li>
-<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
-<ul>
-<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
-<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
-<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
-<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
-<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
-<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
-</ol>
-<hr>
-<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
-<li>Scalability due to neural networks.</li>
-<li>Probabilistic outputs allow uncertainty estimation.</li>
-<li>Adaptable across domains with minimal changes.</li>
-</ul>
-<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
-<li>Trade-off between computational cost and flexibility.</li>
-<li>Dependence on good representation learning.</li>
-<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
-</ul>
-<hr>
-<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
-<hr>
-<p>About:</p>
-<ul>
-<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
-<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
-</ul>
-<hr>
-<p> Papers: </p>
-<ul>
-<li>Papers: <ul>
-<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
-<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
-<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
@@ -2282,6 +2270,103 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>NLP</tag>
         <tag>lexic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Neural Process Family</title>
+    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
+<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
+<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
+</li>
+<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
+</li>
+<li><p><strong>Model Components</strong>:</p>
+<ul>
+<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
+<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
+<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
+</ul>
+</li>
+<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
+<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
+<ul>
+<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
+<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
+</ul>
+</li>
+<li><p><strong>Neural Processes (NPs)</strong>:</p>
+<ul>
+<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
+<li>Balances flexibility and computational efficiency.</li>
+</ul>
+</li>
+<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
+<ul>
+<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
+<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
+</ul>
+</li>
+<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
+<ul>
+<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
+</ul>
+</li>
+<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
+<ul>
+<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
+<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
+<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
+<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
+<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
+<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
+</ol>
+<hr>
+<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
+<li>Scalability due to neural networks.</li>
+<li>Probabilistic outputs allow uncertainty estimation.</li>
+<li>Adaptable across domains with minimal changes.</li>
+</ul>
+<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
+<li>Trade-off between computational cost and flexibility.</li>
+<li>Dependence on good representation learning.</li>
+<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
+</ul>
+<hr>
+<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
+<hr>
+<p>About:</p>
+<ul>
+<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
+<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
+</ul>
+<hr>
+<p> Papers: </p>
+<ul>
+<li>Papers: <ul>
+<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
+<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
+<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
@@ -2483,26 +2568,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Sentiment analysis framework</title>
-    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
-<li>Here is a draft structure of  Python-based project with an OOP design. </li>
-<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
-<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>All implementations and improvements will be presented in separate posts.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Text Classification. Historical overview, tools, and techniques.</title>
     <url>/hexo-blog/2024/11/19/post_ai_nlp__text_classification_intro_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text classification is a fundamental task in Natural Language Processing (NLP) that involves categorizing text into predefined categories. Its applications range from sentiment analysis to spam detection, and news categorization to intent recognition in conversational AI. This document provides a historical overview, a comparative analysis of tools, and details about modern approaches like Word2Vec, FastText, GloVe, and deep learning.</p>
@@ -2623,6 +2688,26 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>NLP</tag>
         <tag>text_classification</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sentiment analysis framework</title>
+    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
+<li>Here is a draft structure of  Python-based project with an OOP design. </li>
+<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
+<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>All implementations and improvements will be presented in separate posts.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -2869,197 +2954,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>NLTK</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>List of neural network models, architectures, and basic components</title>
-    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
-<ol>
-<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
-</ol>
-<hr>
-<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
-<hr>
-<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Model Examples</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Feedforward Neural Network (FNN)</strong></td>
-<td>Basic MLP (Multi-Layer Perceptron)</td>
-<td>General-purpose model for regression and classification tasks.</td>
-</tr>
-<tr>
-<td><strong>Convolutional Neural Networks (CNN)</strong></td>
-<td>VGG, ResNet, AlexNet, EfficientNet</td>
-<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
-<td>Vanilla RNN, LSTM, GRU</td>
-<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
-<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
-<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
-</tr>
-<tr>
-<td><strong>Generative Adversarial Networks (GANs)</strong></td>
-<td>DCGAN, StyleGAN, CycleGAN</td>
-<td>Generative tasks such as image synthesis and domain transfer.</td>
-</tr>
-<tr>
-<td><strong>Graph Neural Networks (GNNs)</strong></td>
-<td>GCN, GraphSAGE, GAT</td>
-<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Component</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Applications</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Neuron</strong></td>
-<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
-<td>Foundational unit in all neural networks.</td>
-</tr>
-<tr>
-<td><strong>Layer</strong></td>
-<td>A collection of neurons; can be input, hidden, or output.</td>
-<td>Used in all neural architectures.</td>
-</tr>
-<tr>
-<td><strong>Activation Function</strong></td>
-<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
-<td>Enables learning of complex patterns.</td>
-</tr>
-<tr>
-<td><strong>Dropout</strong></td>
-<td>Regularization technique randomly dropping neurons during training.</td>
-<td>Reduces overfitting in models.</td>
-</tr>
-<tr>
-<td><strong>Encoder</strong></td>
-<td>Part of the model that converts input data into a latent representation.</td>
-<td>Used in Transformers, Autoencoders, BERT, and more.</td>
-</tr>
-<tr>
-<td><strong>Decoder</strong></td>
-<td>Converts latent representations back to an output format.</td>
-<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
-</tr>
-<tr>
-<td><strong>Attention Mechanism</strong></td>
-<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
-<td>Essential in Transformers and attention-based architectures.</td>
-</tr>
-<tr>
-<td><strong>Residual Block</strong></td>
-<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
-<td>Found in ResNet, Transformer architectures.</td>
-</tr>
-<tr>
-<td><strong>Convolution Layer</strong></td>
-<td>Applies convolutional operations to extract spatial features.</td>
-<td>Used in CNNs for tasks like image and video analysis.</td>
-</tr>
-<tr>
-<td><strong>Pooling Layer</strong></td>
-<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
-<td>Used in CNNs to downsample feature maps.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Cell</strong></td>
-<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
-<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
-</tr>
-<tr>
-<td><strong>Self-Attention Layer</strong></td>
-<td>Computes relationships between all input tokens to capture global dependencies.</td>
-<td>Core of Transformers.</td>
-</tr>
-<tr>
-<td><strong>Feedforward Layer</strong></td>
-<td>Dense layer applied after attention mechanisms in Transformers.</td>
-<td>Processes token-wise transformations.</td>
-</tr>
-<tr>
-<td><strong>Embedding Layer</strong></td>
-<td>Converts categorical data or tokens into dense vectors.</td>
-<td>Used in NLP, graph embeddings, and more.</td>
-</tr>
-<tr>
-<td><strong>Latent Space</strong></td>
-<td>Compressed representation of data, typically learned by encoders.</td>
-<td>Found in Autoencoders, VAEs, and GANs.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Key Components</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>FNN</strong></td>
-<td>Neurons, Layers, Activation Functions, Dropout.</td>
-</tr>
-<tr>
-<td><strong>CNN</strong></td>
-<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>RNN (Vanilla)</strong></td>
-<td>Recurrent Cells, Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
-</tr>
-<tr>
-<td><strong>GANs</strong></td>
-<td>Generator, Discriminator, Adversarial Loss.</td>
-</tr>
-<tr>
-<td><strong>GNNs</strong></td>
-<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
-</tr>
-</tbody></table>
-<hr>
-<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NN</tag>
       </tags>
   </entry>
   <entry>
@@ -3549,6 +3443,197 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 | **Model's Hyperparameters (Changeable/Non-Changeable)** | Learning Rate, Latent Dimension Size (Changeable) | Kernel Size, Stride, Number of Filters (Changeable) | Learning Rate, Hidden State Size (Changeable) | Learning Rate, Number of Layers (Changeable) | Learning Rate, Number of Layers (Changeable) | Number of Layers, Embedding Size (Changeable) | Learning Rate, Batch Size, Sequence Length (Changeable) | Learning Rate, Number of Heads (Changeable) | Sequence Length, Beam Width (Changeable) | Number of Layers, Head Size (Changeable) | Learning Rate, Model Depth, Token Limit (Changeable) | Patch Size, Attention Heads (Changeable) |
 | **Criteria of Measuring Hyperparameter's Productivity** | Lower Reconstruction Error      | Higher Feature Extraction Quality  | Sequence Learning Performance        | Loss Convergence Rate                | Retention of Long-Term Dependencies  | Graph-Level Feature Generalization  | Contextual Embedding Accuracy        | Text Generation Quality              | Text Generation Coherence            | Latent Representation Consistency    | Generative Text Quality              | Visual Feature Learning Efficiency   |
 | **Basic Components of Hyperparameter's Productivity** | Effective Latent Space Size, Training Convergence Rate | Filter Efficiency, Computational Cost | Effective Sequence Memory Size       | Layer Depth, Weight Initialization Strategy | Sequence Retention and Gradient Stability | Graph Topology Learning             | Attention Mechanism, Positional Encoding | Encoder-Decoder Consistency         | Attention Span, Latent Representation Quality | Layer-to-Layer Weight Propagation    | Token Context Understanding          | Patch Extraction Accuracy, Attention Span | -->]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>List of neural network models, architectures, and basic components</title>
+    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
+<ol>
+<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
+</ol>
+<hr>
+<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
+<hr>
+<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Model Examples</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Feedforward Neural Network (FNN)</strong></td>
+<td>Basic MLP (Multi-Layer Perceptron)</td>
+<td>General-purpose model for regression and classification tasks.</td>
+</tr>
+<tr>
+<td><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td>VGG, ResNet, AlexNet, EfficientNet</td>
+<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
+<td>Vanilla RNN, LSTM, GRU</td>
+<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
+<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
+<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
+</tr>
+<tr>
+<td><strong>Generative Adversarial Networks (GANs)</strong></td>
+<td>DCGAN, StyleGAN, CycleGAN</td>
+<td>Generative tasks such as image synthesis and domain transfer.</td>
+</tr>
+<tr>
+<td><strong>Graph Neural Networks (GNNs)</strong></td>
+<td>GCN, GraphSAGE, GAT</td>
+<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Applications</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Neuron</strong></td>
+<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
+<td>Foundational unit in all neural networks.</td>
+</tr>
+<tr>
+<td><strong>Layer</strong></td>
+<td>A collection of neurons; can be input, hidden, or output.</td>
+<td>Used in all neural architectures.</td>
+</tr>
+<tr>
+<td><strong>Activation Function</strong></td>
+<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
+<td>Enables learning of complex patterns.</td>
+</tr>
+<tr>
+<td><strong>Dropout</strong></td>
+<td>Regularization technique randomly dropping neurons during training.</td>
+<td>Reduces overfitting in models.</td>
+</tr>
+<tr>
+<td><strong>Encoder</strong></td>
+<td>Part of the model that converts input data into a latent representation.</td>
+<td>Used in Transformers, Autoencoders, BERT, and more.</td>
+</tr>
+<tr>
+<td><strong>Decoder</strong></td>
+<td>Converts latent representations back to an output format.</td>
+<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
+</tr>
+<tr>
+<td><strong>Attention Mechanism</strong></td>
+<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
+<td>Essential in Transformers and attention-based architectures.</td>
+</tr>
+<tr>
+<td><strong>Residual Block</strong></td>
+<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
+<td>Found in ResNet, Transformer architectures.</td>
+</tr>
+<tr>
+<td><strong>Convolution Layer</strong></td>
+<td>Applies convolutional operations to extract spatial features.</td>
+<td>Used in CNNs for tasks like image and video analysis.</td>
+</tr>
+<tr>
+<td><strong>Pooling Layer</strong></td>
+<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
+<td>Used in CNNs to downsample feature maps.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Cell</strong></td>
+<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
+<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
+</tr>
+<tr>
+<td><strong>Self-Attention Layer</strong></td>
+<td>Computes relationships between all input tokens to capture global dependencies.</td>
+<td>Core of Transformers.</td>
+</tr>
+<tr>
+<td><strong>Feedforward Layer</strong></td>
+<td>Dense layer applied after attention mechanisms in Transformers.</td>
+<td>Processes token-wise transformations.</td>
+</tr>
+<tr>
+<td><strong>Embedding Layer</strong></td>
+<td>Converts categorical data or tokens into dense vectors.</td>
+<td>Used in NLP, graph embeddings, and more.</td>
+</tr>
+<tr>
+<td><strong>Latent Space</strong></td>
+<td>Compressed representation of data, typically learned by encoders.</td>
+<td>Found in Autoencoders, VAEs, and GANs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Key Components</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>FNN</strong></td>
+<td>Neurons, Layers, Activation Functions, Dropout.</td>
+</tr>
+<tr>
+<td><strong>CNN</strong></td>
+<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>RNN (Vanilla)</strong></td>
+<td>Recurrent Cells, Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
+</tr>
+<tr>
+<td><strong>GANs</strong></td>
+<td>Generator, Discriminator, Adversarial Loss.</td>
+</tr>
+<tr>
+<td><strong>GNNs</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
+</tr>
+</tbody></table>
+<hr>
+<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
+]]></content>
       <categories>
         <category>Posts</category>
       </categories>
@@ -6939,6 +7024,11 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
     <title>blog deploy actions</title>
     <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
@@ -6946,6 +7036,18 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <categories>
         <category>Maintanance</category>
       </categories>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
   </entry>
   <entry>
     <title>My Statistics page</title>
@@ -6972,11 +7074,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
     <title>Sitemap</title>
     <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
@@ -6984,383 +7081,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <categories>
         <category>Maintanance</category>
       </categories>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite post categories</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
-<ul>
-<li><a href="#post-details">Post Details</a><ul>
-<li><a href="#linkedin">LinkedIn</a></li>
-<li><a href="#medium">Medium</a></li>
-<li><a href="#other-resources">Other Resources</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
-<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
-</ul>
-<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
-<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
-</ul>
-<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
-<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
-<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
-<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
-<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
-<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
-<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
-<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
-<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
-<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
-<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
-<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
-<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
-<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
-<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
-<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
-<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
-<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
-<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
-<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
-<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
-<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
-<li>Author: Piotr Gaczkowski</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_medium_post</tag>
-        <tag>my_linkedin_post</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
-<hr>
-<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My tools</title>
-    <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h2><h3 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h3><ul>
-<li>Slack</li>
-<li>Zoom<ul>
-<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h3 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h3><ul>
-<li>Postman</li>
-<li>Insomnia</li>
-</ul>
-<h3 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h3><ul>
-<li>SSMS</li>
-<li>Dbviewer</li>
-</ul>
-<h3 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h3><ul>
-<li>Fiddler</li>
-<li>Charles</li>
-<li>Local proxy</li>
-</ul>
-<h3 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h3><ul>
-<li>Kafka</li>
-</ul>
-<h3 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h3><ul>
-<li>Jira </li>
-<li>TestRail</li>
-</ul>
-<p> </p>
-<h3 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h3><ul>
-<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
-<li>Amazon Virtual machines<ul>
-<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
-<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
-</ul>
-</li>
-</ul>
-<p> </p>
-<h3 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h3><ul>
-<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
-<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
-</ul>
-<h3 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h3><ul>
-<li>Kibana </li>
-<li>Grafana </li>
-<li>Azure Application Insights</li>
-</ul>
-<p> </p>
-<h3 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h3><ol>
-<li><a href="https://ocr.space/">ocr.space</a> </li>
-<li><a href="http://www.structurise.com/screenshot-ocr/">structurise.com | make OCR from the clipboard</a></li>
-</ol>
-<h3 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h3><table>
-<thead>
-<tr>
-<th>No.</th>
-<th>Temporary Email Service</th>
-<th>URL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>10 Minute Mail</td>
-<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
-</tr>
-<tr>
-<td>2</td>
-<td>EmailOnDeck</td>
-<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Fake Mail Generator</td>
-<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
-</tr>
-<tr>
-<td>4</td>
-<td>FakeMail  &#x2F; TempMailAddress</td>
-<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
-</tr>
-<tr>
-<td>5</td>
-<td>GetNada</td>
-<td><a href="https://getnada.com/">https://getnada.com/</a></td>
-</tr>
-<tr>
-<td>6</td>
-<td>Guerrilla Mail</td>
-<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
-</tr>
-<tr>
-<td>7</td>
-<td>MailCatch</td>
-<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
-</tr>
-<tr>
-<td>8</td>
-<td>MailDrop</td>
-<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
-</tr>
-<tr>
-<td>9</td>
-<td>Mailinator</td>
-<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
-</tr>
-<tr>
-<td>10</td>
-<td>Mailnesia</td>
-<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
-</tr>
-<tr>
-<td>11</td>
-<td>Moakt</td>
-<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
-</tr>
-<tr>
-<td>12</td>
-<td>MyTemp.email</td>
-<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
-</tr>
-<tr>
-<td>13</td>
-<td>Proton mail</td>
-<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
-</tr>
-<tr>
-<td>14</td>
-<td>Temp Mail</td>
-<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
-</tr>
-<tr>
-<td>15</td>
-<td>Tempail</td>
-<td><a href="https://tempail.com/">https://tempail.com/</a></td>
-</tr>
-<tr>
-<td>16</td>
-<td>Temp-Mail.io</td>
-<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
-</tr>
-<tr>
-<td>17</td>
-<td>Throwawaymail</td>
-<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
-</tr>
-<tr>
-<td>18</td>
-<td>YOPmail</td>
-<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Other-tools"><a href="#Other-tools" class="headerlink" title="Other tools"></a>Other tools</h2><h3 id="Screenrecorders"><a href="#Screenrecorders" class="headerlink" title="Screenrecorders"></a>Screenrecorders</h3><h4 id="Offline-screenrecorder"><a href="#Offline-screenrecorder" class="headerlink" title="Offline screenrecorder"></a>Offline screenrecorder</h4><h5 id="OBS-studio"><a href="#OBS-studio" class="headerlink" title="OBS studio"></a>OBS studio</h5><ul>
-<li>Mac &#x2F; Windows &#x2F; Android</li>
-<li><a href="https://obsproject.com/download">https://obsproject.com/download</a></li>
-</ul>
-<h4 id="Online-screenrecorder"><a href="#Online-screenrecorder" class="headerlink" title="Online screenrecorder"></a>Online screenrecorder</h4><h5 id="Loom"><a href="#Loom" class="headerlink" title="Loom"></a>Loom</h5><ul>
-<li>Mac &#x2F; Windows &#x2F; Android</li>
-<li><a href="https://www.loom.com/screen-recorder">https://www.loom.com/screen-recorder</a></li>
-</ul>
-<h3 id="Generators"><a href="#Generators" class="headerlink" title="Generators"></a>Generators</h3><h4 id="User-fake-data"><a href="#User-fake-data" class="headerlink" title="User fake data"></a>User fake data</h4><ul>
-<li><p>jsonplaceholder.typicode.com</p>
-<ul>
-<li>fake data generator via JS code snippets</li>
-<li><a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a><div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__jsonplaceholder_typicode_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div></li>
-</ul>
-</li>
-<li><p>mockaroo.com</p>
-<ul>
-<li>fake data generator with prettty UI configuration</li>
-<li><a href="https://www.mockaroo.com/">https://www.mockaroo.com/</a><div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__mockaroo_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-</div></li>
-</ul>
-</li>
-</ul>
-<h4 id="Image-generators"><a href="#Image-generators" class="headerlink" title="Image generators"></a>Image generators</h4><ul>
-<li>image generator via parametrised HTTP requests<ul>
-<li><a href="https://dummyjson.com/docs/image">https://dummyjson.com/docs/image</a>  <div style="margin-top: 10px;">
-<img src="/hexo-blog/images/my_tools__dummy_json_image_generator_example.png" alt="https://dummyjson.com/docs/image" title=" dummyjson.com/docs/image" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;"/>
-</div></li>
-</ul>
-</li>
-</ul>
-<h3 id="Free-video-samples"><a href="#Free-video-samples" class="headerlink" title="Free video samples"></a>Free video samples</h3><h4 id="file-examples-com-video"><a href="#file-examples-com-video" class="headerlink" title="file-examples.com&#x2F;video"></a>file-examples.com&#x2F;video</h4><ul>
-<li>AVI	 &#x2F; MOV &#x2F; OGG	&#x2F; MP4	&#x2F; WMV	&#x2F;WEBM</li>
-<li><a href="https://file-examples.com/index.php/sample-video-files/">https://file-examples.com/index.php/sample-video-files/</a></li>
-</ul>
-<h3 id="Free-images"><a href="#Free-images" class="headerlink" title="Free images"></a>Free images</h3><h4 id="file-examples-com-images"><a href="#file-examples-com-images" class="headerlink" title="file-examples.com&#x2F;images"></a>file-examples.com&#x2F;images</h4><ul>
-<li>JPG &#x2F; PNG  &#x2F;GIF &#x2F; TIFF &#x2F; ICO &#x2F; SVG &#x2F; WEBP</li>
-<li><a href="https://file-examples.com/index.php/sample-images-download/">https://file-examples.com/index.php/sample-images-download/</a></li>
-</ul>
-<h2 id="Display-extension"><a href="#Display-extension" class="headerlink" title="Display extension"></a>Display extension</h2><h3 id="spacedesk"><a href="#spacedesk" class="headerlink" title="spacedesk"></a>spacedesk</h3><p>Spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.<br><img src="/hexo-blog/images/space_desk_logo_image.png" alt="Spacedesk app" title="Spacedesk app" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p></p>
-<ul>
-<li>Web site: <a href="https://www.spacedesk.net/">https://www.spacedesk.net/</a></li>
-<li>Download page: <a href="https://www.spacedesk.net/download/">https://www.spacedesk.net/download/</a></li>
-<li>Installation guide for Windows: <a href="https://www.youtube.com/watch?v=iJ2bFcDUol8&t=262s">https://www.youtube.com/watch?v=iJ2bFcDUol8&amp;t=262s</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>apps</tag>
-        <tag>my_contribution</tag>
-      </tags>
   </entry>
   <entry>
     <title>HEXO.IO blog references</title>
@@ -7548,39 +7268,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -7642,6 +7329,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -7788,6 +7489,25 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>sys_conffigs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -8196,6 +7916,371 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Favorite post categories</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#post-details">Post Details</a><ul>
+<li><a href="#linkedin">LinkedIn</a></li>
+<li><a href="#medium">Medium</a></li>
+<li><a href="#other-resources">Other Resources</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
+<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
+</ul>
+<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
+<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
+</ul>
+<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
+<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
+<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
+<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
+<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
+<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
+<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
+<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
+<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
+<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
+<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
+<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
+<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
+<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
+<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
+<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
+<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
+<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
+<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
+<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
+<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
+<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
+<li>Author: Piotr Gaczkowski</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_medium_post</tag>
+        <tag>my_linkedin_post</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
+<hr>
+<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My tools</title>
+    <url>/hexo-blog//about-me/my_contribution/my-tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Daily-apps"><a href="#Daily-apps" class="headerlink" title="Daily apps"></a>Daily apps</h2><h3 id="Messangers"><a href="#Messangers" class="headerlink" title="Messangers"></a>Messangers</h3><ul>
+<li>Slack</li>
+<li>Zoom<ul>
+<li><a href="https://zoom.us/download">https://zoom.us/download</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h3 id="API-tools"><a href="#API-tools" class="headerlink" title="API tools"></a>API tools</h3><ul>
+<li>Postman</li>
+<li>Insomnia</li>
+</ul>
+<h3 id="DB-manager"><a href="#DB-manager" class="headerlink" title="DB manager"></a>DB manager</h3><ul>
+<li>SSMS</li>
+<li>Dbviewer</li>
+</ul>
+<h3 id="Proxy-tools"><a href="#Proxy-tools" class="headerlink" title="Proxy tools"></a>Proxy tools</h3><ul>
+<li>Fiddler</li>
+<li>Charles</li>
+<li>Local proxy</li>
+</ul>
+<h3 id="Message-broker"><a href="#Message-broker" class="headerlink" title="Message broker"></a>Message broker</h3><ul>
+<li>Kafka</li>
+</ul>
+<h3 id="Project-management-tools"><a href="#Project-management-tools" class="headerlink" title="Project management tools"></a>Project management tools</h3><ul>
+<li>Jira </li>
+<li>TestRail</li>
+</ul>
+<p> </p>
+<h3 id="Cloud-virtual-machines"><a href="#Cloud-virtual-machines" class="headerlink" title="Cloud virtual machines"></a>Cloud virtual machines</h3><ul>
+<li><a href="https://azure.microsoft.com/en-us/products/virtual-machines">Azure Virtual machines list </a> </li>
+<li>Amazon Virtual machines<ul>
+<li><a href="https://aws.amazon.com/ru/getting-started/hands-on/launch-windows-vm/">Launch a Windows Virtual Machine in Amazon Lightsail</a></li>
+<li><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html">Amazon EC2 instances</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h3 id="Virtual-Box"><a href="#Virtual-Box" class="headerlink" title="Virtual Box"></a>Virtual Box</h3><ul>
+<li>Virtual Box  &gt;&gt; <a href="https://www.virtualbox.org/">how to install the virtual box app</a></li>
+<li>Virtual Box image of Windows 10 you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+<li>Virtual Box image of Ubuntu you can find <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/">here</a></li>
+</ul>
+<h3 id="Monitoring-tools"><a href="#Monitoring-tools" class="headerlink" title="Monitoring tools"></a>Monitoring tools</h3><ul>
+<li>Kibana </li>
+<li>Grafana </li>
+<li>Azure Application Insights</li>
+</ul>
+<p> </p>
+<h3 id="OCR-services"><a href="#OCR-services" class="headerlink" title="OCR services"></a>OCR services</h3><ol>
+<li><a href="https://ocr.space/">ocr.space</a> </li>
+<li><a href="http://www.structurise.com/screenshot-ocr/">structurise.com | make OCR from the clipboard</a></li>
+</ol>
+<h3 id="Temporary-Email-Services"><a href="#Temporary-Email-Services" class="headerlink" title="Temporary Email Services"></a>Temporary Email Services</h3><table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Temporary Email Service</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>10 Minute Mail</td>
+<td><a href="https://10minutemail.com/">https://10minutemail.com/</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>EmailOnDeck</td>
+<td><a href="https://www.emailondeck.com/">https://www.emailondeck.com/</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Fake Mail Generator</td>
+<td><a href="https://www.fakemailgenerator.net/">https://www.fakemailgenerator.net/</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>FakeMail  &#x2F; TempMailAddress</td>
+<td><a href="https://tempmailaddress.com/">https://tempmailaddress.com/</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>GetNada</td>
+<td><a href="https://getnada.com/">https://getnada.com/</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Guerrilla Mail</td>
+<td><a href="https://www.guerrillamail.com/">https://www.guerrillamail.com/</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>MailCatch</td>
+<td><a href="http://mailcatch.com/">http://mailcatch.com/</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>MailDrop</td>
+<td><a href="https://maildrop.cc/">https://maildrop.cc/</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Mailinator</td>
+<td><a href="https://www.mailinator.com/">https://www.mailinator.com/</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Mailnesia</td>
+<td><a href="https://www.mailnesia.com/">https://www.mailnesia.com/</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Moakt</td>
+<td><a href="https://www.moakt.com/">https://www.moakt.com/</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>MyTemp.email</td>
+<td><a href="https://www.mytemp.email/">https://www.mytemp.email/</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Proton mail</td>
+<td><a href="https://proton.me/mail">https://proton.me/mail</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Temp Mail</td>
+<td><a href="https://temp-mail.org/">https://temp-mail.org/</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Tempail</td>
+<td><a href="https://tempail.com/">https://tempail.com/</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Temp-Mail.io</td>
+<td><a href="https://temp-mail.io/">https://temp-mail.io/</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Throwawaymail</td>
+<td><a href="https://www.throwawaymail.com/">https://www.throwawaymail.com/</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td>YOPmail</td>
+<td><a href="https://www.yopmail.com/">https://www.yopmail.com/</a></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Other-tools"><a href="#Other-tools" class="headerlink" title="Other tools"></a>Other tools</h2><h3 id="Screenrecorders"><a href="#Screenrecorders" class="headerlink" title="Screenrecorders"></a>Screenrecorders</h3><h4 id="Offline-screenrecorder"><a href="#Offline-screenrecorder" class="headerlink" title="Offline screenrecorder"></a>Offline screenrecorder</h4><h5 id="OBS-studio"><a href="#OBS-studio" class="headerlink" title="OBS studio"></a>OBS studio</h5><ul>
+<li>Mac &#x2F; Windows &#x2F; Android</li>
+<li><a href="https://obsproject.com/download">https://obsproject.com/download</a></li>
+</ul>
+<h4 id="Online-screenrecorder"><a href="#Online-screenrecorder" class="headerlink" title="Online screenrecorder"></a>Online screenrecorder</h4><h5 id="Loom"><a href="#Loom" class="headerlink" title="Loom"></a>Loom</h5><ul>
+<li>Mac &#x2F; Windows &#x2F; Android</li>
+<li><a href="https://www.loom.com/screen-recorder">https://www.loom.com/screen-recorder</a></li>
+</ul>
+<h3 id="Generators"><a href="#Generators" class="headerlink" title="Generators"></a>Generators</h3><h4 id="User-fake-data"><a href="#User-fake-data" class="headerlink" title="User fake data"></a>User fake data</h4><ul>
+<li><p>jsonplaceholder.typicode.com</p>
+<ul>
+<li>fake data generator via JS code snippets</li>
+<li><a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com/</a><div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__jsonplaceholder_typicode_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div></li>
+</ul>
+</li>
+<li><p>mockaroo.com</p>
+<ul>
+<li>fake data generator with prettty UI configuration</li>
+<li><a href="https://www.mockaroo.com/">https://www.mockaroo.com/</a><div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__mockaroo_com_example.png" alt="jsonplaceholder.typicode.com" title="jsonplaceholder.typicode.com" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+</div></li>
+</ul>
+</li>
+</ul>
+<h4 id="Image-generators"><a href="#Image-generators" class="headerlink" title="Image generators"></a>Image generators</h4><ul>
+<li>image generator via parametrised HTTP requests<ul>
+<li><a href="https://dummyjson.com/docs/image">https://dummyjson.com/docs/image</a>  <div style="margin-top: 10px;">
+<img src="/hexo-blog/images/my_tools__dummy_json_image_generator_example.png" alt="https://dummyjson.com/docs/image" title=" dummyjson.com/docs/image" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;"/>
+</div></li>
+</ul>
+</li>
+</ul>
+<h3 id="Free-video-samples"><a href="#Free-video-samples" class="headerlink" title="Free video samples"></a>Free video samples</h3><h4 id="file-examples-com-video"><a href="#file-examples-com-video" class="headerlink" title="file-examples.com&#x2F;video"></a>file-examples.com&#x2F;video</h4><ul>
+<li>AVI	 &#x2F; MOV &#x2F; OGG	&#x2F; MP4	&#x2F; WMV	&#x2F;WEBM</li>
+<li><a href="https://file-examples.com/index.php/sample-video-files/">https://file-examples.com/index.php/sample-video-files/</a></li>
+</ul>
+<h3 id="Free-images"><a href="#Free-images" class="headerlink" title="Free images"></a>Free images</h3><h4 id="file-examples-com-images"><a href="#file-examples-com-images" class="headerlink" title="file-examples.com&#x2F;images"></a>file-examples.com&#x2F;images</h4><ul>
+<li>JPG &#x2F; PNG  &#x2F;GIF &#x2F; TIFF &#x2F; ICO &#x2F; SVG &#x2F; WEBP</li>
+<li><a href="https://file-examples.com/index.php/sample-images-download/">https://file-examples.com/index.php/sample-images-download/</a></li>
+</ul>
+<h2 id="Display-extension"><a href="#Display-extension" class="headerlink" title="Display extension"></a>Display extension</h2><h3 id="spacedesk"><a href="#spacedesk" class="headerlink" title="spacedesk"></a>spacedesk</h3><p>Spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.<br><img src="/hexo-blog/images/space_desk_logo_image.png" alt="Spacedesk app" title="Spacedesk app" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></p></p>
+<ul>
+<li>Web site: <a href="https://www.spacedesk.net/">https://www.spacedesk.net/</a></li>
+<li>Download page: <a href="https://www.spacedesk.net/download/">https://www.spacedesk.net/download/</a></li>
+<li>Installation guide for Windows: <a href="https://www.youtube.com/watch?v=iJ2bFcDUol8&t=262s">https://www.youtube.com/watch?v=iJ2bFcDUol8&amp;t=262s</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>apps</tag>
+        <tag>my_contribution</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXIO.IO fixes guide</title>
     <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design check that:</p>
@@ -8570,23 +8655,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MarkDowm tutorial-2</title>
     <url>/hexo-blog/2024/10/21/tutorials/markdown_tutorial_2/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This post is originated from <a href="https://gist.github.com/apackeer/4159268">here</a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p>
@@ -8747,6 +8815,23 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tutorial</tag>
         <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QND5GLPYZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QND5GLPYZV');
+</script>
+<!-- End Google Analytics -->
+
+  
+  <title>Basics of Generative Pre-training Transformer (GPT) |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="Generative Pre-training Transformers (GPT) are a type of language model that utilizes the transformer architecture to generate, predict, or understand natural language. The foundation of GPT is rooted">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Basics of Generative Pre-training Transformer (GPT)">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/ai_gpt/gpt_basics/">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="Generative Pre-training Transformers (GPT) are a type of language model that utilizes the transformer architecture to generate, predict, or understand natural language. The foundation of GPT is rooted">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-12-23T19:43:35.000Z">
+<meta property="article:modified_time" content="2024-12-24T13:45:35.745Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="GPT">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/hexo-blog/atom.xml" title=" " type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="page-post_ai_gpt__gpt_basics" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/ai_gpt/gpt_basics/" class="article-date">
+  <time class="dt-published" datetime="2024-12-23T19:43:35.000Z" itemprop="datePublished">2024-12-23</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Basics of Generative Pre-training Transformer (GPT)
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Generative Pre-training Transformers (GPT) are a type of language model that utilizes the transformer architecture to generate, predict, or understand natural language. The foundation of GPT is rooted in deep learning principles, leveraging pre-trained models that learn from massive datasets to predict the next word or phrase in a sequence. This guide provides an overview of GPT, its evaluation metrics, and references for further exploration.</p>
+<h2 id="Core-Concepts-of-GPT"><a href="#Core-Concepts-of-GPT" class="headerlink" title="Core Concepts of GPT"></a>Core Concepts of GPT</h2><h3 id="Transformer-Architecture"><a href="#Transformer-Architecture" class="headerlink" title="Transformer Architecture"></a>Transformer Architecture</h3><p>Transformers are neural networks designed to handle sequential data efficiently by using attention mechanisms instead of recurrence. Key components of transformers include:</p>
+<ul>
+<li><strong>Self-Attention Mechanism</strong>: Helps the model focus on relevant parts of input sequences while processing text.</li>
+<li><strong>Feed-Forward Neural Networks</strong>: Adds depth to the architecture, enhancing its expressive capabilities.</li>
+<li><strong>Positional Encoding</strong>: Captures the order of words, a critical aspect of language understanding.</li>
+</ul>
+<h3 id="Generative-Pre-training"><a href="#Generative-Pre-training" class="headerlink" title="Generative Pre-training"></a>Generative Pre-training</h3><p>The pre-training phase involves unsupervised learning on vast corpora of text. The model learns statistical patterns of language, such as grammar, semantics, and relationships between words, enabling fine-tuning for specific tasks.</p>
+<h3 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h3><p>Fine-tuning adapts the pre-trained model to specific applications (e.g., summarization, translation, or question answering) using task-specific labeled datasets.</p>
+<h2 id="Metrics-for-Evaluating-Generated-Context"><a href="#Metrics-for-Evaluating-Generated-Context" class="headerlink" title="Metrics for Evaluating Generated Context"></a>Metrics for Evaluating Generated Context</h2><p>Assessing the quality of generated content requires diverse evaluation metrics. Below are commonly used metrics with short descriptions:</p>
+<ol>
+<li><strong>Perplexity</strong><ul>
+<li>Measures how well a model predicts a sample. Lower perplexity indicates better performance.</li>
+</ul>
+</li>
+<li><strong>BLEU (Bilingual Evaluation Understudy)</strong><ul>
+<li>Evaluates machine translation by comparing generated text to reference translations using n-gram overlap.</li>
+</ul>
+</li>
+<li><strong>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</strong><ul>
+<li>Measures the quality of summaries by comparing overlap with reference summaries.</li>
+</ul>
+</li>
+<li><strong>METEOR (Metric for Evaluation of Translation with Explicit ORdering)</strong><ul>
+<li>Focuses on precision and recall, considering synonyms and stemming.</li>
+</ul>
+</li>
+<li><strong>CIDEr (Consensus-based Image Description Evaluation)</strong><ul>
+<li>Evaluates the alignment between generated captions and reference captions in visual tasks.</li>
+</ul>
+</li>
+<li><strong>SPICE (Semantic Propositional Image Caption Evaluation)</strong><ul>
+<li>Measures semantic quality by assessing propositional content.</li>
+</ul>
+</li>
+<li><strong>TER (Translation Edit Rate)</strong><ul>
+<li>Computes the number of edits required to match a generated sentence with a reference.</li>
+</ul>
+</li>
+<li><strong>Coherence</strong><ul>
+<li>Checks the logical flow and relevance of ideas in the generated content.</li>
+</ul>
+</li>
+<li><strong>Diversity</strong><ul>
+<li>Assesses variability in generated responses, penalizing repetitive outputs.</li>
+</ul>
+</li>
+<li><strong>AUT (Alternative Usage Tests)</strong><ul>
+<li>Evaluates the applicability of generated content for alternative scenarios or contexts.</li>
+</ul>
+</li>
+</ol>
+<h2 id="Alternative-Usage-Tests-AUT"><a href="#Alternative-Usage-Tests-AUT" class="headerlink" title="Alternative Usage Tests (AUT)"></a>Alternative Usage Tests (AUT)</h2><p>AUT focuses on testing a model’s adaptability in diverse contexts. Examples include:</p>
+<ul>
+<li><strong>Scenario-Specific Adaptation</strong>: Generating content for specific domains, like legal or medical.</li>
+<li><strong>Interactive Dialogues</strong>: Testing conversational models’ ability to handle varied inputs.</li>
+<li><strong>Creative Writing Tasks</strong>: Evaluating the model’s ability to generate poetry, stories, or advertisements.</li>
+</ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.cs.bu.edu/fac/snyder/cs505/PerplexityPosts.pdf">Read post <code>Two minutes NLP — Perplexity explained with simple probabilities</code> + <code> Perplexity Intuition (and its derivation)</code> on cs.bu.edu</a></li>
+<li><a target="_blank" rel="noopener" href="https://medium.com/@echen/understanding-perplexity-metrics-in-natural-language-ai-dbc6d57eb812">Read post <code>Understanding Perplexity Metrics in Natural Language AI</code> on medium.com</a></li>
+<li><a target="_blank" rel="noopener" href="https://medium.com/@shubhamsd100/understanding-perplexity-in-language-models-a-detailed-exploration-2108b6ab85af">Read post <code>Understanding Perplexity in Language Models: A Detailed Exploration</code> on medium.com</a></li>
+<li><a target="_blank" rel="noopener" href="https://aclanthology.org/P02-1040.pdf">Read paper <code>BLEU: A Method for Automatic Evaluation of Machine Translation. 2002</code> on aclanthology.org</a></li>
+<li><a target="_blank" rel="noopener" href="https://towardsdatascience.com/introduction-to-text-summarization-with-rouge-scores-84140c64b471">Read post <code>Introduction to Text Summarization with ROUGE Scores</code> on towardsdatascience.com</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.kolena.com/metrics/meteor/">Read post <code>METEOR</code> on docs.kolena.com</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">Read paper <code>CIDEr: Consensus-based Image Description Evaluation</code>. Vedantam et al. (2015) on openaccess.thecvf.com</a></li>
+<li><a target="_blank" rel="noopener" href="https://panderson.me/images/SPICE.pdf">Read paper <code>SPICE Metric for Captioning</code> on panderson.me</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/2309.12619">Read paper <code>Coherence in natural language: Data structures and applications</code>. Florian Wolf (2000) on</a></li>
+<li><a href="hhttps://arxiv.org/pdf/2309.12619">Read paper <code>Learning to Diversify Neural Text Generation via Degenerative Model.2023</code> on arxiv.org</a></li>
+<li><a target="_blank" rel="noopener" href="https://aclanthology.org/D19-1321.pdf">Read paper <code>Long and Diverse Text Generation with Planning-based Hierarchical Variational Model. 2019</code> on aclanthology.org</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1804.11258">Read paper <code>Toward Diverse Text Generation with Inverse Reinforcement Learning. 2018</code> on arxiv.org&#x2F;pdf</a></li>
+<li><a target="_blank" rel="noopener" href="https://computationalcreativity.net/iccc23/papers/ICCC-2023_paper_90.pdf">Read post <code>Pushing GPT&#39;s Creativity to Its Limits: Alternative Uses and Torrance Tests. 2023</code> on computationalcreativity.net</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/ai_gpt/gpt_basics/" data-id="cm52ir8z4000t78kk5y1pfg04" data-title="Basics of Generative Pre-training Transformer (GPT)" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/AI/" rel="tag">AI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/GPT/" rel="tag">GPT</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/hexo-blog/ai_algorithms/references_for_learning_ai_algorithms/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">References for learning AI algorithms</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">68</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/QA/">QA</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 20px;">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 11px;">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/BART/" style="font-size: 10px;">BART</a> <a href="/hexo-blog/tags/BERT/" style="font-size: 10px;">BERT</a> <a href="/hexo-blog/tags/DocPublishing/" style="font-size: 10px;">DocPublishing</a> <a href="/hexo-blog/tags/GPT/" style="font-size: 10px;">GPT</a> <a href="/hexo-blog/tags/GPT2/" style="font-size: 10px;">GPT2</a> <a href="/hexo-blog/tags/GitHubPages/" style="font-size: 10px;">GitHubPages</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 15px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 10px;">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 19px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 18px;">NLP</a> <a href="/hexo-blog/tags/NLTK/" style="font-size: 10px;">NLTK</a> <a href="/hexo-blog/tags/NN/" style="font-size: 12px;">NN</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 10px;">NPF</a> <a href="/hexo-blog/tags/ReadTheDocs/" style="font-size: 10px;">ReadTheDocs</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 10px;">VADER</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/algorithms/" style="font-size: 11px;">algorithms</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 11px;">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 10px;">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 10px;">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 10px;">data_mining</a> <a href="/hexo-blog/tags/db/" style="font-size: 10px;">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 15px;">dev_side</a> <a href="/hexo-blog/tags/devops/" style="font-size: 11px;">devops</a> <a href="/hexo-blog/tags/dream-team/" style="font-size: 10px;">dream_team</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 10px;">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 11px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/kafka/" style="font-size: 10px;">kafka</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11px;">knowledge</a> <a href="/hexo-blog/tags/knowledge-graph/" style="font-size: 10px;">knowledge_graph</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 11px;">lexic</a> <a href="/hexo-blog/tags/linguistic/" style="font-size: 12px;">linguistic</a> <a href="/hexo-blog/tags/links/" style="font-size: 10px;">links</a> <a href="/hexo-blog/tags/llm-parameters/" style="font-size: 11px;">llm_parameters</a> <a href="/hexo-blog/tags/local-development/" style="font-size: 10px;">local_development</a> <a href="/hexo-blog/tags/logger/" style="font-size: 10px;">logger</a> <a href="/hexo-blog/tags/loguru/" style="font-size: 10px;">loguru</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 16px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/papers/" style="font-size: 13px;">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 10px;">parsing</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 14px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/python/" style="font-size: 12px;">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 12px;">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 10px;">qa_check_list</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 13px;">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 11px;">sentiment_analysis</a> <a href="/hexo-blog/tags/ssh/" style="font-size: 11px;">ssh</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/sys-conffigs/" style="font-size: 10px;">sys_conffigs</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 10px;">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 17px;">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 10px;">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/web/" style="font-size: 10px;">web</a> <a href="/hexo-blog/tags/windows-os/" style="font-size: 10px;">windows_os</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/05/">May 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/ai_gpt/gpt_basics/">Basics of Generative Pre-training Transformer (GPT)</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/ai_algorithms/references_for_learning_ai_algorithms/">References for learning AI algorithms</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/ai_algorithms/list_of_top_100_ai_algorithms/">AI algorithms. List of top 100 AI algorithms</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/ai_nlp/knowledge_graph/">Knowledge Graph</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/devops/post_devops__remote_access_to_ubuntu_machine_via_ssh_commands/">Remote access to Ubuntu machine via ssh. Commands.</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2024 si0n4ra<br>
+      <!-- Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> (v7.3.0) hexo-cli: 4.3.2 -->
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo v.7.3.0</a> & hexo-cli: 4.3.2
+      <br>Theme: <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">landscape</a>
+    </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
