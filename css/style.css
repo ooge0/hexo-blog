@@ -591,48 +591,55 @@ a.article-title:hover {
 .article-entry iframe {
   border: none;
 }
-.article-entry table {
+table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  border-bottom: 2px solid #ccc /* Add bottom border to the table */;
 }
-.article-entry th {
+th {
   font-weight: bold;
-  border-bottom: 3px solid #ddd;
+  text-align: center;
+  border-bottom: 3px solid #ccc;
+  border-top: 2px solid #ccc /* Add upper border for th */;
+  border-right: 1px solid #ccc;
   padding-bottom: 0.5em;
 }
-.article-entry td {
-  border-bottom: 1px solid #ddd;
+td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   padding: 10px 0;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
 }
-.article-entry blockquote {
+td blockquote {
   font-family: Georgia, "Times New Roman", serif;
   margin: 1.6em 20px;
   text-align: center;
 }
-.article-entry blockquote footer {
+td blockquote footer {
   font-size: 14px;
   margin: 1.6em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
-.article-entry blockquote footer cite:before {
+td blockquote footer cite:before {
   content: "—";
   padding: 0 0.5em;
 }
-.article-entry .pullquote {
+td .pullquote {
   text-align: left;
   width: 45%;
   margin: 0;
 }
-.article-entry .pullquote.left {
+td .pullquote.left {
   margin-left: 0.5em;
   margin-right: 1em;
 }
-.article-entry .pullquote.right {
+td .pullquote.right {
   margin-right: 0.5em;
   margin-left: 1em;
 }
-.article-entry .caption {
+td .caption {
   color: #999;
   display: block;
   font-size: 0.9em;
@@ -640,15 +647,15 @@ a.article-title:hover {
   position: relative;
   text-align: center;
 }
-.article-entry .video-container {
+td .video-container {
   position: relative;
   padding-top: 56.25%;
   height: 0;
   overflow: hidden;
 }
-.article-entry .video-container iframe,
-.article-entry .video-container object,
-.article-entry .video-container embed {
+td .video-container iframe,
+td .video-container object,
+td .video-container embed {
   position: absolute;
   top: 0;
   left: 0;
