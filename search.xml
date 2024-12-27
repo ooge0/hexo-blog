@@ -1107,85 +1107,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Common LLM parameters</title>
-    <url>/hexo-blog//ai/post_ai_llm__llm_parameters/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
-<ol>
-<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
-<li><a href="/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a></li>
-<li><a href="/hexo-blog/ai/post_ai_prompt_engineeringing__task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></li>
-</ol>
-<hr>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Location in Documentation</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>pad_token_id</strong></td>
-<td>The token ID used for padding sequences. This value indicates to the model where padding occurs.</td>
-<td>Check the tokenizer documentation: <a href="https://huggingface.co/docs/tokenizers/main/en/api/tokenizer#tokenizers.Tokenizer">Hugging Face Tokenizers</a></td>
-</tr>
-<tr>
-<td><strong>eos_token_id</strong></td>
-<td>The token ID that signifies the end of a sequence (End Of Sequence).</td>
-<td>Check model documentation for specifics: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/stopping_criteria#new-eostokencriteriaeostokenid">Hugging Face Models</a></td>
-</tr>
-<tr>
-<td><strong>attention_mask</strong></td>
-<td>A mask that indicates which tokens should be attended to by the model (1 for actual tokens, 0 for padding).</td>
-<td>Refer to model-specific usage in the Hugging Face library: <a href="https://huggingface.co/docs/transformers.js/main/en/api/models#modelscumsummaskedfillattentionmask--code-object-code">Transformers Usage</a></td>
-</tr>
-<tr>
-<td><strong>input_ids</strong></td>
-<td>The token IDs representing the input sequence of text.</td>
-<td>General model input specifications: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#forcetokenslogitsprocessorcallinputids-logits--code-tensor-code">Hugging Face Model Input</a></td>
-</tr>
-<tr>
-<td><strong>output_attention</strong></td>
-<td>A boolean flag indicating if the model should return attention weights in addition to outputs.</td>
-<td>Detailed in specific model API docs: <a href="https://huggingface.co/docs">Transformers API</a></td>
-</tr>
-<tr>
-<td><strong>max_length</strong></td>
-<td>The maximum length of sequences for generation tasks, limiting how long the output can be.</td>
-<td>Check generation section in model docs: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
-</tr>
-<tr>
-<td><strong>num_return_sequences</strong></td>
-<td>The number of sequences to return from the model output, useful for generating multiple responses. The number of independently computed returned sequences for each element in the batch.</td>
-<td>Refer to the text generation configuration: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
-</tr>
-<tr>
-<td><strong>temperature</strong></td>
-<td>Strictly positive float value used to modulate the logits distribution. A value smaller than 1 decreases randomness (and vice versa), with 0 being equivalent to shifting all probability mass to the most likely token.</td>
-<td>Discussed in generation options: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/logits_process#temperaturelogitswarpercallinputids-logits--code-tensor-code">Generation Parameters</a></td>
-</tr>
-<tr>
-<td><strong>top_k</strong></td>
-<td>The number of highest probability vocabulary tokens to keep for sampling.</td>
-<td>Detailed in sampling strategies: <a href="https://huggingface.co/docs">Sampling Methods</a></td>
-</tr>
-<tr>
-<td><strong>top_p</strong></td>
-<td>Controls the cumulative probability distribution for nucleus sampling.</td>
-<td>Explained in sampling calculations: <a href="https://huggingface.co/docs">Nucleus Sampling</a></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>LLM</tag>
-        <tag>llm_parameters</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GPT-2 configuration parameters overview</title>
     <url>/hexo-blog//ai/post_ai_llm__gpt2_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1346,6 +1267,85 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>LLM</tag>
         <tag>GPT2</tag>
         <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Common LLM parameters</title>
+    <url>/hexo-blog//ai/post_ai_llm__llm_parameters/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ol>
+<li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview/">BART configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/">BERT configuration parameters overview</a></li>
+<li><a href="/hexo-blog/ai/post_ai_prompt_engineeringing__task_llm_locally/">Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</a></li>
+</ol>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Location in Documentation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>pad_token_id</strong></td>
+<td>The token ID used for padding sequences. This value indicates to the model where padding occurs.</td>
+<td>Check the tokenizer documentation: <a href="https://huggingface.co/docs/tokenizers/main/en/api/tokenizer#tokenizers.Tokenizer">Hugging Face Tokenizers</a></td>
+</tr>
+<tr>
+<td><strong>eos_token_id</strong></td>
+<td>The token ID that signifies the end of a sequence (End Of Sequence).</td>
+<td>Check model documentation for specifics: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/stopping_criteria#new-eostokencriteriaeostokenid">Hugging Face Models</a></td>
+</tr>
+<tr>
+<td><strong>attention_mask</strong></td>
+<td>A mask that indicates which tokens should be attended to by the model (1 for actual tokens, 0 for padding).</td>
+<td>Refer to model-specific usage in the Hugging Face library: <a href="https://huggingface.co/docs/transformers.js/main/en/api/models#modelscumsummaskedfillattentionmask--code-object-code">Transformers Usage</a></td>
+</tr>
+<tr>
+<td><strong>input_ids</strong></td>
+<td>The token IDs representing the input sequence of text.</td>
+<td>General model input specifications: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#forcetokenslogitsprocessorcallinputids-logits--code-tensor-code">Hugging Face Model Input</a></td>
+</tr>
+<tr>
+<td><strong>output_attention</strong></td>
+<td>A boolean flag indicating if the model should return attention weights in addition to outputs.</td>
+<td>Detailed in specific model API docs: <a href="https://huggingface.co/docs">Transformers API</a></td>
+</tr>
+<tr>
+<td><strong>max_length</strong></td>
+<td>The maximum length of sequences for generation tasks, limiting how long the output can be.</td>
+<td>Check generation section in model docs: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
+</tr>
+<tr>
+<td><strong>num_return_sequences</strong></td>
+<td>The number of sequences to return from the model output, useful for generating multiple responses. The number of independently computed returned sequences for each element in the batch.</td>
+<td>Refer to the text generation configuration: <a href="https://huggingface.co/docs/transformers.js/main/en/api/utils/generation#new-forcedeostokenlogitsprocessormaxlength-forcedeostokenid">Text Generation</a></td>
+</tr>
+<tr>
+<td><strong>temperature</strong></td>
+<td>Strictly positive float value used to modulate the logits distribution. A value smaller than 1 decreases randomness (and vice versa), with 0 being equivalent to shifting all probability mass to the most likely token.</td>
+<td>Discussed in generation options: <a href="https://huggingface.co/docs/transformers.js/main/en/api/generation/logits_process#temperaturelogitswarpercallinputids-logits--code-tensor-code">Generation Parameters</a></td>
+</tr>
+<tr>
+<td><strong>top_k</strong></td>
+<td>The number of highest probability vocabulary tokens to keep for sampling.</td>
+<td>Detailed in sampling strategies: <a href="https://huggingface.co/docs">Sampling Methods</a></td>
+</tr>
+<tr>
+<td><strong>top_p</strong></td>
+<td>Controls the cumulative probability distribution for nucleus sampling.</td>
+<td>Explained in sampling calculations: <a href="https://huggingface.co/docs">Nucleus Sampling</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>llm_parameters</tag>
       </tags>
   </entry>
   <entry>
@@ -3456,10 +3456,201 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>List of neural network models, architectures, and basic components</title>
+    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
+<ol>
+<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
+</ol>
+<hr>
+<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
+<hr>
+<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Model Examples</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Feedforward Neural Network (FNN)</strong></td>
+<td>Basic MLP (Multi-Layer Perceptron)</td>
+<td>General-purpose model for regression and classification tasks.</td>
+</tr>
+<tr>
+<td><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td>VGG, ResNet, AlexNet, EfficientNet</td>
+<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
+<td>Vanilla RNN, LSTM, GRU</td>
+<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
+<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
+<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
+</tr>
+<tr>
+<td><strong>Generative Adversarial Networks (GANs)</strong></td>
+<td>DCGAN, StyleGAN, CycleGAN</td>
+<td>Generative tasks such as image synthesis and domain transfer.</td>
+</tr>
+<tr>
+<td><strong>Graph Neural Networks (GNNs)</strong></td>
+<td>GCN, GraphSAGE, GAT</td>
+<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Applications</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Neuron</strong></td>
+<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
+<td>Foundational unit in all neural networks.</td>
+</tr>
+<tr>
+<td><strong>Layer</strong></td>
+<td>A collection of neurons; can be input, hidden, or output.</td>
+<td>Used in all neural architectures.</td>
+</tr>
+<tr>
+<td><strong>Activation Function</strong></td>
+<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
+<td>Enables learning of complex patterns.</td>
+</tr>
+<tr>
+<td><strong>Dropout</strong></td>
+<td>Regularization technique randomly dropping neurons during training.</td>
+<td>Reduces overfitting in models.</td>
+</tr>
+<tr>
+<td><strong>Encoder</strong></td>
+<td>Part of the model that converts input data into a latent representation.</td>
+<td>Used in Transformers, Autoencoders, BERT, and more.</td>
+</tr>
+<tr>
+<td><strong>Decoder</strong></td>
+<td>Converts latent representations back to an output format.</td>
+<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
+</tr>
+<tr>
+<td><strong>Attention Mechanism</strong></td>
+<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
+<td>Essential in Transformers and attention-based architectures.</td>
+</tr>
+<tr>
+<td><strong>Residual Block</strong></td>
+<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
+<td>Found in ResNet, Transformer architectures.</td>
+</tr>
+<tr>
+<td><strong>Convolution Layer</strong></td>
+<td>Applies convolutional operations to extract spatial features.</td>
+<td>Used in CNNs for tasks like image and video analysis.</td>
+</tr>
+<tr>
+<td><strong>Pooling Layer</strong></td>
+<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
+<td>Used in CNNs to downsample feature maps.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Cell</strong></td>
+<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
+<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
+</tr>
+<tr>
+<td><strong>Self-Attention Layer</strong></td>
+<td>Computes relationships between all input tokens to capture global dependencies.</td>
+<td>Core of Transformers.</td>
+</tr>
+<tr>
+<td><strong>Feedforward Layer</strong></td>
+<td>Dense layer applied after attention mechanisms in Transformers.</td>
+<td>Processes token-wise transformations.</td>
+</tr>
+<tr>
+<td><strong>Embedding Layer</strong></td>
+<td>Converts categorical data or tokens into dense vectors.</td>
+<td>Used in NLP, graph embeddings, and more.</td>
+</tr>
+<tr>
+<td><strong>Latent Space</strong></td>
+<td>Compressed representation of data, typically learned by encoders.</td>
+<td>Found in Autoencoders, VAEs, and GANs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Key Components</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>FNN</strong></td>
+<td>Neurons, Layers, Activation Functions, Dropout.</td>
+</tr>
+<tr>
+<td><strong>CNN</strong></td>
+<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>RNN (Vanilla)</strong></td>
+<td>Recurrent Cells, Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
+</tr>
+<tr>
+<td><strong>GANs</strong></td>
+<td>Generator, Discriminator, Adversarial Loss.</td>
+</tr>
+<tr>
+<td><strong>GNNs</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
+</tr>
+</tbody></table>
+<hr>
+<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Glossary of Machine Learning and AI Terms</title>
     <url>/hexo-blog//ai/glossary-of-machine-learning-and-ai-terms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Feel free to send me your thoughts, notes, other references. My contact details you can find on <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a></em></p>
-<p><em>Total terms in docoment: <strong>52</strong></em></p>
+<p><em>Total terms in document: <strong>53</strong></em></p>
 <h3 id="Index"><a href="#Index" class="headerlink" title="Index"></a>Index</h3><p><a href="#A">A</a>  <a href="#B">B</a>  <a href="#C">C</a>  <a href="#D">D</a>  <a href="#E">E</a>  <a href="#F">F</a>  <a href="#G">G</a>  <a href="#H">H</a>  <a href="#I">I</a>  <a href="#J">J</a>  <a href="#K">K</a>  <a href="#L">L</a>  <a href="#M">M</a>  <a href="#N">N</a>  <a href="#O">O</a>  <a href="#P">P</a>  <a href="#Q">Q</a>  <a href="#R">R</a>  <a href="#S">S</a>  <a href="#T">T</a>  <a href="#U">U</a>  <a href="#V">V</a>  <a href="#W">W</a>  <a href="#X">X</a>  <a href="#Y">Y</a>  <a href="#Z">Z</a></p>
 <h2 id="A"><a href="#A" class="headerlink" title="A"></a>A</h2><h3 id="Autoencoders"><a href="#Autoencoders" class="headerlink" title="Autoencoders"></a>Autoencoders</h3><p>Autoencoders are neural network architectures used for <a href="#Unsupervised-learning">unsupervised learning</a>. They are designed to compress input data into a lower-dimensional latent space (encoding) and then reconstruct the original data from this compressed representation (decoding). The primary objective is to minimize the reconstruction error, typically measured as the difference between input and output. </p>
 <p><strong>Applications:</strong></p>
@@ -3728,197 +3919,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>glossary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>List of neural network models, architectures, and basic components</title>
-    <url>/hexo-blog/2024/12/10/post_ai_nn__list_of_neural_network_models_architectures_and_basic_components/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
-<ol>
-<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
-</ol>
-<hr>
-<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
-<hr>
-<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Model Examples</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Feedforward Neural Network (FNN)</strong></td>
-<td>Basic MLP (Multi-Layer Perceptron)</td>
-<td>General-purpose model for regression and classification tasks.</td>
-</tr>
-<tr>
-<td><strong>Convolutional Neural Networks (CNN)</strong></td>
-<td>VGG, ResNet, AlexNet, EfficientNet</td>
-<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
-<td>Vanilla RNN, LSTM, GRU</td>
-<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
-<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
-<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
-</tr>
-<tr>
-<td><strong>Generative Adversarial Networks (GANs)</strong></td>
-<td>DCGAN, StyleGAN, CycleGAN</td>
-<td>Generative tasks such as image synthesis and domain transfer.</td>
-</tr>
-<tr>
-<td><strong>Graph Neural Networks (GNNs)</strong></td>
-<td>GCN, GraphSAGE, GAT</td>
-<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Component</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Applications</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Neuron</strong></td>
-<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
-<td>Foundational unit in all neural networks.</td>
-</tr>
-<tr>
-<td><strong>Layer</strong></td>
-<td>A collection of neurons; can be input, hidden, or output.</td>
-<td>Used in all neural architectures.</td>
-</tr>
-<tr>
-<td><strong>Activation Function</strong></td>
-<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
-<td>Enables learning of complex patterns.</td>
-</tr>
-<tr>
-<td><strong>Dropout</strong></td>
-<td>Regularization technique randomly dropping neurons during training.</td>
-<td>Reduces overfitting in models.</td>
-</tr>
-<tr>
-<td><strong>Encoder</strong></td>
-<td>Part of the model that converts input data into a latent representation.</td>
-<td>Used in Transformers, Autoencoders, BERT, and more.</td>
-</tr>
-<tr>
-<td><strong>Decoder</strong></td>
-<td>Converts latent representations back to an output format.</td>
-<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
-</tr>
-<tr>
-<td><strong>Attention Mechanism</strong></td>
-<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
-<td>Essential in Transformers and attention-based architectures.</td>
-</tr>
-<tr>
-<td><strong>Residual Block</strong></td>
-<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
-<td>Found in ResNet, Transformer architectures.</td>
-</tr>
-<tr>
-<td><strong>Convolution Layer</strong></td>
-<td>Applies convolutional operations to extract spatial features.</td>
-<td>Used in CNNs for tasks like image and video analysis.</td>
-</tr>
-<tr>
-<td><strong>Pooling Layer</strong></td>
-<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
-<td>Used in CNNs to downsample feature maps.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Cell</strong></td>
-<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
-<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
-</tr>
-<tr>
-<td><strong>Self-Attention Layer</strong></td>
-<td>Computes relationships between all input tokens to capture global dependencies.</td>
-<td>Core of Transformers.</td>
-</tr>
-<tr>
-<td><strong>Feedforward Layer</strong></td>
-<td>Dense layer applied after attention mechanisms in Transformers.</td>
-<td>Processes token-wise transformations.</td>
-</tr>
-<tr>
-<td><strong>Embedding Layer</strong></td>
-<td>Converts categorical data or tokens into dense vectors.</td>
-<td>Used in NLP, graph embeddings, and more.</td>
-</tr>
-<tr>
-<td><strong>Latent Space</strong></td>
-<td>Compressed representation of data, typically learned by encoders.</td>
-<td>Found in Autoencoders, VAEs, and GANs.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Key Components</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>FNN</strong></td>
-<td>Neurons, Layers, Activation Functions, Dropout.</td>
-</tr>
-<tr>
-<td><strong>CNN</strong></td>
-<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>RNN (Vanilla)</strong></td>
-<td>Recurrent Cells, Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
-</tr>
-<tr>
-<td><strong>GANs</strong></td>
-<td>Generator, Discriminator, Adversarial Loss.</td>
-</tr>
-<tr>
-<td><strong>GNNs</strong></td>
-<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
-</tr>
-</tbody></table>
-<hr>
-<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NN</tag>
       </tags>
   </entry>
   <entry>
@@ -5974,6 +5974,20 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>ASCII art</title>
+    <url>/hexo-blog//fun/acsii_graphics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>acsii</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
     <url>/hexo-blog//docs_publishing/readthedoc_vs_github_pages_tutorial_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
@@ -6036,20 +6050,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>ReadTheDocs</tag>
         <tag>GitHubPages</tag>
         <tag>DocPublishing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ASCII art</title>
-    <url>/hexo-blog//fun/acsii_graphics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
       </tags>
   </entry>
   <entry>
@@ -6199,6 +6199,58 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>ML - colorizing plain text dynamically in HTML</title>
+    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
+<ol>
+<li>CSS and JavaScript Solutions<ol>
+<li><strong>CSS and JavaScript</strong></li>
+</ol>
+<ul>
+<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
+<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
+</ul>
+<ol start="2">
+<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
+</ol>
+</li>
+<li><strong>Python Libraries and Frameworks</strong><ol>
+<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
+<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
+<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
+<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
+<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
+</ol>
+</li>
+<li><strong>Machine Learning Solutions</strong><ol>
+<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
+<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
+<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
+</ol>
+</li>
+<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
+<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
+</ol>
+</li>
+</ol>
+<hr>
+<p>  <strong>Summary of Recommendations</strong></p>
+<ul>
+<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
+<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
+<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>html</tag>
+        <tag>tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Text Generation Coherence vs. Text Generation Quality</title>
     <url>/hexo-blog//linguistic/text_coherence_vs_text_quiality/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Text-Generation-Coherence"><a href="#1-Text-Generation-Coherence" class="headerlink" title="1. Text Generation Coherence"></a>1. Text Generation Coherence</h2><p>Coherence refers to the logical and structural flow of the text. A coherent text feels connected and makes sense as a whole. It ensures that:</p>
@@ -6300,58 +6352,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       <tags>
         <tag>NLP</tag>
         <tag>linguistic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ML - colorizing plain text dynamically in HTML</title>
-    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
-<ol>
-<li>CSS and JavaScript Solutions<ol>
-<li><strong>CSS and JavaScript</strong></li>
-</ol>
-<ul>
-<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
-<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
-</ul>
-<ol start="2">
-<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
-</ol>
-</li>
-<li><strong>Python Libraries and Frameworks</strong><ol>
-<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
-<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
-<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
-<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
-<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
-</ol>
-</li>
-<li><strong>Machine Learning Solutions</strong><ol>
-<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
-<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
-<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
-</ol>
-</li>
-<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
-<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
-</ol>
-</li>
-</ol>
-<hr>
-<p>  <strong>Summary of Recommendations</strong></p>
-<ul>
-<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
-<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
-<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>html</tag>
-        <tag>tutorial</tag>
       </tags>
   </entry>
   <entry>
@@ -7160,6 +7160,75 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Favorite post categories</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#post-details">Post Details</a><ul>
+<li><a href="#linkedin">LinkedIn</a></li>
+<li><a href="#medium">Medium</a></li>
+<li><a href="#other-resources">Other Resources</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
+<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
+<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
+</ul>
+<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
+<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
+<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
+</ul>
+<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
+<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
+<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
+<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
+<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
+<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
+<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
+<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
+<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
+<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
+<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
+<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
+<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
+<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
+<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
+<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
+<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
+<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
+<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
+<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
+<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
+<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
+<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
+<li>Author: Piotr Gaczkowski</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_medium_post</tag>
+        <tag>my_linkedin_post</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Examples of test tasks</title>
     <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
@@ -7239,75 +7308,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite post categories</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
-<ul>
-<li><a href="#post-details">Post Details</a><ul>
-<li><a href="#linkedin">LinkedIn</a></li>
-<li><a href="#medium">Medium</a></li>
-<li><a href="#other-resources">Other Resources</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Post-Details"><a href="#Post-Details" class="headerlink" title="Post Details"></a>Post Details</h2><h3 id="LinkedIn"><a href="#LinkedIn" class="headerlink" title="LinkedIn"></a>LinkedIn</h3><ul>
-<li><a href="https://www.linkedin.com/pulse/how-identify-authorize-world-roman-denysenko/?trackingId=9XPiGaGb5dRbHqv7D54MpA==">How to identify and authorize the world | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/test-design-techniques-diagram-roman-denysenko-cenhe/?trackingId=nfx/cTx+UJhTup2tM83uDw==">Test design techniques (Diagram) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/google-chrome-extensions-software-testers-shady-ahmed-mohamed/?trackingId=67cztDHJl1FiMv1KZeE9JQ==">Google Chrome Extensions for Software Testers | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/groups/961087/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn:li:groupPost:961087-7135234239951745025">Machine Learning Community (Moderated) | LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/list-channels-historical-processes-youtube-updated-roman-denysenko-fc4lf/?trackingId=1YbHy9l9xRxXL2BohGKaWWQ==">List of channels about historical processes on YouTube (will be updated) | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/dom-data-roman-denysenko/?trackingId=fYwsAt7loKNZsW4473tOig==">DOM data | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/one-time-email-services-roman-denysenko/?trackingId=+4ba9eFZgOwxlqbkbkvUSw==">One-time email services | My LinkedIn post | </a></li>
-<li><a href="https://www.linkedin.com/pulse/virtual-ward-companies-roman-denysenko/?trackingId=1+83hbESobRlVKfpWLIi2A==">Worldwide virtual ward companies | My LinkedIn post |</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | My LinkedIn post |</a></li>
-</ul>
-<h3 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h3><ul>
-<li><a href="https://broken-code.medium.com/icmp-protocol-7d53b64c73ca">Internet Control Message Protocol (ICMP) — overview | My Medium post | Apr, 2024 | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/cyclomatic-complexity-basics-149198bbac85">Cyclomatic complexity (Basics) | Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/navigating-the-gaming-cosmos-a-comprehensive-guide-to-testing-game-tiers-c5777a672666">Navigating the Gaming Cosmos: A Comprehensive Guide to Testing Game Tiers | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">Hugging Face Transformer UML diagram | My Medium post |</a></li>
-<li><a href="https://medium.com/@R_D2/hugging-face-transformer-uml-diagram-3ce7cde44cc0">How Is ChatGPT’s Behavior Changing | Medium post |</a></li>
-</ul>
-<h3 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h3><ul>
-<li><a href="https://www.nokia.com/networks/radio-access-networks/open-ran/open-ran-explained/">Open RAN explained | Nokia</a></li>
-<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow cheatsheet</a></li>
-<li><a href="https://www.softwaretestinghelp.com/penetration-testing-guide/">Penetration Testing - Complete Guide with Penetration Testing Sample Test Cases</a></li>
-<li><a href="https://www.youtube.com/watch?v=42iQKuQodW4">Linux Directories Explained in 100 Seconds - YouTube</a></li>
-<li><a href="https://www.destination2050.eu/">A ROUTE TO NET ZERO EUROPEAN AVIATION</a></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">TUTORIAL. An Introduction to OAuth 2</a></li>
-<li><a href="https://djangocas.dev/blog/oauth2-101-introduction-to-oauth2-protocol/">OAuth2 101: OAuth 2 Detailed Grant Flow Diagrams, Security Consideration and Best Practice</a></li>
-<li><a href="https://scaledagileframework.com/nonfunctional-requirements/">Nonfunctional Requirements - Scaled Agile Framework</a></li>
-<li><a href="https://deviceatlas.com/blog/list-of-user-agent-strings">List of User Agent strings - DeviceAtlas</a></li>
-<li><a href="https://developer.chrome.com/docs/lighthouse/overview/">Overview | Lighthouse | Chrome for Developers</a></li>
-<li><a href="https://www.paloaltonetworks.com/services/education">Education Services - Palo Alto Networks</a></li>
-<li><a href="https://realpython.com/python-continuous-integration/">Continuous Integration With Python: An Introduction - Real Python</a></li>
-<li><a href="https://martinfowler.com/articles/microservice-testing/">Testing Strategies in a Microservice Architecture</a></li>
-<li><a href="https://www.flagsarenotlanguages.com/blog/">Flags are not languages - A blog about designing global user experiences: beyond language, location &amp; culture.</a></li>
-<li><a href="https://www.sigmajs.org/">Sigma.js</a></li>
-<li><a href="https://sql.bobby.sh/">Bobby Iliev - Introduction to SQL eBook</a></li>
-<li><a href="https://github.com/ooge0/SQL/blob/master/Tutorials/%20SQLite%20tutorial.md">SQL&#x2F;Tutorials&#x2F; SQLite tutorial.md at master · ooge0&#x2F;SQL</a></li>
-<li><a href="https://www.scaler.com/topics/challenge-response-authentication/">Challenge Response Authentication Mechanism (CRAM) - Scaler Topics</a></li>
-<li><a href="https://creately.com/blog/diagrams/uml-diagram-types-examples/">UML Diagram Types | Learn About All 14 Types of UML Diagrams</a></li>
-<li><a href="https://guides.visual-paradigm.com/choosing-the-right-uml-diagram-state-diagrams-sequence-diagrams-or-activity-diagrams/">Choosing the Right UML Diagram: State Diagrams, Sequence Diagrams, or Activity Diagrams? - Visual Paradigm Guides</a></li>
-<li><a href="https://www.linkedin.com/pulse/export-extensions-from-chrome-roman-denysenko-hztif">Export extensions from Chrome | LinkedIn</a></li>
-<li><a href="https://senlainc.com/blog/top-10-software-development-models-in-a-nutshell/">Top 10 software development models in a nutshell</a></li>
-<li><a href="https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/">Git Pull Force – How to Overwrite Local Changes With Git</a> <ul>
-<li>Author: Piotr Gaczkowski</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_medium_post</tag>
-        <tag>my_linkedin_post</tag>
       </tags>
   </entry>
   <entry>
@@ -7679,37 +7679,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -7774,6 +7743,37 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Moving from old blog site</title>
     <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
@@ -7790,6 +7790,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>blog</tag>
         <tag>note</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -7936,20 +7950,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>sys_conffigs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
       </tags>
   </entry>
   <entry>
