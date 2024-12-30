@@ -474,6 +474,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
+</ul>
+</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Tools for Augmenting Data and Generating Texts</title>
     <url>/hexo-blog/2024/05/10/post_ai__tools_for_augmenting_data_and_generating_texts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text-Generation-Models"><a href="#Text-Generation-Models" class="headerlink" title="Text Generation Models"></a>Text Generation Models</h2><p>Text generation models are trained on large corpora and can generate semantically coherent and lexically varied sentences.</p>
@@ -535,33 +562,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>augmentation</tag>
         <tag>text_generation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -4995,6 +4995,7 @@ print(generated_text)
 <p>Install and import required packages</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> json</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br></pre></td></tr></table></figure>
 
+<p>Execute request</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">execute_requests</span>(<span class="params">base_url, amount_of_pages</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Executes GET requests for the specified number of pages and returns the responses.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        base_url (str): The base URL for requests.</span></span><br><span class="line"><span class="string">        amount_of_pages (int): The number of pages to fetch.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        list: A list of dictionaries containing the request number, page counter, and response content.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    payload = &#123;&#125;</span><br><span class="line">    headers = &#123;</span><br><span class="line">        <span class="string">&#x27;Cookie&#x27;</span>: <span class="string">&#x27;_jobboard_session=895b7b35b6493519c3ad686923d8cc1d; __cf_bm=BrUIPeJX6XqIr7jlW.4M-1732742386-1.0.1.1-1hk8BgPr6ZL6QswlF6K2dUhchp0reiDPOXzX6z.etyq.IUHZqPg&#x27;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    responses_data = []  <span class="comment"># Initialize an empty list to store response data</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> counter <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, amount_of_pages + <span class="number">1</span>):</span><br><span class="line">        <span class="comment"># Construct the URL with the current page counter</span></span><br><span class="line">        url = <span class="string">f&quot;<span class="subst">&#123;base_url&#125;</span>&amp;page=<span class="subst">&#123;counter&#125;</span>&quot;</span></span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;Fetching data from: <span class="subst">&#123;url&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            <span class="comment"># Send GET request</span></span><br><span class="line">            response = requests.get(url, headers=headers, data=payload)</span><br><span class="line"></span><br><span class="line">            <span class="comment"># Append the response data to the list</span></span><br><span class="line">            responses_data.append(&#123;</span><br><span class="line">                <span class="string">&quot;request_key&quot;</span>: <span class="string">f&quot;request_<span class="subst">&#123;counter&#125;</span>&quot;</span>,</span><br><span class="line">                <span class="string">&quot;counter&quot;</span>: counter,</span><br><span class="line">                <span class="string">&quot;response_content&quot;</span>: response.text</span><br><span class="line">            &#125;)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;counter: <span class="subst">&#123;counter&#125;</span> | &#x27;status_code:&#x27; <span class="subst">&#123;response.status_code&#125;</span>&quot;</span>)</span><br><span class="line">        <span class="keyword">except</span> requests.RequestException <span class="keyword">as</span> e:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;Error fetching data for page <span class="subst">&#123;counter&#125;</span>: <span class="subst">&#123;e&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> responses_data</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>Parse data from <code>json</code></p>
@@ -5293,204 +5294,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Python basics</title>
-    <url>/hexo-blog/2023/06/12/post_dev_side__python_basics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
-<ol>
-<li><a href="https://docs.python.org/3/tutorial/introduction.html">Python Basics | python.org</a><ol>
-<li>Learn Python’s syntax, variables, and basic programming constructs.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Input-and-Output-in-Python"><a href="#Input-and-Output-in-Python" class="headerlink" title="Input and Output in Python"></a>Input and Output in Python</h2><p>Python provides various ways to take input from users and output information. The <code>input()</code> function is used for input, while <code>print()</code> is commonly used for output. Mastering I&#x2F;O is critical for creating interactive programs.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/input-and-output-in-python/">Python Input and Output | geeksforgeeks.org</a><ol>
-<li>Understand how to handle user inputs and format outputs.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Data-Types"><a href="#Python-Data-Types" class="headerlink" title="Python Data Types"></a>Python Data Types</h2><p>Python supports several built-in data types like <code>int</code>, <code>float</code>, <code>str</code>, <code>list</code>, and more. These types form the foundation of Python’s dynamic nature.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-data-types/">Python Data Types | geeksforgeeks.org</a><ol>
-<li>Explore various data types and their uses in Python.</li>
-</ol>
-</li>
-<li><a href="https://www.programiz.com/python-programming/variables-datatypes">Python Data Types | programiz.com</a></li>
-</ol>
-<h2 id="Python-Data-Structures"><a href="#Python-Data-Structures" class="headerlink" title="Python Data Structures"></a>Python Data Structures</h2><p>Data structures help organize and manipulate data efficiently. Python’s built-in data structures like <code>list</code>, <code>dict</code>, <code>set</code>, and <code>tuple</code> simplify data management.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-data-structures/">Python Data Structures | geeksforgeeks.org</a><ol>
-<li>Learn to use Python’s powerful data structures for different scenarios.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Operators"><a href="#Python-Operators" class="headerlink" title="Python Operators"></a>Python Operators</h2><p>Operators are special symbols that carry out operations on variables and values. Python supports arithmetic, logical, bitwise, and comparison operators.</p>
-<ol>
-<li><a href="https://realpython.com/python-operators-expressions/">Python Operators | realpython.com</a><ol>
-<li>Understand how to use operators for data manipulation.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Conditional-Statements-in-Python"><a href="#Conditional-Statements-in-Python" class="headerlink" title="Conditional Statements in Python"></a>Conditional Statements in Python</h2><p>Conditional statements like <code>if</code>, <code>elif</code>, and <code>else</code> allow programs to make decisions. They are fundamental for implementing logic.</p>
-<ol>
-<li><a href="https://www.w3schools.com/python/python_conditions.asp">Python Conditional Statements | w3schools.com</a><ol>
-<li>Learn to control program flow using conditional statements.</li>
-</ol>
-</li>
-</ol>
-<p><em><strong>Related to this topic</strong></em></p>
-<ol>
-<li><a href="https://python-book.softuni.org/chapter-05-loops.html">Chapter 5.1. Loops | python-book.softuni.org</a></li>
-<li><a href="https://python-book.softuni.org/chapter-06-nested-loops-exam-problems.html">Chapter 7.1. Complex Loops | python-book.softuni.org</a></li>
-</ol>
-<p><em><strong>Replacement</strong></em></p>
-<h3 id="Replacing-Loops-in-Python-Using-Programmatic-Tricks"><a href="#Replacing-Loops-in-Python-Using-Programmatic-Tricks" class="headerlink" title="Replacing Loops in Python Using Programmatic Tricks"></a>Replacing Loops in Python Using Programmatic Tricks</h3><p>Replacing traditional loops in Python with advanced techniques can enhance code readability and performance. Below are some key approaches to consider:</p>
-<h4 id="1-List-Comprehensions"><a href="#1-List-Comprehensions" class="headerlink" title="1. List Comprehensions"></a>1. <strong>List Comprehensions</strong></h4><ul>
-<li>List comprehensions provide a concise way to replace simple <code>for</code> loops, especially for creating or filtering lists.</li>
-<li>They are more readable and faster than traditional loops for straightforward transformations.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://realpython.com/courses/understand-list-comprehensions/">Python List Comprehensions | realpython.com</a>  </li>
-<li><a href="https://www.geeksforgeeks.org/python-list-comprehension/">Mastering List Comprehensions | geeksforgeeks.org</a></li>
-</ol>
-<hr>
-<h4 id="2-Map-Filter-and-Reduce"><a href="#2-Map-Filter-and-Reduce" class="headerlink" title="2. Map, Filter, and Reduce"></a>2. <strong>Map, Filter, and Reduce</strong></h4><ul>
-<li>Use functional programming tools like <code>map</code> for transformations, <code>filter</code> for conditional filtering, and <code>reduce</code> for aggregations.  </li>
-<li>These methods eliminate the need for explicit loops and promote a functional programming style.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://realpython.com/python-functional-programming/">Functional Programming in Python | realpython.com</a>  </li>
-<li><a href="https://www.programiz.com/python-programming/methods/built-in/map">Python map(), filter(), and reduce() | programiz.com</a></li>
-</ol>
-<hr>
-<h4 id="3-Generators-and-Generator-Expressions"><a href="#3-Generators-and-Generator-Expressions" class="headerlink" title="3. Generators and Generator Expressions"></a>3. <strong>Generators and Generator Expressions</strong></h4><ul>
-<li>Replace loops with generators for memory-efficient processing of large datasets.  </li>
-<li>Generator expressions can streamline code and work well with functions like <code>sum()</code> and <code>any()</code>.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://realpython.com/introduction-to-python-generators/">Generators in Python | realpython.com</a>  </li>
-<li><a href="https://www.geeksforgeeks.org/generators-in-python/">Python Generators | geeksforgeeks.org</a></li>
-<li><a href="https://www.geeksforgeeks.org/python-itertools/">Python Itertools | geeksforgeeks.org</a></li>
-</ol>
-<hr>
-<h4 id="4-Recursion-as-a-Loop-Replacement"><a href="#4-Recursion-as-a-Loop-Replacement" class="headerlink" title="4. Recursion as a Loop Replacement"></a>4. <strong>Recursion as a Loop Replacement</strong></h4><ul>
-<li>Replace certain types of nested loops with recursion for problems like tree traversal.  </li>
-<li>While not always efficient, recursion simplifies some complex loop structures.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://www.programiz.com/python-programming/recursion">Recursion in Python | programiz.com</a>  </li>
-<li><a href="https://www.geeksforgeeks.org/difference-between-recursion-and-iteration">Difference between Recursion and Iteration | geeksforgeeks.org</a></li>
-</ol>
-<hr>
-<h4 id="5-Vectorized-Operations-with-NumPy"><a href="#5-Vectorized-Operations-with-NumPy" class="headerlink" title="5. Vectorized Operations with NumPy"></a>5. <strong>Vectorized Operations with NumPy</strong></h4><ul>
-<li>Replace loops with vectorized operations in libraries like NumPy for mathematical or array computations.  </li>
-<li>These operations are faster and more efficient than traditional looping mechanisms.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://numpy.org/doc/stable/user/quickstart.html">NumPy Quick Start | numpy.org</a>  </li>
-<li><a href="https://towardsdatascience.com/understanding-text-vectorizations-how-streamlined-models-made-feature-extractions-a-breeze-8b9768bbd96a">Understanding Vectorization (Sklearn + Pandas + NumPy) | towardsdatascience.com</a></li>
-<li><a href="https://medium.com/@michael-scherding/understanding-vectorization-775a419d1270">Understanding Vectorization in NumPy and Pandas | medium.com</a></li>
-</ol>
-<hr>
-<h4 id="6-Using-Built-in-Python-Functions"><a href="#6-Using-Built-in-Python-Functions" class="headerlink" title="6. Using Built-in Python Functions"></a>6. <strong>Using Built-in Python Functions</strong></h4><ul>
-<li>Replace loops with Python’s built-in functions like <code>sum()</code>, <code>max()</code>, <code>any()</code>, etc., to perform common operations.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://docs.python.org/3/library/functions.html">Built-in Functions in Python | docs.python.org</a>  </li>
-<li><a href="https://realpython.com/python-built-in-functions/">Optimizing with Built-in Functions | realpython.com</a></li>
-</ol>
-<hr>
-<p>These techniques not only replace traditional loops but also align with Python’s philosophy of simplicity and elegance.</p>
-<h2 id="Loops-in-Python-For-While-and-Nested-Loops"><a href="#Loops-in-Python-For-While-and-Nested-Loops" class="headerlink" title="Loops in Python - For, While and Nested Loops"></a>Loops in Python - For, While and Nested Loops</h2><p>Loops are used to execute a block of code repeatedly. Python supports <code>for</code> and <code>while</code> loops, along with nested loops for complex tasks.</p>
-<ol>
-<li><a href="https://www.tutorialspoint.com/python/python_loops.htm">Python Loops | tutorialspoint.com</a><ol>
-<li>Master loops for repetitive tasks and data iteration.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Functions"><a href="#Python-Functions" class="headerlink" title="Python Functions"></a>Python Functions</h2><p>Functions allow you to encapsulate code into reusable blocks. Python supports user-defined, lambda, and built-in functions.</p>
-<ol>
-<li><a href="https://www.programiz.com/python-programming/function">Python Functions | programiz.com</a><ol>
-<li>Understand function declarations, arguments, and scope.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-OOPs-Concepts"><a href="#Python-OOPs-Concepts" class="headerlink" title="Python OOPs Concepts"></a>Python OOPs Concepts</h2><p>Object-oriented programming (OOP) in Python revolves around objects and classes. Key concepts include inheritance, encapsulation, and polymorphism.</p>
-<ol>
-<li><a href="https://realpython.com/python3-object-oriented-programming/">Python OOP | realpython.com</a><ol>
-<li>Learn the principles of OOP and their implementation in Python.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Functional-Programming"><a href="#Python-Functional-Programming" class="headerlink" title="Python Functional Programming"></a>Python Functional Programming</h2><p>Functional programming treats computation as the evaluation of mathematical functions. Python’s support for <code>map</code>, <code>reduce</code>, and <code>filter</code> simplifies this paradigm.</p>
-<ol>
-<li><a href="https://medium.com/@gchandrams/python-functional-programming-techniques-505c7b5da441">Python Functional Programming | medium.com</a><ol>
-<li>Dive into functional programming with Python.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Modules"><a href="#Python-Modules" class="headerlink" title="Python Modules"></a>Python Modules</h2><p>Modules in Python are files containing Python code that can define functions, classes, and variables. They promote code reuse.</p>
-<ol>
-<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Modules | python.org</a><ol>
-<li>Learn to import and use Python modules effectively.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Exception-Handling"><a href="#Python-Exception-Handling" class="headerlink" title="Python Exception Handling"></a>Python Exception Handling</h2><p>Exception handling allows you to manage errors gracefully using <code>try</code>, <code>except</code>, <code>finally</code>, and <code>raise</code>.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-exception-handling/">Python Exception Handling | geeksforgeeks.org</a><ol>
-<li>Master exception handling to write robust code.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Packages"><a href="#Python-Packages" class="headerlink" title="Python Packages"></a>Python Packages</h2><p>Packages are collections of modules grouped together. They are used to organize related modules for larger applications.</p>
-<ol>
-<li><a href="https://www.w3schools.com/python/python_modules.asp">Python Packages | w3schools.com</a><ol>
-<li>Explore how to create and manage Python packages.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Collections-Module"><a href="#Python-Collections-Module" class="headerlink" title="Python Collections Module"></a>Python Collections Module</h2><p>Python’s <code>collections</code> module provides specialized container data types like <code>Counter</code>, <code>deque</code>, <code>OrderedDict</code>, and <code>defaultdict</code>. These can simplify complex data operations.</p>
-<ol>
-<li><a href="https://realpython.com/python-collections-module/">Python Collections Module | realpython.com</a><ol>
-<li>Learn to use advanced data containers in Python.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Projects-Beginner-to-Advanced"><a href="#Python-Projects-Beginner-to-Advanced" class="headerlink" title="Python Projects - Beginner to Advanced"></a>Python Projects - Beginner to Advanced</h2><p>Python projects provide practical experience with coding concepts. Start with simple projects and gradually take on more advanced challenges.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/">Python Project Ideas | geeksforgeeks.org</a><ol>
-<li>Discover project ideas for every skill level.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Quiz"><a href="#Python-Quiz" class="headerlink" title="Python Quiz"></a>Python Quiz</h2><p>Quizzes help reinforce your Python knowledge by testing your understanding of concepts.</p>
-<ol>
-<li><a href="https://www.w3schools.com/python/python_quiz.asp">Python Quiz | w3schools.com</a><ol>
-<li>Test your skills with interactive Python quizzes.</li>
-</ol>
-</li>
-<li><a href="https://www.geeksforgeeks.org/python-quizzes/">Python Quiz | geeksforgeeks.org</a></li>
-<li><a href="https://pynative.com/python/quizzes/">Python Quiz | pynative.com</a></li>
-<li><a href="https://www.codechef.com/skill-test/basic-python">Python Quiz | codechef.com</a></li>
-<li><a href="https://www.evamariakiss.de/tutorial/python/python_quizzes.php">Python Quiz | evamariakiss.de</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>dev_side</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python libs</title>
     <url>/hexo-blog//dev_side/python_libs/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of Python packages, their documentation links, and the corresponding installation commands. The packages are arranged alphabetically.</p>
@@ -5698,6 +5501,204 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>Python basics</title>
+    <url>/hexo-blog/2023/06/12/post_dev_side__python_basics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
+<ol>
+<li><a href="https://docs.python.org/3/tutorial/introduction.html">Python Basics | python.org</a><ol>
+<li>Learn Python’s syntax, variables, and basic programming constructs.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Input-and-Output-in-Python"><a href="#Input-and-Output-in-Python" class="headerlink" title="Input and Output in Python"></a>Input and Output in Python</h2><p>Python provides various ways to take input from users and output information. The <code>input()</code> function is used for input, while <code>print()</code> is commonly used for output. Mastering I&#x2F;O is critical for creating interactive programs.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/input-and-output-in-python/">Python Input and Output | geeksforgeeks.org</a><ol>
+<li>Understand how to handle user inputs and format outputs.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Data-Types"><a href="#Python-Data-Types" class="headerlink" title="Python Data Types"></a>Python Data Types</h2><p>Python supports several built-in data types like <code>int</code>, <code>float</code>, <code>str</code>, <code>list</code>, and more. These types form the foundation of Python’s dynamic nature.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-data-types/">Python Data Types | geeksforgeeks.org</a><ol>
+<li>Explore various data types and their uses in Python.</li>
+</ol>
+</li>
+<li><a href="https://www.programiz.com/python-programming/variables-datatypes">Python Data Types | programiz.com</a></li>
+</ol>
+<h2 id="Python-Data-Structures"><a href="#Python-Data-Structures" class="headerlink" title="Python Data Structures"></a>Python Data Structures</h2><p>Data structures help organize and manipulate data efficiently. Python’s built-in data structures like <code>list</code>, <code>dict</code>, <code>set</code>, and <code>tuple</code> simplify data management.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-data-structures/">Python Data Structures | geeksforgeeks.org</a><ol>
+<li>Learn to use Python’s powerful data structures for different scenarios.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Operators"><a href="#Python-Operators" class="headerlink" title="Python Operators"></a>Python Operators</h2><p>Operators are special symbols that carry out operations on variables and values. Python supports arithmetic, logical, bitwise, and comparison operators.</p>
+<ol>
+<li><a href="https://realpython.com/python-operators-expressions/">Python Operators | realpython.com</a><ol>
+<li>Understand how to use operators for data manipulation.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Conditional-Statements-in-Python"><a href="#Conditional-Statements-in-Python" class="headerlink" title="Conditional Statements in Python"></a>Conditional Statements in Python</h2><p>Conditional statements like <code>if</code>, <code>elif</code>, and <code>else</code> allow programs to make decisions. They are fundamental for implementing logic.</p>
+<ol>
+<li><a href="https://www.w3schools.com/python/python_conditions.asp">Python Conditional Statements | w3schools.com</a><ol>
+<li>Learn to control program flow using conditional statements.</li>
+</ol>
+</li>
+</ol>
+<p><em><strong>Related to this topic</strong></em></p>
+<ol>
+<li><a href="https://python-book.softuni.org/chapter-05-loops.html">Chapter 5.1. Loops | python-book.softuni.org</a></li>
+<li><a href="https://python-book.softuni.org/chapter-06-nested-loops-exam-problems.html">Chapter 7.1. Complex Loops | python-book.softuni.org</a></li>
+</ol>
+<p><em><strong>Replacement</strong></em></p>
+<h3 id="Replacing-Loops-in-Python-Using-Programmatic-Tricks"><a href="#Replacing-Loops-in-Python-Using-Programmatic-Tricks" class="headerlink" title="Replacing Loops in Python Using Programmatic Tricks"></a>Replacing Loops in Python Using Programmatic Tricks</h3><p>Replacing traditional loops in Python with advanced techniques can enhance code readability and performance. Below are some key approaches to consider:</p>
+<h4 id="1-List-Comprehensions"><a href="#1-List-Comprehensions" class="headerlink" title="1. List Comprehensions"></a>1. <strong>List Comprehensions</strong></h4><ul>
+<li>List comprehensions provide a concise way to replace simple <code>for</code> loops, especially for creating or filtering lists.</li>
+<li>They are more readable and faster than traditional loops for straightforward transformations.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://realpython.com/courses/understand-list-comprehensions/">Python List Comprehensions | realpython.com</a>  </li>
+<li><a href="https://www.geeksforgeeks.org/python-list-comprehension/">Mastering List Comprehensions | geeksforgeeks.org</a></li>
+</ol>
+<hr>
+<h4 id="2-Map-Filter-and-Reduce"><a href="#2-Map-Filter-and-Reduce" class="headerlink" title="2. Map, Filter, and Reduce"></a>2. <strong>Map, Filter, and Reduce</strong></h4><ul>
+<li>Use functional programming tools like <code>map</code> for transformations, <code>filter</code> for conditional filtering, and <code>reduce</code> for aggregations.  </li>
+<li>These methods eliminate the need for explicit loops and promote a functional programming style.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://realpython.com/python-functional-programming/">Functional Programming in Python | realpython.com</a>  </li>
+<li><a href="https://www.programiz.com/python-programming/methods/built-in/map">Python map(), filter(), and reduce() | programiz.com</a></li>
+</ol>
+<hr>
+<h4 id="3-Generators-and-Generator-Expressions"><a href="#3-Generators-and-Generator-Expressions" class="headerlink" title="3. Generators and Generator Expressions"></a>3. <strong>Generators and Generator Expressions</strong></h4><ul>
+<li>Replace loops with generators for memory-efficient processing of large datasets.  </li>
+<li>Generator expressions can streamline code and work well with functions like <code>sum()</code> and <code>any()</code>.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://realpython.com/introduction-to-python-generators/">Generators in Python | realpython.com</a>  </li>
+<li><a href="https://www.geeksforgeeks.org/generators-in-python/">Python Generators | geeksforgeeks.org</a></li>
+<li><a href="https://www.geeksforgeeks.org/python-itertools/">Python Itertools | geeksforgeeks.org</a></li>
+</ol>
+<hr>
+<h4 id="4-Recursion-as-a-Loop-Replacement"><a href="#4-Recursion-as-a-Loop-Replacement" class="headerlink" title="4. Recursion as a Loop Replacement"></a>4. <strong>Recursion as a Loop Replacement</strong></h4><ul>
+<li>Replace certain types of nested loops with recursion for problems like tree traversal.  </li>
+<li>While not always efficient, recursion simplifies some complex loop structures.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://www.programiz.com/python-programming/recursion">Recursion in Python | programiz.com</a>  </li>
+<li><a href="https://www.geeksforgeeks.org/difference-between-recursion-and-iteration">Difference between Recursion and Iteration | geeksforgeeks.org</a></li>
+</ol>
+<hr>
+<h4 id="5-Vectorized-Operations-with-NumPy"><a href="#5-Vectorized-Operations-with-NumPy" class="headerlink" title="5. Vectorized Operations with NumPy"></a>5. <strong>Vectorized Operations with NumPy</strong></h4><ul>
+<li>Replace loops with vectorized operations in libraries like NumPy for mathematical or array computations.  </li>
+<li>These operations are faster and more efficient than traditional looping mechanisms.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://numpy.org/doc/stable/user/quickstart.html">NumPy Quick Start | numpy.org</a>  </li>
+<li><a href="https://towardsdatascience.com/understanding-text-vectorizations-how-streamlined-models-made-feature-extractions-a-breeze-8b9768bbd96a">Understanding Vectorization (Sklearn + Pandas + NumPy) | towardsdatascience.com</a></li>
+<li><a href="https://medium.com/@michael-scherding/understanding-vectorization-775a419d1270">Understanding Vectorization in NumPy and Pandas | medium.com</a></li>
+</ol>
+<hr>
+<h4 id="6-Using-Built-in-Python-Functions"><a href="#6-Using-Built-in-Python-Functions" class="headerlink" title="6. Using Built-in Python Functions"></a>6. <strong>Using Built-in Python Functions</strong></h4><ul>
+<li>Replace loops with Python’s built-in functions like <code>sum()</code>, <code>max()</code>, <code>any()</code>, etc., to perform common operations.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://docs.python.org/3/library/functions.html">Built-in Functions in Python | docs.python.org</a>  </li>
+<li><a href="https://realpython.com/python-built-in-functions/">Optimizing with Built-in Functions | realpython.com</a></li>
+</ol>
+<hr>
+<p>These techniques not only replace traditional loops but also align with Python’s philosophy of simplicity and elegance.</p>
+<h2 id="Loops-in-Python-For-While-and-Nested-Loops"><a href="#Loops-in-Python-For-While-and-Nested-Loops" class="headerlink" title="Loops in Python - For, While and Nested Loops"></a>Loops in Python - For, While and Nested Loops</h2><p>Loops are used to execute a block of code repeatedly. Python supports <code>for</code> and <code>while</code> loops, along with nested loops for complex tasks.</p>
+<ol>
+<li><a href="https://www.tutorialspoint.com/python/python_loops.htm">Python Loops | tutorialspoint.com</a><ol>
+<li>Master loops for repetitive tasks and data iteration.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Functions"><a href="#Python-Functions" class="headerlink" title="Python Functions"></a>Python Functions</h2><p>Functions allow you to encapsulate code into reusable blocks. Python supports user-defined, lambda, and built-in functions.</p>
+<ol>
+<li><a href="https://www.programiz.com/python-programming/function">Python Functions | programiz.com</a><ol>
+<li>Understand function declarations, arguments, and scope.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-OOPs-Concepts"><a href="#Python-OOPs-Concepts" class="headerlink" title="Python OOPs Concepts"></a>Python OOPs Concepts</h2><p>Object-oriented programming (OOP) in Python revolves around objects and classes. Key concepts include inheritance, encapsulation, and polymorphism.</p>
+<ol>
+<li><a href="https://realpython.com/python3-object-oriented-programming/">Python OOP | realpython.com</a><ol>
+<li>Learn the principles of OOP and their implementation in Python.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Functional-Programming"><a href="#Python-Functional-Programming" class="headerlink" title="Python Functional Programming"></a>Python Functional Programming</h2><p>Functional programming treats computation as the evaluation of mathematical functions. Python’s support for <code>map</code>, <code>reduce</code>, and <code>filter</code> simplifies this paradigm.</p>
+<ol>
+<li><a href="https://medium.com/@gchandrams/python-functional-programming-techniques-505c7b5da441">Python Functional Programming | medium.com</a><ol>
+<li>Dive into functional programming with Python.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Modules"><a href="#Python-Modules" class="headerlink" title="Python Modules"></a>Python Modules</h2><p>Modules in Python are files containing Python code that can define functions, classes, and variables. They promote code reuse.</p>
+<ol>
+<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Modules | python.org</a><ol>
+<li>Learn to import and use Python modules effectively.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Exception-Handling"><a href="#Python-Exception-Handling" class="headerlink" title="Python Exception Handling"></a>Python Exception Handling</h2><p>Exception handling allows you to manage errors gracefully using <code>try</code>, <code>except</code>, <code>finally</code>, and <code>raise</code>.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-exception-handling/">Python Exception Handling | geeksforgeeks.org</a><ol>
+<li>Master exception handling to write robust code.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Packages"><a href="#Python-Packages" class="headerlink" title="Python Packages"></a>Python Packages</h2><p>Packages are collections of modules grouped together. They are used to organize related modules for larger applications.</p>
+<ol>
+<li><a href="https://www.w3schools.com/python/python_modules.asp">Python Packages | w3schools.com</a><ol>
+<li>Explore how to create and manage Python packages.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Collections-Module"><a href="#Python-Collections-Module" class="headerlink" title="Python Collections Module"></a>Python Collections Module</h2><p>Python’s <code>collections</code> module provides specialized container data types like <code>Counter</code>, <code>deque</code>, <code>OrderedDict</code>, and <code>defaultdict</code>. These can simplify complex data operations.</p>
+<ol>
+<li><a href="https://realpython.com/python-collections-module/">Python Collections Module | realpython.com</a><ol>
+<li>Learn to use advanced data containers in Python.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Projects-Beginner-to-Advanced"><a href="#Python-Projects-Beginner-to-Advanced" class="headerlink" title="Python Projects - Beginner to Advanced"></a>Python Projects - Beginner to Advanced</h2><p>Python projects provide practical experience with coding concepts. Start with simple projects and gradually take on more advanced challenges.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/">Python Project Ideas | geeksforgeeks.org</a><ol>
+<li>Discover project ideas for every skill level.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Quiz"><a href="#Python-Quiz" class="headerlink" title="Python Quiz"></a>Python Quiz</h2><p>Quizzes help reinforce your Python knowledge by testing your understanding of concepts.</p>
+<ol>
+<li><a href="https://www.w3schools.com/python/python_quiz.asp">Python Quiz | w3schools.com</a><ol>
+<li>Test your skills with interactive Python quizzes.</li>
+</ol>
+</li>
+<li><a href="https://www.geeksforgeeks.org/python-quizzes/">Python Quiz | geeksforgeeks.org</a></li>
+<li><a href="https://pynative.com/python/quizzes/">Python Quiz | pynative.com</a></li>
+<li><a href="https://www.codechef.com/skill-test/basic-python">Python Quiz | codechef.com</a></li>
+<li><a href="https://www.evamariakiss.de/tutorial/python/python_quizzes.php">Python Quiz | evamariakiss.de</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>dev_side</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu web traffic meters</title>
     <url>/hexo-blog/2023/10/25/post_dev_side__ubuntu_web_trafic_meter/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
@@ -5868,6 +5869,71 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
+    <url>/hexo-blog//docs_publishing/readthedoc_vs_github_pages_tutorial_1/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
+<p>Now I faced with some issues of publishing existing project documentation that was created by Sphinx<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>For my <a href="https://github.com/ooge0/python_TA_web_api_framework">personal project on GIT: python_TA_web_api_framework</a> I creted project documentation and generated by Sphinx all necessary data but for some technical reason had no luck to publish it in the web.</p>
+<p>Researching existing approaches showed me that there are several platforms for publishing documentation, created mostly in rst<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> format<br>Configuration of GitHub:  Pages and ReadTheDocs: for same project content is different. </p>
+<ul>
+<li>GitHub:  Pages</li>
+<li>ReadTheDocs</li>
+</ul>
+<p>In the end after many attempts of building GitHub:  Pages and ReadTheDocs: I found <a href="https://github.com/readthedocs/test-builds/tree/main/docs">test project for playing readthedocs on official <code>readthedocs</code> GitHub: </a><br>Assumption of making similar projects on GitHub:  Pages and ReadTheDocs: failed. Result below</p>
+<img src="/hexo-blog/images/github_pages_vs_readthedocs__test_project.png" alt="Sphinx project. GitHub:  Pages and ReadTheDocs" title="Sphinx project. GitHub:  Pages and ReadTheDocs" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+<p>Source <code>ReadTheDocs</code> projects was </p>
+<ol>
+<li><a href="https://github.com/ooge0/test-builds">https://github.com/ooge0/test-builds</a></li>
+<li><a href="https://test-builds.readthedocs.io/">https://test-builds.readthedocs.io/</a></li>
+</ol>
+<p>Main configuration files for ReadTheDocs: publishing are below<br><code>.readthedocs.yaml</code></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">os:</span> <span class="string">ubuntu-24.04</span></span><br><span class="line">  <span class="attr">tools:</span></span><br><span class="line">    <span class="attr">python:</span> <span class="string">latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sphinx:</span></span><br><span class="line">  <span class="attr">configuration:</span> <span class="string">docs/conf.py</span></span><br><span class="line"></span><br><span class="line"><span class="attr">python:</span></span><br><span class="line">  <span class="attr">install:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">requirements:</span> <span class="string">requirements.txt</span></span><br></pre></td></tr></table></figure>
+
+<p><code>requirements.txt</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sphinx-autorun</span><br><span class="line">sphinx-rtd-theme&gt;=3.0.0rc2</span><br></pre></td></tr></table></figure>
+
+<p>Another projects for investigation of publishing&#x2F;deploying conflicts</p>
+<ol>
+<li>coding-with-kids<ol>
+<li><a href="https://github.com/dahlsailrunner/coding-with-kids">GitHub:  coding-with-kids</a></li>
+<li><a href="https://coding-with-kids.readthedocs.io/en">ReadTheDocs: coding-with-kids</a></li>
+</ol>
+</li>
+<li>test-builds<ol>
+<li><a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+<li><a href="https://test-builds.readthedocs.io/">ReadTheDocs: test-builds</a></li>
+</ol>
+</li>
+<li>readthedocs-demo-app(my project)<ol>
+<li><a href="https://github.com/ooge0/readthedocs-demo-app">GitHub: readthedocs-demo-app</a></li>
+<li><a href="https://ooge0.github.io/readthedocs-demo-app/">GitHub Pages: readthedocs-demo-app</a></li>
+<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a>. Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+</ol>
+</li>
+<li>docs.readthedocs.io<ol>
+<li><a href="https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/index.rst">GitHub:  docs.readthedocs.io</a></li>
+<li><a href="https://docs.readthedocs.io/en/stable/index.html">ReadTheDocs: docs.readthedocs.io</a></li>
+<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a> Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
+</ol>
+</li>
+<li>jubilant-lamp<ol>
+<li><a href="https://github.com/RGGH/jubilant-lamp">GitHub: jubilant-lamp</a></li>
+<li><a href="https://rggh.github.io/jubilant-lamp/">GitHub pages:  jubilant-lamp</a></li>
+</ol>
+</li>
+</ol>
+<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-YouTube-video-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-YouTube-video-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. YouTube video: Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">YouTube video: Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
+reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. reStructuredText is designed for extensibility for specific application domains. The reStructuredText parser is a component of Docutils. reStructuredText is a revision and reinterpretation of the StructuredText and Setext lightweight markup systems.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ReadTheDocs</tag>
+        <tag>GitHubPages</tag>
+        <tag>DocPublishing</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Troubleshooting SSH connection termination after `sshd_config` changes</title>
     <url>/hexo-blog//devops/post_devops__troubleshooting_ssh_connection_termination_after_sshd_config_changes/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Steps-to-verify-and-resolve-the-issue"><a href="#Steps-to-verify-and-resolve-the-issue" class="headerlink" title="Steps to verify and resolve the issue:"></a>Steps to verify and resolve the issue:</h2><ol>
@@ -5985,71 +6051,6 @@ print(generated_text)
       </categories>
       <tags>
         <tag>acsii</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
-    <url>/hexo-blog//docs_publishing/readthedoc_vs_github_pages_tutorial_1/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
-<p>Now I faced with some issues of publishing existing project documentation that was created by Sphinx<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>For my <a href="https://github.com/ooge0/python_TA_web_api_framework">personal project on GIT: python_TA_web_api_framework</a> I creted project documentation and generated by Sphinx all necessary data but for some technical reason had no luck to publish it in the web.</p>
-<p>Researching existing approaches showed me that there are several platforms for publishing documentation, created mostly in rst<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> format<br>Configuration of GitHub:  Pages and ReadTheDocs: for same project content is different. </p>
-<ul>
-<li>GitHub:  Pages</li>
-<li>ReadTheDocs</li>
-</ul>
-<p>In the end after many attempts of building GitHub:  Pages and ReadTheDocs: I found <a href="https://github.com/readthedocs/test-builds/tree/main/docs">test project for playing readthedocs on official <code>readthedocs</code> GitHub: </a><br>Assumption of making similar projects on GitHub:  Pages and ReadTheDocs: failed. Result below</p>
-<img src="/hexo-blog/images/github_pages_vs_readthedocs__test_project.png" alt="Sphinx project. GitHub:  Pages and ReadTheDocs" title="Sphinx project. GitHub:  Pages and ReadTheDocs" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-<p>Source <code>ReadTheDocs</code> projects was </p>
-<ol>
-<li><a href="https://github.com/ooge0/test-builds">https://github.com/ooge0/test-builds</a></li>
-<li><a href="https://test-builds.readthedocs.io/">https://test-builds.readthedocs.io/</a></li>
-</ol>
-<p>Main configuration files for ReadTheDocs: publishing are below<br><code>.readthedocs.yaml</code></p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="attr">build:</span></span><br><span class="line">  <span class="attr">os:</span> <span class="string">ubuntu-24.04</span></span><br><span class="line">  <span class="attr">tools:</span></span><br><span class="line">    <span class="attr">python:</span> <span class="string">latest</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sphinx:</span></span><br><span class="line">  <span class="attr">configuration:</span> <span class="string">docs/conf.py</span></span><br><span class="line"></span><br><span class="line"><span class="attr">python:</span></span><br><span class="line">  <span class="attr">install:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">requirements:</span> <span class="string">requirements.txt</span></span><br></pre></td></tr></table></figure>
-
-<p><code>requirements.txt</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sphinx-autorun</span><br><span class="line">sphinx-rtd-theme&gt;=3.0.0rc2</span><br></pre></td></tr></table></figure>
-
-<p>Another projects for investigation of publishing&#x2F;deploying conflicts</p>
-<ol>
-<li>coding-with-kids<ol>
-<li><a href="https://github.com/dahlsailrunner/coding-with-kids">GitHub:  coding-with-kids</a></li>
-<li><a href="https://coding-with-kids.readthedocs.io/en">ReadTheDocs: coding-with-kids</a></li>
-</ol>
-</li>
-<li>test-builds<ol>
-<li><a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-<li><a href="https://test-builds.readthedocs.io/">ReadTheDocs: test-builds</a></li>
-</ol>
-</li>
-<li>readthedocs-demo-app(my project)<ol>
-<li><a href="https://github.com/ooge0/readthedocs-demo-app">GitHub: readthedocs-demo-app</a></li>
-<li><a href="https://ooge0.github.io/readthedocs-demo-app/">GitHub Pages: readthedocs-demo-app</a></li>
-<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a>. Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-</ol>
-</li>
-<li>docs.readthedocs.io<ol>
-<li><a href="https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/index.rst">GitHub:  docs.readthedocs.io</a></li>
-<li><a href="https://docs.readthedocs.io/en/stable/index.html">ReadTheDocs: docs.readthedocs.io</a></li>
-<li><a href="https://test-builds-copy.readthedocs.io/en/latest/">ReadTheDocs: readthedocs-demo-app</a> Copied and published based on <a href="https://github.com/readthedocs/test-builds">GitHub:  test-builds</a></li>
-</ol>
-</li>
-<li>jubilant-lamp<ol>
-<li><a href="https://github.com/RGGH/jubilant-lamp">GitHub: jubilant-lamp</a></li>
-<li><a href="https://rggh.github.io/jubilant-lamp/">GitHub pages:  jubilant-lamp</a></li>
-</ol>
-</li>
-</ol>
-<h2 id="References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-YouTube-video-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation"><a href="#References-1-Post-Sphinx-to-GitHub-Pages-via-GitHub-Actions2-Post-Генератор-документации-Sphinx3-YouTube-video-Automate-Python-Documentation-Use-Sphinx-GitHub-actions-to-publish-documentation" class="headerlink" title="References:1. Post: Sphinx to GitHub Pages via GitHub Actions2. Post: Генератор документации Sphinx3. YouTube video: Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation"></a>References:<br>1. <a href="https://redandgreen.co.uk/sphinx-to-github-pages-via-github-actions/">Post: Sphinx to GitHub Pages via GitHub Actions</a><br>2. <a href="https://github.com/mazhartsev/sphinx-ru/">Post: Генератор документации Sphinx</a><br>3. <a href="https://www.youtube.com/watch?v=bjUkCCn2VoU">YouTube video: Automate Python Documentation | Use Sphinx + GitHub actions to publish documentation</a></h2><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://www.sphinx-doc.org">Sphinx</a> is a powerful documentation generator that has many features for writing technical documentation. Sphinx is written in Python, and supports documentation written in reStructuredText and Markdown. Official docs on the web site: https://www.sphinx-doc.org</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> (RST, ReST, or reST).
-reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext markup syntax and parser system. It is useful for in-line program documentation (such as Python docstrings), for quickly creating simple web pages, and for standalone documents. reStructuredText is designed for extensibility for specific application domains. The reStructuredText parser is a component of Docutils. reStructuredText is a revision and reinterpretation of the StructuredText and Setext lightweight markup systems.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ReadTheDocs</tag>
-        <tag>GitHubPages</tag>
-        <tag>DocPublishing</tag>
       </tags>
   </entry>
   <entry>
@@ -6199,58 +6200,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>ML - colorizing plain text dynamically in HTML</title>
-    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
-<ol>
-<li>CSS and JavaScript Solutions<ol>
-<li><strong>CSS and JavaScript</strong></li>
-</ol>
-<ul>
-<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
-<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
-</ul>
-<ol start="2">
-<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
-</ol>
-</li>
-<li><strong>Python Libraries and Frameworks</strong><ol>
-<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
-<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
-<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
-<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
-<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
-</ol>
-</li>
-<li><strong>Machine Learning Solutions</strong><ol>
-<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
-<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
-<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
-</ol>
-</li>
-<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
-<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
-</ol>
-</li>
-</ol>
-<hr>
-<p>  <strong>Summary of Recommendations</strong></p>
-<ul>
-<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
-<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
-<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>html</tag>
-        <tag>tutorial</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Text Generation Coherence vs. Text Generation Quality</title>
     <url>/hexo-blog//linguistic/text_coherence_vs_text_quiality/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Text-Generation-Coherence"><a href="#1-Text-Generation-Coherence" class="headerlink" title="1. Text Generation Coherence"></a>1. Text Generation Coherence</h2><p>Coherence refers to the logical and structural flow of the text. A coherent text feels connected and makes sense as a whole. It ensures that:</p>
@@ -6352,6 +6301,58 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       <tags>
         <tag>NLP</tag>
         <tag>linguistic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ML - colorizing plain text dynamically in HTML</title>
+    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
+<ol>
+<li>CSS and JavaScript Solutions<ol>
+<li><strong>CSS and JavaScript</strong></li>
+</ol>
+<ul>
+<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
+<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
+</ul>
+<ol start="2">
+<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
+</ol>
+</li>
+<li><strong>Python Libraries and Frameworks</strong><ol>
+<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
+<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
+<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
+<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
+<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
+</ol>
+</li>
+<li><strong>Machine Learning Solutions</strong><ol>
+<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
+<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
+<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
+</ol>
+</li>
+<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
+<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
+</ol>
+</li>
+</ol>
+<hr>
+<p>  <strong>Summary of Recommendations</strong></p>
+<ul>
+<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
+<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
+<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>html</tag>
+        <tag>tutorial</tag>
       </tags>
   </entry>
   <entry>
@@ -6985,6 +6986,42 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
+    <title>Exploring Plotly Chart Types with Examples</title>
+    <url>/hexo-blog//visualization/plotly_chart_types_examples/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Plotly is a powerful Python library for creating interactive and visually appealing charts.<br>It supports a variety of chart types, catering to diverse data visualization needs.<br>This guide showcases some of the most common chart types available in Plotly, along with implementation examples.</p>
+<h2 id="Chart-Types"><a href="#Chart-Types" class="headerlink" title="Chart Types"></a>Chart Types</h2><ol>
+<li><a href="#1-Line-Chart">Line Chart</a>  </li>
+<li><a href="#2-Scatter-Plot">Scatter Plot</a>  </li>
+<li><a href="#3-Bar-Chart">Bar Chart</a>  </li>
+<li><a href="#4-Pie-Chart">Pie Chart</a></li>
+<li><a href="#5-Histogram">Histogram</a></li>
+<li><a href="#6-Box-Plot">Box Plot</a></li>
+<li><a href="#7-Heatmap">Heatmap</a></li>
+<li><a href="#8-Bubble-Chart">Bubble Chart</a></li>
+<li><a href="#9-Area-Chart">Area Chart</a></li>
+<li><a href="#10-Contour-Plot">Contour Plot</a></li>
+<li><a href="#11-3D-Surface-Plot">3D Surface Plot</a></li>
+<li><a href="#12-Candlestick-Chart">Candlestick Chart</a></li>
+<li><a href="#13-OHLC-Chart">OHLC Chart</a></li>
+<li><a href="#14-Violin-Plot">Violin Plot</a></li>
+<li><a href="#15-Choropleth-Map">Choropleth Map</a></li>
+<li><a href="#16-Scatter-Map">Scatter Map</a></li>
+<li><a href="#17-Sunburst-Chart">Sunburst Chart</a></li>
+<li><a href="#18-Treemap-Chart">Treemap Chart</a></li>
+<li><a href="#19-Parallel-Coordinates-Plot">Parallel Coordinates Plot</a></li>
+</ol>
+<hr>
+<h3 id="1-Line-Chart"><a href="#1-Line-Chart" class="headerlink" title="1. Line Chart"></a>1. Line Chart</h3><p><a href="#Chart-Types" style="float: right; margin-left: 10px;">Go to &gt;&gt; <code>Chart Types</code> list</a><br><br><br>A line chart is ideal for visualizing data trends over time, with data points connected by straight lines.  </p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;  </span><br><span class="line">fig = px.line(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Line Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 2. Scatter Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">A scatter plot displays the relationship between two numerical variables using dots.  </span><br><span class="line"></span><br><span class="line">``` python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Variable1&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Variable2&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>]&#125;  </span><br><span class="line">fig = px.scatter(data, x=<span class="string">&#x27;Variable1&#x27;</span>, y=<span class="string">&#x27;Variable2&#x27;</span>, title=<span class="string">&#x27;Scatter Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 3. Bar Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Bar charts are used to compare categorical data, <span class="keyword">with</span> rectangular bars representing values.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;  </span><br><span class="line">fig = px.bar(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Bar Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 4. Pie Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">A pie chart divides data into slices to illustrate proportions.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;  </span><br><span class="line">fig = px.pie(data, names=<span class="string">&#x27;Category&#x27;</span>, values=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Pie Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 5. Histogram  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Histograms display the distribution of a dataset by grouping data into bins.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Values&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>]&#125;  </span><br><span class="line">fig = px.histogram(data, x=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Histogram Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 6. Box Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Box plots summarize data distribution through their quartiles, highlighting outliers.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;  </span><br><span class="line">fig = px.box(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Box Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 7. Heatmap  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Heatmaps display data intensity using varying colors <span class="keyword">in</span> a grid layout.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  </span><br><span class="line"></span><br><span class="line">data = np.random.rand(<span class="number">5</span>, <span class="number">5</span>)  </span><br><span class="line">fig = px.imshow(data, color_continuous_scale=<span class="string">&#x27;Viridis&#x27;</span>, title=<span class="string">&#x27;Heatmap Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 8. Bubble Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Bubble charts extend scatter plots <span class="keyword">with</span> a third dimension using bubble size.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;X&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Y&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>], <span class="string">&#x27;Size&#x27;</span>: [<span class="number">100</span>, <span class="number">200</span>, <span class="number">300</span>, <span class="number">400</span>, <span class="number">500</span>]&#125;  </span><br><span class="line">fig = px.scatter(data, x=<span class="string">&#x27;X&#x27;</span>, y=<span class="string">&#x27;Y&#x27;</span>, size=<span class="string">&#x27;Size&#x27;</span>, title=<span class="string">&#x27;Bubble Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 9. Area Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Area charts show quantitative data over time, emphasizing magnitude.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;  </span><br><span class="line">fig = px.area(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Area Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 10. Contour Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Contour plots display three-dimensional data <span class="keyword">in</span> two dimensions <span class="keyword">with</span> contour lines.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  </span><br><span class="line"></span><br><span class="line">    x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    y = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    z = np.sin(x[:, <span class="literal">None</span>] * y[<span class="literal">None</span>, :])</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Create a contour plot using go.Contour</span></span><br><span class="line">    fig = go.Figure(go.Contour(</span><br><span class="line">        z=z,</span><br><span class="line">        x=x,</span><br><span class="line">        y=y,</span><br><span class="line">        colorscale=<span class="string">&#x27;Viridis&#x27;</span>,</span><br><span class="line">        colorbar=<span class="built_in">dict</span>(title=<span class="string">&quot;Value&quot;</span>),</span><br><span class="line">    ))</span><br><span class="line"></span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;Contour Plot Example&#x27;</span>, xaxis_title=<span class="string">&quot;X&quot;</span>, yaxis_title=<span class="string">&quot;Y&quot;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 11. 3D Surface Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">3D surface plots provide a three-dimensional representation of data, showing relationships <span class="keyword">in</span> three dimensions.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go  </span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  </span><br><span class="line"></span><br><span class="line">x = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)  </span><br><span class="line">y = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)  </span><br><span class="line">x, y = np.meshgrid(x, y)  </span><br><span class="line">z = np.sin(np.sqrt(x**<span class="number">2</span> + y**<span class="number">2</span>))  </span><br><span class="line"></span><br><span class="line">fig = go.Figure(data=[go.Surface(z=z, x=x, y=y)])  </span><br><span class="line">fig.update_layout(title=<span class="string">&#x27;3D Surface Plot Example&#x27;</span>, scene=&#123;<span class="string">&#x27;xaxis_title&#x27;</span>: <span class="string">&#x27;X&#x27;</span>, <span class="string">&#x27;yaxis_title&#x27;</span>: <span class="string">&#x27;Y&#x27;</span>, <span class="string">&#x27;zaxis_title&#x27;</span>: <span class="string">&#x27;Z&#x27;</span>&#125;)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 12. Candlestick Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Candlestick charts are used to visualize stock price movements over time, displaying the opening, closing, high, <span class="keyword">and</span> low prices.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go  </span><br><span class="line"></span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">    <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">    <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">    <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">&#125;  </span><br><span class="line"></span><br><span class="line">fig = go.Figure(data=[go.Candlestick(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])  </span><br><span class="line">fig.update_layout(title=<span class="string">&#x27;Candlestick Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 13. OHLC Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">OHLC (Open, High, Low, Close) charts are used <span class="keyword">for</span> visualizing financial data <span class="keyword">with</span> four key values <span class="keyword">for</span> each period.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go  </span><br><span class="line"></span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">    <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">    <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">    <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">&#125;  </span><br><span class="line"></span><br><span class="line">fig = go.Figure(data=[go.Ohlc(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])  </span><br><span class="line">fig.update_layout(title=<span class="string">&#x27;OHLC Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 14. Violin Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Violin plots combine aspects of box plots <span class="keyword">and</span> density plots to display data distribution.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;  </span><br><span class="line">fig = px.violin(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Violin Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 15. Choropleth Map  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Choropleth maps visualize data geographically, <span class="keyword">with</span> color shading to represent values.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Country&#x27;</span>: [<span class="string">&#x27;USA&#x27;</span>, <span class="string">&#x27;Canada&#x27;</span>, <span class="string">&#x27;Mexico&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;  </span><br><span class="line">fig = px.choropleth(data, locations=<span class="string">&#x27;Country&#x27;</span>, color=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Choropleth Map Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 16. Scatter Map  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Scatter maps visualize geographical data <span class="keyword">with</span> points plotted on a <span class="built_in">map</span>.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Latitude&#x27;</span>: [<span class="number">34.0522</span>, <span class="number">40.7128</span>, <span class="number">41.8781</span>], <span class="string">&#x27;Longitude&#x27;</span>: [-<span class="number">118.2437</span>, -<span class="number">74.0060</span>, -<span class="number">87.6298</span>], <span class="string">&#x27;City&#x27;</span>: [<span class="string">&#x27;Los Angeles&#x27;</span>, <span class="string">&#x27;New York&#x27;</span>, <span class="string">&#x27;Chicago&#x27;</span>]&#125;  </span><br><span class="line">fig = px.scatter_geo(data, lat=<span class="string">&#x27;Latitude&#x27;</span>, lon=<span class="string">&#x27;Longitude&#x27;</span>, text=<span class="string">&#x27;City&#x27;</span>, title=<span class="string">&#x27;Scatter Map Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 17. Sunburst Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Sunburst charts visualize hierarchical data <span class="keyword">with</span> a circular layout.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;  </span><br><span class="line">fig = px.sunburst(data</span><br><span class="line">, path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Sunburst Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 18. Treemap Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Treemaps display hierarchical data <span class="keyword">as</span> nested rectangles, <span class="keyword">with</span> size <span class="keyword">and</span> color indicating values.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;  </span><br><span class="line">fig = px.treemap(data, path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Treemap Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 19. Parallel Coordinates Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Parallel coordinates plots are used to visualize multivariate data by plotting variables on parallel axes.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Feature1&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], <span class="string">&#x27;Feature2&#x27;</span>: [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], <span class="string">&#x27;Feature3&#x27;</span>: [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]&#125;  </span><br><span class="line">fig = px.parallel_coordinates(data, color=<span class="string">&#x27;Feature1&#x27;</span>, title=<span class="string">&#x27;Parallel Coordinates Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### Conclusion  </span></span><br><span class="line"></span><br><span class="line">Plotly offers a diverse <span class="built_in">range</span> of interactive chart types <span class="keyword">for</span> data visualization. From basic charts like line <span class="keyword">and</span> bar charts to more advanced visualizations like choropleth maps <span class="keyword">and</span> 3D surface plots, Plotly <span class="keyword">is</span> a versatile library that can <span class="built_in">help</span> you present your data <span class="keyword">in</span> meaningful ways. By exploring these chart types <span class="keyword">and</span> their respective implementations, you can enhance the way you analyze <span class="keyword">and</span> communicate data insights.</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">All types <span class="keyword">in</span> single code block</span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">line_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;A line chart is ideal for visualizing data trends over time, with data points connected by straight lines.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;</span><br><span class="line">    fig = px.line(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Line Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">scatter_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;A scatter plot displays the relationship between two numerical variables using dots.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Variable1&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Variable2&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>]&#125;</span><br><span class="line">    fig = px.scatter(data, x=<span class="string">&#x27;Variable1&#x27;</span>, y=<span class="string">&#x27;Variable2&#x27;</span>, title=<span class="string">&#x27;Scatter Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">bar_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Bar charts are used to compare categorical data, with rectangular bars representing values.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;</span><br><span class="line">    fig = px.bar(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Bar Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">pie_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;A pie chart divides data into slices to illustrate proportions.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;</span><br><span class="line">    fig = px.pie(data, names=<span class="string">&#x27;Category&#x27;</span>, values=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Pie Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">histogram</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Histograms display the distribution of a dataset by grouping data into bins.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Values&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>]&#125;</span><br><span class="line">    fig = px.histogram(data, x=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Histogram Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">box_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Box plots summarize data distribution through their quartiles, highlighting outliers.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;</span><br><span class="line">    fig = px.box(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Box Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">heatmap</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Heatmaps display data intensity using varying colors in a grid layout.&quot;&quot;&quot;</span></span><br><span class="line">    data = np.random.rand(<span class="number">5</span>, <span class="number">5</span>)</span><br><span class="line">    fig = px.imshow(data, color_continuous_scale=<span class="string">&#x27;Viridis&#x27;</span>, title=<span class="string">&#x27;Heatmap Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">bubble_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Bubble charts extend scatter plots with a third dimension using bubble size.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;X&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Y&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>], <span class="string">&#x27;Size&#x27;</span>: [<span class="number">100</span>, <span class="number">200</span>, <span class="number">300</span>, <span class="number">400</span>, <span class="number">500</span>]&#125;</span><br><span class="line">    fig = px.scatter(data, x=<span class="string">&#x27;X&#x27;</span>, y=<span class="string">&#x27;Y&#x27;</span>, size=<span class="string">&#x27;Size&#x27;</span>, title=<span class="string">&#x27;Bubble Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">area_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Area charts show quantitative data over time, emphasizing magnitude.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;</span><br><span class="line">    fig = px.area(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Area Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">contour_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Contour plots display three-dimensional data in two dimensions with contour lines.&quot;&quot;&quot;</span></span><br><span class="line">    x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    y = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    z = np.sin(x[:, <span class="literal">None</span>] * y[<span class="literal">None</span>, :])</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Create a contour plot using go.Contour</span></span><br><span class="line">    fig = go.Figure(go.Contour(</span><br><span class="line">        z=z,</span><br><span class="line">        x=x,</span><br><span class="line">        y=y,</span><br><span class="line">        colorscale=<span class="string">&#x27;Viridis&#x27;</span>,</span><br><span class="line">        colorbar=<span class="built_in">dict</span>(title=<span class="string">&quot;Value&quot;</span>),</span><br><span class="line">    ))</span><br><span class="line"></span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;Contour Plot Example&#x27;</span>, xaxis_title=<span class="string">&quot;X&quot;</span>, yaxis_title=<span class="string">&quot;Y&quot;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">three_d_surface_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;3D surface plots provide a three-dimensional representation of data, showing relationships in three dimensions.&quot;&quot;&quot;</span></span><br><span class="line">    x = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)</span><br><span class="line">    y = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)</span><br><span class="line">    x, y = np.meshgrid(x, y)</span><br><span class="line">    z = np.sin(np.sqrt(x ** <span class="number">2</span> + y ** <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">    fig = go.Figure(data=[go.Surface(z=z, x=x, y=y)])</span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;3D Surface Plot Example&#x27;</span>,</span><br><span class="line">                      scene=&#123;<span class="string">&#x27;xaxis_title&#x27;</span>: <span class="string">&#x27;X&#x27;</span>, <span class="string">&#x27;yaxis_title&#x27;</span>: <span class="string">&#x27;Y&#x27;</span>, <span class="string">&#x27;zaxis_title&#x27;</span>: <span class="string">&#x27;Z&#x27;</span>&#125;)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">candlestick_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Candlestick charts are used to visualize stock price movements over time, displaying the opening, closing, high, and low prices.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;</span><br><span class="line">        <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">        <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">        <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">        <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    fig = go.Figure(</span><br><span class="line">        data=[</span><br><span class="line">            go.Candlestick(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])</span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;Candlestick Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">ohlc_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;OHLC (Open, High, Low, Close) charts are used for visualizing financial data with four key values for each period.&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    data = &#123;</span><br><span class="line">        <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">        <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">        <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">        <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    fig = go.Figure(</span><br><span class="line">        data=[go.Ohlc(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])</span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;OHLC (Open, High, Low, Close)) Chart Example &#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">violin_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Violin plots combine aspects of box plots and density plots to display data distribution.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;</span><br><span class="line">    fig = px.violin(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Violin Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">choropleth_map</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Choropleth maps visualize data geographically, with color shading to represent values.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Country&#x27;</span>: [<span class="string">&#x27;USA&#x27;</span>, <span class="string">&#x27;Canada&#x27;</span>, <span class="string">&#x27;Mexico&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;</span><br><span class="line">    fig = px.choropleth(data, locations=<span class="string">&#x27;Country&#x27;</span>, color=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Choropleth Map Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">scatter_map</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Scatter maps visualize geographical data with points plotted on a map.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Latitude&#x27;</span>: [<span class="number">34.0522</span>, <span class="number">40.7128</span>, <span class="number">41.8781</span>], <span class="string">&#x27;Longitude&#x27;</span>: [-<span class="number">118.2437</span>, -<span class="number">74.0060</span>, -<span class="number">87.6298</span>],</span><br><span class="line">            <span class="string">&#x27;City&#x27;</span>: [<span class="string">&#x27;Los Angeles&#x27;</span>, <span class="string">&#x27;New York&#x27;</span>, <span class="string">&#x27;Chicago&#x27;</span>]&#125;</span><br><span class="line">    fig = px.scatter_geo(data, lat=<span class="string">&#x27;Latitude&#x27;</span>, lon=<span class="string">&#x27;Longitude&#x27;</span>, text=<span class="string">&#x27;City&#x27;</span>, title=<span class="string">&#x27;Scatter Map Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">sunburst_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Sunburst charts visualize hierarchical data with a circular layout.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;</span><br><span class="line">    fig = px.sunburst(data</span><br><span class="line">                      , path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Sunburst Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">treemap_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Treemaps display hierarchical data as nested rectangles, with size and color indicating values.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;</span><br><span class="line">    fig = px.treemap(data, path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Treemap Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">parallel_coordinates_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Parallel coordinates plots are used to visualize multivariate data by plotting variables on parallel axes.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Feature1&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], <span class="string">&#x27;Feature2&#x27;</span>: [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], <span class="string">&#x27;Feature3&#x27;</span>: [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]&#125;</span><br><span class="line">    fig = px.parallel_coordinates(data, color=<span class="string">&#x27;Feature1&#x27;</span>, title=<span class="string">&#x27;Parallel Coordinates Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">run_charts</span>():</span><br><span class="line">    charts = [</span><br><span class="line">        line_chart,</span><br><span class="line">        scatter_plot,</span><br><span class="line">        bar_chart,</span><br><span class="line">        pie_chart,</span><br><span class="line">        histogram,</span><br><span class="line">        box_plot,</span><br><span class="line">        heatmap,</span><br><span class="line">        bubble_chart,</span><br><span class="line">        area_chart,</span><br><span class="line">        contour_plot,</span><br><span class="line">        three_d_surface_plot,</span><br><span class="line">        candlestick_chart,</span><br><span class="line">        ohlc_chart,</span><br><span class="line">        violin_plot,</span><br><span class="line">        choropleth_map,</span><br><span class="line">        scatter_map,</span><br><span class="line">        sunburst_chart,</span><br><span class="line">        treemap_chart,</span><br><span class="line">        parallel_coordinates_plot</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> chart <span class="keyword">in</span> charts:</span><br><span class="line">        chart()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    run_charts()</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>plotly</tag>
+        <tag>visualization</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About me</title>
     <url>/hexo-blog//about-me/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
@@ -7087,32 +7124,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>stats</title>
     <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>My Statistics page</title>
@@ -7139,9 +7153,9 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
 ]]></content>
       <categories>
         <category>Maintanance</category>
@@ -7157,6 +7171,52 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -7226,29 +7286,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>my_contribution</tag>
         <tag>my_medium_post</tag>
         <tag>my_linkedin_post</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -7525,24 +7562,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXO blog design</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
@@ -7589,21 +7608,21 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
 ]]></content>
       <categories>
         <category>Notes</category>
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
+        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -7679,6 +7698,55 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -7740,37 +7808,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
