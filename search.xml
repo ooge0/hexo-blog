@@ -372,6 +372,36 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AI glossaries list</title>
     <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
@@ -443,24 +473,21 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
-</ul>
-</li>
-</ul>
-</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -468,8 +495,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -537,33 +564,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>References for learning AI algorithms</title>
     <url>/hexo-blog//ai_algorithms/references_for_learning_ai_algorithms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>references_for_learning_ai_algorithms<br><em>This post related to :</em></p>
@@ -606,23 +606,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>ML</tag>
         <tag>algorithms</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chatbots from scratch</title>
-    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>chatbot</tag>
-        <tag>Llama</tag>
       </tags>
   </entry>
   <entry>
@@ -708,6 +691,23 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>GPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chatbots from scratch</title>
+    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>chatbot</tag>
+        <tag>Llama</tag>
       </tags>
   </entry>
   <entry>
@@ -1711,33 +1711,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
     <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
@@ -1790,6 +1763,150 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
+    <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
+<hr>
+<h2 id="Key-differences-between-fine-tuning-and-training"><a href="#Key-differences-between-fine-tuning-and-training" class="headerlink" title="Key differences between fine-tuning and training"></a>Key differences between fine-tuning and training</h2><table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Fine-Tuning</th>
+<th>Training</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Starting Point</strong></td>
+<td>Pre-trained model weights from a related task (e.g., ImageNet for vision, GPT for text).</td>
+<td>Randomly initialized weights.</td>
+</tr>
+<tr>
+<td><strong>Data Requirements</strong></td>
+<td>Requires less data; leverages knowledge from the pre-trained model.</td>
+<td>Requires large amounts of labeled data.</td>
+</tr>
+<tr>
+<td><strong>Training Duration</strong></td>
+<td>Generally shorter; only adjusts some layers.</td>
+<td>Longer; all parameters are learned from scratch.</td>
+</tr>
+<tr>
+<td><strong>Resource Needs</strong></td>
+<td>Less compute-intensive due to reduced training scope.</td>
+<td>High resource demands for extensive training.</td>
+</tr>
+<tr>
+<td><strong>Use Case</strong></td>
+<td>When data is limited or computational resources are constrained.</td>
+<td>When custom architecture or large task-specific datasets are available.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Baselines-for-fine-tuning-training"><a href="#Baselines-for-fine-tuning-training" class="headerlink" title="Baselines for fine-tuning&#x2F;training"></a>Baselines for fine-tuning&#x2F;training</h2><h3 id="1-Feedforward-Networks-FFNs"><a href="#1-Feedforward-Networks-FFNs" class="headerlink" title="1. Feedforward Networks (FFNs)"></a>1. Feedforward Networks (FFNs)</h3><ul>
+<li><strong>Baseline</strong>: Fully connected layers with non-linear activations.</li>
+<li><strong>Fine-Tuning</strong>: Modify output layers to match the target task and optionally freeze earlier layers.</li>
+<li><strong>Training</strong>: Start with random initialization, requiring carefully tuned learning rates and weight initialization methods.</li>
+</ul>
+<h3 id="2-Convolutional-Neural-Networks-CNNs"><a href="#2-Convolutional-Neural-Networks-CNNs" class="headerlink" title="2. Convolutional Neural Networks (CNNs)"></a>2. Convolutional Neural Networks (CNNs)</h3><ul>
+<li><strong>Baseline</strong>: Architectures like VGG, ResNet, or EfficientNet, pre-trained on ImageNet.</li>
+<li><strong>Fine-Tuning</strong>: Replace the classification head to match target classes, often freezing earlier convolutional layers.</li>
+<li><strong>Training</strong>: Train from scratch if the task involves entirely different visual domains (e.g., medical imaging).</li>
+</ul>
+<h3 id="3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs"><a href="#3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs" class="headerlink" title="3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)"></a>3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)</h3><ul>
+<li><strong>Baseline</strong>: Pre-trained word embeddings (e.g., GloVe, Word2Vec) or models like ELMo.</li>
+<li><strong>Fine-Tuning</strong>: Use pre-trained embeddings, fine-tune the LSTM layers on sequential tasks.</li>
+<li><strong>Training</strong>: Train an LSTM network from scratch for language modeling or time-series tasks.</li>
+</ul>
+<h3 id="4-Transformers"><a href="#4-Transformers" class="headerlink" title="4. Transformers"></a>4. Transformers</h3><ul>
+<li><strong>Baseline</strong>: Models like BERT, GPT, or T5.</li>
+<li><strong>Fine-Tuning</strong>: Modify the decoder head, adjust hyperparameters like learning rate and layer freezing.</li>
+<li><strong>Training</strong>: Start with pre-trained embeddings; for unique tasks, initialize the Transformer from scratch (high compute).</li>
+</ul>
+<hr>
+<h2 id="Technical-details-of-popular-architectures"><a href="#Technical-details-of-popular-architectures" class="headerlink" title="Technical details of popular architectures"></a>Technical details of popular architectures</h2><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Baseline Task</th>
+<th>Fine-Tuning Scope</th>
+<th>Training Considerations</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>VGG16</strong></td>
+<td>Image Classification (ImageNet)</td>
+<td>Replace final dense layer, freeze initial layers.</td>
+<td>High memory usage, simpler architecture to optimize.</td>
+</tr>
+<tr>
+<td><strong>ResNet50</strong></td>
+<td>Image Classification (ImageNet)</td>
+<td>Adjust classification head; fine-tune deeper layers as needed.</td>
+<td>Skip connections improve gradient flow.</td>
+</tr>
+<tr>
+<td><strong>BERT</strong></td>
+<td>Masked Language Model (MLM)</td>
+<td>Modify for classification, QA, or summarization.</td>
+<td>Pre-training requires MLM objectives.</td>
+</tr>
+<tr>
+<td><strong>GPT-3</strong></td>
+<td>Text Generation</td>
+<td>Fine-tune specific tasks by updating decoder head.</td>
+<td>Requires extensive GPU resources for full training.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>Sequential Data Modeling</td>
+<td>Fine-tune on embeddings, adjust for target sequence length.</td>
+<td>Long training times due to sequential processing.</td>
+</tr>
+<tr>
+<td><strong>EfficientNet</strong></td>
+<td>Image Classification</td>
+<td>Replace head; scale input resolution for task-specific datasets.</td>
+<td>Compound scaling optimizes trade-offs in performance.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>Fine-tuning and training models depend heavily on the task, available data, and computational resources. Fine-tuning is generally faster and resource-efficient, making it ideal for adapting large pre-trained models to specific tasks. On the other hand, training from scratch offers flexibility when creating custom architectures but demands extensive data and compute. By understanding these approaches, practitioners can select the most suitable method for their applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
         <tag>ML</tag>
       </tags>
   </entry>
@@ -2014,123 +2131,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
-    <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
-<hr>
-<h2 id="Key-differences-between-fine-tuning-and-training"><a href="#Key-differences-between-fine-tuning-and-training" class="headerlink" title="Key differences between fine-tuning and training"></a>Key differences between fine-tuning and training</h2><table>
-<thead>
-<tr>
-<th>Aspect</th>
-<th>Fine-Tuning</th>
-<th>Training</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Starting Point</strong></td>
-<td>Pre-trained model weights from a related task (e.g., ImageNet for vision, GPT for text).</td>
-<td>Randomly initialized weights.</td>
-</tr>
-<tr>
-<td><strong>Data Requirements</strong></td>
-<td>Requires less data; leverages knowledge from the pre-trained model.</td>
-<td>Requires large amounts of labeled data.</td>
-</tr>
-<tr>
-<td><strong>Training Duration</strong></td>
-<td>Generally shorter; only adjusts some layers.</td>
-<td>Longer; all parameters are learned from scratch.</td>
-</tr>
-<tr>
-<td><strong>Resource Needs</strong></td>
-<td>Less compute-intensive due to reduced training scope.</td>
-<td>High resource demands for extensive training.</td>
-</tr>
-<tr>
-<td><strong>Use Case</strong></td>
-<td>When data is limited or computational resources are constrained.</td>
-<td>When custom architecture or large task-specific datasets are available.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Baselines-for-fine-tuning-training"><a href="#Baselines-for-fine-tuning-training" class="headerlink" title="Baselines for fine-tuning&#x2F;training"></a>Baselines for fine-tuning&#x2F;training</h2><h3 id="1-Feedforward-Networks-FFNs"><a href="#1-Feedforward-Networks-FFNs" class="headerlink" title="1. Feedforward Networks (FFNs)"></a>1. Feedforward Networks (FFNs)</h3><ul>
-<li><strong>Baseline</strong>: Fully connected layers with non-linear activations.</li>
-<li><strong>Fine-Tuning</strong>: Modify output layers to match the target task and optionally freeze earlier layers.</li>
-<li><strong>Training</strong>: Start with random initialization, requiring carefully tuned learning rates and weight initialization methods.</li>
-</ul>
-<h3 id="2-Convolutional-Neural-Networks-CNNs"><a href="#2-Convolutional-Neural-Networks-CNNs" class="headerlink" title="2. Convolutional Neural Networks (CNNs)"></a>2. Convolutional Neural Networks (CNNs)</h3><ul>
-<li><strong>Baseline</strong>: Architectures like VGG, ResNet, or EfficientNet, pre-trained on ImageNet.</li>
-<li><strong>Fine-Tuning</strong>: Replace the classification head to match target classes, often freezing earlier convolutional layers.</li>
-<li><strong>Training</strong>: Train from scratch if the task involves entirely different visual domains (e.g., medical imaging).</li>
-</ul>
-<h3 id="3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs"><a href="#3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs" class="headerlink" title="3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)"></a>3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)</h3><ul>
-<li><strong>Baseline</strong>: Pre-trained word embeddings (e.g., GloVe, Word2Vec) or models like ELMo.</li>
-<li><strong>Fine-Tuning</strong>: Use pre-trained embeddings, fine-tune the LSTM layers on sequential tasks.</li>
-<li><strong>Training</strong>: Train an LSTM network from scratch for language modeling or time-series tasks.</li>
-</ul>
-<h3 id="4-Transformers"><a href="#4-Transformers" class="headerlink" title="4. Transformers"></a>4. Transformers</h3><ul>
-<li><strong>Baseline</strong>: Models like BERT, GPT, or T5.</li>
-<li><strong>Fine-Tuning</strong>: Modify the decoder head, adjust hyperparameters like learning rate and layer freezing.</li>
-<li><strong>Training</strong>: Start with pre-trained embeddings; for unique tasks, initialize the Transformer from scratch (high compute).</li>
-</ul>
-<hr>
-<h2 id="Technical-details-of-popular-architectures"><a href="#Technical-details-of-popular-architectures" class="headerlink" title="Technical details of popular architectures"></a>Technical details of popular architectures</h2><table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Baseline Task</th>
-<th>Fine-Tuning Scope</th>
-<th>Training Considerations</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>VGG16</strong></td>
-<td>Image Classification (ImageNet)</td>
-<td>Replace final dense layer, freeze initial layers.</td>
-<td>High memory usage, simpler architecture to optimize.</td>
-</tr>
-<tr>
-<td><strong>ResNet50</strong></td>
-<td>Image Classification (ImageNet)</td>
-<td>Adjust classification head; fine-tune deeper layers as needed.</td>
-<td>Skip connections improve gradient flow.</td>
-</tr>
-<tr>
-<td><strong>BERT</strong></td>
-<td>Masked Language Model (MLM)</td>
-<td>Modify for classification, QA, or summarization.</td>
-<td>Pre-training requires MLM objectives.</td>
-</tr>
-<tr>
-<td><strong>GPT-3</strong></td>
-<td>Text Generation</td>
-<td>Fine-tune specific tasks by updating decoder head.</td>
-<td>Requires extensive GPU resources for full training.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>Sequential Data Modeling</td>
-<td>Fine-tune on embeddings, adjust for target sequence length.</td>
-<td>Long training times due to sequential processing.</td>
-</tr>
-<tr>
-<td><strong>EfficientNet</strong></td>
-<td>Image Classification</td>
-<td>Replace head; scale input resolution for task-specific datasets.</td>
-<td>Compound scaling optimizes trade-offs in performance.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>Fine-tuning and training models depend heavily on the task, available data, and computational resources. Fine-tuning is generally faster and resource-efficient, making it ideal for adapting large pre-trained models to specific tasks. On the other hand, training from scratch offers flexibility when creating custom architectures but demands extensive data and compute. By understanding these approaches, practitioners can select the most suitable method for their applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
         <tag>ML</tag>
       </tags>
   </entry>
@@ -6949,21 +6949,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
-    <title>Resources</title>
-    <url>/hexo-blog/2024/10/28/post_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
-<ol>
-<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>links</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Resources. Global platforms and people</title>
     <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
@@ -6984,6 +6969,21 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>global_knowledge</tag>
         <tag>resources</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Resources</title>
+    <url>/hexo-blog/2024/10/28/post_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
+<ol>
+<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>links</tag>
       </tags>
   </entry>
   <entry>
@@ -7195,65 +7195,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
 ]]></content>
       <categories>
         <category>Categories</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
       </categories>
   </entry>
   <entry>
@@ -7622,6 +7563,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -7807,6 +7807,39 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Info data</title>
     <url>/hexo-blog/2010/10/10/notes/info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -7868,39 +7901,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>info</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -8200,54 +8200,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
-<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
-</ol>
-<ul>
-<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
-<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>papers</tag>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Symbol encoding (Unicode and family)</title>
     <url>/hexo-blog/2024/10/31/notes/symbol_encoding_unicode_note_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In the world of text and symbols, many encoding systems allow for displaying characters, symbols, and icons in different contexts. Unicode is the primary standard, but there are several other encoding systems and symbol categories, each serving specialized purposes. Here’s a breakdown:</p>
@@ -8366,6 +8318,54 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>unicode</tag>
         <tag>ASCII</tag>
         <tag>LaTeX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
+<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
+</ol>
+<ul>
+<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
+<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>papers</tag>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
