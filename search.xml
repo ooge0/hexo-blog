@@ -443,63 +443,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Tools for Augmenting Data and Generating Texts</title>
     <url>/hexo-blog/2024/05/10/post_ai__tools_for_augmenting_data_and_generating_texts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text-Generation-Models"><a href="#Text-Generation-Models" class="headerlink" title="Text Generation Models"></a>Text Generation Models</h2><p>Text generation models are trained on large corpora and can generate semantically coherent and lexically varied sentences.</p>
@@ -564,6 +507,36 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>References for learning AI algorithms</title>
     <url>/hexo-blog//ai_algorithms/references_for_learning_ai_algorithms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>references_for_learning_ai_algorithms<br><em>This post related to :</em></p>
@@ -606,6 +579,50 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>ML</tag>
         <tag>algorithms</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
+</ul>
+</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Chatbots from scratch</title>
+    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>chatbot</tag>
+        <tag>Llama</tag>
       </tags>
   </entry>
   <entry>
@@ -691,23 +708,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>GPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chatbots from scratch</title>
-    <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/">How to build a Llama 2 chatbot</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>chatbot</tag>
-        <tag>Llama</tag>
       </tags>
   </entry>
   <entry>
@@ -894,6 +894,89 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Dream team LLM engineer skill set</title>
+    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
+<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
+<li>Fine-tuning and deploying large language models.</li>
+<li>Managing multimodal LLMs with text and visual inputs.</li>
+<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
+<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
+<li>Expertise in handling large-scale datasets.</li>
+</ul>
+<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
+<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
+<li>Familiarity with performance optimization for large-scale AI models.</li>
+<li>Experience with text embeddings, vector search, and similarity models.</li>
+<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
+<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
+</ul>
+<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
+<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
+<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
+<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
+<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
+</ul>
+<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
+<li>TensorFlow</li>
+<li>PyTorch</li>
+<li>Hugging Face Transformers</li>
+</ul>
+<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">Pandas</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Matplotlib">Matplotlib</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">Seaborn</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">Tableau</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Qlik">Qlik</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">Plotly</a></li>
+</ul>
+<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
+<li><strong>Text Analysis and Preprocessing:</strong><ul>
+<li>NLTK</li>
+<li>SpaCy</li>
+<li>FastText</li>
+</ul>
+</li>
+<li><strong>Model Optimization and Deployment:</strong><ul>
+<li>ONNX</li>
+<li>TensorRT</li>
+<li>Ray Serve</li>
+</ul>
+</li>
+<li><strong>Data Management:</strong><ul>
+<li>DVC (Data Version Control)</li>
+<li>Apache Airflow</li>
+</ul>
+</li>
+<li><strong>Search and Retrieval:</strong><ul>
+<li>Elasticsearch</li>
+<li>Faiss</li>
+<li>Weaviate</li>
+</ul>
+</li>
+<li><strong>Performance Monitoring:</strong><ul>
+<li>Prometheus</li>
+<li>Grafana</li>
+<li>Sentry</li>
+</ul>
+</li>
+</ul>
+<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
+<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
+<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>prompt_engineering</tag>
+        <tag>LLM</tag>
+        <tag>dream_team</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>BERT configuration parameters overview</title>
     <url>/hexo-blog//ai/post_ai_llm__bert_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1023,89 +1106,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>LLM</tag>
         <tag>BERT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dream team LLM engineer skill set</title>
-    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
-<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
-<li>Fine-tuning and deploying large language models.</li>
-<li>Managing multimodal LLMs with text and visual inputs.</li>
-<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
-<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
-<li>Expertise in handling large-scale datasets.</li>
-</ul>
-<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
-<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
-<li>Familiarity with performance optimization for large-scale AI models.</li>
-<li>Experience with text embeddings, vector search, and similarity models.</li>
-<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
-<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
-</ul>
-<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
-<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
-<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
-<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
-<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
-</ul>
-<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
-<li>TensorFlow</li>
-<li>PyTorch</li>
-<li>Hugging Face Transformers</li>
-</ul>
-<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">Pandas</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Matplotlib">Matplotlib</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">Seaborn</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">Tableau</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Qlik">Qlik</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">Plotly</a></li>
-</ul>
-<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
-<li><strong>Text Analysis and Preprocessing:</strong><ul>
-<li>NLTK</li>
-<li>SpaCy</li>
-<li>FastText</li>
-</ul>
-</li>
-<li><strong>Model Optimization and Deployment:</strong><ul>
-<li>ONNX</li>
-<li>TensorRT</li>
-<li>Ray Serve</li>
-</ul>
-</li>
-<li><strong>Data Management:</strong><ul>
-<li>DVC (Data Version Control)</li>
-<li>Apache Airflow</li>
-</ul>
-</li>
-<li><strong>Search and Retrieval:</strong><ul>
-<li>Elasticsearch</li>
-<li>Faiss</li>
-<li>Weaviate</li>
-</ul>
-</li>
-<li><strong>Performance Monitoring:</strong><ul>
-<li>Prometheus</li>
-<li>Grafana</li>
-<li>Sentry</li>
-</ul>
-</li>
-</ul>
-<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
-<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
-<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>prompt_engineering</tag>
-        <tag>LLM</tag>
-        <tag>dream_team</tag>
       </tags>
   </entry>
   <entry>
@@ -1711,6 +1711,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Machine Learning.Teach by Doing(LinkedIn post)</title>
     <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This is reopst of LinkedIN post. Current post contains list of references and some additional detilas</em></p>
@@ -1757,33 +1784,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
 </ol>
 <p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -3458,197 +3458,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>List of neural network models, architectures, and basic components</title>
-    <url>/hexo-blog//ai_nn/list_of_neural_network_models_architectures_and_basic_components/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
-<ol>
-<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
-</ol>
-<hr>
-<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
-<hr>
-<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Model Examples</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Feedforward Neural Network (FNN)</strong></td>
-<td>Basic MLP (Multi-Layer Perceptron)</td>
-<td>General-purpose model for regression and classification tasks.</td>
-</tr>
-<tr>
-<td><strong>Convolutional Neural Networks (CNN)</strong></td>
-<td>VGG, ResNet, AlexNet, EfficientNet</td>
-<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
-<td>Vanilla RNN, LSTM, GRU</td>
-<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
-<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
-<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
-</tr>
-<tr>
-<td><strong>Generative Adversarial Networks (GANs)</strong></td>
-<td>DCGAN, StyleGAN, CycleGAN</td>
-<td>Generative tasks such as image synthesis and domain transfer.</td>
-</tr>
-<tr>
-<td><strong>Graph Neural Networks (GNNs)</strong></td>
-<td>GCN, GraphSAGE, GAT</td>
-<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Component</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Applications</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Neuron</strong></td>
-<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
-<td>Foundational unit in all neural networks.</td>
-</tr>
-<tr>
-<td><strong>Layer</strong></td>
-<td>A collection of neurons; can be input, hidden, or output.</td>
-<td>Used in all neural architectures.</td>
-</tr>
-<tr>
-<td><strong>Activation Function</strong></td>
-<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
-<td>Enables learning of complex patterns.</td>
-</tr>
-<tr>
-<td><strong>Dropout</strong></td>
-<td>Regularization technique randomly dropping neurons during training.</td>
-<td>Reduces overfitting in models.</td>
-</tr>
-<tr>
-<td><strong>Encoder</strong></td>
-<td>Part of the model that converts input data into a latent representation.</td>
-<td>Used in Transformers, Autoencoders, BERT, and more.</td>
-</tr>
-<tr>
-<td><strong>Decoder</strong></td>
-<td>Converts latent representations back to an output format.</td>
-<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
-</tr>
-<tr>
-<td><strong>Attention Mechanism</strong></td>
-<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
-<td>Essential in Transformers and attention-based architectures.</td>
-</tr>
-<tr>
-<td><strong>Residual Block</strong></td>
-<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
-<td>Found in ResNet, Transformer architectures.</td>
-</tr>
-<tr>
-<td><strong>Convolution Layer</strong></td>
-<td>Applies convolutional operations to extract spatial features.</td>
-<td>Used in CNNs for tasks like image and video analysis.</td>
-</tr>
-<tr>
-<td><strong>Pooling Layer</strong></td>
-<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
-<td>Used in CNNs to downsample feature maps.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Cell</strong></td>
-<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
-<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
-</tr>
-<tr>
-<td><strong>Self-Attention Layer</strong></td>
-<td>Computes relationships between all input tokens to capture global dependencies.</td>
-<td>Core of Transformers.</td>
-</tr>
-<tr>
-<td><strong>Feedforward Layer</strong></td>
-<td>Dense layer applied after attention mechanisms in Transformers.</td>
-<td>Processes token-wise transformations.</td>
-</tr>
-<tr>
-<td><strong>Embedding Layer</strong></td>
-<td>Converts categorical data or tokens into dense vectors.</td>
-<td>Used in NLP, graph embeddings, and more.</td>
-</tr>
-<tr>
-<td><strong>Latent Space</strong></td>
-<td>Compressed representation of data, typically learned by encoders.</td>
-<td>Found in Autoencoders, VAEs, and GANs.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Key Components</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>FNN</strong></td>
-<td>Neurons, Layers, Activation Functions, Dropout.</td>
-</tr>
-<tr>
-<td><strong>CNN</strong></td>
-<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>RNN (Vanilla)</strong></td>
-<td>Recurrent Cells, Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
-</tr>
-<tr>
-<td><strong>GANs</strong></td>
-<td>Generator, Discriminator, Adversarial Loss.</td>
-</tr>
-<tr>
-<td><strong>GNNs</strong></td>
-<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
-</tr>
-</tbody></table>
-<hr>
-<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NN</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Glossary of Machine Learning and AI Terms</title>
     <url>/hexo-blog//ai/glossary-of-machine-learning-and-ai-terms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Feel free to send me your thoughts, notes, other references. My contact details you can find on <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a></em></p>
@@ -3937,6 +3746,197 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>glossary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>List of neural network models, architectures, and basic components</title>
+    <url>/hexo-blog//ai_nn/list_of_neural_network_models_architectures_and_basic_components/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
+<ol>
+<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
+</ol>
+<hr>
+<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
+<hr>
+<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Model Examples</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Feedforward Neural Network (FNN)</strong></td>
+<td>Basic MLP (Multi-Layer Perceptron)</td>
+<td>General-purpose model for regression and classification tasks.</td>
+</tr>
+<tr>
+<td><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td>VGG, ResNet, AlexNet, EfficientNet</td>
+<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
+<td>Vanilla RNN, LSTM, GRU</td>
+<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
+<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
+<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
+</tr>
+<tr>
+<td><strong>Generative Adversarial Networks (GANs)</strong></td>
+<td>DCGAN, StyleGAN, CycleGAN</td>
+<td>Generative tasks such as image synthesis and domain transfer.</td>
+</tr>
+<tr>
+<td><strong>Graph Neural Networks (GNNs)</strong></td>
+<td>GCN, GraphSAGE, GAT</td>
+<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Applications</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Neuron</strong></td>
+<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
+<td>Foundational unit in all neural networks.</td>
+</tr>
+<tr>
+<td><strong>Layer</strong></td>
+<td>A collection of neurons; can be input, hidden, or output.</td>
+<td>Used in all neural architectures.</td>
+</tr>
+<tr>
+<td><strong>Activation Function</strong></td>
+<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
+<td>Enables learning of complex patterns.</td>
+</tr>
+<tr>
+<td><strong>Dropout</strong></td>
+<td>Regularization technique randomly dropping neurons during training.</td>
+<td>Reduces overfitting in models.</td>
+</tr>
+<tr>
+<td><strong>Encoder</strong></td>
+<td>Part of the model that converts input data into a latent representation.</td>
+<td>Used in Transformers, Autoencoders, BERT, and more.</td>
+</tr>
+<tr>
+<td><strong>Decoder</strong></td>
+<td>Converts latent representations back to an output format.</td>
+<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
+</tr>
+<tr>
+<td><strong>Attention Mechanism</strong></td>
+<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
+<td>Essential in Transformers and attention-based architectures.</td>
+</tr>
+<tr>
+<td><strong>Residual Block</strong></td>
+<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
+<td>Found in ResNet, Transformer architectures.</td>
+</tr>
+<tr>
+<td><strong>Convolution Layer</strong></td>
+<td>Applies convolutional operations to extract spatial features.</td>
+<td>Used in CNNs for tasks like image and video analysis.</td>
+</tr>
+<tr>
+<td><strong>Pooling Layer</strong></td>
+<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
+<td>Used in CNNs to downsample feature maps.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Cell</strong></td>
+<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
+<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
+</tr>
+<tr>
+<td><strong>Self-Attention Layer</strong></td>
+<td>Computes relationships between all input tokens to capture global dependencies.</td>
+<td>Core of Transformers.</td>
+</tr>
+<tr>
+<td><strong>Feedforward Layer</strong></td>
+<td>Dense layer applied after attention mechanisms in Transformers.</td>
+<td>Processes token-wise transformations.</td>
+</tr>
+<tr>
+<td><strong>Embedding Layer</strong></td>
+<td>Converts categorical data or tokens into dense vectors.</td>
+<td>Used in NLP, graph embeddings, and more.</td>
+</tr>
+<tr>
+<td><strong>Latent Space</strong></td>
+<td>Compressed representation of data, typically learned by encoders.</td>
+<td>Found in Autoencoders, VAEs, and GANs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Key Components</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>FNN</strong></td>
+<td>Neurons, Layers, Activation Functions, Dropout.</td>
+</tr>
+<tr>
+<td><strong>CNN</strong></td>
+<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>RNN (Vanilla)</strong></td>
+<td>Recurrent Cells, Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
+</tr>
+<tr>
+<td><strong>GANs</strong></td>
+<td>Generator, Discriminator, Adversarial Loss.</td>
+</tr>
+<tr>
+<td><strong>GNNs</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
+</tr>
+</tbody></table>
+<hr>
+<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
       </tags>
   </entry>
   <entry>
@@ -5066,42 +5066,6 @@ print(generated_text)
 <hr>
 <h2 id="Vega-Altair"><a href="#Vega-Altair" class="headerlink" title="Vega-Altair"></a>Vega-Altair</h2><p>Read about Vega-Altair on [the glossary <code>Vega-Altair</code> page]<a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Vega-Altair">Tableau</a></p>
 ]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>plotly</tag>
-        <tag>visualization</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Exploring plotly chart types with examples</title>
-    <url>/hexo-blog//data_visualization/plotly_chart_types_examples/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Plotly is a powerful Python library for creating interactive and visually appealing charts.<br>It supports a variety of chart types, catering to diverse data visualization needs.<br>This guide showcases some of the most common chart types available in Plotly, along with implementation examples.</p>
-<h2 id="Chart-Types"><a href="#Chart-Types" class="headerlink" title="Chart Types"></a>Chart Types</h2><ol>
-<li><a href="#1-Line-Chart">Line Chart</a>  </li>
-<li><a href="#2-Scatter-Plot">Scatter Plot</a>  </li>
-<li><a href="#3-Bar-Chart">Bar Chart</a>  </li>
-<li><a href="#4-Pie-Chart">Pie Chart</a></li>
-<li><a href="#5-Histogram">Histogram</a></li>
-<li><a href="#6-Box-Plot">Box Plot</a></li>
-<li><a href="#7-Heatmap">Heatmap</a></li>
-<li><a href="#8-Bubble-Chart">Bubble Chart</a></li>
-<li><a href="#9-Area-Chart">Area Chart</a></li>
-<li><a href="#10-Contour-Plot">Contour Plot</a></li>
-<li><a href="#11-3D-Surface-Plot">3D Surface Plot</a></li>
-<li><a href="#12-Candlestick-Chart">Candlestick Chart</a></li>
-<li><a href="#13-OHLC-Chart">OHLC Chart</a></li>
-<li><a href="#14-Violin-Plot">Violin Plot</a></li>
-<li><a href="#15-Choropleth-Map">Choropleth Map</a></li>
-<li><a href="#16-Scatter-Map">Scatter Map</a></li>
-<li><a href="#17-Sunburst-Chart">Sunburst Chart</a></li>
-<li><a href="#18-Treemap-Chart">Treemap Chart</a></li>
-<li><a href="#19-Parallel-Coordinates-Plot">Parallel Coordinates Plot</a></li>
-</ol>
-<hr>
-<h3 id="1-Line-Chart"><a href="#1-Line-Chart" class="headerlink" title="1. Line Chart"></a>1. Line Chart</h3><p><a href="#Chart-Types" style="float: right; margin-left: 10px;">Go to &gt;&gt; <code>Chart Types</code> list</a><br><br><br>A line chart is ideal for visualizing data trends over time, with data points connected by straight lines.  </p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;  </span><br><span class="line">fig = px.line(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Line Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 2. Scatter Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">A scatter plot displays the relationship between two numerical variables using dots.  </span><br><span class="line"></span><br><span class="line">``` python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Variable1&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Variable2&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>]&#125;  </span><br><span class="line">fig = px.scatter(data, x=<span class="string">&#x27;Variable1&#x27;</span>, y=<span class="string">&#x27;Variable2&#x27;</span>, title=<span class="string">&#x27;Scatter Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 3. Bar Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Bar charts are used to compare categorical data, <span class="keyword">with</span> rectangular bars representing values.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;  </span><br><span class="line">fig = px.bar(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Bar Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 4. Pie Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">A pie chart divides data into slices to illustrate proportions.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;  </span><br><span class="line">fig = px.pie(data, names=<span class="string">&#x27;Category&#x27;</span>, values=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Pie Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 5. Histogram  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Histograms display the distribution of a dataset by grouping data into bins.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Values&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>]&#125;  </span><br><span class="line">fig = px.histogram(data, x=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Histogram Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 6. Box Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Box plots summarize data distribution through their quartiles, highlighting outliers.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;  </span><br><span class="line">fig = px.box(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Box Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 7. Heatmap  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Heatmaps display data intensity using varying colors <span class="keyword">in</span> a grid layout.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  </span><br><span class="line"></span><br><span class="line">data = np.random.rand(<span class="number">5</span>, <span class="number">5</span>)  </span><br><span class="line">fig = px.imshow(data, color_continuous_scale=<span class="string">&#x27;Viridis&#x27;</span>, title=<span class="string">&#x27;Heatmap Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 8. Bubble Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Bubble charts extend scatter plots <span class="keyword">with</span> a third dimension using bubble size.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;X&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Y&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>], <span class="string">&#x27;Size&#x27;</span>: [<span class="number">100</span>, <span class="number">200</span>, <span class="number">300</span>, <span class="number">400</span>, <span class="number">500</span>]&#125;  </span><br><span class="line">fig = px.scatter(data, x=<span class="string">&#x27;X&#x27;</span>, y=<span class="string">&#x27;Y&#x27;</span>, size=<span class="string">&#x27;Size&#x27;</span>, title=<span class="string">&#x27;Bubble Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 9. Area Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Area charts show quantitative data over time, emphasizing magnitude.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;  </span><br><span class="line">fig = px.area(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Area Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 10. Contour Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Contour plots display three-dimensional data <span class="keyword">in</span> two dimensions <span class="keyword">with</span> contour lines.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  </span><br><span class="line"></span><br><span class="line">    x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    y = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    z = np.sin(x[:, <span class="literal">None</span>] * y[<span class="literal">None</span>, :])</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Create a contour plot using go.Contour</span></span><br><span class="line">    fig = go.Figure(go.Contour(</span><br><span class="line">        z=z,</span><br><span class="line">        x=x,</span><br><span class="line">        y=y,</span><br><span class="line">        colorscale=<span class="string">&#x27;Viridis&#x27;</span>,</span><br><span class="line">        colorbar=<span class="built_in">dict</span>(title=<span class="string">&quot;Value&quot;</span>),</span><br><span class="line">    ))</span><br><span class="line"></span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;Contour Plot Example&#x27;</span>, xaxis_title=<span class="string">&quot;X&quot;</span>, yaxis_title=<span class="string">&quot;Y&quot;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 11. 3D Surface Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">3D surface plots provide a three-dimensional representation of data, showing relationships <span class="keyword">in</span> three dimensions.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go  </span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np  </span><br><span class="line"></span><br><span class="line">x = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)  </span><br><span class="line">y = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)  </span><br><span class="line">x, y = np.meshgrid(x, y)  </span><br><span class="line">z = np.sin(np.sqrt(x**<span class="number">2</span> + y**<span class="number">2</span>))  </span><br><span class="line"></span><br><span class="line">fig = go.Figure(data=[go.Surface(z=z, x=x, y=y)])  </span><br><span class="line">fig.update_layout(title=<span class="string">&#x27;3D Surface Plot Example&#x27;</span>, scene=&#123;<span class="string">&#x27;xaxis_title&#x27;</span>: <span class="string">&#x27;X&#x27;</span>, <span class="string">&#x27;yaxis_title&#x27;</span>: <span class="string">&#x27;Y&#x27;</span>, <span class="string">&#x27;zaxis_title&#x27;</span>: <span class="string">&#x27;Z&#x27;</span>&#125;)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 12. Candlestick Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Candlestick charts are used to visualize stock price movements over time, displaying the opening, closing, high, <span class="keyword">and</span> low prices.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go  </span><br><span class="line"></span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">    <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">    <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">    <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">&#125;  </span><br><span class="line"></span><br><span class="line">fig = go.Figure(data=[go.Candlestick(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])  </span><br><span class="line">fig.update_layout(title=<span class="string">&#x27;Candlestick Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 13. OHLC Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">OHLC (Open, High, Low, Close) charts are used <span class="keyword">for</span> visualizing financial data <span class="keyword">with</span> four key values <span class="keyword">for</span> each period.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go  </span><br><span class="line"></span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">    <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">    <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">    <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">&#125;  </span><br><span class="line"></span><br><span class="line">fig = go.Figure(data=[go.Ohlc(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])  </span><br><span class="line">fig.update_layout(title=<span class="string">&#x27;OHLC Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 14. Violin Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Violin plots combine aspects of box plots <span class="keyword">and</span> density plots to display data distribution.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;  </span><br><span class="line">fig = px.violin(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Violin Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 15. Choropleth Map  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Choropleth maps visualize data geographically, <span class="keyword">with</span> color shading to represent values.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Country&#x27;</span>: [<span class="string">&#x27;USA&#x27;</span>, <span class="string">&#x27;Canada&#x27;</span>, <span class="string">&#x27;Mexico&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;  </span><br><span class="line">fig = px.choropleth(data, locations=<span class="string">&#x27;Country&#x27;</span>, color=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Choropleth Map Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 16. Scatter Map  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Scatter maps visualize geographical data <span class="keyword">with</span> points plotted on a <span class="built_in">map</span>.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Latitude&#x27;</span>: [<span class="number">34.0522</span>, <span class="number">40.7128</span>, <span class="number">41.8781</span>], <span class="string">&#x27;Longitude&#x27;</span>: [-<span class="number">118.2437</span>, -<span class="number">74.0060</span>, -<span class="number">87.6298</span>], <span class="string">&#x27;City&#x27;</span>: [<span class="string">&#x27;Los Angeles&#x27;</span>, <span class="string">&#x27;New York&#x27;</span>, <span class="string">&#x27;Chicago&#x27;</span>]&#125;  </span><br><span class="line">fig = px.scatter_geo(data, lat=<span class="string">&#x27;Latitude&#x27;</span>, lon=<span class="string">&#x27;Longitude&#x27;</span>, text=<span class="string">&#x27;City&#x27;</span>, title=<span class="string">&#x27;Scatter Map Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 17. Sunburst Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Sunburst charts visualize hierarchical data <span class="keyword">with</span> a circular layout.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;  </span><br><span class="line">fig = px.sunburst(data</span><br><span class="line">, path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Sunburst Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 18. Treemap Chart  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Treemaps display hierarchical data <span class="keyword">as</span> nested rectangles, <span class="keyword">with</span> size <span class="keyword">and</span> color indicating values.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;  </span><br><span class="line">fig = px.treemap(data, path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Treemap Chart Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### 19. Parallel Coordinates Plot  </span></span><br><span class="line">&lt;a href=<span class="string">&quot;#Chart-Types&quot;</span> style=<span class="string">&quot;float: right; margin-left: 10px;&quot;</span>&gt;Go to &gt;&gt; &lt;code&gt;Chart Types&lt;/code&gt; <span class="built_in">list</span>&lt;/a&gt;</span><br><span class="line">&lt;br&gt;</span><br><span class="line">Parallel coordinates plots are used to visualize multivariate data by plotting variables on parallel axes.  </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px  </span><br><span class="line"></span><br><span class="line">data = &#123;<span class="string">&#x27;Feature1&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], <span class="string">&#x27;Feature2&#x27;</span>: [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], <span class="string">&#x27;Feature3&#x27;</span>: [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]&#125;  </span><br><span class="line">fig = px.parallel_coordinates(data, color=<span class="string">&#x27;Feature1&#x27;</span>, title=<span class="string">&#x27;Parallel Coordinates Plot Example&#x27;</span>)  </span><br><span class="line">fig.show()  </span><br><span class="line">```  </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line"><span class="comment">### Conclusion  </span></span><br><span class="line"></span><br><span class="line">Plotly offers a diverse <span class="built_in">range</span> of interactive chart types <span class="keyword">for</span> data visualization. From basic charts like line <span class="keyword">and</span> bar charts to more advanced visualizations like choropleth maps <span class="keyword">and</span> 3D surface plots, Plotly <span class="keyword">is</span> a versatile library that can <span class="built_in">help</span> you present your data <span class="keyword">in</span> meaningful ways. By exploring these chart types <span class="keyword">and</span> their respective implementations, you can enhance the way you analyze <span class="keyword">and</span> communicate data insights.</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">All types <span class="keyword">in</span> single code block</span><br><span class="line">```python</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> plotly.express <span class="keyword">as</span> px</span><br><span class="line"><span class="keyword">import</span> plotly.graph_objects <span class="keyword">as</span> go</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">line_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;A line chart is ideal for visualizing data trends over time, with data points connected by straight lines.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;</span><br><span class="line">    fig = px.line(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Line Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">scatter_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;A scatter plot displays the relationship between two numerical variables using dots.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Variable1&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Variable2&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>]&#125;</span><br><span class="line">    fig = px.scatter(data, x=<span class="string">&#x27;Variable1&#x27;</span>, y=<span class="string">&#x27;Variable2&#x27;</span>, title=<span class="string">&#x27;Scatter Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">bar_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Bar charts are used to compare categorical data, with rectangular bars representing values.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;</span><br><span class="line">    fig = px.bar(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Bar Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">pie_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;A pie chart divides data into slices to illustrate proportions.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;D&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>]&#125;</span><br><span class="line">    fig = px.pie(data, names=<span class="string">&#x27;Category&#x27;</span>, values=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Pie Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">histogram</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Histograms display the distribution of a dataset by grouping data into bins.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Values&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>]&#125;</span><br><span class="line">    fig = px.histogram(data, x=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Histogram Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">box_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Box plots summarize data distribution through their quartiles, highlighting outliers.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;</span><br><span class="line">    fig = px.box(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Box Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">heatmap</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Heatmaps display data intensity using varying colors in a grid layout.&quot;&quot;&quot;</span></span><br><span class="line">    data = np.random.rand(<span class="number">5</span>, <span class="number">5</span>)</span><br><span class="line">    fig = px.imshow(data, color_continuous_scale=<span class="string">&#x27;Viridis&#x27;</span>, title=<span class="string">&#x27;Heatmap Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">bubble_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Bubble charts extend scatter plots with a third dimension using bubble size.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;X&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>], <span class="string">&#x27;Y&#x27;</span>: [<span class="number">15</span>, <span class="number">25</span>, <span class="number">35</span>, <span class="number">45</span>, <span class="number">55</span>], <span class="string">&#x27;Size&#x27;</span>: [<span class="number">100</span>, <span class="number">200</span>, <span class="number">300</span>, <span class="number">400</span>, <span class="number">500</span>]&#125;</span><br><span class="line">    fig = px.scatter(data, x=<span class="string">&#x27;X&#x27;</span>, y=<span class="string">&#x27;Y&#x27;</span>, size=<span class="string">&#x27;Size&#x27;</span>, title=<span class="string">&#x27;Bubble Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">area_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Area charts show quantitative data over time, emphasizing magnitude.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Year&#x27;</span>: [<span class="number">2015</span>, <span class="number">2016</span>, <span class="number">2017</span>, <span class="number">2018</span>, <span class="number">2019</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">13</span>, <span class="number">17</span>, <span class="number">14</span>]&#125;</span><br><span class="line">    fig = px.area(data, x=<span class="string">&#x27;Year&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Area Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">contour_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Contour plots display three-dimensional data in two dimensions with contour lines.&quot;&quot;&quot;</span></span><br><span class="line">    x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    y = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">    z = np.sin(x[:, <span class="literal">None</span>] * y[<span class="literal">None</span>, :])</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Create a contour plot using go.Contour</span></span><br><span class="line">    fig = go.Figure(go.Contour(</span><br><span class="line">        z=z,</span><br><span class="line">        x=x,</span><br><span class="line">        y=y,</span><br><span class="line">        colorscale=<span class="string">&#x27;Viridis&#x27;</span>,</span><br><span class="line">        colorbar=<span class="built_in">dict</span>(title=<span class="string">&quot;Value&quot;</span>),</span><br><span class="line">    ))</span><br><span class="line"></span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;Contour Plot Example&#x27;</span>, xaxis_title=<span class="string">&quot;X&quot;</span>, yaxis_title=<span class="string">&quot;Y&quot;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">three_d_surface_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;3D surface plots provide a three-dimensional representation of data, showing relationships in three dimensions.&quot;&quot;&quot;</span></span><br><span class="line">    x = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)</span><br><span class="line">    y = np.linspace(-<span class="number">5</span>, <span class="number">5</span>, <span class="number">100</span>)</span><br><span class="line">    x, y = np.meshgrid(x, y)</span><br><span class="line">    z = np.sin(np.sqrt(x ** <span class="number">2</span> + y ** <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">    fig = go.Figure(data=[go.Surface(z=z, x=x, y=y)])</span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;3D Surface Plot Example&#x27;</span>,</span><br><span class="line">                      scene=&#123;<span class="string">&#x27;xaxis_title&#x27;</span>: <span class="string">&#x27;X&#x27;</span>, <span class="string">&#x27;yaxis_title&#x27;</span>: <span class="string">&#x27;Y&#x27;</span>, <span class="string">&#x27;zaxis_title&#x27;</span>: <span class="string">&#x27;Z&#x27;</span>&#125;)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">candlestick_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Candlestick charts are used to visualize stock price movements over time, displaying the opening, closing, high, and low prices.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;</span><br><span class="line">        <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">        <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">        <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">        <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    fig = go.Figure(</span><br><span class="line">        data=[</span><br><span class="line">            go.Candlestick(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])</span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;Candlestick Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">ohlc_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;OHLC (Open, High, Low, Close) charts are used for visualizing financial data with four key values for each period.&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">    data = &#123;</span><br><span class="line">        <span class="string">&#x27;Date&#x27;</span>: [<span class="string">&#x27;2021-01-01&#x27;</span>, <span class="string">&#x27;2021-01-02&#x27;</span>, <span class="string">&#x27;2021-01-03&#x27;</span>, <span class="string">&#x27;2021-01-04&#x27;</span>],</span><br><span class="line">        <span class="string">&#x27;Open&#x27;</span>: [<span class="number">100</span>, <span class="number">102</span>, <span class="number">103</span>, <span class="number">107</span>],</span><br><span class="line">        <span class="string">&#x27;High&#x27;</span>: [<span class="number">105</span>, <span class="number">106</span>, <span class="number">108</span>, <span class="number">110</span>],</span><br><span class="line">        <span class="string">&#x27;Low&#x27;</span>: [<span class="number">98</span>, <span class="number">100</span>, <span class="number">101</span>, <span class="number">104</span>],</span><br><span class="line">        <span class="string">&#x27;Close&#x27;</span>: [<span class="number">104</span>, <span class="number">105</span>, <span class="number">106</span>, <span class="number">109</span>]</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    fig = go.Figure(</span><br><span class="line">        data=[go.Ohlc(x=data[<span class="string">&#x27;Date&#x27;</span>], <span class="built_in">open</span>=data[<span class="string">&#x27;Open&#x27;</span>], high=data[<span class="string">&#x27;High&#x27;</span>], low=data[<span class="string">&#x27;Low&#x27;</span>], close=data[<span class="string">&#x27;Close&#x27;</span>])])</span><br><span class="line">    fig.update_layout(title=<span class="string">&#x27;OHLC (Open, High, Low, Close)) Chart Example &#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">violin_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Violin plots combine aspects of box plots and density plots to display data distribution.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Category&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;B&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">15</span>, <span class="number">14</span>, <span class="number">22</span>, <span class="number">24</span>, <span class="number">23</span>]&#125;</span><br><span class="line">    fig = px.violin(data, x=<span class="string">&#x27;Category&#x27;</span>, y=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Violin Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">choropleth_map</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Choropleth maps visualize data geographically, with color shading to represent values.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Country&#x27;</span>: [<span class="string">&#x27;USA&#x27;</span>, <span class="string">&#x27;Canada&#x27;</span>, <span class="string">&#x27;Mexico&#x27;</span>], <span class="string">&#x27;Value&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;</span><br><span class="line">    fig = px.choropleth(data, locations=<span class="string">&#x27;Country&#x27;</span>, color=<span class="string">&#x27;Value&#x27;</span>, title=<span class="string">&#x27;Choropleth Map Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">scatter_map</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Scatter maps visualize geographical data with points plotted on a map.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Latitude&#x27;</span>: [<span class="number">34.0522</span>, <span class="number">40.7128</span>, <span class="number">41.8781</span>], <span class="string">&#x27;Longitude&#x27;</span>: [-<span class="number">118.2437</span>, -<span class="number">74.0060</span>, -<span class="number">87.6298</span>],</span><br><span class="line">            <span class="string">&#x27;City&#x27;</span>: [<span class="string">&#x27;Los Angeles&#x27;</span>, <span class="string">&#x27;New York&#x27;</span>, <span class="string">&#x27;Chicago&#x27;</span>]&#125;</span><br><span class="line">    fig = px.scatter_geo(data, lat=<span class="string">&#x27;Latitude&#x27;</span>, lon=<span class="string">&#x27;Longitude&#x27;</span>, text=<span class="string">&#x27;City&#x27;</span>, title=<span class="string">&#x27;Scatter Map Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">sunburst_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Sunburst charts visualize hierarchical data with a circular layout.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;</span><br><span class="line">    fig = px.sunburst(data</span><br><span class="line">                      , path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Sunburst Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">treemap_chart</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Treemaps display hierarchical data as nested rectangles, with size and color indicating values.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Labels&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>], <span class="string">&#x27;Parents&#x27;</span>: [<span class="string">&#x27;&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;A&#x27;</span>], <span class="string">&#x27;Values&#x27;</span>: [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]&#125;</span><br><span class="line">    fig = px.treemap(data, path=[<span class="string">&#x27;Parents&#x27;</span>, <span class="string">&#x27;Labels&#x27;</span>], values=<span class="string">&#x27;Values&#x27;</span>, title=<span class="string">&#x27;Treemap Chart Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">parallel_coordinates_plot</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Parallel coordinates plots are used to visualize multivariate data by plotting variables on parallel axes.&quot;&quot;&quot;</span></span><br><span class="line">    data = &#123;<span class="string">&#x27;Feature1&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], <span class="string">&#x27;Feature2&#x27;</span>: [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], <span class="string">&#x27;Feature3&#x27;</span>: [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]&#125;</span><br><span class="line">    fig = px.parallel_coordinates(data, color=<span class="string">&#x27;Feature1&#x27;</span>, title=<span class="string">&#x27;Parallel Coordinates Plot Example&#x27;</span>)</span><br><span class="line">    fig.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">run_charts</span>():</span><br><span class="line">    charts = [</span><br><span class="line">        line_chart,</span><br><span class="line">        scatter_plot,</span><br><span class="line">        bar_chart,</span><br><span class="line">        pie_chart,</span><br><span class="line">        histogram,</span><br><span class="line">        box_plot,</span><br><span class="line">        heatmap,</span><br><span class="line">        bubble_chart,</span><br><span class="line">        area_chart,</span><br><span class="line">        contour_plot,</span><br><span class="line">        three_d_surface_plot,</span><br><span class="line">        candlestick_chart,</span><br><span class="line">        ohlc_chart,</span><br><span class="line">        violin_plot,</span><br><span class="line">        choropleth_map,</span><br><span class="line">        scatter_map,</span><br><span class="line">        sunburst_chart,</span><br><span class="line">        treemap_chart,</span><br><span class="line">        parallel_coordinates_plot</span><br><span class="line">    ]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> chart <span class="keyword">in</span> charts:</span><br><span class="line">        chart()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    run_charts()</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Posts</category>
       </categories>
@@ -8489,28 +8453,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
-    <title>Psychology. Papper wall.</title>
-    <url>/hexo-blog//psy/papers_wall/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li><a href="https://www.academia.edu/23028227/The_Psychology_of_Emotions">Read book <code>Carroll Izard. The Psychology of Emotions</code> on academia.edu</a></li>
-<li>Patterns of emotions. A new analysis of anxiety and depression. Carroll Izard</li>
-<li>The American mind; an interpretation of American thought and character since the 1880’s<ul>
-<li><a href="https://archive.org/stream/in.ernet.dli.2015.523442/2015.523442.The-American_djvu.txt">Read book <code>The American mind; an interpretation of American thought and character since the 1880&#39;s. 1950</code> on archive.org [txt format]</a></li>
-<li><a href="https://archive.org/details/in.ernet.dli.2015.523442/page/n23/mode/2up">Read book <code>The American mind; an interpretation of American thought and character since the 1880&#39;s. 1950</code> on archive.org [image format]</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Software QA - Basic check list</title>
     <url>/hexo-blog/2024/08/28/post_qa__software_qa_basic_check_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Login-form-Test-Cases"><a href="#1-Login-form-Test-Cases" class="headerlink" title="1 Login form Test Cases"></a>1 Login form Test Cases</h2><ol>
@@ -8657,6 +8599,28 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>qa</tag>
         <tag>qa_check_list</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Psychology. Papper wall.</title>
+    <url>/hexo-blog//psy/papers_wall/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><a href="https://www.academia.edu/23028227/The_Psychology_of_Emotions">Read book <code>Carroll Izard. The Psychology of Emotions</code> on academia.edu</a></li>
+<li>Patterns of emotions. A new analysis of anxiety and depression. Carroll Izard</li>
+<li>The American mind; an interpretation of American thought and character since the 1880’s<ul>
+<li><a href="https://archive.org/stream/in.ernet.dli.2015.523442/2015.523442.The-American_djvu.txt">Read book <code>The American mind; an interpretation of American thought and character since the 1880&#39;s. 1950</code> on archive.org [txt format]</a></li>
+<li><a href="https://archive.org/details/in.ernet.dli.2015.523442/page/n23/mode/2up">Read book <code>The American mind; an interpretation of American thought and character since the 1880&#39;s. 1950</code> on archive.org [image format]</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -8998,20 +8962,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Blog&#39;s categories</title>
     <url>/hexo-blog//categories/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
@@ -9029,9 +8979,18 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
   </entry>
   <entry>
     <title>blog deploy actions</title>
@@ -9067,15 +9026,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Tags</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
@@ -9086,6 +9036,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tags</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -9721,8 +9685,52 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Other papers</title>
+    <url>/hexo-blog//notes/other_papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
+<li>Confessions of an Economic Hit Man | John Perkins</li>
+</ol>
+<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
+<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
+<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
+</ol>
+<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
+<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
+<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
+</li>
+<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
+  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<hr>
+<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
+<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
+</ol>
+<ul>
+<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
+</ul>
+<hr>
+<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
+<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+<ul>
+<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
+</ul>
+<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
+<li>Read book <a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">“Blockchain Networks:Token Design and Management. Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021 “ on nvlpubs.nist.gov</a> | DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>papers</tag>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_web_data_handling/</url>
+    <url>/hexo-blog/2024/11/20/notes/notes__web_data_handling/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
 <li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
 </ol>
@@ -9736,7 +9744,7 @@ More detilas about event you can find on the official <a href = https://kolkadub
   </entry>
   <entry>
     <title>Windows services and VM usage</title>
-    <url>/hexo-blog/2024/11/20/notes/notes_windows_services_and_vm_usage/</url>
+    <url>/hexo-blog//notes/windows_services_and_vm_usage/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
 <li><p><strong>Virtual Machine Setup</strong><br>Steps to create a virtual machine:</p>
 <ol>
@@ -10149,54 +10157,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>unicode</tag>
         <tag>ASCII</tag>
         <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other papers</title>
-    <url>/hexo-blog/2010/10/10/notes/other_papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
-<li>Confessions of an Economic Hit Man | John Perkins</li>
-</ol>
-<h2 id="Psychology"><a href="#Psychology" class="headerlink" title="Psychology"></a>Psychology</h2><ol>
-<li>Методика семантического дифференциала<a href="https://studfile.net/preview/5699346/page:3/">.</a></li>
-<li>Психосемантический подход к исследованию индивидуального сознания. Т.Е. Косаревская, Р.Р. Кутькина<a href="https://www.phantastike.com/common_psychology/psychosemantic_approac/pdf/">.</a></li>
-</ol>
-<h2 id="Philosophy"><a href="#Philosophy" class="headerlink" title="Philosophy:"></a>Philosophy:</h2><ol>
-<li><p>Введение в неклассическую философию.Гаспарян Д.Э<a href="../../../../../docs/other/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d_e.pdf">.</a>    </p>
-<img src="/hexo-blog/images/vvedeniye_v_neklassicheskuyu_filosofiyu__gasparyan_d.e.jpg" alt="Введение в неклассическую философию. Гаспарян Д.Э." title="Введение в неклассическую философию. Гаспарян Д.Э." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /> 
-</li>
-<li><p>Введение в политическую философию. Гаджиев К.С<a href="../../../../../docs/other/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s.pdf">.</a></p>
-  <img src="/hexo-blog/images/vvedeniye_v_politicheskuyu_filosofiyu__gadzhiyev_k.s..jpg" alt="Введение в политическую философию. Гаджиев К.С." title="Введение в политическую философию. Гаджиев К.С." style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<hr>
-<h2 id="Political-science"><a href="#Political-science" class="headerlink" title="Political science"></a>Political science</h2><ol>
-<li>Политология Гаджиев К.С<a href="http://library.lgaki.info:404/2017/%D0%93%D0%B0%D0%B4%D0%B6%D0%B8%D0%B5%D0%B2_%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F.pdf">.</a></li>
-</ol>
-<ul>
-<li><strong>! Глава 15. ОСНОВНЫЕ ТЕЧЕНИЯ ИДЕЙНО-ПОЛИТИЧЕСКОЙ МЫСЛИ</strong></li>
-</ul>
-<hr>
-<h2 id="Social-and-public-policy"><a href="#Social-and-public-policy" class="headerlink" title="Social and public policy"></a>Social and public policy</h2><ol>
-<li>A Brief History of the Future. Jacques Attali. Allen &amp; Unwin, 2009. 291 pages  <img src="/hexo-blog/images/a_brief_history_of_the_future__jacques_attali.jpg" alt="A Brief History of the Future. Jacques Attali" title="A Brief History of the Future. Jacques Attali. Allen & Unwin, 2009. 291 pages" style="width: 80%; max-width: 300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-<ul>
-<li>Краткая история будущего. Мир в ближайшие 50 лет. Жак Аттали<a href="http://loveread.ec/read_book.php?id=83233&p=1">.</a></li>
-</ul>
-<h2 id="Blockchain"><a href="#Blockchain" class="headerlink" title="Blockchain"></a>Blockchain</h2><ol>
-<li>Blockchain Networks:Token Design and Management Overview.Loïc Lesavre. Priam Varin. Dylan Yaga. 2021</li>
-</ol>
-<ul>
-<li>DOI: <a href="https://doi.org/10.6028/NIST.IR.8301">https://doi.org/10.6028/NIST.IR.8301</a></li>
-<li><a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf">Read on nvlpubs.nist.gov</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>papers</tag>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
       </tags>
   </entry>
   <entry>
