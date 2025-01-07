@@ -1,0 +1,2009 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QND5GLPYZV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QND5GLPYZV');
+</script>
+<!-- End Google Analytics -->
+
+  
+  <title>SQL tutorial with examples |  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="description" content="This post contains a list of SQL methods, functions, and operators with examples.  If you want to test it, by default, you need to create a new SQLite database, and all actions are executed using the">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SQL tutorial with examples">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/databases/sql_tutorial_with_examples/">
+<meta property="og:site_name" content=" ">
+<meta property="og:description" content="This post contains a list of SQL methods, functions, and operators with examples.  If you want to test it, by default, you need to create a new SQLite database, and all actions are executed using the">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-07-10T16:42:05.000Z">
+<meta property="article:modified_time" content="2025-01-07T12:02:18.520Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="databases">
+<meta property="article:tag" content="sql">
+<meta property="article:tag" content="tutorial">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/hexo-blog/atom.xml" title=" " type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/hexo-blog/favicon/favicon.ico">
+  
+  
+  
+<link rel="stylesheet" href="/hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+<!-- hexo injector head_end start --><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/hexo-blog/" id="logo"> </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/hexo-blog/" id="subtitle">...chasing dreams, living reality</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Posts/">Posts</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/Notes/">Notes</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/categories/">Categories</a>
+        
+          <a class="main-nav-link" href="/hexo-blog/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+        <!-- <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a> -->
+      </nav>
+      <div id="search-form-wrap">
+        <!-- <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://ooge0.github.io/hexo-blog"></form> -->
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-post_databases__sql_tutorial_with_examples" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/hexo-blog/databases/sql_tutorial_with_examples/" class="article-date">
+  <time class="dt-published" datetime="2024-07-10T16:42:05.000Z" itemprop="datePublished">2024-07-10</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/hexo-blog/categories/Posts/">Posts</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      SQL tutorial with examples
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This post contains a list of SQL methods, functions, and operators with examples.</p>
+<ul>
+<li>If you want to test it, by default, you need to create a new SQLite database, and all actions are executed using the created database.</li>
+<li>The name of the default (created) database for this example is dummy_SQLite_DB_for_tests.</li>
+</ul>
+<h2 id="CREATE-TABLE"><a href="#CREATE-TABLE" class="headerlink" title="CREATE TABLE()"></a>CREATE TABLE()</h2><p>Create a new table.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> food (id <span class="type">INTEGER</span> <span class="keyword">PRIMARY</span> KEY, name TEXT, price <span class="type">INTEGER</span> <span class="keyword">CHECK</span> (price <span class="operator">&lt;=</span> <span class="number">30</span>), food_category TEXT , exp_date <span class="type">DATE</span>);</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> products (id <span class="type">INTEGER</span> <span class="keyword">PRIMARY</span> KEY, name TEXT, product_id <span class="type">INTEGER</span>, price <span class="type">INT</span>, customer_id <span class="type">INT</span>);</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> customer (id <span class="type">INTEGER</span> <span class="keyword">PRIMARY</span> KEY, name TEXT, customer_id <span class="type">INTEGER</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="ALTER-TABLE"><a href="#ALTER-TABLE" class="headerlink" title="ALTER TABLE()"></a>ALTER TABLE()</h2><p>Modifies an existing table.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> products <span class="keyword">ADD</span> <span class="keyword">COLUMN</span> food_id <span class="type">INT</span>;</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> food <span class="keyword">ADD</span> <span class="keyword">COLUMN</span> customer_id <span class="type">INT</span>;</span><br></pre></td></tr></table></figure>
+<p>Result of execution script will add additional columns.</p>
+<h2 id="DROP-TABLE"><a href="#DROP-TABLE" class="headerlink" title="DROP TABLE()"></a>DROP TABLE()</h2><p>Deletes an existing table.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> food;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> products;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> customer;</span><br></pre></td></tr></table></figure>
+<p>Result of execution script will provide deletion of created tables.</p>
+<h2 id="INSERT-INTO"><a href="#INSERT-INTO" class="headerlink" title="INSERT INTO()"></a>INSERT INTO()</h2><p>Inserts a new row into a table.<br>Insert 12 records into the ‘products’ table</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> products (id, name, product_id, food_id, price, customer_id)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">    (<span class="number">1</span>, <span class="string">&#x27;Flour&#x27;</span>, <span class="number">101</span>, <span class="number">1</span>, <span class="number">3.99</span>, <span class="number">1</span>),</span><br><span class="line">    (<span class="number">2</span>, <span class="string">&#x27;Tomato Sauce&#x27;</span>, <span class="number">102</span>, <span class="number">1</span>, <span class="number">2.99</span>, <span class="number">1</span>),</span><br><span class="line">    (<span class="number">3</span>, <span class="string">&#x27;Cheese&#x27;</span>, <span class="number">103</span>, <span class="number">1</span>, <span class="number">4.99</span>, <span class="number">1</span>),</span><br><span class="line">    (<span class="number">4</span>, <span class="string">&#x27;Pepperoni&#x27;</span>, <span class="number">104</span>, <span class="number">1</span>, <span class="number">2.49</span>, <span class="number">1</span>),</span><br><span class="line">    (<span class="number">5</span>, <span class="string">&#x27;Bun&#x27;</span>, <span class="number">105</span>, <span class="number">2</span>, <span class="number">1.99</span>, <span class="number">2</span>),</span><br><span class="line">    (<span class="number">6</span>, <span class="string">&#x27;Beef Patty&#x27;</span>, <span class="number">106</span>, <span class="number">2</span>, <span class="number">3.49</span>, <span class="number">2</span>),</span><br><span class="line">    (<span class="number">7</span>, <span class="string">&#x27;Lettuce&#x27;</span>, <span class="number">107</span>, <span class="number">2</span>, <span class="number">0.99</span>, <span class="number">2</span>),</span><br><span class="line">    (<span class="number">8</span>, <span class="string">&#x27;Tomato&#x27;</span>, <span class="number">108</span>, <span class="number">2</span>, <span class="number">1.49</span>, <span class="number">2</span>),</span><br><span class="line">    (<span class="number">9</span>, <span class="string">&#x27;Croutons&#x27;</span>, <span class="number">109</span>, <span class="number">3</span>, <span class="number">0.49</span>, <span class="number">3</span>),</span><br><span class="line">    (<span class="number">10</span>, <span class="string">&#x27;Chicken&#x27;</span>, <span class="number">110</span>, <span class="number">3</span>, <span class="number">3.99</span>, <span class="number">3</span>),</span><br><span class="line">    (<span class="number">11</span>, <span class="string">&#x27;Pasta Noodles&#x27;</span>, <span class="number">111</span>, <span class="number">4</span>, <span class="number">2.99</span>, <span class="number">4</span>),</span><br><span class="line">    (<span class="number">12</span>, <span class="string">&#x27;Alfredo Sauce&#x27;</span>, <span class="number">112</span>, <span class="number">4</span>, <span class="number">4.99</span>, <span class="number">4</span>);</span><br></pre></td></tr></table></figure>
+<p>Content of updated <code>products</code> table is posible to verify using <a href="#select-content-from-product-table">result of execution command ‘SELECT’ </a></p>
+<p>Insert 12 records into the <code>food</code> table with categories and prices</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> food (id, name, food_category, price, exp_date, customer_id)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">    (<span class="number">1</span>, <span class="string">&#x27;Pizza&#x27;</span>, <span class="string">&#x27;Expensive&#x27;</span>, <span class="number">15.99</span>, <span class="string">&#x27;2001-01-01&#x27;</span>,<span class="number">1</span>),</span><br><span class="line">    (<span class="number">2</span>, <span class="string">&#x27;Burger&#x27;</span>, <span class="string">&#x27;Moderate&#x27;</span>, <span class="number">8.99</span>, <span class="string">&#x27;2002-02-02&#x27;</span>,<span class="number">2</span>),</span><br><span class="line">    (<span class="number">3</span>, <span class="string">&#x27;Salad&#x27;</span>, <span class="string">&#x27;Moderate&#x27;</span>, <span class="number">7.49</span>, <span class="string">&#x27;2003-03-03&#x27;</span>,<span class="number">3</span>),</span><br><span class="line">    (<span class="number">4</span>, <span class="string">&#x27;Pasta&#x27;</span>, <span class="string">&#x27;Expensive&#x27;</span>, <span class="number">18.99</span>, <span class="string">&#x27;2004-04-04&#x27;</span>,<span class="number">4</span>),</span><br><span class="line">    (<span class="number">5</span>, <span class="string">&#x27;Sandwich&#x27;</span>, <span class="string">&#x27;Moderate&#x27;</span>, <span class="number">6.99</span>, <span class="string">&#x27;2005-05-05&#x27;</span>,<span class="number">5</span>),</span><br><span class="line">    (<span class="number">6</span>, <span class="string">&#x27;Steak&#x27;</span>, <span class="string">&#x27;Expensive&#x27;</span>, <span class="number">25.99</span>, <span class="string">&#x27;2006-06-06&#x27;</span>,<span class="number">6</span>),</span><br><span class="line">    (<span class="number">7</span>, <span class="string">&#x27;Sushi&#x27;</span>, <span class="string">&#x27;Expensive&#x27;</span>, <span class="number">22.99</span>, <span class="string">&#x27;2007-07-07&#x27;</span>,<span class="number">7</span>),</span><br><span class="line">    (<span class="number">8</span>, <span class="string">&#x27;Soup&#x27;</span>, <span class="string">&#x27;Cheap&#x27;</span>, <span class="number">4.99</span>, <span class="string">&#x27;2008-08-08&#x27;</span>,<span class="number">8</span>),</span><br><span class="line">    (<span class="number">9</span>, <span class="string">&#x27;Taco&#x27;</span>, <span class="string">&#x27;Moderate&#x27;</span>, <span class="number">9.99</span>, <span class="string">&#x27;2009-09-09&#x27;</span>,<span class="number">9</span>),</span><br><span class="line">    (<span class="number">10</span>, <span class="string">&#x27;Cake&#x27;</span>, <span class="string">&#x27;Moderate&#x27;</span>, <span class="number">12.99</span>, <span class="string">&#x27;2010-10-10&#x27;</span>,<span class="number">10</span>),</span><br><span class="line">    (<span class="number">11</span>, <span class="string">&#x27;Ice Cream&#x27;</span>, <span class="string">&#x27;Cheap&#x27;</span>, <span class="number">3.99</span>, <span class="string">&#x27;2011-11-11&#x27;</span>,<span class="number">11</span>),</span><br><span class="line">    (<span class="number">12</span>, <span class="string">&#x27;Coffee&#x27;</span>, <span class="string">&#x27;Cheap&#x27;</span>, <span class="number">1.99</span>, <span class="string">&#x27;2012-12-12&#x27;</span>,<span class="number">12</span>);</span><br></pre></td></tr></table></figure>
+<p>Content of updated <code>food</code> table is posible to verify using <a href="#select-content-from-food-table">result of execution command ‘SELECT’ </a></p>
+<p>Insert 12 records into the <code>customer</code> table</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> customer (id, name, customer_id)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">    (<span class="number">1</span>, <span class="string">&#x27;John Doe&#x27;</span>, <span class="number">1</span>),</span><br><span class="line">    (<span class="number">2</span>, <span class="string">&#x27;Alice Smith&#x27;</span>, <span class="number">2</span>),</span><br><span class="line">    (<span class="number">3</span>, <span class="string">&#x27;Bob Johnson&#x27;</span>, <span class="number">3</span>),</span><br><span class="line">    (<span class="number">4</span>, <span class="string">&#x27;Carol Williams&#x27;</span>, <span class="number">4</span>),</span><br><span class="line">    (<span class="number">5</span>, <span class="string">&#x27;David Brown&#x27;</span>, <span class="number">5</span>),</span><br><span class="line">    (<span class="number">6</span>, <span class="string">&#x27;Emma Jones&#x27;</span>, <span class="number">6</span>),</span><br><span class="line">    (<span class="number">7</span>, <span class="string">&#x27;Frank Miller&#x27;</span>, <span class="number">7</span>),</span><br><span class="line">    (<span class="number">8</span>, <span class="string">&#x27;Grace Davis&#x27;</span>, <span class="number">8</span>),</span><br><span class="line">    (<span class="number">9</span>, <span class="string">&#x27;Henry Martinez&#x27;</span>, <span class="number">9</span>),</span><br><span class="line">    (<span class="number">10</span>, <span class="string">&#x27;Ivy Wilson&#x27;</span>, <span class="number">10</span>),</span><br><span class="line">    (<span class="number">11</span>, <span class="string">&#x27;Jack Taylor&#x27;</span>, <span class="number">11</span>),</span><br><span class="line">    (<span class="number">12</span>, <span class="string">&#x27;Karen Anderson&#x27;</span>, <span class="number">12</span>);</span><br></pre></td></tr></table></figure>
+<p>Content of updated table is posible to verify using <a href="#select-content-from-customer-table">result of execution command ‘SELECT’ </a></p>
+<h2 id="UPDATE"><a href="#UPDATE" class="headerlink" title="UPDATE()"></a>UPDATE()</h2><p>Updates the values of one or more rows in a table.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> food <span class="keyword">SET</span> name <span class="operator">=</span> <span class="string">&#x27;Burger&#x27;</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
+
+<p>or other example</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> products <span class="keyword">SET</span> name <span class="operator">=</span> <span class="string">&#x27;Butter&#x27;</span> <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
+<p>Result of execution updates the record with specific <code>id</code></p>
+<h2 id="DELETE-FROM"><a href="#DELETE-FROM" class="headerlink" title="DELETE FROM()"></a>DELETE FROM()</h2><p>Deletes one or more rows from a table.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> food <span class="keyword">WHERE</span> id <span class="operator">=</span> <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
+<p>Result of execution deletes the record with specific <code>id</code></p>
+<h2 id="SELECT"><a href="#SELECT" class="headerlink" title="SELECT()"></a>SELECT()</h2><p>Selects rows from a table.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<h3 id="select-content-from-food-table"><a href="#select-content-from-food-table" class="headerlink" title="select content from food table"></a>select content from <code>food</code> table</h3><p>Result of execution produce new records for the <code>food</code> table. It should be like below in the table</p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>price</th>
+<th>food_category</th>
+<th>exp_date</th>
+<th>customer_id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Pizza</td>
+<td>15.99</td>
+<td>Expensive</td>
+<td>2001-01-01</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>8.99</td>
+<td>Moderate</td>
+<td>2002-02-02</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>7.49</td>
+<td>Moderate</td>
+<td>2003-03-03</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>18.99</td>
+<td>Expensive</td>
+<td>2004-04-04</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sandwich</td>
+<td>6.99</td>
+<td>Moderate</td>
+<td>2005-05-05</td>
+<td>5</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Steak</td>
+<td>25.99</td>
+<td>Expensive</td>
+<td>2006-06-06</td>
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sushi</td>
+<td>22.99</td>
+<td>Expensive</td>
+<td>2007-07-07</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Soup</td>
+<td>4.99</td>
+<td>Cheap</td>
+<td>2008-08-08</td>
+<td>8</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Taco</td>
+<td>9.99</td>
+<td>Moderate</td>
+<td>2009-09-09</td>
+<td>9</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Cake</td>
+<td>12.99</td>
+<td>Moderate</td>
+<td>2010-10-10</td>
+<td>10</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Ice Cream</td>
+<td>3.99</td>
+<td>Cheap</td>
+<td>2011-11-11</td>
+<td>11</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Coffee</td>
+<td>1.99</td>
+<td>Cheap</td>
+<td>2012-12-12</td>
+<td>12</td>
+</tr>
+</tbody></table>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> products;</span><br></pre></td></tr></table></figure>
+<p>Result of execution produce new records for the <code>product</code> table. It should be like below in the table</p>
+<h3 id="select-content-from-product-table"><a href="#select-content-from-product-table" class="headerlink" title="select content from product table"></a>select content from <code>product</code> table</h3><table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>product_id</th>
+<th>price</th>
+<th>customer_id</th>
+<th>food_id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Flour</td>
+<td>101</td>
+<td>3.99</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tomato Sauce</td>
+<td>102</td>
+<td>2.99</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Cheese</td>
+<td>103</td>
+<td>4.99</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pepperoni</td>
+<td>104</td>
+<td>2.49</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Bun</td>
+<td>105</td>
+<td>1.99</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Beef Patty</td>
+<td>106</td>
+<td>3.49</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Lettuce</td>
+<td>107</td>
+<td>0.99</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Tomato</td>
+<td>108</td>
+<td>1.49</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Croutons</td>
+<td>109</td>
+<td>0.49</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Chicken</td>
+<td>110</td>
+<td>3.99</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Pasta Noodles</td>
+<td>111</td>
+<td>2.99</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Alfredo Sauce</td>
+<td>112</td>
+<td>4.99</td>
+<td>4</td>
+<td>4</td>
+</tr>
+</tbody></table>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> customer;</span><br></pre></td></tr></table></figure>
+<p>Result of execution produce new records for the <code>customer</code> table. It should be like below in the table</p>
+<h3 id="select-content-from-customer-table"><a href="#select-content-from-customer-table" class="headerlink" title="select content from customer table"></a>select content from <code>customer</code> table</h3><table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>customer_id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>John Doe</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alice Smith</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bob Johnson</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Carol Williams</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>David Brown</td>
+<td>5</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Emma Jones</td>
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Frank Miller</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Grace Davis</td>
+<td>8</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Henry Martinez</td>
+<td>9</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Ivy Wilson</td>
+<td>10</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Jack Taylor</td>
+<td>11</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Karen Anderson</td>
+<td>12</td>
+</tr>
+</tbody></table>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> id, name  <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>Result of execution produce  records for the <code>food</code> tabl in the table below</p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sandwich</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Steak</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sushi</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Soup</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Taco</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Cake</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Ice Cream</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Coffee</td>
+</tr>
+</tbody></table>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> id, name, product_id , food_id <span class="keyword">FROM</span> products;</span><br></pre></td></tr></table></figure>
+<p>Result of execution produce  records for the <code>products</code> tabl in the table below</p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>product_id</th>
+<th>food_id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Butter</td>
+<td>101</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tomato Sauce</td>
+<td>102</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Cheese</td>
+<td>103</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pepperoni</td>
+<td>104</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Bun</td>
+<td>105</td>
+<td>2</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Beef Patty</td>
+<td>106</td>
+<td>2</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Lettuce</td>
+<td>107</td>
+<td>2</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Tomato</td>
+<td>108</td>
+<td>2</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Croutons</td>
+<td>109</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Chicken</td>
+<td>110</td>
+<td>3</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Pasta Noodles</td>
+<td>111</td>
+<td>4</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Alfredo Sauce</td>
+<td>112</td>
+<td>4</td>
+</tr>
+</tbody></table>
+<h2 id="JOIN"><a href="#JOIN" class="headerlink" title="JOIN()"></a>JOIN()</h2><p>Combines the rows from two or more tables.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span></span><br><span class="line">	f.id,</span><br><span class="line">	f.name,</span><br><span class="line">	p.product_id</span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">	food <span class="keyword">AS</span> f</span><br><span class="line"><span class="keyword">JOIN</span> products <span class="keyword">AS</span> p <span class="keyword">ON</span></span><br><span class="line">	f.id <span class="operator">=</span> p.food_id;</span><br></pre></td></tr></table></figure>
+<p>produce </p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>product_id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+<td>105</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>106</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>107</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>108</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>109</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>110</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>111</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>112</td>
+</tr>
+</tbody></table>
+<h2 id="LEFT-JOIN"><a href="#LEFT-JOIN" class="headerlink" title="LEFT JOIN"></a>LEFT JOIN</h2><p>Returns all rows from the left table (food) and the matching rows from the right table (products)</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span></span><br><span class="line">	f.id <span class="keyword">AS</span> food_id,</span><br><span class="line">	f.name <span class="keyword">AS</span> food_name,</span><br><span class="line">	p.name <span class="keyword">AS</span> product_name,</span><br><span class="line">	c.name <span class="keyword">AS</span> customer_name</span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">	food f</span><br><span class="line"><span class="keyword">LEFT</span> <span class="keyword">JOIN</span> products p <span class="keyword">ON</span></span><br><span class="line">	f.id <span class="operator">=</span> p.food_id</span><br><span class="line"><span class="keyword">LEFT</span> <span class="keyword">JOIN</span> customer c <span class="keyword">ON</span></span><br><span class="line">	f.customer_id <span class="operator">=</span> c.id;</span><br></pre></td></tr></table></figure>
+<p>produce </p>
+<table>
+<thead>
+<tr>
+<th>food_id</th>
+<th>food_name</th>
+<th>product_name</th>
+<th>customer_name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+<td>Beef Patty</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Bun</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Lettuce</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Tomato</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>Chicken</td>
+<td>Bob Johnson</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>Croutons</td>
+<td>Bob Johnson</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>Alfredo Sauce</td>
+<td>Carol Williams</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>Pasta Noodles</td>
+<td>Carol Williams</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sandwich</td>
+<td></td>
+<td>David Brown</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Steak</td>
+<td></td>
+<td>Emma Jones</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sushi</td>
+<td></td>
+<td>Frank Miller</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Soup</td>
+<td></td>
+<td>Grace Davis</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Taco</td>
+<td></td>
+<td>Henry Martinez</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Cake</td>
+<td></td>
+<td>Ivy Wilson</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Ice Cream</td>
+<td></td>
+<td>Jack Taylor</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Coffee</td>
+<td></td>
+<td>Karen Anderson</td>
+</tr>
+</tbody></table>
+<h2 id="RIGHT-JOIN"><a href="#RIGHT-JOIN" class="headerlink" title="RIGHT JOIN"></a>RIGHT JOIN</h2><p> Returns all rows from the right table (products) and the matching rows from the left table (food)</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span></span><br><span class="line">	f.id <span class="keyword">AS</span> food_id,</span><br><span class="line">	f.name <span class="keyword">AS</span> food_name,</span><br><span class="line">	p.name <span class="keyword">AS</span> product_name,</span><br><span class="line">	c.name <span class="keyword">AS</span> customer_name</span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">	products p</span><br><span class="line"><span class="keyword">RIGHT</span> <span class="keyword">JOIN</span> food f <span class="keyword">ON</span></span><br><span class="line">	f.id <span class="operator">=</span> p.food_id</span><br><span class="line"><span class="keyword">LEFT</span> <span class="keyword">JOIN</span> customer c <span class="keyword">ON</span></span><br><span class="line">	f.customer_id <span class="operator">=</span> c.id;</span><br></pre></td></tr></table></figure>
+
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>food_id</th>
+<th>food_name</th>
+<th>product_name</th>
+<th>customer_name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+<td>Bun</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Beef Patty</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Lettuce</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Tomato</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>Croutons</td>
+<td>Bob Johnson</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>Chicken</td>
+<td>Bob Johnson</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>Pasta Noodles</td>
+<td>Carol Williams</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>Alfredo Sauce</td>
+<td>Carol Williams</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sandwich</td>
+<td></td>
+<td>David Brown</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Steak</td>
+<td></td>
+<td>Emma Jones</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sushi</td>
+<td></td>
+<td>Frank Miller</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Soup</td>
+<td></td>
+<td>Grace Davis</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Taco</td>
+<td></td>
+<td>Henry Martinez</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Cake</td>
+<td></td>
+<td>Ivy Wilson</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Ice Cream</td>
+<td></td>
+<td>Jack Taylor</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Coffee</td>
+<td></td>
+<td>Karen Anderson</td>
+</tr>
+</tbody></table>
+<h2 id="INNER-JOIN"><a href="#INNER-JOIN" class="headerlink" title="INNER JOIN"></a>INNER JOIN</h2><p>Returns only the rows where there is a match in both tables</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span></span><br><span class="line">	f.id <span class="keyword">AS</span> food_id,</span><br><span class="line">	f.name <span class="keyword">AS</span> food_name,</span><br><span class="line">	p.name <span class="keyword">AS</span> product_name,</span><br><span class="line">	c.name <span class="keyword">AS</span> customer_name</span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">	food f</span><br><span class="line"><span class="keyword">INNER</span> <span class="keyword">JOIN</span> products p <span class="keyword">ON</span></span><br><span class="line">	f.id <span class="operator">=</span> p.food_id</span><br><span class="line"><span class="keyword">INNER</span> <span class="keyword">JOIN</span> customer c <span class="keyword">ON</span></span><br><span class="line">	f.customer_id <span class="operator">=</span> c.id;</span><br></pre></td></tr></table></figure>
+
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>food_id</th>
+<th>food_name</th>
+<th>product_name</th>
+<th>customer_name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+<td>Bun</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Beef Patty</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Lettuce</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Burger</td>
+<td>Tomato</td>
+<td>Alice Smith</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>Croutons</td>
+<td>Bob Johnson</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>Chicken</td>
+<td>Bob Johnson</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>Pasta Noodles</td>
+<td>Carol Williams</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>Alfredo Sauce</td>
+<td>Carol Williams</td>
+</tr>
+</tbody></table>
+<h2 id="GROUP-BY"><a href="#GROUP-BY" class="headerlink" title="GROUP BY()"></a>GROUP BY()</h2><p>Groups rows together based on the values in a column.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> total_orders <span class="keyword">FROM</span> food <span class="keyword">GROUP</span> <span class="keyword">BY</span> name;</span><br></pre></td></tr></table></figure>
+
+<p>produce total number of orders for each food name from the <code>food</code> table. Result should be like in the table below</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>total_orders</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<h2 id="ORDER-BY"><a href="#ORDER-BY" class="headerlink" title="ORDER BY()"></a>ORDER BY()</h2><p>Orders the rows in a result set by the values in a column.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> total_orders <span class="keyword">FROM</span> food <span class="keyword">ORDER</span> <span class="keyword">BY</span> total_orders <span class="keyword">DESC</span>;</span><br></pre></td></tr></table></figure>
+<p>produce total amount of items and associate it with an arbitrary name.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>total_orders</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>11</td>
+</tr>
+</tbody></table>
+<h2 id="DISTINCT"><a href="#DISTINCT" class="headerlink" title="DISTINCT()"></a>DISTINCT()</h2><p>Removes duplicate rows from a result set.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">DISTINCT</span> name <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+</tr>
+<tr>
+<td>Salad</td>
+</tr>
+<tr>
+<td>Pasta</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+</tr>
+<tr>
+<td>Steak</td>
+</tr>
+<tr>
+<td>Sushi</td>
+</tr>
+<tr>
+<td>Soup</td>
+</tr>
+<tr>
+<td>Taco</td>
+</tr>
+<tr>
+<td>Cake</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+</tr>
+<tr>
+<td>Coffee</td>
+</tr>
+</tbody></table>
+<p>Created <code>food</code> table has no duplicates</p>
+<h2 id="LIMIT"><a href="#LIMIT" class="headerlink" title="LIMIT()"></a>LIMIT()</h2><p>Limits the number of rows returned by a query.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> id, name <span class="keyword">FROM</span> food LIMIT <span class="number">5</span>;</span><br></pre></td></tr></table></figure>
+<p>produce output of <code>food </code>table that will be limitied by 5 records.</p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sandwich</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Steak</td>
+</tr>
+</tbody></table>
+<h2 id="OFFSET"><a href="#OFFSET" class="headerlink" title="OFFSET()"></a>OFFSET()</h2><p>Skips the first n rows returned by a query.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> id, name <span class="keyword">FROM</span> food <span class="keyword">OFFSET</span> <span class="number">10</span>; <span class="comment">-- MySQL</span></span><br><span class="line"><span class="keyword">SELECT</span> id, name <span class="keyword">FROM</span> food LIMIT <span class="number">-1</span> <span class="keyword">OFFSET</span> <span class="number">9</span>; <span class="comment">-- SQLite</span></span><br></pre></td></tr></table></figure>
+
+<p><em>OFFSET 9:</em><br>This skips the first 9 rows in the result set. The rows returned will start from the 10th row onward (0-based index).</p>
+<p><em>LIMIT -1:</em><br>The LIMIT clause specifies the maximum number of rows to return. A value of -1 is not valid in many SQL databases (e.g., SQLite, PostgreSQL). It typically results in an error because LIMIT expects a non-negative integer.</p>
+<p>script produce result </p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>11</td>
+<td>Ice Cream</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Coffee</td>
+</tr>
+</tbody></table>
+<h2 id="LIKE"><a href="#LIKE" class="headerlink" title="LIKE()"></a>LIKE()</h2><p> Performs a pattern match on a string.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, id <span class="keyword">FROM</span> food <span class="keyword">WHERE</span> name <span class="keyword">LIKE</span> <span class="string">&#x27;%ta%&#x27;</span>;</span><br></pre></td></tr></table></figure>
+<p>produce </p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Pasta</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>9</td>
+</tr>
+</tbody></table>
+<h2 id="IN"><a href="#IN" class="headerlink" title="IN()"></a>IN()</h2><p>Checks if a value is in a list of values.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, id <span class="keyword">FROM</span> food <span class="keyword">WHERE</span> id <span class="keyword">IN</span> (<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>);</span><br></pre></td></tr></table></figure>
+<p>produce </p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>3</td>
+</tr>
+</tbody></table>
+<h2 id="EXISTS"><a href="#EXISTS" class="headerlink" title="EXISTS()"></a>EXISTS()</h2><p>Checks if a row exists in a table.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, id <span class="keyword">FROM</span> food <span class="keyword">WHERE</span> <span class="keyword">EXISTS</span> (<span class="keyword">SELECT</span> <span class="number">1</span> <span class="keyword">FROM</span> customer <span class="keyword">WHERE</span> customer.id <span class="operator">=</span> food.customer_id); </span><br></pre></td></tr></table></figure>
+<p>produce </p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>id</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>12</td>
+</tr>
+</tbody></table>
+<h2 id="CASE"><a href="#CASE" class="headerlink" title="CASE()"></a>CASE()</h2><p>Performs a multi-way conditional operation.<br>EXAMPLE-1</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span></span><br><span class="line">	id,</span><br><span class="line">	name,</span><br><span class="line">	<span class="keyword">CASE</span></span><br><span class="line">		<span class="keyword">WHEN</span> price <span class="operator">&gt;</span> <span class="number">100</span> <span class="keyword">THEN</span> <span class="string">&#x27;Expensive&#x27;</span></span><br><span class="line">		<span class="keyword">WHEN</span> price <span class="operator">&gt;</span> <span class="number">50</span> <span class="keyword">THEN</span> <span class="string">&#x27;Moderate&#x27;</span></span><br><span class="line">		<span class="keyword">ELSE</span> <span class="string">&#x27;Cheap&#x27;</span></span><br><span class="line">	<span class="keyword">END</span></span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">	food; </span><br></pre></td></tr></table></figure>
+<p>produce </p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>CASE WHEN price &gt; 100 THEN ‘Expensive’ WHEN price &gt; 50 THEN ‘Moderate’ELSE ‘Cheap’END</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sandwich</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Steak</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sushi</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Soup</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Taco</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Cake</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Ice Cream</td>
+<td>Cheap</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Coffee</td>
+<td>Cheap</td>
+</tr>
+</tbody></table>
+<p>EXAMPLE-2</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span></span><br><span class="line">    f.id,</span><br><span class="line">    f.name,</span><br><span class="line">    f.price,</span><br><span class="line">    f.food_category,</span><br><span class="line">    f.exp_date,</span><br><span class="line">    <span class="keyword">CASE</span></span><br><span class="line">        <span class="keyword">WHEN</span> JULIANDAY(f.exp_date) <span class="operator">-</span> JULIANDAY(<span class="string">&#x27;now&#x27;</span>) <span class="operator">&lt;</span> <span class="number">0</span> <span class="keyword">THEN</span> <span class="string">&#x27;Expired&#x27;</span></span><br><span class="line">        <span class="keyword">ELSE</span> <span class="string">&#x27;Valid&#x27;</span></span><br><span class="line">    <span class="keyword">END</span> <span class="keyword">AS</span> expiration_status</span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">    food f;</span><br></pre></td></tr></table></figure>
+
+<p><strong>CASE Clause:</strong><br>Adds a calculated column, expiration_status, based on the expiration date (f.exp_date) compared to the current date (now).</p>
+<p><strong>JULIANDAY()</strong>: Converts a date into the Julian Day format (a continuous count of days and fractions since noon on January 1, 4713 BCE).</p>
+<p><strong>JULIANDAY(f.exp_date) - JULIANDAY(‘now’)</strong>: Calculates the difference between the expiration date and the current date.<br>If the result is negative (&lt; 0), the item is considered expired.<br>Otherwise, the item is valid.<br>AS expiration_status: Assigns the name expiration_status to this calculated column.</p>
+<p>produce </p>
+<table>
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+<th>price</th>
+<th>food_category</th>
+<th>exp_date</th>
+<th>expiration_status</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2</td>
+<td>Burger</td>
+<td>8.99</td>
+<td>Moderate</td>
+<td>2002-02-02</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Salad</td>
+<td>7.49</td>
+<td>Moderate</td>
+<td>2003-03-03</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Pasta</td>
+<td>18.99</td>
+<td>Expensive</td>
+<td>2004-04-04</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sandwich</td>
+<td>6.99</td>
+<td>Moderate</td>
+<td>2005-05-05</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Steak</td>
+<td>25.99</td>
+<td>Expensive</td>
+<td>2006-06-06</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sushi</td>
+<td>22.99</td>
+<td>Expensive</td>
+<td>2007-07-07</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Soup</td>
+<td>4.99</td>
+<td>Cheap</td>
+<td>2008-08-08</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Taco</td>
+<td>9.99</td>
+<td>Moderate</td>
+<td>2009-09-09</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Cake</td>
+<td>12.99</td>
+<td>Moderate</td>
+<td>2010-10-10</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Ice Cream</td>
+<td>3.99</td>
+<td>Cheap</td>
+<td>2011-11-11</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Coffee</td>
+<td>1.99</td>
+<td>Cheap</td>
+<td>2012-12-12</td>
+<td>Expired</td>
+</tr>
+</tbody></table>
+<h2 id="COUNT"><a href="#COUNT" class="headerlink" title="COUNT()"></a>COUNT()</h2><p>Returns the number of rows in a table or the number of rows that satisfy a condition.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>COUNT(*)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>11</td>
+</tr>
+</tbody></table>
+<h2 id="SUM"><a href="#SUM" class="headerlink" title="SUM()"></a>SUM()</h2><p>Returns the sum of the values in a column.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">SUM</span>(price) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>SUM(price)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>125.38999999999997</td>
+</tr>
+</tbody></table>
+<h3 id="ROUND"><a href="#ROUND" class="headerlink" title="ROUND()"></a>ROUND()</h3><p>Round to round a numeric value to a specified number of decimal places.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> ROUND(<span class="built_in">SUM</span>(price), <span class="number">2</span>) <span class="keyword">AS</span> rounded_total_price <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>SUM(price)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>125.39</td>
+</tr>
+</tbody></table>
+<h2 id="AVG"><a href="#AVG" class="headerlink" title="AVG()"></a>AVG()</h2><p>Returns the average of the values in a column.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="built_in">AVG</span>(price) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>AVG(price)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>11.399090909090907</td>
+</tr>
+</tbody></table>
+<h2 id="MIN"><a href="#MIN" class="headerlink" title="MIN()"></a>MIN()</h2><p>Returns the minimum value in a column.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, <span class="built_in">MIN</span>(price) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>MIN(price)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Coffee</td>
+<td>1.99</td>
+</tr>
+</tbody></table>
+<h2 id="MAX"><a href="#MAX" class="headerlink" title="MAX()"></a>MAX()</h2><p>Returns the maximum value in a column.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, <span class="built_in">MAX</span>(price) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>MAX(price)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Steak</td>
+<td>25.99</td>
+</tr>
+</tbody></table>
+<h2 id="UPPER"><a href="#UPPER" class="headerlink" title="UPPER()"></a>UPPER()</h2><p>Converts a string to uppercase.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name <span class="keyword">as</span> original_name, <span class="built_in">UPPER</span>(name) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>original_name</th>
+<th>UPPER(name)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>BURGER</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>SALAD</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>PASTA</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>SANDWICH</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>STEAK</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>SUSHI</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>SOUP</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>TACO</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>CAKE</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>ICE CREAM</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>COFFEE</td>
+</tr>
+</tbody></table>
+<h2 id="LOWER"><a href="#LOWER" class="headerlink" title="LOWER()"></a>LOWER()</h2><p>Converts a string to lowercase.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name <span class="keyword">as</span> original_nam, <span class="built_in">LOWER</span>(name) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>original_nam</th>
+<th>LOWER(name)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>burger</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>salad</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>pasta</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>sandwich</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>steak</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>sushi</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>soup</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>taco</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>cake</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>ice cream</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>coffee</td>
+</tr>
+</tbody></table>
+<h2 id="LENGTH"><a href="#LENGTH" class="headerlink" title="LENGTH()"></a>LENGTH()</h2><p>Returns the length of a string.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, LENGTH(name) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>LENGTH(name)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>6</td>
+</tr>
+</tbody></table>
+<h2 id="TRIM"><a href="#TRIM" class="headerlink" title="TRIM()"></a>TRIM()</h2><p>Removes leading and trailing spaces from a string.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name ,<span class="built_in">TRIM</span>(name) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>TRIM(name)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>Burger</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>Salad</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>Pasta</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>Sandwich</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>Steak</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>Sushi</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>Soup</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>Taco</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>Cake</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>Ice Cream</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>Coffee</td>
+</tr>
+</tbody></table>
+<h2 id="CONCAT"><a href="#CONCAT" class="headerlink" title="CONCAT()"></a>CONCAT()</h2><p>Concatenates two strings using ‘||’ characters.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name <span class="operator">||</span> <span class="string">&#x27; with Cheese&#x27;</span> <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name &#124;&#124; ‘ with Cheese’</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger with Cheese</td>
+</tr>
+<tr>
+<td>Salad with Cheese</td>
+</tr>
+<tr>
+<td>Pasta with Cheese</td>
+</tr>
+<tr>
+<td>Sandwich with Cheese</td>
+</tr>
+<tr>
+<td>Steak with Cheese</td>
+</tr>
+<tr>
+<td>Sushi with Cheese</td>
+</tr>
+<tr>
+<td>Soup with Cheese</td>
+</tr>
+<tr>
+<td>Taco with Cheese</td>
+</tr>
+<tr>
+<td>Cake with Cheese</td>
+</tr>
+<tr>
+<td>Ice Cream with Cheese</td>
+</tr>
+<tr>
+<td>Coffee with Cheese</td>
+</tr>
+</tbody></table>
+<h2 id="SUBSTR"><a href="#SUBSTR" class="headerlink" title="SUBSTR()"></a>SUBSTR()</h2><p>Extracts a substring from a string.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> SUBSTR(name, <span class="number">1</span>, <span class="number">3</span>) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>SUBSTR(name, 1, 3)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Bur</td>
+</tr>
+<tr>
+<td>Sal</td>
+</tr>
+<tr>
+<td>Pas</td>
+</tr>
+<tr>
+<td>San</td>
+</tr>
+<tr>
+<td>Ste</td>
+</tr>
+<tr>
+<td>Sus</td>
+</tr>
+<tr>
+<td>Sou</td>
+</tr>
+<tr>
+<td>Tac</td>
+</tr>
+<tr>
+<td>Cak</td>
+</tr>
+<tr>
+<td>Ice</td>
+</tr>
+<tr>
+<td>Cof</td>
+</tr>
+</tbody></table>
+<h2 id="INSTR"><a href="#INSTR" class="headerlink" title="INSTR()"></a>INSTR()</h2><p>Returns the position of a substring in a string.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, INSTR(name, <span class="string">&#x27;a&#x27;</span>) <span class="keyword">FROM</span> food;</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>INSTR(name, ‘a’)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<h2 id="IFNULL"><a href="#IFNULL" class="headerlink" title="IFNULL()"></a>IFNULL()</h2><p>Returns a substitute value if a value is NULL.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> name, IFNULL(price, <span class="number">0</span>) <span class="keyword">FROM</span> food;f</span><br></pre></td></tr></table></figure>
+<p>produce</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>IFNULL(price, 0)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Burger</td>
+<td>8.99</td>
+</tr>
+<tr>
+<td>Salad</td>
+<td>7.49</td>
+</tr>
+<tr>
+<td>Pasta</td>
+<td>18.99</td>
+</tr>
+<tr>
+<td>Sandwich</td>
+<td>6.99</td>
+</tr>
+<tr>
+<td>Steak</td>
+<td>25.99</td>
+</tr>
+<tr>
+<td>Sushi</td>
+<td>22.99</td>
+</tr>
+<tr>
+<td>Soup</td>
+<td>4.99</td>
+</tr>
+<tr>
+<td>Taco</td>
+<td>9.99</td>
+</tr>
+<tr>
+<td>Cake</td>
+<td>12.99</td>
+</tr>
+<tr>
+<td>Ice Cream</td>
+<td>3.99</td>
+</tr>
+<tr>
+<td>Coffee</td>
+<td>1.99</td>
+</tr>
+</tbody></table>
+<p>There are no <code>NULL</code> values for the price in the <code>food</code> column, otherwise output will contains <code>0</code> instead of <code>NULL</code> for discovered prices.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://ooge0.github.io/hexo-blog/databases/sql_tutorial_with_examples/" data-id="cm5mf86qc0046rckk910xekyg" data-title="SQL tutorial with examples" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/databases/" rel="tag">databases</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/sql/" rel="tag">sql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/hexo-blog/tags/tutorial/" rel="tag">tutorial</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/hexo-blog/2024/08/28/post_qa__software_qa_basic_check_list/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Software QA - Basic check list
+        
+      </div>
+    </a>
+  
+  
+    <a href="/hexo-blog/2024/05/10/post_ai__tools_for_augmenting_data_and_generating_texts/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Tools for Augmenting Data and Generating Texts</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      Categories
+    </h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Categories/">Categories</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Maintanance/">Maintanance</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/My-contribution/">My contribution</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Notes/">Notes</a><span class="category-list-count">14</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Personal-information/">Personal information</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Posts/">Posts</a><span class="category-list-count">73</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/QA/">QA</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/hexo-blog/categories/Tutorials/">Tutorials</a><span class="category-list-count">6</span></li></ul>
+    </div>
+  </div>
+  
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/hexo-blog/tags/AI/" style="font-size: 20px;">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 11.25px;">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 10px;">ASCII</a> <a href="/hexo-blog/tags/BART/" style="font-size: 10px;">BART</a> <a href="/hexo-blog/tags/BERT/" style="font-size: 10px;">BERT</a> <a href="/hexo-blog/tags/DocPublishing/" style="font-size: 10px;">DocPublishing</a> <a href="/hexo-blog/tags/GPT/" style="font-size: 10px;">GPT</a> <a href="/hexo-blog/tags/GPT2/" style="font-size: 10px;">GPT2</a> <a href="/hexo-blog/tags/GitHubPages/" style="font-size: 10px;">GitHubPages</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 15px;">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 10px;">LaTeX</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 10px;">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 18.75px;">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 17.5px;">NLP</a> <a href="/hexo-blog/tags/NLTK/" style="font-size: 10px;">NLTK</a> <a href="/hexo-blog/tags/NN/" style="font-size: 12.5px;">NN</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 10px;">NPF</a> <a href="/hexo-blog/tags/ReadTheDocs/" style="font-size: 10px;">ReadTheDocs</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 10px;">VADER</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 10px;">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 10px;">acsii</a> <a href="/hexo-blog/tags/algorithms/" style="font-size: 11.25px;">algorithms</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 10px;">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 11.25px;">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 10px;">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 15px;">blog</a> <a href="/hexo-blog/tags/books/" style="font-size: 10px;">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 10px;">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 10px;">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 10px;">cmd</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 10px;">data_mining</a> <a href="/hexo-blog/tags/databases/" style="font-size: 10px;">databases</a> <a href="/hexo-blog/tags/db/" style="font-size: 10px;">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 15px;">dev_side</a> <a href="/hexo-blog/tags/devops/" style="font-size: 11.25px;">devops</a> <a href="/hexo-blog/tags/dream-team/" style="font-size: 10px;">dream_team</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 10px;">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 10px;">examples</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 10px;">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 11.25px;">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 15px;">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 10px;">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 10px;">info</a> <a href="/hexo-blog/tags/kafka/" style="font-size: 10px;">kafka</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 11.25px;">knowledge</a> <a href="/hexo-blog/tags/knowledge-graph/" style="font-size: 10px;">knowledge_graph</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 11.25px;">lexic</a> <a href="/hexo-blog/tags/linguistic/" style="font-size: 12.5px;">linguistic</a> <a href="/hexo-blog/tags/links/" style="font-size: 10px;">links</a> <a href="/hexo-blog/tags/llm-parameters/" style="font-size: 11.25px;">llm_parameters</a> <a href="/hexo-blog/tags/local-development/" style="font-size: 10px;">local_development</a> <a href="/hexo-blog/tags/logger/" style="font-size: 10px;">logger</a> <a href="/hexo-blog/tags/loguru/" style="font-size: 10px;">loguru</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 12.5px;">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 10px;">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 10px;">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 16.25px;">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 10px;">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 10px;">my_medium_post</a> <a href="/hexo-blog/tags/my-porjects/" style="font-size: 10px;">my_porjects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 10px;">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 12.5px;">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 10px;">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 10px;">online_tools</a> <a href="/hexo-blog/tags/other/" style="font-size: 10px;">other</a> <a href="/hexo-blog/tags/papers/" style="font-size: 13.75px;">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 10px;">parsing</a> <a href="/hexo-blog/tags/plotly/" style="font-size: 11.25px;">plotly</a> <a href="/hexo-blog/tags/postman/" style="font-size: 10px;">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 15px;">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 10px;">protocols</a> <a href="/hexo-blog/tags/psy/" style="font-size: 10px;">psy</a> <a href="/hexo-blog/tags/python/" style="font-size: 12.5px;">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 12.5px;">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 10px;">qa_check_list</a> <a href="/hexo-blog/tags/resources/" style="font-size: 10px;">resources</a> <a href="/hexo-blog/tags/science/" style="font-size: 13.75px;">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 11.25px;">sentiment_analysis</a> <a href="/hexo-blog/tags/sql/" style="font-size: 10px;">sql</a> <a href="/hexo-blog/tags/ssh/" style="font-size: 11.25px;">ssh</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 10px;">statistics</a> <a href="/hexo-blog/tags/sys-conffigs/" style="font-size: 10px;">sys_conffigs</a> <a href="/hexo-blog/tags/tags/" style="font-size: 10px;">tags</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 10px;">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 10px;">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 10px;">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 10px;">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 10px;">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 17.5px;">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 10px;">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 10px;">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 10px;">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 10px;">ux_ui</a> <a href="/hexo-blog/tags/visualization/" style="font-size: 11.25px;">visualization</a> <a href="/hexo-blog/tags/web/" style="font-size: 10px;">web</a> <a href="/hexo-blog/tags/windows-os/" style="font-size: 10px;">windows_os</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2025/01/">January 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/12/">December 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/11/">November 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/10/">October 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/09/">September 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/08/">August 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/07/">July 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/05/">May 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2024/04/">April 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/hexo-blog/archives/2010/10/">October 2010</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/hexo-blog/psy/confirmatory_factor_analysis_cfa_for_bifactor_model/">Psychology. Confirmatory Factor Analysis (CFA) for Bifactor Model</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/data_visualization/list_of_data_vizualization_tools/">List of data vizualization tools</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/data_visualization/plotly_chart_types_examples/">Exploring plotly chart types with examples</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/ai_gpt/gpt_basics/">Basics of Generative Pre-training Transformer (GPT)</a>
+          </li>
+        
+          <li>
+            <a href="/hexo-blog/other/magnetic_fields/">Magnetic fields</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2025 si0n4ra<br>
+      <!-- Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> (v7.3.0) hexo-cli: 4.3.2 -->
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo v.7.3.0</a> & hexo-cli: 4.3.2
+      <br>Theme: <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">landscape</a>
+    </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/hexo-blog/categories/Posts/" class="mobile-nav-link">Posts</a>
+  
+    <a href="/hexo-blog/categories/Notes/" class="mobile-nav-link">Notes</a>
+  
+    <a href="/hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/hexo-blog/categories/" class="mobile-nav-link">Categories</a>
+  
+    <a href="/hexo-blog/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+
+<script src="/hexo-blog/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
