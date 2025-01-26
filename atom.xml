@@ -47,9 +47,9 @@
     <link href="https://ooge0.github.io/hexo-blog/qa/rest_api_testing_improvements/"/>
     <id>https://ooge0.github.io/hexo-blog/qa/rest_api_testing_improvements/</id>
     <published>2025-01-24T22:00:00.000Z</published>
-    <updated>2025-01-26T17:56:24.733Z</updated>
+    <updated>2025-01-26T18:51:28.391Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Enhancements-for-REST-API-Responses-and-Headers"><a href="#Enhancements-for-REST-API-Responses-and-Headers" class="headerlink" title="Enhancements for REST API Responses and Headers"></a>Enhancements for REST API Responses and Headers</h1><h2 id="Response-Body-Enhancements"><a href="#Response-Body-Enhancements" class="headerlink" title="Response Body Enhancements"></a>Response Body Enhancements</h2><ol><li><p><strong>Unique Identifier for Query Execution</strong></p><ul><li>Include a <code>query_id</code> or <code>execution_id</code> for debugging and tracking specific requests.</li></ul></li><li><p><strong>Performance Metrics</strong></p><ul><li><strong>Query Execution Time</strong>: Time taken to execute the SQL query (in ms or seconds).</li><li><strong>Data Processing Time</strong>: Time taken to process or transform data.</li><li><strong>Total Response Time</strong>: End-to-end time from request receipt to response generation.</li></ul></li><li><p><strong>Pagination Information</strong></p><ul><li><code>total_records</code>: Total number of records in the result set.</li><li><code>page_size</code>: Number of records in the current response.</li><li><code>current_page</code>: Current page number.</li><li><code>total_pages</code>: Total number of pages.</li></ul></li><li><p><strong>Data Summary</strong></p><ul><li><strong>Row Count</strong>: Number of rows returned in the response.</li><li><strong>Aggregates</strong>: Optional aggregates like sums, averages, or counts.</li></ul></li><li><p><strong>Request Metadata</strong></p><ul><li>Echo relevant parts of the request (e.g., query parameters, filters, sorting).</li></ul></li><li><p><strong>Error Details (if applicable)</strong><br><code>json &#123;   &quot;errors&quot;: [ &#123;   &quot;code&quot;: &quot;DB_TIMEOUT&quot;,   &quot;message&quot;: &quot;The database query timed out.&quot;,   &quot;timestamp&quot;: &quot;2025-01-26T12:34:56Z&quot; &#125;   ] &#125; </code></p></li><li><p><strong>Data Source Metadata</strong></p><ul><li><code>source_db</code>: Name of the database or schema.</li><li><code>query_type</code>: Type of query executed (e.g., SELECT, UPDATE).</li><li><code>rows_scanned</code>: Number of rows scanned to produce the result.</li></ul></li></ol><hr><h2 id="Response-Headers-Enhancements"><a href="#Response-Headers-Enhancements" class="headerlink" title="Response Headers Enhancements"></a>Response Headers Enhancements</h2><ol><li><p><strong>Performance Metrics</strong></p><ul><li><code>X-Query-Execution-Time</code>: Time taken for the SQL query execution.</li><li><code>X-Processing-Time</code>: Time taken to process the data.</li><li><code>X-Total-Response-Time</code>: Total time for the request.</li></ul></li><li><p><strong>Rate Limiting</strong></p><ul><li><code>X-RateLimit-Limit</code>: Maximum number of requests allowed.</li><li><code>X-RateLimit-Remaining</code>: Remaining requests in the current window.</li><li><code>X-RateLimit-Reset</code>: Time when the rate limit resets.</li></ul></li><li><p><strong>Request ID</strong></p><ul><li><code>X-Request-ID</code>: Unique identifier for the request.</li></ul></li><li><p><strong>Cache Control</strong></p><ul><li><code>Cache-Control</code>: Specify cache duration or indicate no-cache.</li><li><code>ETag</code>: Unique hash for cache validation.</li></ul></li><li><p><strong>Pagination</strong></p><ul><li><code>X-Total-Records</code>: Total records in the data set.</li><li><code>X-Page-Size</code>: Number of records per page.</li><li><code>X-Current-Page</code>: Current page number.</li><li><code>X-Total-Pages</code>: Total number of pages.</li></ul></li><li><p><strong>Security</strong></p><ul><li><code>X-Content-Type-Options</code>: <code>nosniff</code> to prevent MIME type sniffing.</li><li><code>X-Frame-Options</code>: <code>DENY</code> to prevent clickjacking.</li><li><code>Content-Security-Policy</code>: Define secure data handling policies.</li></ul></li><li><p><strong>Custom Headers</strong></p><ul><li><code>X-Query-ID</code>: Unique query identifier.</li><li><code>X-Data-Checksum</code>: Hash or checksum of the returned data for integrity verification.</li></ul></li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Enhancements-for-REST-API-Responses-and-Headers"><a href="#Enhancements-for-REST-API-Responses-and-Headers" class="headerlink" title="Enhancements for REST API Responses and Headers"></a>Enhancements for REST API Responses and Headers</h1><h2 id="Response-Body-Enhancements"><a href="#Response-Body-Enhancements" class="headerlink" title="Response Body Enhancements"></a>Response Body Enhancements</h2><ol><li><p><strong>Unique Identifier for Query Execution</strong></p><ul><li>Include a <code>query_id</code> or <code>execution_id</code> for debugging and tracking specific requests.</li></ul></li><li><p><strong>Performance Metrics</strong></p><ul><li><strong>Query Execution Time</strong>: Time taken to execute the SQL query (in ms or seconds).</li><li><strong>Data Processing Time</strong>: Time taken to process or transform data.</li><li><strong>Total Response Time</strong>: End-to-end time from request receipt to response generation.</li></ul></li><li><p><strong>Pagination Information</strong></p><ul><li><code>total_records</code>: Total number of records in the result set.</li><li><code>page_size</code>: Number of records in the current response.</li><li><code>current_page</code>: Current page number.</li><li><code>total_pages</code>: Total number of pages.</li></ul></li><li><p><strong>Data Summary</strong></p><ul><li><strong>Row Count</strong>: Number of rows returned in the response.</li><li><strong>Aggregates</strong>: Optional aggregates like sums, averages, or counts.</li></ul></li><li><p><strong>Request Metadata</strong></p><ul><li>Echo relevant parts of the request (e.g., query parameters, filters, sorting).</li></ul></li><li><p><strong>Error Details (if applicable)</strong></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;errors&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;code&quot;</span><span class="punctuation">:</span> <span class="string">&quot;DB_TIMEOUT&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;The database query timed out.&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2025-01-26T12:34:56Z&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></li><li><p><strong>Data Source Metadata</strong></p><ul><li><code>source_db</code>: Name of the database or schema.</li><li><code>query_type</code>: Type of query executed (e.g., SELECT, UPDATE).</li><li><code>rows_scanned</code>: Number of rows scanned to produce the result.</li></ul></li></ol><hr><h2 id="Response-Headers-Enhancements"><a href="#Response-Headers-Enhancements" class="headerlink" title="Response Headers Enhancements"></a>Response Headers Enhancements</h2><ol><li><p><strong>Performance Metrics</strong></p><ul><li><code>X-Query-Execution-Time</code>: Time taken for the SQL query execution.</li><li><code>X-Processing-Time</code>: Time taken to process the data.</li><li><code>X-Total-Response-Time</code>: Total time for the request.</li></ul></li><li><p><strong>Rate Limiting</strong></p><ul><li><code>X-RateLimit-Limit</code>: Maximum number of requests allowed.</li><li><code>X-RateLimit-Remaining</code>: Remaining requests in the current window.</li><li><code>X-RateLimit-Reset</code>: Time when the rate limit resets.</li></ul></li><li><p><strong>Request ID</strong></p><ul><li><code>X-Request-ID</code>: Unique identifier for the request.</li></ul></li><li><p><strong>Cache Control</strong></p><ul><li><code>Cache-Control</code>: Specify cache duration or indicate no-cache.</li><li><code>ETag</code>: Unique hash for cache validation.</li></ul></li><li><p><strong>Pagination</strong></p><ul><li><code>X-Total-Records</code>: Total records in the data set.</li><li><code>X-Page-Size</code>: Number of records per page.</li><li><code>X-Current-Page</code>: Current page number.</li><li><code>X-Total-Pages</code>: Total number of pages.</li></ul></li><li><p><strong>Security</strong></p><ul><li><code>X-Content-Type-Options</code>: <code>nosniff</code> to prevent MIME type sniffing.</li><li><code>X-Frame-Options</code>: <code>DENY</code> to prevent clickjacking.</li><li><code>Content-Security-Policy</code>: Define secure data handling policies.</li></ul></li><li><p><strong>Custom Headers</strong></p><ul><li><code>X-Query-ID</code>: Unique query identifier.</li><li><code>X-Data-Checksum</code>: Hash or checksum of the returned data for integrity verification.</li></ul></li></ol>]]></content>
     
     
       
@@ -93,33 +93,6 @@
   </entry>
   
   <entry>
-    <title>List of data vizualization tools</title>
-    <link href="https://ooge0.github.io/hexo-blog/data_visualization/list_of_data_vizualization_tools/"/>
-    <id>https://ooge0.github.io/hexo-blog/data_visualization/list_of_data_vizualization_tools/</id>
-    <published>2024-12-29T17:34:12.000Z</published>
-    <updated>2025-01-10T17:17:06.496Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p><ol><li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring plotly chart types with examples</a></li><li><a href="hexo-blog/data_visualization/bokeh_list_of_references">Bokeh. List of references.</a></li></ol><hr><h2 id="Bokeh"><a href="#Bokeh" class="headerlink" title="Bokeh"></a>Bokeh</h2><p>Read about Bokeh on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Bokeh">the glossary <code>Bokeh</code> page</a></p><hr><h2 id="Plotly"><a href="#Plotly" class="headerlink" title="Plotly"></a>Plotly</h2><p>Find more about Plotly in the <a href="hexo-blog/data_visualization/plotly_chart_types_examples">post: <code>Exploring plotly chart types with examples</code></a></p><p>Read about Plotly on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">the glossary <code>Plotly</code> page</a></p><hr><h2 id="MatPloitLib"><a href="#MatPloitLib" class="headerlink" title="MatPloitLib"></a>MatPloitLib</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#MatPloitLib">the glossary <code>MatPloitLib</code> page</a></p><hr><h2 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">the glossary <code>Pandas</code> page</a></p><hr><h2 id="Seaborn"><a href="#Seaborn" class="headerlink" title="Seaborn"></a>Seaborn</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">the glossary <code>Seaborn </code> page</a></p><hr><h2 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">the glossary <code>Tableau</code> page</a></p><hr><h2 id="Vega-Altair"><a href="#Vega-Altair" class="headerlink" title="Vega-Altair"></a>Vega-Altair</h2><p>Read about Vega-Altair on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Vega-Altair">the glossary <code>Vega-Altair</code> page</a></p><h2 id="HoloViz"><a href="#HoloViz" class="headerlink" title="HoloViz"></a>HoloViz</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#HoloViz">the glossary <code>HoloViz</code> page</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;em&gt;This post related to:&lt;/em&gt;&lt;/p&gt;
-&lt;ol</summary>
-      
-    
-    
-    
-    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
-    
-    
-    <category term="bokeh" scheme="https://ooge0.github.io/hexo-blog/tags/bokeh/"/>
-    
-    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Bokeh. List of references.</title>
     <link href="https://ooge0.github.io/hexo-blog/data_visualization/bokeh_list_of_references/"/>
     <id>https://ooge0.github.io/hexo-blog/data_visualization/bokeh_list_of_references/</id>
@@ -140,11 +113,38 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
-    
     <category term="plotly" scheme="https://ooge0.github.io/hexo-blog/tags/plotly/"/>
     
+    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
+    
     <category term="data_analysis" scheme="https://ooge0.github.io/hexo-blog/tags/data-analysis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>List of data vizualization tools</title>
+    <link href="https://ooge0.github.io/hexo-blog/data_visualization/list_of_data_vizualization_tools/"/>
+    <id>https://ooge0.github.io/hexo-blog/data_visualization/list_of_data_vizualization_tools/</id>
+    <published>2024-12-29T17:34:12.000Z</published>
+    <updated>2025-01-10T17:17:06.496Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p><ol><li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring plotly chart types with examples</a></li><li><a href="hexo-blog/data_visualization/bokeh_list_of_references">Bokeh. List of references.</a></li></ol><hr><h2 id="Bokeh"><a href="#Bokeh" class="headerlink" title="Bokeh"></a>Bokeh</h2><p>Read about Bokeh on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Bokeh">the glossary <code>Bokeh</code> page</a></p><hr><h2 id="Plotly"><a href="#Plotly" class="headerlink" title="Plotly"></a>Plotly</h2><p>Find more about Plotly in the <a href="hexo-blog/data_visualization/plotly_chart_types_examples">post: <code>Exploring plotly chart types with examples</code></a></p><p>Read about Plotly on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">the glossary <code>Plotly</code> page</a></p><hr><h2 id="MatPloitLib"><a href="#MatPloitLib" class="headerlink" title="MatPloitLib"></a>MatPloitLib</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#MatPloitLib">the glossary <code>MatPloitLib</code> page</a></p><hr><h2 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">the glossary <code>Pandas</code> page</a></p><hr><h2 id="Seaborn"><a href="#Seaborn" class="headerlink" title="Seaborn"></a>Seaborn</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">the glossary <code>Seaborn </code> page</a></p><hr><h2 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">the glossary <code>Tableau</code> page</a></p><hr><h2 id="Vega-Altair"><a href="#Vega-Altair" class="headerlink" title="Vega-Altair"></a>Vega-Altair</h2><p>Read about Vega-Altair on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Vega-Altair">the glossary <code>Vega-Altair</code> page</a></p><h2 id="HoloViz"><a href="#HoloViz" class="headerlink" title="HoloViz"></a>HoloViz</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#HoloViz">the glossary <code>HoloViz</code> page</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;em&gt;This post related to:&lt;/em&gt;&lt;/p&gt;
+&lt;ol</summary>
+      
+    
+    
+    
+    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
+    
+    
+    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
+    
+    <category term="bokeh" scheme="https://ooge0.github.io/hexo-blog/tags/bokeh/"/>
     
   </entry>
   
@@ -168,9 +168,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
-    
     <category term="plotly" scheme="https://ooge0.github.io/hexo-blog/tags/plotly/"/>
+    
+    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
     
   </entry>
   
@@ -404,9 +404,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
-    
     <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
+    
+    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
     
     <category term="prompt_engineering" scheme="https://ooge0.github.io/hexo-blog/tags/prompt-engineering/"/>
     
