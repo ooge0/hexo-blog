@@ -6,7 +6,7 @@
   <link href="https://ooge0.github.io/hexo-blog/atom.xml" rel="self"/>
   
   <link href="https://ooge0.github.io/hexo-blog/"/>
-  <updated>2025-01-07T08:00:51.348Z</updated>
+  <updated>2025-01-26T17:35:56.036Z</updated>
   <id>https://ooge0.github.io/hexo-blog/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Software QA - Naming conventino</title>
+    <link href="https://ooge0.github.io/hexo-blog/qa/naming-convention/"/>
+    <id>https://ooge0.github.io/hexo-blog/qa/naming-convention/</id>
+    <published>2025-01-25T22:00:00.000Z</published>
+    <updated>2025-01-26T17:35:56.036Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Загальні-правила-варіантів"><a href="#Загальні-правила-варіантів" class="headerlink" title="Загальні правила варіантів:"></a>Загальні правила варіантів:</h2><h3 id="Обов’язкові-частини"><a href="#Обов’язкові-частини" class="headerlink" title="Обов’язкові частини:"></a><strong>Обов’язкові частини:</strong></h3><ul><li><strong><code>[Department]:</code></strong> Назва департаменту (Support_department, Business_department, Finance_department).  </li><li><strong><code>[Layer/Component]:</code></strong> Шар (API, DB, UI, Business_department Logic) або функціональна частина додатку.  </li><li><strong><code>[Type]:</code></strong> Тип задачі (Bug, User Story, Task).  </li><li><strong>Short Description:</strong> Короткий опис проблеми чи функціоналу (до 10 слів).</li></ul><h3 id="Додаткові-частини-за-потребою"><a href="#Додаткові-частини-за-потребою" class="headerlink" title="Додаткові частини (за потребою):"></a><strong>Додаткові частини (за потребою):</strong></h3><ul><li><strong><code>[Feature/Component]:</code></strong> Конкретний функціонал (Payment System, Dashboard, Notifications).  </li><li><strong><code>[Priority]:</code></strong> Пріоритет задачі (High, Medium, Low).</li></ul><h3 id="Розділення"><a href="#Розділення" class="headerlink" title="Розділення:"></a><strong>Розділення:</strong></h3><ul><li>Використовувати квадратні дужки <code>[]</code> для кожної частини.  </li><li>Опис має бути лаконічним та інформативним.</li></ul><h3 id="Пріоритет-для-бізнес-логіки"><a href="#Пріоритет-для-бізнес-логіки" class="headerlink" title="Пріоритет для бізнес-логіки:"></a><strong>Пріоритет для бізнес-логіки:</strong></h3><h2 id="У-заголовках-слід-явно-виділяти-що-проблема-стосується-складної-бізнес-логіки-щоб-забезпечити-кращу-видимість-критичних-завдань"><a href="#У-заголовках-слід-явно-виділяти-що-проблема-стосується-складної-бізнес-логіки-щоб-забезпечити-кращу-видимість-критичних-завдань" class="headerlink" title="У заголовках слід явно виділяти, що проблема стосується складної бізнес-логіки, щоб забезпечити кращу видимість критичних завдань."></a>У заголовках слід явно виділяти, що проблема стосується складної бізнес-логіки, щоб забезпечити кращу видимість критичних завдань.</h2><h2 id="Варіант-1-Department-Layer-Component-Type-Short-Description"><a href="#Варіант-1-Department-Layer-Component-Type-Short-Description" class="headerlink" title="Варіант 1: [Department] [Layer&#x2F;Component] [Type] - [Short Description]"></a>Варіант 1: [Department] [Layer&#x2F;Component] [Type] - [Short Description]</h2><p><strong>Приклад:</strong>  </p><ul><li><code>[Support_department] [API] [Bug] - Incorrect response for invalid tokens</code>  </li><li><code>[Business_department] [DB] [User Story] - Add indexes for transaction history</code>  </li><li><code>[Finance_department] [UI] [Task] - Fix alignment issues on the dashboard</code>  </li><li><code>[Support_department] [Business_department Logic] [Bug] - Incorrect tax calculation for EU countries</code></li></ul><hr><h2 id="Варіант-2-Type-Department-Layer-Component-Short-Description"><a href="#Варіант-2-Type-Department-Layer-Component-Short-Description" class="headerlink" title="Варіант 2: [Type] [Department] [Layer&#x2F;Component] - [Short Description]"></a>Варіант 2: [Type] [Department] [Layer&#x2F;Component] - [Short Description]</h2><p><strong>Приклад:</strong>  </p><ul><li><code>[Bug] [Support_department] [Business_department Logic] - Overbooking issue in payment system</code>  </li><li><code>[User Story] [Business_department] [API] - Add endpoint for user account deactivation</code>  </li><li><code>[Task] [Finance_department] [UI] - Update error message for login failure</code>  </li><li><code>[Bug] [Support_department] [DB] - Deadlock issue during batch updates</code></li></ul><hr><h2 id="Варіант-3-Department-Type-Feature-Component-Layer-Short-Description"><a href="#Варіант-3-Department-Type-Feature-Component-Layer-Short-Description" class="headerlink" title="Варіант 3: [Department] [Type] [Feature&#x2F;Component] [Layer] - [Short Description]"></a>Варіант 3: [Department] [Type] [Feature&#x2F;Component] [Layer] - [Short Description]</h2><p><strong>Приклад:</strong>  </p><ul><li><code>[Support_department] [Bug] [Order Processing] [Business_department Logic] - Invalid discount application</code>  </li><li><code>[Business_department] [User Story] [Authentication] [API] - Support_department OAuth 2.0 for third-party apps</code>  </li><li><code>[Finance_department] [Task] [Reports] [DB] - Optimize query performance for large datasets</code>  </li><li><code>[Support_department] [Bug] [Dashboard] [UI] - Charts not loading in Safari browser</code></li></ul><hr><h2 id="Варіант-4-Department-Feature-Component-Layer-Priority-Type-Short-Description"><a href="#Варіант-4-Department-Feature-Component-Layer-Priority-Type-Short-Description" class="headerlink" title="Варіант 4: [Department] [Feature&#x2F;Component] [Layer] [Priority] [Type] - [Short Description]"></a>Варіант 4: [Department] [Feature&#x2F;Component] [Layer] [Priority] [Type] - [Short Description]</h2><p><strong>Приклад:</strong>  </p><ul><li><code>[Support_department] [Payments] [Business_department Logic] [High] [Bug] - Refunds not processed correctly</code>  </li><li><code>[Business_department] [User Profiles] [API] [Medium] [User Story] - Add Support_department for profile merging</code>  </li><li><code>[Finance_department] [Transaction History] [DB] [Low] [Task] - Add logs for failed transactions</code>  </li><li><code>[Support_department] [Dashboard] [UI] [High] [Bug] - Missing tooltip on hover</code></li></ul><hr><h2 id="Варіант-5-Layer-Department-Type-Feature-Component-Short-Description"><a href="#Варіант-5-Layer-Department-Type-Feature-Component-Short-Description" class="headerlink" title="Варіант 5: [Layer] [Department] [Type] [Feature&#x2F;Component] - [Short Description]"></a>Варіант 5: [Layer] [Department] [Type] [Feature&#x2F;Component] - [Short Description]</h2><p><strong>Приклад:</strong>  </p><ul><li><code>[API] [Business_department] [Bug] [Authentication] - Token expiration not handled correctly</code>  </li><li><code>[DB] [Support_department] [Task] [Order Processing] - Add foreign key constraints</code>  </li><li><code>[Business_department Logic] [Finance_department] [User Story] [Notifications] - Send weekly summary emails</code>  </li><li><code>[UI] [Business_department] [Bug] [Forms] - Dropdowns not working in mobile view</code></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;Загальні-правила-варіантів&quot;&gt;&lt;a hr</summary>
+      
+    
+    
+    
+    <category term="QA" scheme="https://ooge0.github.io/hexo-blog/categories/QA/"/>
+    
+    
+    <category term="qa" scheme="https://ooge0.github.io/hexo-blog/tags/qa/"/>
+    
+    <category term="qa_docs" scheme="https://ooge0.github.io/hexo-blog/tags/qa-docs/"/>
+    
+  </entry>
   
   <entry>
     <title>Psychology. Confirmatory Factor Analysis (CFA) for Bifactor Model</title>
@@ -41,35 +67,6 @@
   </entry>
   
   <entry>
-    <title>Bokeh. List of references.</title>
-    <link href="https://ooge0.github.io/hexo-blog/data_visualization/bokeh_list_of_references/"/>
-    <id>https://ooge0.github.io/hexo-blog/data_visualization/bokeh_list_of_references/</id>
-    <published>2024-12-29T17:34:12.000Z</published>
-    <updated>2025-01-09T19:58:59.986Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p><ol><li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring data visuzlization tools.</a></li><li><a href="hexo-blog/data_visualization/plotly_chart_types_examples">Exploring plotly chart types with examples.</a></li></ol><hr><hr><p><strong>List of references</strong></p><ol><li><a href="https://habr.com/ru/companies/otus/articles/755358/">Изучаем Анализ данных с помощью библиотеки Bokeh в Python</a></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;em&gt;This post related to:&lt;/em&gt;&lt;/p&gt;
-&lt;ol</summary>
-      
-    
-    
-    
-    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
-    
-    
-    <category term="plotly" scheme="https://ooge0.github.io/hexo-blog/tags/plotly/"/>
-    
-    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
-    
-    <category term="data_analysis" scheme="https://ooge0.github.io/hexo-blog/tags/data-analysis/"/>
-    
-  </entry>
-  
-  <entry>
     <title>List of data vizualization tools</title>
     <link href="https://ooge0.github.io/hexo-blog/data_visualization/list_of_data_vizualization_tools/"/>
     <id>https://ooge0.github.io/hexo-blog/data_visualization/list_of_data_vizualization_tools/</id>
@@ -90,9 +87,38 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
+    <category term="bokeh" scheme="https://ooge0.github.io/hexo-blog/tags/bokeh/"/>
+    
     <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
     
-    <category term="bokeh" scheme="https://ooge0.github.io/hexo-blog/tags/bokeh/"/>
+  </entry>
+  
+  <entry>
+    <title>Bokeh. List of references.</title>
+    <link href="https://ooge0.github.io/hexo-blog/data_visualization/bokeh_list_of_references/"/>
+    <id>https://ooge0.github.io/hexo-blog/data_visualization/bokeh_list_of_references/</id>
+    <published>2024-12-29T17:34:12.000Z</published>
+    <updated>2025-01-09T19:58:59.986Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p><ol><li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring data visuzlization tools.</a></li><li><a href="hexo-blog/data_visualization/plotly_chart_types_examples">Exploring plotly chart types with examples.</a></li></ol><hr><hr><p><strong>List of references</strong></p><ol><li><a href="https://habr.com/ru/companies/otus/articles/755358/">Изучаем Анализ данных с помощью библиотеки Bokeh в Python</a></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;em&gt;This post related to:&lt;/em&gt;&lt;/p&gt;
+&lt;ol</summary>
+      
+    
+    
+    
+    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
+    
+    
+    <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
+    
+    <category term="plotly" scheme="https://ooge0.github.io/hexo-blog/tags/plotly/"/>
+    
+    <category term="data_analysis" scheme="https://ooge0.github.io/hexo-blog/tags/data-analysis/"/>
     
   </entry>
   
@@ -116,9 +142,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="plotly" scheme="https://ooge0.github.io/hexo-blog/tags/plotly/"/>
-    
     <category term="data_visualization" scheme="https://ooge0.github.io/hexo-blog/tags/data-visualization/"/>
+    
+    <category term="plotly" scheme="https://ooge0.github.io/hexo-blog/tags/plotly/"/>
     
   </entry>
   
@@ -352,9 +378,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
     <category term="prompt_engineering" scheme="https://ooge0.github.io/hexo-blog/tags/prompt-engineering/"/>
     
@@ -522,35 +548,6 @@
     <category term="BART" scheme="https://ooge0.github.io/hexo-blog/tags/BART/"/>
     
     <category term="llm_parameters" scheme="https://ooge0.github.io/hexo-blog/tags/llm-parameters/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BERT configuration parameters overview</title>
-    <link href="https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/"/>
-    <id>https://ooge0.github.io/hexo-blog/ai/post_ai_llm__bert_configuration_parameters_overview/</id>
-    <published>2024-12-04T20:08:12.000Z</published>
-    <updated>2024-12-17T12:22:36.458Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p><ol><li><a href="/hexo-blog/ai/post_ai_llm__techniques_for_handling_context_in_ai_models">Techniques for handling context in LLM models</a></li><li><a href="/hexo-blog/ai/post_ai_llm__gpt2_configuration_parameters_overview">GPT2 configuration parameters overview</a></li><li><a href="/hexo-blog/ai/post_ai_llm__bart_configuration_parameters_overview">BART configuration parameters overview</a></li></ol><hr><h2 id="Parameters-list-and-descriptions"><a href="#Parameters-list-and-descriptions" class="headerlink" title="Parameters list and descriptions"></a>Parameters list and descriptions</h2><table><thead><tr><th><strong>Parameter</strong></th><th><strong>Description</strong></th><th><strong>Data Type&#x2F;Options</strong></th></tr></thead><tbody><tr><td><code>hidden_size</code></td><td>Dimensionality of the hidden states and embeddings.</td><td>Integer, e.g., <code>768</code>, <code>1024</code>.</td></tr><tr><td><code>num_hidden_layers</code></td><td>Number of hidden layers in the transformer encoder.</td><td>Integer, e.g., <code>12</code>, <code>24</code>.</td></tr><tr><td><code>num_attention_heads</code></td><td>Number of attention heads per transformer layer.</td><td>Integer, typically a divisor of <code>hidden_size</code>.</td></tr><tr><td><code>vocab_size</code></td><td>Vocabulary size of the tokenizer. Represents the range of token IDs.</td><td>Integer, e.g., <code>30522</code>.</td></tr><tr><td><code>intermediate_size</code></td><td>Dimensionality of the feedforward layers.</td><td>Integer, e.g., <code>3072</code>.</td></tr><tr><td><code>hidden_dropout_prob</code></td><td>Dropout probability for fully connected layers in the encoder.</td><td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td></tr><tr><td><code>attention_probs_dropout_prob</code></td><td>Dropout probability in the attention mechanism.</td><td>Float between <code>0.0</code> and <code>1.0</code>, typically <code>0.1</code>.</td></tr><tr><td><code>max_position_embeddings</code></td><td>Maximum number of positions for input tokens.</td><td>Integer, e.g., <code>512</code>.</td></tr><tr><td><code>type_vocab_size</code></td><td>Size of the token type vocabulary for segment embeddings.</td><td>Integer, typically <code>2</code>.</td></tr><tr><td><code>initializer_range</code></td><td>Standard deviation for weight initialization.</td><td>Float, e.g., <code>0.02</code>.</td></tr><tr><td><code>layer_norm_eps</code></td><td>A small value added for numerical stability in layer normalization.</td><td>Float, typically <code>1e-5</code>.</td></tr><tr><td><code>output_hidden_states</code></td><td>Whether to output all hidden states from each layer.</td><td>Boolean, <code>true</code> or <code>false</code>.</td></tr><tr><td><code>output_attentions</code></td><td>Whether to output the attention weights.</td><td>Boolean, <code>true</code> or <code>false</code>.</td></tr></tbody></table><h2 id="Summary-of-parameter-impact"><a href="#Summary-of-parameter-impact" class="headerlink" title="Summary of parameter impact"></a>Summary of parameter impact</h2><h3 id="How-changes-reflect-on-model-behavior"><a href="#How-changes-reflect-on-model-behavior" class="headerlink" title="How changes reflect on model behavior:"></a>How changes reflect on model behavior:</h3><ol><li><p><strong>Capacity:</strong></p><ul><li>Increasing <code>hidden_size</code>, <code>num_hidden_layers</code>, or <code>num_attention_heads</code> allows the model to capture more complex patterns but increases resource usage.</li></ul></li><li><p><strong>Regularization:</strong></p><ul><li>Dropout probabilities (<code>hidden_dropout_prob</code>, <code>attention_probs_dropout_prob</code>) control overfitting risks but can hinder learning if set too high.</li></ul></li><li><p><strong>Pretraining vs. Fine-tuning:</strong></p><ul><li><code>type_vocab_size</code> is essential for tasks requiring segment embeddings (e.g., sentence pairs).</li></ul></li><li><p><strong>Stability and Efficiency:</strong></p><ul><li><code>layer_norm_eps</code> ensures stable training, while <code>initializer_range</code> affects convergence.</li></ul></li></ol><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul><li>Paper</li><li>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</li><li>DOI: 10.48550&#x2F;arXiv.1810.04805</li><li><a href="https://arxiv.org/abs/1810.04805">Read on </a></li><li><a href="https://huggingface.co/docs/transformers/model_doc/bert">Hugging Face BERT Documentation</a></li></ul><h2 id="Challenges-and-reports-on-configuration"><a href="#Challenges-and-reports-on-configuration" class="headerlink" title="Challenges and reports on configuration"></a>Challenges and reports on configuration</h2><ul><li><strong>Report:</strong> “On the Structural Properties of BERT Models” (Kovaleva et al., 2019).</li><li><strong>Challenges:</strong> Over-parameterization and inefficiency in fine-tuning for domain-specific tasks.</li></ul><h2 id="Playgrounds-to-experiment"><a href="#Playgrounds-to-experiment" class="headerlink" title="Playgrounds to experiment"></a>Playgrounds to experiment</h2><ul><li><strong>Hugging Face Spaces:</strong> <a href="https://huggingface.co/spaces">https://huggingface.co/spaces</a></li><li><strong>Google Colab with Transformers:</strong> <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li><li><strong>OpenAI Playground for Text Understanding:</strong> <a href="https://platform.openai.com/playground">https://platform.openai.com/playground</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;&lt;em&gt;This post is related to:&lt;/em&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
-    
-    
-    <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
-    
-    <category term="LLM" scheme="https://ooge0.github.io/hexo-blog/tags/LLM/"/>
-    
-    <category term="BERT" scheme="https://ooge0.github.io/hexo-blog/tags/BERT/"/>
     
   </entry>
   
