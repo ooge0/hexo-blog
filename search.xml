@@ -234,6 +234,56 @@
       </tags>
   </entry>
   <entry>
+    <title>AI glossaries list</title>
+    <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
+<ul>
+<li>Glossary-of-Artificial-Intelligence<ul>
+<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
+<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
+<li>Text + pictures + some python code snippets</li>
+<li>It covers just ‘A’ letter.</li>
+</ul>
+</li>
+<li>Artificial Intelligence and Data Science<ul>
+<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
+<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
+<li>Basic terms for artificial intelligence and data science. Just few terms</li>
+</ul>
+</li>
+<li>AI-Glossary<ul>
+<li>A glossary of terms in AI and their corresponding papers.</li>
+<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
+<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
+</ul>
+</li>
+<li>Generative AI Terminology<ul>
+<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
+</ul>
+</li>
+<li>AI Dictionary<ul>
+<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
+</ul>
+</li>
+<li>Online glossary of machine learning terms<ul>
+<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
+<li>Well srtuctured and informative resource</li>
+</ul>
+</li>
+</ul>
+<p><strong>Other</strong></p>
+<ul>
+<li><a href="https://csrc.nist.gov/glossary">NIST glossary</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Evaluating AI applications. Checklist</title>
     <url>/hexo-blog//ai/evaluating_ai_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Evaluation-of-AI-Prompts"><a href="#1-Evaluation-of-AI-Prompts" class="headerlink" title="1. Evaluation of AI Prompts"></a>1. Evaluation of AI Prompts</h2><h3 id="1-1-Prompt-Clarity"><a href="#1-1-Prompt-Clarity" class="headerlink" title="1.1 Prompt Clarity"></a>1.1 <strong>Prompt Clarity</strong></h3><ul>
@@ -369,56 +419,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI glossaries list</title>
-    <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
-<ul>
-<li>Glossary-of-Artificial-Intelligence<ul>
-<li>GitHub project: <a href="https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence">https://github.com/ahammadmejbah/Glossary-of-Artificial-Intelligence</a></li>
-<li>A “Glossary of Artificial Intelligence” is a concise reference resource defining key terms, concepts, and terminology related to AI. It provides explanations and definitions to help individuals understand and navigate the field of artificial intelligence, making it a valuable tool for both beginners and experts in the AI domain.</li>
-<li>Text + pictures + some python code snippets</li>
-<li>It covers just ‘A’ letter.</li>
-</ul>
-</li>
-<li>Artificial Intelligence and Data Science<ul>
-<li>GitHub project:<a href="https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html">https://aim-rsf.github.io/Glossary-of-Terms/terms/Artificial-Intelligence.html</a></li>
-<li>Glossary contains terms relating to Artificial Intelligence and Data Science.</li>
-<li>Basic terms for artificial intelligence and data science. Just few terms</li>
-</ul>
-</li>
-<li>AI-Glossary<ul>
-<li>A glossary of terms in AI and their corresponding papers.</li>
-<li>GitHub project: <a href="https://github.com/odisha-ml/AI-Glossary">https://github.com/odisha-ml/AI-Glossary</a></li>
-<li>Published version: <a href="https://glossary.odishaai.org/">glossary.odishaai.org</a></li>
-</ul>
-</li>
-<li>Generative AI Terminology<ul>
-<li>GitHub project: <a href="https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology">https://github.com/nomic-ai/gpt4all/wiki/Generative-AI-Terminology</a></li>
-</ul>
-</li>
-<li>AI Dictionary<ul>
-<li>Published version: <a href="https://nhsx.github.io/ai-dictionary">https://nhsx.github.io/ai-dictionary</a></li>
-</ul>
-</li>
-<li>Online glossary of machine learning terms<ul>
-<li><a href="https://machinelearning.wtf/">machinelearning.wtf</a></li>
-<li>Well srtuctured and informative resource</li>
-</ul>
-</li>
-</ul>
-<p><strong>Other</strong></p>
-<ul>
-<li><a href="https://csrc.nist.gov/glossary">NIST glossary</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -1351,6 +1351,57 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>AI - Machine Learning + emotions</title>
+    <url>/hexo-blog/2024/11/21/post_ai_ml__emotions/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with a Multi-task Retrieval-based LLMs Framework</em></p>
+<ul>
+<li>DOI:10.48550&#x2F;arXiv.2406.18088</li>
+<li><a href="https://openreview.net/pdf/2c4c4157e9917665bbf110ffb8a87c3eba3ebed4.pdf">Read on openreview.net</a></li>
+</ul>
+</li>
+<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with Multi-task Retrieval-Augmented Large Language Models, 2024</em></p>
+<ul>
+<li>DOI: 10.48550&#x2F;arXiv.2309.11911</li>
+<li><a href="https://arxiv.org/pdf/2309.11911">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Other-resources-papers-books"><a href="#Other-resources-papers-books" class="headerlink" title="Other resources&#x2F;papers&#x2F;books"></a>Other resources&#x2F;papers&#x2F;books</h2><ol>
+<li><p>Book: <em>Zinker J. Creative process in gestalt therapy. Vintage books. Random House, 1978</em></p>
+</li>
+<li><p>Book: <em>The Expressions of the Emotions in Man and Animals. Darwin. 1872</em></p>
+<ul>
+<li><a href="https://darwin-online.org.uk/content/frameset?viewtype=text&itemID=F1142&pageseq=1">Read book on darwin-online.org.uk</a></li>
+<li><a href="https://archive.org/details/expressionofemot1872darw/">✰✰✰✰✰ Read book on archive.org </a></li>
+<li><a href="https://web.seducoahuila.gob.mx/biblioweb/upload/the_expression_of_the_emotions_in_man_and_animals.pdf">✰ Read book on web.seducoahuila.gob.mx</a></li>
+</ul>
+</li>
+<li><p>Paper: PyPlutchik: Visualising and comparing emotion-annotated corpora. 2021.</p>
+<ul>
+<li>DOI:10.1371&#x2F;journal.pone.0256503</li>
+<li><a href="https://www.researchgate.net/publication/354295491_PyPlutchik_Visualising_and_comparing_emotion-annotated_corpora">✰✰✰✰✰ Read on researchgate.net</a><img src="/hexo-blog/images/plutchik_s_wheel_of_emotions.jpg" alt="Plutchik's wheel of emotions" title="Plutchik's wheel of emotions" href = "https://en.wikipedia.org/wiki/Robert_Plutchik#/media/File:Plutchik-wheel.svg" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+<li><p>Paper: <em>The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276.</em></p>
+<ul>
+<li>DOI:10.1177&#x2F;036215378201200411</li>
+<li><a href="https://sci-hub.se/10.1177/036215378201200411">Read on sc-hub.se</a><img src="/hexo-blog/images/feeling_wheel_willcox_g_1982.jpg" alt="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." title="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." style="width: 40%; max-width: 1300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+ <img src="/hexo-blog/images/feeling_wheel_willcox_g_1982_ru.jpg" alt="The Feeling Wheel.Willcox,G _ru" title="The Feeling Wheel.Willcox,G _ru" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>emotions</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Techniques for handling context in LLM models</title>
     <url>/hexo-blog//ai/post_ai_llm__techniques_for_handling_context_in_ai_models/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1463,57 +1514,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
         <tag>LLM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI - Machine Learning + emotions</title>
-    <url>/hexo-blog/2024/11/21/post_ai_ml__emotions/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with a Multi-task Retrieval-based LLMs Framework</em></p>
-<ul>
-<li>DOI:10.48550&#x2F;arXiv.2406.18088</li>
-<li><a href="https://openreview.net/pdf/2c4c4157e9917665bbf110ffb8a87c3eba3ebed4.pdf">Read on openreview.net</a></li>
-</ul>
-</li>
-<li><p>Paper: <em>InstructERC: Reforming Emotion Recognition in Conversation with Multi-task Retrieval-Augmented Large Language Models, 2024</em></p>
-<ul>
-<li>DOI: 10.48550&#x2F;arXiv.2309.11911</li>
-<li><a href="https://arxiv.org/pdf/2309.11911">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Other-resources-papers-books"><a href="#Other-resources-papers-books" class="headerlink" title="Other resources&#x2F;papers&#x2F;books"></a>Other resources&#x2F;papers&#x2F;books</h2><ol>
-<li><p>Book: <em>Zinker J. Creative process in gestalt therapy. Vintage books. Random House, 1978</em></p>
-</li>
-<li><p>Book: <em>The Expressions of the Emotions in Man and Animals. Darwin. 1872</em></p>
-<ul>
-<li><a href="https://darwin-online.org.uk/content/frameset?viewtype=text&itemID=F1142&pageseq=1">Read book on darwin-online.org.uk</a></li>
-<li><a href="https://archive.org/details/expressionofemot1872darw/">✰✰✰✰✰ Read book on archive.org </a></li>
-<li><a href="https://web.seducoahuila.gob.mx/biblioweb/upload/the_expression_of_the_emotions_in_man_and_animals.pdf">✰ Read book on web.seducoahuila.gob.mx</a></li>
-</ul>
-</li>
-<li><p>Paper: PyPlutchik: Visualising and comparing emotion-annotated corpora. 2021.</p>
-<ul>
-<li>DOI:10.1371&#x2F;journal.pone.0256503</li>
-<li><a href="https://www.researchgate.net/publication/354295491_PyPlutchik_Visualising_and_comparing_emotion-annotated_corpora">✰✰✰✰✰ Read on researchgate.net</a><img src="/hexo-blog/images/plutchik_s_wheel_of_emotions.jpg" alt="Plutchik's wheel of emotions" title="Plutchik's wheel of emotions" href = "https://en.wikipedia.org/wiki/Robert_Plutchik#/media/File:Plutchik-wheel.svg" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-<li><p>Paper: <em>The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276.</em></p>
-<ul>
-<li>DOI:10.1177&#x2F;036215378201200411</li>
-<li><a href="https://sci-hub.se/10.1177/036215378201200411">Read on sc-hub.se</a><img src="/hexo-blog/images/feeling_wheel_willcox_g_1982.jpg" alt="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." title="The Feeling Wheel.Willcox,G.(1982).Transactional Analysis Journal, 12(4), 274–276." style="width: 40%; max-width: 1300px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
- <img src="/hexo-blog/images/feeling_wheel_willcox_g_1982_ru.jpg" alt="The Feeling Wheel.Willcox,G _ru" title="The Feeling Wheel.Willcox,G _ru" style="width: 20%; max-width: 1000px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>emotions</tag>
       </tags>
   </entry>
   <entry>
@@ -2033,6 +2033,103 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Neural Process Family</title>
+    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
+<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
+<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
+</li>
+<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
+</li>
+<li><p><strong>Model Components</strong>:</p>
+<ul>
+<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
+<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
+<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
+</ul>
+</li>
+<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
+</li>
+</ol>
+<hr>
+<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
+<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
+<ul>
+<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
+<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
+</ul>
+</li>
+<li><p><strong>Neural Processes (NPs)</strong>:</p>
+<ul>
+<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
+<li>Balances flexibility and computational efficiency.</li>
+</ul>
+</li>
+<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
+<ul>
+<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
+<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
+</ul>
+</li>
+<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
+<ul>
+<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
+</ul>
+</li>
+<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
+<ul>
+<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
+<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
+<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
+<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
+<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
+<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
+</ol>
+<hr>
+<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
+<li>Scalability due to neural networks.</li>
+<li>Probabilistic outputs allow uncertainty estimation.</li>
+<li>Adaptable across domains with minimal changes.</li>
+</ul>
+<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
+<li>Trade-off between computational cost and flexibility.</li>
+<li>Dependence on good representation learning.</li>
+<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
+</ul>
+<hr>
+<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
+<hr>
+<p>About:</p>
+<ul>
+<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
+<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
+</ul>
+<hr>
+<p> Papers: </p>
+<ul>
+<li>Papers: <ul>
+<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
+<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
+<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NPF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
     <url>/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p>
@@ -2147,103 +2244,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Neural Process Family</title>
-    <url>/hexo-blog/2024/11/30/post_ai_ml_npf__general/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The <strong>Neural Process Family</strong> refers to a class of models designed to learn distributions over functions, offering a blend of the expressiveness of deep learning and the flexibility of probabilistic models. These models are particularly useful for tasks requiring uncertainty quantification, few-shot learning, and function estimation. Key members of this family include <strong>Neural Processes (NPs)</strong>, <strong>Conditional Neural Processes (CNPs)</strong>, <strong>Attentive Neural Processes (ANPs)</strong>, and extensions like <strong>ConvCNPs</strong> and <strong>Variational NPs (VNPs)</strong>.</p>
-<h2 id="Core-Concepts"><a href="#Core-Concepts" class="headerlink" title="Core Concepts"></a>Core Concepts</h2><ol>
-<li><p><strong>Probabilistic Nature</strong>:<br>Neural Processes learn distributions over functions. Given a set of input-output pairs, they can predict the probability distribution of outputs for new inputs, making them suitable for uncertainty estimation.</p>
-</li>
-<li><p><strong>Few-Shot Learning</strong>:<br>These models can make predictions given only a few examples, making them ideal for problems where data is scarce.</p>
-</li>
-<li><p><strong>Model Components</strong>:</p>
-<ul>
-<li><strong>Encoder</strong>: Maps input-output pairs to a latent representation.</li>
-<li><strong>Decoder</strong>: Takes the latent representation and generates outputs for given inputs.</li>
-<li><strong>Latent Space</strong>: Captures the uncertainty and variability in the function space.</li>
-</ul>
-</li>
-<li><p><strong>Meta-Learning</strong>:<br>NPs can generalize across tasks by learning a distribution over tasks, enabling them to perform well on unseen tasks after being trained on related ones.</p>
-</li>
-</ol>
-<hr>
-<h2 id="Variants-of-Neural-Processes"><a href="#Variants-of-Neural-Processes" class="headerlink" title="Variants of Neural Processes"></a>Variants of Neural Processes</h2><ol>
-<li><p><strong>Conditional Neural Processes (CNPs)</strong>:</p>
-<ul>
-<li>A deterministic model that learns to map a context set of input-output pairs to predictions for new inputs.</li>
-<li>Simple and efficient but limited in capturing uncertainty in the underlying function.</li>
-</ul>
-</li>
-<li><p><strong>Neural Processes (NPs)</strong>:</p>
-<ul>
-<li>Adds a latent variable to model uncertainty explicitly, making it a probabilistic counterpart to CNPs.</li>
-<li>Balances flexibility and computational efficiency.</li>
-</ul>
-</li>
-<li><p><strong>Attentive Neural Processes (ANPs)</strong>:</p>
-<ul>
-<li>Introduces attention mechanisms to improve modeling of relationships between context points and query points.</li>
-<li>Addresses issues with poor extrapolation and oversmoothing in standard NPs.</li>
-</ul>
-</li>
-<li><p><strong>Convolutional Neural Processes (ConvCNPs)</strong>:</p>
-<ul>
-<li>Leverages convolutional architectures for tasks like image generation, capturing local correlations more effectively.</li>
-</ul>
-</li>
-<li><p><strong>Variational Neural Processes (VNPs)</strong>:</p>
-<ul>
-<li>Focuses on improved variational inference techniques to better approximate the posterior distribution over functions.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h2><ol>
-<li><strong>Regression</strong>:<br>Modeling functions with uncertainty, e.g., Bayesian regression tasks.</li>
-<li><strong>Few-Shot Classification</strong>:<br>Classifying data with limited examples by modeling task distributions.</li>
-<li><strong>Spatio-Temporal Data</strong>:<br>Applications in time-series forecasting and spatial predictions.</li>
-<li><strong>Reinforcement Learning</strong>:<br>Modeling uncertainty in reward functions or dynamics.</li>
-<li><strong>Image Completion</strong>:<br>Predicting missing pixels in images.</li>
-</ol>
-<hr>
-<h2 id="Strengths-and-Challenges"><a href="#Strengths-and-Challenges" class="headerlink" title="Strengths and Challenges"></a>Strengths and Challenges</h2><h3 id="Strengths"><a href="#Strengths" class="headerlink" title="Strengths:"></a>Strengths:</h3><ul>
-<li>Scalability due to neural networks.</li>
-<li>Probabilistic outputs allow uncertainty estimation.</li>
-<li>Adaptable across domains with minimal changes.</li>
-</ul>
-<h3 id="Challenges"><a href="#Challenges" class="headerlink" title="Challenges:"></a>Challenges:</h3><ul>
-<li>Trade-off between computational cost and flexibility.</li>
-<li>Dependence on good representation learning.</li>
-<li>Overcoming limitations of context aggregation in high-dimensional tasks.</li>
-</ul>
-<hr>
-<p>The Neural Process Family continues to evolve, with active research aimed at improving its scalability, expressiveness, and applications to real-world problems.</p>
-<hr>
-<p>About:</p>
-<ul>
-<li><a href="https://yanndubs.github.io/Neural-Process-Family/">yanndubs.github.io | The Neural Process Family</a></li>
-<li><a href="https://notes.theomorales.com/Gaussian+%26+Neural+Processes/The+Neural+Process+Family">notes.theomorales.com | The Neural Process Family</a></li>
-</ul>
-<hr>
-<p> Papers: </p>
-<ul>
-<li>Papers: <ul>
-<li>Title: The Neural Process Family: Survey, Applications<br>and Perspectives</li>
-<li>DOI: 10.48550&#x2F;arXiv.2209.00517</li>
-<li><a href="https://arxiv.org/pdf/2209.00517">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NPF</tag>
       </tags>
   </entry>
   <entry>
@@ -2463,22 +2463,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>NLP knowledge base</title>
-    <url>/hexo-blog//ai_nlp/nlp_knowledge_base/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://aclanthology.org/C18-1139.pdf">Read paper “Contextual String Embeddings for Sequence Labeling. 2000” on aclanthology.org</a></li>
-<li><a href="https://arxiv.org/pdf/1312.3005">Read paper “One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling. 2013” on aclanthology.org</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>knowledge_base</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NLP in pictures</title>
     <url>/hexo-blog/2024/11/21/post_ai_nlp__nlp_in_pictures_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="NLP-extracting-information-flow"><a href="#NLP-extracting-information-flow" class="headerlink" title="NLP extracting information flow"></a>NLP extracting information flow</h2><h3 id="Desired-logical-processes"><a href="#Desired-logical-processes" class="headerlink" title="Desired (logical processes)"></a>Desired (logical processes)</h3><p>Morphological analysis &gt;&gt; Syntax analysis  &gt;&gt; Semantic analysis  &gt;&gt; Extracting information</p>
@@ -2506,6 +2490,39 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NLP knowledge base</title>
+    <url>/hexo-blog//ai_nlp/nlp_knowledge_base/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://aclanthology.org/C18-1139.pdf">Read paper “Contextual String Embeddings for Sequence Labeling. 2000” on aclanthology.org</a></li>
+<li><a href="https://arxiv.org/pdf/1312.3005">Read paper “One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling. 2013” on aclanthology.org</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>knowledge_base</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NLP lexical resources</title>
+    <url>/hexo-blog/2024/11/25/post_ai_nlp__nlp_lexical_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
+<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
+<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
+<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLP</tag>
+        <tag>lexic</tag>
       </tags>
   </entry>
   <entry>
@@ -2585,43 +2602,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLP lexical resources</title>
-    <url>/hexo-blog/2024/11/25/post_ai_nlp__nlp_lexical_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
-<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
-<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
-<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NLP</tag>
-        <tag>lexic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sentiment analysis framework</title>
-    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
-<li>Here is a draft structure of  Python-based project with an OOP design. </li>
-<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
-<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>All implementations and improvements will be presented in separate posts.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -2745,6 +2725,26 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>NLP</tag>
         <tag>text_classification</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sentiment analysis framework</title>
+    <url>/hexo-blog/2024/11/25/post_ai_nlp__sentiment_analysis_framework/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h2><ul>
+<li>Here is a draft structure of  Python-based project with an OOP design. </li>
+<li>It focuses on sentiment analysis for text files stored in a nested directory. </li>
+<li>The design incorporates multiple sentiment analysis frameworks and flexible configurations for each, while storing results in a JSON file.</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> abc <span class="keyword">import</span> ABC, abstractmethod</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ConfigManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Responsible for loading and managing configuration files for different sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">load_config</span>(<span class="params">self, framework_name: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Loads configuration for the specified framework.</span></span><br><span class="line"><span class="string">        </span></span><br><span class="line"><span class="string">        :param framework_name: Name of the sentiment analysis framework.</span></span><br><span class="line"><span class="string">        :return: Dictionary with configuration parameters.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for loading configuration logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TextFileProcessor</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Handles discovery and reading of text files from the nested directory.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_text_files</span>(<span class="params">self</span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Recursively fetches all text files in the nested directory.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :return: List of file paths.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file discovery logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">read_file</span>(<span class="params">self, file_path: <span class="built_in">str</span></span>) -&gt; <span class="built_in">str</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Reads the content of a text file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param file_path: Path to the text file.</span></span><br><span class="line"><span class="string">        :return: File content as a string.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for file reading logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SentimentAnalyzer</span>(<span class="title class_ inherited__">ABC</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Abstract base class for all sentiment analysis frameworks.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config: <span class="built_in">dict</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.config = config</span><br><span class="line"></span><br><span class="line"><span class="meta">    @abstractmethod</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes the sentiment of the provided text.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary containing analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkAAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework A.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework A to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework A.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">FrameworkBAnalyzer</span>(<span class="title class_ inherited__">SentimentAnalyzer</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Implements sentiment analysis using Framework B.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze</span>(<span class="params">self, text: <span class="built_in">str</span></span>) -&gt; <span class="built_in">dict</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Uses Framework B to analyze sentiment.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param text: Input text for sentiment analysis.</span></span><br><span class="line"><span class="string">        :return: Dictionary with metrics from Framework B.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for sentiment analysis logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AnalysisManager</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Coordinates the sentiment analysis process.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, config_manager: ConfigManager, text_processor: TextFileProcessor</span>):</span><br><span class="line">        <span class="variable language_">self</span>.config_manager = config_manager</span><br><span class="line">        <span class="variable language_">self</span>.text_processor = text_processor</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">analyze_files</span>(<span class="params">self, frameworks: <span class="built_in">list</span></span>) -&gt; <span class="built_in">list</span>:</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Analyzes all text files using specified frameworks.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param frameworks: List of framework analyzer instances.</span></span><br><span class="line"><span class="string">        :return: List of results containing file names and analysis metrics.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        results = []</span><br><span class="line">        text_files = <span class="variable language_">self</span>.text_processor.get_text_files()</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> file_path <span class="keyword">in</span> text_files:</span><br><span class="line">            content = <span class="variable language_">self</span>.text_processor.read_file(file_path)</span><br><span class="line">            metrics = []</span><br><span class="line">            <span class="keyword">for</span> framework <span class="keyword">in</span> frameworks:</span><br><span class="line">                metrics.append(framework.analyze(content))</span><br><span class="line"></span><br><span class="line">            results.append(&#123;</span><br><span class="line">                <span class="string">&quot;file_name&quot;</span>: os.path.basename(file_path),</span><br><span class="line">                <span class="string">&quot;description&quot;</span>: <span class="string">&quot;Sentiment analysis results&quot;</span>,</span><br><span class="line">                <span class="string">&quot;metrics&quot;</span>: metrics</span><br><span class="line">            &#125;)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> results</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ResultSaver</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Saves the analysis results to a JSON file.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">save_to_json</span>(<span class="params">self, results: <span class="built_in">list</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Writes results to a JSON file.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        :param results: List of analysis results.</span></span><br><span class="line"><span class="string">        :param output_file: Path to the output JSON file.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Placeholder for JSON writing logic</span></span><br><span class="line">        <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Main</span>:</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Entry point for the sentiment analysis project.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, base_dir: <span class="built_in">str</span>, config_dir: <span class="built_in">str</span>, output_file: <span class="built_in">str</span></span>):</span><br><span class="line">        <span class="variable language_">self</span>.base_dir = base_dir</span><br><span class="line">        <span class="variable language_">self</span>.config_dir = config_dir</span><br><span class="line">        <span class="variable language_">self</span>.output_file = output_file</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Executes the sentiment analysis pipeline.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Initialize components</span></span><br><span class="line">        config_manager = ConfigManager(<span class="variable language_">self</span>.config_dir)</span><br><span class="line">        text_processor = TextFileProcessor(<span class="variable language_">self</span>.base_dir)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Load configurations and instantiate frameworks</span></span><br><span class="line">        frameworks = [</span><br><span class="line">            FrameworkAAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkA&quot;</span>)),</span><br><span class="line">            FrameworkBAnalyzer(config_manager.load_config(<span class="string">&quot;FrameworkB&quot;</span>))</span><br><span class="line">        ]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Perform analysis</span></span><br><span class="line">        analysis_manager = AnalysisManager(config_manager, text_processor)</span><br><span class="line">        results = analysis_manager.analyze_files(frameworks)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Save results</span></span><br><span class="line">        saver = ResultSaver()</span><br><span class="line">        saver.save_to_json(results, <span class="variable language_">self</span>.output_file)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>All implementations and improvements will be presented in separate posts.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -8993,110 +8993,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
-    <title>REST API testing improvements</title>
-    <url>/hexo-blog//qa/rest_api_testing_improvements/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Enhancements-for-REST-API-Responses-and-Headers"><a href="#Enhancements-for-REST-API-Responses-and-Headers" class="headerlink" title="Enhancements for REST API Responses and Headers"></a>Enhancements for REST API Responses and Headers</h1><h2 id="Response-Body-Enhancements"><a href="#Response-Body-Enhancements" class="headerlink" title="Response Body Enhancements"></a>Response Body Enhancements</h2><ol>
-<li><p><strong>Unique Identifier for Query Execution</strong></p>
-<ul>
-<li>Include a <code>query_id</code> or <code>execution_id</code> for debugging and tracking specific requests.</li>
-</ul>
-</li>
-<li><p><strong>Performance Metrics</strong></p>
-<ul>
-<li><strong>Query Execution Time</strong>: Time taken to execute the SQL query (in ms or seconds).</li>
-<li><strong>Data Processing Time</strong>: Time taken to process or transform data.</li>
-<li><strong>Total Response Time</strong>: End-to-end time from request receipt to response generation.</li>
-</ul>
-</li>
-<li><p><strong>Pagination Information</strong></p>
-<ul>
-<li><code>total_records</code>: Total number of records in the result set.</li>
-<li><code>page_size</code>: Number of records in the current response.</li>
-<li><code>current_page</code>: Current page number.</li>
-<li><code>total_pages</code>: Total number of pages.</li>
-</ul>
-</li>
-<li><p><strong>Data Summary</strong></p>
-<ul>
-<li><strong>Row Count</strong>: Number of rows returned in the response.</li>
-<li><strong>Aggregates</strong>: Optional aggregates like sums, averages, or counts.</li>
-</ul>
-</li>
-<li><p><strong>Request Metadata</strong></p>
-<ul>
-<li>Echo relevant parts of the request (e.g., query parameters, filters, sorting).</li>
-</ul>
-</li>
-<li><p><strong>Error Details (if applicable)</strong></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;errors&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;code&quot;</span><span class="punctuation">:</span> <span class="string">&quot;DB_TIMEOUT&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;The database query timed out.&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2025-01-26T12:34:56Z&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Data Source Metadata</strong></p>
-<ul>
-<li><code>source_db</code>: Name of the database or schema.</li>
-<li><code>query_type</code>: Type of query executed (e.g., SELECT, UPDATE).</li>
-<li><code>rows_scanned</code>: Number of rows scanned to produce the result.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Response-Headers-Enhancements"><a href="#Response-Headers-Enhancements" class="headerlink" title="Response Headers Enhancements"></a>Response Headers Enhancements</h2><ol>
-<li><p><strong>Performance Metrics</strong></p>
-<ul>
-<li><code>X-Query-Execution-Time</code>: Time taken for the SQL query execution.</li>
-<li><code>X-Processing-Time</code>: Time taken to process the data.</li>
-<li><code>X-Total-Response-Time</code>: Total time for the request.</li>
-</ul>
-</li>
-<li><p><strong>Rate Limiting</strong></p>
-<ul>
-<li><code>X-RateLimit-Limit</code>: Maximum number of requests allowed.</li>
-<li><code>X-RateLimit-Remaining</code>: Remaining requests in the current window.</li>
-<li><code>X-RateLimit-Reset</code>: Time when the rate limit resets.</li>
-</ul>
-</li>
-<li><p><strong>Request ID</strong></p>
-<ul>
-<li><code>X-Request-ID</code>: Unique identifier for the request.</li>
-</ul>
-</li>
-<li><p><strong>Cache Control</strong></p>
-<ul>
-<li><code>Cache-Control</code>: Specify cache duration or indicate no-cache.</li>
-<li><code>ETag</code>: Unique hash for cache validation.</li>
-</ul>
-</li>
-<li><p><strong>Pagination</strong></p>
-<ul>
-<li><code>X-Total-Records</code>: Total records in the data set.</li>
-<li><code>X-Page-Size</code>: Number of records per page.</li>
-<li><code>X-Current-Page</code>: Current page number.</li>
-<li><code>X-Total-Pages</code>: Total number of pages.</li>
-</ul>
-</li>
-<li><p><strong>Security</strong></p>
-<ul>
-<li><code>X-Content-Type-Options</code>: <code>nosniff</code> to prevent MIME type sniffing.</li>
-<li><code>X-Frame-Options</code>: <code>DENY</code> to prevent clickjacking.</li>
-<li><code>Content-Security-Policy</code>: Define secure data handling policies.</li>
-</ul>
-</li>
-<li><p><strong>Custom Headers</strong></p>
-<ul>
-<li><code>X-Query-ID</code>: Unique query identifier.</li>
-<li><code>X-Data-Checksum</code>: Hash or checksum of the returned data for integrity verification.</li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>QA</category>
-      </categories>
-      <tags>
-        <tag>qa</tag>
-        <tag>rest_api</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Software QA - Basic check list</title>
     <url>/hexo-blog/2024/08/28/post_qa__software_qa_basic_check_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Login-form-Test-Cases"><a href="#1-Login-form-Test-Cases" class="headerlink" title="1 Login form Test Cases"></a>1 Login form Test Cases</h2><ol>
@@ -9243,6 +9139,110 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>qa</tag>
         <tag>qa_check_list</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>REST API testing improvements</title>
+    <url>/hexo-blog//qa/rest_api_testing_improvements/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Enhancements-for-REST-API-Responses-and-Headers"><a href="#Enhancements-for-REST-API-Responses-and-Headers" class="headerlink" title="Enhancements for REST API Responses and Headers"></a>Enhancements for REST API Responses and Headers</h1><h2 id="Response-Body-Enhancements"><a href="#Response-Body-Enhancements" class="headerlink" title="Response Body Enhancements"></a>Response Body Enhancements</h2><ol>
+<li><p><strong>Unique Identifier for Query Execution</strong></p>
+<ul>
+<li>Include a <code>query_id</code> or <code>execution_id</code> for debugging and tracking specific requests.</li>
+</ul>
+</li>
+<li><p><strong>Performance Metrics</strong></p>
+<ul>
+<li><strong>Query Execution Time</strong>: Time taken to execute the SQL query (in ms or seconds).</li>
+<li><strong>Data Processing Time</strong>: Time taken to process or transform data.</li>
+<li><strong>Total Response Time</strong>: End-to-end time from request receipt to response generation.</li>
+</ul>
+</li>
+<li><p><strong>Pagination Information</strong></p>
+<ul>
+<li><code>total_records</code>: Total number of records in the result set.</li>
+<li><code>page_size</code>: Number of records in the current response.</li>
+<li><code>current_page</code>: Current page number.</li>
+<li><code>total_pages</code>: Total number of pages.</li>
+</ul>
+</li>
+<li><p><strong>Data Summary</strong></p>
+<ul>
+<li><strong>Row Count</strong>: Number of rows returned in the response.</li>
+<li><strong>Aggregates</strong>: Optional aggregates like sums, averages, or counts.</li>
+</ul>
+</li>
+<li><p><strong>Request Metadata</strong></p>
+<ul>
+<li>Echo relevant parts of the request (e.g., query parameters, filters, sorting).</li>
+</ul>
+</li>
+<li><p><strong>Error Details (if applicable)</strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;errors&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;code&quot;</span><span class="punctuation">:</span> <span class="string">&quot;DB_TIMEOUT&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;The database query timed out.&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2025-01-26T12:34:56Z&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Data Source Metadata</strong></p>
+<ul>
+<li><code>source_db</code>: Name of the database or schema.</li>
+<li><code>query_type</code>: Type of query executed (e.g., SELECT, UPDATE).</li>
+<li><code>rows_scanned</code>: Number of rows scanned to produce the result.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Response-Headers-Enhancements"><a href="#Response-Headers-Enhancements" class="headerlink" title="Response Headers Enhancements"></a>Response Headers Enhancements</h2><ol>
+<li><p><strong>Performance Metrics</strong></p>
+<ul>
+<li><code>X-Query-Execution-Time</code>: Time taken for the SQL query execution.</li>
+<li><code>X-Processing-Time</code>: Time taken to process the data.</li>
+<li><code>X-Total-Response-Time</code>: Total time for the request.</li>
+</ul>
+</li>
+<li><p><strong>Rate Limiting</strong></p>
+<ul>
+<li><code>X-RateLimit-Limit</code>: Maximum number of requests allowed.</li>
+<li><code>X-RateLimit-Remaining</code>: Remaining requests in the current window.</li>
+<li><code>X-RateLimit-Reset</code>: Time when the rate limit resets.</li>
+</ul>
+</li>
+<li><p><strong>Request ID</strong></p>
+<ul>
+<li><code>X-Request-ID</code>: Unique identifier for the request.</li>
+</ul>
+</li>
+<li><p><strong>Cache Control</strong></p>
+<ul>
+<li><code>Cache-Control</code>: Specify cache duration or indicate no-cache.</li>
+<li><code>ETag</code>: Unique hash for cache validation.</li>
+</ul>
+</li>
+<li><p><strong>Pagination</strong></p>
+<ul>
+<li><code>X-Total-Records</code>: Total records in the data set.</li>
+<li><code>X-Page-Size</code>: Number of records per page.</li>
+<li><code>X-Current-Page</code>: Current page number.</li>
+<li><code>X-Total-Pages</code>: Total number of pages.</li>
+</ul>
+</li>
+<li><p><strong>Security</strong></p>
+<ul>
+<li><code>X-Content-Type-Options</code>: <code>nosniff</code> to prevent MIME type sniffing.</li>
+<li><code>X-Frame-Options</code>: <code>DENY</code> to prevent clickjacking.</li>
+<li><code>Content-Security-Policy</code>: Define secure data handling policies.</li>
+</ul>
+</li>
+<li><p><strong>Custom Headers</strong></p>
+<ul>
+<li><code>X-Query-ID</code>: Unique query identifier.</li>
+<li><code>X-Data-Checksum</code>: Hash or checksum of the returned data for integrity verification.</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>QA</category>
+      </categories>
+      <tags>
+        <tag>qa</tag>
+        <tag>rest_api</tag>
       </tags>
   </entry>
   <entry>
@@ -9417,6 +9417,29 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
+    <title>Resources. Global platforms and people</title>
+    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+<ol>
+<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
+</li>
+<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
+</li>
+</ol>
+<p><strong>List of people</strong></p>
+<ol>
+<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>global_knowledge</tag>
+        <tag>resources</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Site for blogging</title>
     <url>/hexo-blog/2024/04/28/post_site_for_blogging/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of blogging platforms</strong><br><a href="#bloggercom">blogger.com</a><br><a href="#indieblogpage">indieblog.page</a><br><a href="#ghostorg">ghost.org</a></p>
@@ -9473,29 +9496,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </categories>
       <tags>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resources. Global platforms and people</title>
-    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
-<ol>
-<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
-</li>
-<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
-</li>
-</ol>
-<p><strong>List of people</strong></p>
-<ol>
-<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>global_knowledge</tag>
-        <tag>resources</tag>
       </tags>
   </entry>
   <entry>
@@ -9653,15 +9653,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Tags</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
@@ -9672,6 +9663,15 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tags</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -9743,29 +9743,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My GitHub projects</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
@@ -9822,6 +9799,29 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -10039,24 +10039,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXO blog design</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
@@ -10103,21 +10085,21 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
 ]]></content>
       <categories>
         <category>Notes</category>
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
+        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -10221,6 +10203,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>usb</tag>
         <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
       </tags>
   </entry>
   <entry>
@@ -10362,6 +10362,134 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Довідник для Лікаря Сімейної Медицини</title>
+    <url>/hexo-blog//nastusja/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
+<hr>
+<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
+<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
+<li>Новини, нормативна база, протоколи лікування.</li>
+</ul>
+</li>
+<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
+<ul>
+<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
+<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
+</ul>
+</li>
+<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
+<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
+<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
+<li>Інформація про ліки, інструкції, дозування.</li>
+</ul>
+</li>
+<li><p><strong>Реєстр Ліків України</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
+<li>Офіційний перелік зареєстрованих ліків.</li>
+</ul>
+</li>
+<li><p><strong>Клінічні протоколи лікування</strong>  </p>
+<ul>
+<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
+<li><p><strong>Медичний Глосарій</strong>  </p>
+<ul>
+<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
+<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
+<ul>
+<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
+<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
+<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
+<li><p><strong>Сінево Україна</strong>  </p>
+<ul>
+<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Діла Лабораторія</strong>  </p>
+<ul>
+<li><a href="https://dila.ua/">dila.ua</a></li>
+</ul>
+</li>
+<li><p><strong>Меділаб</strong>  </p>
+<ul>
+<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
+<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
+<li>Міжнародні рекомендації та дослідження.</li>
+</ul>
+</li>
+<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
+<li>Наукові статті з медицини.</li>
+</ul>
+</li>
+<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
+<ul>
+<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
+<li>Профілактика, контроль хвороб.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
+<li><p><strong>Клінічні калькулятори</strong>: <a href="https://www.msdmanuals.com/uk/professional/pages-with-widgets/clinical-calculators?mode=list">msdmanuals.com</a>  </p>
+</li>
+<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
+</li>
+<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
+</li>
+<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
+</li>
+<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>nst</tag>
       </tags>
   </entry>
   <entry>
@@ -10508,134 +10636,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>sys_conffigs</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Довідник для Лікаря Сімейної Медицини</title>
-    <url>/hexo-blog//nastusja/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Цей довідник створений власними силами та за допомогою відкритих джерел для допомоги лікарям сімейної медицини, надаючи ключові ресурси, офіційні українські портали, посилання на довідники, глосарії та інші корисні інструменти.</p>
-<hr>
-<h2 id="Офіційні-Українські-Ресурси"><a href="#Офіційні-Українські-Ресурси" class="headerlink" title="Офіційні Українські Ресурси"></a>Офіційні Українські Ресурси</h2><ol>
-<li><p><strong>Міністерство охорони здоров’я України (МОЗ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://moz.gov.ua/">moz.gov.ua</a>  </li>
-<li>Новини, нормативна база, протоколи лікування.</li>
-</ul>
-</li>
-<li><p><strong>Національна служба здоров’я України (НСЗУ)</strong>  </p>
-<ul>
-<li>Офіційний сайт: <a href="https://nszu.gov.ua/">nszu.gov.ua</a>  </li>
-<li>Інформація про медичні послуги, звіти, та декларації з лікарями.</li>
-</ul>
-</li>
-<li><p><strong>Центр громадського здоров’я МОЗ України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://phc.org.ua/">phc.org.ua</a>  </li>
-<li>Вакцинація, профілактика хвороб, епідеміологія.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Медичні-Довідники-та-Компедіуми"><a href="#Медичні-Довідники-та-Компедіуми" class="headerlink" title="Медичні Довідники та Компедіуми"></a>Медичні Довідники та Компедіуми</h2><ol>
-<li><p><strong>Компендіум Лікарських Засобів</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://compendium.com.ua/">compendium.com.ua</a>  </li>
-<li>Інформація про ліки, інструкції, дозування.</li>
-</ul>
-</li>
-<li><p><strong>Реєстр Ліків України</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.drlz.com.ua/">drlz.com.ua</a>  </li>
-<li>Офіційний перелік зареєстрованих ліків.</li>
-</ul>
-</li>
-<li><p><strong>Клінічні протоколи лікування</strong>  </p>
-<ul>
-<li>МОЗ регулярно оновлює протоколи: <a href="https://guidelines.moz.gov.ua/">Протоколи МОЗ</a>.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глосарії-та-Довідкові-Матеріали"><a href="#Глосарії-та-Довідкові-Матеріали" class="headerlink" title="Глосарії та Довідкові Матеріали"></a>Глосарії та Довідкові Матеріали</h2><ol>
-<li><p><strong>Медичний Глосарій</strong>  </p>
-<ul>
-<li>Глосарій МОЗ: <a href="https://moz.gov.ua/uk/glosarij">moz.gov.ua</a>.</li>
-<li>МОЗ Про затвердження Єдиного термінологічного словника (Глосарій) з питань управління  якості медичної допомоги: <a href="https://zakon.rada.gov.ua/rada/show/v0427282-11#Text">zakon.rada.gov.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Довідники для лікарів первинної ланки</strong>  </p>
-<ul>
-<li>Рекомендації для первинної допомоги: <a href="https://phc.org.ua/">phc.org.ua</a>.</li>
-<li>Кишеньковий довідник лікаря первинної медичної допомоги для роботи з дітьми та підлітками: настанови щодо зміцнення здоров’я, профілактики та лікування захворювань від народження до підліткового віку: <a href="https://www.who.int/ukraine/uk/publications/9789289057622">who.int</a></li>
-<li>Що входить до обов’язків лікаря первинної ланки?: <a href="https://moz.gov.ua/uk/scho-vhodit-do-obovjazkiv-likarja-pervinnoi-lanki">moz.gov.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Лабораторії-та-Діагностика"><a href="#Лабораторії-та-Діагностика" class="headerlink" title="Лабораторії та Діагностика"></a>Лабораторії та Діагностика</h2><ol>
-<li><p><strong>Сінево Україна</strong>  </p>
-<ul>
-<li><a href="https://www.synevo.ua/">synevo.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Діла Лабораторія</strong>  </p>
-<ul>
-<li><a href="https://dila.ua/">dila.ua</a></li>
-</ul>
-</li>
-<li><p><strong>Меділаб</strong>  </p>
-<ul>
-<li><a href="https://www.medilab.com.ua/">medilab.com.ua</a></li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Глобальні-Медичні-Ресурси"><a href="#Глобальні-Медичні-Ресурси" class="headerlink" title="Глобальні Медичні Ресурси"></a>Глобальні Медичні Ресурси</h2><ol>
-<li><p><strong>Всесвітня організація охорони здоров’я (ВООЗ)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.who.int/">who.int</a>  </li>
-<li>Міжнародні рекомендації та дослідження.</li>
-</ul>
-</li>
-<li><p><strong>Медична Бібліотека США (PubMed)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed.ncbi.nlm.nih.gov</a>  </li>
-<li>Наукові статті з медицини.</li>
-</ul>
-</li>
-<li><p><strong>CDC (Центри контролю та профілактики захворювань, США)</strong>  </p>
-<ul>
-<li>Сайт: <a href="https://www.cdc.gov/">cdc.gov</a>  </li>
-<li>Профілактика, контроль хвороб.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Корисні-Інструменти"><a href="#Корисні-Інструменти" class="headerlink" title="Корисні Інструменти"></a>Корисні Інструменти</h2><ul>
-<li><p><strong>Клінічні калькулятори</strong>: <a href="https://www.msdmanuals.com/uk/professional/pages-with-widgets/clinical-calculators?mode=list">msdmanuals.com</a>  </p>
-</li>
-<li><p><strong>Медичні калькулятори</strong>: <a href="https://medcalc.com.ua/">medcalc.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор маси тіла</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/imt">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Калькулятор Калькулятор оцінки прихильності пацієнта</strong>: <a href="https://cardioprostir.com.ua/applications-and-calculators/calculators/goodwill">cardioprostir.com.ua</a>  </p>
-</li>
-<li><p><strong>Розрахунок дозувань</strong>: <a href="https://clincalc.com/">clincalc.com</a>  </p>
-</li>
-<li><p><strong>Медичний калькулятор: Дозування таблеток в залежності від маси тіла</strong>: <a href="https://testresult.org/ua/medical-calc/dozuvannia-tabletok-za-vahoiu">testresult.org</a>  </p>
-</li>
-<li><p><strong>Перевірка взаємодії препаратів</strong> Після переходу на сайт для перекладу натисніть правою кнопкою миші та оберіть “Перекласти”: <a href="https://reference.medscape.com/drug-interactionchecker">cardioprostir.com.ua</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Завантаження-та-Контакти"><a href="#Завантаження-та-Контакти" class="headerlink" title="Завантаження та Контакти"></a>Завантаження та Контакти</h2><p>Зберігайте цей список для швидкого доступу до корисних ресурсів! Якщо у вас є запитання чи пропозиції, будь ласка, зв’яжіться з автором через офіційні канали МОЗ або НСЗУ.</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>nst</tag>
       </tags>
   </entry>
   <entry>
@@ -10997,6 +10997,115 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXIO.IO layout improvements</title>
+    <url>/hexo-blog//hexo-layout-improvements/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
+<ul>
+<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
+<li><a href="#changes-1">changes-1</a></li>
+<li><a href="#changes-2">changes-2</a></li>
+</ul>
+</li>
+<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
+<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
+<li><a href="#adding-footnotes">Adding footnotes</a><ul>
+<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
+<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<p>Before changes #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before changes $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Links on the nav bar are not possible to click</p>
+<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>and </p>
+<p>After changes-2 $nav-link</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>nav-bar fixed and works fine for desktop and mobile view.</p>
+<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
+<p>Before changes-1 header.styl </p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
+
+<p>after changes-1</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
+<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
+
+<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>After editing &#96;&#96;</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
+<p>Run this command to install it:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
+
+<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
+<p>Add this to your <code>_config.yml</code> file:</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
+<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
+
+<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>or </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
+
+<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
+<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
+  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<p>and </p>
+<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
+
+<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXIO.IO instalation guide</title>
     <url>/hexo-blog/2024/10/22/tutorials/HEXO.IO_installation_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Make-HEXO-IO-blog"><a href="#Make-HEXO-IO-blog" class="headerlink" title="Make HEXO.IO blog"></a>Make HEXO.IO blog</h2><ul>
@@ -11139,115 +11248,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
 <h2 id="Other-resources"><a href="#Other-resources" class="headerlink" title="Other resources"></a>Other resources</h2><ul>
 <li><a href="https://xlog.wangyunzi.com/3?locale=en">xlog.wangyunzi.com | My Blog Building Journey - Hexo</a></li>
 </ul>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXIO.IO layout improvements</title>
-    <url>/hexo-blog//hexo-layout-improvements/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of content</strong></p>
-<ul>
-<li><a href="#decreasing-size-of-main-body-area">Decreasing size of main body area</a><ul>
-<li><a href="#changes-1">changes-1</a></li>
-<li><a href="#changes-2">changes-2</a></li>
-</ul>
-</li>
-<li><a href="#sub-nav-issue-with-search-form">sub-nav issue with Search form</a></li>
-<li><a href="#if-changes-leads-to-broken-portraite-view-for-mobile-devices-">If changes leads to broken portraite view for mobile devices .</a></li>
-<li><a href="#adding-footnotes">Adding footnotes</a><ul>
-<li><a href="#show-some-number-of-tags-in-the-tag-section">Show some number of tags in the ‘Tag’ section.</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="Decreasing-size-of-main-body-area"><a href="#Decreasing-size-of-main-body-area" class="headerlink" title="Decreasing size of main body area"></a>Decreasing size of main body area</h2><p>header-inner (section that contains elements of navigation menu)</p>
-<p>Edited file <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<p>Before changes #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span></span><br><span class="line">  <span class="attribute">position</span>: relative</span><br><span class="line">  overflow: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before changes $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,  // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="changes-1"><a href="#changes-1" class="headerlink" title="changes-1"></a>changes-1</h4><p>After changes-1 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Links on the nav bar are not possible to click</p>
-<h3 id="changes-2"><a href="#changes-2" class="headerlink" title="changes-2"></a>changes-2</h3><p>After changes-2 #header-inner</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#header-inner</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">0</span>; // Move <span class="selector-tag">to</span> the <span class="attribute">bottom</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;   // Align <span class="selector-tag">to</span> the <span class="attribute">left</span> if needed</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">80%</span>; // Ensure it spans the <span class="attribute">width</span> of the parent <span class="selector-tag">section</span></span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">10</span>; // Ensure it is above other elements</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>and </p>
-<p>After changes-2 $nav-link</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">$<span class="selector-tag">nav</span>-link &#123;</span><br><span class="line">  <span class="attribute">float</span>: left;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.6</span>;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">text-shadow</span>: </span><br><span class="line">    -<span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,   // Top-left shadow</span><br><span class="line">    <span class="number">1px</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Top-right shadow</span><br><span class="line">    -<span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,    // Bottom-left shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">0</span> <span class="number">#ff7f50</span>,     // Bottom-right shadow</span><br><span class="line">    <span class="number">1px</span> <span class="number">1px</span> <span class="number">2px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.4</span>); // Original shadow for depth</span><br><span class="line"></span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">position</span>: relative; // Ensures correct stacking within <span class="selector-id">#header-inner</span></span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">cursor</span>: pointer; // Ensures pointer <span class="attribute">cursor</span> on hover</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>nav-bar fixed and works fine for desktop and mobile view.</p>
-<h2 id="sub-nav-issue-with-Search-form"><a href="#sub-nav-issue-with-Search-form" class="headerlink" title="sub-nav issue with Search form"></a>sub-nav issue with Search form</h2><p>Layout of Search form is shifted for mobile devices.<br>File <code>\themes\landscape\source\css\_partial\header.styl</code><br>should be changed</p>
-<p>Before changes-1 header.styl </p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="selector-id">#sub-nav</span></span><br><span class="line">  <span class="attribute">float</span>: right</span><br><span class="line">  margin-right: -<span class="number">15px</span></span><br><span class="line"></span><br><span class="line">#search-form-wrap</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">15px</span></span><br><span class="line">  width: <span class="number">150px</span></span><br><span class="line">  height: <span class="number">30px</span></span><br><span class="line">  right: -<span class="number">150px</span></span><br><span class="line">  opacity: <span class="number">0</span></span><br><span class="line">  transition: <span class="number">0.2s</span> ease-out</span><br><span class="line">  &amp;.on</span><br><span class="line">    opacity: <span class="number">1</span></span><br><span class="line">    right: <span class="number">0</span></span><br><span class="line">  @media mq-mobile</span><br><span class="line">    width: <span class="number">100%</span></span><br><span class="line">    right: -<span class="number">100%</span></span><br><span class="line"></span><br><span class="line">.search-form</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">0</span></span><br><span class="line">  left: <span class="number">0</span></span><br><span class="line">  right: <span class="number">0</span></span><br><span class="line">  background: <span class="number">#fff</span></span><br><span class="line">  padding: <span class="number">5px</span> <span class="number">15px</span></span><br><span class="line">  border-radius: <span class="number">15px</span></span><br><span class="line">  box-shadow: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>)</span><br><span class="line"></span><br><span class="line">.search-form-input</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: color-default</span><br><span class="line">  width: <span class="number">100%</span></span><br><span class="line">  font: <span class="number">13px</span> font-sans</span><br><span class="line">  outline: none</span><br><span class="line">  &amp;::-webkit-search-results-decoration</span><br><span class="line">  &amp;::-webkit-search-cancel-button</span><br><span class="line">    -webkit-appearance: none</span><br><span class="line"></span><br><span class="line">.search-form-submit</span><br><span class="line">  position: absolute</span><br><span class="line">  top: <span class="number">50%</span></span><br><span class="line">  right: <span class="number">10px</span></span><br><span class="line">  margin-top: -<span class="number">7px</span></span><br><span class="line">  font: <span class="number">13px</span> font-icon</span><br><span class="line">  border: none</span><br><span class="line">  background: none</span><br><span class="line">  color: <span class="number">#bbb</span></span><br><span class="line">  cursor: pointer</span><br><span class="line">  &amp;:hover, &amp;:focus</span><br><span class="line">    color: <span class="number">#777</span></span><br></pre></td></tr></table></figure>
-
-<p>after changes-1</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#sub-nav</span> &#123;</span><br><span class="line">  <span class="attribute">float</span>: right;</span><br><span class="line">  <span class="attribute">margin-right</span>: -<span class="number">15px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span> <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0.3</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-input</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#312602</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">outline</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.search-form-submit</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-<span class="number">50%</span>); // Center vertically within <span class="selector-tag">input</span></span><br><span class="line">  <span class="attribute">font</span>: <span class="number">13px</span> sans-serif;</span><br><span class="line">  <span class="attribute">border</span>: none;</span><br><span class="line">  <span class="attribute">background</span>: none;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#bbb</span>;</span><br><span class="line">  <span class="attribute">cursor</span>: pointer;</span><br><span class="line">  </span><br><span class="line">  &amp;<span class="selector-pseudo">:hover</span>, &amp;<span class="selector-pseudo">:focus</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#777</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="If-changes-leads-to-broken-portraite-view-for-mobile-devices"><a href="#If-changes-leads-to-broken-portraite-view-for-mobile-devices" class="headerlink" title="If changes leads to broken portraite view for mobile devices ."></a>If changes leads to broken portraite view for mobile devices .</h2><p>Input form for the search overlap the menu button.</p>
-<p>Changes-3<br>Before editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span></span><br><span class="line">  <span class="attribute">overflow</span>: hidden</span><br></pre></td></tr></table></figure>
-
-<p>Before editing <code>\themes\landscape\source\css\_partial\header.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>;</span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Adjust for mobile screens</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing <code>\themes\landscape\source\css\style.styl</code></p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.mobile-nav-on</span> <span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hide the search <span class="selector-tag">form</span> when the mobile <span class="selector-tag">nav</span> is open</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Keep it off-screen</span><br><span class="line">  <span class="attribute">transition</span>: opacity <span class="number">0.2s</span> ease-out, transform <span class="number">0.2s</span> ease-out; // Smooth <span class="attribute">transition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>After editing &#96;&#96;</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-id">#search-form-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: fixed; // Fixes it <span class="selector-tag">to</span> the viewport, not affecting layout</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">210px</span>; // Set the vertical <span class="attribute">position</span> <span class="selector-tag">from</span> the <span class="attribute">top</span></span><br><span class="line">  <span class="attribute">right</span>: -<span class="number">200px</span>; // Initially off-screen</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">150px</span>; // <span class="attribute">Width</span> for desktop view</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">30px</span>; // Fixed <span class="attribute">height</span></span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0</span>; // Hidden by default</span><br><span class="line">  <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out;</span><br><span class="line"></span><br><span class="line">  &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Fully visible when active</span><br><span class="line">    <span class="attribute">transform</span>: <span class="built_in">translateX</span>(-<span class="number">200px</span>); // Slide into view when activated</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // General mobile styles</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">70vw</span>; // Adjust <span class="attribute">width</span> for mobile view</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>; // Align <span class="selector-tag">to</span> the <span class="attribute">right</span> of the viewport</span><br><span class="line">    <span class="attribute">transform</span>: none; // Keep it fixed in place for small screens</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span>; // Keep it visible and responsive</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">@media</span> (<span class="attribute">orientation</span>: landscape) <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">600px</span>) &#123; // Styles for landscape mode on mobile</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">210vw</span>; // Adjust <span class="attribute">width</span> for landscape orientation</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">180px</span>; // Adjust <span class="attribute">top</span> <span class="attribute">position</span> for landscape view</span><br><span class="line">    <span class="attribute">right</span>: -<span class="number">50%</span>; // Start off-screen <span class="selector-tag">to</span> the <span class="attribute">left</span> by half the viewport <span class="attribute">width</span></span><br><span class="line">    <span class="attribute">transition</span>: transform <span class="number">0.2s</span> ease-out, opacity <span class="number">0.2s</span> ease-out; // Ensure smooth <span class="attribute">transition</span></span><br><span class="line"></span><br><span class="line">    &amp;<span class="selector-class">.on</span> &#123;</span><br><span class="line">      <span class="attribute">transform</span>: <span class="built_in">translateX</span>(<span class="number">50%</span>); // Slide into view <span class="selector-tag">from</span> <span class="attribute">left</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Adding-footnotes"><a href="#Adding-footnotes" class="headerlink" title="Adding footnotes"></a>Adding footnotes</h2><p>Use hexo-reference Plugin for Enhanced Linking<br>Install hexo-reference: This plugin improves link handling within Markdown files, including footnotes and internal references.</p>
-<p>Run this command to install it:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-reference --save</span><br></pre></td></tr></table></figure>
-
-<p>Update <code>_config.yml</code>: Configure hexo-reference in your Hexo <code>_config.yml</code> file to enable the plugin.</p>
-<p>Add this to your <code>_config.yml</code> file:</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yml</span></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">hexo-reference</span></span><br></pre></td></tr></table></figure>
-<p>Use Links in Markdown: Now, you can use standard anchor links or footnotes, and hexo-reference will convert them to work correctly on the site. Update your Markdown file like this:</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="strong">**Favorite list**</span></span><br><span class="line"></span><br><span class="line">[<span class="string">Takedown</span>](<span class="link">#Favorite-items</span>)</span><br><span class="line"></span><br><span class="line"><span class="section">## Favorite items</span></span><br></pre></td></tr></table></figure>
-
-<p>Generate and Deploy: After setting up, rebuild and deploy your project:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<p>or </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo serve</span><br></pre></td></tr></table></figure>
-
-<h3 id="Show-some-number-of-tags-in-the-‘Tag’-section"><a href="#Show-some-number-of-tags-in-the-‘Tag’-section" class="headerlink" title="Show some number of tags in the ‘Tag’ section."></a>Show some number of tags in the ‘Tag’ section.</h3><p>Before changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file was</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">      &lt;%- list_tags(&#123;show_count: theme.show_count&#125;) %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and<br><img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__before_changes.png" alt="hexo.editing tag section on UI before changes"></p>
-<p>after changes of content of <code>themes\landscape\layout\_widget\tag.ejs</code> file ‘Tags’ section shows 10 tags only</p>
-  <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;% if (site<span class="selector-class">.tags</span><span class="selector-class">.length</span>)&#123; %&gt;</span><br><span class="line">  &lt;<span class="selector-tag">div</span> class=&quot;widget-wrap&quot;&gt;</span><br><span class="line">    &lt;<span class="selector-tag">h3</span> class=&quot;widget-title&quot;&gt;&lt;%= __(&#x27;tags&#x27;) %&gt;&lt;/<span class="selector-tag">h3</span>&gt;</span><br><span class="line">    &lt;<span class="selector-tag">div</span> class=&quot;widget&quot;&gt;</span><br><span class="line">        &lt;% site<span class="selector-class">.tags</span><span class="selector-class">.sort</span>(&#x27;name&#x27;)<span class="selector-class">.limit</span>(<span class="number">10</span>)<span class="selector-class">.each</span>(function(tag) &#123; %&gt;</span><br><span class="line">    &lt;<span class="selector-tag">li</span>&gt;</span><br><span class="line">      &lt;<span class="selector-tag">a</span> href=&quot;&lt;%= url_for(tag<span class="selector-class">.path</span>) %&gt;&quot;&gt;&lt;%= tag<span class="selector-class">.name</span> %&gt; (&lt;%= tag<span class="selector-class">.length</span> %&gt;)&lt;/<span class="selector-tag">a</span>&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">  &lt;% &#125;); %&gt;</span><br><span class="line">    &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">  &lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-<p>and </p>
-<img src="/hexo-blog/images/hexo.io_changes_editing_tag_section_on_ui__after_changes.png" alt="hexo.editing tag section on UI after changes">
-
-<p>Turn on&#x2F;off <code>Tags</code> is possible in <code>_config.yml</code>, </p>
-  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">widgets:</span><br><span class="line">  - tag</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Tutorials</category>
