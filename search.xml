@@ -21,6 +21,91 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
+    <url>/hexo-blog//ai/base_gan/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
+<p><strong>Особенности генеративного ИИ</strong></p>
+<ul>
+<li>Создание нового контента: <ul>
+<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
+</ul>
+</li>
+<li>Высокая адаптивность:<ul>
+<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
+</ul>
+</li>
+<li>Использование больших объемов данных:<ul>
+<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
+</ul>
+</li>
+<li>Сложность в контроле результатов: <ul>
+<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Разновидности генеративного ИИ</strong></p>
+<ul>
+<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
+<ul>
+<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
+</ul>
+</li>
+<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
+<ul>
+<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
+<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
+<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
+<p><strong>Диффузионные модели</strong></p>
+<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
+<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
+<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
+<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
+<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
+<ul>
+<li><p>Создание новых данных vs. анализ и предсказание:</p>
+</li>
+<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
+</li>
+<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
+</li>
+<li><p>Использование для творчества и генерации контента:</p>
+<ul>
+<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
+<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Комплексность и требования к обучению:</strong></p>
+<ul>
+<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
+<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
+</ul>
+<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
+<ul>
+<li>Развлечения и медиа: <ul>
+<li>создание музыки, текста, изображений, сценариев.</li>
+</ul>
+</li>
+<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
+<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
+<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
+</ul>
+<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Comparing Efficiency of NLP Models. Methods and Metrics.</title>
     <url>/hexo-blog//ai/post_ai__comparing_nlp_models_methods_metrix/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
@@ -143,9 +228,9 @@
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -281,94 +366,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Генеративный искусственный интеллект / Generative Artificial Intelligence</title>
-    <url>/hexo-blog//ai/base_gan/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Генеративный ИИ (Generative AI) — это тип искусственного интеллекта, который создаёт новые данные на основе уже существующих, будь то текст, изображения, звук или другие типы контента. В отличие от традиционных моделей ИИ, которые просто классифицируют или анализируют данные, генеративные модели могут генерировать новые образцы, схожие с обучающим набором данных. Например, такие модели могут создавать реалистичные изображения, стилизовать текст, писать код и т.д.</em></p>
-<p><strong>Особенности генеративного ИИ</strong></p>
-<ul>
-<li>Создание нового контента: <ul>
-<li>Генеративные модели способны создавать уникальные образцы, которые не являются прямым копированием данных из обучающей выборки.</li>
-</ul>
-</li>
-<li>Высокая адаптивность:<ul>
-<li>Они могут адаптироваться к разным типам задач, таким как текстовая генерация, создание изображений, синтез речи, и даже проектирование молекул.</li>
-</ul>
-</li>
-<li>Использование больших объемов данных:<ul>
-<li>Для создания реалистичного и высококачественного контента модели требуют больших обучающих выборок, чтобы изучить закономерности и зависимости.</li>
-</ul>
-</li>
-<li>Сложность в контроле результатов: <ul>
-<li>Генеративные модели могут производить нежелательные результаты или даже давать вредные советы, поскольку сложно заранее контролировать все возможные выводы.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Разновидности генеративного ИИ</strong></p>
-<ul>
-<li><p>Генеративные состязательные сети (Generative Adversarial Networks, GANs)</p>
-<ul>
-<li>GAN-сети состоят из двух нейросетей — генератора и дискриминатора, которые работают вместе. Генератор создаёт новые образцы данных, стремясь “обмануть” дискриминатор, который определяет, являются ли данные реальными или синтетическими. Этот подход используется для генерации реалистичных изображений, синтеза речи и других задач, связанных с созданием визуально или акустически правдоподобного контента.</li>
-</ul>
-</li>
-<li><p>Автокодировщики и вариационные автокодировщики (Autoencoders, VAEs)</p>
-<ul>
-<li>Автокодировщики представляют собой нейронные сети, которые учатся кодировать данные в сжатое представление, а затем восстанавливать их обратно. </li>
-<li>Вариационные автокодировщики (VAEs) делают это с добавлением вероятностной оценки, что позволяет генерировать более разнообразные результаты. VAEs используются для создания изображений, аудио и текста, а также для задач, где требуется контроль за параметрами выходных данных.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Трансформеры и большие языковые модели (LLM)</strong></p>
-<p>Трансформеры, такие как GPT (Generative Pre-trained Transformer), BERT и их производные, представляют собой архитектуры, особенно популярные для обработки текста. Они обучаются на больших наборах текстов и могут генерировать новые тексты, писать код, вести диалог, переводить и обрабатывать текстовые данные в различных форматах. Такие модели особенно сильны в задачах обработки языка и демонстрируют высокую гибкость в задачах текстовой генерации и анализа.</p>
-<p><strong>Диффузионные модели</strong></p>
-<p>Эти модели постепенно добавляют шум к данным, чтобы сделать их менее определёнными, а затем “восстанавливают” данные обратно к оригиналу, но уже с вариативностью. Диффузионные модели используются для генерации изображений и других типов данных, где требуется высокий уровень детализации и вариативности.</p>
-<p><strong>Рекуррентные нейронные сети (RNN)</strong></p>
-<p>Хотя RNN не так распространены, как трансформеры для генеративных задач, они до сих пор применяются в ряде случаев, особенно когда важен контекст последовательности (например, в задачах синтеза музыки или генерации текста). LSTM и GRU (в рамках RNN) также могут быть использованы для генеративных задач, где важна зависимость от временной последовательности.</p>
-<p><strong>Чем генеративный ИИ отличается от других типов ИИ</strong></p>
-<p>Генеративный ИИ отличается от других типов искусственного интеллекта по ряду характеристик:</p>
-<ul>
-<li><p>Создание новых данных vs. анализ и предсказание:</p>
-</li>
-<li><p>Генеративный ИИ создаёт новые данные (например, текст или изображение), которые не существовали в изначальном виде.</p>
-</li>
-<li><p>Дискриминативные модели (например, классификаторы) нацелены на анализ, предсказание и категоризацию, а не на генерацию. Они используют алгоритмы, такие как деревья решений, SVM или CNN для задач распознавания образов и классификации, но не могут самостоятельно создавать новые данные.</p>
-</li>
-<li><p>Использование для творчества и генерации контента:</p>
-<ul>
-<li>Генеративные модели активно используются для творчества и задач, связанных с созданием мультимедиа-контента.</li>
-<li>Дискриминативные модели используются в задачах, где требуется анализ существующих данных, например, для диагностики заболеваний, предсказания погоды, выявления мошенничества.</li>
-</ul>
-</li>
-</ul>
-<p><strong>Комплексность и требования к обучению:</strong></p>
-<ul>
-<li>Генеративные модели требуют более крупных и сложных обучающих выборок, чтобы изучить шаблоны и закономерности.</li>
-<li>Дискриминативные модели, как правило, легче обучаются и требуют меньших вычислительных ресурсов, особенно в задачах бинарной классификации.</li>
-</ul>
-<p><strong>Применение генеративного ИИ</strong><br>Генеративный ИИ находит применение во множестве сфер:</p>
-<ul>
-<li>Развлечения и медиа: <ul>
-<li>создание музыки, текста, изображений, сценариев.</li>
-</ul>
-</li>
-<li>Маркетинг: генерация контента для социальных сетей и рекламы.</li>
-<li>Наука и медицина: моделирование молекул, создание изображений для диагностики.</li>
-<li>Разработка продуктов: дизайн, генерация прототипов и улучшение изображений.</li>
-</ul>
-<p><strong>Заключение</strong><br>Генеративный ИИ — это мощный инструмент, способный создать уникальные данные и открыть новые возможности в различных областях. От традиционных моделей ИИ он отличается именно своей способностью генерировать новые данные, а не просто анализировать и классифицировать существующие.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>AI</tag>
-        <tag>science</tag>
       </tags>
   </entry>
   <entry>
@@ -437,38 +437,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Artificial Intelligence. Scientific journal (UA) <ul>
-<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
-<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
-<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>sci-hub<ul>
-<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
-<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
         <tag>ML</tag>
-        <tag>AI</tag>
         <tag>papers</tag>
       </tags>
   </entry>
@@ -530,10 +500,40 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>augmentation</tag>
         <tag>text_generation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Artificial Intelligence. Scientific journal (UA) <ul>
+<li><a href="https://jai.in.ua/index.php/en/">https://jai.in.ua/index.php/en/</a><ul>
+<li>The journal has been published since 1995. The journal registered in the list of specialized editions of Ukraine, where main dissertations results for the scientific degree in the area of engineering science and physics &amp; mathematics are published (Order of MES of Ukraine dated by 15.04.2021, № 420). The DOI name is assigned to the journal (Digital Object Identifier).</li>
+<li><a href="https://jai.in.ua/index.php/en/issues">Archive. Journal issues by years</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sci-hub<ul>
+<li><a href="https://sci-hub.se/">https://sci-hub.se/</a><ul>
+<li>Sci-Hub is the most controversial project in modern science. The goal of Sci-Hub is to provide free and unrestricted access to all scientific knowledge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -619,8 +619,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>chatbot</tag>
         <tag>Llama</tag>
       </tags>
@@ -1459,8 +1459,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
         <tag>LLM</tag>
       </tags>
@@ -1511,8 +1511,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>emotions</tag>
       </tags>
   </entry>
@@ -1557,8 +1557,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -1705,9 +1705,36 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>LLM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI - Machine Learning frameworks</title>
+    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
+<p> (Example-1)</p>
+<ol>
+<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
+ <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
+
+</li>
+<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
+<ul>
+<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
+<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
+<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -1762,35 +1789,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI - Machine Learning frameworks</title>
-    <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
-<p> (Example-1)</p>
-<ol>
-<li><p><a href="https://www.linkedin.com/feed/update/urn:li:activity:7264654540124110849">Linkedin post: Understanding Machine Learning Frameworks</a></p>
- <img src="/hexo-blog/images/machine_learning_framework_structure_ex_1.jpg" alt="Understanding Machine Learning Frameworks" title="Understanding Machine Learning Frameworks" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
-
-</li>
-<li><p>Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)</p>
-<ul>
-<li><a href="https://youtu.be/9vM4p9NN0Ts">YouTube video course. Duration: 1h 44 mins</a></li>
-<li>This lecture provides a concise overview of building a ChatGPT-like model, covering both pretraining (language modeling) and post-training (SFT&#x2F;RLHF). For each component, it explores common practices in data collection, algorithms, and evaluation methods. This guest lecture was delivered by Yann Dubois in Stanford’s CS229: Machine Learning course, in Summer 2024.</li>
-<li>For more information about Stanford’s Artificial Intelligence programs visit: <a href="https://stanford.io/ai">https://stanford.io/ai</a><img src="/hexo-blog/images/stanford_cs229_i_machine_learning_i_building_large_language_models.png" alt="AR language models" title="AR language models" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" /></li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
         <tag>ML</tag>
-        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -2028,8 +2028,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
       </tags>
   </entry>
   <entry>
@@ -2241,8 +2241,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>NPF</tag>
       </tags>
   </entry>
@@ -2385,8 +2385,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
         <tag>lexic</tag>
       </tags>
   </entry>
@@ -2441,8 +2441,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -2470,9 +2470,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -2506,6 +2506,23 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>NLP</tag>
         <tag>knowledge_base</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NLP lexical resources</title>
+    <url>/hexo-blog/2024/11/25/post_ai_nlp__nlp_lexical_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
+<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
+<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
+<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLP</tag>
+        <tag>lexic</tag>
       </tags>
   </entry>
   <entry>
@@ -2582,26 +2599,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
+        <tag>AI</tag>
         <tag>ML</tag>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLP lexical resources</title>
-    <url>/hexo-blog/2024/11/25/post_ai_nlp__nlp_lexical_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="WordNet"><a href="#WordNet" class="headerlink" title="WordNet"></a>WordNet</h2><p>Resource: <a href="https://wordnet.princeton.edu/">https://wordnet.princeton.edu/</a><br>WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser(Link is external). WordNet is also freely and publicly available for <a href="https://wordnet.princeton.edu/node/5">download</a>. WordNet’s structure makes it a useful tool for computational linguistics and natural language processing.</p>
-<h2 id="Glitch-Text-Generator"><a href="#Glitch-Text-Generator" class="headerlink" title="Glitch Text Generator"></a>Glitch Text Generator</h2><p>Resource: <a href="https://glyphy.io/font-generator/glitch-text">https://glyphy.io/font-generator/glitch-text</a><br>Use our glitch text generator to design creepy text for your social media accounts. Copy and paste these cursed fonts to add some weirdness to your profiles!</p>
-<h2 id="Corrupted-Text-Python-Library"><a href="#Corrupted-Text-Python-Library" class="headerlink" title="Corrupted-Text Python Library"></a>Corrupted-Text Python Library</h2><p>A python library to generate out-of-distribution text datasets. Specifically, the library applies model-independent, commonplace corruptions (not model-specific, worst-case adversarial corruptions). We thus aim to allow benchmark-studies regarding robustness against realistic outliers.<br><a href="https://pypi.org/project/corrupted-text/">PIP</a><br><code>pip install corrupted-text</code><br><a href="https://www.geeksforgeeks.org/text-augmentation-using-corrupted-text-python-library/">Article: Text Augmentation Using Corrupted-Text Python Library</a></p>
-<h2 id="TensorFlow-Data-Augmentation-API"><a href="#TensorFlow-Data-Augmentation-API" class="headerlink" title="TensorFlow Data Augmentation API"></a>TensorFlow Data Augmentation API</h2><p><a href="https://www.tensorflow.org/tutorials/text">Guide: Text and natural language processing with TensorFlow</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
         <tag>NLP</tag>
-        <tag>AI</tag>
-        <tag>lexic</tag>
       </tags>
   </entry>
   <entry>
@@ -2741,9 +2741,9 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
         <tag>text_classification</tag>
       </tags>
   </entry>
@@ -2836,8 +2836,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>NLP</tag>
         <tag>AI</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -2991,6 +2991,197 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>NLTK</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>List of neural network models, architectures, and basic components</title>
+    <url>/hexo-blog//ai_nn/list_of_neural_network_models_architectures_and_basic_components/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
+<ol>
+<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
+</ol>
+<hr>
+<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
+<hr>
+<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Model Examples</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Feedforward Neural Network (FNN)</strong></td>
+<td>Basic MLP (Multi-Layer Perceptron)</td>
+<td>General-purpose model for regression and classification tasks.</td>
+</tr>
+<tr>
+<td><strong>Convolutional Neural Networks (CNN)</strong></td>
+<td>VGG, ResNet, AlexNet, EfficientNet</td>
+<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
+<td>Vanilla RNN, LSTM, GRU</td>
+<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
+<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
+<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
+</tr>
+<tr>
+<td><strong>Generative Adversarial Networks (GANs)</strong></td>
+<td>DCGAN, StyleGAN, CycleGAN</td>
+<td>Generative tasks such as image synthesis and domain transfer.</td>
+</tr>
+<tr>
+<td><strong>Graph Neural Networks (GNNs)</strong></td>
+<td>GCN, GraphSAGE, GAT</td>
+<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Applications</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Neuron</strong></td>
+<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
+<td>Foundational unit in all neural networks.</td>
+</tr>
+<tr>
+<td><strong>Layer</strong></td>
+<td>A collection of neurons; can be input, hidden, or output.</td>
+<td>Used in all neural architectures.</td>
+</tr>
+<tr>
+<td><strong>Activation Function</strong></td>
+<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
+<td>Enables learning of complex patterns.</td>
+</tr>
+<tr>
+<td><strong>Dropout</strong></td>
+<td>Regularization technique randomly dropping neurons during training.</td>
+<td>Reduces overfitting in models.</td>
+</tr>
+<tr>
+<td><strong>Encoder</strong></td>
+<td>Part of the model that converts input data into a latent representation.</td>
+<td>Used in Transformers, Autoencoders, BERT, and more.</td>
+</tr>
+<tr>
+<td><strong>Decoder</strong></td>
+<td>Converts latent representations back to an output format.</td>
+<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
+</tr>
+<tr>
+<td><strong>Attention Mechanism</strong></td>
+<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
+<td>Essential in Transformers and attention-based architectures.</td>
+</tr>
+<tr>
+<td><strong>Residual Block</strong></td>
+<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
+<td>Found in ResNet, Transformer architectures.</td>
+</tr>
+<tr>
+<td><strong>Convolution Layer</strong></td>
+<td>Applies convolutional operations to extract spatial features.</td>
+<td>Used in CNNs for tasks like image and video analysis.</td>
+</tr>
+<tr>
+<td><strong>Pooling Layer</strong></td>
+<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
+<td>Used in CNNs to downsample feature maps.</td>
+</tr>
+<tr>
+<td><strong>Recurrent Cell</strong></td>
+<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
+<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
+</tr>
+<tr>
+<td><strong>Self-Attention Layer</strong></td>
+<td>Computes relationships between all input tokens to capture global dependencies.</td>
+<td>Core of Transformers.</td>
+</tr>
+<tr>
+<td><strong>Feedforward Layer</strong></td>
+<td>Dense layer applied after attention mechanisms in Transformers.</td>
+<td>Processes token-wise transformations.</td>
+</tr>
+<tr>
+<td><strong>Embedding Layer</strong></td>
+<td>Converts categorical data or tokens into dense vectors.</td>
+<td>Used in NLP, graph embeddings, and more.</td>
+</tr>
+<tr>
+<td><strong>Latent Space</strong></td>
+<td>Compressed representation of data, typically learned by encoders.</td>
+<td>Found in Autoencoders, VAEs, and GANs.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
+<thead>
+<tr>
+<th><strong>Architecture</strong></th>
+<th><strong>Key Components</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>FNN</strong></td>
+<td>Neurons, Layers, Activation Functions, Dropout.</td>
+</tr>
+<tr>
+<td><strong>CNN</strong></td>
+<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>RNN (Vanilla)</strong></td>
+<td>Recurrent Cells, Layers, Activation Functions.</td>
+</tr>
+<tr>
+<td><strong>LSTM</strong></td>
+<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
+</tr>
+<tr>
+<td><strong>Transformers</strong></td>
+<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
+</tr>
+<tr>
+<td><strong>Autoencoders</strong></td>
+<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
+</tr>
+<tr>
+<td><strong>GANs</strong></td>
+<td>Generator, Discriminator, Adversarial Loss.</td>
+</tr>
+<tr>
+<td><strong>GNNs</strong></td>
+<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
+</tr>
+</tbody></table>
+<hr>
+<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NN</tag>
       </tags>
   </entry>
   <entry>
@@ -3489,197 +3680,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>List of neural network models, architectures, and basic components</title>
-    <url>/hexo-blog//ai_nn/list_of_neural_network_models_architectures_and_basic_components/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Related to </p>
-<ol>
-<li><a href="../../../../post_ai_nn__comparison_of_popular_models_and_architectures">Comparison of Popular Models and Architectures</a></li>
-</ol>
-<hr>
-<p>This document provides a categorized list of common neural network (NN) models and architectures. It also outlines their basic components and how they fit into larger systems.</p>
-<hr>
-<h2 id="Neural-network-models-and-architectures"><a href="#Neural-network-models-and-architectures" class="headerlink" title="Neural network models and architectures"></a><strong>Neural network models and architectures</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Model Examples</strong></th>
-<th><strong>Purpose</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Feedforward Neural Network (FNN)</strong></td>
-<td>Basic MLP (Multi-Layer Perceptron)</td>
-<td>General-purpose model for regression and classification tasks.</td>
-</tr>
-<tr>
-<td><strong>Convolutional Neural Networks (CNN)</strong></td>
-<td>VGG, ResNet, AlexNet, EfficientNet</td>
-<td>Designed for image processing tasks like classification, object detection, and segmentation.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Neural Networks (RNNs)</strong></td>
-<td>Vanilla RNN, LSTM, GRU</td>
-<td>Sequential data processing for tasks like language modeling and time-series prediction.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>BERT, GPT, T5, Vision Transformer (ViT)</td>
-<td>State-of-the-art architecture for text, sequential, and image tasks.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Variational Autoencoder (VAE), Denoising Autoencoder</td>
-<td>Dimensionality reduction, feature extraction, and generative tasks.</td>
-</tr>
-<tr>
-<td><strong>Generative Adversarial Networks (GANs)</strong></td>
-<td>DCGAN, StyleGAN, CycleGAN</td>
-<td>Generative tasks such as image synthesis and domain transfer.</td>
-</tr>
-<tr>
-<td><strong>Graph Neural Networks (GNNs)</strong></td>
-<td>GCN, GraphSAGE, GAT</td>
-<td>Structured data learning tasks, e.g., on graphs or social networks.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="Basic-Components-of-Neural-Networks"><a href="#Basic-Components-of-Neural-Networks" class="headerlink" title="Basic Components of Neural Networks"></a><strong>Basic Components of Neural Networks</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Component</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Applications</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>Neuron</strong></td>
-<td>Basic computation unit applying a weighted sum followed by an activation function.</td>
-<td>Foundational unit in all neural networks.</td>
-</tr>
-<tr>
-<td><strong>Layer</strong></td>
-<td>A collection of neurons; can be input, hidden, or output.</td>
-<td>Used in all neural architectures.</td>
-</tr>
-<tr>
-<td><strong>Activation Function</strong></td>
-<td>Non-linear function applied to neurons, e.g., ReLU, Sigmoid, Tanh.</td>
-<td>Enables learning of complex patterns.</td>
-</tr>
-<tr>
-<td><strong>Dropout</strong></td>
-<td>Regularization technique randomly dropping neurons during training.</td>
-<td>Reduces overfitting in models.</td>
-</tr>
-<tr>
-<td><strong>Encoder</strong></td>
-<td>Part of the model that converts input data into a latent representation.</td>
-<td>Used in Transformers, Autoencoders, BERT, and more.</td>
-</tr>
-<tr>
-<td><strong>Decoder</strong></td>
-<td>Converts latent representations back to an output format.</td>
-<td>Used in Transformers, Autoencoders, and Seq2Seq models.</td>
-</tr>
-<tr>
-<td><strong>Attention Mechanism</strong></td>
-<td>Focuses on important parts of the input data, e.g., Self-Attention.</td>
-<td>Essential in Transformers and attention-based architectures.</td>
-</tr>
-<tr>
-<td><strong>Residual Block</strong></td>
-<td>A module that adds shortcut connections to mitigate vanishing gradients.</td>
-<td>Found in ResNet, Transformer architectures.</td>
-</tr>
-<tr>
-<td><strong>Convolution Layer</strong></td>
-<td>Applies convolutional operations to extract spatial features.</td>
-<td>Used in CNNs for tasks like image and video analysis.</td>
-</tr>
-<tr>
-<td><strong>Pooling Layer</strong></td>
-<td>Reduces spatial dimensions using techniques like max-pooling or average pooling.</td>
-<td>Used in CNNs to downsample feature maps.</td>
-</tr>
-<tr>
-<td><strong>Recurrent Cell</strong></td>
-<td>Core unit of RNNs, capable of maintaining temporal dependencies.</td>
-<td>Used in RNNs, LSTMs, and GRUs for time-series and sequential data.</td>
-</tr>
-<tr>
-<td><strong>Self-Attention Layer</strong></td>
-<td>Computes relationships between all input tokens to capture global dependencies.</td>
-<td>Core of Transformers.</td>
-</tr>
-<tr>
-<td><strong>Feedforward Layer</strong></td>
-<td>Dense layer applied after attention mechanisms in Transformers.</td>
-<td>Processes token-wise transformations.</td>
-</tr>
-<tr>
-<td><strong>Embedding Layer</strong></td>
-<td>Converts categorical data or tokens into dense vectors.</td>
-<td>Used in NLP, graph embeddings, and more.</td>
-</tr>
-<tr>
-<td><strong>Latent Space</strong></td>
-<td>Compressed representation of data, typically learned by encoders.</td>
-<td>Found in Autoencoders, VAEs, and GANs.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="How-components-relate-to-models"><a href="#How-components-relate-to-models" class="headerlink" title="How components relate to models"></a><strong>How components relate to models</strong></h2><table>
-<thead>
-<tr>
-<th><strong>Architecture</strong></th>
-<th><strong>Key Components</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>FNN</strong></td>
-<td>Neurons, Layers, Activation Functions, Dropout.</td>
-</tr>
-<tr>
-<td><strong>CNN</strong></td>
-<td>Convolution Layers, Pooling Layers, Fully Connected Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>RNN (Vanilla)</strong></td>
-<td>Recurrent Cells, Layers, Activation Functions.</td>
-</tr>
-<tr>
-<td><strong>LSTM</strong></td>
-<td>LSTM Cells (with Forget, Input, Output gates), Layers.</td>
-</tr>
-<tr>
-<td><strong>Transformers</strong></td>
-<td>Encoder, Decoder, Self-Attention, Multi-Head Attention, Feedforward Layers, Positional Embeddings.</td>
-</tr>
-<tr>
-<td><strong>Autoencoders</strong></td>
-<td>Encoder, Decoder, Latent Space, Reconstruction Loss.</td>
-</tr>
-<tr>
-<td><strong>GANs</strong></td>
-<td>Generator, Discriminator, Adversarial Loss.</td>
-</tr>
-<tr>
-<td><strong>GNNs</strong></td>
-<td>Node Embeddings, Edge Features, Graph Convolutions.</td>
-</tr>
-</tbody></table>
-<hr>
-<p>This table serves as a foundation for understanding how modern deep learning architectures are structured and utilized across a wide range of applications.</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NN</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Glossary of Machine Learning and AI Terms</title>
     <url>/hexo-blog//ai/glossary-of-machine-learning-and-ai-terms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Feel free to send me your thoughts, notes, other references. My contact details you can find on <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a></em></p>
@@ -3972,8 +3972,8 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>glossary</tag>
       </tags>
   </entry>
@@ -4084,8 +4084,8 @@ print(batch_responses)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
         <tag>local_development</tag>
       </tags>
@@ -4177,8 +4177,8 @@ def initialize_api(api_key):
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -4620,10 +4620,10 @@ def initialize_api(api_key):
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
-        <tag>AI</tag>
-        <tag>prompt_engineering</tag>
         <tag>science</tag>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
       </tags>
   </entry>
   <entry>
@@ -4775,8 +4775,8 @@ print(generated_text)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>prompt_engineering</tag>
       </tags>
   </entry>
@@ -7240,50 +7240,6 @@ print(generated_text)
   </entry>
   <entry>
     <title>Postman tests examples</title>
-    <url>/hexo-blog//dev_side/postman_tests_for_expertise/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests with implemented ;ogic where data passed via varailes, scripts and in the loop for repeting scripts by passing data(values) in some ragne</em></p>
-<p><em>Prerequisites</em> </p>
-<ol>
-<li><code>&#123;&#123;base_url&#125;&#125;</code> &#x3D; <a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com</a></li>
-<li>Given GET API request for retrieving posts : <em>&#x2F;posts</em></li>
-<li>Given GET API request for retrieving post by its ID : <em>&#x2F;posts&#x2F;</em></li>
-<li>Goal:<ol>
-<li>To make Postman script for executing API request (GET, <em>&#x2F;posts&#x2F;</em>) for getting data about posts by their IDs that were saved from the original request (GET,  <em>&#x2F;posts</em>)</li>
-</ol>
-</li>
-</ol>
-<p><strong>Actions:</strong></p>
-<ol>
-<li>Create new <em>Environment</em> </li>
-<li>For <strong>GET</strong>,  <em>&#x2F;posts</em> request, to add for <em>post-request</em> script:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Save the response to an environment variable</span></span><br><span class="line"><span class="keyword">const</span> responseData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line"><span class="comment">// Extract all IDs from the response</span></span><br><span class="line"><span class="keyword">const</span> ids = responseData.<span class="title function_">map</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="property">id</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Save the list of IDs and initialize the index</span></span><br><span class="line">pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;ids&quot;</span>, <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(ids));</span><br><span class="line">pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;currentIndex&quot;</span>, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Set the next request to process the first ID</span></span><br><span class="line">pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="string">&quot;Process Post by ID&quot;</span>);</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p><img src="/hexo-blog/image.png" alt="alt text"></p>
-<ol start="2">
-<li>For <strong>GET</strong>,  <em>&#x2F;posts&#x2F;</em>)* request, to add for <em>pre-request</em> script:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve the list of IDs and the current index</span></span><br><span class="line"><span class="keyword">const</span> ids = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;ids&quot;</span>));</span><br><span class="line"><span class="keyword">let</span> currentIndex = pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;currentIndex&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Ensure currentIndex is a valid number</span></span><br><span class="line">currentIndex = <span class="built_in">parseInt</span>(currentIndex, <span class="number">10</span>);</span><br><span class="line"><span class="keyword">if</span> (currentIndex &lt; ids.<span class="property">length</span>) &#123;</span><br><span class="line">    <span class="comment">// Set the current post_id for the request</span></span><br><span class="line">    pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;post_id&quot;</span>, ids[currentIndex]);</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;All IDs have been processed.&quot;</span>);</span><br><span class="line">    pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="literal">null</span>); <span class="comment">// Stop execution when done</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p><img src="/hexo-blog/image-1.png" alt="alt text"></p>
-<ol start="3">
-<li><p>For <strong>GET</strong>,  <em>&#x2F;posts&#x2F;</em>)* request, to add for <em>post-request</em> script:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Increment the index after processing the current request</span></span><br><span class="line"><span class="keyword">let</span> currentIndex = pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;currentIndex&quot;</span>);</span><br><span class="line">currentIndex = <span class="built_in">parseInt</span>(currentIndex, <span class="number">10</span>) + <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Save the updated index</span></span><br><span class="line">pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;currentIndex&quot;</span>, currentIndex);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Check if there are more IDs to process</span></span><br><span class="line"><span class="keyword">const</span> ids = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;ids&quot;</span>));</span><br><span class="line"><span class="keyword">if</span> (currentIndex &lt; ids.<span class="property">length</span>) &#123;</span><br><span class="line">    pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="string">&quot;Process Post by ID&quot;</span>); <span class="comment">// Repeat for the next ID</span></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Finished processing all IDs.&quot;</span>);</span><br><span class="line">    pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="literal">null</span>); <span class="comment">// Stop execution</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/hexo-blog/image-2.png" alt="alt text"></p>
-</li>
-<li><p>Execute GET,  <em>&#x2F;posts&#x2F;</em> request as much as you can. Added scripts help to iterate over all <code>post_id&#39;s</code> that retrieved from the first <strong>GET</strong>,  <em>&#x2F;posts&#x2F;</em> request. Control process of execution by checking Postman console output<br><img src="/hexo-blog/image-3.png" alt="alt text"></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>postman</tag>
-        <tag>api_testing</tag>
-        <tag>qa</tag>
-        <tag>API</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Postman tests examples</title>
     <url>/hexo-blog//dev_side/postman_tests_examples/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
 <p><strong>Table of content</strong><br><a href="#1-Validate-that-the-response-body-contains-a-specific-email">#1 Validate that the response body contains a specific</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#2 Check if the response status is 200</a><br><a href="#3-Ensure-the-response-time-is-less-than-500ms">#3 Ensure the response time is less than 500ms</a><br><a href="#4-Verify-the-users-first-name-in-the-json-response">#4 Verify the user’s first name in the JSON response</a><br><a href="#5-Validate-that-the-Content-Type-header-is-application-Json">#5 Validate that the Content-Type header is application&#x2F;json</a><br><a href="#6-Ensure-that-the-JSON-array-is-not-empty">#6 Ensure that the JSON array is not empty</a><br><a href="#7-Verify-that-a-specific-key-exists-in-the-response-body">#7 Verify that a specific key exists in the response body</a><br><a href="#8-Validate-the-response-body-includes-the-string-%E2%80%98success%E2%80%99">#8 Validate the response body includes the string ‘success’</a><br><a href="#9-Check-if-a-specific-field-is-of-a-certain-data-type">#9 Check if a specific field is of a certain data type</a><br><a href="#10-Validate-that-a-specific-field-has-a-value-greater-than-zero">#10. Validate that a specific field has a value greater than zero</a><br><a href="#11-Ensure-that-a-specific-header-exists-x-request-id">#11. Ensure that a specific header exists (X-Request-ID)</a><br><a href="#12-Verify-that-the-response-body-does-not-contain-a-specific-string">#12. Verify that the response body does not contain a specific string</a><br><a href="#13-Check-if-the-response-body-contains-a-specific-key-value-pair">#13. Check if the response body contains a specific key-value pair()(email)</a><br><a href="#14-Ensure-the-response-contains-multiple-keys">#14. Ensure the response contains multiple keys</a><br><a href="#15-Verify-that-a-fields-value-is-within-a-specific-range">#15. Verify that a field’s value is within a specific range</a><br><a href="#16-Validate-that-the-response-body-contains-a-specific-substring">#16. Validate that the response body contains a specific substring</a><br><a href="#17-Check-if-a-numeric-field-in-the-response-body-is-even">#17. Check if a numeric field in the response body is even</a><br><a href="#18-Ensure-that-the-response-body-has-a-non-empty-string-field">#18. Ensure that the response body has a non-empty string field</a><br><a href="#19-Verify-that-a-boolean-field-in-the-response-body-is-true">#19. Verify that a boolean field in the response body is true</a><br><a href="#20-Validate-that-an-array-field-has-a-specific-length">#20. Validate that an array field has a specific length</a><br><a href="#21-Check-if-a-date-field-in-the-response-body-is-in-the-past">#21. Check if a date field in the response body is in the past</a><br><a href="#22-Ensure-that-a-response-header-does-not-exist">#22. Ensure that a response header does not exist</a><br><a href="#23-Verify-that-a-specific-field-contains-a-valid-email-address">#23. Verify that a specific field contains a valid email address</a><br><a href="#24-Validate-that-a-fields-value-matches-a-specific-pattern">#24. Validate that a field’s value matches a specific pattern</a><br><a href="#25-Check-if-the-response-body-has-no-null-values-in-an-array">#25. Check if the response body has no null values in an array</a><br><a href="#26-Ensure-the-response-includes-a-specific-nested-object">#26. Ensure the response includes a specific nested object</a><br><a href="#27-Verify-that-a-list-of-ids-in-the-response-body-is-unique">#27. Verify that a list of IDs in the response body is unique</a><br><a href="#28-Validate-that-a-numeric-field-falls-within-a-certain-percentile">#28. Validate that a numeric field falls within a certain percentile </a><br><a href="#29-Check-if-a-timestamp-in-the-response-body-is-in-iso-8601-format">#29. Check if a timestamp in the response body is in ISO 8601 format</a><br><a href="#30-Ensure-that-a-specific-fields-value-does-not-contain-special-characters">#31. Verify that a specific URL in the response body is reachable</a><br><a href="#32-Validate-that-a-keys-value-is-within-a-specific-set-of-allowed-values">#32. Validate that a key’s value is within a specific set of allowed()values</a><br><a href="#33-Check-if-the-response-contains-a-nested-array-with-at-least-one-object">#33. Check if the response contains a nested array with at least one()object</a><br><a href="#34-Ensure-that-the-sum-of-a-numeric-array-field-equals-a-specific-value">#34. Ensure that the sum of a numeric array field equals a specific()value</a><br><a href="#35-Verify-that-the-response-body-does-not-contain-any-undefined-fields">#35. Verify that the response body does not contain any undefined()fields</a><br><a href="#36-Validate-that-all-objects-in-an-array-have-a-specific-key">#36. Validate that all objects in an array have a specific key</a><br><a href="#37-Check-if-a-fields-value-is-a-valid-json-object">#37. Check if a field’s value is a valid JSON object</a><br><a href="#38-Ensure-the-response-body-does-not-exceed-a-certain-length">#38. Ensure the response body does not exceed a certain length</a><br><a href="#39-Verify-that-the-response-body-does-not-contain-a-specific-key">#39. Verify that the response body does not contain a specific key</a><br><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted">#40. Validate that an array field in the response body is sorted</a></p>
@@ -7402,6 +7358,55 @@ print(generated_text)
 
 
 <h2 id="40-Validate-that-an-array-field-in-the-response-body-is-sorted"><a href="#40-Validate-that-an-array-field-in-the-response-body-is-sorted" class="headerlink" title="40. Validate that an array field in the response body is sorted:"></a>40. Validate that an array field in the response body is sorted:</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">pm.<span class="title function_">test</span>(<span class="string">&quot;validating array is sorted&quot;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> jsonData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line">    <span class="keyword">var</span> sortedArray = [...jsonData.<span class="property">data</span>].<span class="title function_">sort</span>(<span class="function">(<span class="params">a, b</span>) =&gt;</span> a - b);</span><br><span class="line">    pm.<span class="title function_">expect</span>(sortedArray).<span class="property">to</span>.<span class="title function_">eql</span>(jsonData.<span class="property">data</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>postman</tag>
+        <tag>api_testing</tag>
+        <tag>qa</tag>
+        <tag>API</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Postman tests examples</title>
+    <url>/hexo-blog//dev_side/postman_tests_for_expertise/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests with implemented logic where data is passed through variables, scripts and in a loop to repeat scripts by passing data (values) in some range.</em></p>
+<p><em>Prerequisites</em> </p>
+<ol>
+<li><code>&#123;&#123;base_url&#125;&#125;</code> &#x3D; <a href="https://jsonplaceholder.typicode.com/">https://jsonplaceholder.typicode.com</a></li>
+<li>Given GET API request for retrieving posts : <code>&#123;&#123;base_url&#125;&#125;/posts</code></li>
+<li>Given GET API request for retrieving post by its ID : <code>&#123;&#123;base_url&#125;&#125;/posts/&#123;&#123;id&#125;&#125;</code></li>
+<li>Goal:<ol>
+<li>To make Postman script for executing API request (GET, <code>&#123;&#123;base_url&#125;&#125;/posts/&#123;&#123;post_id&#125;&#125;</code>) for getting data about posts by their IDs that were saved from the original request (GET,  <code>&#123;&#123;base_url&#125;&#125;/posts</code></li>
+</ol>
+</li>
+</ol>
+<p><strong>Actions:</strong></p>
+<ol>
+<li>Create new <em>Environment</em> </li>
+<li>For <strong>GET</strong>,  <code>&#123;&#123;base_url&#125;&#125;/posts</code> request, to add for <em>post-request</em> script:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Save the response to an environment variable</span></span><br><span class="line"><span class="keyword">const</span> responseData = pm.<span class="property">response</span>.<span class="title function_">json</span>();</span><br><span class="line"><span class="comment">// Extract all IDs from the response</span></span><br><span class="line"><span class="keyword">const</span> ids = responseData.<span class="title function_">map</span>(<span class="function"><span class="params">item</span> =&gt;</span> item.<span class="property">id</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Save the list of IDs and initialize the index</span></span><br><span class="line">pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;ids&quot;</span>, <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(ids));</span><br><span class="line">pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;currentIndex&quot;</span>, <span class="number">0</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Set the next request to process the first ID</span></span><br><span class="line">pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="string">&quot;Process Post by ID&quot;</span>);</span><br></pre></td></tr></table></figure></li>
+</ol>
+<img src="/hexo-blog/images/postman_tests_for_expertise_pic_1.png">
+
+
+<ol start="2">
+<li><p>For <strong>GET</strong>,  <code>&#123;&#123;base_url&#125;&#125;/posts/&#123;&#123;post_id&#125;&#125;</code> request, to add for <em>pre-request</em> script:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve the list of IDs and the current index</span></span><br><span class="line"><span class="keyword">const</span> ids = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;ids&quot;</span>));</span><br><span class="line"><span class="keyword">let</span> currentIndex = pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;currentIndex&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Ensure currentIndex is a valid number</span></span><br><span class="line">currentIndex = <span class="built_in">parseInt</span>(currentIndex, <span class="number">10</span>);</span><br><span class="line"><span class="keyword">if</span> (currentIndex &lt; ids.<span class="property">length</span>) &#123;</span><br><span class="line">    <span class="comment">// Set the current post_id for the request</span></span><br><span class="line">    pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;post_id&quot;</span>, ids[currentIndex]);</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;All IDs have been processed.&quot;</span>);</span><br><span class="line">    pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="literal">null</span>); <span class="comment">// Stop execution when done</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<img src="/hexo-blog/images/postman_tests_for_expertise_pic_2.png">
+
+</li>
+<li><p>For <strong>GET</strong>,  <code>&#123;&#123;base_url&#125;&#125;/posts/&#123;&#123;post_id&#125;&#125;</code> request, to add for <em>post-request</em> script:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Increment the index after processing the current request</span></span><br><span class="line"><span class="keyword">let</span> currentIndex = pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;currentIndex&quot;</span>);</span><br><span class="line">currentIndex = <span class="built_in">parseInt</span>(currentIndex, <span class="number">10</span>) + <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Save the updated index</span></span><br><span class="line">pm.<span class="property">environment</span>.<span class="title function_">set</span>(<span class="string">&quot;currentIndex&quot;</span>, currentIndex);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Check if there are more IDs to process</span></span><br><span class="line"><span class="keyword">const</span> ids = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(pm.<span class="property">environment</span>.<span class="title function_">get</span>(<span class="string">&quot;ids&quot;</span>));</span><br><span class="line"><span class="keyword">if</span> (currentIndex &lt; ids.<span class="property">length</span>) &#123;</span><br><span class="line">    pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="string">&quot;Process Post by ID&quot;</span>); <span class="comment">// Repeat for the next ID</span></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Finished processing all IDs.&quot;</span>);</span><br><span class="line">    pm.<span class="property">execution</span>.<span class="title function_">setNextRequest</span>(<span class="literal">null</span>); <span class="comment">// Stop execution</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<img src="/hexo-blog/images/postman_tests_for_expertise_pic_3.png">
+
+<ol start="4">
+<li>Execute GET,  <code>&#123;&#123;base_url&#125;&#125;/posts/&#123;&#123;post_id&#125;&#125;</code> request as many times as needed. Added scripts help to iterate over all <code>post_id&#39;s</code> that retrieved from the first <strong>GET</strong>,  <code>&#123;&#123;base_url&#125;&#125;/posts/&#123;&#123;post_id&#125;&#125;</code> request. Control process of execution by checking Postman console output</li>
+</ol>
+<img src="/hexo-blog/images/postman_tests_for_expertise_pic_4.png">
+   ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
@@ -8194,6 +8199,20 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>ASCII art</title>
+    <url>/hexo-blog//fun/acsii_graphics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>acsii</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linguistic basics</title>
     <url>/hexo-blog//linguistic/linguistic_basics/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -8270,20 +8289,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>ASCII art</title>
-    <url>/hexo-blog//fun/acsii_graphics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Основы лингвистики</title>
     <url>/hexo-blog//linguistic/linguistic_basics_ru/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -8351,58 +8356,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       <tags>
         <tag>NLP</tag>
         <tag>linguistic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ML - colorizing plain text dynamically in HTML</title>
-    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
-<ol>
-<li>CSS and JavaScript Solutions<ol>
-<li><strong>CSS and JavaScript</strong></li>
-</ol>
-<ul>
-<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
-<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
-</ul>
-<ol start="2">
-<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
-</ol>
-</li>
-<li><strong>Python Libraries and Frameworks</strong><ol>
-<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
-<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
-<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
-<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
-<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
-</ol>
-</li>
-<li><strong>Machine Learning Solutions</strong><ol>
-<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
-<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
-<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
-</ol>
-</li>
-<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
-<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
-</ol>
-</li>
-</ol>
-<hr>
-<p>  <strong>Summary of Recommendations</strong></p>
-<ul>
-<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
-<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
-<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>ML</tag>
-        <tag>tutorial</tag>
-        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -8510,6 +8463,104 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>ML - colorizing plain text dynamically in HTML</title>
+    <url>/hexo-blog/2024/11/14/post_ml_colorizing_plain_text_dynamically_in_html/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>For colorizing plain text dynamically in HTML, you can take several approaches based on your needs. Here are some known methods, tools, and frameworks, including both lightweight CSS&#x2F;JavaScript solutions and Python-based frameworks that leverage natural language processing (NLP) and machine learning to analyze and colorize text based on sentiment, keywords, or other factors.</em></p>
+<ol>
+<li>CSS and JavaScript Solutions<ol>
+<li><strong>CSS and JavaScript</strong></li>
+</ol>
+<ul>
+<li><em>CSS Classes:</em><br> You can create predefined CSS classes for different semantic categories (like .positive, .negative, .neutral, etc.) and apply these classes conditionally using JavaScript.</li>
+<li><em>JavaScript with Sentiment Analysis APIs:</em><br> JavaScript can detect certain keywords or analyze sentiment using a lightweight API (e.g., Aylien, Twinword). The result can be used to assign CSS classes to colorize the text based on positive, neutral, or negative sentiment.</li>
+</ul>
+<ol start="2">
+<li><em>Color Thief (JavaScript Library)</em><br> Color Thief is a small JavaScript library that extracts dominant colors from images. Although it’s primarily for images, you can adapt it to analyze background colors of images, which could then be applied to corresponding text. This is more complex and situational but works well for aesthetic color matching.</li>
+</ol>
+</li>
+<li><strong>Python Libraries and Frameworks</strong><ol>
+<li><em>TextBlob</em><br> TextBlob is a Python library for processing textual data. It’s easy to use and provides simple API calls to perform sentiment analysis (polarity, subjectivity). The results can help assign colors based on sentiment.<br> Use Case: After analyzing sentiment polarity, you can map scores to color classes and render the HTML using Python-based templating engines like Jinja2.<br> References:<a href="https://towardsdatascience.com/having-fun-with-textblob-7e9eed783d3f">Introducing TextBlob<br>A Python library for processing textual data, NLP framework, sentiment analysis</a>, <a href="https://medium.com/@qudrohbidemi/sentiment-analysis-project-using-textblob-216d3fe119fc">Sentiment Analysis Project Using TextBlob</a> , <a href="https://jorgestutorials.com/sentimentanalysistextblob.html">Sentiment Analysis with TextBlob**</a></li>
+<li><em>NLTK (Natural Language Toolkit)</em><br> NLTK provides extensive tools for text processing, and it can be used to categorize words, perform named-entity recognition, or detect topics. You could use these tags to assign specific colors to text.<br> Customization: Use NLTK’s tools to tag parts of speech or entities (like names, locations), then apply color based on each type.</li>
+<li><em>SpaCy</em><br> <a href="https://spacy.io/">SpaCy</a> is a powerful NLP library that provides pre-trained models for named entity recognition, parts of speech tagging, and more. You can use these categories to assign colors to text based on identified entities.<br> Usage: SpaCy models can highlight organizations, people, or other entities, and each type can be styled with a specific color.</li>
+<li><em>NLTK + Seaborn (for Heatmaps or Color Scaling)</em><br> Using <a href="https://www.nltk.org/">NLTK</a> for sentiment combined with <a href="https://seaborn.pydata.org/">Seaborn</a> (a visualization library) allows you to create color gradients that reflect the text sentiment strength. For example, stronger positive or negative sentiment can be mapped to color intensity.<br> <em><strong>Example</strong></em>: Map positive sentiments to green shades and negative sentiments to red, and then render HTML with colored spans for different text parts.<br> Reference: <a href="https://seaborn.pydata.org/generated/seaborn.heatmap.html">seaborn.heatmap</a> , <a href="https://python-graph-gallery.com/92-control-color-in-seaborn-heatmaps/">Control color in seaborn heatmaps</a></li>
+<li>Pillow (for Color Extraction and Analysis)<br> <a href="https://pillow.readthedocs.io/en/stable/">Pillow</a> can extract dominant colors from an image file and can be combined with textual data in certain contexts (e.g., background-image analysis and text overlay).<br> <em><strong>Example</strong></em>: Use dominant colors from an image as a background for text, enhancing UI consistency and readability.<br> Reference: <a href="https://shegocodes.medium.com/extracting-all-colors-in-images-with-python-2e36eb8a67d2">Medium | Extracting All Colors in Images with Python</a></li>
+</ol>
+</li>
+<li><strong>Machine Learning Solutions</strong><ol>
+<li><em>TensorFlow &#x2F; Keras (Text Classification)</em><br> TensorFlow&#x2F;Keras can train models to classify text into categories based on tone, emotion, or topic. A neural network model can be trained to detect emotions or sentiment and output classes that correspond to color themes.<br> Implementation: Use a pre-trained model (or train one) for text sentiment or emotion classification. Then, map each category to a color and apply it dynamically. TensorFlow Lite can further optimize the model for lighter web applications.</li>
+<li><em>Hugging Face Transformers</em><br> The Hugging Face library offers a collection of transformer models for NLP tasks, including sentiment analysis, topic detection, and entity recognition. Using a model like DistilBERT or RoBERTa, you can analyze text and assign colors based on predicted classes.<br> Application: After running text through the model, assign colors based on its classification (e.g., color positive sentiments in green, neutral in gray, and negative in red).</li>
+<li><em>OpenAI GPT-3 &#x2F; GPT-4 API</em><br> OpenAI’s GPT-3 and GPT-4 can analyze text to detect tone, sentiment, or even highlight keywords or important information. You could send text to the API and use its outputs to apply colors conditionally based on analysis.<br> <em><strong>How To Use</strong></em>: **Call the API to get sentiment or topic analysis, then use CSS classes to colorize the HTML text dynamically based on the response.</li>
+</ol>
+</li>
+<li><strong>Web-Based Text Analysis Tools with APIs</strong><ol>
+<li>Aylien, MonkeyLearn, and Twinword<br> These are third-party text analysis APIs that offer sentiment analysis, entity recognition, and other NLP features. They can be accessed from both Python and JavaScript environments.<br> <em>Integration</em>: Fetch analysis results via API and use the output categories to style HTML text accordingly.</li>
+</ol>
+</li>
+</ol>
+<hr>
+<p>  <strong>Summary of Recommendations</strong></p>
+<ul>
+<li><em>Quick, Lightweight Solution</em>: Use CSS classes with JavaScript or APIs like Aylien and TextBlob for sentiment-based coloring.</li>
+<li><em>Python-Based NLP and Visualization</em>: Use TextBlob, NLTK, and Seaborn for Python-only projects requiring sentiment-based or entity-based coloring.</li>
+<li><em>Advanced Customization</em>: Use SpaCy, Hugging Face models, or TensorFlow&#x2F;Keras if you need deeper analysis and customization, especially for applications that benefit from entity detection or complex classifications.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>ML</tag>
+        <tag>tutorial</tag>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My glossaries</title>
+    <url>/hexo-blog//knowledge/my-glossaries/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
+<ol>
+<li>🏥 <strong>Medical glossaries</strong>:<ol>
+<li>⚕️ <em>General medical glossary</em>: <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/medical-glossary-1/">https://ooge0.github.io/glossary/medical-glossary-1/</a></li>
+<li>Parsed resource: <a href="https://medconsonline.com/en/glossary">https://medconsonline.com/en/glossary</a></li>
+</ul>
+</li>
+<li>🧙 <em>General oncology glossary</em>: <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/oncology-glossary-1/">https://ooge0.github.io/glossary/oncology-glossary-1/</a></li>
+<li>Parsed resource: <a href="https://chemoteka.com.ua/dictionary">https://chemoteka.com.ua/dictionary</a></li>
+</ul>
+</li>
+</ol>
+</li>
+<li>🗿 <strong>Philosophy glossaries</strong>:<ol>
+<li><em>General philosophy glossary</em>(ENG):  <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/">https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/</a></li>
+<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
+</ul>
+</li>
+<li><em><strong>General philosophy glossary</strong></em>(UA):  <ul>
+<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
+<li>Web link: <a href="https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/">https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/</a></li>
+<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>science</tag>
+        <tag>glossary</tag>
+        <tag>knowledge</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Types of protocols for interaction on client-server architecture level.</title>
     <url>/hexo-blog/2024/04/09/post_network_protocols/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
@@ -8590,52 +8641,6 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </categories>
       <tags>
         <tag>other</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My glossaries</title>
-    <url>/hexo-blog//knowledge/my-glossaries/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>This post contains list of glossary&#x2F;vacabularies</strong></p>
-<ol>
-<li>🏥 <strong>Medical glossaries</strong>:<ol>
-<li>⚕️ <em>General medical glossary</em>: <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/medical-glossary-1/">https://ooge0.github.io/glossary/medical-glossary-1/</a></li>
-<li>Parsed resource: <a href="https://medconsonline.com/en/glossary">https://medconsonline.com/en/glossary</a></li>
-</ul>
-</li>
-<li>🧙 <em>General oncology glossary</em>: <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/oncology-glossary-1/">https://ooge0.github.io/glossary/oncology-glossary-1/</a></li>
-<li>Parsed resource: <a href="https://chemoteka.com.ua/dictionary">https://chemoteka.com.ua/dictionary</a></li>
-</ul>
-</li>
-</ol>
-</li>
-<li>🗿 <strong>Philosophy glossaries</strong>:<ol>
-<li><em>General philosophy glossary</em>(ENG):  <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/">https://ooge0.github.io/glossary/en/en__philosophy_glossary_1/</a></li>
-<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
-</ul>
-</li>
-<li><em><strong>General philosophy glossary</strong></em>(UA):  <ul>
-<li>Glossary created by <a href="https://www.mkdocs.org/">MkDocs</a></li>
-<li>Web link: <a href="https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/">https://ooge0.github.io/glossary/uk/ua__philosophy_glossary_1/</a></li>
-<li>Parsed resource: plato.stanford.edu, iep.utm.edu, britannica.com&#x2F;topic&#x2F;philosophy</li>
-</ul>
-</li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>science</tag>
-        <tag>glossary</tag>
-        <tag>knowledge</tag>
       </tags>
   </entry>
   <entry>
@@ -8791,8 +8796,8 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>ML</tag>
         <tag>AI</tag>
+        <tag>ML</tag>
         <tag>papers</tag>
       </tags>
   </entry>
@@ -8923,7 +8928,7 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       </tags>
   </entry>
   <entry>
-    <title>Software QA - Naming conventino</title>
+    <title>Software QA - Naming convention</title>
     <url>/hexo-blog//qa/naming-convention/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Загальні-правила-варіантів"><a href="#Загальні-правила-варіантів" class="headerlink" title="Загальні правила варіантів:"></a>Загальні правила варіантів:</h2><h3 id="Обов’язкові-частини"><a href="#Обов’язкові-частини" class="headerlink" title="Обов’язкові частини:"></a><strong>Обов’язкові частини:</strong></h3><ul>
 <li><strong><code>[Department]:</code></strong> Назва департаменту (Support_department, Business_department, Finance_department).  </li>
@@ -9610,6 +9615,11 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
     <title>blog deploy actions</title>
     <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
@@ -9643,20 +9653,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Tags</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
@@ -9667,6 +9663,15 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tags</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -10034,24 +10039,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>HEXO blog design</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
@@ -10095,6 +10082,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>hexo_io</tag>
         <tag>note</tag>
         <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
       </tags>
   </entry>
   <entry>
@@ -10188,37 +10193,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>How to Format a USB Using CMD (Command Prompt)</title>
-    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
-<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
-<ol>
-<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
-<li>Open Command Prompt as an administrator:<ul>
-<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
-<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
-</ul>
-</li>
-<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
-<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
-<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
-</ol>
-<p><em><strong>Referencse:</strong></em></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>usb</tag>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Info data</title>
     <url>/hexo-blog//info_data/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
@@ -10283,6 +10257,56 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Moving from old blog site</title>
+    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
+<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
+<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
+<li><input disabled="" type="checkbox"> Improve footer section</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to Format a USB Using CMD (Command Prompt)</title>
+    <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
+<p>A step-by-step guide to use the Command Prompt to reformat and clean a flash drive</p>
+<ol>
+<li>Plug your USB drive<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> into your computer.</li>
+<li>Open Command Prompt as an administrator:<ul>
+<li><strong>Option 1:</strong> Go to the <code>Start</code> menu, type <code>CMD</code>, and select <strong>Run as administrator</strong>.</li>
+<li><strong>Option 2:</strong> Press <code>WIN + R</code>, type <code>cmd</code>, and press <code>↵ Enter</code>.</li>
+</ul>
+</li>
+<li>Type <code>diskpart</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>list disk</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>select disk [Your disk]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>clean</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>create partition primary</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>format fs=ntfs</code> and press <code>↵ Enter</code>.</li>
+<li>Type <code>assign letter=[letter]</code> and press <code>↵ Enter</code>. </li>
+<li>Type <code>exit</code> and press <code>↵ Enter</code>.</li>
+</ol>
+<p><em><strong>Referencse:</strong></em></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB drive</a>.</span><a href="#fnref:1" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>usb</tag>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Other papers</title>
     <url>/hexo-blog//notes/other_papers/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Economics"><a href="#Economics" class="headerlink" title="Economics"></a>Economics</h2><ol>
@@ -10338,25 +10362,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Moving from old blog site</title>
-    <url>/hexo-blog/2024/10/21/notes/moving_from_old_blog_site/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><ul>
-<li><input checked="" disabled="" type="checkbox"> Update My GitHub projects post. Update links, descriptions, etc.</li>
-<li><input checked="" disabled="" type="checkbox"> Update HEXO.IO design for <code>lanscape</code> theme</li>
-<li><input checked="" disabled="" type="checkbox"> Improve header section</li>
-<li><input disabled="" type="checkbox"> Improve footer section</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
       </tags>
   </entry>
   <entry>
@@ -10777,6 +10782,92 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Favorite movies</title>
+    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
+<p><a href="#Takedown">Takedown</a><br><a href="#WarGames">WarGames</a><br><a href="#Tron">Tron</a><br><a href="@Hackers">Hackers</a><br><a href="#The-Net">The-Net</a></p>
+<p><a href="#footnotes">footnotes</a></p>
+<hr>
+<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
+<li>Initial reliese: 2000</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
+<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
+<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
+</ul>
+<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
+<li>Initial release: 1983</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
+<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
+<li>Starring: Matthew Broderick, Ally Sheedy</li>
+<li>Director: John Badham</li>
+</ul>
+<hr>
+<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
+<li>Initial release: 1982</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
+<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
+<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
+<li>Director: Steven Lisberger</li>
+</ul>
+<hr>
+<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
+<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
+<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
+<li>Director: Iain Softley</li>
+</ul>
+<hr>
+<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
+<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
+<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
+<li>Director: Phil Alden Robinson</li>
+</ul>
+<hr>
+<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
+<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
+<li>Starring: Sandra Bullock</li>
+<li>Director: Irwin Winkler</li>
+</ul>
+<hr>
+<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
+<li>Initial release: 1984</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
+<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
+<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
+<li>Director: Steve Barron</li>
+</ul>
+<hr>
+<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
+<li>Initial release: 1992</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
+<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
+<li>Starring: Jeff Fahey, Pierce Brosnan</li>
+<li>Director: Brett Leonard</li>
+</ul>
+<hr>
+<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
+<li>Initial release: 1995</li>
+<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
+<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
+<li>Director: Mamoru Oshii</li>
+</ul>
+<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>movie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXIO.IO fixes guide</title>
     <url>/hexo-blog/2024/11/01/tutorials/HEXO.IO_fixes_guide/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>For making changes in blog design check that:</p>
@@ -11148,92 +11239,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>blog</tag>
         <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite movies</title>
-    <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
-<p><a href="#Takedown">Takedown</a><br><a href="#WarGames">WarGames</a><br><a href="#Tron">Tron</a><br><a href="@Hackers">Hackers</a><br><a href="#The-Net">The-Net</a></p>
-<p><a href="#footnotes">footnotes</a></p>
-<hr>
-<h2 id="Takedown"><a href="#Takedown" class="headerlink" title="Takedown"></a>Takedown</h2><ul>
-<li>Initial reliese: 2000</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0159784/">https://www.imdb.com/title/tt0159784/</a></li>
-<li>About: Based on the story of the capture of computer hacker ‘Kevin Mitnick’. However, when breaks into the computer of a security expert and an ex-hacker, he’s in for a shock and has more than he can handle.</li>
-<li>Based on: The book “Takeodwn” by Tsutomu Shimomura<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> with John Markoff<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
-</ul>
-<h2 id="WarGames"><a href="#WarGames" class="headerlink" title="WarGames"></a>WarGames</h2><ul>
-<li>Initial release: 1983</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0086567/">https://www.imdb.com/title/tt0086567/</a></li>
-<li>About: A young computer whiz kid accidentally connects to a U.S. military supercomputer while searching for new video games. He unknowingly initiates a nuclear war simulation, sparking a real-world crisis.</li>
-<li>Starring: Matthew Broderick, Ally Sheedy</li>
-<li>Director: John Badham</li>
-</ul>
-<hr>
-<h2 id="Tron"><a href="#Tron" class="headerlink" title="Tron"></a>Tron</h2><ul>
-<li>Initial release: 1982</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0084827/">https://www.imdb.com/title/tt0084827/</a></li>
-<li>About: A computer programmer is transported inside a computer where he battles a malevolent software program. One of the earliest films to explore digital realms and hacker culture in a stylized setting.</li>
-<li>Starring: Jeff Bridges, Bruce Boxleitner</li>
-<li>Director: Steven Lisberger</li>
-</ul>
-<hr>
-<h2 id="Hackers"><a href="#Hackers" class="headerlink" title="Hackers"></a>Hackers</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113243/">https://www.imdb.com/title/tt0113243/</a></li>
-<li>About: A group of teenage hackers stumbles upon a massive corporate fraud conspiracy while trying to outwit an older, sinister hacker. Known for its vibrant visual style and soundtrack.</li>
-<li>Starring: Angelina Jolie, Jonny Lee Miller</li>
-<li>Director: Iain Softley</li>
-</ul>
-<hr>
-<h2 id="Sneakers"><a href="#Sneakers" class="headerlink" title="Sneakers"></a>Sneakers</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0105435/">https://www.imdb.com/title/tt0105435/</a></li>
-<li>About: A team of security system experts is blackmailed into stealing a top-secret decoder, but soon realize they are being used by the government. This thriller features an all-star cast and explores themes of surveillance and encryption.</li>
-<li>Starring: Robert Redford, Dan Aykroyd, Sidney Poitier</li>
-<li>Director: Phil Alden Robinson</li>
-</ul>
-<hr>
-<h2 id="The-Net"><a href="#The-Net" class="headerlink" title="The Net"></a>The Net</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113957/">https://www.imdb.com/title/tt0113957/</a></li>
-<li>About: A computer programmer becomes entangled in a conspiracy after her identity is stolen. The film was notable for addressing online identity theft and digital security during the early days of the internet.</li>
-<li>Starring: Sandra Bullock</li>
-<li>Director: Irwin Winkler</li>
-</ul>
-<hr>
-<h2 id="Electric-Dreams"><a href="#Electric-Dreams" class="headerlink" title="Electric Dreams"></a>Electric Dreams</h2><ul>
-<li>Initial release: 1984</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0087197/">https://www.imdb.com/title/tt0087197/</a></li>
-<li>About: A love triangle develops between a man, a woman, and a computer. The film blends romance and sci-fi, illustrating the rising influence of computers in everyday life.</li>
-<li>Starring: Lenny von Dohlen, Virginia Madsen</li>
-<li>Director: Steve Barron</li>
-</ul>
-<hr>
-<h2 id="The-Lawnmower-Man"><a href="#The-Lawnmower-Man" class="headerlink" title="The Lawnmower Man"></a>The Lawnmower Man</h2><ul>
-<li>Initial release: 1992</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0104692/">https://www.imdb.com/title/tt0104692/</a></li>
-<li>About: A scientist conducts virtual reality experiments to enhance the intelligence of a simple gardener. The film explores the risks of technological enhancement and the ethical boundaries of science.</li>
-<li>Starring: Jeff Fahey, Pierce Brosnan</li>
-<li>Director: Brett Leonard</li>
-</ul>
-<hr>
-<h2 id="Ghost-in-the-Shell"><a href="#Ghost-in-the-Shell" class="headerlink" title="Ghost in the Shell"></a>Ghost in the Shell</h2><ul>
-<li>Initial release: 1995</li>
-<li>IMDB: <a href="https://www.imdb.com/title/tt0113568/">https://www.imdb.com/title/tt0113568/</a></li>
-<li>About: In a futuristic society, a cyborg cop hunts a mysterious hacker known as the Puppet Master. This Japanese animated film influenced cyberpunk aesthetics and explores themes of identity and consciousness.</li>
-<li>Director: Mamoru Oshii</li>
-</ul>
-<p><em><strong>Footnotes:</strong></em><br><a id="footnotes"></a></p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/Tsutomu_Shimomura">Tsutomu Shimomura</a>. More deails about Tsutomu Shimomura you can find in <a href="http://www.takedown.com/bio/">BIO</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://en.wikipedia.org/wiki/John_Markoff">John Markoff</a>  is a journalist best known for his work covering technology at The New York Times for 28 years until his retirement in 2016, and a book and series of articles about the 1990s pursuit and capture of hacker Kevin Mitnick.</span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>movie</tag>
       </tags>
   </entry>
   <entry>
