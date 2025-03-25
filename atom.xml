@@ -45,6 +45,40 @@
   </entry>
   
   <entry>
+    <title>Excel Commands Cheat Sheet (Google Sheets, LibreOffice Calc, OpenOffice Calc)</title>
+    <link href="https://ooge0.github.io/hexo-blog/other/excel_commands_cheat_sheet/"/>
+    <id>https://ooge0.github.io/hexo-blog/other/excel_commands_cheat_sheet/</id>
+    <published>2025-03-14T22:00:00.000Z</published>
+    <updated>2025-03-25T05:58:39.655Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Excel-Commands-Cheat-Sheet-Google-Sheets-LibreOffice-Calc-OpenOffice-Calc"><a href="#Excel-Commands-Cheat-Sheet-Google-Sheets-LibreOffice-Calc-OpenOffice-Calc" class="headerlink" title="Excel Commands Cheat Sheet (Google Sheets, LibreOffice Calc, OpenOffice Calc)"></a>Excel Commands Cheat Sheet (Google Sheets, LibreOffice Calc, OpenOffice Calc)</h1><h2 id="1-Hotkeys-for-Common-Actions"><a href="#1-Hotkeys-for-Common-Actions" class="headerlink" title="1. Hotkeys for Common Actions"></a>1. Hotkeys for Common Actions</h2><table><thead><tr><th>Action</th><th>Google Sheets</th><th>LibreOffice Calc</th><th>OpenOffice Calc</th></tr></thead><tbody><tr><td>Select entire column</td><td>Ctrl + Space</td><td>Ctrl + Space</td><td>Ctrl + Space</td></tr><tr><td>Select entire row</td><td>Shift + Space</td><td>Shift + Space</td><td>Shift + Space</td></tr><tr><td>Auto-fill down</td><td>Ctrl + Enter</td><td>Ctrl + D</td><td>Ctrl + D</td></tr><tr><td>Auto-fill right</td><td>Ctrl + R</td><td>Ctrl + R</td><td>Ctrl + R</td></tr><tr><td>Insert new row</td><td>Ctrl + Shift + “+”</td><td>Ctrl + “+”</td><td>Ctrl + “+”</td></tr><tr><td>Insert new column</td><td>Ctrl + Shift + “+”</td><td>Ctrl + “+”</td><td>Ctrl + “+”</td></tr><tr><td>Delete row&#x2F;column</td><td>Ctrl + “-“</td><td>Ctrl + “-“</td><td>Ctrl + “-“</td></tr><tr><td>Open find and replace</td><td>Ctrl + H</td><td>Ctrl + H</td><td>Ctrl + H</td></tr><tr><td>Open filter</td><td>Ctrl + Shift + L</td><td>AutoFilter icon</td><td>AutoFilter icon</td></tr></tbody></table><h2 id="2-Working-with-Strings-Join-Concat-Split"><a href="#2-Working-with-Strings-Join-Concat-Split" class="headerlink" title="2. Working with Strings (Join, Concat, Split)"></a>2. Working with Strings (Join, Concat, Split)</h2><table><thead><tr><th>Function</th><th>Google Sheets</th><th>LibreOffice Calc</th><th>OpenOffice Calc</th></tr></thead><tbody><tr><td>Concatenate strings</td><td>&#x3D;CONCAT(A1, B1)</td><td>&#x3D;CONCATENATE(A1; B1)</td><td>&#x3D;CONCATENATE(A1; B1)</td></tr><tr><td>Join strings with delimiter</td><td>&#x3D;TEXTJOIN(“, “, TRUE, A1:A3)</td><td>&#x3D;TEXTJOIN(“, “, 1, A1:A3)</td><td>Not available</td></tr><tr><td>Split string</td><td>&#x3D;SPLIT(A1, “ “)</td><td>&#x3D;TEXTSPLIT(A1, “ “)</td><td>&#x3D;TEXTSPLIT(A1, “ “)</td></tr><tr><td>Extract left part</td><td>&#x3D;LEFT(A1, 3)</td><td>&#x3D;LEFT(A1; 3)</td><td>&#x3D;LEFT(A1; 3)</td></tr><tr><td>Extract right part</td><td>&#x3D;RIGHT(A1, 3)</td><td>&#x3D;RIGHT(A1; 3)</td><td>&#x3D;RIGHT(A1; 3)</td></tr><tr><td>Extract middle part</td><td>&#x3D;MID(A1, 2, 4)</td><td>&#x3D;MID(A1; 2; 4)</td><td>&#x3D;MID(A1; 2; 4)</td></tr></tbody></table><h2 id="3-Generate-Data-Through-Columns-and-Rows"><a href="#3-Generate-Data-Through-Columns-and-Rows" class="headerlink" title="3. Generate Data Through Columns and Rows"></a>3. Generate Data Through Columns and Rows</h2><table><thead><tr><th>Task</th><th>Google Sheets</th><th>LibreOffice Calc</th><th>OpenOffice Calc</th></tr></thead><tbody><tr><td>Fill series (Numbers)</td><td>Drag handle</td><td>Drag handle</td><td>Drag handle</td></tr><tr><td>Fill series (Custom)</td><td>&#x3D;SEQUENCE(10,1,100,5)</td><td>&#x3D;SERIES(A1, A2, A3)</td><td>&#x3D;SERIES(A1, A2, A3)</td></tr><tr><td>Auto-fill dates</td><td>Drag handle with Ctrl</td><td>Drag handle with Ctrl</td><td>Drag handle with Ctrl</td></tr></tbody></table><h2 id="4-Generate-Time-in-Different-Formats"><a href="#4-Generate-Time-in-Different-Formats" class="headerlink" title="4. Generate Time in Different Formats"></a>4. Generate Time in Different Formats</h2><table><thead><tr><th>Task</th><th>Google Sheets</th><th>LibreOffice Calc</th><th>OpenOffice Calc</th></tr></thead><tbody><tr><td>Current date</td><td>&#x3D;TODAY()</td><td>&#x3D;TODAY()</td><td>&#x3D;TODAY()</td></tr><tr><td>Current time</td><td>&#x3D;NOW()</td><td>&#x3D;NOW()</td><td>&#x3D;NOW()</td></tr><tr><td>Custom date format</td><td>&#x3D;TEXT(A1, “MM&#x2F;DD&#x2F;YYYY”)</td><td>&#x3D;TEXT(A1; “MM&#x2F;DD&#x2F;YYYY”)</td><td>&#x3D;TEXT(A1; “MM&#x2F;DD&#x2F;YYYY”)</td></tr><tr><td>Custom time format</td><td>&#x3D;TEXT(A1, “HH:MM AM&#x2F;PM”)</td><td>&#x3D;TEXT(A1; “HH:MM AM&#x2F;PM”)</td><td>&#x3D;TEXT(A1; “HH:MM AM&#x2F;PM”)</td></tr></tbody></table><h2 id="5-Filtering-by-Conditions-Between-Two-Columns-Same-or-Different-Tabs"><a href="#5-Filtering-by-Conditions-Between-Two-Columns-Same-or-Different-Tabs" class="headerlink" title="5. Filtering by Conditions Between Two Columns (Same or Different Tabs)"></a>5. Filtering by Conditions Between Two Columns (Same or Different Tabs)</h2><table><thead><tr><th>Condition</th><th>Google Sheets</th><th>LibreOffice Calc</th><th>OpenOffice Calc</th></tr></thead><tbody><tr><td>Values in Col A greater than Col B</td><td>&#x3D;FILTER(A:A, A:A&gt;B:B)</td><td>AutoFilter</td><td>AutoFilter</td></tr><tr><td>Values in Col A less than Col B</td><td>&#x3D;FILTER(A:A, A:A&lt;B:B)</td><td>AutoFilter</td><td>AutoFilter</td></tr><tr><td>Values matching another sheet</td><td>&#x3D;FILTER(A:A, A:A&#x3D;Sheet2!B:B)</td><td>&#x3D;VLOOKUP(A1, Sheet2.B:B, 1, 0)</td><td>&#x3D;VLOOKUP(A1, Sheet2.B:B, 1, 0)</td></tr></tbody></table><h2 id="6-Comparing-Data-by-Different-Columns"><a href="#6-Comparing-Data-by-Different-Columns" class="headerlink" title="6. Comparing Data by Different Columns"></a>6. Comparing Data by Different Columns</h2><table><thead><tr><th>Task</th><th>Google Sheets</th><th>LibreOffice Calc</th><th>OpenOffice Calc</th></tr></thead><tbody><tr><td>Compare two columns for matches</td><td>&#x3D;IF(A1&#x3D;B1, “Match”, “No Match”)</td><td>&#x3D;IF(A1&#x3D;B1; “Match”; “No Match”)</td><td>&#x3D;IF(A1&#x3D;B1; “Match”; “No Match”)</td></tr><tr><td>Find duplicates</td><td>&#x3D;COUNTIF(A:A, A1)&gt;1</td><td>&#x3D;COUNTIF(A:A; A1)&gt;1</td><td>&#x3D;COUNTIF(A:A; A1)&gt;1</td></tr></tbody></table><h2 id="7-Searching-for-Specific-Value-s-in-a-Range-or-Whole-Table"><a href="#7-Searching-for-Specific-Value-s-in-a-Range-or-Whole-Table" class="headerlink" title="7. Searching for Specific Value(s) in a Range or Whole Table"></a>7. Searching for Specific Value(s) in a Range or Whole Table</h2><table><thead><tr><th>Task</th><th>Google Sheets</th><th>LibreOffice Calc</th><th>OpenOffice Calc</th></tr></thead><tbody><tr><td>Find value in range</td><td>&#x3D;MATCH(100, A:A, 0)</td><td>&#x3D;MATCH(100; A:A; 0)</td><td>&#x3D;MATCH(100; A:A; 0)</td></tr><tr><td>Find value in table</td><td>&#x3D;VLOOKUP(100, A:B, 2, FALSE)</td><td>&#x3D;VLOOKUP(100; A:B; 2; 0)</td><td>&#x3D;VLOOKUP(100; A:B; 2; 0)</td></tr><tr><td>Find value across sheets</td><td>&#x3D;VLOOKUP(100, Sheet2!A:B, 2, FALSE)</td><td>&#x3D;VLOOKUP(100; Sheet2.A:B; 2; 0)</td><td>&#96;&#x3D;VLOOKUP(100;</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h1 id=&quot;Excel-Commands-Cheat-Sheet-Google</summary>
+      
+    
+    
+    
+    <category term="Productivity" scheme="https://ooge0.github.io/hexo-blog/categories/Productivity/"/>
+    
+    <category term="QA" scheme="https://ooge0.github.io/hexo-blog/categories/Productivity/QA/"/>
+    
+    
+    <category term="qa" scheme="https://ooge0.github.io/hexo-blog/tags/qa/"/>
+    
+    <category term="Excel" scheme="https://ooge0.github.io/hexo-blog/tags/Excel/"/>
+    
+    <category term="Google Sheets" scheme="https://ooge0.github.io/hexo-blog/tags/Google-Sheets/"/>
+    
+    <category term="LibreOffice Calc" scheme="https://ooge0.github.io/hexo-blog/tags/LibreOffice-Calc/"/>
+    
+    <category term="OpenOffice Calc" scheme="https://ooge0.github.io/hexo-blog/tags/OpenOffice-Calc/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Software QA - Naming convention</title>
     <link href="https://ooge0.github.io/hexo-blog/qa/naming-convention/"/>
     <id>https://ooge0.github.io/hexo-blog/qa/naming-convention/</id>
@@ -464,9 +498,9 @@
     <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
     
     
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
-    
     <category term="AI" scheme="https://ooge0.github.io/hexo-blog/tags/AI/"/>
+    
+    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
     <category term="prompt_engineering" scheme="https://ooge0.github.io/hexo-blog/tags/prompt-engineering/"/>
     
@@ -523,30 +557,6 @@
     <category term="NLP" scheme="https://ooge0.github.io/hexo-blog/tags/NLP/"/>
     
     <category term="linguistic" scheme="https://ooge0.github.io/hexo-blog/tags/linguistic/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fine-Tuning vs. Training Models for Specific Tasks</title>
-    <link href="https://ooge0.github.io/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/"/>
-    <id>https://ooge0.github.io/hexo-blog/2024/12/10/post_ai_ml_basiscs__fune_tuning_vs_training_models_for_specific_tasks/</id>
-    <published>2024-12-10T17:30:33.000Z</published>
-    <updated>2024-12-10T17:30:22.717Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and training are two common approaches to adapting machine learning models for specific tasks. While training involves building a model from scratch or pre-trained weights, fine-tuning adapts an already trained model to perform well on a particular task. Below, we explore the nuances of these approaches for various popular architectures, including FFNs, CNNs, LSTMs, and Transformers.</p><hr><h2 id="Key-differences-between-fine-tuning-and-training"><a href="#Key-differences-between-fine-tuning-and-training" class="headerlink" title="Key differences between fine-tuning and training"></a>Key differences between fine-tuning and training</h2><table><thead><tr><th>Aspect</th><th>Fine-Tuning</th><th>Training</th></tr></thead><tbody><tr><td><strong>Starting Point</strong></td><td>Pre-trained model weights from a related task (e.g., ImageNet for vision, GPT for text).</td><td>Randomly initialized weights.</td></tr><tr><td><strong>Data Requirements</strong></td><td>Requires less data; leverages knowledge from the pre-trained model.</td><td>Requires large amounts of labeled data.</td></tr><tr><td><strong>Training Duration</strong></td><td>Generally shorter; only adjusts some layers.</td><td>Longer; all parameters are learned from scratch.</td></tr><tr><td><strong>Resource Needs</strong></td><td>Less compute-intensive due to reduced training scope.</td><td>High resource demands for extensive training.</td></tr><tr><td><strong>Use Case</strong></td><td>When data is limited or computational resources are constrained.</td><td>When custom architecture or large task-specific datasets are available.</td></tr></tbody></table><hr><h2 id="Baselines-for-fine-tuning-training"><a href="#Baselines-for-fine-tuning-training" class="headerlink" title="Baselines for fine-tuning&#x2F;training"></a>Baselines for fine-tuning&#x2F;training</h2><h3 id="1-Feedforward-Networks-FFNs"><a href="#1-Feedforward-Networks-FFNs" class="headerlink" title="1. Feedforward Networks (FFNs)"></a>1. Feedforward Networks (FFNs)</h3><ul><li><strong>Baseline</strong>: Fully connected layers with non-linear activations.</li><li><strong>Fine-Tuning</strong>: Modify output layers to match the target task and optionally freeze earlier layers.</li><li><strong>Training</strong>: Start with random initialization, requiring carefully tuned learning rates and weight initialization methods.</li></ul><h3 id="2-Convolutional-Neural-Networks-CNNs"><a href="#2-Convolutional-Neural-Networks-CNNs" class="headerlink" title="2. Convolutional Neural Networks (CNNs)"></a>2. Convolutional Neural Networks (CNNs)</h3><ul><li><strong>Baseline</strong>: Architectures like VGG, ResNet, or EfficientNet, pre-trained on ImageNet.</li><li><strong>Fine-Tuning</strong>: Replace the classification head to match target classes, often freezing earlier convolutional layers.</li><li><strong>Training</strong>: Train from scratch if the task involves entirely different visual domains (e.g., medical imaging).</li></ul><h3 id="3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs"><a href="#3-Recurrent-Neural-Networks-RNNs-and-Variants-LSTMs-GRUs" class="headerlink" title="3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)"></a>3. Recurrent Neural Networks (RNNs) and Variants (LSTMs, GRUs)</h3><ul><li><strong>Baseline</strong>: Pre-trained word embeddings (e.g., GloVe, Word2Vec) or models like ELMo.</li><li><strong>Fine-Tuning</strong>: Use pre-trained embeddings, fine-tune the LSTM layers on sequential tasks.</li><li><strong>Training</strong>: Train an LSTM network from scratch for language modeling or time-series tasks.</li></ul><h3 id="4-Transformers"><a href="#4-Transformers" class="headerlink" title="4. Transformers"></a>4. Transformers</h3><ul><li><strong>Baseline</strong>: Models like BERT, GPT, or T5.</li><li><strong>Fine-Tuning</strong>: Modify the decoder head, adjust hyperparameters like learning rate and layer freezing.</li><li><strong>Training</strong>: Start with pre-trained embeddings; for unique tasks, initialize the Transformer from scratch (high compute).</li></ul><hr><h2 id="Technical-details-of-popular-architectures"><a href="#Technical-details-of-popular-architectures" class="headerlink" title="Technical details of popular architectures"></a>Technical details of popular architectures</h2><table><thead><tr><th>Model</th><th>Baseline Task</th><th>Fine-Tuning Scope</th><th>Training Considerations</th></tr></thead><tbody><tr><td><strong>VGG16</strong></td><td>Image Classification (ImageNet)</td><td>Replace final dense layer, freeze initial layers.</td><td>High memory usage, simpler architecture to optimize.</td></tr><tr><td><strong>ResNet50</strong></td><td>Image Classification (ImageNet)</td><td>Adjust classification head; fine-tune deeper layers as needed.</td><td>Skip connections improve gradient flow.</td></tr><tr><td><strong>BERT</strong></td><td>Masked Language Model (MLM)</td><td>Modify for classification, QA, or summarization.</td><td>Pre-training requires MLM objectives.</td></tr><tr><td><strong>GPT-3</strong></td><td>Text Generation</td><td>Fine-tune specific tasks by updating decoder head.</td><td>Requires extensive GPU resources for full training.</td></tr><tr><td><strong>LSTM</strong></td><td>Sequential Data Modeling</td><td>Fine-tune on embeddings, adjust for target sequence length.</td><td>Long training times due to sequential processing.</td></tr><tr><td><strong>EfficientNet</strong></td><td>Image Classification</td><td>Replace head; scale input resolution for task-specific datasets.</td><td>Compound scaling optimizes trade-offs in performance.</td></tr></tbody></table><hr><h2 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h2><p>Fine-tuning and training models depend heavily on the task, available data, and computational resources. Fine-tuning is generally faster and resource-efficient, making it ideal for adapting large pre-trained models to specific tasks. On the other hand, training from scratch offers flexibility when creating custom architectures but demands extensive data and compute. By understanding these approaches, practitioners can select the most suitable method for their applications.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;Fine-tuning and training are two commo</summary>
-      
-    
-    
-    
-    <category term="Posts" scheme="https://ooge0.github.io/hexo-blog/categories/Posts/"/>
-    
-    
-    <category term="ML" scheme="https://ooge0.github.io/hexo-blog/tags/ML/"/>
     
   </entry>
   
