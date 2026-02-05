@@ -106,134 +106,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Comparing Efficiency of NLP Models. Methods and Metrics.</title>
-    <url>/hexo-blog//ai/post_ai__comparing_nlp_models_methods_metrix/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
-<hr>
-<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
-<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
-<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> for standardized comparisons.</li>
-<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
-<li><strong>Scalability and Efficiency Testing</strong>:<ul>
-<li>Test for performance across different dataset sizes.</li>
-<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
-</ul>
-</li>
-<li><strong>Generalization and Robustness</strong>:<ul>
-<li>Test on out-of-distribution data or adversarial examples.</li>
-<li>Use cross-lingual or domain-specific datasets.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
-<li><strong>Classification Tasks</strong>:<ul>
-<li>Accuracy</li>
-<li>Precision</li>
-<li>Recall </li>
-<li>F1-Score</li>
-<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
-</ul>
-</li>
-<li><strong>Text Generation Tasks</strong>:<ul>
-<li>BLEU (Bilingual Evaluation Understudy)</li>
-<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
-<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
-</ul>
-</li>
-<li><strong>Question Answering</strong>:<ul>
-<li>Exact Match (EM)</li>
-<li>F1-Score</li>
-</ul>
-</li>
-<li><strong>Language Modeling</strong>:<ul>
-<li>Perplexity</li>
-<li>Bits-per-character (BPC)</li>
-</ul>
-</li>
-<li><strong>Named Entity Recognition (NER)</strong>:<ul>
-<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
-</ul>
-</li>
-<li><strong>Text Summarization</strong>:<ul>
-<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
-</ul>
-</li>
-</ol>
-<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
-<li><strong>Computational Efficiency</strong>:<ul>
-<li>FLOPs (Floating Point Operations per Second)</li>
-<li>Latency (time per inference)</li>
-<li>Training Time</li>
-</ul>
-</li>
-<li><strong>Memory Usage</strong>:<ul>
-<li>GPU&#x2F;CPU memory requirements</li>
-<li>Model size (in MB or parameters)</li>
-</ul>
-</li>
-<li><strong>Energy Consumption</strong>:<ul>
-<li>Energy usage during training&#x2F;inference</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
-<li><strong>Model Parameters</strong>:<ul>
-<li>Number of layers</li>
-<li>Hidden size</li>
-<li>Attention heads</li>
-</ul>
-</li>
-<li><strong>Dataset Characteristics</strong>:<ul>
-<li>Dataset size</li>
-<li>Distribution (balanced vs. imbalanced classes)</li>
-<li>Language&#x2F;domain</li>
-</ul>
-</li>
-<li><strong>Hyperparameters</strong>:<ul>
-<li>Learning rate</li>
-<li>Batch size</li>
-<li>Dropout rate</li>
-<li>Optimization algorithm (e.g., AdamW, SGD)</li>
-</ul>
-</li>
-<li><strong>Infrastructure</strong>:<ul>
-<li>Hardware (e.g., GPU, TPU, or CPU)</li>
-<li>Software (e.g., TensorFlow, PyTorch)</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
-<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
-<li><strong>Parameterization</strong>:<ul>
-<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
-</ul>
-</li>
-<li><strong>Reproducibility</strong>:<ul>
-<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
-<li>Fix random seeds for deterministic results.</li>
-</ul>
-</li>
-<li><strong>Automated Testing</strong>:<ul>
-<li>Implement pipelines to rerun experiments with new variables.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.</span><a href="#fnref:2" rev="footnote"> ↩</a></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">3.</span><span style="display: inline-block; vertical-align: top;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.</span><a href="#fnref:3" rev="footnote"> ↩</a></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">4.</span><span style="display: inline-block; vertical-align: top;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.</span><a href="#fnref:4" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Evaluating AI applications. Checklist</title>
     <url>/hexo-blog//ai/evaluating_ai_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Evaluation-of-AI-Prompts"><a href="#1-Evaluation-of-AI-Prompts" class="headerlink" title="1. Evaluation of AI Prompts"></a>1. Evaluation of AI Prompts</h2><h3 id="1-1-Prompt-Clarity"><a href="#1-1-Prompt-Clarity" class="headerlink" title="1.1 Prompt Clarity"></a>1.1 <strong>Prompt Clarity</strong></h3><ul>
@@ -372,6 +244,155 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Comparing Efficiency of NLP Models. Methods and Metrics.</title>
+    <url>/hexo-blog//ai/post_ai__comparing_nlp_models_methods_metrix/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
+<hr>
+<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
+<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
+<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> for standardized comparisons.</li>
+<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
+<li><strong>Scalability and Efficiency Testing</strong>:<ul>
+<li>Test for performance across different dataset sizes.</li>
+<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
+</ul>
+</li>
+<li><strong>Generalization and Robustness</strong>:<ul>
+<li>Test on out-of-distribution data or adversarial examples.</li>
+<li>Use cross-lingual or domain-specific datasets.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
+<li><strong>Classification Tasks</strong>:<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall </li>
+<li>F1-Score</li>
+<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
+</ul>
+</li>
+<li><strong>Text Generation Tasks</strong>:<ul>
+<li>BLEU (Bilingual Evaluation Understudy)</li>
+<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
+<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
+</ul>
+</li>
+<li><strong>Question Answering</strong>:<ul>
+<li>Exact Match (EM)</li>
+<li>F1-Score</li>
+</ul>
+</li>
+<li><strong>Language Modeling</strong>:<ul>
+<li>Perplexity</li>
+<li>Bits-per-character (BPC)</li>
+</ul>
+</li>
+<li><strong>Named Entity Recognition (NER)</strong>:<ul>
+<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
+</ul>
+</li>
+<li><strong>Text Summarization</strong>:<ul>
+<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
+</ul>
+</li>
+</ol>
+<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
+<li><strong>Computational Efficiency</strong>:<ul>
+<li>FLOPs (Floating Point Operations per Second)</li>
+<li>Latency (time per inference)</li>
+<li>Training Time</li>
+</ul>
+</li>
+<li><strong>Memory Usage</strong>:<ul>
+<li>GPU&#x2F;CPU memory requirements</li>
+<li>Model size (in MB or parameters)</li>
+</ul>
+</li>
+<li><strong>Energy Consumption</strong>:<ul>
+<li>Energy usage during training&#x2F;inference</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
+<li><strong>Model Parameters</strong>:<ul>
+<li>Number of layers</li>
+<li>Hidden size</li>
+<li>Attention heads</li>
+</ul>
+</li>
+<li><strong>Dataset Characteristics</strong>:<ul>
+<li>Dataset size</li>
+<li>Distribution (balanced vs. imbalanced classes)</li>
+<li>Language&#x2F;domain</li>
+</ul>
+</li>
+<li><strong>Hyperparameters</strong>:<ul>
+<li>Learning rate</li>
+<li>Batch size</li>
+<li>Dropout rate</li>
+<li>Optimization algorithm (e.g., AdamW, SGD)</li>
+</ul>
+</li>
+<li><strong>Infrastructure</strong>:<ul>
+<li>Hardware (e.g., GPU, TPU, or CPU)</li>
+<li>Software (e.g., TensorFlow, PyTorch)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
+<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
+<li><strong>Parameterization</strong>:<ul>
+<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>:<ul>
+<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
+<li>Fix random seeds for deterministic results.</li>
+</ul>
+</li>
+<li><strong>Automated Testing</strong>:<ul>
+<li>Implement pipelines to rerun experiments with new variables.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.</span><a href="#fnref:2" rev="footnote"> ↩</a></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">3.</span><span style="display: inline-block; vertical-align: top;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.</span><a href="#fnref:3" rev="footnote"> ↩</a></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">4.</span><span style="display: inline-block; vertical-align: top;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.</span><a href="#fnref:4" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><ul>
+<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
+<li>DOI:10.1561&#x2F;2200000056</li>
+<li><a href="https://arxiv.org/pdf/1906.02691">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on arxiv.org</a></li>
+<li><a href="https://sci-hub.se/10.1561/2200000056">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on sci-hub.se</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AI glossaries list</title>
     <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
@@ -423,27 +444,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
   </entry>
   <entry>
     <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><ul>
-<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
-<li>DOI:10.1561&#x2F;2200000056</li>
-<li><a href="https://arxiv.org/pdf/1906.02691">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on arxiv.org</a></li>
-<li><a href="https://sci-hub.se/10.1561/2200000056">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on sci-hub.se</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AI papers</title>
     <url>/hexo-blog/2024/10/18/post_ai__papers/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
 <li>Artificial Intelligence. Scientific journal (UA) <ul>
@@ -470,6 +470,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>papers</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
+</ul>
+</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -534,33 +561,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>augmentation</tag>
         <tag>text_generation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -1026,89 +1026,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Dream team LLM engineer skill set</title>
-    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
-<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
-<li>Fine-tuning and deploying large language models.</li>
-<li>Managing multimodal LLMs with text and visual inputs.</li>
-<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
-<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
-<li>Expertise in handling large-scale datasets.</li>
-</ul>
-<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
-<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
-<li>Familiarity with performance optimization for large-scale AI models.</li>
-<li>Experience with text embeddings, vector search, and similarity models.</li>
-<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
-<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
-</ul>
-<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
-<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
-<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
-<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
-<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
-</ul>
-<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
-<li>TensorFlow</li>
-<li>PyTorch</li>
-<li>Hugging Face Transformers</li>
-</ul>
-<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">Pandas</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Matplotlib">Matplotlib</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">Seaborn</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">Tableau</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Qlik">Qlik</a></li>
-<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">Plotly</a></li>
-</ul>
-<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
-<li><strong>Text Analysis and Preprocessing:</strong><ul>
-<li>NLTK</li>
-<li>SpaCy</li>
-<li>FastText</li>
-</ul>
-</li>
-<li><strong>Model Optimization and Deployment:</strong><ul>
-<li>ONNX</li>
-<li>TensorRT</li>
-<li>Ray Serve</li>
-</ul>
-</li>
-<li><strong>Data Management:</strong><ul>
-<li>DVC (Data Version Control)</li>
-<li>Apache Airflow</li>
-</ul>
-</li>
-<li><strong>Search and Retrieval:</strong><ul>
-<li>Elasticsearch</li>
-<li>Faiss</li>
-<li>Weaviate</li>
-</ul>
-</li>
-<li><strong>Performance Monitoring:</strong><ul>
-<li>Prometheus</li>
-<li>Grafana</li>
-<li>Sentry</li>
-</ul>
-</li>
-</ul>
-<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
-<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
-<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>prompt_engineering</tag>
-        <tag>LLM</tag>
-        <tag>dream_team</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>GPT-2 configuration parameters overview</title>
     <url>/hexo-blog//ai/post_ai_llm__gpt2_configuration_parameters_overview/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
@@ -1269,6 +1186,89 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>LLM</tag>
         <tag>GPT2</tag>
         <tag>NN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dream team LLM engineer skill set</title>
+    <url>/hexo-blog//ai/post_ai_llm__dream_team_llm_engineer/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Core-Expertise"><a href="#Core-Expertise" class="headerlink" title="Core Expertise"></a><strong>Core Expertise</strong></h2><h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a><strong>Machine Learning</strong></h3><ul>
+<li>Deep understanding of <strong>LLMs</strong> (e.g., GPT, LLaMA, PaLM) and their applications.</li>
+<li>Fine-tuning and deploying large language models.</li>
+<li>Managing multimodal LLMs with text and visual inputs.</li>
+<li>Strong knowledge of computer vision models (e.g., ResNet, YOLO, CLIP).</li>
+<li>Hands-on experience with multimodal AI applications, including image generation (e.g., Stable Diffusion, DALL·E).</li>
+<li>Expertise in handling large-scale datasets.</li>
+</ul>
+<h3 id="Natural-Language-Processing-NLP"><a href="#Natural-Language-Processing-NLP" class="headerlink" title="Natural Language Processing (NLP)"></a><strong>Natural Language Processing (NLP)</strong></h3><ul>
+<li>Proficiency in NLP tasks such as summarization, translation, and question answering.</li>
+<li>Familiarity with performance optimization for large-scale AI models.</li>
+<li>Experience with text embeddings, vector search, and similarity models.</li>
+<li>Advanced tokenization techniques and preprocessing for text-based datasets.</li>
+<li>Designing and fine-tuning sequence-to-sequence models for specialized NLP tasks.</li>
+</ul>
+<h3 id="General-Skills"><a href="#General-Skills" class="headerlink" title="General Skills"></a><strong>General Skills</strong></h3><ul>
+<li>Proficient in using platforms for rapid prototyping and model optimization.</li>
+<li>Expertise in integrating computer vision models with LLMs to extract insights from images.</li>
+<li>Experience in collecting, preprocessing, and labeling multimodal datasets for training.</li>
+<li>Skilled in developing APIs and microservices to integrate LLMs into existing systems or build standalone applications.</li>
+</ul>
+<h2 id="Technical-Knowledge"><a href="#Technical-Knowledge" class="headerlink" title="Technical Knowledge"></a><strong>Technical Knowledge</strong></h2><h3 id="Frameworks-and-Libraries"><a href="#Frameworks-and-Libraries" class="headerlink" title="Frameworks and Libraries"></a><strong>Frameworks and Libraries</strong></h3><ul>
+<li>TensorFlow</li>
+<li>PyTorch</li>
+<li>Hugging Face Transformers</li>
+</ul>
+<h3 id="Data-Analysis-and-Visualization"><a href="#Data-Analysis-and-Visualization" class="headerlink" title="Data Analysis and Visualization"></a><strong>Data Analysis and Visualization</strong></h3><ul>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">Pandas</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Matplotlib">Matplotlib</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">Seaborn</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">Tableau</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Qlik">Qlik</a></li>
+<li><a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">Plotly</a></li>
+</ul>
+<h3 id="Tools-for-NLP-Engineers"><a href="#Tools-for-NLP-Engineers" class="headerlink" title="Tools for NLP Engineers"></a><strong>Tools for NLP Engineers</strong></h3><ul>
+<li><strong>Text Analysis and Preprocessing:</strong><ul>
+<li>NLTK</li>
+<li>SpaCy</li>
+<li>FastText</li>
+</ul>
+</li>
+<li><strong>Model Optimization and Deployment:</strong><ul>
+<li>ONNX</li>
+<li>TensorRT</li>
+<li>Ray Serve</li>
+</ul>
+</li>
+<li><strong>Data Management:</strong><ul>
+<li>DVC (Data Version Control)</li>
+<li>Apache Airflow</li>
+</ul>
+</li>
+<li><strong>Search and Retrieval:</strong><ul>
+<li>Elasticsearch</li>
+<li>Faiss</li>
+<li>Weaviate</li>
+</ul>
+</li>
+<li><strong>Performance Monitoring:</strong><ul>
+<li>Prometheus</li>
+<li>Grafana</li>
+<li>Sentry</li>
+</ul>
+</li>
+</ul>
+<h3 id="Development-Platforms"><a href="#Development-Platforms" class="headerlink" title="Development Platforms"></a><strong>Development Platforms</strong></h3><ul>
+<li>Proficiency with platforms like <strong><a href="https://bytesai.com/">Bytes AI</a></strong> or similar for LLM and multimodal AI development.</li>
+<li>Expertise in <strong>Python</strong>, with hands-on experience in ML frameworks and libraries.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>prompt_engineering</tag>
+        <tag>LLM</tag>
+        <tag>dream_team</tag>
       </tags>
   </entry>
   <entry>
@@ -1767,6 +1767,21 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>NLP knowledge base</title>
+    <url>/hexo-blog//ai_ml/rnn_knowledge_base/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://arxiv.org/pdf/1506.02078">Read paper “Visualizing and understanding recurrent networks. Andrej Karpathy, Justin Johnson, and Li Fei-Fei. 2015” on aclanthology.org</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>rnn</tag>
+        <tag>knowledge_base</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AI - Machine Learning frameworks</title>
     <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
@@ -1791,21 +1806,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLP knowledge base</title>
-    <url>/hexo-blog//ai_ml/rnn_knowledge_base/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://arxiv.org/pdf/1506.02078">Read paper “Visualizing and understanding recurrent networks. Andrej Karpathy, Justin Johnson, and Li Fei-Fei. 2015” on aclanthology.org</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>rnn</tag>
-        <tag>knowledge_base</tag>
       </tags>
   </entry>
   <entry>
@@ -2391,6 +2391,23 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Knowledge Graph</title>
+    <url>/hexo-blog//ai_nlp/knowledge_graph/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://sysblok.ru/glossary/knowledge-graph-ili-graf-znanij-chto-jeto-takoe-i-gde-primenjaetsja/">Read ‘Knowledge Graph или граф знаний: что это такое и где применяется’ on sysblok.ru</a></li>
+<li><a href="https://lod-cloud.net/"><code>Linked Open Data</code> Knowledge Graph on lod-cloud.net</a></li>
+<li><a href="https://webmaestro.com.ua/ru/blog/knowledge-graph/">Read <code>Граф знаний Google: что это такое и как туда попасть</code> on webmaestro.com.ua</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>knowledge_graph</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Internet resources and references for building NLP projects</title>
     <url>/hexo-blog//ai_nlp/internet_resources_and_references_for_building_nlp_projects/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
@@ -2443,23 +2460,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Knowledge Graph</title>
-    <url>/hexo-blog//ai_nlp/knowledge_graph/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://sysblok.ru/glossary/knowledge-graph-ili-graf-znanij-chto-jeto-takoe-i-gde-primenjaetsja/">Read ‘Knowledge Graph или граф знаний: что это такое и где применяется’ on sysblok.ru</a></li>
-<li><a href="https://lod-cloud.net/"><code>Linked Open Data</code> Knowledge Graph on lod-cloud.net</a></li>
-<li><a href="https://webmaestro.com.ua/ru/blog/knowledge-graph/">Read <code>Граф знаний Google: что это такое и как туда попасть</code> on webmaestro.com.ua</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>knowledge_graph</tag>
       </tags>
   </entry>
   <entry>
@@ -3978,6 +3978,98 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</title>
+    <url>/hexo-blog//ai/post_ai_prompt_engineeringing__task_llm_via_api/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.  </p>
+<h2 id="Key-Objectives"><a href="#Key-Objectives" class="headerlink" title="Key Objectives"></a>Key Objectives</h2><ul>
+<li>Design efficient prompts for LLM APIs.  </li>
+<li>Evaluate and refine prompt quality.  </li>
+<li>Use programmatic techniques for dynamic prompt construction.  </li>
+<li>Monitor and maintain performance over time.</li>
+</ul>
+<hr>
+<h2 id="Steps-to-Complete-the-Task"><a href="#Steps-to-Complete-the-Task" class="headerlink" title="Steps to Complete the Task"></a>Steps to Complete the Task</h2><h3 id="1-Prepare-the-Environment"><a href="#1-Prepare-the-Environment" class="headerlink" title="1. Prepare the Environment"></a>1. <strong>Prepare the Environment</strong></h3><p>Install the necessary Python libraries to interact with LLM APIs:  </p>
+<pre><code class="bash">pip install openai langchain  
+</code></pre>
+<hr>
+<h3 id="2-Interact-with-the-API"><a href="#2-Interact-with-the-API" class="headerlink" title="2. Interact with the API"></a>2. <strong>Interact with the API</strong></h3><h4 id="a-Initialize-API-Connection"><a href="#a-Initialize-API-Connection" class="headerlink" title="a. Initialize API Connection"></a>a. <strong>Initialize API Connection</strong></h4><p>Set up API authentication and configuration:  </p>
+<pre><code class="python">import openai  
+
+def initialize_api(api_key):  
+   openai.api_key = api_key  # Set your API key  
+   return &quot;API Initialized&quot;  
+</code></pre>
+<h4 id="b-Send-a-Prompt"><a href="#b-Send-a-Prompt" class="headerlink" title="b. Send a Prompt"></a>b. <strong>Send a Prompt</strong></h4><p>Define a function to send a prompt and receive a response:  </p>
+<pre><code class="python">def send_prompt(prompt, model=&quot;gpt-4&quot;, temperature=0.7):  
+    response = openai.ChatCompletion.create(  
+        model=model,  
+        messages=[&#123;&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: prompt&#125;],  
+        temperature=temperature  
+    )  
+    return response[&quot;choices&quot;][0][&quot;message&quot;][&quot;content&quot;]  
+</code></pre>
+<hr>
+<h3 id="3-Design-Effective-Prompts"><a href="#3-Design-Effective-Prompts" class="headerlink" title="3. Design Effective Prompts"></a>3. <strong>Design Effective Prompts</strong></h3><h4 id="a-Use-a-Structured-Approach"><a href="#a-Use-a-Structured-Approach" class="headerlink" title="a. Use a Structured Approach"></a>a. <strong>Use a Structured Approach</strong></h4><ul>
+<li><strong>Role-based prompting</strong>: Clearly define the model’s role (e.g., “You are a helpful assistant…”).  </li>
+<li><strong>Instruction clarity</strong>: Provide concise, unambiguous instructions.  </li>
+<li><strong>Examples</strong>: Use few-shot learning by including examples in the prompt.</li>
+</ul>
+<p>Example:  </p>
+<pre><code class="python">def create_prompt(task_description, examples=[]):  
+    prompt = f&quot;Task: &#123;task_description&#125;\n&quot;  
+    for example in examples:  
+        prompt += f&quot;Example: &#123;example&#125;\n&quot;  
+    return prompt  
+</code></pre>
+<h4 id="b-Dynamic-Prompt-Construction"><a href="#b-Dynamic-Prompt-Construction" class="headerlink" title="b. Dynamic Prompt Construction"></a>b. <strong>Dynamic Prompt Construction</strong></h4><p>Adapt prompts based on user inputs or API responses:  </p>
+<pre><code class="python">def dynamic_prompt(base_prompt, user_input):  
+    return f&quot;&#123;base_prompt&#125;\nUser Input: &#123;user_input&#125;&quot;  
+</code></pre>
+<hr>
+<h3 id="4-Evaluate-Model-Performance"><a href="#4-Evaluate-Model-Performance" class="headerlink" title="4. Evaluate Model Performance"></a>4. <strong>Evaluate Model Performance</strong></h3><h4 id="a-Define-Quality-Metrics"><a href="#a-Define-Quality-Metrics" class="headerlink" title="a. Define Quality Metrics"></a>a. <strong>Define Quality Metrics</strong></h4><ul>
+<li><strong>Accuracy</strong>: Compare responses against ground truth.  </li>
+<li><strong>Relevance</strong>: Check alignment with the given task.  </li>
+<li><strong>Consistency</strong>: Ensure similar prompts yield consistent outputs.</li>
+</ul>
+<h4 id="b-Log-and-Analyze-Outputs"><a href="#b-Log-and-Analyze-Outputs" class="headerlink" title="b. Log and Analyze Outputs"></a>b. <strong>Log and Analyze Outputs</strong></h4><p>Use logging to track prompts and responses for debugging:  </p>
+<pre><code class="python">def log_interaction(prompt, response, log_file=&quot;logs.txt&quot;):  
+    with open(log_file, &quot;a&quot;) as file:  
+        file.write(f&quot;Prompt: &#123;prompt&#125;\nResponse: &#123;response&#125;\n\n&quot;)  
+</code></pre>
+<hr>
+<h3 id="5-Optimize-Prompts"><a href="#5-Optimize-Prompts" class="headerlink" title="5. Optimize Prompts"></a>5. <strong>Optimize Prompts</strong></h3><h4 id="a-Iterative-Refinement"><a href="#a-Iterative-Refinement" class="headerlink" title="a. Iterative Refinement"></a>a. <strong>Iterative Refinement</strong></h4><ul>
+<li>Identify weaknesses in responses.  </li>
+<li>Adjust the prompt to clarify ambiguity or provide better context.</li>
+</ul>
+<h4 id="b-Temperature-Tuning"><a href="#b-Temperature-Tuning" class="headerlink" title="b. Temperature Tuning"></a>b. <strong>Temperature Tuning</strong></h4><p>Control randomness using the <code>temperature</code> parameter. Lower values yield deterministic responses, while higher values generate more diverse outputs.  </p>
+<h4 id="c-Test-Variations"><a href="#c-Test-Variations" class="headerlink" title="c. Test Variations"></a>c. <strong>Test Variations</strong></h4><p>Experiment with different phrasings and structures to identify optimal prompt designs.  </p>
+<hr>
+<h3 id="6-Maintain-and-Monitor-Performance"><a href="#6-Maintain-and-Monitor-Performance" class="headerlink" title="6. Maintain and Monitor Performance"></a>6. <strong>Maintain and Monitor Performance</strong></h3><h4 id="a-Automate-Testing"><a href="#a-Automate-Testing" class="headerlink" title="a. Automate Testing"></a>a. <strong>Automate Testing</strong></h4><p>Build a suite of tests with predefined prompts and expected responses:  </p>
+<pre><code class="python">def test_prompt(prompt, expected_response):  
+    response = send_prompt(prompt)  
+    return response == expected_response  # Compare with expected response  
+</code></pre>
+<h4 id="b-Adapt-to-Model-Updates"><a href="#b-Adapt-to-Model-Updates" class="headerlink" title="b. Adapt to Model Updates"></a>b. <strong>Adapt to Model Updates</strong></h4><p>Periodically re-evaluate prompts after API updates or model changes to ensure continued performance.  </p>
+<h4 id="c-Integrate-Feedback-Loops"><a href="#c-Integrate-Feedback-Loops" class="headerlink" title="c. Integrate Feedback Loops"></a>c. <strong>Integrate Feedback Loops</strong></h4><p>Incorporate user feedback to iteratively improve prompts.  </p>
+<hr>
+<h2 id="Tools-and-Libraries-Overview"><a href="#Tools-and-Libraries-Overview" class="headerlink" title="Tools and Libraries Overview"></a>Tools and Libraries Overview</h2><ul>
+<li><strong>API Interaction</strong>: OpenAI API, LangChain  </li>
+<li><strong>Data Logging</strong>: Python’s <code>logging</code> module or external tools like <code>Elasticsearch</code>  </li>
+<li><strong>Testing Frameworks</strong>: PyTest, Unittest for automated evaluation</li>
+</ul>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>By following these steps, you can effectively interact with LLM APIs for prompt engineering while ensuring high-quality model performance. This approach emphasizes structured prompt design, iterative refinement, and continuous monitoring to optimize outputs for real-world tasks.  </p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Exploring OpenAI models locally without APIs (DRAFT-GUIDE)</title>
     <url>/hexo-blog//ai/post_ai_prompt_engineeringing__task_llm_locally/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to :</em></p>
@@ -4088,98 +4180,6 @@ print(batch_responses)
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
         <tag>local_development</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</title>
-    <url>/hexo-blog//ai/post_ai_prompt_engineeringing__task_llm_via_api/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.  </p>
-<h2 id="Key-Objectives"><a href="#Key-Objectives" class="headerlink" title="Key Objectives"></a>Key Objectives</h2><ul>
-<li>Design efficient prompts for LLM APIs.  </li>
-<li>Evaluate and refine prompt quality.  </li>
-<li>Use programmatic techniques for dynamic prompt construction.  </li>
-<li>Monitor and maintain performance over time.</li>
-</ul>
-<hr>
-<h2 id="Steps-to-Complete-the-Task"><a href="#Steps-to-Complete-the-Task" class="headerlink" title="Steps to Complete the Task"></a>Steps to Complete the Task</h2><h3 id="1-Prepare-the-Environment"><a href="#1-Prepare-the-Environment" class="headerlink" title="1. Prepare the Environment"></a>1. <strong>Prepare the Environment</strong></h3><p>Install the necessary Python libraries to interact with LLM APIs:  </p>
-<pre><code class="bash">pip install openai langchain  
-</code></pre>
-<hr>
-<h3 id="2-Interact-with-the-API"><a href="#2-Interact-with-the-API" class="headerlink" title="2. Interact with the API"></a>2. <strong>Interact with the API</strong></h3><h4 id="a-Initialize-API-Connection"><a href="#a-Initialize-API-Connection" class="headerlink" title="a. Initialize API Connection"></a>a. <strong>Initialize API Connection</strong></h4><p>Set up API authentication and configuration:  </p>
-<pre><code class="python">import openai  
-
-def initialize_api(api_key):  
-   openai.api_key = api_key  # Set your API key  
-   return &quot;API Initialized&quot;  
-</code></pre>
-<h4 id="b-Send-a-Prompt"><a href="#b-Send-a-Prompt" class="headerlink" title="b. Send a Prompt"></a>b. <strong>Send a Prompt</strong></h4><p>Define a function to send a prompt and receive a response:  </p>
-<pre><code class="python">def send_prompt(prompt, model=&quot;gpt-4&quot;, temperature=0.7):  
-    response = openai.ChatCompletion.create(  
-        model=model,  
-        messages=[&#123;&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: prompt&#125;],  
-        temperature=temperature  
-    )  
-    return response[&quot;choices&quot;][0][&quot;message&quot;][&quot;content&quot;]  
-</code></pre>
-<hr>
-<h3 id="3-Design-Effective-Prompts"><a href="#3-Design-Effective-Prompts" class="headerlink" title="3. Design Effective Prompts"></a>3. <strong>Design Effective Prompts</strong></h3><h4 id="a-Use-a-Structured-Approach"><a href="#a-Use-a-Structured-Approach" class="headerlink" title="a. Use a Structured Approach"></a>a. <strong>Use a Structured Approach</strong></h4><ul>
-<li><strong>Role-based prompting</strong>: Clearly define the model’s role (e.g., “You are a helpful assistant…”).  </li>
-<li><strong>Instruction clarity</strong>: Provide concise, unambiguous instructions.  </li>
-<li><strong>Examples</strong>: Use few-shot learning by including examples in the prompt.</li>
-</ul>
-<p>Example:  </p>
-<pre><code class="python">def create_prompt(task_description, examples=[]):  
-    prompt = f&quot;Task: &#123;task_description&#125;\n&quot;  
-    for example in examples:  
-        prompt += f&quot;Example: &#123;example&#125;\n&quot;  
-    return prompt  
-</code></pre>
-<h4 id="b-Dynamic-Prompt-Construction"><a href="#b-Dynamic-Prompt-Construction" class="headerlink" title="b. Dynamic Prompt Construction"></a>b. <strong>Dynamic Prompt Construction</strong></h4><p>Adapt prompts based on user inputs or API responses:  </p>
-<pre><code class="python">def dynamic_prompt(base_prompt, user_input):  
-    return f&quot;&#123;base_prompt&#125;\nUser Input: &#123;user_input&#125;&quot;  
-</code></pre>
-<hr>
-<h3 id="4-Evaluate-Model-Performance"><a href="#4-Evaluate-Model-Performance" class="headerlink" title="4. Evaluate Model Performance"></a>4. <strong>Evaluate Model Performance</strong></h3><h4 id="a-Define-Quality-Metrics"><a href="#a-Define-Quality-Metrics" class="headerlink" title="a. Define Quality Metrics"></a>a. <strong>Define Quality Metrics</strong></h4><ul>
-<li><strong>Accuracy</strong>: Compare responses against ground truth.  </li>
-<li><strong>Relevance</strong>: Check alignment with the given task.  </li>
-<li><strong>Consistency</strong>: Ensure similar prompts yield consistent outputs.</li>
-</ul>
-<h4 id="b-Log-and-Analyze-Outputs"><a href="#b-Log-and-Analyze-Outputs" class="headerlink" title="b. Log and Analyze Outputs"></a>b. <strong>Log and Analyze Outputs</strong></h4><p>Use logging to track prompts and responses for debugging:  </p>
-<pre><code class="python">def log_interaction(prompt, response, log_file=&quot;logs.txt&quot;):  
-    with open(log_file, &quot;a&quot;) as file:  
-        file.write(f&quot;Prompt: &#123;prompt&#125;\nResponse: &#123;response&#125;\n\n&quot;)  
-</code></pre>
-<hr>
-<h3 id="5-Optimize-Prompts"><a href="#5-Optimize-Prompts" class="headerlink" title="5. Optimize Prompts"></a>5. <strong>Optimize Prompts</strong></h3><h4 id="a-Iterative-Refinement"><a href="#a-Iterative-Refinement" class="headerlink" title="a. Iterative Refinement"></a>a. <strong>Iterative Refinement</strong></h4><ul>
-<li>Identify weaknesses in responses.  </li>
-<li>Adjust the prompt to clarify ambiguity or provide better context.</li>
-</ul>
-<h4 id="b-Temperature-Tuning"><a href="#b-Temperature-Tuning" class="headerlink" title="b. Temperature Tuning"></a>b. <strong>Temperature Tuning</strong></h4><p>Control randomness using the <code>temperature</code> parameter. Lower values yield deterministic responses, while higher values generate more diverse outputs.  </p>
-<h4 id="c-Test-Variations"><a href="#c-Test-Variations" class="headerlink" title="c. Test Variations"></a>c. <strong>Test Variations</strong></h4><p>Experiment with different phrasings and structures to identify optimal prompt designs.  </p>
-<hr>
-<h3 id="6-Maintain-and-Monitor-Performance"><a href="#6-Maintain-and-Monitor-Performance" class="headerlink" title="6. Maintain and Monitor Performance"></a>6. <strong>Maintain and Monitor Performance</strong></h3><h4 id="a-Automate-Testing"><a href="#a-Automate-Testing" class="headerlink" title="a. Automate Testing"></a>a. <strong>Automate Testing</strong></h4><p>Build a suite of tests with predefined prompts and expected responses:  </p>
-<pre><code class="python">def test_prompt(prompt, expected_response):  
-    response = send_prompt(prompt)  
-    return response == expected_response  # Compare with expected response  
-</code></pre>
-<h4 id="b-Adapt-to-Model-Updates"><a href="#b-Adapt-to-Model-Updates" class="headerlink" title="b. Adapt to Model Updates"></a>b. <strong>Adapt to Model Updates</strong></h4><p>Periodically re-evaluate prompts after API updates or model changes to ensure continued performance.  </p>
-<h4 id="c-Integrate-Feedback-Loops"><a href="#c-Integrate-Feedback-Loops" class="headerlink" title="c. Integrate Feedback Loops"></a>c. <strong>Integrate Feedback Loops</strong></h4><p>Incorporate user feedback to iteratively improve prompts.  </p>
-<hr>
-<h2 id="Tools-and-Libraries-Overview"><a href="#Tools-and-Libraries-Overview" class="headerlink" title="Tools and Libraries Overview"></a>Tools and Libraries Overview</h2><ul>
-<li><strong>API Interaction</strong>: OpenAI API, LangChain  </li>
-<li><strong>Data Logging</strong>: Python’s <code>logging</code> module or external tools like <code>Elasticsearch</code>  </li>
-<li><strong>Testing Frameworks</strong>: PyTest, Unittest for automated evaluation</li>
-</ul>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>By following these steps, you can effectively interact with LLM APIs for prompt engineering while ensuring high-quality model performance. This approach emphasizes structured prompt design, iterative refinement, and continuous monitoring to optimize outputs for real-world tasks.  </p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>prompt_engineering</tag>
       </tags>
   </entry>
   <entry>
@@ -5080,30 +5080,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Bokeh. List of references.</title>
-    <url>/hexo-blog//data_visualization/bokeh_list_of_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
-<ol>
-<li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring data visuzlization tools.</a></li>
-<li><a href="hexo-blog/data_visualization/plotly_chart_types_examples">Exploring plotly chart types with examples.</a></li>
-</ol>
-<hr>
-<hr>
-<p><strong>List of references</strong></p>
-<ol>
-<li><a href="https://habr.com/ru/companies/otus/articles/755358/">Изучаем Анализ данных с помощью библиотеки Bokeh в Python</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>plotly</tag>
-        <tag>data_visualization</tag>
-        <tag>data_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>List of data vizualization tools</title>
     <url>/hexo-blog//data_visualization/list_of_data_vizualization_tools/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
@@ -5132,8 +5108,32 @@ print(generated_text)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>data_visualization</tag>
         <tag>bokeh</tag>
+        <tag>data_visualization</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bokeh. List of references.</title>
+    <url>/hexo-blog//data_visualization/bokeh_list_of_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
+<ol>
+<li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring data visuzlization tools.</a></li>
+<li><a href="hexo-blog/data_visualization/plotly_chart_types_examples">Exploring plotly chart types with examples.</a></li>
+</ol>
+<hr>
+<hr>
+<p><strong>List of references</strong></p>
+<ol>
+<li><a href="https://habr.com/ru/companies/otus/articles/755358/">Изучаем Анализ данных с помощью библиотеки Bokeh в Python</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>data_visualization</tag>
+        <tag>plotly</tag>
+        <tag>data_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -5332,8 +5332,8 @@ print(generated_text)
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>plotly</tag>
         <tag>data_visualization</tag>
+        <tag>plotly</tag>
       </tags>
   </entry>
   <entry>
@@ -7214,6 +7214,31 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>Basic loguru configuration for python</title>
+    <url>/hexo-blog//dev_side/loguru_loger_basic_configuration/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
+<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
+<li><p>Loguru installation command via PIP</p>
+ <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
+</li>
+<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>loguru</tag>
+        <tag>logger</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Postman tests examples</title>
     <url>/hexo-blog//dev_side/postman_tests_examples/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>Below are examples of Postman tests written with Chai BDD&#x2F;TDD assertion library.</em></p>
@@ -7342,31 +7367,6 @@ print(generated_text)
         <tag>api_testing</tag>
         <tag>qa</tag>
         <tag>API</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Basic loguru configuration for python</title>
-    <url>/hexo-blog//dev_side/loguru_loger_basic_configuration/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
-<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
-<li><p>Loguru installation command via PIP</p>
- <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
-</li>
-<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>loguru</tag>
-        <tag>logger</tag>
       </tags>
   </entry>
   <entry>
@@ -8134,6 +8134,20 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>ASCII art</title>
+    <url>/hexo-blog//fun/acsii_graphics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>acsii</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
     <url>/hexo-blog//docs_publishing/readthedoc_vs_github_pages_tutorial_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
@@ -8196,20 +8210,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>ReadTheDocs</tag>
         <tag>GitHubPages</tag>
         <tag>DocPublishing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ASCII art</title>
-    <url>/hexo-blog//fun/acsii_graphics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
       </tags>
   </entry>
   <entry>
@@ -8561,6 +8561,34 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>Windows OS apps</title>
+    <url>/hexo-blog//os/windows_app/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
+<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
+To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
+
+<ul>
+<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
+<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Audacity"><a href="#Audacity" class="headerlink" title="Audacity"></a>Audacity</h2><ul>
+<li>**Audacity **: Free Audio editor, recorder, music making and more! Audacity is the world’s most popular audio editing and recording app. Edit, mix, and enhance your audio tracks with the power of Audacity.<ul>
+<li><a href="https://www.audacityteam.org/">audacityteam home page</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>apps</tag>
+        <tag>windows_os</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Types of protocols for interaction on client-server architecture level.</title>
     <url>/hexo-blog/2024/04/09/post_network_protocols/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">  <img src="/hexo-blog/images/network_protocols_banner_pic.jpg" style="width: 80%; max-width: 600px; border: 1px solid #ccc; padding: 5px; border-radius: 8px;" />
@@ -8601,34 +8629,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       <tags>
         <tag>network_protocols</tag>
         <tag>protocols</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows OS apps</title>
-    <url>/hexo-blog//os/windows_app/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
-<li><strong>Monitorian app description</strong>: Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease. The user can change the brightness of monitors, including external ones, either individually or in unison. In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.</br>
-To control an external monitor, the monitor must be DDC/CI compatible and the function enabled. If a monitor is connected through an converter, docking station or other device, such a device must be also compatible.
-
-<ul>
-<li><a href="https://github.com/emoacht/Monitorian">Monitorian home page</a></li>
-<li><a href="https://apps.microsoft.com/detail/9nw33j738bl0?hl=en-GB&gl=UA">Monitorian Microsoft store download page</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="Audacity"><a href="#Audacity" class="headerlink" title="Audacity"></a>Audacity</h2><ul>
-<li>**Audacity **: Free Audio editor, recorder, music making and more! Audacity is the world’s most popular audio editing and recording app. Edit, mix, and enhance your audio tracks with the power of Audacity.<ul>
-<li><a href="https://www.audacityteam.org/">audacityteam home page</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>apps</tag>
-        <tag>windows_os</tag>
       </tags>
   </entry>
   <entry>
@@ -9405,6 +9405,59 @@ def __init__(self, driver):
       </tags>
   </entry>
   <entry>
+    <title>Software QA - DB testing approach</title>
+    <url>/hexo-blog/2024/10/21/post_qa__software_qa_db_testing_approach/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
+<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
+<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
+<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Use this script to create a clean database environment before running tests.</li>
+<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
+</ul>
+<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
+<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
+</ul>
+<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
+
+<p><strong>Testing the Stored Procedure:</strong></p>
+<p>You can write a script to test the stored procedure and verify its results.</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Create unit tests for stored procedures to ensure they work as expected.</li>
+<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
+</ul>
+<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
+
+<p><strong>QA Approach:</strong></p>
+<ul>
+<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
+<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
+</ul>
+<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
+<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>QA</category>
+      </categories>
+      <tags>
+        <tag>qa</tag>
+        <tag>db</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Software QA - Basic check list</title>
     <url>/hexo-blog/2024/08/28/post_qa__software_qa_basic_check_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Login-form-Test-Cases"><a href="#1-Login-form-Test-Cases" class="headerlink" title="1 Login form Test Cases"></a>1 Login form Test Cases</h2><ol>
@@ -9554,74 +9607,6 @@ def __init__(self, driver):
       </tags>
   </entry>
   <entry>
-    <title>Software QA - DB testing approach</title>
-    <url>/hexo-blog/2024/10/21/post_qa__software_qa_db_testing_approach/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em><strong>Table of Content</strong></em></p>
-<p><a href="#intro"><strong>INTRO</strong></a><br><a href="#1Data-Setup-for-Tests">1. <strong>Data Setup for Tests</strong></a><br><a href="#2-Data-Verification">2. <strong>Data Verification</strong></a><br><a href="#3-Testing-Stored-Procedures">3. <strong>Testing Stored Procedures</strong></a><br><a href="#4-Data-Cleanup-After-Tests">4. <strong>Data Cleanup After Tests</strong></a><br><a href="#5-Automated-Testing-and-Validation">5. <strong>Automated Testing and Validation</strong></a></p>
-<h3 id="INTRO"><a href="#INTRO" class="headerlink" title="INTRO"></a>INTRO</h3><p>Interacting with complex SQL scripts and stored procedures can be an essential part of the testing process. Below, I have outlined common scenarios along with examples of SQL scripts and stored procedures that could be useful in a QA context. These examples cover areas such as data verification, data setup for tests, and automated testing of stored procedures.</p>
-<h3 id="1-Data-Setup-for-Tests"><a href="#1-Data-Setup-for-Tests" class="headerlink" title="1. Data Setup for Tests"></a>1. Data Setup for Tests</h3><p><strong>Example SQL Script to Prepare Test Data:</strong> This script creates sample data that can be used for testing purposes.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Create a test database</span></span><br><span class="line"><span class="keyword">CREATE</span> DATABASE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Use the test database</span></span><br><span class="line">USE TestDB;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Create Example Tables</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Users (</span><br><span class="line">    UserId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserName NVARCHAR(<span class="number">50</span>),</span><br><span class="line">    Email NVARCHAR(<span class="number">100</span>),</span><br><span class="line">    CreatedAt DATETIME <span class="keyword">DEFAULT</span> GETDATE()</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> Orders (</span><br><span class="line">    OrderId <span class="type">INT</span> <span class="keyword">PRIMARY</span> KEY <span class="keyword">IDENTITY</span>,</span><br><span class="line">    UserId <span class="type">INT</span>,</span><br><span class="line">    OrderDate DATETIME <span class="keyword">DEFAULT</span> GETDATE(),</span><br><span class="line">    Amount <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>),</span><br><span class="line">    <span class="keyword">FOREIGN</span> KEY (UserId) <span class="keyword">REFERENCES</span> Users(UserId)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Users</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Users (UserName, Email)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="string">&#x27;John Doe&#x27;</span>, <span class="string">&#x27;john@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Jane Smith&#x27;</span>, <span class="string">&#x27;jane@example.com&#x27;</span>),</span><br><span class="line">(<span class="string">&#x27;Alice Johnson&#x27;</span>, <span class="string">&#x27;alice@example.com&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Insert Test Data into Orders</span></span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> Orders (UserId, OrderDate, Amount)</span><br><span class="line"><span class="keyword">VALUES</span></span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-01-01&#x27;</span>, <span class="number">150.00</span>),</span><br><span class="line">(<span class="number">1</span>, <span class="string">&#x27;2023-02-05&#x27;</span>, <span class="number">200.00</span>),</span><br><span class="line">(<span class="number">2</span>, <span class="string">&#x27;2023-03-10&#x27;</span>, <span class="number">99.99</span>);</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Use this script to create a clean database environment before running tests.</li>
-<li>Ensure that the right amount of test data is present for testing various scenarios.</li>
-</ul>
-<h3 id="2-Data-Verification"><a href="#2-Data-Verification" class="headerlink" title="2. Data Verification"></a>2. Data Verification</h3><p><strong>Example SQL Script to Verify Data:</strong> This script checks if the data setup is correct.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Check the count of users in Users table</span></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">COUNT</span>(<span class="operator">*</span>) <span class="keyword">AS</span> UserCount <span class="keyword">FROM</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Check total order amount for each user</span></span><br><span class="line"><span class="keyword">SELECT</span> </span><br><span class="line">    U.UserName,</span><br><span class="line">    <span class="built_in">SUM</span>(O.Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line"><span class="keyword">FROM</span> </span><br><span class="line">    Users U</span><br><span class="line"><span class="keyword">JOIN</span> </span><br><span class="line">    Orders O <span class="keyword">ON</span> U.UserId <span class="operator">=</span> O.UserId</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> </span><br><span class="line">    U.UserName;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Write scripts to verify that the setup is complete and correct before running tests.</li>
-<li>Use assertions in automated tests to match expected results with SQL query outputs.</li>
-</ul>
-<h3 id="3-Testing-Stored-Procedures"><a href="#3-Testing-Stored-Procedures" class="headerlink" title="3. Testing Stored Procedures"></a>3. Testing Stored Procedures</h3><p><strong>Example Stored Procedure:</strong> This stored procedure calculates total orders for a user.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">PROCEDURE</span> GetUserTotalOrders</span><br><span class="line">    <span class="variable">@UserId</span> <span class="type">INT</span></span><br><span class="line"><span class="keyword">AS</span></span><br><span class="line"><span class="keyword">BEGIN</span></span><br><span class="line">    <span class="keyword">SET</span> NOCOUNT <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">SELECT</span> </span><br><span class="line">        <span class="built_in">SUM</span>(Amount) <span class="keyword">AS</span> TotalAmount</span><br><span class="line">    <span class="keyword">FROM</span> </span><br><span class="line">        Orders</span><br><span class="line">    <span class="keyword">WHERE</span> </span><br><span class="line">        UserId <span class="operator">=</span> <span class="variable">@UserId</span>;</span><br><span class="line"><span class="keyword">END</span>;</span><br></pre></td></tr></table></figure>
-
-<p><strong>Testing the Stored Procedure:</strong></p>
-<p>You can write a script to test the stored procedure and verify its results.</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Testing the stored procedure</span></span><br><span class="line"><span class="keyword">DECLARE</span> <span class="variable">@TotalAmount</span> <span class="type">DECIMAL</span>(<span class="number">10</span>, <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">EXEC</span> <span class="variable">@TotalAmount</span> <span class="operator">=</span> GetUserTotalOrders <span class="variable">@UserId</span> <span class="operator">=</span> <span class="number">1</span>;</span><br><span class="line">PRINT <span class="string">&#x27;Total Amount for User 1: &#x27;</span> <span class="operator">+</span> <span class="built_in">CAST</span>(<span class="variable">@TotalAmount</span> <span class="keyword">AS</span> NVARCHAR(<span class="number">10</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Expected output for verification in QA Testing:</span></span><br><span class="line"><span class="comment">-- Should match the expected total amount.</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Create unit tests for stored procedures to ensure they work as expected.</li>
-<li>Check edge cases such as invalid user IDs, no orders, and performance.</li>
-</ul>
-<h3 id="4-Data-Cleanup-After-Tests"><a href="#4-Data-Cleanup-After-Tests" class="headerlink" title="4. Data Cleanup After Tests"></a>4. Data Cleanup After Tests</h3><p><strong>Example SQL Script to Clean Up Test Data:</strong></p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">-- Drop Test Data</span></span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Orders;</span><br><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> IF <span class="keyword">EXISTS</span> Users;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- Optionally drop the TestDB</span></span><br><span class="line"><span class="keyword">DROP</span> DATABASE IF <span class="keyword">EXISTS</span> TestDB;</span><br></pre></td></tr></table></figure>
-
-<p><strong>QA Approach:</strong></p>
-<ul>
-<li>Always clean up test databases or data after tests to avoid state dependency in future tests.</li>
-<li>Automate cleanup in the CI&#x2F;CD pipeline.</li>
-</ul>
-<h3 id="5-Automated-Testing-and-Validation"><a href="#5-Automated-Testing-and-Validation" class="headerlink" title="5. Automated Testing and Validation"></a>5. Automated Testing and Validation</h3><p><strong>Example of Testing with SQL Queries in Automated Tests:</strong> If using a test framework like Python’s <code>pytest</code> or a Java-based framework, you can include SQL verification steps post-execution of application code.</p>
-<p>Here’s a pseudo-code example for a test that might be written in Python:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pyodbc</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">test_user_order_total</span>():</span><br><span class="line">    <span class="comment"># Execute the application code that triggers order creation</span></span><br><span class="line">    create_order(user_id=<span class="number">1</span>, amount=<span class="number">200.00</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Connect to the Database</span></span><br><span class="line">    conn = pyodbc.connect(<span class="string">&#x27;Driver=&#123;SQL Server&#125;;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Server=your_server;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;Database=TestDB;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;UID=user;&#x27;</span></span><br><span class="line">                          <span class="string">&#x27;PWD=password;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    cursor = conn.cursor()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Execute verification SQL</span></span><br><span class="line">    cursor.execute(<span class="string">&quot;EXEC GetUserTotalOrders @UserId = 1&quot;</span>)</span><br><span class="line">    result = cursor.fetchone()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># Assert the expected value</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>QA</category>
-      </categories>
-      <tags>
-        <tag>qa</tag>
-        <tag>db</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resources</title>
-    <url>/hexo-blog/2024/10/28/post_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
-<ol>
-<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>links</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Test design techniques for mobile applications</title>
     <url>/hexo-blog//qa/test_design_techniques_for_mobile_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
@@ -9725,26 +9710,18 @@ def __init__(self, driver):
       </tags>
   </entry>
   <entry>
-    <title>Resources. Global platforms and people</title>
-    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+    <title>Resources</title>
+    <url>/hexo-blog/2024/10/28/post_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
 <ol>
-<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
-</li>
-<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
-</li>
-</ol>
-<p><strong>List of people</strong></p>
-<ol>
-<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
 </ol>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>global_knowledge</tag>
-        <tag>resources</tag>
+        <tag>links</tag>
       </tags>
   </entry>
   <entry>
@@ -9805,6 +9782,46 @@ def __init__(self, driver):
       <tags>
         <tag>blog</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Resources. Global platforms and people</title>
+    <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
+<ol>
+<li><p>Archive.org<br>   <strong>Home page:</strong> <a href="https://archive.org/">https://Archive.org/</a><br>   <strong>About:</strong> Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more</p>
+</li>
+<li><p>brownstone.org<br>   <strong>Home page:</strong> <a href="https://brownstone.org/">https://brownstone.org/</a><br>   <strong>About:</strong> Brownstone Institute is a nonprofit 501(c)(3) organization founded May 2021. Its vision is of a society that places the highest value on the voluntary interaction of individuals and groups while minimizing the use of violence and force including that which is exercised by public or private authorities. This vision is that of the Enlightenment which elevated learning, science, progress, and universal rights to the forefront of public life. It is constantly threatened by ideologies and systems that would take the world back to before the triumph of the ideal of freedom.</p>
+</li>
+</ol>
+<p><strong>List of people</strong></p>
+<ol>
+<li>Joe Rogan<br>   <strong>Home page:</strong> <a href="https://www.joerogan.com/">https://www.joerogan.com/</a><br>   <strong>About:</strong> A standup comedian for over 30 years, Rogan’s seventh hour long comedy special Joe Rogan: Burn the Boats premiered live on Netflix on August 3, 2024. Rogan’s previous comedy specials include Joe Rogan: Strange Times (2018) and Joe Rogan: Triggered (2016) for Netflix, Joe Rogan: Rocky Mountain High (2014) for Comedy Central, Joe Rogan: Live from the Tabernacle (2012) released via his website, Talking Monkeys in Space (2009) on CD &amp; DVD, and Joe Rogan Live (2007) on DVD. Additionally, Rogan released the CDs Shiny Happy Jihad (2007) and I’m Gonna Be Dead Someday (2000).</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>global_knowledge</tag>
+        <tag>resources</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog&#39;s categories</title>
+    <url>/hexo-blog//categories/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
+<ul>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Categories</category>
+      </categories>
   </entry>
   <entry>
     <title>About me</title>
@@ -9906,28 +9923,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-  </entry>
-  <entry>
-    <title>Blog&#39;s categories</title>
-    <url>/hexo-blog//categories/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
-<ul>
-<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
-<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
-<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
-<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Categories</category>
-      </categories>
-  </entry>
-  <entry>
     <title>blog deploy actions</title>
     <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
@@ -9935,6 +9930,23 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <categories>
         <category>Maintanance</category>
       </categories>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
   </entry>
   <entry>
     <title>My Statistics page</title>
@@ -9958,18 +9970,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>tags</tag>
       </tags>
   </entry>
   <entry>
@@ -10051,29 +10051,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Examples of test tasks</title>
-    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
-<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
-<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>
-]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My GitHub projects</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
@@ -10130,6 +10107,29 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Examples of test tasks</title>
+    <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
+<h2 id="TECHNICAL-TEST-1-software-QA-QC"><a href="#TECHNICAL-TEST-1-software-QA-QC" class="headerlink" title="TECHNICAL TEST -1 (software QA&#x2F;QC)"></a>TECHNICAL TEST -1 (software QA&#x2F;QC)</h2><h3 id="Task-description"><a href="#Task-description" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves testing a function that verifies whether two input characters are valid letters or numbers, returning 1 if true and 0 otherwise. A previous bug caused Cyrillic letters to be misclassified; this has been fixed, and regression tests have been<br>conducted to confirm the correction.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_1.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-2-software-QA-QC"><a href="#TECHNICAL-TEST-2-software-QA-QC" class="headerlink" title="TECHNICAL TEST -2 (software QA&#x2F;QC)"></a>TECHNICAL TEST -2 (software QA&#x2F;QC)</h2><h3 id="Task-description-1"><a href="#Task-description-1" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves creating manual tests to validate the functionality of a currency converter tool, ensuring it meets core requirements for accurate conversions, displays essential details, and provides accessible API endpoints.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_2.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-3-software-QA-QC"><a href="#TECHNICAL-TEST-3-software-QA-QC" class="headerlink" title="TECHNICAL TEST -3 (software QA&#x2F;QC)"></a>TECHNICAL TEST -3 (software QA&#x2F;QC)</h2><h3 id="Task-description-2"><a href="#Task-description-2" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing and identifying all potential scenarios for the Sign Up and Log In processes on XYZ.com. The goal is to ensure these flows function correctly, handle errors effectively, and provide a seamless user experience and recommending appropriate testing types to ensure robust validation of these processes.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_3.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-4-software-QA-QC"><a href="#TECHNICAL-TEST-4-software-QA-QC" class="headerlink" title="TECHNICAL TEST -4 (software QA&#x2F;QC)"></a>TECHNICAL TEST -4 (software QA&#x2F;QC)</h2><h3 id="Task-description-3"><a href="#Task-description-3" class="headerlink" title="Task description"></a>Task description</h3><p>This task involves analyzing web platform, invstigating test artifacts and reporting discovered issues, creating test cases.<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_4.pdf">here.</a></p>
+<h2 id="TECHNICAL-TEST-5-software-QA-QC"><a href="#TECHNICAL-TEST-5-software-QA-QC" class="headerlink" title="TECHNICAL TEST -5 (software QA&#x2F;QC)"></a>TECHNICAL TEST -5 (software QA&#x2F;QC)</h2><h3 id="Task-description-4"><a href="#Task-description-4" class="headerlink" title="Task description"></a>Task description</h3><p>Basic audit of payment web platform<br>Download the document <a href="../../../docs/home_tasks/TECHNICAL_TEST_5.pdf">here.</a></p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>
+]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>test_tasks</tag>
       </tags>
   </entry>
   <entry>
@@ -10365,52 +10365,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO blog design</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
-<p>Header</p>
-<ul>
-<li>Navigation menu:<ul>
-<li>Menu items:<ul>
-<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
-<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
-<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Main body</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
-<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
-</ul>
-<p>Side panel</p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
-<li><input checked="" disabled="" type="checkbox"> Categories</li>
-<li><input checked="" disabled="" type="checkbox"> Tags</li>
-<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
-<li><input checked="" disabled="" type="checkbox"> Archives</li>
-<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
-</ul>
-</li>
-<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
-</ul>
-<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>hexo_io</tag>
-        <tag>note</tag>
-        <tag>md_format</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Add more beautiful HEXO blog pages</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_make_md_more_beautiful/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are some HTML and CSS code snippets that you can use in Markdown to style and enhance text areas, add background colors, or create visually distinct sections without JavaScript or complex manipulations.</p>
@@ -10472,6 +10426,52 @@ More detilas about event you can find on the official <a href = https://kolkadub
   
 <hr>
 ]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>hexo_io</tag>
+        <tag>note</tag>
+        <tag>md_format</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO blog design</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog_design/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>My plan to build&#x2F;redesign HEXO blog site based on <code>landsacpe</code> theme</p>
+<p>Header</p>
+<ul>
+<li>Navigation menu:<ul>
+<li>Menu items:<ul>
+<li><input checked="" disabled="" type="checkbox"> Home. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Notes. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Archives. Added</li>
+<li><input checked="" disabled="" type="checkbox"> Categories. Added</li>
+<li><input checked="" disabled="" type="checkbox"> About me. Added</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Main body</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Change dafault pagination &#x3D; 12</li>
+<li><input checked="" disabled="" type="checkbox"> Added footnotes. See <a href="/hexo-blog/hexo-layout-improvements/">hexo-layout-improvements</a></li>
+</ul>
+<p>Side panel</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Added. Nested subcategories<ul>
+<li><input checked="" disabled="" type="checkbox"> Categories</li>
+<li><input checked="" disabled="" type="checkbox"> Tags</li>
+<li><input checked="" disabled="" type="checkbox"> Tag Cloud</li>
+<li><input checked="" disabled="" type="checkbox"> Archives</li>
+<li><input checked="" disabled="" type="checkbox"> Recent Posts<br>Footer</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Performance metter. Something like <code>Page loaded in 0.11 at 1912 x 959</code>. Can be used META(javascript:dialog.pageMeta();)</li>
+</ul>
+<h2 id="My-First-Note"><a href="#My-First-Note" class="headerlink" title="My First Note"></a>My First Note</h2>]]></content>
       <categories>
         <category>Notes</category>
       </categories>
