@@ -106,6 +106,134 @@
       </tags>
   </entry>
   <entry>
+    <title>Comparing Efficiency of NLP Models. Methods and Metrics.</title>
+    <url>/hexo-blog//ai/post_ai__comparing_nlp_models_methods_metrix/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
+<hr>
+<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
+<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
+<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> for standardized comparisons.</li>
+<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
+<li><strong>Scalability and Efficiency Testing</strong>:<ul>
+<li>Test for performance across different dataset sizes.</li>
+<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
+</ul>
+</li>
+<li><strong>Generalization and Robustness</strong>:<ul>
+<li>Test on out-of-distribution data or adversarial examples.</li>
+<li>Use cross-lingual or domain-specific datasets.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
+<li><strong>Classification Tasks</strong>:<ul>
+<li>Accuracy</li>
+<li>Precision</li>
+<li>Recall </li>
+<li>F1-Score</li>
+<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
+</ul>
+</li>
+<li><strong>Text Generation Tasks</strong>:<ul>
+<li>BLEU (Bilingual Evaluation Understudy)</li>
+<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
+<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
+</ul>
+</li>
+<li><strong>Question Answering</strong>:<ul>
+<li>Exact Match (EM)</li>
+<li>F1-Score</li>
+</ul>
+</li>
+<li><strong>Language Modeling</strong>:<ul>
+<li>Perplexity</li>
+<li>Bits-per-character (BPC)</li>
+</ul>
+</li>
+<li><strong>Named Entity Recognition (NER)</strong>:<ul>
+<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
+</ul>
+</li>
+<li><strong>Text Summarization</strong>:<ul>
+<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
+</ul>
+</li>
+</ol>
+<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
+<li><strong>Computational Efficiency</strong>:<ul>
+<li>FLOPs (Floating Point Operations per Second)</li>
+<li>Latency (time per inference)</li>
+<li>Training Time</li>
+</ul>
+</li>
+<li><strong>Memory Usage</strong>:<ul>
+<li>GPU&#x2F;CPU memory requirements</li>
+<li>Model size (in MB or parameters)</li>
+</ul>
+</li>
+<li><strong>Energy Consumption</strong>:<ul>
+<li>Energy usage during training&#x2F;inference</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
+<li><strong>Model Parameters</strong>:<ul>
+<li>Number of layers</li>
+<li>Hidden size</li>
+<li>Attention heads</li>
+</ul>
+</li>
+<li><strong>Dataset Characteristics</strong>:<ul>
+<li>Dataset size</li>
+<li>Distribution (balanced vs. imbalanced classes)</li>
+<li>Language&#x2F;domain</li>
+</ul>
+</li>
+<li><strong>Hyperparameters</strong>:<ul>
+<li>Learning rate</li>
+<li>Batch size</li>
+<li>Dropout rate</li>
+<li>Optimization algorithm (e.g., AdamW, SGD)</li>
+</ul>
+</li>
+<li><strong>Infrastructure</strong>:<ul>
+<li>Hardware (e.g., GPU, TPU, or CPU)</li>
+<li>Software (e.g., TensorFlow, PyTorch)</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
+<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
+<li><strong>Parameterization</strong>:<ul>
+<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>:<ul>
+<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
+<li>Fix random seeds for deterministic results.</li>
+</ul>
+</li>
+<li><strong>Automated Testing</strong>:<ul>
+<li>Implement pipelines to rerun experiments with new variables.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.</span><a href="#fnref:2" rev="footnote"> ↩</a></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">3.</span><span style="display: inline-block; vertical-align: top;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.</span><a href="#fnref:3" rev="footnote"> ↩</a></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">4.</span><span style="display: inline-block; vertical-align: top;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.</span><a href="#fnref:4" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>NLP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Evaluating AI applications. Checklist</title>
     <url>/hexo-blog//ai/evaluating_ai_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Evaluation-of-AI-Prompts"><a href="#1-Evaluation-of-AI-Prompts" class="headerlink" title="1. Evaluation of AI Prompts"></a>1. Evaluation of AI Prompts</h2><h3 id="1-1-Prompt-Clarity"><a href="#1-1-Prompt-Clarity" class="headerlink" title="1.1 Prompt Clarity"></a>1.1 <strong>Prompt Clarity</strong></h3><ul>
@@ -244,155 +372,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>AI papers</title>
-    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><ul>
-<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
-<li>DOI:10.1561&#x2F;2200000056</li>
-<li><a href="https://arxiv.org/pdf/1906.02691">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on arxiv.org</a></li>
-<li><a href="https://sci-hub.se/10.1561/2200000056">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on sci-hub.se</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>papers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Comparing Efficiency of NLP Models. Methods and Metrics.</title>
-    <url>/hexo-blog//ai/post_ai__comparing_nlp_models_methods_metrix/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>When comparing the efficiency of NLP models, it is essential to use standardized approaches, metrics, and parameters to ensure a fair and comprehensive evaluation. Below is a structured guide.</p>
-<hr>
-<h2 id="1-Approaches-for-Evaluating-NLP-Models"><a href="#1-Approaches-for-Evaluating-NLP-Models" class="headerlink" title="1. Approaches for Evaluating NLP Models"></a>1. Approaches for Evaluating NLP Models</h2><ol>
-<li><strong>Task-Specific Evaluation</strong>: Measure performance on specific NLP tasks (e.g., sentiment analysis, named entity recognition, machine translation).</li>
-<li><strong>Benchmark Datasets</strong>: Use well-known datasets like <a href="https://huggingface.co/datasets/nyu-mll/glue">GLUE</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, <a href="https://super.gluebenchmark.com/">SuperGLUE</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>, <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, or <a href="https://huggingface.co/wmt">WMT</a><sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> for standardized comparisons.</li>
-<li><strong>Ablation Studies</strong>: Analyze the impact of model components by systematically removing or modifying parts of the model.</li>
-<li><strong>Scalability and Efficiency Testing</strong>:<ul>
-<li>Test for performance across different dataset sizes.</li>
-<li>Evaluate computational efficiency (e.g., inference speed, training time).</li>
-</ul>
-</li>
-<li><strong>Generalization and Robustness</strong>:<ul>
-<li>Test on out-of-distribution data or adversarial examples.</li>
-<li>Use cross-lingual or domain-specific datasets.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="2-Relevant-Metrics"><a href="#2-Relevant-Metrics" class="headerlink" title="2. Relevant Metrics"></a>2. Relevant Metrics</h2><h3 id="A-Task-Specific-Metrics"><a href="#A-Task-Specific-Metrics" class="headerlink" title="A. Task-Specific Metrics"></a>A. Task-Specific Metrics</h3><ol>
-<li><strong>Classification Tasks</strong>:<ul>
-<li>Accuracy</li>
-<li>Precision</li>
-<li>Recall </li>
-<li>F1-Score</li>
-<li>Area Under the Curve (AUC) for ROC&#x2F;PR curves</li>
-</ul>
-</li>
-<li><strong>Text Generation Tasks</strong>:<ul>
-<li>BLEU (Bilingual Evaluation Understudy)</li>
-<li>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</li>
-<li>METEOR (Metric for Evaluation of Translation with Explicit Ordering)</li>
-</ul>
-</li>
-<li><strong>Question Answering</strong>:<ul>
-<li>Exact Match (EM)</li>
-<li>F1-Score</li>
-</ul>
-</li>
-<li><strong>Language Modeling</strong>:<ul>
-<li>Perplexity</li>
-<li>Bits-per-character (BPC)</li>
-</ul>
-</li>
-<li><strong>Named Entity Recognition (NER)</strong>:<ul>
-<li>F1-Score for Entity-Level Precision&#x2F;Recall</li>
-</ul>
-</li>
-<li><strong>Text Summarization</strong>:<ul>
-<li>ROUGE-1, ROUGE-2, ROUGE-L</li>
-</ul>
-</li>
-</ol>
-<h3 id="B-Efficiency-Metrics"><a href="#B-Efficiency-Metrics" class="headerlink" title="B. Efficiency Metrics"></a>B. Efficiency Metrics</h3><ol>
-<li><strong>Computational Efficiency</strong>:<ul>
-<li>FLOPs (Floating Point Operations per Second)</li>
-<li>Latency (time per inference)</li>
-<li>Training Time</li>
-</ul>
-</li>
-<li><strong>Memory Usage</strong>:<ul>
-<li>GPU&#x2F;CPU memory requirements</li>
-<li>Model size (in MB or parameters)</li>
-</ul>
-</li>
-<li><strong>Energy Consumption</strong>:<ul>
-<li>Energy usage during training&#x2F;inference</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="3-Parameters-for-Testing"><a href="#3-Parameters-for-Testing" class="headerlink" title="3. Parameters for Testing"></a>3. Parameters for Testing</h2><ol>
-<li><strong>Model Parameters</strong>:<ul>
-<li>Number of layers</li>
-<li>Hidden size</li>
-<li>Attention heads</li>
-</ul>
-</li>
-<li><strong>Dataset Characteristics</strong>:<ul>
-<li>Dataset size</li>
-<li>Distribution (balanced vs. imbalanced classes)</li>
-<li>Language&#x2F;domain</li>
-</ul>
-</li>
-<li><strong>Hyperparameters</strong>:<ul>
-<li>Learning rate</li>
-<li>Batch size</li>
-<li>Dropout rate</li>
-<li>Optimization algorithm (e.g., AdamW, SGD)</li>
-</ul>
-</li>
-<li><strong>Infrastructure</strong>:<ul>
-<li>Hardware (e.g., GPU, TPU, or CPU)</li>
-<li>Software (e.g., TensorFlow, PyTorch)</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="4-Reusability-for-Variable-Changes"><a href="#4-Reusability-for-Variable-Changes" class="headerlink" title="4. Reusability for Variable Changes"></a>4. Reusability for Variable Changes</h2><ol>
-<li><strong>Modular Code</strong>: Ensure model code allows for easy swapping of components (e.g., tokenizer, embedding layer).</li>
-<li><strong>Parameterization</strong>:<ul>
-<li>Use configuration files (YAML&#x2F;JSON) to define model parameters and settings.</li>
-</ul>
-</li>
-<li><strong>Reproducibility</strong>:<ul>
-<li>Log training runs using tools like TensorBoard, Weights &amp; Biases, or MLflow.</li>
-<li>Fix random seeds for deterministic results.</li>
-</ul>
-</li>
-<li><strong>Automated Testing</strong>:<ul>
-<li>Implement pipelines to rerun experiments with new variables.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The comparison of NLP models requires a multifaceted approach, evaluating both task performance and computational efficiency. Selecting appropriate metrics and parameters ensures comprehensive insights into model strengths and weaknesses. By maintaining modularity and automation, reusability across experiments is simplified, enabling iterative improvements and robust testing.</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;">GLUE - The General Language Understanding Evaluation (GLUE) benchmark is a collection of resources for training, evaluating, and analyzing natural language understanding systems.</span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;">SuperGLUE is a benchmark dataset designed to pose a more rigorous test of language understanding than GLUE.</span><a href="#fnref:2" rev="footnote"> ↩</a></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">3.</span><span style="display: inline-block; vertical-align: top;">SQuAD - Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.</span><a href="#fnref:3" rev="footnote"> ↩</a></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">4.</span><span style="display: inline-block; vertical-align: top;">WMT: Workshop on Statistical Machine Translation focuses on news text translation. It includes language pairs such as English to/from various languages like Chinese, Czech, German, Hausa, Icelandic, Japanese, Russian, and more.</span><a href="#fnref:4" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AI glossaries list</title>
     <url>/hexo-blog/2024/11/01/post_ai__glossary_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List contains glossaries with brief overview</strong></p>
@@ -440,6 +419,27 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </categories>
       <tags>
         <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AI papers</title>
+    <url>/hexo-blog/2024/10/18/post_ai__mix_of_instances/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Variational-Autoencoder"><a href="#Variational-Autoencoder" class="headerlink" title="Variational Autoencoder"></a>Variational Autoencoder</h2><ul>
+<li>Book: An Introduction to Variational Autoencoders. Diederik P. Kingma<ul>
+<li>DOI:10.1561&#x2F;2200000056</li>
+<li><a href="https://arxiv.org/pdf/1906.02691">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on arxiv.org</a></li>
+<li><a href="https://sci-hub.se/10.1561/2200000056">Read book <code>An Introduction to Variational Autoencoders. Diederik P. Kingma</code> on sci-hub.se</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>papers</tag>
       </tags>
   </entry>
   <entry>
@@ -537,33 +537,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>References for learning AI algorithms</title>
     <url>/hexo-blog//ai_algorithms/references_for_learning_ai_algorithms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>references_for_learning_ai_algorithms<br><em>This post related to :</em></p>
@@ -606,6 +579,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>ML</tag>
         <tag>algorithms</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
+</ul>
+</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -1517,51 +1517,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Fine-tuning vs. Feature-based Approaches</title>
-    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
-<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
-<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
-<p><strong>Key Differences:</strong></p>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Fine-tuning</th>
-<th>Feature-based</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Model Modification</td>
-<td>Adjusts weights of pre-trained model</td>
-<td>Extracts features, trains new model</td>
-</tr>
-<tr>
-<td>Computational Cost</td>
-<td>Higher</td>
-<td>Lower</td>
-</tr>
-<tr>
-<td>Task Similarity</td>
-<td>Best for similar tasks</td>
-<td>Can be used for diverse tasks</td>
-</tr>
-<tr>
-<td>Data Requirements</td>
-<td>More data needed</td>
-<td>Less data needed</td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Machine Learning.Teach by doing(LinkedIn post)</title>
     <url>/hexo-blog/2024/11/30/post_ai_ml__machine_learning_teach_by_doing/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="Note-on-Authorship"><a href="#Note-on-Authorship" class="headerlink" title="Note on Authorship"></a>Note on Authorship</h3><p>This post is a repost of a highly valuable LinkedIn series titled <strong>“Machine Learning: Teach by doing.”</strong> While I am sharing this to preserve these resources, I want to express my deep respect for the original author, <strong>Dr. Raj Abhijit Dandekar</strong>. </p>
@@ -1609,6 +1564,51 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
 <li>Build your own brain tumor classification CNN application in Python: <a href="https://lnkd.in/gQB5zRGk">https://lnkd.in/gQB5zRGk</a></li>
 </ol>
 <p>Join our AI live lectures waitlist here: <a href="https://lnkd.in/gDcHZdHg">https://lnkd.in/gDcHZdHg</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fine-tuning vs. Feature-based Approaches</title>
+    <url>/hexo-blog/2024/11/21/post_ai_ml__finetuning_vs_feature_based_approaches/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Fine-tuning and feature-based approaches are two common techniques in transfer learning, a machine learning method where a pre-trained model is reused as a starting point for a new task.</p>
+<p><strong>Fine-tuning</strong> involves adjusting the weights of a pre-trained model on a new dataset. This method is more computationally intensive but can lead to better performance, especially when the new task is similar to the original task.</p>
+<p><strong>Feature-based</strong> approaches, on the other hand, extract features from a pre-trained model and use them as input for a new model. This method is less computationally intensive and can be effective when the new task is different from the original task.</p>
+<p><strong>Key Differences:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Fine-tuning</th>
+<th>Feature-based</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Model Modification</td>
+<td>Adjusts weights of pre-trained model</td>
+<td>Extracts features, trains new model</td>
+</tr>
+<tr>
+<td>Computational Cost</td>
+<td>Higher</td>
+<td>Lower</td>
+</tr>
+<tr>
+<td>Task Similarity</td>
+<td>Best for similar tasks</td>
+<td>Can be used for diverse tasks</td>
+</tr>
+<tr>
+<td>Data Requirements</td>
+<td>More data needed</td>
+<td>Less data needed</td>
+</tr>
+</tbody></table>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -1768,21 +1768,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>NLP knowledge base</title>
-    <url>/hexo-blog//ai_ml/rnn_knowledge_base/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://arxiv.org/pdf/1506.02078">Read paper “Visualizing and understanding recurrent networks. Andrej Karpathy, Justin Johnson, and Li Fei-Fei. 2015” on aclanthology.org</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>rnn</tag>
-        <tag>knowledge_base</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AI - Machine Learning frameworks</title>
     <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
@@ -1807,6 +1792,21 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>ML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NLP knowledge base</title>
+    <url>/hexo-blog//ai_ml/rnn_knowledge_base/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://arxiv.org/pdf/1506.02078">Read paper “Visualizing and understanding recurrent networks. Andrej Karpathy, Justin Johnson, and Li Fei-Fei. 2015” on aclanthology.org</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>rnn</tag>
+        <tag>knowledge_base</tag>
       </tags>
   </entry>
   <entry>
@@ -2248,61 +2248,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>Internet resources and references for building NLP projects</title>
-    <url>/hexo-blog//ai_nlp/internet_resources_and_references_for_building_nlp_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial<ol>
-<li><p><strong>Intro</strong></p>
-<p>Welcome to Tutorial 3 of our NLP with HuggingFace series! In this exciting installment, we dive deep into the world of Text Generation using the powerful GPT-2 model. 🚀</p>
-<p>Discover the magic of transforming prompts into creative and contextually rich text outputs. We’ll guide you step by step through the process of leveraging HuggingFace’s GPT-2 model for crafting compelling narratives, generating code, and much more. 📝✨</p>
-<p>Whether you’re a seasoned NLP enthusiast or just beginning your journey, this tutorial will equip you with the skills to unlock the art of automatic text generation. Join us as we unravel the intricacies of GPT-2 and showcase its ability to generate fluent and coherent content.</p>
-<p>Don’t miss out on this educational adventure! Like, subscribe, and hit the notification bell to stay updated with the latest in Natural Language Processing and HuggingFace magic. Get ready to take your text generation game to the next level with NLP and GPT-2. Let’s dive in!</p>
-</li>
-<li><p><strong>Author</strong>:</p>
-<ol>
-<li>YouTube channel: KGP Talkie</li>
-<li><a href="https://www.youtube.com/@KGPTalkie">YouTube channel link: KGP Talkie</a></li>
-</ol>
-</li>
-<li><p><a href="https://github.com/laxmimerit/NLP-Tutorials-with-HuggingFace">GitHub project: NLP-Tutorials-with-HuggingFace</a></p>
-</li>
-<li><p><a href="https://www.youtube.com/watch?v=7O5ZKtJ99lc&t=1831s">Youtube video link: 3- Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial</a></p>
-</li>
-</ol>
-</li>
-<li>Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)<ol>
-<li><strong>Author</strong>:<ol>
-<li>YouTube channel: Евгений Разинков</li>
-<li><a href="https://www.youtube.com/@razinkov">YouTube channel link: Евгений Разинков</a></li>
-</ol>
-</li>
-<li><a href="https://www.youtube.com/watch?v=bn11u_Ijf8Y&t=300s">Youtube video link: Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)</a></li>
-</ol>
-</li>
-<li>[DL] Training very deep models using residual connections<ol>
-<li><strong>Author</strong>:<ol>
-<li><a href="https://badriadhikari.github.io/concept-map">Badri Adhikari personal website</a><ol>
-<li><a href="https://badriadhikari.github.io/concept-maps/kate_2022spring_dl.png">An example concept map drawn by Kate Arendes, a student who took Badri Adhikari’s Deep Learning course in Spring 2022.</a></li>
-</ol>
-</li>
-<li>YouTube channel: Badri Adhikari</li>
-<li><a href="https://www.youtube.com/@BadriAdhikari1">YouTube channel link: Badri Adhikari</a></li>
-</ol>
-</li>
-<li><a href="https://youtu.be/SnkcHjH5tjI">Youtube video link: [DL] Training very deep models using residual connections</a></li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Evolution of Text Augmentation in NLP</title>
     <url>/hexo-blog//ai_nlp/evolution_of_text_augmentation_in_nlp/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Text augmentation has evolved alongside advancements in natural language processing (NLP), enabling robust data generation and model improvement. Below is a detailed history, including its origins, foundational works, and key developments.</p>
@@ -2447,19 +2392,58 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>NLP knowledge base</title>
-    <url>/hexo-blog//ai_nlp/nlp_knowledge_base/</url>
+    <title>Internet resources and references for building NLP projects</title>
+    <url>/hexo-blog//ai_nlp/internet_resources_and_references_for_building_nlp_projects/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://aclanthology.org/C18-1139.pdf">Read paper “Contextual String Embeddings for Sequence Labeling. 2000” on aclanthology.org</a></li>
-<li><a href="https://arxiv.org/pdf/1312.3005">Read paper “One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling. 2013” on aclanthology.org</a></li>
+<li>Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial<ol>
+<li><p><strong>Intro</strong></p>
+<p>Welcome to Tutorial 3 of our NLP with HuggingFace series! In this exciting installment, we dive deep into the world of Text Generation using the powerful GPT-2 model. 🚀</p>
+<p>Discover the magic of transforming prompts into creative and contextually rich text outputs. We’ll guide you step by step through the process of leveraging HuggingFace’s GPT-2 model for crafting compelling narratives, generating code, and much more. 📝✨</p>
+<p>Whether you’re a seasoned NLP enthusiast or just beginning your journey, this tutorial will equip you with the skills to unlock the art of automatic text generation. Join us as we unravel the intricacies of GPT-2 and showcase its ability to generate fluent and coherent content.</p>
+<p>Don’t miss out on this educational adventure! Like, subscribe, and hit the notification bell to stay updated with the latest in Natural Language Processing and HuggingFace magic. Get ready to take your text generation game to the next level with NLP and GPT-2. Let’s dive in!</p>
+</li>
+<li><p><strong>Author</strong>:</p>
+<ol>
+<li>YouTube channel: KGP Talkie</li>
+<li><a href="https://www.youtube.com/@KGPTalkie">YouTube channel link: KGP Talkie</a></li>
+</ol>
+</li>
+<li><p><a href="https://github.com/laxmimerit/NLP-Tutorials-with-HuggingFace">GitHub project: NLP-Tutorials-with-HuggingFace</a></p>
+</li>
+<li><p><a href="https://www.youtube.com/watch?v=7O5ZKtJ99lc&t=1831s">Youtube video link: 3- Text Generation with GPT2 Model using HuggingFace | NLP Hugging Face Project Tutorial</a></p>
+</li>
+</ol>
+</li>
+<li>Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)<ol>
+<li><strong>Author</strong>:<ol>
+<li>YouTube channel: Евгений Разинков</li>
+<li><a href="https://www.youtube.com/@razinkov">YouTube channel link: Евгений Разинков</a></li>
+</ol>
+</li>
+<li><a href="https://www.youtube.com/watch?v=bn11u_Ijf8Y&t=300s">Youtube video link: Глубокое обучение. Лекция 2. Многослойный персептрон (2019-2020)</a></li>
+</ol>
+</li>
+<li>[DL] Training very deep models using residual connections<ol>
+<li><strong>Author</strong>:<ol>
+<li><a href="https://badriadhikari.github.io/concept-map">Badri Adhikari personal website</a><ol>
+<li><a href="https://badriadhikari.github.io/concept-maps/kate_2022spring_dl.png">An example concept map drawn by Kate Arendes, a student who took Badri Adhikari’s Deep Learning course in Spring 2022.</a></li>
+</ol>
+</li>
+<li>YouTube channel: Badri Adhikari</li>
+<li><a href="https://www.youtube.com/@BadriAdhikari1">YouTube channel link: Badri Adhikari</a></li>
+</ol>
+</li>
+<li><a href="https://youtu.be/SnkcHjH5tjI">Youtube video link: [DL] Training very deep models using residual connections</a></li>
+</ol>
+</li>
 </ol>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
+        <tag>AI</tag>
         <tag>NLP</tag>
-        <tag>knowledge_base</tag>
       </tags>
   </entry>
   <entry>
@@ -2477,6 +2461,22 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>NLP</tag>
         <tag>knowledge_graph</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NLP knowledge base</title>
+    <url>/hexo-blog//ai_nlp/nlp_knowledge_base/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://aclanthology.org/C18-1139.pdf">Read paper “Contextual String Embeddings for Sequence Labeling. 2000” on aclanthology.org</a></li>
+<li><a href="https://arxiv.org/pdf/1312.3005">Read paper “One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling. 2013” on aclanthology.org</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>knowledge_base</tag>
       </tags>
   </entry>
   <entry>
@@ -2602,99 +2602,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>ML</tag>
-        <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Types of sentiment analysis techniques in NLP</title>
-    <url>/hexo-blog/2024/11/21/post_ai_nlp__types_of_sentiment_analysis_techniques_in_nlp/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>related to : <a href="/hexo-blog/ai_ml__llm_system_prompts/">LLM system prompts</a></em></p>
-<p><strong>Types of Sentiment Analysis Techniques for NLP (with DOI Papers)</strong><br><em>This post summarizes various sentiment analysis techniques, from lexicon-based methods to advanced deep learning approaches, along with DOI references to explore these concepts further.</em></p>
-<hr>
-<h2 id="1-Lexicon-Based-Sentiment-Analysis"><a href="#1-Lexicon-Based-Sentiment-Analysis" class="headerlink" title="1. Lexicon-Based Sentiment Analysis"></a><strong>1. Lexicon-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Relies on predefined sentiment lexicons (dictionaries of positive, negative, and neutral words). Sentiment scores are calculated based on the presence and frequency of words.</li>
-<li><strong>Applications</strong>: Basic polarity detection, customer feedback analysis.</li>
-<li><strong>Key Paper</strong>:<br>Liu, B. (2012). <strong>Sentiment Analysis and Opinion Mining</strong>. <em>Synthesis Lectures on Human Language Technologies, 5</em>(1), 1–167.<br>DOI: <a href="https://doi.org/10.2200/S00416ED1V01Y201204HLT016">10.2200&#x2F;S00416ED1V01Y201204HLT016</a><br><a href="https://www.cs.uic.edu/~liub/FBS/SentimentAnalysis-and-OpinionMining.pdf">Read on www.cs.uic.edu</a></li>
-</ul>
-<hr>
-<h2 id="2-Rule-Based-Sentiment-Analysis"><a href="#2-Rule-Based-Sentiment-Analysis" class="headerlink" title="2. Rule-Based Sentiment Analysis"></a><strong>2. Rule-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Combines sentiment lexicons with linguistic rules (e.g., negation handling, intensifiers). Example: “not good” &#x3D; negative, “very bad” &#x3D; strongly negative.</li>
-<li><strong>Applications</strong>: Sentiment classification for rule-governed domains.</li>
-<li><strong>Key Paper</strong>:<br>Hutto, C., &amp; Gilbert, E. (2014). <strong>VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text</strong>. <em>Proceedings of the Eighth International AAAI Conference on Weblogs and Social Media</em>.<br>DOI: <a href="https://doi.org/10.1609/icwsm.v8i1.14550">10.1609&#x2F;icwsm.v8i1.14550</a><br><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550/14399">Read on ojs.aaai.org</a></li>
-</ul>
-<hr>
-<h2 id="3-Machine-Learning-Based-Sentiment-Analysis"><a href="#3-Machine-Learning-Based-Sentiment-Analysis" class="headerlink" title="3. Machine Learning-Based Sentiment Analysis"></a><strong>3. Machine Learning-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Uses ML models like Naive Bayes, SVM, or Decision Trees trained on labeled sentiment datasets.</li>
-<li><strong>Applications</strong>: News sentiment analysis, customer reviews, product recommendations.</li>
-<li><strong>Key Paper</strong>:<br>Pang, B., &amp; Lee, L. (2002). <strong>Thumbs Up? Sentiment Classification Using Machine Learning Techniques</strong>. <em>Proceedings of the ACL-02 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 10, 79–86.<br>DOI: <a href="https://doi.org/10.3115/1118693.1118704">10.3115&#x2F;1118693.1118704</a><br><a href="https://dl.acm.org/doi/pdf/10.3115/1118693.1118704">Read on dl.acm.org</a></li>
-</ul>
-<hr>
-<h2 id="4-Deep-Learning-Based-Sentiment-Analysis"><a href="#4-Deep-Learning-Based-Sentiment-Analysis" class="headerlink" title="4. Deep Learning-Based Sentiment Analysis"></a><strong>4. Deep Learning-Based Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Uses neural networks (CNNs, RNNs, LSTMs, Transformers) to analyze sentiment from raw text.</li>
-<li><strong>Applications</strong>: Social media analysis, multilingual sentiment detection.</li>
-<li><strong>Key Papers</strong>:  <ul>
-<li>Socher, R., et al. (2013). <strong>Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank</strong>. <em>Proceedings of EMNLP 2013</em>.<br><a href="https://nlp.stanford.edu/pubs/SocherEtAl_EMNLP2013.pdf">Read on nlp.stanford.edu</a></li>
-<li>Vaswani, A., et al. (2017). <strong>Attention Is All You Need</strong>. <em>Advances in Neural Information Processing Systems (NeurIPS)</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a><br><a href="https://arxiv.org/pdf/1706.03762">Read on arxiv.org</a></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="5-Aspect-Based-Sentiment-Analysis-ABSA"><a href="#5-Aspect-Based-Sentiment-Analysis-ABSA" class="headerlink" title="5. Aspect-Based Sentiment Analysis (ABSA)"></a><strong>5. Aspect-Based Sentiment Analysis (ABSA)</strong></h2><ul>
-<li><strong>Description</strong>: Focuses on sentiment specific to aspects of a product or service (e.g., food, service in restaurant reviews).</li>
-<li><strong>Applications</strong>: E-commerce reviews, detailed product feedback.</li>
-<li><strong>Key Paper</strong>:<br>Pontiki, M., et al. (2014). <strong>SemEval-2014 Task 4: Aspect-Based Sentiment Analysis</strong>. <em>Proceedings of SemEval 2014</em>.<br>DOI: <a href="https://doi.org/10.3115/v1/S14-2004">10.3115&#x2F;v1&#x2F;S14-2004</a><br><a href="https://aclanthology.org/S14-2004.pdf">Read on aclanthology.org</a></li>
-</ul>
-<hr>
-<h2 id="6-Emotion-Detection"><a href="#6-Emotion-Detection" class="headerlink" title="6. Emotion Detection"></a><strong>6. Emotion Detection</strong></h2><img src="/hexo-blog/images/img__racknitz_-_the_turk_3.jpg" style="width: 80%; max-width: 200px; border: 1px solid #ccc; padding: 11px; border-radius: 8px; float: left; margin-right: 22px" />
-
-
-
-<ul>
-<li><strong>Description</strong>: Detects specific emotions (e.g., happiness, anger, fear) rather than just positive or negative sentiment.</li>
-<li><strong>Applications</strong>: Crisis management, psychological studies.</li>
-<li><strong>Key Paper</strong>:<br>Mohammad, S. M., &amp; Turney, P. D. (2013). <strong>Crowdsourcing a Word–Emotion Association Lexicon</strong>. <em>Computational Intelligence, 29</em>(3), 436–465.<br>DOI: <a href="https://doi.org/10.1111/j.1467-8640.2012.00460.x">10.1111&#x2F;j.1467-8640.2012.00460.x</a><br><a href="https://sci-hub.se/https://doi.org/10.1111/j.1467-8640.2012.00460.x">Read on sci-hub.se</a></li>
-</ul>
-<br>
-
-<hr>
-<h2 id="7-Multimodal-Sentiment-Analysis"><a href="#7-Multimodal-Sentiment-Analysis" class="headerlink" title="7. Multimodal Sentiment Analysis"></a><strong>7. Multimodal Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Combines multiple data sources (e.g., text, audio, video) for sentiment analysis.</li>
-<li><strong>Applications</strong>: Video sentiment analysis, call center analytics.</li>
-<li><strong>Key Paper</strong>:<br>Zadeh, A., et al. (2017). <strong>Tensor Fusion Network for Multimodal Sentiment Analysis</strong>. <em>Proceedings of EMNLP 2017</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1707.07250">10.48550&#x2F;arXiv.1707.07250</a><br><a href="https://arxiv.org/pdf/1707.07250">Read on arxiv.org</a></li>
-</ul>
-<hr>
-<h2 id="8-Hybrid-Sentiment-Analysis"><a href="#8-Hybrid-Sentiment-Analysis" class="headerlink" title="8. Hybrid Sentiment Analysis"></a><strong>8. Hybrid Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Combines lexicon-based, rule-based, and machine learning techniques for robust and accurate sentiment detection.</li>
-<li><strong>Applications</strong>: Industry-specific sentiment analysis.</li>
-<li><strong>Key Paper</strong>:<br>Cambria, E., et al. (2013). <strong>New Avenues in Opinion Mining and Sentiment Analysis</strong>. <em>IEEE Intelligent Systems, 28</em>(2), 15–21.<br>DOI: <a href="https://doi.org/10.1109/MIS.2013.30">10.1109&#x2F;MIS.2013.30</a><br><a href="https://sci-hub.se/10.1109/MIS.2013.30">Read on sci-hub.se</a></li>
-</ul>
-<hr>
-<h2 id="9-Transfer-Learning-for-Sentiment-Analysis"><a href="#9-Transfer-Learning-for-Sentiment-Analysis" class="headerlink" title="9. Transfer Learning for Sentiment Analysis"></a><strong>9. Transfer Learning for Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Fine-tunes pre-trained models (e.g., BERT, RoBERTa, GPT) for sentiment classification tasks.</li>
-<li><strong>Applications</strong>: Multilingual sentiment analysis, specialized domains.</li>
-<li><strong>Key Paper</strong>:<br>Devlin, J., et al. (2019). <strong>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</strong>. <em>Proceedings of NAACL 2019</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a><br><a href="https://arxiv.org/pdf/1810.04805">Read on arxiv.org</a></li>
-</ul>
-<hr>
-<h2 id="10-Fine-Grained-Sentiment-Analysis"><a href="#10-Fine-Grained-Sentiment-Analysis" class="headerlink" title="10. Fine-Grained Sentiment Analysis"></a><strong>10. Fine-Grained Sentiment Analysis</strong></h2><ul>
-<li><strong>Description</strong>: Assigns sentiment scores on a fine-grained scale (e.g., star ratings from 1 to 5).</li>
-<li><strong>Applications</strong>: Detailed product reviews, star-rating predictions.</li>
-<li><strong>Key Paper</strong>:<br>Yang, B., et al. (2016). <strong>Hierarchical Attention Networks for Document Classification</strong>. <em>Proceedings of NAACL 2016</em>.<br>DOI: <a href="https://doi.org/10.18653/v1/N16-1174">10.18653&#x2F;v1&#x2F;N16-1174</a></li>
-</ul>
-<hr>
-<h2 id="Other-resources"><a href="#Other-resources" class="headerlink" title="Other resources"></a>Other resources</h2><ol>
-<li><a href="https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques">https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques</a> </li>
-<li>Article: Opinion Mining and Sentiment Analysis. January 2008. Foundations and Trends® in Information Retrieval 2(1–2):1-135<ul>
-<li>DOI:10.1561&#x2F;1500000011</li>
-<li><a href="https://www.cs.cornell.edu/home/llee/omsa/omsa.pdf">Read on cs.cornell.edu</a></li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
         <tag>NLP</tag>
       </tags>
   </entry>
@@ -2992,6 +2899,99 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>NLTK</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Types of sentiment analysis techniques in NLP</title>
+    <url>/hexo-blog/2024/11/21/post_ai_nlp__types_of_sentiment_analysis_techniques_in_nlp/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>related to : <a href="/hexo-blog/ai_ml__llm_system_prompts/">LLM system prompts</a></em></p>
+<p><strong>Types of Sentiment Analysis Techniques for NLP (with DOI Papers)</strong><br><em>This post summarizes various sentiment analysis techniques, from lexicon-based methods to advanced deep learning approaches, along with DOI references to explore these concepts further.</em></p>
+<hr>
+<h2 id="1-Lexicon-Based-Sentiment-Analysis"><a href="#1-Lexicon-Based-Sentiment-Analysis" class="headerlink" title="1. Lexicon-Based Sentiment Analysis"></a><strong>1. Lexicon-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Relies on predefined sentiment lexicons (dictionaries of positive, negative, and neutral words). Sentiment scores are calculated based on the presence and frequency of words.</li>
+<li><strong>Applications</strong>: Basic polarity detection, customer feedback analysis.</li>
+<li><strong>Key Paper</strong>:<br>Liu, B. (2012). <strong>Sentiment Analysis and Opinion Mining</strong>. <em>Synthesis Lectures on Human Language Technologies, 5</em>(1), 1–167.<br>DOI: <a href="https://doi.org/10.2200/S00416ED1V01Y201204HLT016">10.2200&#x2F;S00416ED1V01Y201204HLT016</a><br><a href="https://www.cs.uic.edu/~liub/FBS/SentimentAnalysis-and-OpinionMining.pdf">Read on www.cs.uic.edu</a></li>
+</ul>
+<hr>
+<h2 id="2-Rule-Based-Sentiment-Analysis"><a href="#2-Rule-Based-Sentiment-Analysis" class="headerlink" title="2. Rule-Based Sentiment Analysis"></a><strong>2. Rule-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Combines sentiment lexicons with linguistic rules (e.g., negation handling, intensifiers). Example: “not good” &#x3D; negative, “very bad” &#x3D; strongly negative.</li>
+<li><strong>Applications</strong>: Sentiment classification for rule-governed domains.</li>
+<li><strong>Key Paper</strong>:<br>Hutto, C., &amp; Gilbert, E. (2014). <strong>VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text</strong>. <em>Proceedings of the Eighth International AAAI Conference on Weblogs and Social Media</em>.<br>DOI: <a href="https://doi.org/10.1609/icwsm.v8i1.14550">10.1609&#x2F;icwsm.v8i1.14550</a><br><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550/14399">Read on ojs.aaai.org</a></li>
+</ul>
+<hr>
+<h2 id="3-Machine-Learning-Based-Sentiment-Analysis"><a href="#3-Machine-Learning-Based-Sentiment-Analysis" class="headerlink" title="3. Machine Learning-Based Sentiment Analysis"></a><strong>3. Machine Learning-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Uses ML models like Naive Bayes, SVM, or Decision Trees trained on labeled sentiment datasets.</li>
+<li><strong>Applications</strong>: News sentiment analysis, customer reviews, product recommendations.</li>
+<li><strong>Key Paper</strong>:<br>Pang, B., &amp; Lee, L. (2002). <strong>Thumbs Up? Sentiment Classification Using Machine Learning Techniques</strong>. <em>Proceedings of the ACL-02 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 10, 79–86.<br>DOI: <a href="https://doi.org/10.3115/1118693.1118704">10.3115&#x2F;1118693.1118704</a><br><a href="https://dl.acm.org/doi/pdf/10.3115/1118693.1118704">Read on dl.acm.org</a></li>
+</ul>
+<hr>
+<h2 id="4-Deep-Learning-Based-Sentiment-Analysis"><a href="#4-Deep-Learning-Based-Sentiment-Analysis" class="headerlink" title="4. Deep Learning-Based Sentiment Analysis"></a><strong>4. Deep Learning-Based Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Uses neural networks (CNNs, RNNs, LSTMs, Transformers) to analyze sentiment from raw text.</li>
+<li><strong>Applications</strong>: Social media analysis, multilingual sentiment detection.</li>
+<li><strong>Key Papers</strong>:  <ul>
+<li>Socher, R., et al. (2013). <strong>Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank</strong>. <em>Proceedings of EMNLP 2013</em>.<br><a href="https://nlp.stanford.edu/pubs/SocherEtAl_EMNLP2013.pdf">Read on nlp.stanford.edu</a></li>
+<li>Vaswani, A., et al. (2017). <strong>Attention Is All You Need</strong>. <em>Advances in Neural Information Processing Systems (NeurIPS)</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1706.03762">10.48550&#x2F;arXiv.1706.03762</a><br><a href="https://arxiv.org/pdf/1706.03762">Read on arxiv.org</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-Aspect-Based-Sentiment-Analysis-ABSA"><a href="#5-Aspect-Based-Sentiment-Analysis-ABSA" class="headerlink" title="5. Aspect-Based Sentiment Analysis (ABSA)"></a><strong>5. Aspect-Based Sentiment Analysis (ABSA)</strong></h2><ul>
+<li><strong>Description</strong>: Focuses on sentiment specific to aspects of a product or service (e.g., food, service in restaurant reviews).</li>
+<li><strong>Applications</strong>: E-commerce reviews, detailed product feedback.</li>
+<li><strong>Key Paper</strong>:<br>Pontiki, M., et al. (2014). <strong>SemEval-2014 Task 4: Aspect-Based Sentiment Analysis</strong>. <em>Proceedings of SemEval 2014</em>.<br>DOI: <a href="https://doi.org/10.3115/v1/S14-2004">10.3115&#x2F;v1&#x2F;S14-2004</a><br><a href="https://aclanthology.org/S14-2004.pdf">Read on aclanthology.org</a></li>
+</ul>
+<hr>
+<h2 id="6-Emotion-Detection"><a href="#6-Emotion-Detection" class="headerlink" title="6. Emotion Detection"></a><strong>6. Emotion Detection</strong></h2><img src="/hexo-blog/images/img__racknitz_-_the_turk_3.jpg" style="width: 80%; max-width: 200px; border: 1px solid #ccc; padding: 11px; border-radius: 8px; float: left; margin-right: 22px" />
+
+
+
+<ul>
+<li><strong>Description</strong>: Detects specific emotions (e.g., happiness, anger, fear) rather than just positive or negative sentiment.</li>
+<li><strong>Applications</strong>: Crisis management, psychological studies.</li>
+<li><strong>Key Paper</strong>:<br>Mohammad, S. M., &amp; Turney, P. D. (2013). <strong>Crowdsourcing a Word–Emotion Association Lexicon</strong>. <em>Computational Intelligence, 29</em>(3), 436–465.<br>DOI: <a href="https://doi.org/10.1111/j.1467-8640.2012.00460.x">10.1111&#x2F;j.1467-8640.2012.00460.x</a><br><a href="https://sci-hub.se/https://doi.org/10.1111/j.1467-8640.2012.00460.x">Read on sci-hub.se</a></li>
+</ul>
+<br>
+
+<hr>
+<h2 id="7-Multimodal-Sentiment-Analysis"><a href="#7-Multimodal-Sentiment-Analysis" class="headerlink" title="7. Multimodal Sentiment Analysis"></a><strong>7. Multimodal Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Combines multiple data sources (e.g., text, audio, video) for sentiment analysis.</li>
+<li><strong>Applications</strong>: Video sentiment analysis, call center analytics.</li>
+<li><strong>Key Paper</strong>:<br>Zadeh, A., et al. (2017). <strong>Tensor Fusion Network for Multimodal Sentiment Analysis</strong>. <em>Proceedings of EMNLP 2017</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1707.07250">10.48550&#x2F;arXiv.1707.07250</a><br><a href="https://arxiv.org/pdf/1707.07250">Read on arxiv.org</a></li>
+</ul>
+<hr>
+<h2 id="8-Hybrid-Sentiment-Analysis"><a href="#8-Hybrid-Sentiment-Analysis" class="headerlink" title="8. Hybrid Sentiment Analysis"></a><strong>8. Hybrid Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Combines lexicon-based, rule-based, and machine learning techniques for robust and accurate sentiment detection.</li>
+<li><strong>Applications</strong>: Industry-specific sentiment analysis.</li>
+<li><strong>Key Paper</strong>:<br>Cambria, E., et al. (2013). <strong>New Avenues in Opinion Mining and Sentiment Analysis</strong>. <em>IEEE Intelligent Systems, 28</em>(2), 15–21.<br>DOI: <a href="https://doi.org/10.1109/MIS.2013.30">10.1109&#x2F;MIS.2013.30</a><br><a href="https://sci-hub.se/10.1109/MIS.2013.30">Read on sci-hub.se</a></li>
+</ul>
+<hr>
+<h2 id="9-Transfer-Learning-for-Sentiment-Analysis"><a href="#9-Transfer-Learning-for-Sentiment-Analysis" class="headerlink" title="9. Transfer Learning for Sentiment Analysis"></a><strong>9. Transfer Learning for Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Fine-tunes pre-trained models (e.g., BERT, RoBERTa, GPT) for sentiment classification tasks.</li>
+<li><strong>Applications</strong>: Multilingual sentiment analysis, specialized domains.</li>
+<li><strong>Key Paper</strong>:<br>Devlin, J., et al. (2019). <strong>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</strong>. <em>Proceedings of NAACL 2019</em>.<br>DOI: <a href="https://doi.org/10.48550/arXiv.1810.04805">10.48550&#x2F;arXiv.1810.04805</a><br><a href="https://arxiv.org/pdf/1810.04805">Read on arxiv.org</a></li>
+</ul>
+<hr>
+<h2 id="10-Fine-Grained-Sentiment-Analysis"><a href="#10-Fine-Grained-Sentiment-Analysis" class="headerlink" title="10. Fine-Grained Sentiment Analysis"></a><strong>10. Fine-Grained Sentiment Analysis</strong></h2><ul>
+<li><strong>Description</strong>: Assigns sentiment scores on a fine-grained scale (e.g., star ratings from 1 to 5).</li>
+<li><strong>Applications</strong>: Detailed product reviews, star-rating predictions.</li>
+<li><strong>Key Paper</strong>:<br>Yang, B., et al. (2016). <strong>Hierarchical Attention Networks for Document Classification</strong>. <em>Proceedings of NAACL 2016</em>.<br>DOI: <a href="https://doi.org/10.18653/v1/N16-1174">10.18653&#x2F;v1&#x2F;N16-1174</a></li>
+</ul>
+<hr>
+<h2 id="Other-resources"><a href="#Other-resources" class="headerlink" title="Other resources"></a>Other resources</h2><ol>
+<li><a href="https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques">https://www.nice.com/info/top-sentiment-analysis-tools-and-techniques</a> </li>
+<li>Article: Opinion Mining and Sentiment Analysis. January 2008. Foundations and Trends® in Information Retrieval 2(1–2):1-135<ul>
+<li>DOI:10.1561&#x2F;1500000011</li>
+<li><a href="https://www.cs.cornell.edu/home/llee/omsa/omsa.pdf">Read on cs.cornell.edu</a></li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>NLP</tag>
       </tags>
   </entry>
   <entry>
@@ -4092,6 +4092,98 @@ print(batch_responses)
       </tags>
   </entry>
   <entry>
+    <title>Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</title>
+    <url>/hexo-blog//ai/post_ai_prompt_engineeringing__task_llm_via_api/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.  </p>
+<h2 id="Key-Objectives"><a href="#Key-Objectives" class="headerlink" title="Key Objectives"></a>Key Objectives</h2><ul>
+<li>Design efficient prompts for LLM APIs.  </li>
+<li>Evaluate and refine prompt quality.  </li>
+<li>Use programmatic techniques for dynamic prompt construction.  </li>
+<li>Monitor and maintain performance over time.</li>
+</ul>
+<hr>
+<h2 id="Steps-to-Complete-the-Task"><a href="#Steps-to-Complete-the-Task" class="headerlink" title="Steps to Complete the Task"></a>Steps to Complete the Task</h2><h3 id="1-Prepare-the-Environment"><a href="#1-Prepare-the-Environment" class="headerlink" title="1. Prepare the Environment"></a>1. <strong>Prepare the Environment</strong></h3><p>Install the necessary Python libraries to interact with LLM APIs:  </p>
+<pre><code class="bash">pip install openai langchain  
+</code></pre>
+<hr>
+<h3 id="2-Interact-with-the-API"><a href="#2-Interact-with-the-API" class="headerlink" title="2. Interact with the API"></a>2. <strong>Interact with the API</strong></h3><h4 id="a-Initialize-API-Connection"><a href="#a-Initialize-API-Connection" class="headerlink" title="a. Initialize API Connection"></a>a. <strong>Initialize API Connection</strong></h4><p>Set up API authentication and configuration:  </p>
+<pre><code class="python">import openai  
+
+def initialize_api(api_key):  
+   openai.api_key = api_key  # Set your API key  
+   return &quot;API Initialized&quot;  
+</code></pre>
+<h4 id="b-Send-a-Prompt"><a href="#b-Send-a-Prompt" class="headerlink" title="b. Send a Prompt"></a>b. <strong>Send a Prompt</strong></h4><p>Define a function to send a prompt and receive a response:  </p>
+<pre><code class="python">def send_prompt(prompt, model=&quot;gpt-4&quot;, temperature=0.7):  
+    response = openai.ChatCompletion.create(  
+        model=model,  
+        messages=[&#123;&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: prompt&#125;],  
+        temperature=temperature  
+    )  
+    return response[&quot;choices&quot;][0][&quot;message&quot;][&quot;content&quot;]  
+</code></pre>
+<hr>
+<h3 id="3-Design-Effective-Prompts"><a href="#3-Design-Effective-Prompts" class="headerlink" title="3. Design Effective Prompts"></a>3. <strong>Design Effective Prompts</strong></h3><h4 id="a-Use-a-Structured-Approach"><a href="#a-Use-a-Structured-Approach" class="headerlink" title="a. Use a Structured Approach"></a>a. <strong>Use a Structured Approach</strong></h4><ul>
+<li><strong>Role-based prompting</strong>: Clearly define the model’s role (e.g., “You are a helpful assistant…”).  </li>
+<li><strong>Instruction clarity</strong>: Provide concise, unambiguous instructions.  </li>
+<li><strong>Examples</strong>: Use few-shot learning by including examples in the prompt.</li>
+</ul>
+<p>Example:  </p>
+<pre><code class="python">def create_prompt(task_description, examples=[]):  
+    prompt = f&quot;Task: &#123;task_description&#125;\n&quot;  
+    for example in examples:  
+        prompt += f&quot;Example: &#123;example&#125;\n&quot;  
+    return prompt  
+</code></pre>
+<h4 id="b-Dynamic-Prompt-Construction"><a href="#b-Dynamic-Prompt-Construction" class="headerlink" title="b. Dynamic Prompt Construction"></a>b. <strong>Dynamic Prompt Construction</strong></h4><p>Adapt prompts based on user inputs or API responses:  </p>
+<pre><code class="python">def dynamic_prompt(base_prompt, user_input):  
+    return f&quot;&#123;base_prompt&#125;\nUser Input: &#123;user_input&#125;&quot;  
+</code></pre>
+<hr>
+<h3 id="4-Evaluate-Model-Performance"><a href="#4-Evaluate-Model-Performance" class="headerlink" title="4. Evaluate Model Performance"></a>4. <strong>Evaluate Model Performance</strong></h3><h4 id="a-Define-Quality-Metrics"><a href="#a-Define-Quality-Metrics" class="headerlink" title="a. Define Quality Metrics"></a>a. <strong>Define Quality Metrics</strong></h4><ul>
+<li><strong>Accuracy</strong>: Compare responses against ground truth.  </li>
+<li><strong>Relevance</strong>: Check alignment with the given task.  </li>
+<li><strong>Consistency</strong>: Ensure similar prompts yield consistent outputs.</li>
+</ul>
+<h4 id="b-Log-and-Analyze-Outputs"><a href="#b-Log-and-Analyze-Outputs" class="headerlink" title="b. Log and Analyze Outputs"></a>b. <strong>Log and Analyze Outputs</strong></h4><p>Use logging to track prompts and responses for debugging:  </p>
+<pre><code class="python">def log_interaction(prompt, response, log_file=&quot;logs.txt&quot;):  
+    with open(log_file, &quot;a&quot;) as file:  
+        file.write(f&quot;Prompt: &#123;prompt&#125;\nResponse: &#123;response&#125;\n\n&quot;)  
+</code></pre>
+<hr>
+<h3 id="5-Optimize-Prompts"><a href="#5-Optimize-Prompts" class="headerlink" title="5. Optimize Prompts"></a>5. <strong>Optimize Prompts</strong></h3><h4 id="a-Iterative-Refinement"><a href="#a-Iterative-Refinement" class="headerlink" title="a. Iterative Refinement"></a>a. <strong>Iterative Refinement</strong></h4><ul>
+<li>Identify weaknesses in responses.  </li>
+<li>Adjust the prompt to clarify ambiguity or provide better context.</li>
+</ul>
+<h4 id="b-Temperature-Tuning"><a href="#b-Temperature-Tuning" class="headerlink" title="b. Temperature Tuning"></a>b. <strong>Temperature Tuning</strong></h4><p>Control randomness using the <code>temperature</code> parameter. Lower values yield deterministic responses, while higher values generate more diverse outputs.  </p>
+<h4 id="c-Test-Variations"><a href="#c-Test-Variations" class="headerlink" title="c. Test Variations"></a>c. <strong>Test Variations</strong></h4><p>Experiment with different phrasings and structures to identify optimal prompt designs.  </p>
+<hr>
+<h3 id="6-Maintain-and-Monitor-Performance"><a href="#6-Maintain-and-Monitor-Performance" class="headerlink" title="6. Maintain and Monitor Performance"></a>6. <strong>Maintain and Monitor Performance</strong></h3><h4 id="a-Automate-Testing"><a href="#a-Automate-Testing" class="headerlink" title="a. Automate Testing"></a>a. <strong>Automate Testing</strong></h4><p>Build a suite of tests with predefined prompts and expected responses:  </p>
+<pre><code class="python">def test_prompt(prompt, expected_response):  
+    response = send_prompt(prompt)  
+    return response == expected_response  # Compare with expected response  
+</code></pre>
+<h4 id="b-Adapt-to-Model-Updates"><a href="#b-Adapt-to-Model-Updates" class="headerlink" title="b. Adapt to Model Updates"></a>b. <strong>Adapt to Model Updates</strong></h4><p>Periodically re-evaluate prompts after API updates or model changes to ensure continued performance.  </p>
+<h4 id="c-Integrate-Feedback-Loops"><a href="#c-Integrate-Feedback-Loops" class="headerlink" title="c. Integrate Feedback Loops"></a>c. <strong>Integrate Feedback Loops</strong></h4><p>Incorporate user feedback to iteratively improve prompts.  </p>
+<hr>
+<h2 id="Tools-and-Libraries-Overview"><a href="#Tools-and-Libraries-Overview" class="headerlink" title="Tools and Libraries Overview"></a>Tools and Libraries Overview</h2><ul>
+<li><strong>API Interaction</strong>: OpenAI API, LangChain  </li>
+<li><strong>Data Logging</strong>: Python’s <code>logging</code> module or external tools like <code>Elasticsearch</code>  </li>
+<li><strong>Testing Frameworks</strong>: PyTest, Unittest for automated evaluation</li>
+</ul>
+<hr>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>By following these steps, you can effectively interact with LLM APIs for prompt engineering while ensuring high-quality model performance. This approach emphasizes structured prompt design, iterative refinement, and continuous monitoring to optimize outputs for real-world tasks.  </p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>ML</tag>
+        <tag>prompt_engineering</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Prompt Engineering - INTRO.</title>
     <url>/hexo-blog//ai_prompt_engineering/prompt_engineer_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Prompt engineering has emerged as a crucial role in the field of artificial intelligence (AI), focusing on crafting, optimizing, and evaluating queries to effectively interact with advanced models like GPT-4, Claude, or Bard. This guide outlines the technical skills, tools, and practices necessary for a successful career in this domain, with references to state-of-the-art resources and technologies.</p>
@@ -4530,98 +4622,6 @@ print(batch_responses)
       </categories>
       <tags>
         <tag>science</tag>
-        <tag>AI</tag>
-        <tag>ML</tag>
-        <tag>prompt_engineering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)</title>
-    <url>/hexo-blog//ai/post_ai_prompt_engineeringing__task_llm_via_api/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This guide provides a structured approach to interact with APIs of LLMs while focusing on managing and improving the quality of model performance through effective prompt engineering.  </p>
-<h2 id="Key-Objectives"><a href="#Key-Objectives" class="headerlink" title="Key Objectives"></a>Key Objectives</h2><ul>
-<li>Design efficient prompts for LLM APIs.  </li>
-<li>Evaluate and refine prompt quality.  </li>
-<li>Use programmatic techniques for dynamic prompt construction.  </li>
-<li>Monitor and maintain performance over time.</li>
-</ul>
-<hr>
-<h2 id="Steps-to-Complete-the-Task"><a href="#Steps-to-Complete-the-Task" class="headerlink" title="Steps to Complete the Task"></a>Steps to Complete the Task</h2><h3 id="1-Prepare-the-Environment"><a href="#1-Prepare-the-Environment" class="headerlink" title="1. Prepare the Environment"></a>1. <strong>Prepare the Environment</strong></h3><p>Install the necessary Python libraries to interact with LLM APIs:  </p>
-<pre><code class="bash">pip install openai langchain  
-</code></pre>
-<hr>
-<h3 id="2-Interact-with-the-API"><a href="#2-Interact-with-the-API" class="headerlink" title="2. Interact with the API"></a>2. <strong>Interact with the API</strong></h3><h4 id="a-Initialize-API-Connection"><a href="#a-Initialize-API-Connection" class="headerlink" title="a. Initialize API Connection"></a>a. <strong>Initialize API Connection</strong></h4><p>Set up API authentication and configuration:  </p>
-<pre><code class="python">import openai  
-
-def initialize_api(api_key):  
-   openai.api_key = api_key  # Set your API key  
-   return &quot;API Initialized&quot;  
-</code></pre>
-<h4 id="b-Send-a-Prompt"><a href="#b-Send-a-Prompt" class="headerlink" title="b. Send a Prompt"></a>b. <strong>Send a Prompt</strong></h4><p>Define a function to send a prompt and receive a response:  </p>
-<pre><code class="python">def send_prompt(prompt, model=&quot;gpt-4&quot;, temperature=0.7):  
-    response = openai.ChatCompletion.create(  
-        model=model,  
-        messages=[&#123;&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: prompt&#125;],  
-        temperature=temperature  
-    )  
-    return response[&quot;choices&quot;][0][&quot;message&quot;][&quot;content&quot;]  
-</code></pre>
-<hr>
-<h3 id="3-Design-Effective-Prompts"><a href="#3-Design-Effective-Prompts" class="headerlink" title="3. Design Effective Prompts"></a>3. <strong>Design Effective Prompts</strong></h3><h4 id="a-Use-a-Structured-Approach"><a href="#a-Use-a-Structured-Approach" class="headerlink" title="a. Use a Structured Approach"></a>a. <strong>Use a Structured Approach</strong></h4><ul>
-<li><strong>Role-based prompting</strong>: Clearly define the model’s role (e.g., “You are a helpful assistant…”).  </li>
-<li><strong>Instruction clarity</strong>: Provide concise, unambiguous instructions.  </li>
-<li><strong>Examples</strong>: Use few-shot learning by including examples in the prompt.</li>
-</ul>
-<p>Example:  </p>
-<pre><code class="python">def create_prompt(task_description, examples=[]):  
-    prompt = f&quot;Task: &#123;task_description&#125;\n&quot;  
-    for example in examples:  
-        prompt += f&quot;Example: &#123;example&#125;\n&quot;  
-    return prompt  
-</code></pre>
-<h4 id="b-Dynamic-Prompt-Construction"><a href="#b-Dynamic-Prompt-Construction" class="headerlink" title="b. Dynamic Prompt Construction"></a>b. <strong>Dynamic Prompt Construction</strong></h4><p>Adapt prompts based on user inputs or API responses:  </p>
-<pre><code class="python">def dynamic_prompt(base_prompt, user_input):  
-    return f&quot;&#123;base_prompt&#125;\nUser Input: &#123;user_input&#125;&quot;  
-</code></pre>
-<hr>
-<h3 id="4-Evaluate-Model-Performance"><a href="#4-Evaluate-Model-Performance" class="headerlink" title="4. Evaluate Model Performance"></a>4. <strong>Evaluate Model Performance</strong></h3><h4 id="a-Define-Quality-Metrics"><a href="#a-Define-Quality-Metrics" class="headerlink" title="a. Define Quality Metrics"></a>a. <strong>Define Quality Metrics</strong></h4><ul>
-<li><strong>Accuracy</strong>: Compare responses against ground truth.  </li>
-<li><strong>Relevance</strong>: Check alignment with the given task.  </li>
-<li><strong>Consistency</strong>: Ensure similar prompts yield consistent outputs.</li>
-</ul>
-<h4 id="b-Log-and-Analyze-Outputs"><a href="#b-Log-and-Analyze-Outputs" class="headerlink" title="b. Log and Analyze Outputs"></a>b. <strong>Log and Analyze Outputs</strong></h4><p>Use logging to track prompts and responses for debugging:  </p>
-<pre><code class="python">def log_interaction(prompt, response, log_file=&quot;logs.txt&quot;):  
-    with open(log_file, &quot;a&quot;) as file:  
-        file.write(f&quot;Prompt: &#123;prompt&#125;\nResponse: &#123;response&#125;\n\n&quot;)  
-</code></pre>
-<hr>
-<h3 id="5-Optimize-Prompts"><a href="#5-Optimize-Prompts" class="headerlink" title="5. Optimize Prompts"></a>5. <strong>Optimize Prompts</strong></h3><h4 id="a-Iterative-Refinement"><a href="#a-Iterative-Refinement" class="headerlink" title="a. Iterative Refinement"></a>a. <strong>Iterative Refinement</strong></h4><ul>
-<li>Identify weaknesses in responses.  </li>
-<li>Adjust the prompt to clarify ambiguity or provide better context.</li>
-</ul>
-<h4 id="b-Temperature-Tuning"><a href="#b-Temperature-Tuning" class="headerlink" title="b. Temperature Tuning"></a>b. <strong>Temperature Tuning</strong></h4><p>Control randomness using the <code>temperature</code> parameter. Lower values yield deterministic responses, while higher values generate more diverse outputs.  </p>
-<h4 id="c-Test-Variations"><a href="#c-Test-Variations" class="headerlink" title="c. Test Variations"></a>c. <strong>Test Variations</strong></h4><p>Experiment with different phrasings and structures to identify optimal prompt designs.  </p>
-<hr>
-<h3 id="6-Maintain-and-Monitor-Performance"><a href="#6-Maintain-and-Monitor-Performance" class="headerlink" title="6. Maintain and Monitor Performance"></a>6. <strong>Maintain and Monitor Performance</strong></h3><h4 id="a-Automate-Testing"><a href="#a-Automate-Testing" class="headerlink" title="a. Automate Testing"></a>a. <strong>Automate Testing</strong></h4><p>Build a suite of tests with predefined prompts and expected responses:  </p>
-<pre><code class="python">def test_prompt(prompt, expected_response):  
-    response = send_prompt(prompt)  
-    return response == expected_response  # Compare with expected response  
-</code></pre>
-<h4 id="b-Adapt-to-Model-Updates"><a href="#b-Adapt-to-Model-Updates" class="headerlink" title="b. Adapt to Model Updates"></a>b. <strong>Adapt to Model Updates</strong></h4><p>Periodically re-evaluate prompts after API updates or model changes to ensure continued performance.  </p>
-<h4 id="c-Integrate-Feedback-Loops"><a href="#c-Integrate-Feedback-Loops" class="headerlink" title="c. Integrate Feedback Loops"></a>c. <strong>Integrate Feedback Loops</strong></h4><p>Incorporate user feedback to iteratively improve prompts.  </p>
-<hr>
-<h2 id="Tools-and-Libraries-Overview"><a href="#Tools-and-Libraries-Overview" class="headerlink" title="Tools and Libraries Overview"></a>Tools and Libraries Overview</h2><ul>
-<li><strong>API Interaction</strong>: OpenAI API, LangChain  </li>
-<li><strong>Data Logging</strong>: Python’s <code>logging</code> module or external tools like <code>Elasticsearch</code>  </li>
-<li><strong>Testing Frameworks</strong>: PyTest, Unittest for automated evaluation</li>
-</ul>
-<hr>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>By following these steps, you can effectively interact with LLM APIs for prompt engineering while ensuring high-quality model performance. This approach emphasizes structured prompt design, iterative refinement, and continuous monitoring to optimize outputs for real-world tasks.  </p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>prompt_engineering</tag>
@@ -5105,6 +5105,39 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>List of data vizualization tools</title>
+    <url>/hexo-blog//data_visualization/list_of_data_vizualization_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
+<ol>
+<li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring plotly chart types with examples</a></li>
+<li><a href="hexo-blog/data_visualization/bokeh_list_of_references">Bokeh. List of references.</a></li>
+</ol>
+<hr>
+<h2 id="Bokeh"><a href="#Bokeh" class="headerlink" title="Bokeh"></a>Bokeh</h2><p>Read about Bokeh on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Bokeh">the glossary <code>Bokeh</code> page</a></p>
+<hr>
+<h2 id="Plotly"><a href="#Plotly" class="headerlink" title="Plotly"></a>Plotly</h2><p>Find more about Plotly in the <a href="hexo-blog/data_visualization/plotly_chart_types_examples">post: <code>Exploring plotly chart types with examples</code></a></p>
+<p>Read about Plotly on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">the glossary <code>Plotly</code> page</a></p>
+<hr>
+<h2 id="MatPloitLib"><a href="#MatPloitLib" class="headerlink" title="MatPloitLib"></a>MatPloitLib</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#MatPloitLib">the glossary <code>MatPloitLib</code> page</a></p>
+<hr>
+<h2 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">the glossary <code>Pandas</code> page</a></p>
+<hr>
+<h2 id="Seaborn"><a href="#Seaborn" class="headerlink" title="Seaborn"></a>Seaborn</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">the glossary <code>Seaborn </code> page</a></p>
+<hr>
+<h2 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">the glossary <code>Tableau</code> page</a></p>
+<hr>
+<h2 id="Vega-Altair"><a href="#Vega-Altair" class="headerlink" title="Vega-Altair"></a>Vega-Altair</h2><p>Read about Vega-Altair on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Vega-Altair">the glossary <code>Vega-Altair</code> page</a></p>
+<h2 id="HoloViz"><a href="#HoloViz" class="headerlink" title="HoloViz"></a>HoloViz</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#HoloViz">the glossary <code>HoloViz</code> page</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>data_visualization</tag>
+        <tag>bokeh</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Exploring plotly chart types with examples</title>
     <url>/hexo-blog//data_visualization/plotly_chart_types_examples/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Plotly is a powerful Python library for creating interactive and visually appealing charts.<br>It supports a variety of chart types, catering to diverse data visualization needs.<br>This guide showcases some of the most common chart types available in Plotly, along with implementation examples.</p>
@@ -5305,36 +5338,19 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>List of data vizualization tools</title>
-    <url>/hexo-blog//data_visualization/list_of_data_vizualization_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
-<ol>
-<li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring plotly chart types with examples</a></li>
-<li><a href="hexo-blog/data_visualization/bokeh_list_of_references">Bokeh. List of references.</a></li>
+    <title>GIT intro</title>
+    <url>/hexo-blog//dev_side/git_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://dev.to/nopenoshishi/understanding-git-through-images-4an1">Understanding Git through images</a></li>
+<li><a href="https://marklodato.github.io/visual-git-guide/index-en.html">A Visual Git Reference</a></li>
 </ol>
-<hr>
-<h2 id="Bokeh"><a href="#Bokeh" class="headerlink" title="Bokeh"></a>Bokeh</h2><p>Read about Bokeh on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Bokeh">the glossary <code>Bokeh</code> page</a></p>
-<hr>
-<h2 id="Plotly"><a href="#Plotly" class="headerlink" title="Plotly"></a>Plotly</h2><p>Find more about Plotly in the <a href="hexo-blog/data_visualization/plotly_chart_types_examples">post: <code>Exploring plotly chart types with examples</code></a></p>
-<p>Read about Plotly on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">the glossary <code>Plotly</code> page</a></p>
-<hr>
-<h2 id="MatPloitLib"><a href="#MatPloitLib" class="headerlink" title="MatPloitLib"></a>MatPloitLib</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#MatPloitLib">the glossary <code>MatPloitLib</code> page</a></p>
-<hr>
-<h2 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">the glossary <code>Pandas</code> page</a></p>
-<hr>
-<h2 id="Seaborn"><a href="#Seaborn" class="headerlink" title="Seaborn"></a>Seaborn</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">the glossary <code>Seaborn </code> page</a></p>
-<hr>
-<h2 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">the glossary <code>Tableau</code> page</a></p>
-<hr>
-<h2 id="Vega-Altair"><a href="#Vega-Altair" class="headerlink" title="Vega-Altair"></a>Vega-Altair</h2><p>Read about Vega-Altair on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Vega-Altair">the glossary <code>Vega-Altair</code> page</a></p>
-<h2 id="HoloViz"><a href="#HoloViz" class="headerlink" title="HoloViz"></a>HoloViz</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#HoloViz">the glossary <code>HoloViz</code> page</a></p>
 ]]></content>
       <categories>
         <category>Posts</category>
       </categories>
       <tags>
-        <tag>data_visualization</tag>
-        <tag>bokeh</tag>
+        <tag>dev_side</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -7080,47 +7096,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>GIT intro</title>
-    <url>/hexo-blog//dev_side/git_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://dev.to/nopenoshishi/understanding-git-through-images-4an1">Understanding Git through images</a></li>
-<li><a href="https://marklodato.github.io/visual-git-guide/index-en.html">A Visual Git Reference</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Basic loguru configuration for python</title>
-    <url>/hexo-blog//dev_side/loguru_loger_basic_configuration/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
-<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
-<li><p>Loguru installation command via PIP</p>
- <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
-</li>
-<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
-</li>
-</ul>
-<hr>
-<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>loguru</tag>
-        <tag>logger</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Kafka intro</title>
     <url>/hexo-blog//dev_side/kafka_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Understanding-Kafka-A-Message-Broker-Overview"><a href="#Understanding-Kafka-A-Message-Broker-Overview" class="headerlink" title="Understanding Kafka: A Message Broker Overview"></a>Understanding Kafka: A Message Broker Overview</h1><p>Message brokers play a critical role in distributed systems by enabling communication between different applications and services. Kafka, a leading distributed event streaming platform, has become a cornerstone for building scalable and fault-tolerant systems.</p>
@@ -7237,6 +7212,31 @@ print(generated_text)
       <tags>
         <tag>dev_side</tag>
         <tag>kafka</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic loguru configuration for python</title>
+    <url>/hexo-blog//dev_side/loguru_loger_basic_configuration/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a basic configuration for the <code>loguru</code> logging library. It includes logging to both the console and a file, with separate levels and formatting.</p>
+<h2 id="Loguru-details"><a href="#Loguru-details" class="headerlink" title="Loguru details"></a>Loguru details</h2><ul>
+<li><p>Loguru installation command via PIP</p>
+ <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pip install loguru</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://pypi.org/project/loguru/">Logugu PIP page</a></p>
+</li>
+<li><p><a href="https://github.com/Delgan/loguru">Loguru home page</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="Loguru-configuration"><a href="#Loguru-configuration" class="headerlink" title="Loguru configuration"></a>Loguru configuration</h2><p>Below is an example of ‘loguru’ configuration and usage.</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> loguru <span class="keyword">import</span> logger</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="comment"># Configure Loguru</span></span><br><span class="line">logger.remove()  <span class="comment"># Remove the default logger</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a console logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=sys.stdout,</span><br><span class="line">    level=<span class="string">&quot;INFO&quot;</span>,  <span class="comment"># Log level for console</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&lt;green&gt;&#123;time:YYYY-MM-DD HH:mm:ss&#125;&lt;/green&gt; | &lt;level&gt;&#123;level: &lt;8&#125;&lt;/level&gt; | &lt;cyan&gt;&#123;name&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;function&#125;&lt;/cyan&gt;:&lt;cyan&gt;&#123;line&#125;&lt;/cyan&gt; - &lt;level&gt;&#123;message&#125;&lt;/level&gt;&quot;</span>,</span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Add a file logger</span></span><br><span class="line">logger.add(</span><br><span class="line">    sink=<span class="string">&quot;app.log&quot;</span>,</span><br><span class="line">    level=<span class="string">&quot;DEBUG&quot;</span>,  <span class="comment"># Log level for file</span></span><br><span class="line">    <span class="built_in">format</span>=<span class="string">&quot;&#123;time:YYYY-MM-DD HH:mm:ss&#125; | &#123;level: &lt;8&#125; | &#123;name&#125;:&#123;function&#125;:&#123;line&#125; - &#123;message&#125;&quot;</span>,</span><br><span class="line">    rotation=<span class="string">&quot;10 MB&quot;</span>,  <span class="comment"># Rotate logs every 10 MB</span></span><br><span class="line">    retention=<span class="string">&quot;7 days&quot;</span>,  <span class="comment"># Retain logs for 7 days</span></span><br><span class="line">    compression=<span class="string">&quot;zip&quot;</span>,  <span class="comment"># Compress old log files</span></span><br><span class="line">    enqueue=<span class="literal">True</span>,  <span class="comment"># Thread-safe</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example usage</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    logger.debug(<span class="string">&quot;This is a debug message.&quot;</span>)</span><br><span class="line">    logger.info(<span class="string">&quot;This is an info message.&quot;</span>)</span><br><span class="line">    logger.warning(<span class="string">&quot;This is a warning message.&quot;</span>)</span><br><span class="line">    logger.error(<span class="string">&quot;This is an error message.&quot;</span>)</span><br><span class="line">    logger.critical(<span class="string">&quot;This is a critical message.&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>loguru</tag>
+        <tag>logger</tag>
       </tags>
   </entry>
   <entry>
@@ -7417,204 +7417,6 @@ print(generated_text)
         <tag>api_testing</tag>
         <tag>qa</tag>
         <tag>API</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python basics</title>
-    <url>/hexo-blog//dev_side/python_basics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
-<ol>
-<li><a href="https://docs.python.org/3/tutorial/introduction.html">Python Basics | python.org</a><ol>
-<li>Learn Python’s syntax, variables, and basic programming constructs.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Input-and-Output-in-Python"><a href="#Input-and-Output-in-Python" class="headerlink" title="Input and Output in Python"></a>Input and Output in Python</h2><p>Python provides various ways to take input from users and output information. The <code>input()</code> function is used for input, while <code>print()</code> is commonly used for output. Mastering I&#x2F;O is critical for creating interactive programs.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/input-and-output-in-python/">Python Input and Output | geeksforgeeks.org</a><ol>
-<li>Understand how to handle user inputs and format outputs.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Data-Types"><a href="#Python-Data-Types" class="headerlink" title="Python Data Types"></a>Python Data Types</h2><p>Python supports several built-in data types like <code>int</code>, <code>float</code>, <code>str</code>, <code>list</code>, and more. These types form the foundation of Python’s dynamic nature.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-data-types/">Python Data Types | geeksforgeeks.org</a><ol>
-<li>Explore various data types and their uses in Python.</li>
-</ol>
-</li>
-<li><a href="https://www.programiz.com/python-programming/variables-datatypes">Python Data Types | programiz.com</a></li>
-</ol>
-<h2 id="Python-Data-Structures"><a href="#Python-Data-Structures" class="headerlink" title="Python Data Structures"></a>Python Data Structures</h2><p>Data structures help organize and manipulate data efficiently. Python’s built-in data structures like <code>list</code>, <code>dict</code>, <code>set</code>, and <code>tuple</code> simplify data management.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-data-structures/">Python Data Structures | geeksforgeeks.org</a><ol>
-<li>Learn to use Python’s powerful data structures for different scenarios.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Operators"><a href="#Python-Operators" class="headerlink" title="Python Operators"></a>Python Operators</h2><p>Operators are special symbols that carry out operations on variables and values. Python supports arithmetic, logical, bitwise, and comparison operators.</p>
-<ol>
-<li><a href="https://realpython.com/python-operators-expressions/">Python Operators | realpython.com</a><ol>
-<li>Understand how to use operators for data manipulation.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Conditional-Statements-in-Python"><a href="#Conditional-Statements-in-Python" class="headerlink" title="Conditional Statements in Python"></a>Conditional Statements in Python</h2><p>Conditional statements like <code>if</code>, <code>elif</code>, and <code>else</code> allow programs to make decisions. They are fundamental for implementing logic.</p>
-<ol>
-<li><a href="https://www.w3schools.com/python/python_conditions.asp">Python Conditional Statements | w3schools.com</a><ol>
-<li>Learn to control program flow using conditional statements.</li>
-</ol>
-</li>
-</ol>
-<p><em><strong>Related to this topic</strong></em></p>
-<ol>
-<li><a href="https://python-book.softuni.org/chapter-05-loops.html">Chapter 5.1. Loops | python-book.softuni.org</a></li>
-<li><a href="https://python-book.softuni.org/chapter-06-nested-loops-exam-problems.html">Chapter 7.1. Complex Loops | python-book.softuni.org</a></li>
-</ol>
-<p><em><strong>Replacement</strong></em></p>
-<h3 id="Replacing-Loops-in-Python-Using-Programmatic-Tricks"><a href="#Replacing-Loops-in-Python-Using-Programmatic-Tricks" class="headerlink" title="Replacing Loops in Python Using Programmatic Tricks"></a>Replacing Loops in Python Using Programmatic Tricks</h3><p>Replacing traditional loops in Python with advanced techniques can enhance code readability and performance. Below are some key approaches to consider:</p>
-<h4 id="1-List-Comprehensions"><a href="#1-List-Comprehensions" class="headerlink" title="1. List Comprehensions"></a>1. <strong>List Comprehensions</strong></h4><ul>
-<li>List comprehensions provide a concise way to replace simple <code>for</code> loops, especially for creating or filtering lists.</li>
-<li>They are more readable and faster than traditional loops for straightforward transformations.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://realpython.com/courses/understand-list-comprehensions/">Python List Comprehensions | realpython.com</a>  </li>
-<li><a href="https://www.geeksforgeeks.org/python-list-comprehension/">Mastering List Comprehensions | geeksforgeeks.org</a></li>
-</ol>
-<hr>
-<h4 id="2-Map-Filter-and-Reduce"><a href="#2-Map-Filter-and-Reduce" class="headerlink" title="2. Map, Filter, and Reduce"></a>2. <strong>Map, Filter, and Reduce</strong></h4><ul>
-<li>Use functional programming tools like <code>map</code> for transformations, <code>filter</code> for conditional filtering, and <code>reduce</code> for aggregations.  </li>
-<li>These methods eliminate the need for explicit loops and promote a functional programming style.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://realpython.com/python-functional-programming/">Functional Programming in Python | realpython.com</a>  </li>
-<li><a href="https://www.programiz.com/python-programming/methods/built-in/map">Python map(), filter(), and reduce() | programiz.com</a></li>
-</ol>
-<hr>
-<h4 id="3-Generators-and-Generator-Expressions"><a href="#3-Generators-and-Generator-Expressions" class="headerlink" title="3. Generators and Generator Expressions"></a>3. <strong>Generators and Generator Expressions</strong></h4><ul>
-<li>Replace loops with generators for memory-efficient processing of large datasets.  </li>
-<li>Generator expressions can streamline code and work well with functions like <code>sum()</code> and <code>any()</code>.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://realpython.com/introduction-to-python-generators/">Generators in Python | realpython.com</a>  </li>
-<li><a href="https://www.geeksforgeeks.org/generators-in-python/">Python Generators | geeksforgeeks.org</a></li>
-<li><a href="https://www.geeksforgeeks.org/python-itertools/">Python Itertools | geeksforgeeks.org</a></li>
-</ol>
-<hr>
-<h4 id="4-Recursion-as-a-Loop-Replacement"><a href="#4-Recursion-as-a-Loop-Replacement" class="headerlink" title="4. Recursion as a Loop Replacement"></a>4. <strong>Recursion as a Loop Replacement</strong></h4><ul>
-<li>Replace certain types of nested loops with recursion for problems like tree traversal.  </li>
-<li>While not always efficient, recursion simplifies some complex loop structures.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://www.programiz.com/python-programming/recursion">Recursion in Python | programiz.com</a>  </li>
-<li><a href="https://www.geeksforgeeks.org/difference-between-recursion-and-iteration">Difference between Recursion and Iteration | geeksforgeeks.org</a></li>
-</ol>
-<hr>
-<h4 id="5-Vectorized-Operations-with-NumPy"><a href="#5-Vectorized-Operations-with-NumPy" class="headerlink" title="5. Vectorized Operations with NumPy"></a>5. <strong>Vectorized Operations with NumPy</strong></h4><ul>
-<li>Replace loops with vectorized operations in libraries like NumPy for mathematical or array computations.  </li>
-<li>These operations are faster and more efficient than traditional looping mechanisms.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://numpy.org/doc/stable/user/quickstart.html">NumPy Quick Start | numpy.org</a>  </li>
-<li><a href="https://towardsdatascience.com/understanding-text-vectorizations-how-streamlined-models-made-feature-extractions-a-breeze-8b9768bbd96a">Understanding Vectorization (Sklearn + Pandas + NumPy) | towardsdatascience.com</a></li>
-<li><a href="https://medium.com/@michael-scherding/understanding-vectorization-775a419d1270">Understanding Vectorization in NumPy and Pandas | medium.com</a></li>
-</ol>
-<hr>
-<h4 id="6-Using-Built-in-Python-Functions"><a href="#6-Using-Built-in-Python-Functions" class="headerlink" title="6. Using Built-in Python Functions"></a>6. <strong>Using Built-in Python Functions</strong></h4><ul>
-<li>Replace loops with Python’s built-in functions like <code>sum()</code>, <code>max()</code>, <code>any()</code>, etc., to perform common operations.</li>
-</ul>
-<p><em><strong>Related to this topic</strong></em>  </p>
-<ol>
-<li><a href="https://docs.python.org/3/library/functions.html">Built-in Functions in Python | docs.python.org</a>  </li>
-<li><a href="https://realpython.com/python-built-in-functions/">Optimizing with Built-in Functions | realpython.com</a></li>
-</ol>
-<hr>
-<p>These techniques not only replace traditional loops but also align with Python’s philosophy of simplicity and elegance.</p>
-<h2 id="Loops-in-Python-For-While-and-Nested-Loops"><a href="#Loops-in-Python-For-While-and-Nested-Loops" class="headerlink" title="Loops in Python - For, While and Nested Loops"></a>Loops in Python - For, While and Nested Loops</h2><p>Loops are used to execute a block of code repeatedly. Python supports <code>for</code> and <code>while</code> loops, along with nested loops for complex tasks.</p>
-<ol>
-<li><a href="https://www.tutorialspoint.com/python/python_loops.htm">Python Loops | tutorialspoint.com</a><ol>
-<li>Master loops for repetitive tasks and data iteration.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Functions"><a href="#Python-Functions" class="headerlink" title="Python Functions"></a>Python Functions</h2><p>Functions allow you to encapsulate code into reusable blocks. Python supports user-defined, lambda, and built-in functions.</p>
-<ol>
-<li><a href="https://www.programiz.com/python-programming/function">Python Functions | programiz.com</a><ol>
-<li>Understand function declarations, arguments, and scope.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-OOPs-Concepts"><a href="#Python-OOPs-Concepts" class="headerlink" title="Python OOPs Concepts"></a>Python OOPs Concepts</h2><p>Object-oriented programming (OOP) in Python revolves around objects and classes. Key concepts include inheritance, encapsulation, and polymorphism.</p>
-<ol>
-<li><a href="https://realpython.com/python3-object-oriented-programming/">Python OOP | realpython.com</a><ol>
-<li>Learn the principles of OOP and their implementation in Python.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Functional-Programming"><a href="#Python-Functional-Programming" class="headerlink" title="Python Functional Programming"></a>Python Functional Programming</h2><p>Functional programming treats computation as the evaluation of mathematical functions. Python’s support for <code>map</code>, <code>reduce</code>, and <code>filter</code> simplifies this paradigm.</p>
-<ol>
-<li><a href="https://medium.com/@gchandrams/python-functional-programming-techniques-505c7b5da441">Python Functional Programming | medium.com</a><ol>
-<li>Dive into functional programming with Python.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Modules"><a href="#Python-Modules" class="headerlink" title="Python Modules"></a>Python Modules</h2><p>Modules in Python are files containing Python code that can define functions, classes, and variables. They promote code reuse.</p>
-<ol>
-<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Modules | python.org</a><ol>
-<li>Learn to import and use Python modules effectively.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Exception-Handling"><a href="#Python-Exception-Handling" class="headerlink" title="Python Exception Handling"></a>Python Exception Handling</h2><p>Exception handling allows you to manage errors gracefully using <code>try</code>, <code>except</code>, <code>finally</code>, and <code>raise</code>.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-exception-handling/">Python Exception Handling | geeksforgeeks.org</a><ol>
-<li>Master exception handling to write robust code.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Packages"><a href="#Python-Packages" class="headerlink" title="Python Packages"></a>Python Packages</h2><p>Packages are collections of modules grouped together. They are used to organize related modules for larger applications.</p>
-<ol>
-<li><a href="https://www.w3schools.com/python/python_modules.asp">Python Packages | w3schools.com</a><ol>
-<li>Explore how to create and manage Python packages.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Collections-Module"><a href="#Python-Collections-Module" class="headerlink" title="Python Collections Module"></a>Python Collections Module</h2><p>Python’s <code>collections</code> module provides specialized container data types like <code>Counter</code>, <code>deque</code>, <code>OrderedDict</code>, and <code>defaultdict</code>. These can simplify complex data operations.</p>
-<ol>
-<li><a href="https://realpython.com/python-collections-module/">Python Collections Module | realpython.com</a><ol>
-<li>Learn to use advanced data containers in Python.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Projects-Beginner-to-Advanced"><a href="#Python-Projects-Beginner-to-Advanced" class="headerlink" title="Python Projects - Beginner to Advanced"></a>Python Projects - Beginner to Advanced</h2><p>Python projects provide practical experience with coding concepts. Start with simple projects and gradually take on more advanced challenges.</p>
-<ol>
-<li><a href="https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/">Python Project Ideas | geeksforgeeks.org</a><ol>
-<li>Discover project ideas for every skill level.</li>
-</ol>
-</li>
-</ol>
-<h2 id="Python-Quiz"><a href="#Python-Quiz" class="headerlink" title="Python Quiz"></a>Python Quiz</h2><p>Quizzes help reinforce your Python knowledge by testing your understanding of concepts.</p>
-<ol>
-<li><a href="https://www.w3schools.com/python/python_quiz.asp">Python Quiz | w3schools.com</a><ol>
-<li>Test your skills with interactive Python quizzes.</li>
-</ol>
-</li>
-<li><a href="https://www.geeksforgeeks.org/python-quizzes/">Python Quiz | geeksforgeeks.org</a></li>
-<li><a href="https://pynative.com/python/quizzes/">Python Quiz | pynative.com</a></li>
-<li><a href="https://www.codechef.com/skill-test/basic-python">Python Quiz | codechef.com</a></li>
-<li><a href="https://www.evamariakiss.de/tutorial/python/python_quizzes.php">Python Quiz | evamariakiss.de</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>dev_side</tag>
       </tags>
   </entry>
   <entry>
@@ -7849,6 +7651,204 @@ print(generated_text)
 <li>related info: <a href="https://requests-mock.readthedocs.io/">https://requests-mock.readthedocs.io/</a> <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install requests-mock</span><br></pre></td></tr></table></figure></li>
 </ul>
 <hr>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>dev_side</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python basics</title>
+    <url>/hexo-blog//dev_side/python_basics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Python-Core"><a href="#Python-Core" class="headerlink" title="Python Core"></a>Python Core</h2><p>Python is a high-level, interpreted programming language known for its simplicity and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Mastering Python’s core concepts is essential for building scalable applications.</p>
+<ol>
+<li><a href="https://docs.python.org/3/tutorial/introduction.html">Python Basics | python.org</a><ol>
+<li>Learn Python’s syntax, variables, and basic programming constructs.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Input-and-Output-in-Python"><a href="#Input-and-Output-in-Python" class="headerlink" title="Input and Output in Python"></a>Input and Output in Python</h2><p>Python provides various ways to take input from users and output information. The <code>input()</code> function is used for input, while <code>print()</code> is commonly used for output. Mastering I&#x2F;O is critical for creating interactive programs.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/input-and-output-in-python/">Python Input and Output | geeksforgeeks.org</a><ol>
+<li>Understand how to handle user inputs and format outputs.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Data-Types"><a href="#Python-Data-Types" class="headerlink" title="Python Data Types"></a>Python Data Types</h2><p>Python supports several built-in data types like <code>int</code>, <code>float</code>, <code>str</code>, <code>list</code>, and more. These types form the foundation of Python’s dynamic nature.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-data-types/">Python Data Types | geeksforgeeks.org</a><ol>
+<li>Explore various data types and their uses in Python.</li>
+</ol>
+</li>
+<li><a href="https://www.programiz.com/python-programming/variables-datatypes">Python Data Types | programiz.com</a></li>
+</ol>
+<h2 id="Python-Data-Structures"><a href="#Python-Data-Structures" class="headerlink" title="Python Data Structures"></a>Python Data Structures</h2><p>Data structures help organize and manipulate data efficiently. Python’s built-in data structures like <code>list</code>, <code>dict</code>, <code>set</code>, and <code>tuple</code> simplify data management.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-data-structures/">Python Data Structures | geeksforgeeks.org</a><ol>
+<li>Learn to use Python’s powerful data structures for different scenarios.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Operators"><a href="#Python-Operators" class="headerlink" title="Python Operators"></a>Python Operators</h2><p>Operators are special symbols that carry out operations on variables and values. Python supports arithmetic, logical, bitwise, and comparison operators.</p>
+<ol>
+<li><a href="https://realpython.com/python-operators-expressions/">Python Operators | realpython.com</a><ol>
+<li>Understand how to use operators for data manipulation.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Conditional-Statements-in-Python"><a href="#Conditional-Statements-in-Python" class="headerlink" title="Conditional Statements in Python"></a>Conditional Statements in Python</h2><p>Conditional statements like <code>if</code>, <code>elif</code>, and <code>else</code> allow programs to make decisions. They are fundamental for implementing logic.</p>
+<ol>
+<li><a href="https://www.w3schools.com/python/python_conditions.asp">Python Conditional Statements | w3schools.com</a><ol>
+<li>Learn to control program flow using conditional statements.</li>
+</ol>
+</li>
+</ol>
+<p><em><strong>Related to this topic</strong></em></p>
+<ol>
+<li><a href="https://python-book.softuni.org/chapter-05-loops.html">Chapter 5.1. Loops | python-book.softuni.org</a></li>
+<li><a href="https://python-book.softuni.org/chapter-06-nested-loops-exam-problems.html">Chapter 7.1. Complex Loops | python-book.softuni.org</a></li>
+</ol>
+<p><em><strong>Replacement</strong></em></p>
+<h3 id="Replacing-Loops-in-Python-Using-Programmatic-Tricks"><a href="#Replacing-Loops-in-Python-Using-Programmatic-Tricks" class="headerlink" title="Replacing Loops in Python Using Programmatic Tricks"></a>Replacing Loops in Python Using Programmatic Tricks</h3><p>Replacing traditional loops in Python with advanced techniques can enhance code readability and performance. Below are some key approaches to consider:</p>
+<h4 id="1-List-Comprehensions"><a href="#1-List-Comprehensions" class="headerlink" title="1. List Comprehensions"></a>1. <strong>List Comprehensions</strong></h4><ul>
+<li>List comprehensions provide a concise way to replace simple <code>for</code> loops, especially for creating or filtering lists.</li>
+<li>They are more readable and faster than traditional loops for straightforward transformations.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://realpython.com/courses/understand-list-comprehensions/">Python List Comprehensions | realpython.com</a>  </li>
+<li><a href="https://www.geeksforgeeks.org/python-list-comprehension/">Mastering List Comprehensions | geeksforgeeks.org</a></li>
+</ol>
+<hr>
+<h4 id="2-Map-Filter-and-Reduce"><a href="#2-Map-Filter-and-Reduce" class="headerlink" title="2. Map, Filter, and Reduce"></a>2. <strong>Map, Filter, and Reduce</strong></h4><ul>
+<li>Use functional programming tools like <code>map</code> for transformations, <code>filter</code> for conditional filtering, and <code>reduce</code> for aggregations.  </li>
+<li>These methods eliminate the need for explicit loops and promote a functional programming style.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://realpython.com/python-functional-programming/">Functional Programming in Python | realpython.com</a>  </li>
+<li><a href="https://www.programiz.com/python-programming/methods/built-in/map">Python map(), filter(), and reduce() | programiz.com</a></li>
+</ol>
+<hr>
+<h4 id="3-Generators-and-Generator-Expressions"><a href="#3-Generators-and-Generator-Expressions" class="headerlink" title="3. Generators and Generator Expressions"></a>3. <strong>Generators and Generator Expressions</strong></h4><ul>
+<li>Replace loops with generators for memory-efficient processing of large datasets.  </li>
+<li>Generator expressions can streamline code and work well with functions like <code>sum()</code> and <code>any()</code>.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://realpython.com/introduction-to-python-generators/">Generators in Python | realpython.com</a>  </li>
+<li><a href="https://www.geeksforgeeks.org/generators-in-python/">Python Generators | geeksforgeeks.org</a></li>
+<li><a href="https://www.geeksforgeeks.org/python-itertools/">Python Itertools | geeksforgeeks.org</a></li>
+</ol>
+<hr>
+<h4 id="4-Recursion-as-a-Loop-Replacement"><a href="#4-Recursion-as-a-Loop-Replacement" class="headerlink" title="4. Recursion as a Loop Replacement"></a>4. <strong>Recursion as a Loop Replacement</strong></h4><ul>
+<li>Replace certain types of nested loops with recursion for problems like tree traversal.  </li>
+<li>While not always efficient, recursion simplifies some complex loop structures.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://www.programiz.com/python-programming/recursion">Recursion in Python | programiz.com</a>  </li>
+<li><a href="https://www.geeksforgeeks.org/difference-between-recursion-and-iteration">Difference between Recursion and Iteration | geeksforgeeks.org</a></li>
+</ol>
+<hr>
+<h4 id="5-Vectorized-Operations-with-NumPy"><a href="#5-Vectorized-Operations-with-NumPy" class="headerlink" title="5. Vectorized Operations with NumPy"></a>5. <strong>Vectorized Operations with NumPy</strong></h4><ul>
+<li>Replace loops with vectorized operations in libraries like NumPy for mathematical or array computations.  </li>
+<li>These operations are faster and more efficient than traditional looping mechanisms.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://numpy.org/doc/stable/user/quickstart.html">NumPy Quick Start | numpy.org</a>  </li>
+<li><a href="https://towardsdatascience.com/understanding-text-vectorizations-how-streamlined-models-made-feature-extractions-a-breeze-8b9768bbd96a">Understanding Vectorization (Sklearn + Pandas + NumPy) | towardsdatascience.com</a></li>
+<li><a href="https://medium.com/@michael-scherding/understanding-vectorization-775a419d1270">Understanding Vectorization in NumPy and Pandas | medium.com</a></li>
+</ol>
+<hr>
+<h4 id="6-Using-Built-in-Python-Functions"><a href="#6-Using-Built-in-Python-Functions" class="headerlink" title="6. Using Built-in Python Functions"></a>6. <strong>Using Built-in Python Functions</strong></h4><ul>
+<li>Replace loops with Python’s built-in functions like <code>sum()</code>, <code>max()</code>, <code>any()</code>, etc., to perform common operations.</li>
+</ul>
+<p><em><strong>Related to this topic</strong></em>  </p>
+<ol>
+<li><a href="https://docs.python.org/3/library/functions.html">Built-in Functions in Python | docs.python.org</a>  </li>
+<li><a href="https://realpython.com/python-built-in-functions/">Optimizing with Built-in Functions | realpython.com</a></li>
+</ol>
+<hr>
+<p>These techniques not only replace traditional loops but also align with Python’s philosophy of simplicity and elegance.</p>
+<h2 id="Loops-in-Python-For-While-and-Nested-Loops"><a href="#Loops-in-Python-For-While-and-Nested-Loops" class="headerlink" title="Loops in Python - For, While and Nested Loops"></a>Loops in Python - For, While and Nested Loops</h2><p>Loops are used to execute a block of code repeatedly. Python supports <code>for</code> and <code>while</code> loops, along with nested loops for complex tasks.</p>
+<ol>
+<li><a href="https://www.tutorialspoint.com/python/python_loops.htm">Python Loops | tutorialspoint.com</a><ol>
+<li>Master loops for repetitive tasks and data iteration.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Functions"><a href="#Python-Functions" class="headerlink" title="Python Functions"></a>Python Functions</h2><p>Functions allow you to encapsulate code into reusable blocks. Python supports user-defined, lambda, and built-in functions.</p>
+<ol>
+<li><a href="https://www.programiz.com/python-programming/function">Python Functions | programiz.com</a><ol>
+<li>Understand function declarations, arguments, and scope.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-OOPs-Concepts"><a href="#Python-OOPs-Concepts" class="headerlink" title="Python OOPs Concepts"></a>Python OOPs Concepts</h2><p>Object-oriented programming (OOP) in Python revolves around objects and classes. Key concepts include inheritance, encapsulation, and polymorphism.</p>
+<ol>
+<li><a href="https://realpython.com/python3-object-oriented-programming/">Python OOP | realpython.com</a><ol>
+<li>Learn the principles of OOP and their implementation in Python.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Functional-Programming"><a href="#Python-Functional-Programming" class="headerlink" title="Python Functional Programming"></a>Python Functional Programming</h2><p>Functional programming treats computation as the evaluation of mathematical functions. Python’s support for <code>map</code>, <code>reduce</code>, and <code>filter</code> simplifies this paradigm.</p>
+<ol>
+<li><a href="https://medium.com/@gchandrams/python-functional-programming-techniques-505c7b5da441">Python Functional Programming | medium.com</a><ol>
+<li>Dive into functional programming with Python.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Modules"><a href="#Python-Modules" class="headerlink" title="Python Modules"></a>Python Modules</h2><p>Modules in Python are files containing Python code that can define functions, classes, and variables. They promote code reuse.</p>
+<ol>
+<li><a href="https://docs.python.org/3/tutorial/modules.html">Python Modules | python.org</a><ol>
+<li>Learn to import and use Python modules effectively.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Exception-Handling"><a href="#Python-Exception-Handling" class="headerlink" title="Python Exception Handling"></a>Python Exception Handling</h2><p>Exception handling allows you to manage errors gracefully using <code>try</code>, <code>except</code>, <code>finally</code>, and <code>raise</code>.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-exception-handling/">Python Exception Handling | geeksforgeeks.org</a><ol>
+<li>Master exception handling to write robust code.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Packages"><a href="#Python-Packages" class="headerlink" title="Python Packages"></a>Python Packages</h2><p>Packages are collections of modules grouped together. They are used to organize related modules for larger applications.</p>
+<ol>
+<li><a href="https://www.w3schools.com/python/python_modules.asp">Python Packages | w3schools.com</a><ol>
+<li>Explore how to create and manage Python packages.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Collections-Module"><a href="#Python-Collections-Module" class="headerlink" title="Python Collections Module"></a>Python Collections Module</h2><p>Python’s <code>collections</code> module provides specialized container data types like <code>Counter</code>, <code>deque</code>, <code>OrderedDict</code>, and <code>defaultdict</code>. These can simplify complex data operations.</p>
+<ol>
+<li><a href="https://realpython.com/python-collections-module/">Python Collections Module | realpython.com</a><ol>
+<li>Learn to use advanced data containers in Python.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Projects-Beginner-to-Advanced"><a href="#Python-Projects-Beginner-to-Advanced" class="headerlink" title="Python Projects - Beginner to Advanced"></a>Python Projects - Beginner to Advanced</h2><p>Python projects provide practical experience with coding concepts. Start with simple projects and gradually take on more advanced challenges.</p>
+<ol>
+<li><a href="https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/">Python Project Ideas | geeksforgeeks.org</a><ol>
+<li>Discover project ideas for every skill level.</li>
+</ol>
+</li>
+</ol>
+<h2 id="Python-Quiz"><a href="#Python-Quiz" class="headerlink" title="Python Quiz"></a>Python Quiz</h2><p>Quizzes help reinforce your Python knowledge by testing your understanding of concepts.</p>
+<ol>
+<li><a href="https://www.w3schools.com/python/python_quiz.asp">Python Quiz | w3schools.com</a><ol>
+<li>Test your skills with interactive Python quizzes.</li>
+</ol>
+</li>
+<li><a href="https://www.geeksforgeeks.org/python-quizzes/">Python Quiz | geeksforgeeks.org</a></li>
+<li><a href="https://pynative.com/python/quizzes/">Python Quiz | pynative.com</a></li>
+<li><a href="https://www.codechef.com/skill-test/basic-python">Python Quiz | codechef.com</a></li>
+<li><a href="https://www.evamariakiss.de/tutorial/python/python_quizzes.php">Python Quiz | evamariakiss.de</a></li>
+</ol>
 ]]></content>
       <categories>
         <category>Posts</category>
@@ -8290,6 +8290,76 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
+    <title>Основы лингвистики</title>
+    <url>/hexo-blog//linguistic/linguistic_basics_ru/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
+<ul>
+<li><a href="/hexo-blog/linguistic/linguistic_basics/">Linguistic basics</a></li>
+</ul>
+<hr>
+<h2 id="1-Лингвистические-домены"><a href="#1-Лингвистические-домены" class="headerlink" title="1. Лингвистические домены"></a>1. Лингвистические домены</h2><h3 id="Синтаксис"><a href="#Синтаксис" class="headerlink" title="Синтаксис"></a>Синтаксис</h3><p>Синтаксис занимается структурой предложений и грамматической корректностью, что является основой для качества текста.</p>
+<h3 id="Семантика"><a href="#Семантика" class="headerlink" title="Семантика"></a>Семантика</h3><p>Семантика обеспечивает логическое соответствие значений слов и предложений, способствуя когерентности и качеству текста.</p>
+<h3 id="Прагматика"><a href="#Прагматика" class="headerlink" title="Прагматика"></a>Прагматика</h3><p>Прагматика изучает контекст и предполагаемое значение, что влияет как на когерентность, так и на качество текста.</p>
+<h3 id="Анализ-дискурса"><a href="#Анализ-дискурса" class="headerlink" title="Анализ дискурса"></a>Анализ дискурса</h3><p>Анализ дискурса исследует, как предложения и абзацы соединяются в значимую и когерентную структуру, что является критическим аспектом текстовой когерентности.</p>
+<hr>
+<h2 id="2-Теоретическая-лингвистика"><a href="#2-Теоретическая-лингвистика" class="headerlink" title="2. Теоретическая лингвистика"></a>2. Теоретическая лингвистика</h2><p>В теоретической лингвистике данные понятия связаны с:</p>
+<h3 id="Лингвистика-текста"><a href="#Лингвистика-текста" class="headerlink" title="Лингвистика текста"></a>Лингвистика текста</h3><p>Изучает, как текст структурирован для достижения смысла и когерентности.</p>
+<h3 id="Когезия-и-когерентность"><a href="#Когезия-и-когерентность" class="headerlink" title="Когезия и когерентность"></a>Когезия и когерентность</h3><p>Анализирует языковые средства (например, союзы, местоимения, референции) и логические связи между элементами текста.</p>
+<h3 id="Когезия"><a href="#Когезия" class="headerlink" title="Когезия"></a>Когезия</h3><p>Когезия как явление очень основательно описана в работе Халидая и Хасана 1976 года под названием “Cohesion in English”. По определению авторов, когезия - это явление непрерывности между разными частями того, что мы называем текстом. Эта непрерывность образуется благодаря грамматическим и лексическим связям между отдельными смысловыми сущностями, которыми могут выступать предложения или простые части сложных предложений.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<h3 id="Когерентность"><a href="#Когерентность" class="headerlink" title="Когерентность"></a>Когерентность</h3><p>Когере́нтность (от лат. cohaerens — «находящийся в связи») — в лингвистике целостность текста, заключающаяся в логико-семантической, грамматической и стилистической соотнесённости и взаимозависимости составляющих его элементов (слов, предложений и т. д.)<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+<h3 id="Когнитивная-лингвистика"><a href="#Когнитивная-лингвистика" class="headerlink" title="Когнитивная лингвистика"></a>Когнитивная лингвистика</h3><p>Изучает, как читатели воспринимают и интерпретируют текст, что влияет на восприятие когерентности и качества.</p>
+<h3 id="Разрешение-анафор"><a href="#Разрешение-анафор" class="headerlink" title="Разрешение анафор"></a>Разрешение анафор</h3><p>Анафора — это использование слов, ссылающихся на ранее упомянутые элементы текста (например, местоимения “он”, “она”, “оно”). Разрешение анафор включает:</p>
+<ul>
+<li>Определение референтов (к чему относится анафора).</li>
+<li>Построение моделей контекста для точной интерпретации.<br>Пример: “Маша пошла в магазин. Она купила хлеб.” Здесь “она” относится к “Маша”.</li>
+</ul>
+<h4 id="Связанные-понятия"><a href="#Связанные-понятия" class="headerlink" title="Связанные понятия"></a>Связанные понятия</h4><ul>
+<li><strong>Катастрофа референции</strong>: ошибки в интерпретации референтов.</li>
+<li><strong>Кореференция</strong>: идентификация, когда разные выражения ссылаются на один объект.<br>Пример: “Доктор Иванов вошел. Иванов начал осмотр.”</li>
+</ul>
+<hr>
+<h2 id="3-Прикладная-лингвистика"><a href="#3-Прикладная-лингвистика" class="headerlink" title="3. Прикладная лингвистика"></a>3. Прикладная лингвистика</h2><p>В прикладных контекстах когерентность и качество текста играют ключевую роль в:</p>
+<h3 id="Обработка-естественного-языка-NLP"><a href="#Обработка-естественного-языка-NLP" class="headerlink" title="Обработка естественного языка (NLP)"></a>Обработка естественного языка (NLP)</h3><p>Обеспечение того, чтобы текст, сгенерированный машинами, соответствовал ожиданиям человека.</p>
+<h3 id="Преподавание-языка"><a href="#Преподавание-языка" class="headerlink" title="Преподавание языка"></a>Преподавание языка</h3><p>Обучение навыкам написания когерентных и качественных текстов.</p>
+<h3 id="Переводоведение"><a href="#Переводоведение" class="headerlink" title="Переводоведение"></a>Переводоведение</h3><p>Сохранение когерентности и качества при переводе между языками.</p>
+<hr>
+<h2 id="4-Компьютерная-лингвистика"><a href="#4-Компьютерная-лингвистика" class="headerlink" title="4. Компьютерная лингвистика"></a>4. Компьютерная лингвистика</h2><p>Генерация и оценка текста играют важную роль в компьютерной лингвистике, где разрабатываются алгоритмы для:</p>
+<ul>
+<li>Имитации человеческой когерентности и качества в машинно-сгенерированном тексте.</li>
+<li>Оптимизации когерентности за счет логического построения и тематической согласованности.</li>
+<li>Улучшения качества через грамматически точный и стилистически подходящий текст.</li>
+</ul>
+<hr>
+<h2 id="Литература"><a href="#Литература" class="headerlink" title="Литература"></a>Литература</h2><ol>
+<li>Кибрик А. А. <code>Введение в общую и прикладную лингвистику</code>. Москва: УРСС, 2008.  </li>
+<li>Бондарко А. В. <code>Функциональная грамматика</code>. Москва: Наука, 1984.  </li>
+<li>Богуславский И. М. <code>Семантический синтаксис и разрешение анафоры</code>. Москва: Языки славянской культуры, 2011.  </li>
+<li>Яковлев С. П. <code>Компьютерная лингвистика и обработка текстов</code>. Санкт-Петербург: Питер, 2020.  </li>
+<li>Бибер Д., Конрад С. <code>Лингвистический анализ текста</code>. Москва: Логос, 2009.  </li>
+<li>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. <ol>
+<li><a href="https://moodle.znu.edu.ua/pluginfile.php/587137/mod_resource/content/1/%D0%A1%D0%B5%D0%BB%D1%96%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0.pdf">Читати книгу <code>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. </code> на moodle.znu.edu.ua</a></li>
+</ol>
+</li>
+<li>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423<ol>
+<li><a href="https://shron1.chtyvo.org.ua/Kochan_Iryna/Linhvistychnyi_analiz_tekstu.pdf?PHPSESSID=1cl5h308tpamb2igkr67p4ni86">Читати книгу <code>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423</code> на chtyvo.org.ua</a></li>
+</ol>
+</li>
+<li>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269<ol>
+<li><a href="https://www.hse.ru/data/2017/08/12/1174382135/NLP_and_DA.pdf">Читать книгу <code>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269</code> на hse.ru</a></li>
+</ol>
+</li>
+<li></li>
+</ol>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://habr.com/ru/articles/711054/">О когезии и когерентности. habr.com</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B3%D0%B5%D1%80%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)#cite_note-1">Когерентность. wikipedia.org</a></span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>linguistic</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Text Generation Coherence vs. Text Generation Quality</title>
     <url>/hexo-blog//linguistic/text_coherence_vs_text_quiality/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Text-Generation-Coherence"><a href="#1-Text-Generation-Coherence" class="headerlink" title="1. Text Generation Coherence"></a>1. Text Generation Coherence</h2><p>Coherence refers to the logical and structural flow of the text. A coherent text feels connected and makes sense as a whole. It ensures that:</p>
@@ -8385,76 +8455,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
 <p>While coherence is a subset of quality, high-quality text must always be coherent. However, coherent text might not necessarily be high-quality if it lacks creativity, relevance, or stylistic finesse.</p>
 </blockquote>
 ]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>linguistic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Основы лингвистики</title>
-    <url>/hexo-blog//linguistic/linguistic_basics_ru/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post is related to:</em></p>
-<ul>
-<li><a href="/hexo-blog/linguistic/linguistic_basics/">Linguistic basics</a></li>
-</ul>
-<hr>
-<h2 id="1-Лингвистические-домены"><a href="#1-Лингвистические-домены" class="headerlink" title="1. Лингвистические домены"></a>1. Лингвистические домены</h2><h3 id="Синтаксис"><a href="#Синтаксис" class="headerlink" title="Синтаксис"></a>Синтаксис</h3><p>Синтаксис занимается структурой предложений и грамматической корректностью, что является основой для качества текста.</p>
-<h3 id="Семантика"><a href="#Семантика" class="headerlink" title="Семантика"></a>Семантика</h3><p>Семантика обеспечивает логическое соответствие значений слов и предложений, способствуя когерентности и качеству текста.</p>
-<h3 id="Прагматика"><a href="#Прагматика" class="headerlink" title="Прагматика"></a>Прагматика</h3><p>Прагматика изучает контекст и предполагаемое значение, что влияет как на когерентность, так и на качество текста.</p>
-<h3 id="Анализ-дискурса"><a href="#Анализ-дискурса" class="headerlink" title="Анализ дискурса"></a>Анализ дискурса</h3><p>Анализ дискурса исследует, как предложения и абзацы соединяются в значимую и когерентную структуру, что является критическим аспектом текстовой когерентности.</p>
-<hr>
-<h2 id="2-Теоретическая-лингвистика"><a href="#2-Теоретическая-лингвистика" class="headerlink" title="2. Теоретическая лингвистика"></a>2. Теоретическая лингвистика</h2><p>В теоретической лингвистике данные понятия связаны с:</p>
-<h3 id="Лингвистика-текста"><a href="#Лингвистика-текста" class="headerlink" title="Лингвистика текста"></a>Лингвистика текста</h3><p>Изучает, как текст структурирован для достижения смысла и когерентности.</p>
-<h3 id="Когезия-и-когерентность"><a href="#Когезия-и-когерентность" class="headerlink" title="Когезия и когерентность"></a>Когезия и когерентность</h3><p>Анализирует языковые средства (например, союзы, местоимения, референции) и логические связи между элементами текста.</p>
-<h3 id="Когезия"><a href="#Когезия" class="headerlink" title="Когезия"></a>Когезия</h3><p>Когезия как явление очень основательно описана в работе Халидая и Хасана 1976 года под названием “Cohesion in English”. По определению авторов, когезия - это явление непрерывности между разными частями того, что мы называем текстом. Эта непрерывность образуется благодаря грамматическим и лексическим связям между отдельными смысловыми сущностями, которыми могут выступать предложения или простые части сложных предложений.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
-<h3 id="Когерентность"><a href="#Когерентность" class="headerlink" title="Когерентность"></a>Когерентность</h3><p>Когере́нтность (от лат. cohaerens — «находящийся в связи») — в лингвистике целостность текста, заключающаяся в логико-семантической, грамматической и стилистической соотнесённости и взаимозависимости составляющих его элементов (слов, предложений и т. д.)<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
-<h3 id="Когнитивная-лингвистика"><a href="#Когнитивная-лингвистика" class="headerlink" title="Когнитивная лингвистика"></a>Когнитивная лингвистика</h3><p>Изучает, как читатели воспринимают и интерпретируют текст, что влияет на восприятие когерентности и качества.</p>
-<h3 id="Разрешение-анафор"><a href="#Разрешение-анафор" class="headerlink" title="Разрешение анафор"></a>Разрешение анафор</h3><p>Анафора — это использование слов, ссылающихся на ранее упомянутые элементы текста (например, местоимения “он”, “она”, “оно”). Разрешение анафор включает:</p>
-<ul>
-<li>Определение референтов (к чему относится анафора).</li>
-<li>Построение моделей контекста для точной интерпретации.<br>Пример: “Маша пошла в магазин. Она купила хлеб.” Здесь “она” относится к “Маша”.</li>
-</ul>
-<h4 id="Связанные-понятия"><a href="#Связанные-понятия" class="headerlink" title="Связанные понятия"></a>Связанные понятия</h4><ul>
-<li><strong>Катастрофа референции</strong>: ошибки в интерпретации референтов.</li>
-<li><strong>Кореференция</strong>: идентификация, когда разные выражения ссылаются на один объект.<br>Пример: “Доктор Иванов вошел. Иванов начал осмотр.”</li>
-</ul>
-<hr>
-<h2 id="3-Прикладная-лингвистика"><a href="#3-Прикладная-лингвистика" class="headerlink" title="3. Прикладная лингвистика"></a>3. Прикладная лингвистика</h2><p>В прикладных контекстах когерентность и качество текста играют ключевую роль в:</p>
-<h3 id="Обработка-естественного-языка-NLP"><a href="#Обработка-естественного-языка-NLP" class="headerlink" title="Обработка естественного языка (NLP)"></a>Обработка естественного языка (NLP)</h3><p>Обеспечение того, чтобы текст, сгенерированный машинами, соответствовал ожиданиям человека.</p>
-<h3 id="Преподавание-языка"><a href="#Преподавание-языка" class="headerlink" title="Преподавание языка"></a>Преподавание языка</h3><p>Обучение навыкам написания когерентных и качественных текстов.</p>
-<h3 id="Переводоведение"><a href="#Переводоведение" class="headerlink" title="Переводоведение"></a>Переводоведение</h3><p>Сохранение когерентности и качества при переводе между языками.</p>
-<hr>
-<h2 id="4-Компьютерная-лингвистика"><a href="#4-Компьютерная-лингвистика" class="headerlink" title="4. Компьютерная лингвистика"></a>4. Компьютерная лингвистика</h2><p>Генерация и оценка текста играют важную роль в компьютерной лингвистике, где разрабатываются алгоритмы для:</p>
-<ul>
-<li>Имитации человеческой когерентности и качества в машинно-сгенерированном тексте.</li>
-<li>Оптимизации когерентности за счет логического построения и тематической согласованности.</li>
-<li>Улучшения качества через грамматически точный и стилистически подходящий текст.</li>
-</ul>
-<hr>
-<h2 id="Литература"><a href="#Литература" class="headerlink" title="Литература"></a>Литература</h2><ol>
-<li>Кибрик А. А. <code>Введение в общую и прикладную лингвистику</code>. Москва: УРСС, 2008.  </li>
-<li>Бондарко А. В. <code>Функциональная грамматика</code>. Москва: Наука, 1984.  </li>
-<li>Богуславский И. М. <code>Семантический синтаксис и разрешение анафоры</code>. Москва: Языки славянской культуры, 2011.  </li>
-<li>Яковлев С. П. <code>Компьютерная лингвистика и обработка текстов</code>. Санкт-Петербург: Питер, 2020.  </li>
-<li>Бибер Д., Конрад С. <code>Лингвистический анализ текста</code>. Москва: Логос, 2009.  </li>
-<li>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. <ol>
-<li><a href="https://moodle.znu.edu.ua/pluginfile.php/587137/mod_resource/content/1/%D0%A1%D0%B5%D0%BB%D1%96%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0.pdf">Читати книгу <code>Сучасна лінгвістика : термінологічна енциклопедія. Селіванова О. О.Полтава : Довкілля-К, 2006. 712. </code> на moodle.znu.edu.ua</a></li>
-</ol>
-</li>
-<li>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423<ol>
-<li><a href="https://shron1.chtyvo.org.ua/Kochan_Iryna/Linhvistychnyi_analiz_tekstu.pdf?PHPSESSID=1cl5h308tpamb2igkr67p4ni86">Читати книгу <code>Лінгвістичний аналіз тексту. Навчальний посібник.І.М.Кочан.Київ.Знання.2008. 423</code> на chtyvo.org.ua</a></li>
-</ol>
-</li>
-<li>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269<ol>
-<li><a href="https://www.hse.ru/data/2017/08/12/1174382135/NLP_and_DA.pdf">Читать книгу <code>Автоматическая обработка текстов на естественном языке и анализ данных. Большакова. 2017. 269</code> на hse.ru</a></li>
-</ol>
-</li>
-<li></li>
-</ol>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style:none; padding-left: 0;"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">1.</span><span style="display: inline-block; vertical-align: top;"><a href="https://habr.com/ru/articles/711054/">О когезии и когерентности. habr.com</a></span><a href="#fnref:1" rev="footnote"> ↩</a></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px;">2.</span><span style="display: inline-block; vertical-align: top;"><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B3%D0%B5%D1%80%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BB%D0%B8%D0%BD%D0%B3%D0%B2%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0)#cite_note-1">Когерентность. wikipedia.org</a></span><a href="#fnref:2" rev="footnote"> ↩</a></li></ol></div></div>]]></content>
       <categories>
         <category>Posts</category>
       </categories>
@@ -9608,6 +9608,21 @@ def __init__(self, driver):
       </tags>
   </entry>
   <entry>
+    <title>Resources</title>
+    <url>/hexo-blog/2024/10/28/post_resources/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
+<ol>
+<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>links</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Test design techniques for mobile applications</title>
     <url>/hexo-blog//qa/test_design_techniques_for_mobile_applications/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
@@ -9711,21 +9726,6 @@ def __init__(self, driver):
       </tags>
   </entry>
   <entry>
-    <title>Resources</title>
-    <url>/hexo-blog/2024/10/28/post_resources/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is a list of all the links from the blog, all in one place</p>
-<ol>
-<li><a href="https://roundrobin.pub/">roundrobin.pub</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>links</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Resources. Global platforms and people</title>
     <url>/hexo-blog/2024/10/28/post_resources__global_platforms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>List of global platforms of resources</strong></p>
@@ -9806,23 +9806,6 @@ def __init__(self, driver):
       <tags>
         <tag>blog</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Blog&#39;s categories</title>
-    <url>/hexo-blog//categories/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
-<ul>
-<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
-<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
-<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
-<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
-<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
-<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Categories</category>
-      </categories>
   </entry>
   <entry>
     <title>About me</title>
@@ -9977,6 +9960,23 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Blog&#39;s categories</title>
+    <url>/hexo-blog//categories/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here you can find most valuable categories of my blog</p>
+<ul>
+<li><a href="/hexo-blog/categories/My-contribution/">My contribution</a></li>
+<li><a href="/hexo-blog/categories/Posts/">Posts</a></li>
+<li><a href="/hexo-blog/categories/Tutorials/">Tutorials</a></li>
+<li><a href="/hexo-blog/categories/Notes/">Notes</a></li>
+<li><a href="/hexo-blog/categories/Maintanance/">Maintanance</a></li>
+<li><a href="/hexo-blog/categories/Personal-information/">Personal information</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Categories</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Cheatsheet list</title>
     <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -9989,20 +9989,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>cheatsheets</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
   </entry>
   <entry>
     <title>My Statistics page</title>
@@ -10029,6 +10015,29 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Tags</title>
     <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
@@ -10039,15 +10048,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>tags</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>Favorite post categories</title>
@@ -10139,65 +10139,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My GitHub projects</title>
-    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
-<p>Below is a list of my My GitHub projects with short decription.</p>
-<hr>
-<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
-<hr>
-<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
-</ul>
-<hr>
-<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
-<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
-<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
-<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
-</ul>
-<hr>
-<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
-<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
-<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
-<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
-<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
-<li>reused resources;</li>
-<li>generating test data using custom methods;</li>
-<li>using pytest and custom defined fixtures;</li>
-<li>using DB, config files, Excel docs for storing test data and references;</li>
-<li>generating reports (Allure, Pytest).</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
-<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
-<hr>
-<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
-<hr>
-<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
-<hr>
-<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
-<hr>
-<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>My contribution</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>my_porjects</tag>
       </tags>
   </entry>
   <entry>
@@ -10415,6 +10356,65 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>My GitHub projects</title>
+    <url>/hexo-blog/2024/10/21/my_contribution/my_github_projects/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><span style="color: red; font-weight: bold;">IMPORTANT !!!</span><br>All information you find here is published “as is”.<br>You can copy, clone and reuse the information without any restrictions from my side.<br>Otherwise, please refer to official documentation or original sources.</p>
+<p>Below is a list of my My GitHub projects with short decription.</p>
+<hr>
+<p><strong>Table of GitHub projects</strong><br><a href="#My-HEXO-IO-blog">My HEXO.IO blog</a><br><a href="#ooge0-github-io">ooge0.github.io</a><br><a href="#python-TA-web-api-framework">python_TA_web_api_framework</a><br><a href="#API-tests-for-petstore-swagger-io">API tests for petstore.swagger.io</a><br><a href="#Test-automation-framework-based-on-RestAssured-test-framework">Test automation framework based on RestAssured test framework.</a><br><a href="#kafka-app-demo">kafka-app-demo</a><br><a href="#Appium-FrameworkExtended">Appium FrameworkExtended</a><br><a href="#Appium-framework-pet-project">Appium framework (pet project)</a><br><a href="#ssLv-Gherkin-JAVA">ssLv_Gherkin_JAVA</a></p>
+<hr>
+<h3 id="My-HEXO-IO-blog"><a href="#My-HEXO-IO-blog" class="headerlink" title="My HEXO.IO blog"></a>My HEXO.IO blog</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/hexo-blog/">Blog: ooge0.github.io&#x2F;hexo-blog&#x2F;</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/hexo-blog">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: <em>Repository for the current website, including all pages, scripts, and CSS files.</em> This project is my second blog project that I created based on HEXO.IO framework. Blog published and hosted on GitHub. It was created from scratch using basic HEXO.IO options and then configured using available internet resources.</li>
+</ul>
+<hr>
+<h3 id="ooge0-github-io"><a href="#ooge0-github-io" class="headerlink" title="ooge0.github.io"></a>ooge0.github.io</h3><ul>
+<li><strong>Blog URL</strong>: <a href="https://ooge0.github.io/">Blog: ooge0.github.io</a></li>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/ooge0.github.io">ooge0.github.io</a></li>
+<li><strong>Languages</strong>: <em>HTML, JavaScript, CSS</em></li>
+<li><strong>Description</strong>: This project is my first blog project that I published and hosted on GitHub. It was created from scratch using pure JS, CSS codding and examples of code snippets available in the internet.</li>
+</ul>
+<hr>
+<h3 id="python-TA-web-api-framework"><a href="#python-TA-web-api-framework" class="headerlink" title="python_TA_web_api_framework"></a>python_TA_web_api_framework</h3><ul>
+<li><strong>GitHub link</strong>: <a href="https://github.com/ooge0/python_TA_web_api_framework?tab=readme-ov-file#toc">python_TA_web_api_framework</a></li>
+<li><strong>Published projects documentation</strong>: <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html">ReadTheDocs project: ‘Python TA Framework Docs’</a></li>
+<li><strong>Languages</strong>: <em>Python, Gherkin</em></li>
+<li><strong>Description</strong>: <em>Hybrid test automation framework for UI and API testing. Created tests processed by PyTest library. Project contains mixed approach of</em>:<ul>
+<li>reused resources;</li>
+<li>generating test data using custom methods;</li>
+<li>using pytest and custom defined fixtures;</li>
+<li>using DB, config files, Excel docs for storing test data and references;</li>
+<li>generating reports (Allure, Pytest).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="API-tests-for-petstore-swagger-io"><a href="#API-tests-for-petstore-swagger-io" class="headerlink" title="API tests for petstore.swagger.io"></a>API tests for petstore.swagger.io</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/demo_pet">demo_pet</a><br><strong>Languages</strong>: <em>Python, Gherkin</em><br><strong>Description</strong>: Back-end tests framework for API testing. Destination source is <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a>.</p>
+<h3 id="Test-automation-framework-based-on-RestAssured-test-framework"><a href="#Test-automation-framework-based-on-RestAssured-test-framework" class="headerlink" title="Test automation framework based on RestAssured test framework."></a>Test automation framework based on RestAssured test framework.</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/restAssured">restAssured</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Helper for managing webDrivers. Forked from . I used this repo as a source of ideas.</p>
+<hr>
+<h3 id="kafka-app-demo"><a href="#kafka-app-demo" class="headerlink" title="kafka-app-demo"></a>kafka-app-demo</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/kafka-app-demo">kafka-app-demo</a><br><strong>Languages</strong>: <em>Python</em><br><strong>Description</strong>: Pet project for investigating Kafka features. Created simple app for managing behavior of consumer&#x2F;poducer actions.</p>
+<hr>
+<h3 id="Appium-FrameworkExtended"><a href="#Appium-FrameworkExtended" class="headerlink" title="Appium FrameworkExtended"></a>Appium FrameworkExtended</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/AppiumFrameworkExtended">AppiumFrameworkExtended</a><br><strong>Languages</strong>: <em>Java</em><br><strong>Description</strong>: Pet project for investigating Appium features. More complex and detailed than <a href="#appium-framework-pet-project">appiumQA project</a>. Project has detailed README.MD file, valid configuration for executing different tests, generating reports.</p>
+<hr>
+<h3 id="Appium-framework-pet-project"><a href="#Appium-framework-pet-project" class="headerlink" title="Appium framework (pet project)"></a>Appium framework (pet project)</h3><p><strong>GitHub link</strong>: <a href="https://github.com/ooge0/appiumQA">appiumQA</a><br><strong>Languages</strong>: <em>Java, Batchfile</em><br><strong>Description</strong>: Pet project for investigating Appium features. There is no complex logic, just few classes for checking main Appium flow for interacting with Android app.</p>
+<hr>
+<h3 id="ssLv-Gherkin-JAVA"><a href="#ssLv-Gherkin-JAVA" class="headerlink" title="ssLv_Gherkin_JAVA"></a>ssLv_Gherkin_JAVA</h3><p>Helper for managing webDrivers<br><strong>GitHub link</strong>:  <a href="https://github.com/ooge0/ssLv_Gherkin_JAVA">ssLv_Gherkin_JAVA</a><br><strong>Languages</strong>: <em>Java, Gherkin</em><br><strong>Description</strong>: Project contains finished test scenario based on Gherkin language for checking web sites functionality. All scenarios are expected to use Page Object model. All scenarios are expected to use separated step definition files.</p>
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>My contribution</category>
+      </categories>
+      <tags>
+        <tag>my_contribution</tag>
+        <tag>my_porjects</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO.IO blog references</title>
     <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
@@ -10551,24 +10551,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>How to Format a USB Using CMD (Command Prompt)</title>
     <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
@@ -10597,6 +10579,24 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>usb</tag>
         <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
       </tags>
   </entry>
   <entry>
@@ -10724,6 +10724,20 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>papers</tag>
         <tag>tutorial</tag>
         <tag>my_contribution</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes__web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -10998,20 +11012,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
       <tags>
         <tag>nst</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes__web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>web</tag>
       </tags>
   </entry>
   <entry>
