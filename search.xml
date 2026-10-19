@@ -537,6 +537,33 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>VADER - intro</title>
+    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
+<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
+<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
+<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
+<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
+<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
+<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
+<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
+<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
+</ul>
+</li>
+<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
+<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>VADER</tag>
+        <tag>sentiment_analysis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>References for learning AI algorithms</title>
     <url>/hexo-blog//ai_algorithms/references_for_learning_ai_algorithms/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>references_for_learning_ai_algorithms<br><em>This post related to :</em></p>
@@ -582,33 +609,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
-    <title>VADER - intro</title>
-    <url>/hexo-blog/2024/11/26/post_ai__vader_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="VADER"><a href="#VADER" class="headerlink" title="VADER"></a>VADER</h2><p>VADER (Valence Aware Dictionary and sEntiment Reasoner) is a widely used sentiment analysis tool tailored for understanding emotions in text, especially in social media contexts. Developed by C.J. Hutto and Eric Gilbert, it combines lexicon-based methods with grammatical and syntactical rules, offering precise sentiment analysis. VADER excels at capturing sentiment intensity, polarity (positive, negative, neutral), and even nuances like sarcasm, thanks to empirically validated linguistic rules and datasets.</p>
-<p>Originally presented at the Eighth International Conference on Weblogs and Social Media in 2014, VADER was designed for scalability and ease of use. Its open-source implementation in Python is accessible for various applications, from marketing analysis to social media monitoring. The tool incorporates features like emoticons, slang, and acronyms, making it uniquely adept at analyzing informal text. Users can install it via Python’s pip command, and the source code is freely available under the MIT License.</p>
-<p>The tool has been validated rigorously with human raters to ensure accuracy. Datasets like tweets, movie reviews, and editorial snippets were used for its development, enabling a robust understanding of diverse text formats.</p>
-<p>For official details, you can visit VADER’s documentation: <a href="https://vadersentiment.readthedocs.io/en/latest/">VADER Sentiment</a>.</p>
-<h3 id="Releated-resources"><a href="#Releated-resources" class="headerlink" title="Releated resources"></a>Releated resources</h3><ul>
-<li>Medium post : <a href="https://towardsdatascience.com/an-short-introduction-to-vader-3f3860208d53">A Short Introduction to VADER</a></li>
-<li>Paper: VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. 2014<ul>
-<li>DOI: 10.1609&#x2F;icwsm.v8i1.14550</li>
-<li><a href="https://ojs.aaai.org/index.php/ICWSM/article/view/14550">Read on ojs.aaai.org</a></li>
-</ul>
-</li>
-<li>Article: <a href="https://hex.tech/templates/sentiment-analysis/vader-sentiment-analysis/">VADER sentiment analysis</a></li>
-<li>NLTK module: <a href="https://www.nltk.org/api/nltk.sentiment.vader.html#module-nltk.sentiment.vader">nltk.sentiment.vader module</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>VADER</tag>
-        <tag>sentiment_analysis</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Chatbots from scratch</title>
     <url>/hexo-blog//ai_chatbots/chatbots_from_scratch/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
@@ -623,91 +623,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>ML</tag>
         <tag>chatbot</tag>
         <tag>Llama</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Basics of Generative Pre-training Transformer (GPT)</title>
-    <url>/hexo-blog//ai_gpt/gpt_basics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Generative Pre-training Transformers (GPT) are a type of language model that utilizes the transformer architecture to generate, predict, or understand natural language. The foundation of GPT is rooted in deep learning principles, leveraging pre-trained models that learn from massive datasets to predict the next word or phrase in a sequence. This guide provides an overview of GPT, its evaluation metrics, and references for further exploration.</p>
-<h2 id="Core-Concepts-of-GPT"><a href="#Core-Concepts-of-GPT" class="headerlink" title="Core Concepts of GPT"></a>Core Concepts of GPT</h2><h3 id="Transformer-Architecture"><a href="#Transformer-Architecture" class="headerlink" title="Transformer Architecture"></a>Transformer Architecture</h3><p>Transformers are neural networks designed to handle sequential data efficiently by using attention mechanisms instead of recurrence. Key components of transformers include:</p>
-<ul>
-<li><strong>Self-Attention Mechanism</strong>: Helps the model focus on relevant parts of input sequences while processing text.</li>
-<li><strong>Feed-Forward Neural Networks</strong>: Adds depth to the architecture, enhancing its expressive capabilities.</li>
-<li><strong>Positional Encoding</strong>: Captures the order of words, a critical aspect of language understanding.</li>
-</ul>
-<h3 id="Generative-Pre-training"><a href="#Generative-Pre-training" class="headerlink" title="Generative Pre-training"></a>Generative Pre-training</h3><p>The pre-training phase involves unsupervised learning on vast corpora of text. The model learns statistical patterns of language, such as grammar, semantics, and relationships between words, enabling fine-tuning for specific tasks.</p>
-<h3 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h3><p>Fine-tuning adapts the pre-trained model to specific applications (e.g., summarization, translation, or question answering) using task-specific labeled datasets.</p>
-<h2 id="Metrics-for-Evaluating-Generated-Context"><a href="#Metrics-for-Evaluating-Generated-Context" class="headerlink" title="Metrics for Evaluating Generated Context"></a>Metrics for Evaluating Generated Context</h2><p>Assessing the quality of generated content requires diverse evaluation metrics. Below are commonly used metrics with short descriptions:</p>
-<ol>
-<li><strong>Perplexity</strong><ul>
-<li>Measures how well a model predicts a sample. Lower perplexity indicates better performance.</li>
-</ul>
-</li>
-<li><strong>BLEU (Bilingual Evaluation Understudy)</strong><ul>
-<li>Evaluates machine translation by comparing generated text to reference translations using n-gram overlap.</li>
-</ul>
-</li>
-<li><strong>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</strong><ul>
-<li>Measures the quality of summaries by comparing overlap with reference summaries.</li>
-</ul>
-</li>
-<li><strong>METEOR (Metric for Evaluation of Translation with Explicit ORdering)</strong><ul>
-<li>Focuses on precision and recall, considering synonyms and stemming.</li>
-</ul>
-</li>
-<li><strong>CIDEr (Consensus-based Image Description Evaluation)</strong><ul>
-<li>Evaluates the alignment between generated captions and reference captions in visual tasks.</li>
-</ul>
-</li>
-<li><strong>SPICE (Semantic Propositional Image Caption Evaluation)</strong><ul>
-<li>Measures semantic quality by assessing propositional content.</li>
-</ul>
-</li>
-<li><strong>TER (Translation Edit Rate)</strong><ul>
-<li>Computes the number of edits required to match a generated sentence with a reference.</li>
-</ul>
-</li>
-<li><strong>Coherence</strong><ul>
-<li>Checks the logical flow and relevance of ideas in the generated content.</li>
-</ul>
-</li>
-<li><strong>Diversity</strong><ul>
-<li>Assesses variability in generated responses, penalizing repetitive outputs.</li>
-</ul>
-</li>
-<li><strong>AUT (Alternative Usage Tests)</strong><ul>
-<li>Evaluates the applicability of generated content for alternative scenarios or contexts.</li>
-</ul>
-</li>
-</ol>
-<h2 id="Alternative-Usage-Tests-AUT"><a href="#Alternative-Usage-Tests-AUT" class="headerlink" title="Alternative Usage Tests (AUT)"></a>Alternative Usage Tests (AUT)</h2><p>AUT focuses on testing a model’s adaptability in diverse contexts. Examples include:</p>
-<ul>
-<li><strong>Scenario-Specific Adaptation</strong>: Generating content for specific domains, like legal or medical.</li>
-<li><strong>Interactive Dialogues</strong>: Testing conversational models’ ability to handle varied inputs.</li>
-<li><strong>Creative Writing Tasks</strong>: Evaluating the model’s ability to generate poetry, stories, or advertisements.</li>
-</ul>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
-<li><a href="https://www.cs.bu.edu/fac/snyder/cs505/PerplexityPosts.pdf">Read post <code>Two minutes NLP — Perplexity explained with simple probabilities</code> + <code> Perplexity Intuition (and its derivation)</code> on cs.bu.edu</a></li>
-<li><a href="https://medium.com/@echen/understanding-perplexity-metrics-in-natural-language-ai-dbc6d57eb812">Read post <code>Understanding Perplexity Metrics in Natural Language AI</code> on medium.com</a></li>
-<li><a href="https://medium.com/@shubhamsd100/understanding-perplexity-in-language-models-a-detailed-exploration-2108b6ab85af">Read post <code>Understanding Perplexity in Language Models: A Detailed Exploration</code> on medium.com</a></li>
-<li><a href="https://aclanthology.org/P02-1040.pdf">Read paper <code>BLEU: A Method for Automatic Evaluation of Machine Translation. 2002</code> on aclanthology.org</a></li>
-<li><a href="https://towardsdatascience.com/introduction-to-text-summarization-with-rouge-scores-84140c64b471">Read post <code>Introduction to Text Summarization with ROUGE Scores</code> on towardsdatascience.com</a></li>
-<li><a href="https://docs.kolena.com/metrics/meteor/">Read post <code>METEOR</code> on docs.kolena.com</a></li>
-<li><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">Read paper <code>CIDEr: Consensus-based Image Description Evaluation</code>. Vedantam et al. (2015) on openaccess.thecvf.com</a></li>
-<li><a href="https://panderson.me/images/SPICE.pdf">Read paper <code>SPICE Metric for Captioning</code> on panderson.me</a></li>
-<li><a href="https://arxiv.org/pdf/2309.12619">Read paper <code>Coherence in natural language: Data structures and applications</code>. Florian Wolf (2000) on</a></li>
-<li><a href="hhttps://arxiv.org/pdf/2309.12619">Read paper <code>Learning to Diversify Neural Text Generation via Degenerative Model.2023</code> on arxiv.org</a></li>
-<li><a href="https://aclanthology.org/D19-1321.pdf">Read paper <code>Long and Diverse Text Generation with Planning-based Hierarchical Variational Model. 2019</code> on aclanthology.org</a></li>
-<li><a href="https://arxiv.org/pdf/1804.11258">Read paper <code>Toward Diverse Text Generation with Inverse Reinforcement Learning. 2018</code> on arxiv.org&#x2F;pdf</a></li>
-<li><a href="https://computationalcreativity.net/iccc23/papers/ICCC-2023_paper_90.pdf">Read post <code>Pushing GPT&#39;s Creativity to Its Limits: Alternative Uses and Torrance Tests. 2023</code> on computationalcreativity.net</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
-        <tag>GPT</tag>
       </tags>
   </entry>
   <entry>
@@ -891,6 +806,91 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>LLM</tag>
         <tag>BART</tag>
         <tag>llm_parameters</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basics of Generative Pre-training Transformer (GPT)</title>
+    <url>/hexo-blog//ai_gpt/gpt_basics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Generative Pre-training Transformers (GPT) are a type of language model that utilizes the transformer architecture to generate, predict, or understand natural language. The foundation of GPT is rooted in deep learning principles, leveraging pre-trained models that learn from massive datasets to predict the next word or phrase in a sequence. This guide provides an overview of GPT, its evaluation metrics, and references for further exploration.</p>
+<h2 id="Core-Concepts-of-GPT"><a href="#Core-Concepts-of-GPT" class="headerlink" title="Core Concepts of GPT"></a>Core Concepts of GPT</h2><h3 id="Transformer-Architecture"><a href="#Transformer-Architecture" class="headerlink" title="Transformer Architecture"></a>Transformer Architecture</h3><p>Transformers are neural networks designed to handle sequential data efficiently by using attention mechanisms instead of recurrence. Key components of transformers include:</p>
+<ul>
+<li><strong>Self-Attention Mechanism</strong>: Helps the model focus on relevant parts of input sequences while processing text.</li>
+<li><strong>Feed-Forward Neural Networks</strong>: Adds depth to the architecture, enhancing its expressive capabilities.</li>
+<li><strong>Positional Encoding</strong>: Captures the order of words, a critical aspect of language understanding.</li>
+</ul>
+<h3 id="Generative-Pre-training"><a href="#Generative-Pre-training" class="headerlink" title="Generative Pre-training"></a>Generative Pre-training</h3><p>The pre-training phase involves unsupervised learning on vast corpora of text. The model learns statistical patterns of language, such as grammar, semantics, and relationships between words, enabling fine-tuning for specific tasks.</p>
+<h3 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h3><p>Fine-tuning adapts the pre-trained model to specific applications (e.g., summarization, translation, or question answering) using task-specific labeled datasets.</p>
+<h2 id="Metrics-for-Evaluating-Generated-Context"><a href="#Metrics-for-Evaluating-Generated-Context" class="headerlink" title="Metrics for Evaluating Generated Context"></a>Metrics for Evaluating Generated Context</h2><p>Assessing the quality of generated content requires diverse evaluation metrics. Below are commonly used metrics with short descriptions:</p>
+<ol>
+<li><strong>Perplexity</strong><ul>
+<li>Measures how well a model predicts a sample. Lower perplexity indicates better performance.</li>
+</ul>
+</li>
+<li><strong>BLEU (Bilingual Evaluation Understudy)</strong><ul>
+<li>Evaluates machine translation by comparing generated text to reference translations using n-gram overlap.</li>
+</ul>
+</li>
+<li><strong>ROUGE (Recall-Oriented Understudy for Gisting Evaluation)</strong><ul>
+<li>Measures the quality of summaries by comparing overlap with reference summaries.</li>
+</ul>
+</li>
+<li><strong>METEOR (Metric for Evaluation of Translation with Explicit ORdering)</strong><ul>
+<li>Focuses on precision and recall, considering synonyms and stemming.</li>
+</ul>
+</li>
+<li><strong>CIDEr (Consensus-based Image Description Evaluation)</strong><ul>
+<li>Evaluates the alignment between generated captions and reference captions in visual tasks.</li>
+</ul>
+</li>
+<li><strong>SPICE (Semantic Propositional Image Caption Evaluation)</strong><ul>
+<li>Measures semantic quality by assessing propositional content.</li>
+</ul>
+</li>
+<li><strong>TER (Translation Edit Rate)</strong><ul>
+<li>Computes the number of edits required to match a generated sentence with a reference.</li>
+</ul>
+</li>
+<li><strong>Coherence</strong><ul>
+<li>Checks the logical flow and relevance of ideas in the generated content.</li>
+</ul>
+</li>
+<li><strong>Diversity</strong><ul>
+<li>Assesses variability in generated responses, penalizing repetitive outputs.</li>
+</ul>
+</li>
+<li><strong>AUT (Alternative Usage Tests)</strong><ul>
+<li>Evaluates the applicability of generated content for alternative scenarios or contexts.</li>
+</ul>
+</li>
+</ol>
+<h2 id="Alternative-Usage-Tests-AUT"><a href="#Alternative-Usage-Tests-AUT" class="headerlink" title="Alternative Usage Tests (AUT)"></a>Alternative Usage Tests (AUT)</h2><p>AUT focuses on testing a model’s adaptability in diverse contexts. Examples include:</p>
+<ul>
+<li><strong>Scenario-Specific Adaptation</strong>: Generating content for specific domains, like legal or medical.</li>
+<li><strong>Interactive Dialogues</strong>: Testing conversational models’ ability to handle varied inputs.</li>
+<li><strong>Creative Writing Tasks</strong>: Evaluating the model’s ability to generate poetry, stories, or advertisements.</li>
+</ul>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><a href="https://www.cs.bu.edu/fac/snyder/cs505/PerplexityPosts.pdf">Read post <code>Two minutes NLP — Perplexity explained with simple probabilities</code> + <code> Perplexity Intuition (and its derivation)</code> on cs.bu.edu</a></li>
+<li><a href="https://medium.com/@echen/understanding-perplexity-metrics-in-natural-language-ai-dbc6d57eb812">Read post <code>Understanding Perplexity Metrics in Natural Language AI</code> on medium.com</a></li>
+<li><a href="https://medium.com/@shubhamsd100/understanding-perplexity-in-language-models-a-detailed-exploration-2108b6ab85af">Read post <code>Understanding Perplexity in Language Models: A Detailed Exploration</code> on medium.com</a></li>
+<li><a href="https://aclanthology.org/P02-1040.pdf">Read paper <code>BLEU: A Method for Automatic Evaluation of Machine Translation. 2002</code> on aclanthology.org</a></li>
+<li><a href="https://towardsdatascience.com/introduction-to-text-summarization-with-rouge-scores-84140c64b471">Read post <code>Introduction to Text Summarization with ROUGE Scores</code> on towardsdatascience.com</a></li>
+<li><a href="https://docs.kolena.com/metrics/meteor/">Read post <code>METEOR</code> on docs.kolena.com</a></li>
+<li><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">Read paper <code>CIDEr: Consensus-based Image Description Evaluation</code>. Vedantam et al. (2015) on openaccess.thecvf.com</a></li>
+<li><a href="https://panderson.me/images/SPICE.pdf">Read paper <code>SPICE Metric for Captioning</code> on panderson.me</a></li>
+<li><a href="https://arxiv.org/pdf/2309.12619">Read paper <code>Coherence in natural language: Data structures and applications</code>. Florian Wolf (2000) on</a></li>
+<li><a href="hhttps://arxiv.org/pdf/2309.12619">Read paper <code>Learning to Diversify Neural Text Generation via Degenerative Model.2023</code> on arxiv.org</a></li>
+<li><a href="https://aclanthology.org/D19-1321.pdf">Read paper <code>Long and Diverse Text Generation with Planning-based Hierarchical Variational Model. 2019</code> on aclanthology.org</a></li>
+<li><a href="https://arxiv.org/pdf/1804.11258">Read paper <code>Toward Diverse Text Generation with Inverse Reinforcement Learning. 2018</code> on arxiv.org&#x2F;pdf</a></li>
+<li><a href="https://computationalcreativity.net/iccc23/papers/ICCC-2023_paper_90.pdf">Read post <code>Pushing GPT&#39;s Creativity to Its Limits: Alternative Uses and Torrance Tests. 2023</code> on computationalcreativity.net</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>GPT</tag>
       </tags>
   </entry>
   <entry>
@@ -1768,6 +1768,21 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>NLP knowledge base</title>
+    <url>/hexo-blog//ai_ml/rnn_knowledge_base/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://arxiv.org/pdf/1506.02078">Read paper “Visualizing and understanding recurrent networks. Andrej Karpathy, Justin Johnson, and Li Fei-Fei. 2015” on aclanthology.org</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>rnn</tag>
+        <tag>knowledge_base</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>AI - Machine Learning frameworks</title>
     <url>/hexo-blog/2024/09/28/post_ai_ml__ml_frameworks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>ML frameworks</p>
@@ -1792,21 +1807,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       <tags>
         <tag>AI</tag>
         <tag>ML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLP knowledge base</title>
-    <url>/hexo-blog//ai_ml/rnn_knowledge_base/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://arxiv.org/pdf/1506.02078">Read paper “Visualizing and understanding recurrent networks. Andrej Karpathy, Justin Johnson, and Li Fei-Fei. 2015” on aclanthology.org</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>rnn</tag>
-        <tag>knowledge_base</tag>
       </tags>
   </entry>
   <entry>
@@ -2464,6 +2464,22 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
       </tags>
   </entry>
   <entry>
+    <title>NLP knowledge base</title>
+    <url>/hexo-blog//ai_nlp/nlp_knowledge_base/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://aclanthology.org/C18-1139.pdf">Read paper “Contextual String Embeddings for Sequence Labeling. 2000” on aclanthology.org</a></li>
+<li><a href="https://arxiv.org/pdf/1312.3005">Read paper “One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling. 2013” on aclanthology.org</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>NLP</tag>
+        <tag>knowledge_base</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NLP in pictures</title>
     <url>/hexo-blog/2024/11/21/post_ai_nlp__nlp_in_pictures_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="NLP-extracting-information-flow"><a href="#NLP-extracting-information-flow" class="headerlink" title="NLP extracting information flow"></a>NLP extracting information flow</h2><h3 id="Desired-logical-processes"><a href="#Desired-logical-processes" class="headerlink" title="Desired (logical processes)"></a>Desired (logical processes)</h3><p>Morphological analysis &gt;&gt; Syntax analysis  &gt;&gt; Semantic analysis  &gt;&gt; Extracting information</p>
@@ -2491,22 +2507,6 @@ with open(&#39;test_results.csv&#39;, &#39;w&#39;, newline=&#39;&#39;) as csvfil
         <tag>AI</tag>
         <tag>ML</tag>
         <tag>NLP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>NLP knowledge base</title>
-    <url>/hexo-blog//ai_nlp/nlp_knowledge_base/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://aclanthology.org/C18-1139.pdf">Read paper “Contextual String Embeddings for Sequence Labeling. 2000” on aclanthology.org</a></li>
-<li><a href="https://arxiv.org/pdf/1312.3005">Read paper “One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling. 2013” on aclanthology.org</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>NLP</tag>
-        <tag>knowledge_base</tag>
       </tags>
   </entry>
   <entry>
@@ -5105,6 +5105,39 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>List of data vizualization tools</title>
+    <url>/hexo-blog//data_visualization/list_of_data_vizualization_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
+<ol>
+<li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring plotly chart types with examples</a></li>
+<li><a href="hexo-blog/data_visualization/bokeh_list_of_references">Bokeh. List of references.</a></li>
+</ol>
+<hr>
+<h2 id="Bokeh"><a href="#Bokeh" class="headerlink" title="Bokeh"></a>Bokeh</h2><p>Read about Bokeh on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Bokeh">the glossary <code>Bokeh</code> page</a></p>
+<hr>
+<h2 id="Plotly"><a href="#Plotly" class="headerlink" title="Plotly"></a>Plotly</h2><p>Find more about Plotly in the <a href="hexo-blog/data_visualization/plotly_chart_types_examples">post: <code>Exploring plotly chart types with examples</code></a></p>
+<p>Read about Plotly on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">the glossary <code>Plotly</code> page</a></p>
+<hr>
+<h2 id="MatPloitLib"><a href="#MatPloitLib" class="headerlink" title="MatPloitLib"></a>MatPloitLib</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#MatPloitLib">the glossary <code>MatPloitLib</code> page</a></p>
+<hr>
+<h2 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">the glossary <code>Pandas</code> page</a></p>
+<hr>
+<h2 id="Seaborn"><a href="#Seaborn" class="headerlink" title="Seaborn"></a>Seaborn</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">the glossary <code>Seaborn </code> page</a></p>
+<hr>
+<h2 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">the glossary <code>Tableau</code> page</a></p>
+<hr>
+<h2 id="Vega-Altair"><a href="#Vega-Altair" class="headerlink" title="Vega-Altair"></a>Vega-Altair</h2><p>Read about Vega-Altair on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Vega-Altair">the glossary <code>Vega-Altair</code> page</a></p>
+<h2 id="HoloViz"><a href="#HoloViz" class="headerlink" title="HoloViz"></a>HoloViz</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#HoloViz">the glossary <code>HoloViz</code> page</a></p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>data_visualization</tag>
+        <tag>bokeh</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Exploring plotly chart types with examples</title>
     <url>/hexo-blog//data_visualization/plotly_chart_types_examples/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Plotly is a powerful Python library for creating interactive and visually appealing charts.<br>It supports a variety of chart types, catering to diverse data visualization needs.<br>This guide showcases some of the most common chart types available in Plotly, along with implementation examples.</p>
@@ -5302,39 +5335,6 @@ print(generated_text)
       <tags>
         <tag>plotly</tag>
         <tag>data_visualization</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>List of data vizualization tools</title>
-    <url>/hexo-blog//data_visualization/list_of_data_vizualization_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>This post related to:</em></p>
-<ol>
-<li><a href="hexo-blog/data_visualization/list_of_data_vizualization_tools">Exploring plotly chart types with examples</a></li>
-<li><a href="hexo-blog/data_visualization/bokeh_list_of_references">Bokeh. List of references.</a></li>
-</ol>
-<hr>
-<h2 id="Bokeh"><a href="#Bokeh" class="headerlink" title="Bokeh"></a>Bokeh</h2><p>Read about Bokeh on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Bokeh">the glossary <code>Bokeh</code> page</a></p>
-<hr>
-<h2 id="Plotly"><a href="#Plotly" class="headerlink" title="Plotly"></a>Plotly</h2><p>Find more about Plotly in the <a href="hexo-blog/data_visualization/plotly_chart_types_examples">post: <code>Exploring plotly chart types with examples</code></a></p>
-<p>Read about Plotly on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Plotly">the glossary <code>Plotly</code> page</a></p>
-<hr>
-<h2 id="MatPloitLib"><a href="#MatPloitLib" class="headerlink" title="MatPloitLib"></a>MatPloitLib</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#MatPloitLib">the glossary <code>MatPloitLib</code> page</a></p>
-<hr>
-<h2 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a>Pandas</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Pandas">the glossary <code>Pandas</code> page</a></p>
-<hr>
-<h2 id="Seaborn"><a href="#Seaborn" class="headerlink" title="Seaborn"></a>Seaborn</h2><p>Read about Seaborn on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Seaborn">the glossary <code>Seaborn </code> page</a></p>
-<hr>
-<h2 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Tableau">the glossary <code>Tableau</code> page</a></p>
-<hr>
-<h2 id="Vega-Altair"><a href="#Vega-Altair" class="headerlink" title="Vega-Altair"></a>Vega-Altair</h2><p>Read about Vega-Altair on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#Vega-Altair">the glossary <code>Vega-Altair</code> page</a></p>
-<h2 id="HoloViz"><a href="#HoloViz" class="headerlink" title="HoloViz"></a>HoloViz</h2><p>Read about Tableau on <a href="/hexo-blog/ai/glossary-of-machine-learning-and-ai-terms#HoloViz">the glossary <code>HoloViz</code> page</a></p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>data_visualization</tag>
-        <tag>bokeh</tag>
       </tags>
   </entry>
   <entry>
@@ -7080,22 +7080,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>GIT intro</title>
-    <url>/hexo-blog//dev_side/git_intro/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li><a href="https://dev.to/nopenoshishi/understanding-git-through-images-4an1">Understanding Git through images</a></li>
-<li><a href="https://marklodato.github.io/visual-git-guide/index-en.html">A Visual Git Reference</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Kafka intro</title>
     <url>/hexo-blog//dev_side/kafka_intro/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Understanding-Kafka-A-Message-Broker-Overview"><a href="#Understanding-Kafka-A-Message-Broker-Overview" class="headerlink" title="Understanding Kafka: A Message Broker Overview"></a>Understanding Kafka: A Message Broker Overview</h1><p>Message brokers play a critical role in distributed systems by enabling communication between different applications and services. Kafka, a leading distributed event streaming platform, has become a cornerstone for building scalable and fault-tolerant systems.</p>
@@ -7212,6 +7196,22 @@ print(generated_text)
       <tags>
         <tag>dev_side</tag>
         <tag>kafka</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>GIT intro</title>
+    <url>/hexo-blog//dev_side/git_intro/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li><a href="https://dev.to/nopenoshishi/understanding-git-through-images-4an1">Understanding Git through images</a></li>
+<li><a href="https://marklodato.github.io/visual-git-guide/index-en.html">A Visual Git Reference</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -7618,76 +7618,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>Ubuntu web traffic meters</title>
-    <url>/hexo-blog//dev_side/ubuntu_web_trafic_meter/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
-<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
-<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
-<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
-</li>
-<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
-</li>
-</ul>
-<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
-<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
-</li>
-<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
-<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
-</li>
-<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
-</li>
-</ul>
-<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
-<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
-<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
-<li><strong>Installation:</strong></li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
-<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
-</li>
-<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
-</li>
-<li><p><strong>Installation:</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
-<p> &#96;</p>
-</li>
-<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
-  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>dev_side</tag>
-        <tag>API</tag>
-        <tag>ubuntu</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python libs</title>
     <url>/hexo-blog//dev_side/python_libs/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><!-- '^(?!###.*).*\r?\n' regexp for getting only 'headers'  -->
@@ -7929,6 +7859,76 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
+    <title>Ubuntu web traffic meters</title>
+    <url>/hexo-blog//dev_side/ubuntu_web_trafic_meter/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>On Ubuntu, several applications are available to control, monitor, and visualize network traffic and web activity for applications or services. Here are some of the top tools for these purposes:</p>
+<p>Get list of network devices by UNIX apps:<br><em><strong>ip</strong></em><br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip <span class="built_in">link</span> show</span><br></pre></td></tr></table></figure><br><em><strong>ifconfig</strong></em><br>      <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ifconfig -a</span><br></pre></td></tr></table></figure></p>
+<h3 id="1-Wireshark"><a href="#1-Wireshark" class="headerlink" title="1. Wireshark"></a>1. <strong>Wireshark</strong></h3><ul>
+<li><p><strong>Description:</strong> Wireshark is a powerful, GUI-based network protocol analyzer that captures and displays detailed information about network traffic. It supports filtering, visualization, and analysis of network packets.</p>
+</li>
+<li><p><strong>Features:</strong> Packet filtering, protocol analysis, real-time capture, and color-coded visualizations.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install wireshark -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Launch with <code>wireshark</code> and select a network interface to start capturing packets.</p>
+</li>
+</ul>
+<h3 id="2-nload"><a href="#2-nload" class="headerlink" title="2. nload"></a>2. <strong>nload</strong></h3><ul>
+<li><p><strong>Description:</strong> A command-line tool that provides a real-time visual representation of incoming and outgoing network traffic per interface.</p>
+</li>
+<li><p><strong>Features:</strong> Bandwidth monitoring with visual bars and traffic graphs.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install nload -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Run <code>nload</code> followed by the network interface name, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nload eth0</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="3-ntopng"><a href="#3-ntopng" class="headerlink" title="3. ntopng"></a>3. <strong>ntopng</strong></h3><ul>
+<li><p><strong>Description:</strong> ntopng is a web-based tool for monitoring network traffic. It provides detailed analytics on application usage, IP addresses, and protocol data. It also supports various filters.</p>
+</li>
+<li><p><strong>Features:</strong> Web-based UI, detailed traffic statistics, protocol analysis, and application-level monitoring.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install ntopng -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Usage:</strong> Access the web interface at <code>http://localhost:3000</code>.</p>
+</li>
+</ul>
+<h3 id="4-iftop"><a href="#4-iftop" class="headerlink" title="4. iftop"></a>4. <strong>iftop</strong></h3><ul>
+<li><strong>Description:</strong> A terminal-based tool for monitoring network traffic. It shows a list of connections with their bandwidth usage.</li>
+<li><strong>Features:</strong> Sortable columns, bandwidth tracking, and customizable filters.</li>
+<li><strong>Installation:</strong></li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install iftop -y</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>Usage:</strong> Run with sudo for full functionality:  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> iftop</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="5-Tcpdump"><a href="#5-Tcpdump" class="headerlink" title="5. Tcpdump"></a>5. <strong>Tcpdump</strong></h3><ul>
+<li><p><strong>Description:</strong> A powerful command-line packet analyzer that captures network traffic and saves it for analysis.</p>
+</li>
+<li><p><strong>Features:</strong> Highly customizable packet capture, supports saving data in <code>pcap</code> format for analysis in Wireshark.</p>
+</li>
+<li><p><strong>Installation:</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update <span class="built_in">sudo</span> apt install tcpdump -y</span><br></pre></td></tr></table></figure>
+<p> &#96;</p>
+</li>
+<li><p><strong>Usage:</strong> For capturing HTTP traffic on a specific interface, for example:</p>
+  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> tcpdump -i eth0 <span class="string">&#x27;port 80&#x27;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<p>Each of these tools offers different advantages depending on your needs, from basic bandwidth</p>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>dev_side</tag>
+        <tag>API</tag>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>UNIX command tutorials</title>
     <url>/hexo-blog//dev_side/unix_comand_tutorial/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Below is a list of some popular UNIX command-line tools designed to help learn and practice UNIX commands:</p>
@@ -8135,20 +8135,6 @@ print(generated_text)
       </tags>
   </entry>
   <entry>
-    <title>ASCII art</title>
-    <url>/hexo-blog//fun/acsii_graphics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>acsii</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Publishing.ReadTheDocs vs GitHub pages. Tutorial-1</title>
     <url>/hexo-blog//docs_publishing/readthedoc_vs_github_pages_tutorial_1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is comparison for publishing of <code>ReadTheDocs</code>  and <code>GitHub:  pages</code> project.</p>
@@ -8211,6 +8197,20 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
         <tag>ReadTheDocs</tag>
         <tag>GitHubPages</tag>
         <tag>DocPublishing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ASCII art</title>
+    <url>/hexo-blog//fun/acsii_graphics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>ASCII art in one line: <a href="https://1lineart.kulaone.com/#/">https://1lineart.kulaone.com/#/</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>acsii</tag>
       </tags>
   </entry>
   <entry>
@@ -8605,24 +8605,6 @@ reStructuredText is an easy-to-read, what-you-see-is-what-you-get plaintext mark
       </tags>
   </entry>
   <entry>
-    <title>Magnetic fields</title>
-    <url>/hexo-blog//other/magnetic_fields/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Biological Effects of Magnetic Storms and ELF Magnetic Fields.Ruslan M Sarimov, Dmitry A Serov, Sergey V Gudkov<br>Affiliations<ul>
-<li>DOI: 10.3390&#x2F;biology12121506</li>
-<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10740910/">Read paper <code>Biological Effects of Magnetic Storms and ELF Magnetic Fields.Ruslan M Sarimov, Dmitry A Serov, Sergey V Gudkov. 2023</code> on pubmed</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Posts</category>
-      </categories>
-      <tags>
-        <tag>other</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows OS apps</title>
     <url>/hexo-blog//os/windows_app/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Monitorian"><a href="#Monitorian" class="headerlink" title="Monitorian"></a>Monitorian</h2><ul>
@@ -8648,6 +8630,24 @@ To control an external monitor, the monitor must be DDC/CI compatible and the fu
       <tags>
         <tag>apps</tag>
         <tag>windows_os</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Magnetic fields</title>
+    <url>/hexo-blog//other/magnetic_fields/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Biological Effects of Magnetic Storms and ELF Magnetic Fields.Ruslan M Sarimov, Dmitry A Serov, Sergey V Gudkov<br>Affiliations<ul>
+<li>DOI: 10.3390&#x2F;biology12121506</li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10740910/">Read paper <code>Biological Effects of Magnetic Storms and ELF Magnetic Fields.Ruslan M Sarimov, Dmitry A Serov, Sergey V Gudkov. 2023</code> on pubmed</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Posts</category>
+      </categories>
+      <tags>
+        <tag>other</tag>
       </tags>
   </entry>
   <entry>
@@ -9302,110 +9302,6 @@ def __init__(self, driver):
       </tags>
   </entry>
   <entry>
-    <title>REST API testing improvements</title>
-    <url>/hexo-blog//qa/rest_api_testing_improvements/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Enhancements-for-REST-API-Responses-and-Headers"><a href="#Enhancements-for-REST-API-Responses-and-Headers" class="headerlink" title="Enhancements for REST API Responses and Headers"></a>Enhancements for REST API Responses and Headers</h1><h2 id="Response-Body-Enhancements"><a href="#Response-Body-Enhancements" class="headerlink" title="Response Body Enhancements"></a>Response Body Enhancements</h2><ol>
-<li><p><strong>Unique Identifier for Query Execution</strong></p>
-<ul>
-<li>Include a <code>query_id</code> or <code>execution_id</code> for debugging and tracking specific requests.</li>
-</ul>
-</li>
-<li><p><strong>Performance Metrics</strong></p>
-<ul>
-<li><strong>Query Execution Time</strong>: Time taken to execute the SQL query (in ms or seconds).</li>
-<li><strong>Data Processing Time</strong>: Time taken to process or transform data.</li>
-<li><strong>Total Response Time</strong>: End-to-end time from request receipt to response generation.</li>
-</ul>
-</li>
-<li><p><strong>Pagination Information</strong></p>
-<ul>
-<li><code>total_records</code>: Total number of records in the result set.</li>
-<li><code>page_size</code>: Number of records in the current response.</li>
-<li><code>current_page</code>: Current page number.</li>
-<li><code>total_pages</code>: Total number of pages.</li>
-</ul>
-</li>
-<li><p><strong>Data Summary</strong></p>
-<ul>
-<li><strong>Row Count</strong>: Number of rows returned in the response.</li>
-<li><strong>Aggregates</strong>: Optional aggregates like sums, averages, or counts.</li>
-</ul>
-</li>
-<li><p><strong>Request Metadata</strong></p>
-<ul>
-<li>Echo relevant parts of the request (e.g., query parameters, filters, sorting).</li>
-</ul>
-</li>
-<li><p><strong>Error Details (if applicable)</strong></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;errors&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;code&quot;</span><span class="punctuation">:</span> <span class="string">&quot;DB_TIMEOUT&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;The database query timed out.&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2025-01-26T12:34:56Z&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>Data Source Metadata</strong></p>
-<ul>
-<li><code>source_db</code>: Name of the database or schema.</li>
-<li><code>query_type</code>: Type of query executed (e.g., SELECT, UPDATE).</li>
-<li><code>rows_scanned</code>: Number of rows scanned to produce the result.</li>
-</ul>
-</li>
-</ol>
-<hr>
-<h2 id="Response-Headers-Enhancements"><a href="#Response-Headers-Enhancements" class="headerlink" title="Response Headers Enhancements"></a>Response Headers Enhancements</h2><ol>
-<li><p><strong>Performance Metrics</strong></p>
-<ul>
-<li><code>X-Query-Execution-Time</code>: Time taken for the SQL query execution.</li>
-<li><code>X-Processing-Time</code>: Time taken to process the data.</li>
-<li><code>X-Total-Response-Time</code>: Total time for the request.</li>
-</ul>
-</li>
-<li><p><strong>Rate Limiting</strong></p>
-<ul>
-<li><code>X-RateLimit-Limit</code>: Maximum number of requests allowed.</li>
-<li><code>X-RateLimit-Remaining</code>: Remaining requests in the current window.</li>
-<li><code>X-RateLimit-Reset</code>: Time when the rate limit resets.</li>
-</ul>
-</li>
-<li><p><strong>Request ID</strong></p>
-<ul>
-<li><code>X-Request-ID</code>: Unique identifier for the request.</li>
-</ul>
-</li>
-<li><p><strong>Cache Control</strong></p>
-<ul>
-<li><code>Cache-Control</code>: Specify cache duration or indicate no-cache.</li>
-<li><code>ETag</code>: Unique hash for cache validation.</li>
-</ul>
-</li>
-<li><p><strong>Pagination</strong></p>
-<ul>
-<li><code>X-Total-Records</code>: Total records in the data set.</li>
-<li><code>X-Page-Size</code>: Number of records per page.</li>
-<li><code>X-Current-Page</code>: Current page number.</li>
-<li><code>X-Total-Pages</code>: Total number of pages.</li>
-</ul>
-</li>
-<li><p><strong>Security</strong></p>
-<ul>
-<li><code>X-Content-Type-Options</code>: <code>nosniff</code> to prevent MIME type sniffing.</li>
-<li><code>X-Frame-Options</code>: <code>DENY</code> to prevent clickjacking.</li>
-<li><code>Content-Security-Policy</code>: Define secure data handling policies.</li>
-</ul>
-</li>
-<li><p><strong>Custom Headers</strong></p>
-<ul>
-<li><code>X-Query-ID</code>: Unique query identifier.</li>
-<li><code>X-Data-Checksum</code>: Hash or checksum of the returned data for integrity verification.</li>
-</ul>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>QA</category>
-      </categories>
-      <tags>
-        <tag>qa</tag>
-        <tag>rest_api</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Software QA - Basic check list</title>
     <url>/hexo-blog/2024/08/28/post_qa__software_qa_basic_check_list/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-Login-form-Test-Cases"><a href="#1-Login-form-Test-Cases" class="headerlink" title="1 Login form Test Cases"></a>1 Login form Test Cases</h2><ol>
@@ -9552,6 +9448,110 @@ def __init__(self, driver):
       <tags>
         <tag>qa</tag>
         <tag>qa_check_list</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>REST API testing improvements</title>
+    <url>/hexo-blog//qa/rest_api_testing_improvements/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="Enhancements-for-REST-API-Responses-and-Headers"><a href="#Enhancements-for-REST-API-Responses-and-Headers" class="headerlink" title="Enhancements for REST API Responses and Headers"></a>Enhancements for REST API Responses and Headers</h1><h2 id="Response-Body-Enhancements"><a href="#Response-Body-Enhancements" class="headerlink" title="Response Body Enhancements"></a>Response Body Enhancements</h2><ol>
+<li><p><strong>Unique Identifier for Query Execution</strong></p>
+<ul>
+<li>Include a <code>query_id</code> or <code>execution_id</code> for debugging and tracking specific requests.</li>
+</ul>
+</li>
+<li><p><strong>Performance Metrics</strong></p>
+<ul>
+<li><strong>Query Execution Time</strong>: Time taken to execute the SQL query (in ms or seconds).</li>
+<li><strong>Data Processing Time</strong>: Time taken to process or transform data.</li>
+<li><strong>Total Response Time</strong>: End-to-end time from request receipt to response generation.</li>
+</ul>
+</li>
+<li><p><strong>Pagination Information</strong></p>
+<ul>
+<li><code>total_records</code>: Total number of records in the result set.</li>
+<li><code>page_size</code>: Number of records in the current response.</li>
+<li><code>current_page</code>: Current page number.</li>
+<li><code>total_pages</code>: Total number of pages.</li>
+</ul>
+</li>
+<li><p><strong>Data Summary</strong></p>
+<ul>
+<li><strong>Row Count</strong>: Number of rows returned in the response.</li>
+<li><strong>Aggregates</strong>: Optional aggregates like sums, averages, or counts.</li>
+</ul>
+</li>
+<li><p><strong>Request Metadata</strong></p>
+<ul>
+<li>Echo relevant parts of the request (e.g., query parameters, filters, sorting).</li>
+</ul>
+</li>
+<li><p><strong>Error Details (if applicable)</strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;errors&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;code&quot;</span><span class="punctuation">:</span> <span class="string">&quot;DB_TIMEOUT&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;The database query timed out.&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;timestamp&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2025-01-26T12:34:56Z&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>Data Source Metadata</strong></p>
+<ul>
+<li><code>source_db</code>: Name of the database or schema.</li>
+<li><code>query_type</code>: Type of query executed (e.g., SELECT, UPDATE).</li>
+<li><code>rows_scanned</code>: Number of rows scanned to produce the result.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="Response-Headers-Enhancements"><a href="#Response-Headers-Enhancements" class="headerlink" title="Response Headers Enhancements"></a>Response Headers Enhancements</h2><ol>
+<li><p><strong>Performance Metrics</strong></p>
+<ul>
+<li><code>X-Query-Execution-Time</code>: Time taken for the SQL query execution.</li>
+<li><code>X-Processing-Time</code>: Time taken to process the data.</li>
+<li><code>X-Total-Response-Time</code>: Total time for the request.</li>
+</ul>
+</li>
+<li><p><strong>Rate Limiting</strong></p>
+<ul>
+<li><code>X-RateLimit-Limit</code>: Maximum number of requests allowed.</li>
+<li><code>X-RateLimit-Remaining</code>: Remaining requests in the current window.</li>
+<li><code>X-RateLimit-Reset</code>: Time when the rate limit resets.</li>
+</ul>
+</li>
+<li><p><strong>Request ID</strong></p>
+<ul>
+<li><code>X-Request-ID</code>: Unique identifier for the request.</li>
+</ul>
+</li>
+<li><p><strong>Cache Control</strong></p>
+<ul>
+<li><code>Cache-Control</code>: Specify cache duration or indicate no-cache.</li>
+<li><code>ETag</code>: Unique hash for cache validation.</li>
+</ul>
+</li>
+<li><p><strong>Pagination</strong></p>
+<ul>
+<li><code>X-Total-Records</code>: Total records in the data set.</li>
+<li><code>X-Page-Size</code>: Number of records per page.</li>
+<li><code>X-Current-Page</code>: Current page number.</li>
+<li><code>X-Total-Pages</code>: Total number of pages.</li>
+</ul>
+</li>
+<li><p><strong>Security</strong></p>
+<ul>
+<li><code>X-Content-Type-Options</code>: <code>nosniff</code> to prevent MIME type sniffing.</li>
+<li><code>X-Frame-Options</code>: <code>DENY</code> to prevent clickjacking.</li>
+<li><code>Content-Security-Policy</code>: Define secure data handling policies.</li>
+</ul>
+</li>
+<li><p><strong>Custom Headers</strong></p>
+<ul>
+<li><code>X-Query-ID</code>: Unique query identifier.</li>
+<li><code>X-Data-Checksum</code>: Hash or checksum of the returned data for integrity verification.</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>QA</category>
+      </categories>
+      <tags>
+        <tag>qa</tag>
+        <tag>rest_api</tag>
       </tags>
   </entry>
   <entry>
@@ -9809,6 +9809,73 @@ def __init__(self, driver):
   </entry>
   <entry>
     <title>About me</title>
+    <url>/hexo-blog//about-me/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
+&nbsp;&nbsp;&nbsp;&nbsp;I’m ISTQB® Certified Tester Senior QA Engineer with over 10 years of experience, specializing in backend, API, and integration testing. My journey began with testing hardware and medical software, which instilled in me a rigorous approach to data integrity and root-cause analysis. 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Today, I focus on complex enterprise ecosystems, specifically <strong>ETRM (Energy trading & Risk management)</strong>, FinTech, and distributed systems. I pair deep manual expertise with Python-based test automation, allowing me to validate high-stakes business logic, cross-system data flows, and build robust testing frameworks.</p>
+</div>
+
+<hr>
+<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
+<strong>Core Expertise & Highlights:</strong>
+<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
+<li><strong>Domain:</strong> ETRM (Trade lifecycle, settlement, scheduling), SaaS, FinTech, Data reconciliation.</li>
+<li><strong>Automation & Architecture:</strong> Python, Pytest, Playwright, Pydantic, API/UI Framework Design, CI/CD (GitHub Actions, Azure DevOps).</li>
+<li><strong>Data & Integration:</strong> Advanced SQL, Kafka, API validation (Postman, REST), cross-system reconciliation.</li>
+<li><strong>AI quality engineering:</strong> LLM evaluation, RAG assessment, and AI-assisted testing workflows.</li>
+<li>ISTQB® Certified Tester - Foundation Level.</li>
+<li>Proven ability to design, execute, and automate comprehensive test plans for complex, data-heavy systems.</li>
+</ul>
+</div>
+
+<hr>
+<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
+<strong>Featured engineering projects (Documentation-as-Code):</strong>
+<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
+<li><strong>ETRM & Energy trading glossary (ReadTheDocs):</strong> A comprehensive, QA-oriented domain glossary (480+ terms) merged from various sources. Built using Sphinx and Python, proving my ability to structure and share deep domain knowledge.<br>
+🔗 <a href="https://etrm-glossary.readthedocs.io" target="_blank">etrm-glossary.readthedocs.io</a></li>
+<li>🛠 <strong>Python test automation framework:</strong> A robust API & UI test framework for the Restful-Booker stack. Features service objects, Pydantic schemas, contract testing, and a custom traceability CI gate. <br>
+🔗 <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html" target="_blank">Documentation</a> | <a href="https://github.com/ooge0/python_TA_web_api_framework" target="_blank">GitHub</a></li>
+<li><strong>LLM data lab:</strong> An experimental platform for systematic evaluation of Large Language Models, focusing on RAG evaluation, hallucination detection, and failure analysis.<br>
+🔗 <a href="https://llm-data-lab.readthedocs.io/en/latest/index.html" target="_blank">Documentation</a> | <a href="https://github.com/ooge0/LLM-Data-Lab" target="_blank">GitHub</a></li>
+</ul>
+</div>
+
+<hr>
+<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
+<strong>Additional information:</strong>
+<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
+<li>Open to <strong>Senior QA / Test automation / ETRM test engineer</strong> roles.</li>
+<li>Available for full-time remote positions (EU/Global).</li>
+<li>Available for remote consultations on test automation strategy, ETRM data validation, and QA architecture.</li>
+</ul>
+</div>
+
+<hr>
+<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
+<strong>Beyond testing:</strong>
+<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
+<li>Cycling, hiking, Python coding, IoT, and exploring the AI landscape.</li>
+<li>My best endurance achievement is a <strong>136 km</strong> trip from <a href="https://maps.app.goo.gl/BhGU5Xb7bFTAUZ3Q7" target="_blank">Kolka</a> to <a href="https://maps.app.goo.gl/Z6qxL8jhHLGabS57A" target="_blank">Dubulti</a> in 2019, completed in <strong>52 hours</strong>.</li>
+<li>Full details and work experience are available in my <a href="../docs/my_docs/cv_general_roman_denysenko-software_qa_qc_engineer.pdf">latest CV</a> or upon request.</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;*If you require any further information, feel free to contact me via <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a>.</p>
+</div>
+
+<div style="text-align: center;">
+  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
+    Total views:
+  </span> <span class="s3_pv"></span>
+</div>]]></content>
+      <categories>
+        <category>Personal information</category>
+      </categories>
+      <tags>
+        <tag>about_me</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About me</title>
     <url>/hexo-blog//about-me_OLD/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
 &nbsp;&nbsp;&nbsp;&nbsp;I’m excited to share insights, tips, and resources from nearly 10 years as a QA Software Test Engineer. 
@@ -9910,6 +9977,79 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </categories>
   </entry>
   <entry>
+    <title>Cheatsheet list</title>
+    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
+<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
+<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>cheatsheets</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog deploy actions</title>
+    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>stats</title>
+    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My Statistics page</title>
+    <url>/hexo-blog//maintanance/my_statistics_page/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>Longest session: </p>
+<ul>
+<li>last hour</li>
+<li>last week</li>
+<li>last month</li>
+</ul>
+<p>User locations:</p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+      <tags>
+        <tag>statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Sitemap</title>
+    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
+]]></content>
+      <categories>
+        <category>Maintanance</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Favorite post categories</title>
     <url>/hexo-blog/2024/10/21/my_contribution/my_collected_posts/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Table of Contents</strong></p>
@@ -9979,73 +10119,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>About me</title>
-    <url>/hexo-blog//about-me/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
-&nbsp;&nbsp;&nbsp;&nbsp;I’m ISTQB® Certified Tester Senior QA Engineer with over 10 years of experience, specializing in backend, API, and integration testing. My journey began with testing hardware and medical software, which instilled in me a rigorous approach to data integrity and root-cause analysis. 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Today, I focus on complex enterprise ecosystems, specifically <strong>ETRM (Energy Trading & Risk Management)</strong>, FinTech, and distributed systems. I pair deep manual expertise with Python-based test automation, allowing me to validate high-stakes business logic, cross-system data flows, and build robust testing frameworks.</p>
-</div>
-
-<hr>
-<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
-<strong>Core Expertise & Highlights:</strong>
-<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
-<li><strong>Domain:</strong> ETRM (Trade Lifecycle, Settlement, Scheduling), SaaS, FinTech, Data Reconciliation.</li>
-<li><strong>Automation & Architecture:</strong> Python, Pytest, Playwright, Pydantic, API/UI Framework Design, CI/CD (GitHub Actions, Azure DevOps).</li>
-<li><strong>Data & Integration:</strong> Advanced SQL, Kafka, API validation (Postman, REST), cross-system reconciliation.</li>
-<li><strong>AI Quality Engineering:</strong> LLM evaluation, RAG assessment, and AI-assisted testing workflows.</li>
-<li>ISTQB® Certified Tester - Foundation Level.</li>
-<li>Proven ability to design, execute, and automate comprehensive test plans for complex, data-heavy systems.</li>
-</ul>
-</div>
-
-<hr>
-<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
-<strong>Featured Engineering Projects (Documentation-as-Code):</strong>
-<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
-<li><strong>ETRM & Energy Trading Glossary (ReadTheDocs):</strong> A comprehensive, QA-oriented domain glossary (480+ terms) merged from various sources. Built using Sphinx and Python, proving my ability to structure and share deep domain knowledge.<br>
-🔗 <a href="https://etrm-glossary.readthedocs.io" target="_blank">etrm-glossary.readthedocs.io</a></li>
-<li>🛠 <strong>Python Test Automation Framework:</strong> A robust API & UI test framework for the Restful-Booker stack. Features service objects, Pydantic schemas, contract testing, and a custom traceability CI gate. <br>
-🔗 <a href="https://python-ta-web-api-framework.readthedocs.io/en/latest/index.html" target="_blank">Documentation</a> | <a href="https://github.com/ooge0/python_TA_web_api_framework" target="_blank">GitHub</a></li>
-<li><strong>LLM Data Lab:</strong> An experimental platform for systematic evaluation of Large Language Models, focusing on RAG evaluation, hallucination detection, and failure analysis.<br>
-🔗 <a href="https://llm-data-lab.readthedocs.io/en/latest/index.html" target="_blank">Documentation</a> | <a href="https://github.com/ooge0/LLM-Data-Lab" target="_blank">GitHub</a></li>
-</ul>
-</div>
-
-<hr>
-<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
-<strong>Additional Information:</strong>
-<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
-<li>Open to <strong>Senior QA / Test Automation / ETRM Test Engineer</strong> roles.</li>
-<li>Available for full-time remote positions (EU/Global).</li>
-<li>Available for remote consultations on test automation strategy, ETRM data validation, and QA architecture.</li>
-</ul>
-</div>
-
-<hr>
-<div style="background: linear-gradient(to bottom, #ffecd2, #af9a9354);padding: 15px;border-radius: 10px;box-shadow: -13px 19px 8px rgba(0, 0, 0, 0.2);">
-<strong>Beyond Testing:</strong>
-<ul style="list-style: disc; padding: 0; font-size: 0.95em; color: #34495e;">
-<li>Cycling, hiking, Python coding, IoT, and exploring the AI landscape.</li>
-<li>My best endurance achievement is a <strong>136 km</strong> trip from <a href="https://maps.app.goo.gl/BhGU5Xb7bFTAUZ3Q7" target="_blank">Kolka</a> to <a href="https://maps.app.goo.gl/Z6qxL8jhHLGabS57A" target="_blank">Dubulti</a> in 2019, completed in <strong>52 hours</strong>.</li>
-<li>Full details and work experience are available in my <a href="../docs/my_docs/cv_general_roman_denysenko-software_qa_qc_engineer.pdf">latest CV</a> or upon request.</li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;*If you require any further information, feel free to contact me via <a href="https://www.linkedin.com/in/romandenysenko/">LinkedIn</a>.</p>
-</div>
-
-<div style="text-align: center;">
-  <span style="font-size: 12px; font-family: 'Press Start 2P', 'Pixel', monospace;">
-    Total views:
-  </span> <span class="s3_pv"></span>
-</div>]]></content>
-      <categories>
-        <category>Personal information</category>
-      </categories>
-      <tags>
-        <tag>about_me</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Examples of test tasks</title>
     <url>/hexo-blog//about-me/my_contribution/my_examples_of_test_tasks/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here are several examples of home tasks I’ve completed. This list includes several documents that I find particularly interesting. Content of attached documents are different as a time range that was required for compliting each task.<br>Each document contains thoughts, arguments, some questions to the task writer, clarifications to my steps and actions.</p>
@@ -10066,20 +10139,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>my_contribution</tag>
         <tag>test_tasks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cheatsheet list</title>
-    <url>/hexo-blog/2024/10/22/cheatsheets/cheatsheet_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
-<li>Markdown Cheat Sheet : <a href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a></li>
-<li>A suite a helpful free tools for working with Markdown.MarkdownTools is open source: <a href="https://blog.markdowntools.com/">https://blog.markdowntools.com/</a></li>
-<li>Master Markdown Tables: A Complete Guide &amp; Tips: <a href="https://blog.markdowntools.com/posts/markdown-table-ultimate-guide">https://blog.markdowntools.com/posts/markdown-table-ultimate-guide</a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>cheatsheets</tag>
       </tags>
   </entry>
   <entry>
@@ -10140,11 +10199,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>my_contribution</tag>
         <tag>my_porjects</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>stats</title>
-    <url>/hexo-blog/2024/10/21/maintanance/blog_statistics/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
   </entry>
   <entry>
     <title>My tools</title>
@@ -10361,58 +10415,22 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>blog deploy actions</title>
-    <url>/hexo-blog/2024/11/11/maintanance/deploy_hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://github.com/ooge0/hexo-blog/actions" target="_blank">github.com&#x2F;hexo-blog&#x2F;actions</a></p>
+    <title>HEXO.IO blog references</title>
+    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
+<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
+<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
+<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
+<li>Descrtiption: User friendly blog with extended functionality and components</li>
+</ul>
 ]]></content>
       <categories>
-        <category>Maintanance</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Tags</title>
-    <url>/hexo-blog/2024/10/21/maintanance/my_tags/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This page will show the cloud of tags…. sometimes later</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
+        <category>Notes</category>
       </categories>
       <tags>
-        <tag>tags</tag>
+        <tag>tutorial</tag>
+        <tag>hexo_io</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>My Statistics page</title>
-    <url>/hexo-blog//maintanance/my_statistics_page/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Total views: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>Longest session: </p>
-<ul>
-<li>last hour</li>
-<li>last week</li>
-<li>last month</li>
-</ul>
-<p>User locations:</p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
-      <tags>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Sitemap</title>
-    <url>/hexo-blog/2024/11/01/maintanance/sitemap/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href= /hexo-blog/sitemap.xml> hexo-blog sitemap</a></p>
-]]></content>
-      <categories>
-        <category>Maintanance</category>
-      </categories>
   </entry>
   <entry>
     <title>HEXO blog design</title>
@@ -10461,21 +10479,21 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>HEXO.IO blog references</title>
-    <url>/hexo-blog/2024/10/21/notes/HEXO_IO_blog%20_references/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Here is collection of HEXO.IO blog and short comments on how to reuse some idea and funcitonality.</p>
-<p><strong>List of references</strong><br><a href="#kikoio">kiko.io</a></p>
-<h2 id="kiko-io"><a href="#kiko-io" class="headerlink" title="kiko.io"></a>kiko.io</h2><ul>
-<li>link: <a href="https://kiko.io/">https://kiko.io/</a></li>
-<li>Descrtiption: User friendly blog with extended functionality and components</li>
-</ul>
+    <title>Favorite books</title>
+    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
+<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
+<hr>
+<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
+<hr>
 ]]></content>
       <categories>
         <category>Notes</category>
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>hexo_io</tag>
+        <tag>my_contribution</tag>
+        <tag>books</tag>
       </tags>
   </entry>
   <entry>
@@ -10551,6 +10569,70 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
+    <title>Info data</title>
+    <url>/hexo-blog//info_data/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
+<div class="sitemap_content">
+    <ul>
+        <li>
+            <iframe
+                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
+                frameborder="0" width="216" height="60"></iframe>
+        </li>
+        <li>
+        <li>
+            <hr>
+            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
+            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
+        </li>
+        <li>
+            <hr>
+            <h2>Satellite observations</h2>
+            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
+            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
+            <hr>
+        </li>
+        <li>
+            <h3>Solar Flares and Storms Warnings for Today</h3>
+            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
+                height="300px"></iframe>
+        </li>
+        <hr>
+        <h3>Forecast platforms</h3>
+        </li>
+        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
+                FORECAST</a>
+        </li>
+        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
+        </li>
+        <li>foreca.com
+            <ul>
+                <li>
+                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
+                        Ukraine,
+                        Sumy</a>
+                </li>
+                <li>
+                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
+                        Kyiv</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
+                Network / European space agency.</a></li>
+        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
+    </ul>
+</div>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>info</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>How to Format a USB Using CMD (Command Prompt)</title>
     <url>/hexo-blog/2024/10/31/notes/format-a-usb-using-cmd/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><em>source:</em> <a href="https://www.wikihow.com/Format-a-USB-Using-Cmd">https://www.wikihow.com/Format-a-USB-Using-Cmd</a></p>
@@ -10579,24 +10661,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       <tags>
         <tag>usb</tag>
         <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Favorite books</title>
-    <url>/hexo-blog/2010/10/10/notes/favorite_books/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>IMPORTANT!!!</strong></p>
-<p>All information that you can find here is published as is.<br>This section contains list of my favorite books and some list of resources where you can get them in pdf&#x2F;epub&#x2F;fb2 formats.<br>Feel free to contact me if you have any concerns.</p>
-<hr>
-<p><a href="https://github.com/ooge0/books">Books on GitHub</a><br>My GitHub repository with books</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>my_contribution</tag>
-        <tag>books</tag>
       </tags>
   </entry>
   <entry>
@@ -10663,67 +10727,17 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Info data</title>
-    <url>/hexo-blog//info_data/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><div class="main__content">
-<div class="sitemap_content">
-    <ul>
-        <li>
-            <iframe
-                src="https://free.timeanddate.com/clock/i9e7kirz/n3846/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-                frameborder="0" width="216" height="60"></iframe>
-        </li>
-        <li>
-        <li>
-            <hr>
-            <h3><a href="https://www.ventusky.com/">ventusky.com</a></h3>
-            <iframe src="https://www.ventusky.com/Kyiv" width="80%" height="700"></iframe>
-        </li>
-        <li>
-            <hr>
-            <h2>Satellite observations</h2>
-            <h3> <a href="https://www.sat24.com/en-gb/city/708405/hd#selectedLayer=satDay" target=“_blank”> Sumy (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/11654/hd#selectedLayer=satDay" target=“_blank”> Kyiv (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/712848/hd#selectedLayer=satDay" target=“_blank”> Poltava (UA)</a></h3>
-            <h3> <a href="https://www.sat24.com/en-gb/city/17854/hd#selectedLayer=satDay" target=“_blank”> Sofia (BG)</a></h3>
-            <hr>
-        </li>
-        <li>
-            <h3>Solar Flares and Storms Warnings for Today</h3>
-            <iframe src="https://api.meteoagent.com/widgets/v1/kindex" frameborder="0" width="75%"
-                height="300px"></iframe>
-        </li>
-        <hr>
-        <h3>Forecast platforms</h3>
-        </li>
-        <li><a href="https://meteoagent.com/solar-flares-storms"> meteoagent.com - SOLAR FLARES & STORMS
-                FORECAST</a>
-        </li>
-        <li><a href="https://www.ventusky.com/"> ventusky.com - Weather forecast</a>
-        </li>
-        <li>foreca.com
-            <ul>
-                <li>
-                    <a href="https://www.foreca.com/100692194/Sumy-Sumy-Oblast-Ukraine"> foreca.com |
-                        Ukraine,
-                        Sumy</a>
-                </li>
-                <li>
-                    <a href="https://www.foreca.com/100703448/Kyiv-Ukraine"> foreca.com | Ukraine,
-                        Kyiv</a>
-                </li>
-            </ul>
-        </li>
-        <li><a href="https://swe.ssa.esa.int/"> swe.ssa.esa.int - Space weather dashboard from the SWE
-                Network / European space agency.</a></li>
-        <li><a href="https://www.spaceweatherlive.com/"> spaceweatherlive.com </a></li>
-    </ul>
-</div>]]></content>
+    <title>Web data handling</title>
+    <url>/hexo-blog/2024/11/20/notes/notes__web_data_handling/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
+<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
       <categories>
         <category>Notes</category>
       </categories>
       <tags>
-        <tag>info</tag>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -10855,17 +10869,25 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Web data handling</title>
-    <url>/hexo-blog/2024/11/20/notes/notes__web_data_handling/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Get-text-from-DOM-by-specific-locator-via-DevTools"><a href="#Get-text-from-DOM-by-specific-locator-via-DevTools" class="headerlink" title="Get text from DOM by specific locator via DevTools"></a>Get text from DOM by specific locator via DevTools</h2><ol>
-<li><strong>Task</strong>: Retrieve text from DOM for elements that have locator “.gfg-similar-read-item-heading” using devtools<br>Solution:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Retrieve all elements matching the locator</span></span><br><span class="line"><span class="keyword">const</span> elements = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;.gfg-similar-read-item-heading&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Extract text content from each element</span></span><br><span class="line"><span class="keyword">const</span> texts = <span class="title class_">Array</span>.<span class="title function_">from</span>(elements).<span class="title function_">map</span>(<span class="function"><span class="params">element</span> =&gt;</span> element.<span class="property">textContent</span>.<span class="title function_">trim</span>());</span><br><span class="line"></span><br><span class="line"><span class="comment">// Output the text content as an array</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(texts);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;order_number&#125;&#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;index + <span class="number">1</span>&#125;</span>: <span class="subst">$&#123;text&#125;</span>`</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// Optional: Display the texts in format &#123;text&#125;</span></span><br><span class="line">texts.<span class="title function_">forEach</span>(<span class="function">(<span class="params">text, index</span>) =&gt;</span> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">`<span class="subst">$&#123;text&#125;</span>`</span>));</span><br></pre></td></tr></table></figure></li>
+    <title>Online tools</title>
+    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
+<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
+</ol>
+<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
+<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
+</ol>
+<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
+<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
 </ol>
 ]]></content>
       <categories>
         <category>Notes</category>
       </categories>
       <tags>
-        <tag>web</tag>
+        <tag>my_contribution</tag>
+        <tag>tools</tag>
+        <tag>online_tools</tag>
       </tags>
   </entry>
   <entry>
@@ -11136,28 +11158,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
       </tags>
   </entry>
   <entry>
-    <title>Online tools</title>
-    <url>/hexo-blog/2024/11/18/notes/online_tools/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><h2 id="Text-editing"><a href="#Text-editing" class="headerlink" title="Text editing"></a>Text editing</h2><ol>
-<li><a href="https://convertcase.net/">https://convertcase.net/</a></li>
-</ol>
-<h2 id="Text-comparison"><a href="#Text-comparison" class="headerlink" title="Text comparison"></a>Text comparison</h2><ol>
-<li><a href="https://text-compare.com/">https://text-compare.com/</a></li>
-</ol>
-<h2 id="OCR"><a href="#OCR" class="headerlink" title="OCR"></a>OCR</h2><ol>
-<li>Text from boofer&#x2F;pictures: <a href="http://www.structurise.com/screenshot-ocr/">http://www.structurise.com/screenshot-ocr/</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Notes</category>
-      </categories>
-      <tags>
-        <tag>my_contribution</tag>
-        <tag>tools</tag>
-        <tag>online_tools</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Favorite movies</title>
     <url>/hexo-blog/2010/10/10/notes/vaforite_movies/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>Favorite movies list</strong></p>
@@ -11370,6 +11370,23 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>blog</tag>
         <tag>hexo_io</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HEXO.IO blog examples</title>
+    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
+<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
+<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
+<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>hexo_io</tag>
+        <tag>examples</tag>
       </tags>
   </entry>
   <entry>
@@ -11615,23 +11632,6 @@ More detilas about event you can find on the official <a href = https://kolkadub
         <tag>tutorial</tag>
         <tag>blog</tag>
         <tag>hexo_io</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HEXO.IO blog examples</title>
-    <url>/hexo-blog/2024/10/21/tutorials/hexo.io_tutorial_list/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ol>
-<li>Setup my blog using Hexo: <a href="https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/">https://chuanjin.me/2015/01/17/Setup-my-blog-using-Hexo/</a> </li>
-<li>using and optimizing the hexo-tag-cloud tag cloud: <a href="https://tiven.cn/p/8dbf2af/">https://tiven.cn/p/8dbf2af/</a></li>
-<li>hexo-daily-news: <a href="https://github.com/Shiguang-coding/hexo-daily-news">https://github.com/Shiguang-coding/hexo-daily-news</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>hexo_io</tag>
-        <tag>examples</tag>
       </tags>
   </entry>
   <entry>
