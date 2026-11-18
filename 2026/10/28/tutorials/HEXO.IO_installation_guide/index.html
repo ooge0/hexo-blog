@@ -1,0 +1,1012 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/hexo-blog/img/fluid.png">
+  <link rel="icon" href="/hexo-blog/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="si0n4ra">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Make HEXO.IO blog https:&#x2F;&#x2F;hexo.io&#x2F; -A fast, simple &amp; powerful blog framework  Install HexoTo get started with Hexo, ensure you have Node.js and Git installed on your machine. Then follow these ste">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HEXIO.IO instalation guide">
+<meta property="og:url" content="https://ooge0.github.io/hexo-blog/2026/10/28/tutorials/HEXO.IO_installation_guide/">
+<meta property="og:site_name" content="si0n4ra">
+<meta property="og:description" content="Make HEXO.IO blog https:&#x2F;&#x2F;hexo.io&#x2F; -A fast, simple &amp; powerful blog framework  Install HexoTo get started with Hexo, ensure you have Node.js and Git installed on your machine. Then follow these ste">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2026-10-28T10:30:17.961Z">
+<meta property="article:modified_time" content="2026-10-28T10:30:17.961Z">
+<meta property="article:author" content="si0n4ra">
+<meta property="article:tag" content="tutorial">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="hexo_io">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>HEXIO.IO instalation guide - si0n4ra</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/hexo-blog/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/hexo-blog/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/hexo-blog/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/hexo-blog/css/custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"ooge0.github.io","root":"/hexo-blog/","version":"1.9.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"expand_all":false,"placement":"right","headingSelector":"h1,h2,h3,h4","collapseDepth":2},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"openkounter":{"server_url":"https://open-kounter.mintimate.cn","path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/hexo-blog/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/hexo-blog/js/utils.js" ></script>
+  <script  src="/hexo-blog/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/hexo-blog/atom.xml" title="si0n4ra" type="application/atom+xml">
+</head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 20vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/hexo-blog/">
+      <strong>si0n4ra</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content (desktop) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hexo-blog/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hexo-blog/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hexo-blog/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hexo-blog/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hexo-blog/projects/" target="_self">
+                <i class="iconfont icon-project"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hexo-blog/start-here/" target="_self">
+                <i class="iconfont icon-guide-line"></i>
+                <span>Start Here</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/hexo-blog/about-me/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile grid menu overlay -->
+<div id="mobile-grid-menu" class="d-lg-none">
+  <div class="mobile-grid-menu-inner">
+    <div class="container">
+      <div class="row">
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/hexo-blog/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-home-fill"></i>
+                  <span>Home</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/hexo-blog/archives/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-archive-fill"></i>
+                  <span>Archives</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/hexo-blog/categories/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-category-fill"></i>
+                  <span>Categories</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/hexo-blog/tags/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-tags-fill"></i>
+                  <span>Tags</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/hexo-blog/projects/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-project"></i>
+                  <span>Projects</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/hexo-blog/start-here/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-guide-line"></i>
+                  <span>Start Here</span>
+                </div>
+              </a>
+            </div>
+          
+        
+          
+          
+          
+          
+            <div class="col-4 mobile-grid-cell">
+              <a href="/hexo-blog/about-me/" target="_self">
+                <div class="mobile-grid-item">
+                  <i class="iconfont icon-user-fill"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </div>
+          
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-search-btn">
+            <a href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-search"></i>
+                <span>Search</span>
+              </div>
+            </a>
+          </div>
+        
+        
+          <div class="col-4 mobile-grid-cell" id="mobile-color-toggle-btn"
+               data-label-light="Light"
+               data-label-dark="Dark">
+            <a href="javascript:;" aria-label="Color Toggle">
+              <div class="mobile-grid-item">
+                <i class="iconfont icon-dark" id="mobile-color-toggle-icon"></i>
+                <span id="mobile-color-toggle-label">Dark</span>
+              </div>
+            </a>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/hexo-blog/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="HEXIO.IO instalation guide"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-10-28 12:30" pubdate>
+          2026-10-28
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.9k words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          5 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">HEXIO.IO instalation guide</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="Make-HEXO-IO-blog"><a href="#Make-HEXO-IO-blog" class="headerlink" title="Make HEXO.IO blog"></a>Make HEXO.IO blog</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/">https://hexo.io/</a> -A fast, simple &amp; powerful blog framework</li>
+</ul>
+<h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a><strong>Install Hexo</strong></h3><p>To get started with Hexo, ensure you have <strong>Node.js</strong> and <strong>Git</strong> installed on your machine. Then follow these steps:</p>
+<h4 id="Install-Hexo-CLI"><a href="#Install-Hexo-CLI" class="headerlink" title="Install Hexo CLI"></a><strong>Install Hexo CLI</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install -g hexo-cli<br></code></pre></td></tr></table></figure>
+
+<h4 id="Create-a-New-Hexo-Project"><a href="#Create-a-New-Hexo-Project" class="headerlink" title="Create a New Hexo Project"></a><strong>Create a New Hexo Project</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init blog <span class="hljs-built_in">cd</span> my-blog npm install<br></code></pre></td></tr></table></figure>
+
+<h4 id="Start-the-Local-Server"><a href="#Start-the-Local-Server" class="headerlink" title="Start the Local Server"></a><strong>Start the Local Server</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo server<br></code></pre></td></tr></table></figure>
+
+<p>Visit <code>http://localhost:4000</code> to see your Hexo blog locally.</p>
+<hr>
+<h3 id="2-Publish-the-Blog-on-GitHub-Pages"><a href="#2-Publish-the-Blog-on-GitHub-Pages" class="headerlink" title="2. Publish the Blog on GitHub Pages"></a><strong>2. Publish the Blog on GitHub Pages</strong></h3><h4 id="Set-Up-a-GitHub-Repository"><a href="#Set-Up-a-GitHub-Repository" class="headerlink" title="Set Up a GitHub Repository"></a><strong>Set Up a GitHub Repository</strong></h4><ol>
+<li>Create a new repository on GitHub named <code>yourusername.github.io</code>.</li>
+<li>Clone the repository locally:</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">clone</span> https://github.com/yourusername/yourusername.github.io<br></code></pre></td></tr></table></figure>
+
+<h4 id="Configure-Deployment-in-Hexo"><a href="#Configure-Deployment-in-Hexo" class="headerlink" title="Configure Deployment in Hexo"></a><strong>Configure Deployment in Hexo</strong></h4><ol>
+<li><p>Open your Hexo project.</p>
+</li>
+<li><p>Install the deployment tool:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Open the <code>_config.yml</code> file in the root of your Hexo project.</p>
+</li>
+<li><p>Add the following lines for deployment configuration:</p>
+</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">https://github.com/yourusername/yourusername.github.io.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">main</span>  <span class="hljs-comment"># Use &#x27;master&#x27; for older repositories</span><br></code></pre></td></tr></table></figure>
+
+<h4 id="Generate-Static-Files-and-Deploy"><a href="#Generate-Static-Files-and-Deploy" class="headerlink" title="Generate Static Files and Deploy"></a><strong>Generate Static Files and Deploy</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo generate <br>hexo deploy<br></code></pre></td></tr></table></figure>
+
+<p>Your blog will now be live at <code>https://yourusername.github.io</code>.</p>
+<hr>
+<h3 id="3-Customizing-Hexo-Layout"><a href="#3-Customizing-Hexo-Layout" class="headerlink" title="3. Customizing Hexo Layout"></a><strong>3. Customizing Hexo Layout</strong></h3><p>Hexo uses themes to define the layout. You can use an existing theme or customize your own.</p>
+<h4 id="Change-or-Install-a-Theme"><a href="#Change-or-Install-a-Theme" class="headerlink" title="Change or Install a Theme"></a><strong>Change or Install a Theme</strong></h4><ol>
+<li><p>Browse <a target="_blank" rel="noopener" href="https://hexo.io/themes/">Hexo Themes</a>.</p>
+</li>
+<li><p>Install the theme:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">clone</span> https://github.com/theme-name/theme.git themes/theme-name`<br></code></pre></td></tr></table></figure>
+</li>
+<li><p>Update the <code>_config.yml</code> file to use the new theme:</p>
+</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">theme:</span> <span class="hljs-string">theme-name</span><br></code></pre></td></tr></table></figure>
+
+<h4 id="Customize-the-Layout"><a href="#Customize-the-Layout" class="headerlink" title="Customize the Layout"></a><strong>Customize the Layout</strong></h4><p>Hexo themes are built using <strong>EJS</strong>, <strong>Swig</strong>, or <strong>Pug</strong> templating engines. You can modify these template files in the theme’s <code>layout</code> folder to adjust the HTML structure, styles, and other customizations.</p>
+<p>If you want to add a <strong>left side panel</strong> with a <strong>menu</strong>, you’ll need to modify the <code>layout/_partial/sidebar.ejs</code> (or similar) file in the theme folder.</p>
+<hr>
+<h3 id="4-Add-a-Left-Side-Panel-and-Menu"><a href="#4-Add-a-Left-Side-Panel-and-Menu" class="headerlink" title="4. Add a Left Side Panel and Menu"></a><strong>4. Add a Left Side Panel and Menu</strong></h3><h4 id="Create-the-Left-Sidebar"><a href="#Create-the-Left-Sidebar" class="headerlink" title="Create the Left Sidebar"></a><strong>Create the Left Sidebar</strong></h4><ol>
+<li>Edit the theme’s <code>layout</code> file that contains the sidebar (e.g., <code>layout/_partial/sidebar.ejs</code>).</li>
+<li>Add the following menu HTML structure:<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;sidebar&quot;</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;menu&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/posts&quot;</span>&gt;</span>My Posts<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/notes&quot;</span>&gt;</span>My Notes<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/stats&quot;</span>&gt;</span>My Stats<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/tags&quot;</span>&gt;</span>Tags<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br><br></code></pre></td></tr></table></figure></li>
+</ol>
+<h4 id="Customize-Styles-for-the-Sidebar"><a href="#Customize-Styles-for-the-Sidebar" class="headerlink" title="Customize Styles for the Sidebar"></a><strong>Customize Styles for the Sidebar</strong></h4><p>In your theme’s <code>source/css/style.css</code> (or similar stylesheet), add custom CSS to style the sidebar:</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.sidebar</span> &#123;<br>    <span class="hljs-attribute">position</span>: fixed;<br>    <span class="hljs-attribute">width</span>: <span class="hljs-number">250px</span>;<br>    <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;<br>    <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#f4f4f4</span>;<br>    <span class="hljs-attribute">overflow-y</span>: auto;<br>&#125;<br><br><span class="hljs-selector-class">.menu</span> &#123;<br>    <span class="hljs-attribute">list-style-type</span>: none;<br>    <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;<br>&#125;<br><br><span class="hljs-selector-class">.menu</span> <span class="hljs-selector-tag">li</span> &#123;<br>    <span class="hljs-attribute">margin</span>: <span class="hljs-number">15px</span> <span class="hljs-number">0</span>;<br>&#125;<br><br><span class="hljs-selector-class">.menu</span> <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">a</span> &#123;<br>    <span class="hljs-attribute">text-decoration</span>: none;<br>    <span class="hljs-attribute">color</span>: <span class="hljs-number">#333</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<hr>
+<h3 id="5-Add-Pages-for-Menu-Items"><a href="#5-Add-Pages-for-Menu-Items" class="headerlink" title="5. Add Pages for Menu Items"></a><strong>5. Add Pages for Menu Items</strong></h3><h4 id="Create-Pages-for-Custom-Sections"><a href="#Create-Pages-for-Custom-Sections" class="headerlink" title="Create Pages for Custom Sections"></a><strong>Create Pages for Custom Sections</strong></h4><p>For each menu item (e.g., “My Posts”, “My Notes”), create corresponding pages:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo new page <span class="hljs-string">&quot;posts&quot;</span> hexo new page <span class="hljs-string">&quot;notes&quot;</span> hexo new page <span class="hljs-string">&quot;stats&quot;</span> hexo new page <span class="hljs-string">&quot;tags&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>Each of these commands will create a new <code>.md</code> file in the <code>source</code> folder. You can edit them to include content specific to that section.</p>
+<h4 id="Add-Tag-Listing-Page"><a href="#Add-Tag-Listing-Page" class="headerlink" title="Add Tag Listing Page"></a><strong>Add Tag Listing Page</strong></h4><p>Hexo automatically supports tag pages, but you can enhance it. Ensure you have a <code>tags</code> page by running:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo new page <span class="hljs-string">&quot;tags&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>In <code>source/tags/index.md</code>, add:</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">title:</span> <span class="hljs-string">Tags</span><br><span class="hljs-attr">layout:</span> <span class="hljs-string">tags</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="6-Main-Panel-with-Scroll-Bar"><a href="#6-Main-Panel-with-Scroll-Bar" class="headerlink" title="6. Main Panel with Scroll Bar"></a><strong>6. Main Panel with Scroll Bar</strong></h3><p>To ensure that your posts have a scrollable main content area, adjust the CSS for the main content area in your theme’s stylesheet (usually <code>source/css/style.css</code>).</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.main-panel</span> &#123;<br>    <span class="hljs-attribute">margin-left</span>: <span class="hljs-number">260px</span>;  <span class="hljs-comment">/* Account for sidebar */</span><br>    <span class="hljs-attribute">overflow-y</span>: scroll;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+
+<p>Ensure that your theme’s HTML structure assigns the <code>main-panel</code> class to the main content area.</p>
+<hr>
+<h3 id="7-Main-Configuration-Options-in-Hexo"><a href="#7-Main-Configuration-Options-in-Hexo" class="headerlink" title="7. Main Configuration Options in Hexo"></a><strong>7. Main Configuration Options in Hexo</strong></h3><p>In Hexo’s <code>_config.yml</code> file, you can customize many aspects of your site. Here are some of the most common settings:</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># Site</span><br><span class="hljs-attr">title:</span> <span class="hljs-string">My</span> <span class="hljs-string">Blog</span><br><span class="hljs-attr">subtitle:</span> <span class="hljs-string">My</span> <span class="hljs-string">Blog</span> <span class="hljs-string">Subtitle</span><br><span class="hljs-attr">description:</span> <span class="hljs-string">A</span> <span class="hljs-string">blog</span> <span class="hljs-string">about</span> <span class="hljs-string">my</span> <span class="hljs-string">personal</span> <span class="hljs-string">projects.</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">Your</span> <span class="hljs-string">Name</span><br><span class="hljs-attr">language:</span> <span class="hljs-string">en</span><br><br><span class="hljs-comment"># URL Configuration</span><br><span class="hljs-attr">url:</span> <span class="hljs-string">https://yourusername.github.io</span><br><span class="hljs-attr">root:</span> <span class="hljs-string">/</span><br><span class="hljs-attr">permalink:</span> <span class="hljs-string">:year/:month/:day/:title/</span><br><br><span class="hljs-comment"># Deployment</span><br><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">https://github.com/yourusername/yourusername.github.io.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">main</span><br><br><span class="hljs-comment"># Plugins</span><br><span class="hljs-attr">plugins:</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">hexo-generator-tag</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">hexo-generator-archive</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">hexo-deployer-git</span><br><br></code></pre></td></tr></table></figure>
+<hr>
+<h3 id="8-Table-of-Hexo-Features"><a href="#8-Table-of-Hexo-Features" class="headerlink" title="8. Table of Hexo Features"></a><strong>8. Table of Hexo Features</strong></h3><table>
+<thead>
+<tr>
+<th><strong>Feature</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Static Site Generator</strong></td>
+<td>Generates static HTML files for fast performance.</td>
+</tr>
+<tr>
+<td><strong>Markdown Support</strong></td>
+<td>Write posts in Markdown for easy formatting.</td>
+</tr>
+<tr>
+<td><strong>Themes &amp; Customization</strong></td>
+<td>Use pre-built themes or create your own.</td>
+</tr>
+<tr>
+<td><strong>Plugins</strong></td>
+<td>Extend functionality with various plugins (e.g., tags, archives).</td>
+</tr>
+<tr>
+<td><strong>Tag System</strong></td>
+<td>Organize posts with a powerful tag system.</td>
+</tr>
+<tr>
+<td><strong>SEO Friendly</strong></td>
+<td>Built-in SEO optimization features.</td>
+</tr>
+<tr>
+<td><strong>Deployment</strong></td>
+<td>One-click deployment to GitHub, GitLab, or custom servers.</td>
+</tr>
+<tr>
+<td><strong>Drafts</strong></td>
+<td>Manage drafts and publish them later.</td>
+</tr>
+<tr>
+<td><strong>Multi-language Support</strong></td>
+<td>Write blog in multiple languages.</td>
+</tr>
+<tr>
+<td><strong>Extensible with Plugins</strong></td>
+<td>Add analytics, social media sharing, and more via plugins.</td>
+</tr>
+</tbody></table>
+<h2 id="import-existing-Markdown-md-and-HTML-files-into-Hexo"><a href="#import-existing-Markdown-md-and-HTML-files-into-Hexo" class="headerlink" title="import existing Markdown (.md) and HTML files into Hexo"></a>import existing Markdown (.md) and HTML files into Hexo</h2><h2 id="HEXO-IO-commands"><a href="#HEXO-IO-commands" class="headerlink" title="HEXO.IO commands"></a>HEXO.IO commands</h2><p>hexo clean + generate + hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean; hexo generate; hexo serve<br></code></pre></td></tr></table></figure>
+
+
+<h2 id="TOC"><a href="#TOC" class="headerlink" title="TOC"></a>TOC</h2><p><a target="_blank" rel="noopener" href="https://github.com/bubkoo/hexo-toc">https://github.com/bubkoo/hexo-toc</a><br><a target="_blank" rel="noopener" href="https://github.com/bennycode/hexo-insert-toc">https://github.com/bennycode/hexo-insert-toc</a></p>
+<h2 id="HEXO-Markdown"><a href="#HEXO-Markdown" class="headerlink" title="HEXO + Markdown"></a>HEXO + Markdown</h2><ul>
+<li>hexo-renderer-markdown-it<ul>
+<li>This renderer plugin uses Markdown-it as a render engine on Hexo. Adds support for Markdown and CommonMark.</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-renderer-markdown-it">https://github.com/hexojs/hexo-renderer-markdown-it</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Other-resources"><a href="#Other-resources" class="headerlink" title="Other resources"></a>Other resources</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://xlog.wangyunzi.com/3?locale=en">xlog.wangyunzi.com | My Blog Building Journey - Hexo</a></li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/hexo-blog/categories/Tutorials/" class="category-chain-item">Tutorials</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/hexo-blog/tags/tutorial/" class="print-no-link">#tutorial</a>
+      
+        <a href="/hexo-blog/tags/blog/" class="print-no-link">#blog</a>
+      
+        <a href="/hexo-blog/tags/hexo-io/" class="print-no-link">#hexo_io</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>HEXIO.IO instalation guide</div>
+      <div>https://ooge0.github.io/hexo-blog/2026/10/28/tutorials/HEXO.IO_installation_guide/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>si0n4ra</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>October 28, 2026</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              CC BY-NC-SA 4.0
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/hexo-blog/2026/10/28/tutorials/HEXO.IO_fixes_guide/" title="HEXIO.IO fixes guide">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">HEXIO.IO fixes guide</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/hexo-blog/2026/10/28/cheatsheets/cheatsheet_list/" title="Cheatsheet list">
+                        <span class="hidden-mobile">Cheatsheet list</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> &nbsp;·&nbsp; <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/hexo-blog/js/events.js" ></script>
+<script  src="/hexo-blog/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/hexo-blog/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    function isExpandAllEnabled() {
+      return CONFIG.toc && CONFIG.toc.expand_all === true;
+    }
+    function expandAllToc() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .tocbot-is-collapsed').removeClass('tocbot-is-collapsed');
+    }
+    function updateTocToggle($li, $childList) {
+      var $toggle = $li.children('.toc-toggle');
+      if ($toggle.length === 0) { return; }
+      var collapsed = $childList.hasClass('tocbot-is-collapsed');
+      $toggle
+        .toggleClass('toc-toggle-collapsed', collapsed)
+        .toggleClass('toc-toggle-expanded', !collapsed);
+    }
+    function bindTocToggle() {
+      if (!isExpandAllEnabled()) { return; }
+      jQuery('#toc-body .toc-list-item').each(function() {
+        var $li = jQuery(this);
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) {
+          if ($li.children('.toc-toggle').length === 0) {
+            $li.prepend('<span class="toc-toggle toc-toggle-placeholder" aria-hidden="true">›</span>');
+          }
+          return;
+        }
+
+        if ($li.children('.toc-toggle').length === 0) {
+          $li.prepend('<span class="toc-toggle toc-toggle-expanded" aria-hidden="true">›</span>');
+        }
+        updateTocToggle($li, $childList);
+      });
+      jQuery('#toc-body').off('click.tocToggle').on('click.tocToggle', '.toc-toggle', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var $li = jQuery(this).parent('.toc-list-item');
+        var $childList = $li.children('ol');
+        if ($childList.length === 0) { return; }
+        $childList.toggleClass('tocbot-is-collapsed');
+        updateTocToggle($li, $childList);
+      });
+      if (!window.__tocToggleObserver) {
+        window.__tocToggleObserver = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.type !== 'attributes' || mutation.attributeName !== 'class') { return; }
+            var $list = jQuery(mutation.target);
+            var $li = $list.parent('.toc-list-item');
+            if ($li.length === 0) { return; }
+            updateTocToggle($li, $list);
+          });
+        });
+        jQuery('#toc-body ol').each(function() {
+          window.__tocToggleObserver.observe(this, { attributes: true });
+        });
+      }
+    }
+    var tocConfig = Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc);
+    if (isExpandAllEnabled()) {
+      tocConfig.collapseDepth = 6;
+    }
+    window.tocbot.init(tocConfig);
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+    expandAllToc();
+    bindTocToggle();
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+        expandAllToc();
+        bindTocToggle();
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/hexo-blog/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/hexo-blog/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>

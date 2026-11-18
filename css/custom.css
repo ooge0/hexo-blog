@@ -1,0 +1,71 @@
+/* ===================================================
+   Site-wide overrides for Fluid theme
+   =================================================== */
+
+/* -- Navbar: remove shadow at top of page so it blends with the banner
+   When scrolled (.top-nav-collapse), Fluid restores solid bg naturally */
+#navbar:not(.top-nav-collapse):not(.navbar-col-show) {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+/* -- Content width: allow the board to use more horizontal space
+   Bootstrap container is capped at 1140px; widen on larger screens */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+/* -- Projects page: ensure cards don't collapse too narrow */
+.proj-card, .sh-card, .idea, .bio-section {
+  word-break: break-word;
+}
+
+/* Banner text — smaller, lighter weight to stay slim */
+#banner .banner-text .h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: .04em;
+}
+#banner .banner-text {
+  padding: 0;
+}
+
+/* -- Home post list (correct Fluid class names: index-card, not post-card) */
+.index-card { margin-bottom: 6px; }
+.index-header a { font-size: 1.05rem; font-weight: 600; }
+.index-excerpt { font-size: .9rem; line-height: 1.6; }
+.index-btm .post-meta { font-size: .78rem; }
+
+/* -- Home intro strip */
+.home-intro {
+  border-left: 3px solid var(--link-color, #2b6cb0);
+  padding: 14px 20px;
+  background: rgba(43, 108, 176, 0.07);  /* subtle blue tint, works in light & dark */
+  border-radius: 0 6px 6px 0;
+}
+.home-intro__lead {
+  font-size: .95rem;
+  line-height: 1.6;
+  margin: 0 0 10px;
+  color: var(--font-color);  /* adapts to light/dark mode */
+}
+.home-intro__links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: .875rem;
+}
+.home-intro__links a {
+  color: var(--link-color, #2b6cb0);
+  text-decoration: none;
+  font-weight: 500;
+}
+.home-intro__links a:hover { text-decoration: underline; }
