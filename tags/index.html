@@ -80,7 +80,14 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/hexo-blog/atom.xml" title="si0n4ra" type="application/atom+xml">
+<!-- hexo injector head_end start -->
+<style>
+.tagcloud                { display: none !important; }
+#tagcloud-wrap           { margin: 20px 0 8px; display: flex; justify-content: center; }
+#tagcloud-canvas         { cursor: grab; max-width: 100%; display: block; }
+#tagcloud-canvas:active  { cursor: grabbing; }
+</style>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/hexo-blog/atom.xml" title="si0n4ra" type="application/atom+xml">
 </head>
 
 
@@ -380,7 +387,10 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="text-center tagcloud">
+
+<div id="tagcloud-wrap">
+  <canvas id="tagcloud-canvas" width="560" height="440"></canvas>
+</div><div class="text-center tagcloud">
   <a href="/hexo-blog/tags/AI/" style="font-size: 28px; color: #2b6cb0">AI</a> <a href="/hexo-blog/tags/API/" style="font-size: 16.8px; color: #637c9b">API</a> <a href="/hexo-blog/tags/ASCII/" style="font-size: 14px; color: #718096">ASCII</a> <a href="/hexo-blog/tags/BART/" style="font-size: 14px; color: #718096">BART</a> <a href="/hexo-blog/tags/BERT/" style="font-size: 14px; color: #718096">BERT</a> <a href="/hexo-blog/tags/DocPublishing/" style="font-size: 14px; color: #718096">DocPublishing</a> <a href="/hexo-blog/tags/Excel/" style="font-size: 14px; color: #718096">Excel</a> <a href="/hexo-blog/tags/GPT/" style="font-size: 14px; color: #718096">GPT</a> <a href="/hexo-blog/tags/GPT2/" style="font-size: 14px; color: #718096">GPT2</a> <a href="/hexo-blog/tags/GitHubPages/" style="font-size: 14px; color: #718096">GitHubPages</a> <a href="/hexo-blog/tags/Google-Sheets/" style="font-size: 14px; color: #718096">Google Sheets</a> <a href="/hexo-blog/tags/LLM/" style="font-size: 19.6px; color: #5578a0">LLM</a> <a href="/hexo-blog/tags/LaTeX/" style="font-size: 14px; color: #718096">LaTeX</a> <a href="/hexo-blog/tags/LibreOffice-Calc/" style="font-size: 14px; color: #718096">LibreOffice Calc</a> <a href="/hexo-blog/tags/Llama/" style="font-size: 14px; color: #718096">Llama</a> <a href="/hexo-blog/tags/ML/" style="font-size: 26.6px; color: #326ead">ML</a> <a href="/hexo-blog/tags/NLP/" style="font-size: 25.2px; color: #3970ab">NLP</a> <a href="/hexo-blog/tags/NLTK/" style="font-size: 14px; color: #718096">NLTK</a> <a href="/hexo-blog/tags/NN/" style="font-size: 16.8px; color: #637c9b">NN</a> <a href="/hexo-blog/tags/NPF/" style="font-size: 14px; color: #718096">NPF</a> <a href="/hexo-blog/tags/OpenOffice-Calc/" style="font-size: 14px; color: #718096">OpenOffice Calc</a> <a href="/hexo-blog/tags/ReadTheDocs/" style="font-size: 14px; color: #718096">ReadTheDocs</a> <a href="/hexo-blog/tags/VADER/" style="font-size: 14px; color: #718096">VADER</a> <a href="/hexo-blog/tags/about-me/" style="font-size: 14px; color: #718096">about_me</a> <a href="/hexo-blog/tags/acsii/" style="font-size: 14px; color: #718096">acsii</a> <a href="/hexo-blog/tags/algorithms/" style="font-size: 15.4px; color: #6a7e99">algorithms</a> <a href="/hexo-blog/tags/api-testing/" style="font-size: 15.4px; color: #6a7e99">api_testing</a> <a href="/hexo-blog/tags/apps/" style="font-size: 15.4px; color: #6a7e99">apps</a> <a href="/hexo-blog/tags/augmentation/" style="font-size: 14px; color: #718096">augmentation</a> <a href="/hexo-blog/tags/blog/" style="font-size: 19.6px; color: #5578a0">blog</a> <a href="/hexo-blog/tags/bokeh/" style="font-size: 14px; color: #718096">bokeh</a> <a href="/hexo-blog/tags/books/" style="font-size: 14px; color: #718096">books</a> <a href="/hexo-blog/tags/chatbot/" style="font-size: 14px; color: #718096">chatbot</a> <a href="/hexo-blog/tags/cheatsheets/" style="font-size: 14px; color: #718096">cheatsheets</a> <a href="/hexo-blog/tags/cmd/" style="font-size: 14px; color: #718096">cmd</a> <a href="/hexo-blog/tags/data-analysis/" style="font-size: 14px; color: #718096">data_analysis</a> <a href="/hexo-blog/tags/data-mining/" style="font-size: 14px; color: #718096">data_mining</a> <a href="/hexo-blog/tags/data-visualization/" style="font-size: 16.8px; color: #637c9b">data_visualization</a> <a href="/hexo-blog/tags/databases/" style="font-size: 14px; color: #718096">databases</a> <a href="/hexo-blog/tags/db/" style="font-size: 14px; color: #718096">db</a> <a href="/hexo-blog/tags/dev-side/" style="font-size: 22.4px; color: #4774a6">dev_side</a> <a href="/hexo-blog/tags/devops/" style="font-size: 15.4px; color: #6a7e99">devops</a> <a href="/hexo-blog/tags/dream-team/" style="font-size: 14px; color: #718096">dream_team</a> <a href="/hexo-blog/tags/emotions/" style="font-size: 15.4px; color: #6a7e99">emotions</a> <a href="/hexo-blog/tags/examples/" style="font-size: 14px; color: #718096">examples</a> <a href="/hexo-blog/tags/git/" style="font-size: 14px; color: #718096">git</a> <a href="/hexo-blog/tags/global-knowledge/" style="font-size: 14px; color: #718096">global_knowledge</a> <a href="/hexo-blog/tags/glossary/" style="font-size: 15.4px; color: #6a7e99">glossary</a> <a href="/hexo-blog/tags/hexo-io/" style="font-size: 19.6px; color: #5578a0">hexo_io</a> <a href="/hexo-blog/tags/html/" style="font-size: 14px; color: #718096">html</a> <a href="/hexo-blog/tags/info/" style="font-size: 14px; color: #718096">info</a> <a href="/hexo-blog/tags/kafka/" style="font-size: 14px; color: #718096">kafka</a> <a href="/hexo-blog/tags/knowledge/" style="font-size: 15.4px; color: #6a7e99">knowledge</a> <a href="/hexo-blog/tags/knowledge-base/" style="font-size: 15.4px; color: #6a7e99">knowledge_base</a> <a href="/hexo-blog/tags/knowledge-graph/" style="font-size: 14px; color: #718096">knowledge_graph</a> <a href="/hexo-blog/tags/lexic/" style="font-size: 15.4px; color: #6a7e99">lexic</a> <a href="/hexo-blog/tags/linguistic/" style="font-size: 16.8px; color: #637c9b">linguistic</a> <a href="/hexo-blog/tags/links/" style="font-size: 14px; color: #718096">links</a> <a href="/hexo-blog/tags/llm-parameters/" style="font-size: 15.4px; color: #6a7e99">llm_parameters</a> <a href="/hexo-blog/tags/local-development/" style="font-size: 14px; color: #718096">local_development</a> <a href="/hexo-blog/tags/logger/" style="font-size: 14px; color: #718096">logger</a> <a href="/hexo-blog/tags/loguru/" style="font-size: 14px; color: #718096">loguru</a> <a href="/hexo-blog/tags/markdown/" style="font-size: 14px; color: #718096">markdown</a> <a href="/hexo-blog/tags/md-format/" style="font-size: 16.8px; color: #637c9b">md_format</a> <a href="/hexo-blog/tags/mobile-application/" style="font-size: 14px; color: #718096">mobile_application</a> <a href="/hexo-blog/tags/movie/" style="font-size: 14px; color: #718096">movie</a> <a href="/hexo-blog/tags/my-contribution/" style="font-size: 21px; color: #4e76a3">my_contribution</a> <a href="/hexo-blog/tags/my-linkedin-post/" style="font-size: 14px; color: #718096">my_linkedin_post</a> <a href="/hexo-blog/tags/my-medium-post/" style="font-size: 14px; color: #718096">my_medium_post</a> <a href="/hexo-blog/tags/my-projects/" style="font-size: 14px; color: #718096">my_projects</a> <a href="/hexo-blog/tags/network-protocols/" style="font-size: 14px; color: #718096">network_protocols</a> <a href="/hexo-blog/tags/note/" style="font-size: 16.8px; color: #637c9b">note</a> <a href="/hexo-blog/tags/nst/" style="font-size: 14px; color: #718096">nst</a> <a href="/hexo-blog/tags/online-tools/" style="font-size: 14px; color: #718096">online_tools</a> <a href="/hexo-blog/tags/other/" style="font-size: 14px; color: #718096">other</a> <a href="/hexo-blog/tags/papers/" style="font-size: 18.2px; color: #5c7a9e">papers</a> <a href="/hexo-blog/tags/parsing/" style="font-size: 14px; color: #718096">parsing</a> <a href="/hexo-blog/tags/plotly/" style="font-size: 15.4px; color: #6a7e99">plotly</a> <a href="/hexo-blog/tags/postman/" style="font-size: 15.4px; color: #6a7e99">postman</a> <a href="/hexo-blog/tags/prompt-engineering/" style="font-size: 19.6px; color: #5578a0">prompt_engineering</a> <a href="/hexo-blog/tags/protocols/" style="font-size: 14px; color: #718096">protocols</a> <a href="/hexo-blog/tags/psy/" style="font-size: 15.4px; color: #6a7e99">psy</a> <a href="/hexo-blog/tags/python/" style="font-size: 16.8px; color: #637c9b">python</a> <a href="/hexo-blog/tags/qa/" style="font-size: 21px; color: #4e76a3">qa</a> <a href="/hexo-blog/tags/qa-check-list/" style="font-size: 15.4px; color: #6a7e99">qa_check_list</a> <a href="/hexo-blog/tags/qa-docs/" style="font-size: 14px; color: #718096">qa_docs</a> <a href="/hexo-blog/tags/resources/" style="font-size: 14px; color: #718096">resources</a> <a href="/hexo-blog/tags/rest-api/" style="font-size: 14px; color: #718096">rest_api</a> <a href="/hexo-blog/tags/rnn/" style="font-size: 14px; color: #718096">rnn</a> <a href="/hexo-blog/tags/science/" style="font-size: 18.2px; color: #5c7a9e">science</a> <a href="/hexo-blog/tags/sentiment-analysis/" style="font-size: 15.4px; color: #6a7e99">sentiment_analysis</a> <a href="/hexo-blog/tags/sql/" style="font-size: 14px; color: #718096">sql</a> <a href="/hexo-blog/tags/ssh/" style="font-size: 15.4px; color: #6a7e99">ssh</a> <a href="/hexo-blog/tags/statistics/" style="font-size: 14px; color: #718096">statistics</a> <a href="/hexo-blog/tags/sys-conffigs/" style="font-size: 14px; color: #718096">sys_conffigs</a> <a href="/hexo-blog/tags/tags/" style="font-size: 14px; color: #718096">tags</a> <a href="/hexo-blog/tags/test-automation/" style="font-size: 14px; color: #718096">test_automation</a> <a href="/hexo-blog/tags/test-design/" style="font-size: 14px; color: #718096">test_design</a> <a href="/hexo-blog/tags/test-tasks/" style="font-size: 14px; color: #718096">test_tasks</a> <a href="/hexo-blog/tags/text-classification/" style="font-size: 14px; color: #718096">text_classification</a> <a href="/hexo-blog/tags/text-generation/" style="font-size: 14px; color: #718096">text_generation</a> <a href="/hexo-blog/tags/tools/" style="font-size: 14px; color: #718096">tools</a> <a href="/hexo-blog/tags/tutorial/" style="font-size: 23.8px; color: #4072a8">tutorial</a> <a href="/hexo-blog/tags/ubuntu/" style="font-size: 14px; color: #718096">ubuntu</a> <a href="/hexo-blog/tags/unicode/" style="font-size: 14px; color: #718096">unicode</a> <a href="/hexo-blog/tags/unix/" style="font-size: 14px; color: #718096">unix</a> <a href="/hexo-blog/tags/usb/" style="font-size: 14px; color: #718096">usb</a> <a href="/hexo-blog/tags/ux-ui/" style="font-size: 14px; color: #718096">ux_ui</a> <a href="/hexo-blog/tags/web/" style="font-size: 14px; color: #718096">web</a> <a href="/hexo-blog/tags/windows-os/" style="font-size: 14px; color: #718096">windows_os</a>
 </div>
 
@@ -498,5 +508,135 @@
   <noscript>
     <div class="noscript-warning">Blog works best with JavaScript enabled</div>
   </noscript>
-</body>
+<!-- hexo injector body_end start -->
+<script>
+(function () {
+  var canvas = document.getElementById('tagcloud-canvas');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  if (!ctx) return;
+
+  /* ── Collect tags from the flat cloud ── */
+  var links = Array.from(document.querySelectorAll('.tagcloud a'));
+  if (links.length === 0) return;
+
+  var isDark = document.documentElement.getAttribute('data-theme') === 'dark'
+    || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+  var W = canvas.width, H = canvas.height, R = Math.min(W, H) * 0.38;
+
+  /* ── Distribute tags on sphere (Fibonacci lattice) ── */
+  var n = links.length;
+  var tags = links.map(function (a, i) {
+    var fs = parseFloat(a.style.fontSize) || 14;
+    var weight = (fs - 10) / 20; // 0..1
+    var phi = Math.acos(1 - 2 * (i + 0.5) / n);
+    var theta = Math.PI * (1 + Math.sqrt(5)) * i;
+    return {
+      text: a.textContent.trim(),
+      href: a.href,
+      weight: weight,
+      x: Math.sin(phi) * Math.cos(theta),
+      y: Math.sin(phi) * Math.sin(theta),
+      z: Math.cos(phi),
+    };
+  });
+
+  /* ── Rotation state ── */
+  var rotX = 0.0003, rotY = 0.0006;
+  var mx = 0, my = 0, dragging = false, lastX, lastY;
+
+  /* ── Mouse / touch drag ── */
+  canvas.addEventListener('mousedown', function (e) {
+    dragging = true; lastX = e.clientX; lastY = e.clientY;
+  });
+  window.addEventListener('mouseup',   function () { dragging = false; });
+  window.addEventListener('mousemove', function (e) {
+    if (!dragging) return;
+    var dx = e.clientX - lastX, dy = e.clientY - lastY;
+    rotY = dx * 0.0012; rotX = dy * 0.0012;
+    lastX = e.clientX; lastY = e.clientY;
+  });
+  canvas.addEventListener('touchstart', function (e) {
+    dragging = true; lastX = e.touches[0].clientX; lastY = e.touches[0].clientY;
+  }, { passive: true });
+  window.addEventListener('touchend',   function () { dragging = false; });
+  window.addEventListener('touchmove',  function (e) {
+    if (!dragging) return;
+    var dx = e.touches[0].clientX - lastX, dy = e.touches[0].clientY - lastY;
+    rotY = dx * 0.0012; rotX = dy * 0.0012;
+    lastX = e.touches[0].clientX; lastY = e.touches[0].clientY;
+  }, { passive: true });
+
+  /* ── Click detection ── */
+  canvas.addEventListener('click', function (e) {
+    var rect = canvas.getBoundingClientRect();
+    var cx = (e.clientX - rect.left) * (W / rect.width);
+    var cy = (e.clientY - rect.top)  * (H / rect.height);
+    var hit = null, bestZ = -Infinity;
+    tags.forEach(function (t) {
+      var dx = t.px - cx, dy = t.py - cy;
+      if (Math.sqrt(dx*dx + dy*dy) < 36 && t.pz > bestZ) { hit = t; bestZ = t.pz; }
+    });
+    if (hit) window.open(hit.href, '_self');
+  });
+
+  /* ── Rotate a point around X and Y axes ── */
+  function rotate(tag) {
+    var cosX = Math.cos(rotX), sinX = Math.sin(rotX);
+    var cosY = Math.cos(rotY), sinY = Math.sin(rotY);
+    var y1 = tag.y * cosX - tag.z * sinX;
+    var z1 = tag.y * sinX + tag.z * cosX;
+    var x2 = tag.x * cosY + z1 * sinY;
+    var z2 = -tag.x * sinY + z1 * cosY;
+    tag.x = x2; tag.y = y1; tag.z = z2;
+  }
+
+  /* ── Draw frame ── */
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    // Always nudge, slow down on release
+    if (!dragging) { rotX *= 0.95; rotY *= 0.95; }
+    // Minimum auto-spin
+    if (Math.abs(rotY) < 0.0004) rotY = 0.0004;
+    if (Math.abs(rotX) < 0.00015) rotX = 0.00015;
+
+    tags.forEach(rotate);
+
+    // Sort back-to-front
+    var sorted = tags.slice().sort(function (a, b) { return a.z - b.z; });
+
+    sorted.forEach(function (t) {
+      var depth = (t.z + 1) / 2;          // 0..1
+      var scale = 0.55 + depth * 0.6;
+      var alpha = 0.25 + depth * 0.75;
+      var size  = Math.round((11 + t.weight * 10) * scale);
+
+      // Project to 2D
+      t.px = W / 2 + t.x * R;
+      t.py = H / 2 + t.y * R;
+      t.pz = t.z;
+
+      ctx.save();
+      ctx.globalAlpha = alpha;
+      ctx.font = 'bold ' + size + 'px Inter, system-ui, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+
+      var base = isDark ? [99, 179, 237] : [43, 108, 176];
+      var r = base[0], g = base[1], b = base[2];
+      ctx.fillStyle = 'rgb(' + r + ',' + g + ',' + b + ')';
+      ctx.fillText(t.text, t.px, t.py);
+      ctx.restore();
+    });
+
+    requestAnimationFrame(draw);
+  }
+
+  draw();
+  canvas.style.visibility = 'visible';
+}());
+</script>
+<!-- hexo injector body_end end --></body>
 </html>
