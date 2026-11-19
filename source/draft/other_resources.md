@@ -1,0 +1,1 @@
+- Python resources and articles : https://note.nkmk.me/en/ + https://github.com/nkmk/nkmk.github.io 

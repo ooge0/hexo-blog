@@ -1,0 +1,176 @@
+#---------------------------
+# Hexo Theme Fluid — project override config
+# Full guide: https://hexo.fluid-dev.com/docs/en/guide/
+# This file overrides node_modules/hexo-theme-fluid/_config.yml
+#---------------------------
+
+# Dark mode toggle — auto follows OS preference, user can override
+dark_mode:
+  enable: true
+  default: auto
+
+# Nav bar
+navbar:
+  blog_title: "si0n4ra"
+  menu:
+    - { key: "home",      link: "/",            icon: "iconfont icon-home-fill" }
+    - { key: "archive",   link: "/archives/",   icon: "iconfont icon-archive-fill" }
+    - { key: "category",  link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag",       link: "/tags/",        icon: "iconfont icon-tags-fill" }
+    - { key: "projects",  link: "/projects/",   icon: "iconfont icon-project",   name: "Projects" }
+    - { key: "start",     link: "/start-here/", icon: "iconfont icon-guide-line", name: "Start Here" }
+    - { key: "about",     link: "/about-me/",   icon: "iconfont icon-user-fill",  name: "About" }
+
+# Search — Fluid generates local-search.xml via its own built-in generator
+search:
+  enable: true
+  path: /local-search.xml
+  generate_path: /local-search.xml
+  field: post
+  content: true
+
+#---------------------------
+# Home page
+#---------------------------
+index:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+
+  slogan:
+    enable: true
+    text:
+      - "...chasing dreams, living reality"
+      - "Senior QA Engineer · ETRM · Python"
+      - "Automation · AI · Testing"
+
+  auto_excerpt:
+    enable: true
+    length: 280
+
+  post_meta:
+    date: true
+    category: true
+    tag: true
+
+#---------------------------
+# Post page
+#---------------------------
+post:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+
+  meta:
+    author:
+      enable: false
+    date:
+      enable: true
+      format: "YYYY-MM-DD"
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+      awl: 5      # English content — avg word length ~5 chars
+      wpm: 200    # reading speed
+    views:
+      enable: false
+
+  toc:
+    enable: true
+    expand_all: false
+    placement: right
+    headingSelector: "h1,h2,h3,h4"
+    collapseDepth: 2
+
+  copyright:
+    enable: true
+    license: CC BY-NC-SA 4.0
+    license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+  prev_next:
+    enable: true
+
+#---------------------------
+# Archive / Category / Tag pages
+#---------------------------
+archive:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+
+category:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+  post_limit: 10
+  order_by: "-length"
+
+tag:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+  tagcloud:
+    min_font: 14
+    max_font: 28
+    unit: px
+    start_color: "#718096"
+    end_color: "#2b6cb0"
+
+#---------------------------
+# Custom pages (projects, start-here, about)
+#---------------------------
+page:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+
+#---------------------------
+# Code blocks
+#---------------------------
+code:
+  copy_btn: true
+  language:
+    enable: true
+    default: "TEXT"
+  highlight:
+    enable: true
+    line_number: true
+    lib: "highlightjs"
+    highlightjs:
+      style: "github gist"
+      style_dark: "dark"
+
+#---------------------------
+# Footer
+#---------------------------
+footer:
+  content: '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  '
+  statistics:
+    enable: false
+  beian:
+    enable: false
+
+#---------------------------
+# Custom CSS injection
+#---------------------------
+custom_css:
+  - /css/custom.css
+
+#---------------------------
+# Misc
+#---------------------------
+scroll_down_arrow:
+  enable: true
+  banner_height_limit: 80
+  scroll_after_turning_page: true
+
+scroll_top_arrow:
+  enable: true
+
+open_graph:
+  enable: true

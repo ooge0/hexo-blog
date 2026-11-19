@@ -1,0 +1,222 @@
+title: si0n4ra
+subtitle: ...chasing dreams, living reality
+description: Personal blog where you can find a lot of information about me and my projects
+author: si0n4ra
+language: en
+timezone: Europe/Kiev
+sitemap:
+  path: sitemap.xml
+url: https://ooge0.github.io/hexo-blog
+root: /hexo-blog/
+permalink: ':year/:month/:day/:title/'
+permalink_defaults: null
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: ':lang'
+skip_render: '**/notes/test/**'
+new_post_name: ':title.md'
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+reference:
+  enable: true
+  footnote: true
+  backreference: true
+  lowercase: true
+  unique_id: true
+index_generator:
+  path: ''
+  per_page: 6
+  order_by: '-date'
+default_category: uncategorized
+category_map: null
+tag_map: null
+search:
+  path: /local-search.xml
+  field: post
+  format: html
+  limit: 10000
+  enable: true
+  generate_path: /local-search.xml
+  content: true
+searchdb:
+  path: local-search.xml
+  field: post
+  content: true
+  format: striptags
+meta_generator: true
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: date
+pagination_dir: Posts
+include: null
+exclude: /source/_posts/notes/test
+ignore: /source/_posts/notes/test
+plugins:
+  - hexo-reference
+  - hexo-generator-search
+  - hexo-footnotes
+theme: fluid
+deploy:
+  type: git
+  repo: https://github.com/ooge0/hexo-blog.git
+  branch: master
+  token: $GITHUB_TOKEN
+dark_mode:
+  enable: true
+  default: auto
+navbar:
+  blog_title: si0n4ra
+  menu:
+    - key: home
+      link: /
+      icon: iconfont icon-home-fill
+    - key: archive
+      link: /archives/
+      icon: iconfont icon-archive-fill
+    - key: category
+      link: /categories/
+      icon: iconfont icon-category-fill
+    - key: tag
+      link: /tags/
+      icon: iconfont icon-tags-fill
+    - key: projects
+      link: /projects/
+      icon: iconfont icon-project
+      name: Projects
+    - key: start
+      link: /start-here/
+      icon: iconfont icon-guide-line
+      name: Start Here
+    - key: about
+      link: /about-me/
+      icon: iconfont icon-user-fill
+      name: About
+index:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+  slogan:
+    enable: true
+    text:
+      - ...chasing dreams, living reality
+      - Senior QA Engineer · ETRM · Python
+      - Automation · AI · Testing
+  auto_excerpt:
+    enable: true
+    length: 280
+  post_meta:
+    date: true
+    category: true
+    tag: true
+post:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+  meta:
+    author:
+      enable: false
+    date:
+      enable: true
+      format: YYYY-MM-DD
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+      awl: 5
+      wpm: 200
+    views:
+      enable: false
+  toc:
+    enable: true
+    expand_all: false
+    placement: right
+    headingSelector: h1,h2,h3,h4
+    collapseDepth: 2
+  copyright:
+    enable: true
+    license: CC BY-NC-SA 4.0
+    license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  prev_next:
+    enable: true
+archive:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+category:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+  post_limit: 10
+  order_by: '-length'
+tag:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+  tagcloud:
+    min_font: 14
+    max_font: 28
+    unit: px
+    start_color: '#718096'
+    end_color: '#2b6cb0'
+page:
+  banner_img: /img/default.png
+  banner_img_height: 20
+  banner_mask_alpha: 0.3
+code:
+  copy_btn: true
+  language:
+    enable: true
+    default: TEXT
+  highlight:
+    enable: true
+    line_number: true
+    lib: highlightjs
+    highlightjs:
+      style: github gist
+      style_dark: dark
+footer:
+  content: ' <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> &nbsp;·&nbsp; <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> '
+  statistics:
+    enable: false
+  beian:
+    enable: false
+custom_css:
+  - /css/custom.css
+scroll_down_arrow:
+  enable: true
+  banner_height_limit: 80
+  scroll_after_turning_page: true
+scroll_top_arrow:
+  enable: true
+open_graph:
+  enable: true
