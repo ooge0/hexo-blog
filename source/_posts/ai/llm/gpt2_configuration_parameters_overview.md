@@ -1,6 +1,6 @@
 ---
 title: GPT-2 configuration parameters overview
-permalink: /ai/post_ai_llm__gpt2_configuration_parameters_overview
+permalink: /ai/llm/gpt2_configuration_parameters_overview/
 layout: post
 categories:
   - Posts

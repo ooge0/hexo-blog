@@ -1,6 +1,6 @@
 ---
 title: Chatbots from scratch
-permalink: /ai_chatbots/chatbots_from_scratch
+permalink: /ai_chatbots/chatbots_from_scratch/
 layout: post
 categories:
   - Posts

@@ -1,0 +1,57 @@
+---
+title: Text Classification. Historical overview, tools, and techniques.
+layout: post
+permalink: /ai/nlp/text_classification_intro_1/
+categories:
+  - Posts
+tags:
+  - AI
+  - RAG
+  - ML
+  - text_processing
+date: 2026-11-20 
+---
+
+Chunking methods are most valuable part for the data processing in many AI text processing flows acting as the critical bridge between unstructured raw data and structured, searchable knowledge that models can process without losing context or exceeding token limits....
+
+
+---
+
+
+## Why Chunking Matters in the data procesing pipelines
+
+• Better retrieval precision: Focused chunks match specific queries more accurately than bloated or mixed-topic passages.
+• Preserved context: Respecting natural boundaries and using overlap keeps complete ideas and surrounding context intact.
+• Lower cost and latency: Sending only the most relevant chunks reduces compute overhead, token usage, and response time.
+• Fewer hallucinations: Grounding LLMs in clean, relevant segments improves answer accuracy.
+
+## Common Chunking Approaches
+
+• Fixed-size and recursive chunking: Splits text by token/character counts or fallback separators (such as paragraphs and sentences) with optional overlap.
+• Semantic chunking: Groups sentences by meaning or embedding similarity rather than arbitrary length.
+• Structure-aware and parent-child chunking: Uses headings, sections, or hierarchical pairs to keep structure while balancing retrieval precision and full context.
+
+---
+
+
+
+[arxiv.org](https://arxiv.org/html/2606.00881)
+
+Title: Chunking Methods on Retrieval-Augmented Generation – Effectiveness Evaluation Against Computational Cost and Limitations.
+
+*Abstract*
+Retrieval-Augmented Generation (RAG) has demonstrated significant capabilities in enhancing the performance of Large Language Models (LLMs). One of the key tasks in RAG systems is the chunking process. Traditionally, fixed-size chunking and semantic chunking have been the standard approaches. However, interest in chunking strategies has been increasing, leading to a growing number of proposed methods that often claim improved performance over these conventional techniques. Many of these approaches are tailored to specific use cases and data types, with limited evidence of their effectiveness across diverse scenarios. As a result, it remains challenging to directly compare different techniques and assess their relative strengths. To the best of our knowledge, this study is the first to systematically evaluate the effectiveness of a wide range of chunking methods and emphasize the underlying challenges of chunking strategies in RAG systems. While chunking is commonly treated as a simple preprocessing step, we show that it introduces a range of impactful and often overlooked issues.
+
+----
+
+[Chunking Strategies  | geeksforgeeks.org post](https://www.geeksforgeeks.org/artificial-intelligence/chunking-strategies/)
+
+Chunking is the process of segmenting text into smaller, manageable portions based on length, structure or semantic meaning. It allows vector search to focus on precise information rather than entire documents. Understanding different chunking methods helps improve retrieval accuracy and model performance in Retrieval Augmented Generation pipelines.
+
+Chunking diagram flow | geeksforgeeks
+https://media.geeksforgeeks.org/wp-content/uploads/20251101105937459878/2_semantic_chunking.webp
+
+Chunking Explained | [mongodb.com POST](https://www.mongodb.com/resources/basics/chunking-explained)
+
+INTRO: Many modern semantic search and retrieval augmented generation (RAG) applications handle large volumes of multimodal and unstructured data. However, ensuring that the data is “AI ready” can be challenging without the right strategies in place. It’s important to have a way to ensure that large volumes of data can be easily ingested by large language models (LLMs) to enable efficient and accurate retrieval. Chunking your data is a solution to these challenges. In this article, we’ll go over what chunking is, and how it can optimize working with the data that powers AI applications.
+

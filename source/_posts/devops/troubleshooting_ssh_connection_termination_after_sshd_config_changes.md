@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting SSH connection termination after `sshd_config` changes 
-permalink: /devops/post_devops__troubleshooting_ssh_connection_termination_after_sshd_config_changes
+permalink: /devops/troubleshooting_ssh_connection_termination_after_sshd_config_changes/
 layout: post
 categories:
   - Posts

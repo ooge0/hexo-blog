@@ -1,7 +1,7 @@
 ---
 title: Postman tests examples
 layout: post
-permalink: /dev_side/postman_tests_examples
+permalink: /dev_side/postman_tests_examples/
 categories:
   - Posts
 tags:

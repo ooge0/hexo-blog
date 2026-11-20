@@ -1,6 +1,6 @@
 ---
 title: BART configuration parameters overview
-permalink: /ai/post_ai_llm__bart_configuration_parameters_overview
+permalink: /ai/llm/bart_configuration_parameters_overview/
 layout: post
 categories:
   - Posts

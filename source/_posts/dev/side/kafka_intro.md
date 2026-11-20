@@ -1,6 +1,6 @@
 ---
 title: Kafka intro
-permalink: /dev_side/kafka_intro
+permalink: /dev_side/kafka_intro/
 layout: post
 categories:
   - Posts

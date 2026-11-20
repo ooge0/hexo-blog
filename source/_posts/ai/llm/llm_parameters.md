@@ -1,6 +1,6 @@
 ---
 title: Common LLM parameters
-permalink: /ai/post_ai_llm__llm_parameters
+permalink: /ai/llm/llm_parameters/
 layout: post
 categories:
   - Posts

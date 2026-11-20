@@ -1,6 +1,6 @@
 ---
 title: Remote access to Ubuntu machine via ssh. Commands.
-permalink: /devops/post_devops__remote_access_to_ubuntu_machine_via_ssh_commands
+permalink: /devops/remote_access_to_ubuntu_machine_via_ssh_commands/
 layout: post
 categories:
   - Posts

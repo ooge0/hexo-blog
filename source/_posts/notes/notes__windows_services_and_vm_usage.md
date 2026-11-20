@@ -1,6 +1,6 @@
 ---
 title: Windows services and VM usage
-permalink: /notes/windows_services_and_vm_usage
+permalink: /notes/windows_services_and_vm_usage/
 layout: post
 categories:
   - Notes

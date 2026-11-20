@@ -1,6 +1,6 @@
 ---
 title: List of data vizualization tools
-permalink: /data_visualization/list_of_data_vizualization_tools
+permalink: /data_visualization/list_of_data_vizualization_tools/
 layout: post
 categories:
   - Posts

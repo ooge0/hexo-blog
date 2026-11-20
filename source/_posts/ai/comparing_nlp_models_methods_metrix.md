@@ -1,7 +1,7 @@
 ---
 title: Comparing Efficiency of NLP Models. Methods and Metrics.
 layout: post
-permalink: /ai/post_ai__comparing_nlp_models_methods_metrix/
+permalink: /ai/comparing_nlp_models_methods_metrix/
 date: 2024-11-17 21:39:11
 categories:
   - Posts

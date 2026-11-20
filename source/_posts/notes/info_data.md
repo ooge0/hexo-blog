@@ -1,6 +1,6 @@
 ---
 title: Info data
-permalink: info_data
+permalink: /notes/info_data/
 layout: post
 date: 2010-10-10
 categories:

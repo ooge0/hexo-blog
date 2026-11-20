@@ -1,6 +1,6 @@
 ---
 title: NLTK general
-permalink: /ai_nltk/nltk_general
+permalink: /ai_nltk/nltk_general/
 layout: post
 date: 2024-12-4 11:21:11
 categories:

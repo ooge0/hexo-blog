@@ -1,6 +1,6 @@
 ---
 title: Python basics
-permalink: /dev_side/python_basics
+permalink: /dev_side/python_basics/
 layout: post
 categories:
   - Posts

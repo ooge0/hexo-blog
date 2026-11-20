@@ -1,6 +1,6 @@
 ---
 title: Python libs
-permalink: /dev_side/python_libs
+permalink: /dev_side/python_libs/
 layout: post
 categories:
   - Posts

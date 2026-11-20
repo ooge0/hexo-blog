@@ -1,7 +1,7 @@
 ---
 title: Postman tests tests for expertise
 layout: post
-permalink: /dev_side/postman_tests_for_expertise
+permalink: /dev_side/postman_tests_for_expertise/
 categories:
   - Posts
 tags:

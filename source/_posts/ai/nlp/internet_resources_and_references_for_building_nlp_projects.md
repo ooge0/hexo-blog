@@ -1,6 +1,6 @@
 ---
 title: Internet resources and references for building NLP projects
-permalink: /ai_nlp/internet_resources_and_references_for_building_nlp_projects
+permalink: /ai_nlp/internet_resources_and_references_for_building_nlp_projects/
 layout: post
 date: 2024-11-21 20:01:11
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Ubuntu web traffic meters
-permalink: /dev_side/ubuntu_web_trafic_meter
+permalink: /dev/tools/os/ubuntu_web_trafic_meter/
 layout: post
 categories:
   - Posts

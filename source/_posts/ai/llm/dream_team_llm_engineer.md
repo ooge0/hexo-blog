@@ -1,6 +1,6 @@
 ---
 title: Dream team LLM engineer skill set
-permalink: /ai/post_ai_llm__dream_team_llm_engineer
+permalink: /ai/llm/dream_team_llm_engineer/
 layout: post
 categories:
   - Posts

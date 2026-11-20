@@ -1,6 +1,6 @@
 ---
 title: GIT intro
-permalink: /dev_side/git_intro
+permalink: /dev_side/git_intro/
 layout: post
 categories:
   - Posts

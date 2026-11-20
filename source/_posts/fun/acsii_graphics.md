@@ -1,6 +1,6 @@
 ---
 title: ASCII art
-permalink: /fun/acsii_graphics
+permalink: /fun/acsii_graphics/
 layout: post
 categories:
   - Posts

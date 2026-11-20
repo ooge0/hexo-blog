@@ -1,6 +1,6 @@
 ---
 title: Prompt Engineering - task_1.
-permalink: /ai_prompt_engineering/prompt_engineer_task_1
+permalink: /ai_prompt_engineering/prompt_engineer_task_1/
 layout: post
 categories:
   - Posts

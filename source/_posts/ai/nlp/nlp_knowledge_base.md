@@ -1,6 +1,6 @@
 ---
 title: NLP knowledge base
-permalink: ai_nlp/nlp_knowledge_base
+permalink: ai_nlp/nlp_knowledge_base/
 layout: post
 date: 2024-11-17 21:39:11
 categories:

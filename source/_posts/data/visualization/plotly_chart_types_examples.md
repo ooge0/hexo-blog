@@ -1,6 +1,6 @@
 ---
 title: Exploring plotly chart types with examples
-permalink: /data_visualization/plotly_chart_types_examples
+permalink: /data_visualization/plotly_chart_types_examples/
 layout: post
 categories:
   - Posts

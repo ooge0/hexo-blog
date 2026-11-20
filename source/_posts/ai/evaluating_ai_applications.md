@@ -1,6 +1,6 @@
 ---
 title: Evaluating AI applications. Checklist 
-permalink: /ai/evaluating_ai_applications
+permalink: /ai/evaluating_ai_applications/
 layout: post
 categories:
   - Posts

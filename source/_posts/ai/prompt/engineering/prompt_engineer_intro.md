@@ -1,6 +1,6 @@
 ---
 title: Prompt Engineering - INTRO.
-permalink: /ai_prompt_engineering/prompt_engineer_intro
+permalink: /ai_prompt_engineering/prompt_engineer_intro/
 layout: post
 categories:
   - Posts

@@ -1,6 +1,6 @@
 ---
 title: BERT configuration parameters overview
-permalink: /ai/post_ai_llm__bert_configuration_parameters_overview/
+permalink: /ai/llm/bert_configuration_parameters_overview/
 layout: post
 categories:
   - Posts

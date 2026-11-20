@@ -1,6 +1,6 @@
 ---
 title: Knowledge Graph
-permalink: /ai_nlp/knowledge_graph
+permalink: /ai_nlp/knowledge_graph/
 layout: post
 date: 2024-12-22 11:21:11
 categories:

@@ -1,6 +1,6 @@
 ---
 title: UNIX command tutorials
-permalink: /dev_side/unix_comand_tutorial
+permalink: /dev/tools/os/unix_comand_tutorial/
 categories:
   - Posts
 tags:

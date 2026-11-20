@@ -1,6 +1,6 @@
 ---
 title: Exploring OpenAI models locally without APIs (DRAFT-GUIDE)  
-permalink: /ai/post_ai_prompt_engineeringing__task_llm_locally/
+permalink: /ai/prompt_engineer_task_llm_locally/
 layout: post  
 categories:  
   - Posts  

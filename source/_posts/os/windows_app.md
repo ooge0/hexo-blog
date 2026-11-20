@@ -1,6 +1,6 @@
 ---
 title: Windows OS apps
-permalink: /os/windows_app
+permalink: /os/windows_app/
 layout: post
 categories:
   - Posts

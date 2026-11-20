@@ -1,6 +1,6 @@
 ---
 title: Interaction with OpenAPI API for prompt engineering tasks(DRAFT-GUIDE)
-permalink: /ai/post_ai_prompt_engineeringing__task_llm_via_api/
+permalink: /ai/prompt_engineer_task_llm_via_api/
 layout: post
 categories:
   - Posts

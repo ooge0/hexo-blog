@@ -1,6 +1,6 @@
 ---
 title: Basic loguru configuration for python
-permalink: /dev_side/loguru_loger_basic_configuration
+permalink: /dev_side/loguru_loger_basic_configuration/
 categories:
   - Posts
 tags:

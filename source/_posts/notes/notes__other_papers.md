@@ -1,6 +1,6 @@
 ---
 title: Other papers
-permalink: /notes/other_papers
+permalink: /notes/other_papers/
 layout: post
 date: 2010-10-10 11:11:11
 categories:

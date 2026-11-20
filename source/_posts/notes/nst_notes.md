@@ -1,7 +1,7 @@
 ---
 title: Довідник для Лікаря Сімейної Медицини
 layout: post
-permalink: /nastusja
+permalink: /nastusja/
 categories: 
   - Notes
 tags:

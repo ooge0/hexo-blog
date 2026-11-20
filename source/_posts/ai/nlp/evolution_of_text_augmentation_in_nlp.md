@@ -1,6 +1,6 @@
 ---
 title: Evolution of Text Augmentation in NLP
-permalink: /ai_nlp/evolution_of_text_augmentation_in_nlp
+permalink: /ai_nlp/evolution_of_text_augmentation_in_nlp/
 layout: post
 date: 2024-11-25 01:03:11
 categories:

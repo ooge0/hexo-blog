@@ -1,6 +1,6 @@
 ---
 title: SQL tutorial with examples
-permalink: /databases/sql_tutorial_with_examples
+permalink: /databases/sql_tutorial_with_examples/
 layout: post
 categories:
   - Posts

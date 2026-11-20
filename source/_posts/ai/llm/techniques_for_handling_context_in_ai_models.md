@@ -1,6 +1,6 @@
 ---
 title: Techniques for handling context in LLM models
-permalink: /ai/post_ai_llm__techniques_for_handling_context_in_ai_models/
+permalink: /ai/llm/techniques_for_handling_context_in_ai_models/
 layout: post
 categories:
   - Posts

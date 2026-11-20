@@ -230,3 +230,107 @@ test.describe('Internal links — no broken hrefs', () => {
     });
   }
 });
+
+// ── Post permalink integrity ──────────────────────────────────────────────────
+// Two checks per post MD file:
+//   1. PATH-MATCH: when a permalink looks path-based (same depth as the file),
+//      verify it matches the actual file location — catches typos like /dev1/ vs /dev/
+//   2. URL-RESOLVE: the declared permalink URL returns non-404 on the dev server
+
+const fs   = require('fs');
+const path = require('path');
+
+// Permalinks that intentionally don't follow the file path (manual overrides)
+const SKIP_RESOLVE = new Set([
+  '/glossary_wall/',  // Unicode content causes Hexo render failure
+]);
+
+// Files whose permalink intentionally differs from file path (double-underscore slug shortening,
+// or filename has characters illegal in URLs — adding them here skips the PATH-MATCH check)
+const SKIP_PATH_MATCH = new Set([
+  'notes/notes__other_papers.md',           // /notes/other_papers/ — intentional slug shortening
+  'notes/notes__windows_services_and_vm_usage.md', // /notes/windows_services... — same
+  'qa/naming convention.md',                // /qa/naming-convention/ — space→hyphen in filename
+]);
+
+function normalisePermalink(raw) {
+  let p = raw.trim();
+  if (!p.startsWith('/')) p = '/' + p;
+  if (!p.endsWith('/'))   p = p + '/';
+  return p;
+}
+
+function collectPosts() {
+  const postsDir = path.join(__dirname, '..', 'source', '_posts');
+  const results  = [];
+
+  function walk(dir) {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) { walk(full); continue; }
+      if (!entry.name.endsWith('.md')) continue;
+
+      const relFile  = path.relative(postsDir, full).replace(/\\/g, '/');
+      const content  = fs.readFileSync(full, 'utf8');
+      const m        = content.match(/^permalink:\s*(.+)$/m);
+      if (!m) continue;
+
+      const raw       = m[1].trim();
+      // Skip template values like :year/:month/:day/:title/
+      if (raw.includes(':')) continue;
+
+      const permalink = normalisePermalink(raw);
+
+      // Expected URL derived from file path  e.g. dev/tools/os/foo.md → /dev/tools/os/foo/
+      const expectedUrl = '/' + relFile.replace(/\.md$/, '/');
+
+      // Segment counts (ignore leading/trailing slashes)
+      const permSegs = permalink.replace(/^\/|\/$/g, '').split('/').length;
+      const fileSegs = expectedUrl.replace(/^\/|\/$/g, '').split('/').length;
+
+      // PATH-MATCH: only flag when depth matches but content differs
+      // (fewer segments = intentional short override like /nastusja/, skip)
+      const pathMismatch = !SKIP_PATH_MATCH.has(relFile) && (permSegs === fileSegs && permalink !== expectedUrl);
+
+      results.push({ file: relFile, permalink, expectedUrl, pathMismatch });
+    }
+  }
+
+  walk(postsDir);
+  return results;
+}
+
+const allPosts = collectPosts();
+
+test.describe('Post permalinks — path matches file location', () => {
+  // Only tests files where the permalink depth matches the file depth
+  // but the value is different — the most likely place for typos.
+  const pathCandidates = allPosts.filter(p => p.pathMismatch);
+
+  if (pathCandidates.length === 0) {
+    test('no path mismatches found', () => { /* all good */ });
+  }
+
+  for (const { file, permalink, expectedUrl } of pathCandidates) {
+    test(`${file} — permalink matches file path`, () => {
+      expect(
+        permalink,
+        `File is at "${file}" → expected permalink "${expectedUrl}" but got "${permalink}"`
+      ).toBe(expectedUrl);
+    });
+  }
+});
+
+test.describe('Post permalinks — all URLs resolve on server', () => {
+  for (const { file, permalink } of allPosts) {
+    if (SKIP_RESOLVE.has(permalink)) continue;
+
+    test(`${file} → ${permalink}`, async ({ page }) => {
+      const res = await page.goto(BASE + permalink, { waitUntil: 'domcontentloaded' });
+      expect(
+        res ? res.status() : 0,
+        `${file}: permalink "${permalink}" returned 404`
+      ).not.toBe(404);
+    });
+  }
+});

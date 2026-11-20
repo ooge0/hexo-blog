@@ -1,6 +1,6 @@
 ---
 title: Text Generation Coherence vs. Text Generation Quality
-permalink: /linguistic/text_coherence_vs_text_quiality
+permalink: /linguistic/text_coherence_vs_text_quiality/
 layout: post
 date: 2024-12-12 11:21:11
 categories:

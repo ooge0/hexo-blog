@@ -1,6 +1,6 @@
 ---
 title: Bokeh. List of references.
-permalink: /data_visualization/bokeh_list_of_references
+permalink: /data_visualization/bokeh_list_of_references/
 layout: post
 categories:
   - Posts

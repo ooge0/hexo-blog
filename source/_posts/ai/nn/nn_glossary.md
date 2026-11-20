@@ -1,7 +1,7 @@
 ---
 title: Glossary of Machine Learning and AI Terms
 layout: post
-permalink: /ai/glossary-of-machine-learning-and-ai-terms
+permalink: /ai/glossary-of-machine-learning-and-ai-terms/
 categories:
   - Posts
 tags:
