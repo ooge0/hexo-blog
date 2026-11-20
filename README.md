@@ -25,11 +25,38 @@ Stop-Process -Id (Get-NetTCPConnection -LocalPort 4001).OwningProcess -Force
 
 ### Run UI tests (server must be running first)
 
+Two test suites cover the same scenarios — JavaScript (Playwright) and Python (pytest-playwright).
+Both must pass before deploying.
+
+**JavaScript** (original):
 ```powershell
 npx playwright test --config playwright.config.js
 ```
 
-Tests cover: home page, all nav pages, 3D tag cloud, post rendering, and broken internal links.
+**Python** (rewrite, identical coverage):
+```powershell
+C:\Python314\python.exe -m pytest tests/test_ui.py -v
+# or just: pytest tests/test_ui.py -v   (if Python 3.14 is on PATH)
+```
+
+One-time Python setup (only needed once per machine):
+```powershell
+C:\Python314\python.exe -m pip install pytest pytest-playwright
+C:\Python314\python.exe -m playwright install chromium
+```
+
+**What tests cover**
+
+| Group | What is checked |
+|-------|----------------|
+| Home page | navbar, hero banner, slogan animation, background, footer, intro strip, posts hidden |
+| Sub-pages | navbar + banner + footer on Archives, Categories, Tags, About, Projects; no intro strip leaking |
+| About page | `#board` wrapper present, `.bio-section` blocks rendered |
+| Tags — 3D cloud | canvas exists inside `#board`, visible with size >100 px, flat cloud hidden |
+| Post rendering | sample posts have `#board` wrapper and at least one link in content |
+| Internal links | every `/hexo-blog/…` href on 6 key pages resolves (non-404) |
+| Permalink path-match | static check: permalink depth == file depth → value must match (catches typos like `/dev1/`) |
+| Permalink URL resolve | every MD file with a static `permalink:` returns non-404 from the dev server |
 
 ### Regenerate static files without serving
 
