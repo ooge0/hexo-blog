@@ -1,12 +1,7 @@
 ---
-title: Post Ai Nlp  Text Classification Intro 1
-layout: post
-permalink: /ai/nlp/text_classification_intro_1/
----
-
----
 title: Text Classification. Historical overview, tools, and techniques.
 layout: post
+permalink: /ai/nlp/text-classification-historical-overview-tools-and-techniques/
 categories:
   - Posts
 tags:

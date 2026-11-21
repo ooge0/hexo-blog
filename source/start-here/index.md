@@ -64,15 +64,15 @@ permalink: /start-here/
 <div class="sh-area">
 <h2>QA &amp; Test Automation</h2>
 <div class="sh-cards">
-  <a class="sh-card" href="/hexo-blog/2024/08/28/qa/software_qa_basic_check_list/">
+  <a class="sh-card" href="/hexo-blog/qa/software_qa_basic_check_list/">
     <div class="sh-title">Software QA — Basic Checklist</div>
     <p class="sh-desc">Fundamental QA activities and sanity checks every engineer should know.</p>
   </a>
-  <a class="sh-card" href="/hexo-blog/2025/03/25/qa/python_test_automation_framework_web_api_sphinx/">
+  <a class="sh-card" href="/hexo-blog/qa/python_test_automation_framework_web_api_sphinx/">
     <div class="sh-title">Python Test Automation Framework Structure</div>
     <p class="sh-desc">How to structure a Python TA framework with Sphinx documentation.</p>
   </a>
-  <a class="sh-card" href="/hexo-blog/2025/01/25 /post_qa__rest_api_testing_improvements/">
+  <a class="sh-card" href="/hexo-blog/qa/post_qa__rest_api_testing_improvements/">
     <div class="sh-title">REST API Testing Improvements</div>
     <p class="sh-desc">Practical approaches to improving the quality of API test suites.</p>
   </a>
@@ -82,15 +82,15 @@ permalink: /start-here/
 <div class="sh-area">
 <h2>AI, LLMs &amp; NLP</h2>
 <div class="sh-cards">
-  <a class="sh-card" href="/hexo-blog/2024/10/28/post_ai__evaluating_ai_applications">
+  <a class="sh-card" href="/hexo-blog/ai/evaluating_ai_applications">
     <div class="sh-title">Evaluating AI Applications — Checklist</div>
     <p class="sh-desc">A practical checklist for assessing AI application quality.</p>
   </a>
-  <a class="sh-card" href="/hexo-blog/2024/10/28/post_ai_prompt_engineering__prompt_engineer_intro">
+  <a class="sh-card" href="/hexo-blog//ai_prompt_engineering/prompt_engineer_intro">
     <div class="sh-title">Prompt Engineering — Intro</div>
     <p class="sh-desc">Core concepts and patterns for writing effective prompts.</p>
   </a>
-  <a class="sh-card" href="/hexo-blog/2024/12/04post_ai_llm__llm_parameters">
+  <a class="sh-card" href="/hexo-blog//ai/llm/llm_parameters">
     <div class="sh-title">Common LLM Parameters</div>
     <p class="sh-desc">Temperature, top-p, context window, and other model parameters explained.</p>
   </a>

@@ -1,7 +1,7 @@
 ---
 title: Text Classification. Historical overview, tools, and techniques.
 layout: post
-permalink: /ai/nlp/text_classification_intro_1/
+permalink: /ai/nlp/text_classification_intro/
 categories:
   - Posts
 tags:

@@ -12,10 +12,10 @@ permalink: /projects/
   margin: 8px 0 32px;
 }
 .proj-card {
-  border: 1px solid var(--card-border-color, rgba(0,0,0,.125));
+  border: 1px solid var(--line-color);
   border-radius: 8px;
   padding: 18px 20px 16px;
-  background: var(--board-color, #fff);
+  background: var(--board-bg-color);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -25,10 +25,11 @@ permalink: /projects/
   font-weight: 600;
   margin: 0;
   line-height: 1.3;
+  color: var(--text-color);
 }
 .proj-card p {
   font-size: .875rem;
-  color: var(--sec-font-color, #718096);
+  color: var(--sec-text-color);
   margin: 0;
   flex: 1;
   line-height: 1.55;
@@ -42,8 +43,8 @@ permalink: /projects/
   font-size: .72rem;
   padding: 2px 7px;
   border-radius: 4px;
-  background: var(--tag-bg, rgba(43,108,176,.1));
-  color: var(--link-color, #2b6cb0);
+  background: var(--link-hover-bg-color);
+  color: var(--post-link-color);
   font-family: 'Consolas', monospace;
 }
 .proj-links {
@@ -55,20 +56,20 @@ permalink: /projects/
   font-size: .8rem;
   padding: 4px 10px;
   border-radius: 4px;
-  border: 1px solid var(--link-color, #2b6cb0);
-  color: var(--link-color, #2b6cb0);
+  border: 1px solid var(--post-link-color);
+  color: var(--post-link-color);
   text-decoration: none;
   white-space: nowrap;
 }
 .proj-links a:hover {
-  background: var(--link-color, #2b6cb0);
+  background: var(--post-link-color);
   color: #fff;
 }
 .proj-section-label {
   font-size: .75rem;
   text-transform: uppercase;
   letter-spacing: .08em;
-  color: var(--sec-font-color, #718096);
+  color: var(--sec-text-color);
   margin: 24px 0 8px;
   font-weight: 600;
 }

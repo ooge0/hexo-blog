@@ -1,12 +1,7 @@
 ---
-title: Post Ai Nlp  Sentiment Analysis Framework
+title: AI NLP Sentiment analysis framework
 layout: post
 permalink: /ai/nlp/sentiment_analysis_framework/
----
-
----
-title: Sentiment analysis framework
-layout: post
 date: 2024-11-25 01:03:11
 categories:
   - Posts

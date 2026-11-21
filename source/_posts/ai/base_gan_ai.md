@@ -1,6 +1,6 @@
 ---
-title: Генеративный искусственный интеллект / Generative Artificial Intelligence
-permalink: /ai/base_gan/
+title: Generative artificial intelligence
+permalink: /ai/base_gan_ai/
 layout: post
 categories:
   - Posts

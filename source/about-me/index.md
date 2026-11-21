@@ -6,17 +6,18 @@ date: 2026-09-28 16:23:33
 
 <style>
 .bio-section {
-  border: 1px solid var(--card-border-color, rgba(0,0,0,.125));
+  border: 1px solid var(--line-color);
   border-radius: 8px;
   padding: 20px 22px;
   margin-bottom: 20px;
-  background: var(--board-color, #fff);
+  background: var(--board-bg-color);
+  color: var(--text-color);
 }
 .bio-section h3 {
   font-size: .85rem;
   text-transform: uppercase;
   letter-spacing: .08em;
-  color: var(--sec-font-color, #718096);
+  color: var(--sec-text-color);
   margin: 0 0 14px;
   font-weight: 600;
 }
@@ -24,6 +25,7 @@ date: 2026-09-28 16:23:33
   margin: 0 0 10px;
   font-size: .95rem;
   line-height: 1.65;
+  color: var(--text-color);
 }
 .bio-section p:last-child { margin-bottom: 0; }
 .bio-section ul {
@@ -31,8 +33,11 @@ date: 2026-09-28 16:23:33
   padding-left: 1.25em;
   font-size: .925rem;
   line-height: 1.7;
+  color: var(--text-color);
 }
 .bio-section ul li { margin-bottom: 4px; }
+.bio-section a { color: var(--post-link-color); }
+.bio-section a:hover { color: var(--link-hover-color); }
 .bio-tags {
   display: flex;
   flex-wrap: wrap;
@@ -43,8 +48,8 @@ date: 2026-09-28 16:23:33
   font-size: .75rem;
   padding: 3px 9px;
   border-radius: 4px;
-  background: var(--tag-bg, rgba(43,108,176,.1));
-  color: var(--link-color, #2b6cb0);
+  background: var(--link-hover-bg-color);
+  color: var(--post-link-color);
   font-family: 'Consolas', monospace;
 }
 </style>

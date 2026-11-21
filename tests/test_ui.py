@@ -64,51 +64,33 @@ def _collect_posts() -> list[dict]:
     """
     Walk source/_posts/ and return one dict per .md file that has an explicit
     static permalink: in its front matter.
-
-    Each dict contains:
-        file          — path relative to POSTS_DIR, forward-slashed
-        permalink     — normalised value from front matter
-        expected_url  — what the URL would be if it mirrored the file path
-        path_mismatch — True when depth matches file but value differs (likely typo)
     """
     results: list[dict] = []
 
     for md_path in POSTS_DIR.rglob("*.md"):
         rel = md_path.relative_to(POSTS_DIR).as_posix()
-
         content = md_path.read_text(encoding="utf-8", errors="replace")
 
         m = re.search(r"^permalink:\s*(.+)$", content, re.MULTILINE)
         if not m:
-            continue  # no explicit permalink — uses Hexo's default date-based URL
+            continue
 
         raw = m.group(1).strip()
         if ":" in raw:
-            # Template variable like :year/:month/:day/:title/ — not a static URL
             continue
 
         permalink = _normalise(raw)
-        # Derive what the permalink would look like if it matched the file path
         expected_url = "/" + re.sub(r"\.md$", "/", rel)
 
         perm_depth = len(permalink.strip("/").split("/"))
         file_depth = len(expected_url.strip("/").split("/"))
-
-        # Flag only when depths are equal but values differ — the most likely place
-        # for a typo (e.g. /dev1/ vs /dev/).  A shorter permalink is an intentional
-        # override (e.g. /nastusja/ for a file deep in notes/).
-        path_mismatch = (
-            rel not in SKIP_PATH_MATCH
-            and perm_depth == file_depth
-            and permalink != expected_url
-        )
 
         results.append(
             dict(
                 file=rel,
                 permalink=permalink,
                 expected_url=expected_url,
-                path_mismatch=path_mismatch,
+                same_depth=(perm_depth == file_depth),
             )
         )
 
@@ -117,9 +99,15 @@ def _collect_posts() -> list[dict]:
 
 # Collect once at import time so parametrize decorators can use the data
 ALL_POSTS = _collect_posts()
-PATH_MISMATCH_POSTS = [p for p in ALL_POSTS if p["path_mismatch"]]
-RESOLVE_POSTS = [p for p in ALL_POSTS if p["permalink"] not in SKIP_RESOLVE]
+PATH_CHECK_POSTS = [
+    p for p in ALL_POSTS 
+    if p["file"] not in SKIP_PATH_MATCH and p["same_depth"]
+]
 
+RESOLVE_POSTS = [
+    p for p in ALL_POSTS 
+    if p["permalink"] not in SKIP_RESOLVE
+]
 
 # ---------------------------------------------------------------------------
 # Home page
@@ -287,7 +275,7 @@ class TestTagsCloud:
 SAMPLE_POSTS = [
     "/nastusja/",
     "/post_my_glossaries/",
-    "/post_qa__software_qa_basic_check_list/",
+    "/software_qa_basic_check_list/",
 ]
 
 
@@ -326,14 +314,8 @@ ENTRY_PAGES = [
 
 @pytest.mark.parametrize("entry_path", ENTRY_PAGES)
 def test_no_broken_internal_links(page: Page, entry_path: str):
-    """
-    Collect every href='/hexo-blog/...' on the page and verify each one
-    returns a non-404 response.  Catches copy-paste URL mistakes in
-    start-here, projects, etc.
-    """
     page.goto(BASE + entry_path)
 
-    # Gather unique internal hrefs (skip anchors and mailto links)
     hrefs: list[str] = page.evaluate(
         """(base) => {
             const seen = new Set();
@@ -348,13 +330,11 @@ def test_no_broken_internal_links(page: Page, entry_path: str):
         BASE,
     )
 
-    if not hrefs:
-        return  # page has no internal links — nothing to check
-
     broken: list[str] = []
+    # Используем page.request.get — он делает легкий HTTP-запрос без рендера страницы
     for href in hrefs:
-        res = page.goto(href, wait_until="domcontentloaded")
-        if res and res.status == 404:
+        res = page.request.get(href)
+        if res.status == 404:
             broken.append(href)
 
     assert not broken, (
@@ -362,32 +342,26 @@ def test_no_broken_internal_links(page: Page, entry_path: str):
     )
 
 
+
 # ---------------------------------------------------------------------------
 # Post permalink integrity — path matches file location
 # ---------------------------------------------------------------------------
 
-
-@pytest.mark.skipif(
-    not PATH_MISMATCH_POSTS,
-    reason="No path mismatches detected — all permalinks match file locations",
-)
 @pytest.mark.parametrize(
     "post",
-    PATH_MISMATCH_POSTS,
-    ids=[p["file"] for p in PATH_MISMATCH_POSTS],
+    PATH_CHECK_POSTS,
+    ids=[p["file"] for p in PATH_CHECK_POSTS],
 )
 def test_permalink_matches_file_path(post: dict):
     """
     Static check (no server needed).
-    When a permalink has the same directory depth as the MD file but a
-    different value, it's almost certainly a typo — e.g. /dev1/ vs /dev/.
+    Verifies that permalinks at the same directory depth match the file path.
     """
     assert post["permalink"] == post["expected_url"], (
         f'File is at "{post["file"]}" '
         f'→ expected permalink "{post["expected_url"]}" '
         f'but got "{post["permalink"]}"'
     )
-
 
 # ---------------------------------------------------------------------------
 # Post permalink integrity — all URLs resolve on the dev server
